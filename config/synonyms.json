@@ -1,0 +1,28 @@
+{
+  "_comment": "Maps keyword variants to canonical forms. Add entries as vocabulary drifts are detected.",
+  "synonyms": {
+    "beneficial_modeling": "beneficial_outcome_modeling",
+    "beneficial_outcome_prediction": "beneficial_outcome_modeling",
+    "beneficial_score_output": "beneficial_outcome_modeling",
+    "tension_scoring": "tension_score_calculation",
+    "tension_score": "tension_score_calculation",
+    "prediction_signal": "beneficial_outcome_modeling",
+    "emergent_categorization": "emergent_structure",
+    "emergent_filesystem_structure": "emergent_structure",
+    "autovivification_structure": "autovivification",
+    "co_occurrence_emergence": "cooccurrence_emergence",
+    "dual_keyword_extraction": "dual_extraction_pass",
+    "outcome_construction": "beneficial_outcome_modeling",
+    "functional_model_refinement": "beneficial_outcome_modeling",
+    "logos_catalysis": "logos_meaning_layer",
+    "semantic_substrate": "logos_meaning_layer",
+    "analogic_structure": "logos_meaning_layer",
+    "analogical_human_side": "logos_meaning_layer",
+    "live_hypothesis": "constructive_hypothesis",
+    "provisional_confidence": "constructive_hypothesis",
+    "constructive_revision": "constructive_hypothesis",
+    "non_conclusive_construct": "synthesis_without_closure",
+    "language_transformation": "semantic_digital_duality",
+    "architectural_spine": "semantic_digital_duality"
+  }
+}

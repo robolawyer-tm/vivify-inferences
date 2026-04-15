@@ -1,0 +1,14 @@
+{
+  "pipeline": {
+    "keyword_clumps": {"min": 8, "max": 12},
+    "cooccurrence_threshold": 2,
+    "category_depth": {"min": 3, "max": 4},
+    "tension_score": {"enabled": true},
+    "model": "claude-sonnet-4-6",
+    "storage": {
+      "inferences_dir": "inferences/",
+      "unclustered_dir": "inferences/unclustered/",
+      "index_file": "inferences/index.json"
+    }
+  }
+}

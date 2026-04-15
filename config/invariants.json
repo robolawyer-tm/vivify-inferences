@@ -1,0 +1,25 @@
+{
+  "invariants": {
+    "no_external_taxonomies": {
+      "description": "Block any import of foreign ontologies or predefined category trees",
+      "action": "reject"
+    },
+    "logos_analog_priority": {
+      "description": "Prioritize analogical/emotional keyword clumps over purely analytical ones",
+      "priority_clumps": ["emotional_truth", "analogic_logic", "therapeutic_potential"],
+      "action": "boost"
+    },
+    "strict_duality": {
+      "description": "Maintain left/right separation in processing — synthesis only at the merge point",
+      "action": "enforce_split"
+    },
+    "no_digital_reduction_of_analog": {
+      "description": "Never reduce felt meaning to purely computational terms",
+      "action": "block"
+    },
+    "synthesis_without_antithesis": {
+      "description": "Right side supports the left — never opposes it. Output is always analogical.",
+      "action": "enforce"
+    }
+  }
+}
