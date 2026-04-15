@@ -1,0 +1,80 @@
+{
+  "id": "inf_c17433c3",
+  "version": "1.0",
+  "timestamp": "2026-04-15T21:38:23.113477+00:00",
+  "source": "gemini",
+  "raw_text": "The problem of chunking is fundamentally the limitation of rational analytic piece-by-piece logic when the broader sense of analogical holistic context is missing. Chunking severs key relationships analogies and arguments that span across chunks. Loss of tone and intent - the humanistic element - resides in the larger narrative arc which chunking destroys. Solution is multi-layered retrieval: coarse-grained chunks for contextual frame, fine-grained chunks for specific facts, recursive summaries for conceptual hierarchies, semantic tags for intent and emotion. Feed both small fact-based chunks and large contextual frames simultaneously. This forces the AI to check the rationale against the sense leading to higher comprehension preventing strictly logical answers that miss human meaning.",
+  "left_keywords": [
+    "rationale_sense_gap",
+    "chunking_perfidy",
+    "multi_layer_retrieval",
+    "contextual_frame_embedding",
+    "semantic_tag_iteration",
+    "recursive_summary_abstraction",
+    "sense_rationale_synthesis",
+    "narrative_arc_preservation",
+    "holistic_context_recovery",
+    "rag_comprehension_gap",
+    "embedded_iteration_strategy",
+    "fact_context_simultaneous"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "chunking_philosophy": [
+      "chunking_perfidy",
+      "rationale_sense_gap",
+      "narrative_arc_preservation"
+    ],
+    "retrieval_strategy": [
+      "multi_layer_retrieval",
+      "contextual_frame_embedding",
+      "fact_context_simultaneous"
+    ],
+    "solution_iterations": [
+      "semantic_tag_iteration",
+      "recursive_summary_abstraction",
+      "embedded_iteration_strategy"
+    ],
+    "comprehension_goal": [
+      "sense_rationale_synthesis",
+      "holistic_context_recovery",
+      "rag_comprehension_gap"
+    ]
+  },
+  "category_paths": [
+    "autovivification/api_output",
+    "autovivification/category_path_assignment",
+    "autovivification/chunking_perfidy",
+    "autovivification/contextual_frame_embedding",
+    "autovivification/cooccurrence_graph",
+    "autovivification/embedded_iteration_strategy",
+    "autovivification/fact_context_simultaneous",
+    "autovivification/filesystem_path",
+    "autovivification/holistic_context_recovery",
+    "autovivification/index_aggregation",
+    "autovivification/inference_storage",
+    "autovivification/json_indexing",
+    "autovivification/keyword_clumping",
+    "autovivification/multi_layer_retrieval",
+    "autovivification/narrative_arc_preservation",
+    "autovivification/rag_comprehension_gap",
+    "autovivification/rationale_sense_gap",
+    "autovivification/recursive_summary_abstraction",
+    "autovivification/semantic_tag_iteration",
+    "autovivification/sense_rationale_synthesis",
+    "autovivification/tension_calculation"
+  ],
+  "tension_score": 1.0,
+  "guardrail_actions": {}
+}

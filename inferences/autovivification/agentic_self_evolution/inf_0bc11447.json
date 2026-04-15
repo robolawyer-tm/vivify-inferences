@@ -1,0 +1,84 @@
+{
+  "id": "inf_0bc11447",
+  "version": "1.0",
+  "timestamp": "2026-04-15T20:36:54.572613+00:00",
+  "source": "pplx",
+  "raw_text": "The system goal is to develop semantics for working with conflict data in order to produce or predict beneficial outcomes from constructed functional models. LLMs are both semantic and digital. The semantic side uses language to form meaning hypotheses and inference while the digital side performs the structured work and returns that work as language. The semantic side can be understood as logos: the language of meaning analogy memory and communication. The project favors synthesis but not as an abstract philosophical endpoint. Here synthesis means the constructive joining of semantic meaning and digital structure in service of beneficial outcomes. This is not presented as a finished theory. It is a working model that survives revision improves under pressure and remains open to falsification while continuing to generate useful structure. The duality between semantic and digital layers is not merely decorative. It is the architectural spine of the ecosystem.",
+  "left_keywords": [
+    "semantic_digital_duality",
+    "logos_meaning_layer",
+    "empathy_analog_logic",
+    "baseline_deviation_modeling",
+    "beneficial_outcome_modeling",
+    "agentic_self_evolution",
+    "constructive_hypothesis",
+    "synthesis_without_closure"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "system_architecture": [
+      "semantic_digital_duality"
+    ],
+    "logos_layer": [
+      "logos_meaning_layer",
+      "empathy_analog_logic"
+    ],
+    "modeling": [
+      "baseline_deviation_modeling",
+      "beneficial_outcome_modeling"
+    ],
+    "evolution": [
+      "agentic_self_evolution",
+      "constructive_hypothesis",
+      "synthesis_without_closure"
+    ]
+  },
+  "category_paths": [
+    "autovivification/agentic_self_evolution",
+    "autovivification/api_output",
+    "autovivification/baseline_deviation_modeling",
+    "autovivification/beneficial_outcome_modeling",
+    "autovivification/category_path_assignment",
+    "autovivification/constructive_hypothesis",
+    "autovivification/cooccurrence_graph",
+    "autovivification/empathy_analog_logic",
+    "autovivification/filesystem_path",
+    "autovivification/index_aggregation",
+    "autovivification/inference_storage",
+    "autovivification/json_indexing",
+    "autovivification/keyword_clumping",
+    "autovivification/logos_meaning_layer",
+    "autovivification/semantic_digital_duality",
+    "autovivification/synthesis_without_closure",
+    "autovivification/tension_calculation",
+    "beneficial_outcome_modeling/agentic_self_evolution",
+    "beneficial_outcome_modeling/api_output",
+    "beneficial_outcome_modeling/baseline_deviation_modeling",
+    "beneficial_outcome_modeling/category_path_assignment",
+    "beneficial_outcome_modeling/constructive_hypothesis",
+    "beneficial_outcome_modeling/cooccurrence_graph",
+    "beneficial_outcome_modeling/empathy_analog_logic",
+    "beneficial_outcome_modeling/filesystem_path",
+    "beneficial_outcome_modeling/index_aggregation",
+    "beneficial_outcome_modeling/inference_storage",
+    "beneficial_outcome_modeling/json_indexing",
+    "beneficial_outcome_modeling/keyword_clumping",
+    "beneficial_outcome_modeling/logos_meaning_layer",
+    "beneficial_outcome_modeling/semantic_digital_duality",
+    "beneficial_outcome_modeling/synthesis_without_closure",
+    "beneficial_outcome_modeling/tension_calculation"
+  ],
+  "tension_score": 1.0,
+  "guardrail_actions": {}
+}

@@ -1,0 +1,80 @@
+{
+  "id": "inf_0801b607",
+  "version": "1.0",
+  "timestamp": "2026-04-15T21:41:23.180887+00:00",
+  "source": "manual",
+  "raw_text": "Workflows tend to have multiple models. Each of those models embeds data but workflow engineers will only look at output from the final model which makes sense in process. What I am hoping to do is collect all the embedded data and give it to the final model. Even better have the final outcome be a comparison between different approaches a group of models may have which each produce more embedded data suggesting an infinite round robin halted when the data ranks highly.",
+  "left_keywords": [
+    "multi_model_workflow",
+    "intermediate_embedding_collection",
+    "final_model_aggregation",
+    "comparative_outcome",
+    "infinite_round_robin",
+    "convergence_halting",
+    "embedding_accumulation",
+    "model_ensemble_comparison",
+    "emergent_ranking",
+    "intermediate_data_loss",
+    "iterative_refinement_loop",
+    "consensus_emergence"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "workflow_problem": [
+      "intermediate_data_loss",
+      "multi_model_workflow",
+      "final_model_aggregation"
+    ],
+    "solution_approach": [
+      "intermediate_embedding_collection",
+      "embedding_accumulation",
+      "comparative_outcome"
+    ],
+    "convergence_mechanism": [
+      "infinite_round_robin",
+      "convergence_halting",
+      "emergent_ranking"
+    ],
+    "model_dynamics": [
+      "model_ensemble_comparison",
+      "iterative_refinement_loop",
+      "consensus_emergence"
+    ]
+  },
+  "category_paths": [
+    "autovivification/api_output",
+    "autovivification/category_path_assignment",
+    "autovivification/comparative_outcome",
+    "autovivification/consensus_emergence",
+    "autovivification/convergence_halting",
+    "autovivification/cooccurrence_graph",
+    "autovivification/embedding_accumulation",
+    "autovivification/emergent_ranking",
+    "autovivification/filesystem_path",
+    "autovivification/final_model_aggregation",
+    "autovivification/index_aggregation",
+    "autovivification/inference_storage",
+    "autovivification/infinite_round_robin",
+    "autovivification/intermediate_data_loss",
+    "autovivification/intermediate_embedding_collection",
+    "autovivification/iterative_refinement_loop",
+    "autovivification/json_indexing",
+    "autovivification/keyword_clumping",
+    "autovivification/model_ensemble_comparison",
+    "autovivification/multi_model_workflow",
+    "autovivification/tension_calculation"
+  ],
+  "tension_score": 1.0,
+  "guardrail_actions": {}
+}

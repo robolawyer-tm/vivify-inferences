@@ -1,6 +1,3 @@
-inferences/
-!inferences/.gitkeep
-!inferences/unclustered/.gitkeep
 __pycache__/
 *.pyc
 *.pyo

@@ -1,0 +1,78 @@
+{
+  "id": "inf_03b9a985",
+  "version": "1.0",
+  "timestamp": "2026-04-15T21:48:21.862168+00:00",
+  "source": "manual",
+  "raw_text": "Writing in reverse leverages the final learning in the submitted text with support for this learning coming sequentially in reverse until arriving at the first relevant inquiry because inquiry is where it all starts. I don't really believe in conclusions as a humanistic preference so submitted text is really food for more inquiry which is a constructive preference and can be structured based on ideas.",
+  "left_keywords": [
+    "writing_in_reverse",
+    "final_learning_first",
+    "reverse_sequential_support",
+    "inquiry_as_origin",
+    "no_conclusions_preference",
+    "submitted_text_as_inquiry",
+    "constructive_preference",
+    "idea_structured_inquiry",
+    "learning_sequence_inversion",
+    "inquiry_driven_structure",
+    "text_as_food",
+    "open_ended_output"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "reverse_methodology": [
+      "writing_in_reverse",
+      "final_learning_first",
+      "reverse_sequential_support",
+      "learning_sequence_inversion"
+    ],
+    "inquiry_philosophy": [
+      "inquiry_as_origin",
+      "no_conclusions_preference",
+      "submitted_text_as_inquiry",
+      "text_as_food"
+    ],
+    "constructive_orientation": [
+      "constructive_preference",
+      "idea_structured_inquiry",
+      "open_ended_output",
+      "inquiry_driven_structure"
+    ]
+  },
+  "category_paths": [
+    "autovivification/api_output",
+    "autovivification/category_path_assignment",
+    "autovivification/constructive_preference",
+    "autovivification/cooccurrence_graph",
+    "autovivification/filesystem_path",
+    "autovivification/final_learning_first",
+    "autovivification/idea_structured_inquiry",
+    "autovivification/index_aggregation",
+    "autovivification/inference_storage",
+    "autovivification/inquiry_as_origin",
+    "autovivification/inquiry_driven_structure",
+    "autovivification/json_indexing",
+    "autovivification/keyword_clumping",
+    "autovivification/learning_sequence_inversion",
+    "autovivification/no_conclusions_preference",
+    "autovivification/open_ended_output",
+    "autovivification/reverse_sequential_support",
+    "autovivification/submitted_text_as_inquiry",
+    "autovivification/tension_calculation",
+    "autovivification/text_as_food",
+    "autovivification/writing_in_reverse"
+  ],
+  "tension_score": 1.0,
+  "guardrail_actions": {}
+}

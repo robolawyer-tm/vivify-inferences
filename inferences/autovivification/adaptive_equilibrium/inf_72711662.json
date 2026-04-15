@@ -1,0 +1,80 @@
+{
+  "id": "inf_72711662",
+  "version": "1.0",
+  "timestamp": "2026-04-15T21:33:05.315788+00:00",
+  "source": "gemini",
+  "raw_text": "Using evolution as a constructive tool to understand human progress rather than a weapon to dismiss older philosophical ideas. Spirituality and religion were powerful social technologies providing selective advantage through group cohesion trust and meaning. These are not wrong but beneficial syntheses that stabilized the human animal allowing higher forms of morality to emerge. Synthesis as adaptive equilibrium reached by combining successful moral social structures. Constructivism means we actively build social reality rather than receiving a fixed divine blueprint. Applied humanistics prioritizes human welfare as the moral goal grounded in evolved social instincts. Hegel was not wrong but represented the highest abstract container that human thought evolved to create in that era.",
+  "left_keywords": [
+    "evolution_as_tool",
+    "moral_container_evolution",
+    "social_technology",
+    "selective_advantage",
+    "group_cohesion_mechanism",
+    "adaptive_equilibrium",
+    "constructivist_reality_building",
+    "applied_humanistics_goal",
+    "hegelian_contrast",
+    "beneficial_synthesis_function",
+    "verifiable_moral_grounding",
+    "objective_spirit"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "evolutionary_function": [
+      "evolution_as_tool",
+      "selective_advantage",
+      "adaptive_equilibrium",
+      "moral_container_evolution"
+    ],
+    "social_technology": [
+      "group_cohesion_mechanism",
+      "social_technology",
+      "beneficial_synthesis_function"
+    ],
+    "constructivist_framework": [
+      "constructivist_reality_building",
+      "applied_humanistics_goal",
+      "verifiable_moral_grounding"
+    ],
+    "philosophical_contrast": [
+      "hegelian_contrast",
+      "objective_spirit"
+    ]
+  },
+  "category_paths": [
+    "autovivification/adaptive_equilibrium",
+    "autovivification/api_output",
+    "autovivification/applied_humanistics_goal",
+    "autovivification/beneficial_synthesis_function",
+    "autovivification/category_path_assignment",
+    "autovivification/constructivist_reality_building",
+    "autovivification/cooccurrence_graph",
+    "autovivification/evolution_as_tool",
+    "autovivification/filesystem_path",
+    "autovivification/group_cohesion_mechanism",
+    "autovivification/hegelian_contrast",
+    "autovivification/index_aggregation",
+    "autovivification/inference_storage",
+    "autovivification/json_indexing",
+    "autovivification/keyword_clumping",
+    "autovivification/moral_container_evolution",
+    "autovivification/objective_spirit",
+    "autovivification/selective_advantage",
+    "autovivification/social_technology",
+    "autovivification/tension_calculation",
+    "autovivification/verifiable_moral_grounding"
+  ],
+  "tension_score": 1.0,
+  "guardrail_actions": {}
+}
