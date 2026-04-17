@@ -1,0 +1,68 @@
+{
+  "id": "inf_9b7a9ca7",
+  "version": "1.0",
+  "timestamp": "2026-04-17T21:20:44.272678+00:00",
+  "source": "gemini",
+  "raw_text": "A query arrives, intent is parsed and keywords and clumps are autovivified from the query and the existing semantic store. The LLM discovers the best way via planning, generating a plan as prose preserved as a skill. Semantics are enhanced by regenerating inferences to fit language right, adding new clumps, summaries, and links while storing durable facts. The system executes, pulling from a skills library if a similar quest was seen before, archiving new patterns. The diff of outputs versus prior extracts reusable aids, with code snippets indexed for next time.",
+  "left_keywords": [
+    "query_intent_extraction",
+    "autovivified_clump_growth",
+    "planning_as_prose",
+    "skill_library_reuse",
+    "semantic_regeneration",
+    "durable_fact_storage",
+    "pattern_archival",
+    "output_diff_extraction"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "query_entry": [
+      "query_intent_extraction",
+      "autovivified_clump_growth"
+    ],
+    "planning_layer": [
+      "planning_as_prose",
+      "skill_library_reuse"
+    ],
+    "semantic_output": [
+      "semantic_regeneration",
+      "durable_fact_storage"
+    ],
+    "skill_accumulation": [
+      "pattern_archival",
+      "output_diff_extraction"
+    ]
+  },
+  "category_paths": [
+    "autovivification/api_output",
+    "autovivification/autovivified_clump_growth",
+    "autovivification/category_path_assignment",
+    "autovivification/cooccurrence_graph",
+    "autovivification/durable_fact_storage",
+    "autovivification/filesystem_path",
+    "autovivification/index_aggregation",
+    "autovivification/inference_storage",
+    "autovivification/json_indexing",
+    "autovivification/keyword_clumping",
+    "autovivification/output_diff_extraction",
+    "autovivification/pattern_archival",
+    "autovivification/planning_as_prose",
+    "autovivification/query_intent_extraction",
+    "autovivification/semantic_regeneration",
+    "autovivification/skill_library_reuse",
+    "autovivification/tension_calculation"
+  ],
+  "tension_score": 1.0,
+  "guardrail_actions": {}
+}

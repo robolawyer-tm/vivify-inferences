@@ -1,0 +1,74 @@
+{
+  "id": "inf_4b52ae70",
+  "version": "1.0",
+  "timestamp": "2026-04-17T21:20:44.269617+00:00",
+  "source": "gemini",
+  "raw_text": "In your world the worker is an LLM call whose behavior is spun up from rule files, prompt templates and scaffolding that define how to think about an inference, and semantic databases that supply the concrete context and state. So instead of code to worker, you have semantics to transient agent. Each LLM call acts like a sandboxed semantic worker, constrained by the rules and data slices you feed it. You keep the durable truth in your filesystem and treat all generated code and prose as disposable execution artifacts. Because your structure is autovivified from clumps and keywords, the system stays schema-light and evolves naturally with your thinking.",
+  "left_keywords": [
+    "semantic_worker_isolation",
+    "transient_agent_instantiation",
+    "rules_as_scaffolding",
+    "disposable_execution_artifact",
+    "durable_truth_preservation",
+    "schema_light_evolution",
+    "autovivified_structure",
+    "semantic_database_binding",
+    "sandboxed_llm_call",
+    "prompt_as_runtime_spec"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "agent_instantiation": [
+      "semantic_worker_isolation",
+      "transient_agent_instantiation",
+      "sandboxed_llm_call"
+    ],
+    "runtime_spec": [
+      "rules_as_scaffolding",
+      "prompt_as_runtime_spec",
+      "semantic_database_binding"
+    ],
+    "artifact_vs_truth": [
+      "disposable_execution_artifact",
+      "durable_truth_preservation"
+    ],
+    "structural_evolution": [
+      "schema_light_evolution",
+      "autovivified_structure"
+    ]
+  },
+  "category_paths": [
+    "autovivification/api_output",
+    "autovivification/autovivified_structure",
+    "autovivification/category_path_assignment",
+    "autovivification/cooccurrence_graph",
+    "autovivification/disposable_execution_artifact",
+    "autovivification/durable_truth_preservation",
+    "autovivification/filesystem_path",
+    "autovivification/index_aggregation",
+    "autovivification/inference_storage",
+    "autovivification/json_indexing",
+    "autovivification/keyword_clumping",
+    "autovivification/prompt_as_runtime_spec",
+    "autovivification/rules_as_scaffolding",
+    "autovivification/sandboxed_llm_call",
+    "autovivification/schema_light_evolution",
+    "autovivification/semantic_database_binding",
+    "autovivification/semantic_worker_isolation",
+    "autovivification/tension_calculation",
+    "autovivification/transient_agent_instantiation"
+  ],
+  "tension_score": 1.0,
+  "guardrail_actions": {}
+}

@@ -1,0 +1,74 @@
+{
+  "id": "inf_a06769b1",
+  "version": "1.0",
+  "timestamp": "2026-04-17T21:22:39.792608+00:00",
+  "source": "synthesis",
+  "raw_text": "Every request is an entry point into a loop that already knows more than it did before I asked. The semantic store \u2014 autovivified from clumps, grown from prior queries \u2014 is the durable thing; the code that executes is disposable, leaving only the pattern it discovered. Language is not the output of this system: it is the runtime specification. I do not write rules to constrain the agent; I write them to instantiate it, and the agent returns prose that makes the rules more precise. What accumulates is not a codebase but a skill library \u2014 a sediment of plans-as-prose, each quest leaving the semantic side a better fit for the thought it was trying to hold. The durable truth lives in the filesystem, schema-light, because the structure is always catching up to the meaning. Each cycle the gap narrows. That narrowing is the work.",
+  "left_keywords": [
+    "loop_entry_point",
+    "durable_semantic_store",
+    "disposable_execution",
+    "language_as_runtime_spec",
+    "rules_as_instantiation",
+    "skill_sediment",
+    "semantic_fit_iteration",
+    "schema_light_growth",
+    "meaning_structure_gap",
+    "narrowing_as_work"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "persistence_layer": [
+      "durable_semantic_store",
+      "schema_light_growth",
+      "disposable_execution"
+    ],
+    "language_runtime": [
+      "language_as_runtime_spec",
+      "rules_as_instantiation"
+    ],
+    "accumulation": [
+      "skill_sediment",
+      "loop_entry_point"
+    ],
+    "convergence": [
+      "semantic_fit_iteration",
+      "meaning_structure_gap",
+      "narrowing_as_work"
+    ]
+  },
+  "category_paths": [
+    "autovivification/api_output",
+    "autovivification/category_path_assignment",
+    "autovivification/cooccurrence_graph",
+    "autovivification/disposable_execution",
+    "autovivification/durable_semantic_store",
+    "autovivification/filesystem_path",
+    "autovivification/index_aggregation",
+    "autovivification/inference_storage",
+    "autovivification/json_indexing",
+    "autovivification/keyword_clumping",
+    "autovivification/language_as_runtime_spec",
+    "autovivification/loop_entry_point",
+    "autovivification/meaning_structure_gap",
+    "autovivification/narrowing_as_work",
+    "autovivification/rules_as_instantiation",
+    "autovivification/schema_light_growth",
+    "autovivification/semantic_fit_iteration",
+    "autovivification/skill_sediment",
+    "autovivification/tension_calculation"
+  ],
+  "tension_score": 1.0,
+  "guardrail_actions": {}
+}
