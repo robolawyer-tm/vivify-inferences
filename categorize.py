@@ -80,6 +80,27 @@ def paths_for_inference(inference, tree):
     return sorted(set(paths))
 
 
+def paths_for_synthesis(inference, tree, graph):
+    """For synthesis inferences: composite paths from the corpus's top seeds.
+
+    A synthesis spans the whole corpus, so its paths are derived from the
+    corpus's dominant seeds by graph degree — not from its own keywords.
+    Returns pairwise composite paths for the top 3 seeds, reflecting which
+    threads the synthesis holds simultaneously.
+    """
+    ranked = sorted(
+        tree.keys(),
+        key=lambda s: len(graph.get(s, {})),
+        reverse=True
+    )
+    top = ranked[:3]
+
+    if len(top) < 2:
+        return []
+
+    return sorted(f"{s1}/{s2}" for i, s1 in enumerate(top) for s2 in top[i+1:])
+
+
 def categorize_all(inferences_dir=None, dry_run=False):
     """Assign category_paths to all inferences and move them out of unclustered/.
 
@@ -110,7 +131,10 @@ def categorize_all(inferences_dir=None, dry_run=False):
         if not inference:
             continue
 
-        paths = paths_for_inference(inference, tree)
+        if inference.get("source") == "synthesis":
+            paths = paths_for_synthesis(inference, tree, graph)
+        else:
+            paths = paths_for_inference(inference, tree)
         inference["category_paths"] = paths
 
         if paths and not dry_run:
