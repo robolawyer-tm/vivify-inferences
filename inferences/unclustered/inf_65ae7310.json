@@ -1,0 +1,47 @@
+{
+  "id": "inf_65ae7310",
+  "version": "1.0",
+  "timestamp": "2026-04-27T21:44:01.938271+00:00",
+  "source": "webpage",
+  "raw_text": "The system goal is to develop semantics that work with conflict data to predict beneficial outcomes from constructed functional models dynamically privately and on local hardware bridging two fundamentally different ways of understanding the world through analogical synthesis not dialectical synthesis combining emotional ground truth with analytical pattern detection producing output that remains fundamentally human",
+  "left_keywords": [
+    "analogical_synthesis",
+    "beneficial_outcome_prediction",
+    "semantic_digital_duality",
+    "logos_empathy_base",
+    "felt_meaning",
+    "conflict_data_modeling",
+    "functional_model_construction",
+    "mid_inference_memory",
+    "self_evolving_rules",
+    "synthesis_without_antithesis",
+    "empathy_native_output",
+    "live_worker_refinement"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "semantic_core": [
+      "analogical_synthesis",
+      "logos_empathy_base",
+      "felt_meaning",
+      "empathy_native_output"
+    ],
+    "outcome_model": [
+      "beneficial_outcome_prediction",
+      "conflict_data_modeling",
+      "functional_model_construction"
+    ],
+    "pipeline_evolution": [
+      "mid_inference_memory",
+      "self_evolving_rules",
+      "live_worker_refinement"
+    ],
+    "duality_framework": [
+      "semantic_digital_duality",
+      "synthesis_without_antithesis"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {}
+}

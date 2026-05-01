@@ -16,7 +16,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
 
 from inference import new_inference, save_inference, update_inference
-from vivify_core import write_json, read_json
+from vivify_core import write_json, read_json, resolve_model
 
 
 KEYWORDS_PROMPT = """You are the left-semantic pass of a vivify pipeline.
@@ -49,7 +49,7 @@ Inference text:
 def extract_keywords_via_api(raw_text):
     """Call the Claude API for the left-semantic keyword pass.
 
-    - Uses claude-sonnet-4-6 for semantic extraction
+    - Model resolved from config/model_map.json via 'semantic_extraction' capability
     - Returns dict with left_keywords and clumps
     - Raises on API error or malformed response
     """
@@ -57,7 +57,7 @@ def extract_keywords_via_api(raw_text):
         import anthropic
         client = anthropic.Anthropic()
         message = client.messages.create(
-            model="claude-sonnet-4-6",
+            model=resolve_model("semantic_extraction"),
             max_tokens=1024,
             messages=[{"role": "user", "content": KEYWORDS_PROMPT + raw_text}]
         )
@@ -156,3 +156,4 @@ if __name__ == "__main__":
     main()
 
 # llm: claude-sonnet-4-6 | 2026-04-15 | repos/vivify-inferences/vivify.py | created — FABRIC vivify component, left-semantic pass via Claude API or manual keywords
+# llm: claude-sonnet-4-6 | 2026-04-27 | repos/vivify-inferences/vivify.py | replaced hardcoded model string with resolve_model("semantic_extraction")

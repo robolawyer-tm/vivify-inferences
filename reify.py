@@ -55,7 +55,7 @@ import argparse
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
-from vivify_core import read_json
+from vivify_core import read_json, resolve_model
 
 
 REIFY_PROMPT = """You are the inverse pass of a vivify pipeline.
@@ -74,7 +74,11 @@ Rules:
 - Do not reference the pipeline, categories, or JSON
 - The tension_score tells you how much left and right diverge: high tension means
   the felt meaning resists its own structural capture — lean into that gap
-- Length: 3-6 sentences. Dense. No hedging.
+- Output format: a series of sentence+bullets constructs. Each block is one
+  direct claim sentence (active voice, 25 words max), followed by 3-5 bullet
+  points that each expand a distinct angle — evidence, example, or constraint.
+  No concluding statements. No bullets that restate the opener.
+- Produce 3-5 such blocks. Each block covers a distinct facet of the felt meaning.
 
 Inference:
 """
@@ -82,16 +86,18 @@ Inference:
 SYNTHESIZE_PROMPT = """You are the synthesis pass of a vivify pipeline.
 
 You will receive two structured inferences. Each has left_keywords capturing its
-felt meaning and clumps grouping those keywords. Your task is to generate a single
-passage of prose that holds both inferences simultaneously — not alternating between
-them, not summarizing them, but finding the place where they are the same thought.
+felt meaning and clumps grouping those keywords. Your task is to generate output
+that holds both inferences simultaneously — not alternating between them, not
+summarizing them, but finding the place where they are the same thought.
 
 Rules:
 - Write in first person, direct voice
 - Do not mention keywords by name
 - Do not reference the pipeline, categories, or JSON
 - If the two inferences pull in different directions, find the tension and write from it
-- Length: 4-8 sentences. The synthesis should feel inevitable, not constructed.
+- Output format: a series of sentence+bullets constructs. Each block is one direct
+  claim sentence (active voice, 25 words max) followed by 3-5 bullets expanding
+  distinct angles. Produce 3-5 blocks. The synthesis should feel inevitable, not constructed.
 
 Inference A:
 {inf_a}
@@ -103,16 +109,17 @@ Inference B:
 VOICE_PROMPT = """You are the category voice pass of a vivify pipeline.
 
 You will receive a set of inferences that share a category. Each has left_keywords
-capturing its felt meaning. Your task is to generate a single passage of prose that
-speaks for the whole category — a distillation of what all these inferences are
-reaching toward together.
+capturing its felt meaning. Your task is to speak for the whole category — a
+distillation of what all these inferences are reaching toward together.
 
 Rules:
 - Write in first person, direct voice
 - Do not mention keywords by name
 - Do not reference the pipeline, categories, or JSON
 - This is not a summary — it is a synthesis. Find the irreducible core.
-- Length: 4-8 sentences.
+- Output format: a series of sentence+bullets constructs. Each block is one direct
+  claim sentence (active voice, 25 words max) followed by 3-5 bullets expanding
+  distinct angles. Produce 3-5 blocks.
 
 Category: {category}
 
@@ -130,7 +137,7 @@ def call_api(prompt, dry_run=False):
         import anthropic
         client = anthropic.Anthropic()
         message = client.messages.create(
-            model="claude-sonnet-4-6",
+            model=resolve_model("prose_reconstruction"),
             max_tokens=1024,
             messages=[{"role": "user", "content": prompt}]
         )
@@ -250,3 +257,5 @@ if __name__ == "__main__":
     main()
 
 # llm: claude-sonnet-4-6 | 2026-04-17 | repos/vivify-inferences/reify.py | created — inverse pass, JSON inference → prose via Claude API; single/synthesize/voice modes
+# llm: claude-sonnet-4-6 | 2026-04-21 | repos/vivify-inferences/reify.py | updated all three prompts — output format changed to series of sentence+bullets constructs
+# llm: claude-sonnet-4-6 | 2026-04-27 | repos/vivify-inferences/reify.py | replaced hardcoded model string with resolve_model("prose_reconstruction")

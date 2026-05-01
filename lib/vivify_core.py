@@ -70,6 +70,16 @@ def read_json(path):
         return json.load(f)
 
 
+def resolve_model(capability, config_dir="config"):
+    """Return the model ID for a named capability from config/model_map.json.
+
+    - Falls back to 'default' if capability not found
+    - Falls back to claude-sonnet-4-6 if config missing
+    """
+    model_map = read_json(Path(config_dir) / "model_map.json")
+    return model_map.get(capability) or model_map.get("default", "claude-sonnet-4-6")
+
+
 if __name__ == "__main__":
     import sys
     import fileinput
@@ -87,3 +97,4 @@ if __name__ == "__main__":
     print(json.dumps(result, indent=2))
 
 # llm: claude-sonnet-4-6 | 2026-04-15 | repos/vivify-inferences/lib/vivify_core.py | created — autovivification engine, deep_update, JSON I/O
+# llm: claude-sonnet-4-6 | 2026-04-27 | repos/vivify-inferences/lib/vivify_core.py | added resolve_model() — capability-to-model routing via config/model_map.json

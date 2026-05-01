@@ -1,0 +1,6 @@
+{
+  "default": "claude-sonnet-4-6",
+  "prose_reconstruction": "claude-sonnet-4-6",
+  "semantic_extraction": "claude-sonnet-4-6",
+  "keyword_normalization": "claude-sonnet-4-6"
+}
