@@ -21,6 +21,10 @@ def build_graph(inferences_dir=None):
 
     - Nodes are keywords. Edges are co-occurrence in the same inference.
     - Edge weight = number of inferences sharing both keywords.
+    - Left keywords only: right_keywords are the same pipeline terms on every
+      inference (they describe the system, not the content), so including them
+      makes pipeline vocabulary the highest-degree nodes and contaminates the
+      emergent category tree. Right keywords belong to tension scoring only.
     - Returns dict: {keyword: {co_keyword: weight, ...}, ...}
     """
     inferences_dir = Path(inferences_dir or INFERENCES_DIR)
@@ -28,7 +32,7 @@ def build_graph(inferences_dir=None):
 
     for path in inferences_dir.rglob("inf_*.json"):
         inf = read_json(path)
-        keywords = inf.get("left_keywords", []) + inf.get("right_keywords", [])
+        keywords = inf.get("left_keywords", [])
         for i, kw1 in enumerate(keywords):
             for kw2 in keywords[i + 1:]:
                 graph[kw1][kw2] += 1
@@ -104,3 +108,4 @@ if __name__ == "__main__":
         print(f"  {kw}: degree {deg}")
 
 # llm: claude-sonnet-4-6 | 2026-04-15 | repos/vivify-inferences/lib/keyword_graph.py | created — co-occurrence graph, degree analysis, tension scoring
+# llm: claude-fable-5 | 2026-07-10 | repos/vivify-operators/lib/keyword_graph.py | build_graph now left_keywords only — right pipeline terms contaminated the emergent category tree

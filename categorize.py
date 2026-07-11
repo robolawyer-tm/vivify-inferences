@@ -62,12 +62,12 @@ def paths_for_inference(inference, tree):
 
     - Inference qualifies for seed/sub path if it contains the seed keyword
       plus at least one sub keyword
+    - Left keywords only: right_keywords are identical pipeline terms on every
+      inference, so matching against them files everything under every seed —
+      category paths must emerge from content vocabulary alone
     - Returns list of path strings e.g. ['beneficial_outcome_modeling/tension_score_calculation']
     """
-    all_keywords = set(
-        inference.get("left_keywords", []) +
-        inference.get("right_keywords", [])
-    )
+    all_keywords = set(inference.get("left_keywords", []))
 
     paths = []
     for seed, subs in tree.items():
@@ -225,3 +225,4 @@ if __name__ == "__main__":
     main()
 
 # llm: claude-sonnet-4-6 | 2026-04-15 | repos/vivify-inferences/categorize.py | created — emergent category assignment from co-occurrence graph seeds
+# llm: claude-fable-5 | 2026-07-10 | repos/vivify-operators/categorize.py | paths_for_inference matches left_keywords only — right pipeline terms filed everything under every seed
