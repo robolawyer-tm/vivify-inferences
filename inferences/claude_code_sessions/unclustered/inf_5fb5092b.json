@@ -1,0 +1,46 @@
+{
+  "id": "inf_5fb5092b",
+  "version": "1.0",
+  "timestamp": "2026-06-12T18:52:05.373133+00:00",
+  "source": "claude_session",
+  "raw_text": "A new Claude model named Fable 5 was announced within the Claude Code interface during this session, described as designed for complex, long-running work. It was flagged as included in existing plan limits until June 22, after which usage credits would be required to continue. This introduces a new tier distinction in the model lineup, associating Fable 5 with sustained, computationally intensive tasks rather than quick interactions.",
+  "left_keywords": [
+    "new_model_announcement",
+    "product_lineup_expansion",
+    "sustained_computation",
+    "complex_task_affinity",
+    "long_horizon_processing",
+    "tier_distinction",
+    "credit_gated_access",
+    "plan_limit_boundary",
+    "time_bounded_access",
+    "usage_deadline",
+    "computational_intensity"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "model_introduction": [
+      "new_model_announcement",
+      "product_lineup_expansion"
+    ],
+    "computational_profile": [
+      "complex_task_affinity",
+      "computational_intensity",
+      "long_horizon_processing",
+      "sustained_computation"
+    ],
+    "access_tiering": [
+      "credit_gated_access",
+      "plan_limit_boundary",
+      "tier_distinction"
+    ],
+    "temporal_threshold": [
+      "time_bounded_access",
+      "usage_deadline"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": []
+}

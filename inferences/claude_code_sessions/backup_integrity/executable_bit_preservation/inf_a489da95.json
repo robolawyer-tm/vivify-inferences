@@ -1,0 +1,89 @@
+{
+  "id": "inf_a489da95",
+  "version": "1.0",
+  "timestamp": "2026-06-11T14:50:54.056230+00:00",
+  "source": "claude_session",
+  "raw_text": "The decision to reformat the backup drives from NTFS to ext4 was grounded in the specific nature of what needs to be backed up. NTFS via ntfs-3g silently drops Unix file permissions, executable bits, ownership, and symlinks \u2014 all of which are critical for ~/repos, which contains executable scripts, git configuration, and symlinks. A restore from an NTFS backup would produce a flat copy of the files with execute bits gone, unusable on Alpine or any Linux rebuild. Because the machine is fully Linux and the drives serve only as Linux backup targets, Windows compatibility has no practical value and the NTFS format is a pure liability.",
+  "left_keywords": [
+    "silent_metadata_loss",
+    "unix_permission_stripping",
+    "ownership_loss",
+    "symlink_integrity",
+    "executable_bit_preservation",
+    "backup_recoverability",
+    "backup_integrity",
+    "ntfs_incompatibility",
+    "format_liability",
+    "linux_native_environment",
+    "windows_irrelevance",
+    "platform_alignment"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "unix_metadata_loss": [
+      "ownership_loss",
+      "silent_metadata_loss",
+      "symlink_integrity",
+      "unix_permission_stripping"
+    ],
+    "executable_context": [
+      "backup_integrity",
+      "backup_recoverability",
+      "executable_bit_preservation"
+    ],
+    "format_liability": [
+      "format_liability",
+      "ntfs_incompatibility"
+    ],
+    "platform_alignment": [
+      "linux_native_environment",
+      "windows_irrelevance"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "backup_integrity/executable_bit_preservation",
+    "backup_integrity/format_liability",
+    "backup_integrity/linux_native_environment",
+    "backup_integrity/ownership_loss",
+    "backup_integrity/platform_alignment",
+    "backup_integrity/silent_metadata_loss",
+    "backup_integrity/symlink_integrity",
+    "backup_integrity/unix_permission_stripping",
+    "backup_integrity/windows_irrelevance",
+    "backup_recoverability/backup_integrity",
+    "backup_recoverability/executable_bit_preservation",
+    "backup_recoverability/format_liability",
+    "backup_recoverability/linux_native_environment",
+    "backup_recoverability/ntfs_incompatibility",
+    "backup_recoverability/ownership_loss",
+    "backup_recoverability/platform_alignment",
+    "backup_recoverability/silent_metadata_loss",
+    "backup_recoverability/symlink_integrity",
+    "backup_recoverability/unix_permission_stripping",
+    "backup_recoverability/windows_irrelevance",
+    "ntfs_incompatibility/backup_integrity",
+    "ntfs_incompatibility/executable_bit_preservation",
+    "ntfs_incompatibility/format_liability",
+    "ntfs_incompatibility/linux_native_environment",
+    "ntfs_incompatibility/ownership_loss",
+    "ntfs_incompatibility/platform_alignment",
+    "ntfs_incompatibility/silent_metadata_loss",
+    "ntfs_incompatibility/symlink_integrity",
+    "ntfs_incompatibility/unix_permission_stripping",
+    "ntfs_incompatibility/windows_irrelevance"
+  ]
+}

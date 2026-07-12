@@ -1,0 +1,72 @@
+{
+  "id": "inf_07f233fa",
+  "version": "1.0",
+  "timestamp": "2026-07-07T20:33:51.214522+00:00",
+  "source": "pillars/FLOW.md",
+  "raw_text": "# FLOW\n\nData moves through the Fabric only when actualized by a specific process; until then, paths are latent \u2014 possible but not real.\n\n---\n\n## Inference Vivification Flow (actualized)\n\nRaw inference text enters; a scored, categorized semantic unit exits \u2014 the Fabric grows one node.\n\n- Raw text arrives via STDIN or argument \u2192 `vivify.py`\n- Left-semantic pass: Claude API extracts 8-12 keyword clumps capturing felt meaning, not surface words\n- **Tension node \u2014 structural**: the inference is placed in `inferences/unclustered/` \u2014 the Fabric has not yet decided where it belongs\n- `keyword_graph.py` accumulates co-occurrence edges across all inferences \u2014 graph grows with corpus\n- `categorize.py` reads graph seeds (left keywords only) \u2192 builds emergent 2-3 layer category tree \u2192 assigns `category_paths`\n- **Tension node \u2014 conflict**: `right_pass.py` runs a digital/structural pass; keywords describe the same inference analytically, not semantically\n- `tension_score.py` measures left/right divergence \u2014 `1.0 - (shared / total unique)` \u2014 scores the gap between analog meaning and digital structure\n- **Tension node \u2014 resolution**: `beneficial_signals()` surfaces inferences where divergence exceeds threshold \u2014 these are intervention candidates\n- Phase 5 `prediction_output()` shapes the result as a navigational signal, not a conclusion\n\n---\n\n## Secret Storage Flow (actualized)\n\nA secret enters encrypted by the client; the server strips routing layers and stores a human-readable JSON file.\n\n- Secret created on client \u2192 `vivify.py` + `secrecy.py` (PBKDF2/Fernet, client-side)\n- `freeze.py` serializes payload to base64 JSON for IP transit\n- SSH tunnel carries payload to phone (star topology hub)\n- `server.py` (Flask, Android/Termux) receives \u2192 strips name + app-name layers \u2192 recreates directory path\n- JSON stored at `db/{username}/{app_name}/secret.json` \u2014 filesystem is the database\n- Blobs separated; raw sensitive material never stored unencrypted\n\n---\n\n## Tension Nodes (cross-flow)\n\nTension is structural pressure pointing toward the next evolution \u2014 four types, each visible in the flow.\n\n- **Structural** \u2014 the unclustered drop point in vivify: inference exists but Fabric hasn't autovivified to place it; graph must accumulate before categorization is possible\n- **Conflict** \u2014 left/right divergence measured by `tension_score.py`: analog human meaning pulling against digital structural description; score near 1.0 means the system is under maximum interpretive pressure\n- **Functional** \u2014 rules in `pillars/CLAUDE.md` and `pillars/doc_standard_v1.json`: constraints that resist certain flows (no external taxonomies, no schema-first design, no concluding statements in exploratory sections)\n- **Resolution** \u2014 `beneficial_signals()` and Phase 5 output: the pull toward beneficial outcome; what the system is oriented toward, not what it has achieved\n\n---\n\n## What Isn't (unactualized)\n\nThese paths exist as structural pressure \u2014 latent in the Fabric, not yet actualized.\n\n- **Typed tension JSON**: `tension_score.py` outputs a float; the typed shape `{type, magnitude, between, resolution_vector}` is specified but not yet in the code\n- **Normalization standard**: conflict inputs enter raw \u2014 no standard yet for stripping proper nouns, collapsing entities to typed roles, offsetting dates; data contaminates before it vivifies\n- **Cloudflare Workers runtime**: the Fabric is described in terms of Worker isolates and Durable Objects but runs locally in Python; the translation is unactualized\n- **Animal Crossing instantiation**: same underlying model, different population (elders, children) \u2014 the instantiation doesn't exist; only the shared model does\n- **Reify feedback loop**: `reify.py` holds two inferences in synthesis simultaneously but doesn't write back to the graph or update `category_paths`; synthesis is terminal, not recursive\n- **Cross-inference autovivification**: the moment a Flow decides the Fabric needs a new branch is not yet explicit \u2014 it happens by corpus accumulation, not by a triggered decision\n- **`right_pass.py --all` duplication**: inferences appear across multiple category paths when run in bulk \u2014 bug, not feature\n- **Secret Server \u2194 vivify-inferences connection**: the two flows are independent; no path yet from a vivified inference into the secret storage layer\n\n---\n\n<!-- llm: claude-sonnet-4-6 | 2026-05-07 | repos/pillars/FLOW.md | created \u2014 flow view of actualized and unactualized paths, tension nodes by type -->",
+  "left_keywords": [
+    "latent_potentiality",
+    "actualization_threshold",
+    "structural_tension",
+    "left_right_divergence",
+    "analog_digital_conflict",
+    "emergent_structure",
+    "interpretive_pressure",
+    "resolution_orientation",
+    "filesystem_as_database",
+    "privacy_layering",
+    "unactualized_paths",
+    "corpus_accumulation"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "potentiality_and_becoming": [
+      "latent_potentiality",
+      "actualization_threshold",
+      "unactualized_paths"
+    ],
+    "tension_dynamics": [
+      "structural_tension",
+      "interpretive_pressure",
+      "resolution_orientation"
+    ],
+    "semantic_duality": [
+      "left_right_divergence",
+      "analog_digital_conflict"
+    ],
+    "emergent_structure": [
+      "emergent_structure",
+      "corpus_accumulation"
+    ],
+    "local_embodiment": [
+      "filesystem_as_database",
+      "privacy_layering"
+    ]
+  },
+  "category_paths": [
+    "emergent_structure/actualization_threshold",
+    "emergent_structure/analog_digital_conflict",
+    "emergent_structure/corpus_accumulation",
+    "emergent_structure/filesystem_as_database",
+    "emergent_structure/interpretive_pressure",
+    "emergent_structure/latent_potentiality",
+    "emergent_structure/left_right_divergence",
+    "emergent_structure/privacy_layering",
+    "emergent_structure/resolution_orientation",
+    "emergent_structure/structural_tension",
+    "emergent_structure/unactualized_paths"
+  ],
+  "tension_score": 1.0,
+  "guardrail_actions": {}
+}

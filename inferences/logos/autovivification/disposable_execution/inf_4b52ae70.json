@@ -1,0 +1,91 @@
+{
+  "id": "inf_4b52ae70",
+  "version": "1.0",
+  "timestamp": "2026-04-17T21:20:44.269617+00:00",
+  "source": "gemini",
+  "raw_text": "In your world the worker is an LLM call whose behavior is spun up from rule files, prompt templates and scaffolding that define how to think about an inference, and semantic databases that supply the concrete context and state. So instead of code to worker, you have semantics to transient agent. Each LLM call acts like a sandboxed semantic worker, constrained by the rules and data slices you feed it. You keep the durable truth in your filesystem and treat all generated code and prose as disposable execution artifacts. Because your structure is autovivified from clumps and keywords, the system stays schema-light and evolves naturally with your thinking.",
+  "left_keywords": [
+    "semantic_worker_isolation",
+    "transient_agent_instantiation",
+    "rules_as_scaffolding",
+    "disposable_execution",
+    "durable_semantic_store",
+    "schema_light_evolution",
+    "autovivification",
+    "semantic_database_binding",
+    "sandboxed_llm_call",
+    "language_as_runtime_spec"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "agent_instantiation": [
+      "sandboxed_llm_call",
+      "semantic_worker_isolation",
+      "transient_agent_instantiation"
+    ],
+    "runtime_spec": [
+      "language_as_runtime_spec",
+      "rules_as_scaffolding",
+      "semantic_database_binding"
+    ],
+    "artifact_vs_truth": [
+      "disposable_execution",
+      "durable_semantic_store"
+    ],
+    "structural_evolution": [
+      "autovivification",
+      "schema_light_evolution"
+    ]
+  },
+  "tension_score": 0.9474,
+  "guardrail_actions": {},
+  "domain": "logos",
+  "category_paths": [
+    "autovivification/disposable_execution",
+    "autovivification/language_as_runtime_spec",
+    "autovivification/rules_as_scaffolding",
+    "autovivification/sandboxed_llm_call",
+    "autovivification/schema_light_evolution",
+    "autovivification/semantic_database_binding",
+    "autovivification/semantic_worker_isolation",
+    "autovivification/transient_agent_instantiation",
+    "disposable_execution/language_as_runtime_spec",
+    "disposable_execution/rules_as_scaffolding",
+    "disposable_execution/sandboxed_llm_call",
+    "disposable_execution/schema_light_evolution",
+    "disposable_execution/semantic_database_binding",
+    "disposable_execution/semantic_worker_isolation",
+    "disposable_execution/transient_agent_instantiation",
+    "durable_semantic_store/autovivification",
+    "durable_semantic_store/disposable_execution",
+    "durable_semantic_store/language_as_runtime_spec",
+    "durable_semantic_store/rules_as_scaffolding",
+    "durable_semantic_store/sandboxed_llm_call",
+    "durable_semantic_store/schema_light_evolution",
+    "durable_semantic_store/semantic_database_binding",
+    "durable_semantic_store/semantic_worker_isolation",
+    "durable_semantic_store/transient_agent_instantiation",
+    "language_as_runtime_spec/rules_as_scaffolding",
+    "language_as_runtime_spec/sandboxed_llm_call",
+    "language_as_runtime_spec/schema_light_evolution",
+    "language_as_runtime_spec/semantic_database_binding",
+    "language_as_runtime_spec/semantic_worker_isolation",
+    "language_as_runtime_spec/transient_agent_instantiation",
+    "schema_light_evolution/rules_as_scaffolding",
+    "schema_light_evolution/sandboxed_llm_call",
+    "schema_light_evolution/semantic_database_binding",
+    "schema_light_evolution/semantic_worker_isolation",
+    "schema_light_evolution/transient_agent_instantiation"
+  ]
+}

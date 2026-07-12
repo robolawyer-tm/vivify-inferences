@@ -1,0 +1,60 @@
+{
+  "id": "inf_33a24246",
+  "version": "1.0",
+  "timestamp": "2026-06-26T17:47:35.035309+00:00",
+  "source": "claude_session",
+  "raw_text": "The binding constraint shifting from dollar cost to plan rate limit revived a previously demoted optimization: fusing the independent logos operators into a single call. The eight logos dimensions read only raw_text and are independent of each other, so they can be combined into one request that applies every rubric and returns one structured output, sending the long legal raw_text once instead of eight times, while conflict remains a separate second call because it reads the logos output. This was framed as roughly a 4.5x throughput gain entirely in-plan, with the conceptual model preserved because each operator's rubric stays a distinct lens co-resident in one prompt \u2014 only the transport collapses, not the operators.",
+  "left_keywords": [
+    "binding_constraint_shift",
+    "rate_limit_economy",
+    "in_plan_throughput",
+    "operator_fusion",
+    "transport_failure",
+    "shared_raw_text_payload",
+    "request_deduplication",
+    "logos_independence",
+    "rubric_co_residence",
+    "conceptual_model_preservation",
+    "dependency_ordering",
+    "distinct_lens_integrity"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "constraint_reframing": [
+      "binding_constraint_shift",
+      "in_plan_throughput",
+      "rate_limit_economy"
+    ],
+    "call_fusion": [
+      "operator_fusion",
+      "request_deduplication",
+      "transport_failure"
+    ],
+    "payload_logic": [
+      "dependency_ordering",
+      "logos_independence",
+      "shared_raw_text_payload"
+    ],
+    "model_integrity": [
+      "conceptual_model_preservation",
+      "distinct_lens_integrity",
+      "rubric_co_residence"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "transport_failure/binding_constraint_shift",
+    "transport_failure/conceptual_model_preservation",
+    "transport_failure/dependency_ordering",
+    "transport_failure/distinct_lens_integrity",
+    "transport_failure/in_plan_throughput",
+    "transport_failure/logos_independence",
+    "transport_failure/operator_fusion",
+    "transport_failure/rate_limit_economy",
+    "transport_failure/request_deduplication",
+    "transport_failure/rubric_co_residence",
+    "transport_failure/shared_raw_text_payload"
+  ]
+}

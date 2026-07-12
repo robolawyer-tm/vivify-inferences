@@ -1,0 +1,55 @@
+{
+  "id": "inf_a7c5c849",
+  "version": "1.0",
+  "timestamp": "2026-06-11T14:51:14.040226+00:00",
+  "source": "claude_session",
+  "raw_text": "Linux mounts USB drives by filesystem label rather than by port or controller enumeration order, which is how Windows assigns drive letters. This property is architecturally important for a two-drive rotation scheme: either drive can be plugged into any USB port and will mount under its own label, allowing a script to detect it by name without any configuration change. The Windows approach of enumerating by hardware competition means the same drive can receive a different letter depending on which port it uses, making label-independent detection fragile. Label-based mounting is the enabling condition for a portable, plug-any-drive backup script.",
+  "left_keywords": [
+    "label_based_mounting",
+    "hardware_enumeration_order",
+    "filesystem_label_identity",
+    "drive_letter_fragility",
+    "port_independence",
+    "configuration_free_detection",
+    "backup_rotation_portability",
+    "architectural_enabling_condition",
+    "detection_by_name",
+    "platform_design_contrast"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "mounting_identity": [
+      "filesystem_label_identity",
+      "hardware_enumeration_order",
+      "label_based_mounting"
+    ],
+    "platform_design_contrast": [
+      "drive_letter_fragility",
+      "platform_design_contrast",
+      "port_independence"
+    ],
+    "detection_and_configuration": [
+      "configuration_free_detection",
+      "detection_by_name"
+    ],
+    "backup_architecture": [
+      "architectural_enabling_condition",
+      "backup_rotation_portability"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": []
+}

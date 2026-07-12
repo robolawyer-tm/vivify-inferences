@@ -1,0 +1,90 @@
+{
+  "id": "inf_bbe9c5e0",
+  "version": "1.0",
+  "timestamp": "2026-06-11T16:47:54.159592+00:00",
+  "source": "claude_session_op",
+  "raw_text": "The session opened with a friction_state around filesystem format: two USB drives formatted NTFS were candidates for the Linux backup target, but NTFS silently drops execute bits, symlinks, and ownership \u2014 exactly the tribal_knowledge a shell-first practitioner holds about what makes a ~/repos directory recoverable versus merely present. The act was assertive \u2014 a claim that NTFS compatibility has no practical value on a machine that will never be handed to Windows \u2014 and it carried sovereign authority because the consequence is irreversible: a backup that cannot restore a working system is not a backup. The resolution came as a declaration: reformat as ext4, preserve WSL as the Windows bridge, close the format question permanently. Harmony was restored not by compromise but by elimination of the false constraint.",
+  "left_keywords": [
+    "ntfs_incompatibility",
+    "execute_bit_loss",
+    "symlink_ownership_drop",
+    "backup_recoverability",
+    "tribal_knowledge",
+    "shell_first_sovereignty",
+    "irreversible_consequence",
+    "assertive_declaration",
+    "false_constraint_elimination",
+    "no_compromise_resolution",
+    "working_system_integrity",
+    "ext4_migration"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "filesystem_incompatibility": [
+      "execute_bit_loss",
+      "ntfs_incompatibility",
+      "symlink_ownership_drop"
+    ],
+    "backup_integrity": [
+      "backup_recoverability",
+      "ext4_migration",
+      "working_system_integrity"
+    ],
+    "practitioner_authority": [
+      "irreversible_consequence",
+      "shell_first_sovereignty",
+      "tribal_knowledge"
+    ],
+    "resolution_pattern": [
+      "assertive_declaration",
+      "false_constraint_elimination",
+      "no_compromise_resolution"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "backup_recoverability/assertive_declaration",
+    "backup_recoverability/execute_bit_loss",
+    "backup_recoverability/ext4_migration",
+    "backup_recoverability/false_constraint_elimination",
+    "backup_recoverability/irreversible_consequence",
+    "backup_recoverability/no_compromise_resolution",
+    "backup_recoverability/ntfs_incompatibility",
+    "backup_recoverability/shell_first_sovereignty",
+    "backup_recoverability/symlink_ownership_drop",
+    "backup_recoverability/working_system_integrity",
+    "ntfs_incompatibility/assertive_declaration",
+    "ntfs_incompatibility/execute_bit_loss",
+    "ntfs_incompatibility/ext4_migration",
+    "ntfs_incompatibility/false_constraint_elimination",
+    "ntfs_incompatibility/irreversible_consequence",
+    "ntfs_incompatibility/no_compromise_resolution",
+    "ntfs_incompatibility/shell_first_sovereignty",
+    "ntfs_incompatibility/symlink_ownership_drop",
+    "ntfs_incompatibility/working_system_integrity",
+    "tribal_knowledge/assertive_declaration",
+    "tribal_knowledge/backup_recoverability",
+    "tribal_knowledge/execute_bit_loss",
+    "tribal_knowledge/ext4_migration",
+    "tribal_knowledge/false_constraint_elimination",
+    "tribal_knowledge/irreversible_consequence",
+    "tribal_knowledge/no_compromise_resolution",
+    "tribal_knowledge/ntfs_incompatibility",
+    "tribal_knowledge/shell_first_sovereignty",
+    "tribal_knowledge/symlink_ownership_drop",
+    "tribal_knowledge/working_system_integrity"
+  ]
+}

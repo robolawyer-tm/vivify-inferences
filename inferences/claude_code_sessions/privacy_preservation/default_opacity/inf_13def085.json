@@ -1,0 +1,80 @@
+{
+  "id": "inf_13def085",
+  "version": "1.0",
+  "timestamp": "2026-07-03T00:12:16.079169+00:00",
+  "source": "claude_session",
+  "raw_text": "The \"private\" domain was reframed after the user realized its contents were not raw personal data but Gemini's analysis describing the political strata of that personal data. This distinction changes both the sensitivity question and the relevance question, since an external model's analytical characterization is a fundamentally different object than raw field data. The resolution was to keep this material unreadable by default while allowing it to be re-tagged if the inferences ever need updating, preserving both privacy and the ability to maintain the store.",
+  "left_keywords": [
+    "reframing_insight",
+    "meta_analysis_object",
+    "derived_characterization",
+    "raw_data_distinction",
+    "political_strata_mapping",
+    "external_model_lens",
+    "sensitivity_reassessment",
+    "relevance_reassessment",
+    "default_opacity",
+    "retaggable_provenance",
+    "privacy_preservation",
+    "store_maintainability"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "object_reclassification": [
+      "derived_characterization",
+      "meta_analysis_object",
+      "raw_data_distinction",
+      "reframing_insight"
+    ],
+    "analytic_provenance": [
+      "external_model_lens",
+      "political_strata_mapping"
+    ],
+    "revised_stakes": [
+      "relevance_reassessment",
+      "sensitivity_reassessment"
+    ],
+    "guarded_mutability": [
+      "default_opacity",
+      "retaggable_provenance"
+    ],
+    "dual_safeguard": [
+      "privacy_preservation",
+      "store_maintainability"
+    ]
+  },
+  "category_paths": [
+    "privacy_preservation/default_opacity",
+    "privacy_preservation/derived_characterization",
+    "privacy_preservation/external_model_lens",
+    "privacy_preservation/meta_analysis_object",
+    "privacy_preservation/political_strata_mapping",
+    "privacy_preservation/relevance_reassessment",
+    "privacy_preservation/retaggable_provenance",
+    "privacy_preservation/sensitivity_reassessment",
+    "privacy_preservation/store_maintainability",
+    "raw_data_distinction/default_opacity",
+    "raw_data_distinction/derived_characterization",
+    "raw_data_distinction/external_model_lens",
+    "raw_data_distinction/meta_analysis_object",
+    "raw_data_distinction/political_strata_mapping",
+    "raw_data_distinction/privacy_preservation",
+    "raw_data_distinction/reframing_insight",
+    "raw_data_distinction/relevance_reassessment",
+    "raw_data_distinction/retaggable_provenance",
+    "raw_data_distinction/sensitivity_reassessment",
+    "raw_data_distinction/store_maintainability",
+    "reframing_insight/default_opacity",
+    "reframing_insight/derived_characterization",
+    "reframing_insight/external_model_lens",
+    "reframing_insight/meta_analysis_object",
+    "reframing_insight/political_strata_mapping",
+    "reframing_insight/privacy_preservation",
+    "reframing_insight/relevance_reassessment",
+    "reframing_insight/retaggable_provenance",
+    "reframing_insight/sensitivity_reassessment",
+    "reframing_insight/store_maintainability"
+  ],
+  "tension_score": 1.0,
+  "guardrail_actions": {}
+}

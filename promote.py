@@ -97,4 +97,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# llm: claude-opus-4-8 | 2026-07-10 | repos/vivify-operators/promote.py | created — promote stage: files categorized inferences from unclustered/ into <dir>/<category_paths[0]>/, unmatched stay in unclustered
+# llm: claude-opus-4-8 | 2026-07-10 | repos/vivify-inferences/promote.py | created — promote stage: files categorized inferences from unclustered/ into <dir>/<category_paths[0]>/, unmatched stay in unclustered

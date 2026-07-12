@@ -1,0 +1,66 @@
+{
+  "id": "inf_0ddc31d1",
+  "version": "1.0",
+  "timestamp": "2026-06-12T18:52:31.998937+00:00",
+  "source": "claude_session",
+  "raw_text": "Stripping ANSI escape sequences from terminal recordings was established as a necessary preprocessing step before session transcripts can serve as input to a text pipeline such as vivify. The approach considered was a Python `re.sub` pattern to remove ANSI sequences, with `ansistrip` from bsdutils named as the standard tool. This positions ANSI stripping as a recurring infrastructure concern whenever raw terminal output is treated as a document.",
+  "left_keywords": [
+    "terminal_recording",
+    "ansi_stripping",
+    "preprocessing_step",
+    "raw_terminal_output",
+    "session_transcript",
+    "text_pipeline",
+    "document_ingestion",
+    "recurring_infrastructure_concern",
+    "standard_tooling",
+    "signal_cleaning",
+    "pipeline_input"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "terminal_artifact": [
+      "raw_terminal_output",
+      "session_transcript",
+      "terminal_recording"
+    ],
+    "preprocessing_operation": [
+      "ansi_stripping",
+      "signal_cleaning"
+    ],
+    "pipeline_integration": [
+      "document_ingestion",
+      "pipeline_input",
+      "text_pipeline"
+    ],
+    "infrastructure_pattern": [
+      "preprocessing_step",
+      "recurring_infrastructure_concern",
+      "standard_tooling"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "ansi_stripping/document_ingestion",
+    "ansi_stripping/pipeline_input",
+    "ansi_stripping/preprocessing_step",
+    "ansi_stripping/raw_terminal_output",
+    "ansi_stripping/recurring_infrastructure_concern",
+    "ansi_stripping/session_transcript",
+    "ansi_stripping/signal_cleaning",
+    "ansi_stripping/standard_tooling",
+    "ansi_stripping/terminal_recording",
+    "ansi_stripping/text_pipeline",
+    "terminal_recording/document_ingestion",
+    "terminal_recording/pipeline_input",
+    "terminal_recording/preprocessing_step",
+    "terminal_recording/raw_terminal_output",
+    "terminal_recording/recurring_infrastructure_concern",
+    "terminal_recording/session_transcript",
+    "terminal_recording/signal_cleaning",
+    "terminal_recording/standard_tooling",
+    "terminal_recording/text_pipeline"
+  ]
+}

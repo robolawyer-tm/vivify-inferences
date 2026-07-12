@@ -1,0 +1,84 @@
+{
+  "id": "inf_b1631d2c",
+  "version": "1.0",
+  "timestamp": "2026-07-07T20:33:30.371667+00:00",
+  "source": "pillars/ECOSYSTEM_OVERVIEW.md",
+  "raw_text": "# Ecosystem Overview\n\nThis system predicts beneficial resolution paths from conflict data through functional models that self-evolve via inference accumulation and researcher-grounded operator refinement \u2014 explicitly excluding adversarial determination.\n\n**The non-schema is the philosophy expressed in infrastructure.** Autovivification (structure emerges from co-occurrence, never imposed) is the same move as the left pass (meaning emerges from felt sense, never from predefined taxonomy) is the same move as the anti-status-quo position (outcomes emerge from the conflict itself, not from institutional determination). These are not three things that rhyme \u2014 they are the same refusal operating at three layers of the stack simultaneously: data architecture, LLM prompt design, and social/political framing. A schema-first approach would be the status quo baked into the code.\n\n**Beneficial means constructive, not adversarial.** Courts, legal outcomes, and institutional adjudication are excluded as targets even when that material enters as conflict data. The project positions against status quo adversarial structures; the research filter selects only frameworks oriented toward constructive resolution (collaborating, compromising, accommodating) and excludes frameworks that normalize win/lose determination or institutional authority over individuals. \"Agreeable researchers\" means researchers who model constructive dynamics: Austin, Searle, Grice, Douglas, Granovetter, Glasl, Durkheim, Bandura \u2014 not legal theorists or court process models.\n\n---\n\n## Conceptual layer \u2014 `pillars/`\n\nThe theory, schemas, and standards that all other repos implement.\n\n- `logos/` \u2014 operator schemas only, no code: `logos_schema_v01.json` (functional, 7 dimensions), `logos_social_v01.json` (structural, Dunbar layers), `logos_combined_v01.json`\n\n  **Logos as the bridge between left and right.** The logos schema is not an invented taxonomy \u2014 it describes evolved human organizational logic: how people speak to produce effects (Austin, Searle), how conversation maintains coherence (Grice), how groups structure authority and social distance (Douglas grid/group, Dunbar layers). Because logos captures what human society already does, both the left pass (felt meaning, organic social logic) and the right pass (structural, digital) are reaching toward the same substrate from different angles. The left pass arrives as semantic weight in natural language \u2014 \"evolved logic as logos.\" The right pass arrives as structural coordinates. Logos is what makes them commensurate. LLMs trained on human text already carry implicit logos knowledge; the schema makes that knowledge explicit and navigable, which is why this framework improves LLM comprehension of human organization rather than just indexing it.\n- `FABRIC.md` / `FABRIC.json` \u2014 the five FABRIC components: vivify, payload, secrecy, freeze, server\n- `FLOW.md` \u2014 pipeline connections: how FABRIC components chain; actualized vs. latent flows\n- `WRITING_IN_REVERSE.md` \u2014 constructivist inquiry model: final learning first; the halting criterion shared with the co-occurrence graph and AI round-robin\n- `doc_standard_v1.json` \u2014 one defining sentence + bullets; governs all documentation\n- `capture/inbox.md` \u2014 intake for new ideas; written during /wrapup\n- `MULTI_MODEL_CONVERGENCE.md` \u2014 multi-model round-robin; intermediate embedding accumulation\n\n---\n\n## Inference pipeline \u2014 `vivify-inferences/` (canonical)\n\nThe active development repo. Processes raw text into operator-tagged JSON and regenerates prose from coordinates.\n\n### Core pipeline (four passes)\n\n| Script | Pass | What it does |\n|---|---|---|\n| `vivify.py` | 1 \u2014 left semantic | LLM extracts 8\u201312 concept-level keywords + clumps from felt meaning |\n| `right_pass.py` | 2 \u2014 right structural | Attaches fixed structural keywords describing the pipeline; normalizes synonyms |\n| `categorize.py` | 3 \u2014 emergent filing | Co-occurrence graph \u2192 seed keywords \u2192 category paths; moves inference files into directories |\n| `tension_score.py` | 4 \u2014 divergence | `1 - (shared / total)`; high tension = felt meaning resists structural capture |\n| `fabric.py` | runner | Chains all four passes in sequence |\n\n### Inverse pass\n\n| Script | What it does |\n|---|---|\n| `reify.py` | Reconstructs prose from coordinates (left_keywords, clumps, category_paths, tension_score). Three modes: single / synthesize / voice. Voice mode speaks for an entire category \u2014 this is the public output text. All LLM calls use `claude -p --no-session-persistence` subprocess. |\n\n### Session capture tools\n\n| Script | What it does |\n|---|---|\n| `session_to_chat.py` | col-b terminal \u2192 styled HTML chat + clean markdown |\n| `session_extract.py` | Clean markdown \u2192 3\u20138 prose inferences \u2192 vivify (plain extraction) |\n| `session_extract_op.py` | Same, but operator-aware: logos schema vocabulary in prompt \u2192 operator-calibrated keywords |\n| `jsonl_to_md.py` | Claude Code `.jsonl` session \u2192 LLM-friendly markdown (783KB \u2192 57KB) |\n| `inf_to_md.py` | Inference dir \u2192 single markdown doc for LLM search or comparison |\n\n### Inference store domains\n\n```\ninferences/\n\u251c\u2500\u2500 autovivification/       \u2190 public: meta-synthesis, multi-model convergence\n\u2502   \u251c\u2500\u2500 analogical_religion/\n\u2502   \u251c\u2500\u2500 agentic_self_evolution/\n\u2502   \u2514\u2500\u2500 ...\n\u251c\u2500\u2500 private/                \u2190 real conflict material; not distributed\n\u251c\u2500\u2500 claude_code_sessions/   \u2190 session domain; operator-calibrated; isolated from logos graph\n\u2502   \u2514\u2500\u2500 unclustered/        \u2190 9 inferences (2026-06-11); needs right_pass/categorize/tension_score\n\u2514\u2500\u2500 unclustered/\n```\n\n### All LLM calls\n\nAll scripts use `claude -p --no-session-persistence` subprocess. No API key, no `anthropic` package required.\n\n---\n\n## Operators layer \u2014 `vivify-operators/`\n\nContains the logos operator suite not yet integrated into `vivify-inferences/`.\n\n- `logos_operator.py` \u2014 runs all 8 logos dimensions in sequence on one inference; writes `inference[\"logos\"]`\n- `conflict_operator.py` \u2014 reads completed logos coordinates; outputs `inference[\"conflict\"]`: schema, behavior, terrain, window, escalation_phase\n- Individual dimension operators: `act_type_operator.py`, `authority_operator.py`, `cooperative_operator.py`, `resonance_operator.py`, `social_field_operator.py`, `structural_operator.py`, `transmission_operator.py`, `utility_operator.py`\n- `logos_narrative.py` \u2014 reads tagged inference \u2192 one plain-English sentence (rename pending: \u2192 `logos_plain_read.py`)\n\n**Conflict styles as plain_read vocabulary (candidate):** Five response modes from conflict resolution research \u2014 competing, avoiding, accommodating, compromising, collaborating \u2014 are candidate labels for the constructive output layer. When `reify --voice` or `plain_read` points toward a restoration path, these modes give it a vocabulary: \"this terrain calls for accommodating\" is more actionable than a coordinate set. Not yet implemented; planned as a labeling target for the plain_read output pass.\n\n### \u26a0 Split issue (unresolved, 2026-06-12)\n\n`vivify-operators/` duplicates all FABRIC pipeline scripts (`vivify.py`, `reify.py`, `right_pass.py`, `categorize.py`, `fabric.py`, `tension_score.py`, `lib/`, `config/`) and has its own inference store (identical to `vivify-inferences/` minus `claude_code_sessions/`). The duplicate scripts are behind: `vivify-operators/reify.py` still uses `anthropic.Anthropic()`; `vivify-inferences/reify.py` has the subprocess fix.\n\n**Canonical repo is `vivify-inferences/`.** The operators from `vivify-operators/` need to be integrated into `vivify-inferences/` as part of the major pivot cleanup.\n\n---\n\n## Storage \u2014 `secret-server/`\n\nPhone-based encrypted JSON vault running on Android/Termux via Flask.\n\n- `web_server.py` \u2014 Flask app serving the vivify interface; stores encrypted payloads\n- `main.py` \u2014 entry point\n- `db/` \u2014 encrypted JSON payloads on device filesystem\n- Two-layer auth: login password (UI access) + secret password (browser-side encryption key, never sent to server)\n- FABRIC components implemented: vivify (interface), secrecy (browser encryption), payload (packaging), server (storage)\n\n---\n\n## Network \u2014 `star-bridge/`\n\nTurns an Android device into a persistent SSH/SSHFS hub (star topology).\n\n- `ssh_admin_connection.py` \u2014 laptop client; auto-detects USB/Bluetooth path; establishes SSH tunnels + SSHFS mount; self-heals\n- `hub_manager.py` \u2014 Android orchestrator; manages `sshd`, `auth-server`, `web-server` lifecycle; handles wake-locks\n- `auth-server/auth_server.py` \u2014 authentication server running on the hub alongside secret-server\n- Status: parked pending second Android phone (star topology needs two nodes)\n\n---\n\n## Housekeeping \u2014 `sys_adm/`\n\nLocal admin scripts. Source of truth for all scripts deployed to `~/bin/`.\n\n| Script | Purpose |\n|---|---|\n| `backit` | Mirrors file to `~/backups/` before any edit |\n| `publish_repos` | rsync to Namecheap (wholesystemsmodel.org) + generates llms.txt |\n| `desktop_backup` | USB drive backup (ext4, inference_1/inference_2) |\n| `shell_template` | Base template for new shell scripts |\n| `shell_template_exec` | Template for library/executable hybrids |\n| `shell_template_pipx` | Template for pipx-wrapped Python scripts |\n\n**Gap (parked):** No automated deploy step from `sys_adm/` to `~/bin/`. Scripts updated in `sys_adm/` diverge silently from what runs. Planned: git-diff-based deploy in `/wrapup`.\n\n---\n\n## Distribution \u2014 `robolawyer-tm.github.io/`\n\nGitHub Pages blog. Public output layer for the project.\n\n- `_posts/` \u2014 blog posts in markdown; JSON-LD auto-generated per post via `_layouts/post.html`\n- `llms.txt` / `llms-full.txt` \u2014 LLM agent entry points (runtime), mirrored to wholesystemsmodel.org\n- `index.html` \u2014 project entry page; needs intent-first restructure (pending)\n- Distributed via `publish_repos` (rsync) + `git push` in `/wrapup`\n\n---\n\n## Data flow\n\n```\nraw conflict/session text\n    \u2502\n    \u25bc\nvivify.py (left semantic pass) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n    \u2502                                                         \u2502\n    \u25bc                                                         \u2502\nright_pass.py (structural pass)                               \u2502\n    \u2502                                                         \u2502\n    \u25bc                                                         \u2502\ncategorize.py (co-occurrence \u2192 category dirs)                 \u2502\n    \u2502                                                         \u2502\n    \u25bc                                                         \u2502\ntension_score.py (left/right divergence)                      \u2502\n    \u2502                                                         \u2502\n    \u25bc                                                         \u2502\ninf_*.json in inferences/<domain>/                            \u2502\n    \u2502                                                         \u2502\n    \u251c\u2500\u2500\u25b6 logos_operator.py \u2192 inference[\"logos\"] coordinates   \u2502\n    \u2502        \u2502                                                 \u2502\n    \u2502        \u25bc                                                 \u2502\n    \u2502    conflict_operator.py \u2192 inference[\"conflict\"]          \u2502\n    \u2502                                                          \u2502\n    \u2514\u2500\u2500\u25b6 reify.py --voice <category>  \u25c0\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n              \u2502\n              \u25bc\n         public output text\n              \u2502\n              \u25bc\n    robolawyer-tm.github.io (blog)\n    wholesystemsmodel.org (via publish_repos)\n```\n\n---\n\n## What is not yet connected\n\n- Logos operators (`vivify-operators/`) not yet called from `vivify-inferences/` pipeline\n- `claude_code_sessions` domain: `right_pass`, `tension_score`, `categorize` not yet run\n- `secret-server` not yet receiving vivify output (FABRIC payload/freeze/server chain not wired)\n- `star-bridge` parked pending second Android phone\n\n<!-- llm: claude-sonnet-4-6 | 2026-06-12 | repos/pillars/ECOSYSTEM_OVERVIEW.md | created \u2014 full ecosystem map: pillars, vivify-inferences, vivify-operators, secret-server, star-bridge, sys_adm, distribution layer; two-repo split issue documented -->\n<!-- llm: claude-sonnet-4-6 | 2026-06-12 | repos/pillars/ECOSYSTEM_OVERVIEW.md | added conflict phenomenology model framing to intro; added conflict styles (competing/avoiding/accommodating/compromising/collaborating) as candidate plain_read vocabulary -->\n<!-- llm: claude-sonnet-4-6 | 2026-06-12 | repos/pillars/ECOSYSTEM_OVERVIEW.md | updated defining sentence: self-evolving functional models, researcher-grounded; added adversarial exclusion \u2014 courts/legal outcomes explicitly excluded as targets; beneficial criterion defined -->\n<!-- llm: claude-sonnet-4-6 | 2026-06-12 | repos/pillars/ECOSYSTEM_OVERVIEW.md | added non-schema/left-pass/anti-status-quo isomorphism \u2014 same refusal at three stack layers -->\n<!-- llm: claude-sonnet-4-6 | 2026-06-12 | repos/pillars/ECOSYSTEM_OVERVIEW.md | added logos-as-bridge note \u2014 evolved human organizational logic as commensurate substrate for left and right passes; LLM comprehension claim -->",
+  "left_keywords": [
+    "emergent_structure",
+    "schema_refusal",
+    "felt_meaning_extraction",
+    "anti_adversarial_stance",
+    "constructive_resolution",
+    "institutional_exclusion",
+    "logos_bridge",
+    "left_right_commensurability",
+    "evolved_social_logic",
+    "self_evolving_pipeline",
+    "prose_reconstruction",
+    "repo_split_divergence",
+    "local_first_privacy",
+    "layered_isomorphism",
+    "tension_divergence",
+    "researcher_grounding"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "philosophical_refusal": [
+      "schema_refusal",
+      "emergent_structure",
+      "layered_isomorphism",
+      "anti_adversarial_stance"
+    ],
+    "resolution_orientation": [
+      "constructive_resolution",
+      "institutional_exclusion",
+      "researcher_grounding"
+    ],
+    "logos_substrate": [
+      "logos_bridge",
+      "evolved_social_logic",
+      "left_right_commensurability"
+    ],
+    "pipeline_mechanics": [
+      "felt_meaning_extraction",
+      "self_evolving_pipeline",
+      "tension_divergence",
+      "prose_reconstruction"
+    ],
+    "system_condition": [
+      "repo_split_divergence",
+      "local_first_privacy"
+    ]
+  },
+  "category_paths": [
+    "emergent_structure/anti_adversarial_stance",
+    "emergent_structure/constructive_resolution",
+    "emergent_structure/evolved_social_logic",
+    "emergent_structure/felt_meaning_extraction",
+    "emergent_structure/institutional_exclusion",
+    "emergent_structure/layered_isomorphism",
+    "emergent_structure/left_right_commensurability",
+    "emergent_structure/local_first_privacy",
+    "emergent_structure/logos_bridge",
+    "emergent_structure/prose_reconstruction",
+    "emergent_structure/repo_split_divergence",
+    "emergent_structure/researcher_grounding",
+    "emergent_structure/schema_refusal",
+    "emergent_structure/self_evolving_pipeline",
+    "emergent_structure/tension_divergence"
+  ],
+  "tension_score": 1.0,
+  "guardrail_actions": {}
+}

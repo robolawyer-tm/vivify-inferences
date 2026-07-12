@@ -1,0 +1,48 @@
+{
+  "id": "inf_4a7a62b8",
+  "version": "1.0",
+  "timestamp": "2026-06-12T18:51:50.815791+00:00",
+  "source": "claude_session",
+  "raw_text": "The user resumed a prior Claude Code session rather than starting fresh, using the `/resume` command with a specific session ID. This indicates a working pattern in which development sessions are treated as persistent, resumable artifacts rather than ephemeral conversations \u2014 continuity of context is preserved deliberately across terminal invocations.",
+  "left_keywords": [
+    "session_continuity",
+    "resumable_artifact",
+    "context_preservation",
+    "ephemeral_rejection",
+    "session_identity",
+    "deliberate_workflow",
+    "persistence_preference",
+    "cross_session_memory",
+    "terminal_invocation",
+    "development_continuity",
+    "session_as_artifact",
+    "working_pattern"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "persistence_model": [
+      "ephemeral_rejection",
+      "resumable_artifact",
+      "session_identity"
+    ],
+    "context_continuity": [
+      "context_preservation",
+      "cross_session_memory",
+      "development_continuity"
+    ],
+    "intentional_practice": [
+      "deliberate_workflow",
+      "persistence_preference",
+      "working_pattern"
+    ],
+    "session_ontology": [
+      "session_as_artifact",
+      "session_continuity",
+      "terminal_invocation"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": []
+}

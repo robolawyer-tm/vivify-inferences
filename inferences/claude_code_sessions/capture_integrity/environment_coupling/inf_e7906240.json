@@ -1,0 +1,65 @@
+{
+  "id": "inf_e7906240",
+  "version": "1.0",
+  "timestamp": "2026-06-07T23:02:57.329686+00:00",
+  "source": "claude_session",
+  "raw_text": "The capture script was designed specifically for the MATE terminal emulator used on Linux Mint, using `mate-terminal -e` to spawn a new terminal window running a bash subshell. This approach \u2014 launching the capture in a separate terminal \u2014 keeps the recording session visually distinct from the shell that invoked it and avoids self-referential capture problems where the script command would record its own invocation.",
+  "left_keywords": [
+    "subprocess_invocation",
+    "session_separation",
+    "shell_isolation",
+    "self_referential_capture",
+    "invocation_contamination",
+    "recursive_capture_avoidance",
+    "visual_isolation",
+    "capture_integrity",
+    "environment_coupling",
+    "platform_specificity"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "terminal_spawning_strategy": [
+      "session_separation",
+      "shell_isolation",
+      "subprocess_invocation"
+    ],
+    "self_reference_problem": [
+      "invocation_contamination",
+      "recursive_capture_avoidance",
+      "self_referential_capture"
+    ],
+    "visual_distinction": [
+      "capture_integrity",
+      "visual_isolation"
+    ],
+    "platform_coupling": [
+      "environment_coupling",
+      "platform_specificity"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "capture_integrity/environment_coupling",
+    "capture_integrity/invocation_contamination",
+    "capture_integrity/platform_specificity",
+    "capture_integrity/recursive_capture_avoidance",
+    "capture_integrity/self_referential_capture",
+    "capture_integrity/session_separation",
+    "capture_integrity/shell_isolation",
+    "capture_integrity/subprocess_invocation",
+    "capture_integrity/visual_isolation"
+  ]
+}

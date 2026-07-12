@@ -1,0 +1,66 @@
+{
+  "id": "inf_fc45baff",
+  "version": "1.0",
+  "timestamp": "2026-06-12T18:52:19.454609+00:00",
+  "source": "claude_session",
+  "raw_text": "The session involved working with raw terminal session logs stored at `~/logs/claude/` as dated `.md` files, produced by the `script` command. These logs contain ANSI escape sequences interspersed with content, making them unreadable as plain text. The core problem identified was that a session transcript file was corrupted by terminal control codes and needed preprocessing before its textual content could be extracted or used downstream.",
+  "left_keywords": [
+    "raw_session_logs",
+    "dated_file_format",
+    "unix_script_command",
+    "ansi_escape_sequences",
+    "content_corruption",
+    "log_preprocessing",
+    "transcript_cleaning",
+    "human_readability",
+    "content_extraction",
+    "pipeline_readiness",
+    "downstream_usability"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "log_provenance": [
+      "dated_file_format",
+      "raw_session_logs",
+      "unix_script_command"
+    ],
+    "terminal_contamination": [
+      "ansi_escape_sequences",
+      "content_corruption"
+    ],
+    "preprocessing_requirement": [
+      "extraction_requirement",
+      "log_preprocessing",
+      "transcript_cleaning"
+    ],
+    "downstream_readiness": [
+      "content_extraction",
+      "human_readability",
+      "pipeline_readiness"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "human_readability/ansi_escape_sequences",
+    "human_readability/content_corruption",
+    "human_readability/content_extraction",
+    "human_readability/dated_file_format",
+    "human_readability/downstream_usability",
+    "human_readability/log_preprocessing",
+    "human_readability/pipeline_readiness",
+    "human_readability/raw_session_logs",
+    "human_readability/transcript_cleaning",
+    "human_readability/unix_script_command",
+    "unix_script_command/ansi_escape_sequences",
+    "unix_script_command/content_corruption",
+    "unix_script_command/content_extraction",
+    "unix_script_command/dated_file_format",
+    "unix_script_command/downstream_usability",
+    "unix_script_command/log_preprocessing",
+    "unix_script_command/pipeline_readiness",
+    "unix_script_command/raw_session_logs",
+    "unix_script_command/transcript_cleaning"
+  ]
+}

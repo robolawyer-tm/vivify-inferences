@@ -1,0 +1,91 @@
+{
+  "id": "inf_c8e1ac73",
+  "version": "1.0",
+  "timestamp": "2026-04-15T21:32:20.850171+00:00",
+  "source": "manual",
+  "context": "Darwin attributed human morality to the evolution of animal affection. Spirituality is the container that holds and transmits morality. Therefore Darwin explains god, church, and religious institution better than intelligent design or any theistic alternative \u2014 not by debunking them but by accounting for them as evolutionary structure. 'Wacky thoughts like this' refers to this position. Neo-Darwinian use of evolution as a weapon against religion misapplies Darwin's own baseline. Where Darwinism goes after Darwin is outside scope.",
+  "raw_text": "Problem here for me is that evolution becomes a weapon against wacky thoughts like this and others from that era. Extending Darwin and others I see spirituality and religion as containers for human morality genuinely evolving into beneficial syntheses such as constructivism and applied humanistics. AI has gotten me to stop using synthesis as a bad word.",
+  "left_keywords": [
+    "evolution_as_weapon",
+    "spiritual_container",
+    "moral_evolution",
+    "constructivism",
+    "applied_humanistics",
+    "synthesis_rehabilitation",
+    "beneficial_synthesis",
+    "morality_container",
+    "logos_evolution",
+    "dual_practice_evidence",
+    "unconventional_thought_suppression",
+    "analogical_religion"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "synthesis_recovery": [
+      "beneficial_synthesis",
+      "logos_evolution",
+      "synthesis_rehabilitation"
+    ],
+    "moral_containers": [
+      "dual_practice_evidence",
+      "morality_container",
+      "spiritual_container"
+    ],
+    "evolution_tension": [
+      "evolution_as_weapon",
+      "moral_evolution",
+      "unconventional_thought_suppression"
+    ],
+    "applied_frameworks": [
+      "analogical_religion",
+      "applied_humanistics",
+      "constructivism"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "logos",
+  "category_paths": [
+    "applied_humanistics/analogical_religion",
+    "applied_humanistics/beneficial_synthesis",
+    "applied_humanistics/constructivism",
+    "applied_humanistics/dual_practice_evidence",
+    "applied_humanistics/evolution_as_weapon",
+    "applied_humanistics/logos_evolution",
+    "applied_humanistics/morality_container",
+    "applied_humanistics/spiritual_container",
+    "applied_humanistics/synthesis_rehabilitation",
+    "applied_humanistics/unconventional_thought_suppression",
+    "beneficial_synthesis/analogical_religion",
+    "beneficial_synthesis/constructivism",
+    "beneficial_synthesis/dual_practice_evidence",
+    "beneficial_synthesis/evolution_as_weapon",
+    "beneficial_synthesis/logos_evolution",
+    "beneficial_synthesis/morality_container",
+    "beneficial_synthesis/spiritual_container",
+    "beneficial_synthesis/synthesis_rehabilitation",
+    "beneficial_synthesis/unconventional_thought_suppression",
+    "moral_evolution/analogical_religion",
+    "moral_evolution/applied_humanistics",
+    "moral_evolution/beneficial_synthesis",
+    "moral_evolution/constructivism",
+    "moral_evolution/dual_practice_evidence",
+    "moral_evolution/evolution_as_weapon",
+    "moral_evolution/logos_evolution",
+    "moral_evolution/morality_container",
+    "moral_evolution/spiritual_container",
+    "moral_evolution/synthesis_rehabilitation",
+    "moral_evolution/unconventional_thought_suppression"
+  ]
+}

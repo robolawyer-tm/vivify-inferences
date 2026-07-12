@@ -108,4 +108,4 @@ if __name__ == "__main__":
         print(f"  {kw}: degree {deg}")
 
 # llm: claude-sonnet-4-6 | 2026-04-15 | repos/vivify-inferences/lib/keyword_graph.py | created — co-occurrence graph, degree analysis, tension scoring
-# llm: claude-fable-5 | 2026-07-10 | repos/vivify-operators/lib/keyword_graph.py | build_graph now left_keywords only — right pipeline terms contaminated the emergent category tree
+# llm: claude-fable-5 | 2026-07-10 | repos/vivify-inferences/lib/keyword_graph.py | build_graph now left_keywords only — right pipeline terms contaminated the emergent category tree

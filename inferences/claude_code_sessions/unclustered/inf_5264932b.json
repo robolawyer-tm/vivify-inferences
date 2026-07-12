@@ -1,0 +1,59 @@
+{
+  "id": "inf_5264932b",
+  "version": "1.0",
+  "timestamp": "2026-06-11T14:51:28.096278+00:00",
+  "source": "claude_session",
+  "raw_text": "A classic two-drive rotation discipline was identified as more operationally useful than simple redundancy: after each backup run, write a sentinel timestamp file to the drive; on the next run, compare timestamps across whichever drives are mounted and prefer the staler one. This ensures one drive is always a step behind the other, so if a fresh backup is corrupted or incomplete, the previous session's data is still intact on the second drive. The rotation logic becomes a property of the backup script itself rather than a manual discipline imposed on the operator.",
+  "left_keywords": [
+    "rotation_discipline",
+    "sentinel_timestamp",
+    "staleness_preference",
+    "temporal_offset",
+    "corruption_resilience",
+    "prior_session_preservation",
+    "script_encoded_logic",
+    "operator_burden_reduction",
+    "redundancy_distinction",
+    "recovery_window",
+    "write_sequencing",
+    "mount_awareness"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "rotation_mechanics": [
+      "sentinel_timestamp",
+      "staleness_preference",
+      "temporal_offset",
+      "write_sequencing"
+    ],
+    "failure_recovery": [
+      "corruption_resilience",
+      "prior_session_preservation",
+      "recovery_window"
+    ],
+    "design_philosophy": [
+      "operator_burden_reduction",
+      "redundancy_distinction",
+      "script_encoded_logic"
+    ],
+    "runtime_context": [
+      "mount_awareness",
+      "rotation_discipline"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": []
+}

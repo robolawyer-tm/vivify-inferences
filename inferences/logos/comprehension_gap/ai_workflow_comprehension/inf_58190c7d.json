@@ -1,0 +1,78 @@
+{
+  "id": "inf_58190c7d",
+  "version": "1.0",
+  "timestamp": "2026-04-15T21:37:22.887098+00:00",
+  "source": "manual",
+  "raw_text": "Looking at AI workflows to find ways to use various iterations of embedded data to cover over holes resulting in the chunking process - get better comprehension of input data and meaning. Chunking creates gaps in semantic continuity. Iterative embedding passes can cover those holes. The goal is meaning preservation and better comprehension of input data across chunk boundaries.",
+  "left_keywords": [
+    "chunking_artifact",
+    "semantic_gap_coverage",
+    "embedded_data_iteration",
+    "ai_workflow_design",
+    "meaning_preservation",
+    "context_continuity",
+    "iterative_embedding",
+    "comprehension_gap",
+    "input_data_fidelity",
+    "ai_workflow_comprehension",
+    "iterative_semantic_pass"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "chunking_problem": [
+      "chunking_artifact",
+      "comprehension_gap",
+      "context_continuity"
+    ],
+    "solution_approach": [
+      "embedded_data_iteration",
+      "iterative_embedding",
+      "semantic_gap_coverage"
+    ],
+    "workflow_design": [
+      "ai_workflow_comprehension",
+      "ai_workflow_design",
+      "iterative_semantic_pass"
+    ],
+    "goal": [
+      "input_data_fidelity",
+      "meaning_preservation",
+      "semantic_gap_coverage"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "logos",
+  "category_paths": [
+    "comprehension_gap/ai_workflow_comprehension",
+    "comprehension_gap/ai_workflow_design",
+    "comprehension_gap/chunking_artifact",
+    "comprehension_gap/context_continuity",
+    "comprehension_gap/input_data_fidelity",
+    "comprehension_gap/iterative_embedding",
+    "comprehension_gap/iterative_semantic_pass",
+    "comprehension_gap/meaning_preservation",
+    "comprehension_gap/semantic_gap_coverage",
+    "embedded_data_iteration/ai_workflow_comprehension",
+    "embedded_data_iteration/ai_workflow_design",
+    "embedded_data_iteration/chunking_artifact",
+    "embedded_data_iteration/comprehension_gap",
+    "embedded_data_iteration/context_continuity",
+    "embedded_data_iteration/input_data_fidelity",
+    "embedded_data_iteration/iterative_embedding",
+    "embedded_data_iteration/iterative_semantic_pass",
+    "embedded_data_iteration/meaning_preservation",
+    "embedded_data_iteration/semantic_gap_coverage"
+  ]
+}

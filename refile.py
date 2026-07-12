@@ -149,4 +149,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# llm: claude-fable-5 | 2026-07-12 | repos/vivify-operators/refile.py | created — refile pass per reify_phase2_spec_r1 step 2: filed->refiled/demoted complement of promote.py, moves id-matched siblings, retires emptied dirs
+# llm: claude-fable-5 | 2026-07-12 | repos/vivify-inferences/refile.py | created — refile pass per reify_phase2_spec_r1 step 2: filed->refiled/demoted complement of promote.py, moves id-matched siblings, retires emptied dirs

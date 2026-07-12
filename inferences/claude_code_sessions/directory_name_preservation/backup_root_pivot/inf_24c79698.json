@@ -1,0 +1,81 @@
+{
+  "id": "inf_24c79698",
+  "version": "1.0",
+  "timestamp": "2026-06-11T16:53:05.522122+00:00",
+  "source": "claude_session_op",
+  "raw_text": "A structural pivot was made from treating $HOME/Desktop as the backup root \u2014 inherited directly from the Windows script \u2014 to treating $HOME itself as the effective desktop. The authority stated for this was the user's DEC VAX-era CLI orientation: \"I never look at the screen on Linux.\" This reframes the home directory not as a GUI landing zone but as the command surface where all work lives, making Desktop-as-metaphor inapplicable. The tribal_knowledge is that the desktop abstraction only holds in GUI environments; on a CLI-first machine the home directory is the functional equivalent. The directive was to change SRC in the backup script while preserving the logical directory names \u2014 picts, info, docs \u2014 consistent across the Windows-to-Linux mapping. The harmony_restoration is a filesystem structure readable in both contexts: the same human intent expressed at different root paths, without imposing external taxonomies on either.",
+  "left_keywords": [
+    "cli_first_orientation",
+    "home_directory_reframing",
+    "command_surface_primacy",
+    "gui_abstraction_inapplicability",
+    "desktop_metaphor_failure",
+    "tribal_knowledge",
+    "windows_to_linux_mapping",
+    "directory_name_preservation",
+    "human_intent_portability",
+    "backup_root_pivot",
+    "taxonomy_resistance",
+    "cross_platform_harmony"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "environmental_reframing": [
+      "cli_first_orientation",
+      "command_surface_primacy",
+      "home_directory_reframing"
+    ],
+    "gui_abstraction_collapse": [
+      "desktop_metaphor_failure",
+      "gui_abstraction_inapplicability",
+      "tribal_knowledge"
+    ],
+    "cross_platform_continuity": [
+      "directory_name_preservation",
+      "human_intent_portability",
+      "windows_to_linux_mapping"
+    ],
+    "filesystem_integrity": [
+      "backup_root_pivot",
+      "cross_platform_harmony",
+      "taxonomy_resistance"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "directory_name_preservation/backup_root_pivot",
+    "directory_name_preservation/cli_first_orientation",
+    "directory_name_preservation/command_surface_primacy",
+    "directory_name_preservation/cross_platform_harmony",
+    "directory_name_preservation/desktop_metaphor_failure",
+    "directory_name_preservation/gui_abstraction_inapplicability",
+    "directory_name_preservation/home_directory_reframing",
+    "directory_name_preservation/human_intent_portability",
+    "directory_name_preservation/taxonomy_resistance",
+    "directory_name_preservation/windows_to_linux_mapping",
+    "tribal_knowledge/backup_root_pivot",
+    "tribal_knowledge/cli_first_orientation",
+    "tribal_knowledge/command_surface_primacy",
+    "tribal_knowledge/cross_platform_harmony",
+    "tribal_knowledge/desktop_metaphor_failure",
+    "tribal_knowledge/directory_name_preservation",
+    "tribal_knowledge/gui_abstraction_inapplicability",
+    "tribal_knowledge/home_directory_reframing",
+    "tribal_knowledge/human_intent_portability",
+    "tribal_knowledge/taxonomy_resistance",
+    "tribal_knowledge/windows_to_linux_mapping"
+  ]
+}

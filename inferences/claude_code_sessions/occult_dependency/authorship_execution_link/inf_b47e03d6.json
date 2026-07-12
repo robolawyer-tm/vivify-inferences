@@ -1,0 +1,98 @@
+{
+  "id": "inf_b47e03d6",
+  "version": "1.0",
+  "timestamp": "2026-06-11T16:53:51.990152+00:00",
+  "source": "claude_session_op",
+  "raw_text": "The session surfaced an occult_dependency in the tooling infrastructure: sys_adm is designated as the source of truth for shell scripts, ~/bin is the runtime deployment, but no mechanism enforces consistency between them. Scripts updated in sys_adm silently diverge from what runs until manually copied, a gap that materialized mid-session when desktop_backup was updated in sys_adm but ~/bin still held the old version. The commissive act \u2014 \"I am thinking an addon to sys_adm in wrapup or something similar, part of the major pivot is cleaning up\" \u2014 parks a planned resolution: a deploy step keyed to recent git changes in sys_adm, integrated into the /wrapup session-close sequence. The tribal_knowledge operating here is that deploy steps are not administrative overhead but the structural link between authorship and execution. The resonance state is friction_named rather than harmony_restored: the gap is identified, the fix is commissioned, and the session closes without implementing it \u2014 deferral acknowledged rather than forgotten.",
+  "left_keywords": [
+    "occult_dependency",
+    "silent_divergence",
+    "source_deployment_gap",
+    "authorship_execution_link",
+    "tribal_knowledge",
+    "deploy_enforcement",
+    "commissive_resolution",
+    "wrapup_integration",
+    "deploy_step_commissioning",
+    "deferred_implementation",
+    "friction_named",
+    "closure_without_resolution"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "infrastructure_gap": [
+      "occult_dependency",
+      "silent_divergence",
+      "source_deployment_gap"
+    ],
+    "structural_link": [
+      "authorship_execution_link",
+      "deploy_enforcement",
+      "tribal_knowledge"
+    ],
+    "commissive_intent": [
+      "commissive_resolution",
+      "deploy_step_commissioning",
+      "wrapup_integration"
+    ],
+    "deferral_acknowledged": [
+      "closure_without_resolution",
+      "deferred_implementation",
+      "friction_named"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "occult_dependency/authorship_execution_link",
+    "occult_dependency/closure_without_resolution",
+    "occult_dependency/commissive_resolution",
+    "occult_dependency/deferred_implementation",
+    "occult_dependency/deploy_enforcement",
+    "occult_dependency/deploy_step_commissioning",
+    "occult_dependency/friction_named",
+    "occult_dependency/silent_divergence",
+    "occult_dependency/source_deployment_gap",
+    "occult_dependency/tribal_knowledge",
+    "occult_dependency/wrapup_integration",
+    "source_deployment_gap/authorship_execution_link",
+    "source_deployment_gap/closure_without_resolution",
+    "source_deployment_gap/commissive_resolution",
+    "source_deployment_gap/deferred_implementation",
+    "source_deployment_gap/deploy_enforcement",
+    "source_deployment_gap/deploy_step_commissioning",
+    "source_deployment_gap/friction_named",
+    "source_deployment_gap/silent_divergence",
+    "source_deployment_gap/wrapup_integration",
+    "tribal_knowledge/authorship_execution_link",
+    "tribal_knowledge/closure_without_resolution",
+    "tribal_knowledge/commissive_resolution",
+    "tribal_knowledge/deferred_implementation",
+    "tribal_knowledge/deploy_enforcement",
+    "tribal_knowledge/deploy_step_commissioning",
+    "tribal_knowledge/friction_named",
+    "tribal_knowledge/silent_divergence",
+    "tribal_knowledge/source_deployment_gap",
+    "tribal_knowledge/wrapup_integration",
+    "wrapup_integration/authorship_execution_link",
+    "wrapup_integration/closure_without_resolution",
+    "wrapup_integration/commissive_resolution",
+    "wrapup_integration/deferred_implementation",
+    "wrapup_integration/deploy_enforcement",
+    "wrapup_integration/deploy_step_commissioning",
+    "wrapup_integration/friction_named",
+    "wrapup_integration/silent_divergence"
+  ]
+}

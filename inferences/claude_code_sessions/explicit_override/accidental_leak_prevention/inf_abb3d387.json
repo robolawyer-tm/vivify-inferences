@@ -1,0 +1,70 @@
+{
+  "id": "inf_abb3d387",
+  "version": "1.0",
+  "timestamp": "2026-06-26T17:46:52.894458+00:00",
+  "source": "claude_session",
+  "raw_text": "The privacy gate was redesigned to fail closed rather than silently defaulting off. The gate now reads a strict tristate \u2014 on, off, or unset \u2014 and enforces protection for sensitive off-box calls under on, unset, and any unrecognized value, relaxing only when PRIVACY_GATE is explicitly set to off. The motivating concern was that running a private corpus while forgetting to set the variable would leak data; under the safe default, forgetting protects the data instead. This makes PRIVACY_GATE=off a conscious, deliberate decision to send data to the cloud rather than an accidental state.",
+  "left_keywords": [
+    "fail_closed_design",
+    "safe_default",
+    "tristate_enforcement",
+    "unset_protection",
+    "explicit_override",
+    "accidental_leak_prevention",
+    "private_corpus_protection",
+    "off_box_call_guarding",
+    "conscious_disclosure",
+    "forgetting_protects",
+    "explicit_opt_out",
+    "data_egress_control"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "fail_closed_posture": [
+      "fail_closed_design",
+      "forgetting_protects",
+      "safe_default"
+    ],
+    "tristate_logic": [
+      "explicit_opt_out",
+      "tristate_enforcement",
+      "unset_protection"
+    ],
+    "leak_prevention": [
+      "accidental_leak_prevention",
+      "off_box_call_guarding",
+      "private_corpus_protection"
+    ],
+    "deliberate_disclosure": [
+      "conscious_disclosure",
+      "data_egress_control",
+      "explicit_override"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "explicit_override/accidental_leak_prevention",
+    "explicit_override/conscious_disclosure",
+    "explicit_override/data_egress_control",
+    "explicit_override/explicit_opt_out",
+    "explicit_override/fail_closed_design",
+    "explicit_override/forgetting_protects",
+    "explicit_override/off_box_call_guarding",
+    "explicit_override/private_corpus_protection",
+    "explicit_override/tristate_enforcement",
+    "explicit_override/unset_protection",
+    "safe_default/accidental_leak_prevention",
+    "safe_default/conscious_disclosure",
+    "safe_default/data_egress_control",
+    "safe_default/explicit_opt_out",
+    "safe_default/explicit_override",
+    "safe_default/fail_closed_design",
+    "safe_default/forgetting_protects",
+    "safe_default/off_box_call_guarding",
+    "safe_default/private_corpus_protection",
+    "safe_default/tristate_enforcement",
+    "safe_default/unset_protection"
+  ]
+}

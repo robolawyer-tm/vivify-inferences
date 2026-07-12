@@ -13,6 +13,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
 from vivify_core import read_json, write_json
 from keyword_graph import build_graph, top_seeds, neighborhood
+from category_index import write_categories
 
 
 INFERENCES_DIR = Path("inferences")
@@ -102,20 +103,20 @@ def paths_for_synthesis(inference, tree, graph):
 
 
 def categorize_all(inferences_dir=None, dry_run=False):
-    """Assign category_paths to all inferences and move them out of unclustered/.
+    """Assign category_paths to all inferences and record the tree in the index.
 
     - Builds graph and category tree from current corpus
-    - Updates each inference file with category_paths
-    - Moves categorized inferences to inferences/{category_path}/
-    - Inferences with no match stay in unclustered/
-    - Returns summary dict
+    - Updates each inference file in place with its category_paths (no move)
+    - Writes the tree + path->ids map to inferences/index.json (categories slot)
+    - Storage stays flat: files never leave their domain dir
+    - Returns (summary, tree)
     """
     inferences_dir = Path(inferences_dir or INFERENCES_DIR)
     graph = build_graph(inferences_dir)
 
     if not graph:
         print("No inferences found.")
-        return {}
+        return {}, {}
 
     # Collect all left keywords across corpus — seeds must come from left side only
     left_keywords_corpus = set()
@@ -124,6 +125,7 @@ def categorize_all(inferences_dir=None, dry_run=False):
         left_keywords_corpus.update(inf.get("left_keywords", []))
 
     tree = build_category_tree(graph, left_keywords_only=left_keywords_corpus)
+    path_to_ids = {}
     summary = {"categorized": [], "unclustered": [], "tree_seeds": list(tree.keys())}
 
     for path in inferences_dir.rglob("inf_*.json"):
@@ -137,37 +139,33 @@ def categorize_all(inferences_dir=None, dry_run=False):
             paths = paths_for_inference(inference, tree)
         inference["category_paths"] = paths
 
-        if paths and not dry_run:
-            # Move to first category path directory
-            dest_dir = inferences_dir / Path(paths[0])
-            dest_dir.mkdir(parents=True, exist_ok=True)
-            dest = dest_dir / path.name
+        # Update the file in place — keep category_paths as metadata, never relocate
+        if not dry_run:
+            write_json(path, inference)
 
-            write_json(dest, inference)
-
-            # Remove from unclustered if moving elsewhere
-            if "unclustered" in str(path) and dest != path:
-                path.unlink()
-
-            summary["categorized"].append({
-                "id": inference["id"],
-                "paths": paths,
-                "dest": str(dest)
-            })
-        elif paths and dry_run:
+        if paths:
+            for p in paths:
+                path_to_ids.setdefault(p, []).append(inference["id"])
             summary["categorized"].append({
                 "id": inference["id"],
                 "paths": paths
             })
         else:
-            write_json(path, inference)
             summary["unclustered"].append(inference["id"])
+
+    # Sort id lists for stable, diffable output
+    path_to_ids = {p: sorted(set(ids)) for p, ids in path_to_ids.items()}
+
+    if not dry_run:
+        write_categories(inferences_dir / "index.json", tree, path_to_ids)
 
     return summary, tree
 
 
 def usage():
-    print("Usage: categorize.py            categorize all inferences")
+    print("Usage: categorize.py [--dir PATH] [--dry-run] [--tree]")
+    print("       categorize.py                           categorize all inferences")
+    print("       categorize.py --dir inferences/claude_code_sessions  domain-specific")
     print("       categorize.py --dry-run  show what would be assigned without moving files")
     print("       categorize.py --tree     show the category tree only")
     sys.exit(1)
@@ -177,21 +175,30 @@ def main():
     dry_run = "--dry-run" in sys.argv
     tree_only = "--tree" in sys.argv
 
-    graph = build_graph()
+    inferences_dir = INFERENCES_DIR
+    if "--dir" in sys.argv:
+        idx = sys.argv.index("--dir")
+        if idx + 1 >= len(sys.argv):
+            print("Error: --dir requires a path argument")
+            usage()
+        inferences_dir = Path(sys.argv[idx + 1])
+        if not inferences_dir.exists():
+            print(f"Error: directory not found: {inferences_dir}")
+            sys.exit(1)
+
+    graph = build_graph(inferences_dir)
     if not graph:
         print("No inferences found.")
         return
 
-    tree = build_category_tree(graph)
-
     left_keywords_corpus = set()
-    for path in INFERENCES_DIR.rglob("inf_*.json"):
+    for path in inferences_dir.rglob("inf_*.json"):
         inf = read_json(path)
         left_keywords_corpus.update(inf.get("left_keywords", []))
 
     tree = build_category_tree(graph, left_keywords_only=left_keywords_corpus)
 
-    if tree_only or "--tree" in sys.argv:
+    if tree_only:
         print("Category tree (seeded from left keywords only):")
         for seed, subs in tree.items():
             print(f"\n  {seed}/")
@@ -201,7 +208,7 @@ def main():
                     print(f"      {ss}")
         return
 
-    summary, tree = categorize_all(dry_run=dry_run)
+    summary, tree = categorize_all(inferences_dir, dry_run=dry_run)
 
     print(f"Category seeds: {len(summary['tree_seeds'])}")
     print(f"Categorized:    {len(summary['categorized'])}")
@@ -225,4 +232,5 @@ if __name__ == "__main__":
     main()
 
 # llm: claude-sonnet-4-6 | 2026-04-15 | repos/vivify-inferences/categorize.py | created — emergent category assignment from co-occurrence graph seeds
-# llm: claude-fable-5 | 2026-07-10 | repos/vivify-operators/categorize.py | paths_for_inference matches left_keywords only — right pipeline terms filed everything under every seed
+# llm: claude-sonnet-4-6 | 2026-06-12 | repos/vivify-inferences/categorize.py | added --dir flag for domain-specific categorization; prevents session keywords contaminating main logos graph
+# llm: claude-fable-5 | 2026-07-10 | repos/vivify-inferences/categorize.py | paths_for_inference matches left_keywords only — right pipeline terms filed everything under every seed
