@@ -14,6 +14,9 @@ the paths of previously-filed accounts.
   hex id (reify_<id>.md and future res_/rendering siblings)
 - Emptied directories are retired up to (never including) <dir>
 - Idempotent: a file already at its canonical address is left alone
+- Run PER DOMAIN (--dir inferences/<domain>), matching categorize/promote:
+  category_paths are domain-relative, so running at a multi-domain root would
+  strip the domain layer. A guard detects domain roots and refuses to move.
 """
 
 import sys
@@ -25,6 +28,20 @@ sys.path.insert(0, str(Path(__file__).parent / "lib"))
 from vivify_core import read_json
 
 DEFAULT_DIR = "inferences"
+
+
+def _is_domains_root(base):
+    """True if base looks like a multi-domain root rather than a single domain.
+
+    - A domain child is a subdirectory carrying its own unclustered/ holding pen
+    - category_paths are domain-relative, so refiling from a domains root would
+      strip the domain prefix off every address
+    """
+    return any(
+        (child / "unclustered").is_dir()
+        for child in base.iterdir()
+        if child.is_dir() and child.name != "unclustered"
+    )
 
 
 def refile_all(inferences_dir=DEFAULT_DIR, dry_run=False):
@@ -39,6 +56,14 @@ def refile_all(inferences_dir=DEFAULT_DIR, dry_run=False):
     summary = {"refiled": [], "demoted": [], "kept": []}
 
     if not base.is_dir():
+        return summary
+
+    if _is_domains_root(base):
+        print(f"{base} looks like a multi-domain root (children carry their own "
+              f"unclustered/). category_paths are domain-relative — run per domain:")
+        for child in sorted(base.iterdir()):
+            if child.is_dir() and (child / "unclustered").is_dir():
+                print(f"  refile.py --dir {child}")
         return summary
 
     for path in sorted(base.rglob("inf_*.json")):
@@ -91,7 +116,8 @@ def usage():
     print("address (<dir>/<category_paths[0]>/). Empty paths demote to unclustered/.")
     print("Siblings (reify_*.md etc.) move with the inference; emptied dirs retire.")
     print()
-    print("  --dir <path>   Inferences directory (default: inferences)")
+    print("  --dir <path>   Single-domain inferences directory (run per domain,")
+    print("                 e.g. --dir inferences/field — never a multi-domain root)")
     print("  --dry-run      Show what would move without moving anything")
 
 

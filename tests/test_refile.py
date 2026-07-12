@@ -75,5 +75,25 @@ def test_refile():
     print("test_refile: PASS")
 
 
+def test_domains_root_guard():
+    """refile refuses to run at a multi-domain root — paths are domain-relative."""
+    with tempfile.TemporaryDirectory() as d:
+        base = Path(d) / "inferences"
+        # two domains, each with its own holding pen — a domains root
+        _write(base / "field" / "unclustered" / "inf_xxx.json",
+               {"id": "inf_xxx", "category_paths": []})
+        _write(base / "logos" / "seedQ" / "subR" / "inf_yyy.json",
+               {"id": "inf_yyy", "category_paths": ["seedQ/subDIFFERENT"]})
+        _write(base / "logos" / "unclustered" / ".keep", "")
+
+        summary = refile_all(inferences_dir=base)
+        assert summary == {"refiled": [], "demoted": [], "kept": []}, summary
+        assert (base / "logos" / "seedQ" / "subR" / "inf_yyy.json").exists(), \
+            "guard must prevent any move from a domains root"
+
+    print("test_domains_root_guard: PASS")
+
+
 if __name__ == "__main__":
     test_refile()
+    test_domains_root_guard()
