@@ -1,0 +1,80 @@
+{
+  "id": "inf_d645786f",
+  "version": "1.0",
+  "timestamp": "2026-06-11T14:52:15.175320+00:00",
+  "source": "claude_session",
+  "raw_text": "Claude Code's .jsonl session files in ~/.claude/projects/ were considered as an alternative source for structured session content \u2014 they contain typed messages, tool calls, and metadata in a clean format suitable for generating a formatted chat view. However, they were ruled out as the primary capture mechanism because they are written incrementally and may be truncated or lost entirely when the process crashes due to memory leaks. The script -f continuous flush to disk is crash insurance that .jsonl cannot provide. The architecture therefore treats .gz/.md as the reliable foundation and .jsonl as a richer supplement available only when the session closes cleanly.",
+  "left_keywords": [
+    "crash_vulnerability",
+    "incremental_write_risk",
+    "memory_leak_vulnerability",
+    "continuous_flush_strategy",
+    "crash_resilience",
+    "format_reliability_hierarchy",
+    "primary_vs_supplementary",
+    "clean_close_dependency",
+    "structured_content_richness",
+    "reliability_richness_tradeoff"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "data_loss_risk": [
+      "crash_vulnerability",
+      "incremental_write_risk",
+      "memory_leak_vulnerability"
+    ],
+    "fault_tolerance": [
+      "continuous_flush_strategy",
+      "crash_resilience"
+    ],
+    "architectural_hierarchy": [
+      "format_reliability_hierarchy",
+      "primary_vs_supplementary"
+    ],
+    "capture_completeness": [
+      "clean_close_dependency",
+      "reliability_richness_tradeoff",
+      "structured_content_richness"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "continuous_flush_strategy/clean_close_dependency",
+    "continuous_flush_strategy/crash_resilience",
+    "continuous_flush_strategy/crash_vulnerability",
+    "continuous_flush_strategy/format_reliability_hierarchy",
+    "continuous_flush_strategy/incremental_write_risk",
+    "continuous_flush_strategy/primary_vs_supplementary",
+    "continuous_flush_strategy/reliability_richness_tradeoff",
+    "continuous_flush_strategy/structured_content_richness",
+    "crash_resilience/clean_close_dependency",
+    "crash_resilience/crash_vulnerability",
+    "crash_resilience/format_reliability_hierarchy",
+    "crash_resilience/incremental_write_risk",
+    "crash_resilience/primary_vs_supplementary",
+    "crash_resilience/reliability_richness_tradeoff",
+    "crash_resilience/structured_content_richness",
+    "memory_leak_vulnerability/clean_close_dependency",
+    "memory_leak_vulnerability/continuous_flush_strategy",
+    "memory_leak_vulnerability/crash_resilience",
+    "memory_leak_vulnerability/crash_vulnerability",
+    "memory_leak_vulnerability/format_reliability_hierarchy",
+    "memory_leak_vulnerability/incremental_write_risk",
+    "memory_leak_vulnerability/primary_vs_supplementary",
+    "memory_leak_vulnerability/reliability_richness_tradeoff",
+    "memory_leak_vulnerability/structured_content_richness"
+  ]
+}

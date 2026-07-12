@@ -1,0 +1,69 @@
+{
+  "id": "inf_0fbffcc1",
+  "version": "1.0",
+  "timestamp": "2026-07-03T00:11:59.837609+00:00",
+  "source": "claude_session",
+  "raw_text": "Reconciling the wedged inferences deliberately avoided spending any API quota because the underlying data was already valid \u2014 the fix was to correct completeness bookkeeping, not to re-run the LLM. Only inferences that were genuinely untagged, which had appeared as the store grew, required live tagging, and those were correctly blocked by the safe-default privacy gate until it was explicitly disabled. This reflects a discipline of distinguishing genuine data gaps from metadata artifacts before consuming billable model calls.",
+  "left_keywords": [
+    "quota_conservation",
+    "billing_discipline",
+    "data_validity",
+    "completeness_bookkeeping",
+    "metadata_artifact",
+    "genuine_data_gap",
+    "untagged_inference",
+    "privacy_gate",
+    "safe_default",
+    "explicit_override",
+    "gap_versus_artifact_discrimination",
+    "avoid_redundant_llm_calls"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "cost_restraint": [
+      "avoid_redundant_llm_calls",
+      "billing_discipline",
+      "quota_conservation"
+    ],
+    "data_integrity": [
+      "completeness_bookkeeping",
+      "data_validity",
+      "metadata_artifact"
+    ],
+    "gap_discernment": [
+      "gap_versus_artifact_discrimination",
+      "genuine_data_gap",
+      "untagged_inference"
+    ],
+    "privacy_safeguard": [
+      "explicit_override",
+      "privacy_gate",
+      "safe_default"
+    ]
+  },
+  "category_paths": [
+    "explicit_override/avoid_redundant_llm_calls",
+    "explicit_override/billing_discipline",
+    "explicit_override/completeness_bookkeeping",
+    "explicit_override/data_validity",
+    "explicit_override/gap_versus_artifact_discrimination",
+    "explicit_override/genuine_data_gap",
+    "explicit_override/metadata_artifact",
+    "explicit_override/privacy_gate",
+    "explicit_override/quota_conservation",
+    "explicit_override/untagged_inference",
+    "safe_default/avoid_redundant_llm_calls",
+    "safe_default/billing_discipline",
+    "safe_default/completeness_bookkeeping",
+    "safe_default/data_validity",
+    "safe_default/explicit_override",
+    "safe_default/gap_versus_artifact_discrimination",
+    "safe_default/genuine_data_gap",
+    "safe_default/metadata_artifact",
+    "safe_default/privacy_gate",
+    "safe_default/quota_conservation",
+    "safe_default/untagged_inference"
+  ],
+  "tension_score": 1.0,
+  "guardrail_actions": {}
+}

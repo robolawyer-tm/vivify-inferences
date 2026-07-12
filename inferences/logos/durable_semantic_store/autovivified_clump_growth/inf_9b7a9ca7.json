@@ -1,0 +1,59 @@
+{
+  "id": "inf_9b7a9ca7",
+  "version": "1.0",
+  "timestamp": "2026-04-17T21:20:44.272678+00:00",
+  "source": "gemini",
+  "raw_text": "A query arrives, intent is parsed and keywords and clumps are autovivified from the query and the existing semantic store. The LLM discovers the best way via planning, generating a plan as prose preserved as a skill. Semantics are enhanced by regenerating inferences to fit language right, adding new clumps, summaries, and links while storing durable facts. The system executes, pulling from a skills library if a similar quest was seen before, archiving new patterns. The diff of outputs versus prior extracts reusable aids, with code snippets indexed for next time.",
+  "left_keywords": [
+    "query_intent_extraction",
+    "autovivified_clump_growth",
+    "planning_as_prose",
+    "skill_library_reuse",
+    "semantic_regeneration",
+    "durable_semantic_store",
+    "pattern_archival",
+    "output_diff_extraction"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "query_entry": [
+      "autovivified_clump_growth",
+      "query_intent_extraction"
+    ],
+    "planning_layer": [
+      "planning_as_prose",
+      "skill_library_reuse"
+    ],
+    "semantic_output": [
+      "durable_semantic_store",
+      "semantic_regeneration"
+    ],
+    "skill_accumulation": [
+      "output_diff_extraction",
+      "pattern_archival"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "logos",
+  "category_paths": [
+    "durable_semantic_store/autovivified_clump_growth",
+    "durable_semantic_store/output_diff_extraction",
+    "durable_semantic_store/pattern_archival",
+    "durable_semantic_store/planning_as_prose",
+    "durable_semantic_store/query_intent_extraction",
+    "durable_semantic_store/semantic_regeneration",
+    "durable_semantic_store/skill_library_reuse"
+  ]
+}

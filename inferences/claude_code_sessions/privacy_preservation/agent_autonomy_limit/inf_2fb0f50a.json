@@ -1,0 +1,60 @@
+{
+  "id": "inf_2fb0f50a",
+  "version": "1.0",
+  "timestamp": "2026-06-17T17:03:27.359639+00:00",
+  "source": "claude_session",
+  "raw_text": "The sealing tool was built on `age`, chosen because it transparently handles the Ed25519-to-X25519 key conversion and ChaCha20-Poly1305 encryption, allowing files to be sealed to the user's existing SSH/Ed public key. Because `age` was available in apt but required a sudo password the agent could not supply, the installation decision was deliberated between a no-sudo static-binary drop into `~/bin` versus the apt route; the user chose apt to rely on Ubuntu's already-trusted package mirror, keeping the privacy posture intact since keys and files remain local regardless.",
+  "left_keywords": [
+    "transparent_key_conversion",
+    "elliptic_curve_interop",
+    "authenticated_encryption",
+    "seal_to_existing_key",
+    "privilege_constraint",
+    "sudo_unavailability",
+    "install_path_deliberation",
+    "static_binary_dropin",
+    "trusted_package_mirror",
+    "local_only_keys",
+    "privacy_preservation",
+    "agent_autonomy_limit"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "cryptographic_mechanism": [
+      "authenticated_encryption",
+      "elliptic_curve_interop",
+      "seal_to_existing_key",
+      "transparent_key_conversion"
+    ],
+    "privilege_boundary": [
+      "agent_autonomy_limit",
+      "privilege_constraint",
+      "sudo_unavailability"
+    ],
+    "installation_tradeoff": [
+      "install_path_deliberation",
+      "static_binary_dropin",
+      "trusted_package_mirror"
+    ],
+    "privacy_integrity": [
+      "local_only_keys",
+      "privacy_preservation"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "privacy_preservation/agent_autonomy_limit",
+    "privacy_preservation/authenticated_encryption",
+    "privacy_preservation/elliptic_curve_interop",
+    "privacy_preservation/install_path_deliberation",
+    "privacy_preservation/local_only_keys",
+    "privacy_preservation/privilege_constraint",
+    "privacy_preservation/seal_to_existing_key",
+    "privacy_preservation/static_binary_dropin",
+    "privacy_preservation/sudo_unavailability",
+    "privacy_preservation/transparent_key_conversion",
+    "privacy_preservation/trusted_package_mirror"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "inf_b8cdc6ac",
+  "version": "1.0",
+  "timestamp": "2026-07-07T20:35:05.698409+00:00",
+  "source": "pillars/MULTI_MODEL_CONVERGENCE.md",
+  "raw_text": "# Multi-Model Convergence via Accumulated Embeddings\n\nMulti-model workflows discard intermediate embeddings \u2014 collecting and feeding them to the final model produces richer, more human-like comprehension than output-only pipelines.\n\n- Current practice: workflow engineers read only the final model's output, discarding all intermediate embedded data from prior models in the chain\n- Proposed approach: accumulate all intermediate embeddings from every model in the workflow and pass the full set to the final model\n- Extended approach: final output is a comparison across multiple model groups, each producing additional embedded data, iterated in a round-robin until convergence\n- Halting criterion: iteration stops when data ranks highly \u2014 emergent consensus, not a fixed step count\n- Analogy to vivify: the co-occurrence graph is the accumulated embedding; it grows with each inference pass and stabilizes when concepts are genuinely central\n- Analogy to human reasoning: humans do not discard what they thought along the way \u2014 intermediate reasoning is part of the final judgment\n\n## Why current workflows lose meaning\n\nChunking and output-only pipelines are rational abstractions that destroy the sense layer \u2014 the holistic, analogical context that carries human meaning.\n\n- Chunking severs relationships and arguments that span chunk boundaries\n- Output-only pipelines discard the semantic accumulation that built the final answer\n- Each model in a workflow embeds the input differently \u2014 that diversity is signal, not noise\n- Throwing away intermediate embeddings is equivalent to reading only a conclusion without the reasoning\n\n## The round-robin convergence model\n\nA group of models each processes the same input, produces embedded data, and passes that data to the next model \u2014 iterating until the output stabilizes.\n\n- Each model brings a different semantic angle: some more analogical, some more analytical\n- Intermediate outputs feed forward as context, not just as prompts\n- Convergence is detected when successive iterations produce high-ranking, low-divergence outputs\n- This mirrors the vivify tension score: low tension across iterations signals stable beneficial structure\n\n## Connection to vivify pipeline\n\nThe vivify-inferences pipeline implements a single-model version of this idea across time rather than across simultaneous models.\n\n- Each inference pass adds keywords to the co-occurrence graph\n- The graph is the accumulated embedding \u2014 it grows and stabilizes across sessions\n- High co-occurrence counts are the convergence signal\n- The tension score between left and right keywords measures divergence \u2014 the same signal the round-robin uses to halt\n\n## Implementation direction\n\nA multi-model convergence layer sits above the vivify pipeline and feeds accumulated embeddings downward.\n\n- Each model in the workflow writes its intermediate embeddings as inference units to vivify\n- The final model receives the full vivified graph, not just the last output\n- Comparison between model groups becomes a tension score across their keyword sets\n- Halting when the graph stabilizes is the same as halting when tension stops changing\n\n<!-- llm: claude-sonnet-4-6 | 2026-04-15 | repos/pillars/MULTI_MODEL_CONVERGENCE.md | created \u2014 multi-model convergence via accumulated embeddings, round-robin halting, vivify connection -->",
+  "left_keywords": [
+    "embedding_accumulation",
+    "intermediate_reasoning_retention",
+    "semantic_discard_loss",
+    "chunking_fragmentation",
+    "sense_layer_destruction",
+    "model_diversity_as_signal",
+    "round_robin_iteration",
+    "emergent_consensus_halting",
+    "convergence_stability",
+    "tension_divergence_signal",
+    "cooccurrence_graph_growth",
+    "human_reasoning_analogy"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "accumulation_over_discard": [
+      "embedding_accumulation",
+      "intermediate_reasoning_retention",
+      "semantic_discard_loss"
+    ],
+    "meaning_loss_mechanisms": [
+      "chunking_fragmentation",
+      "sense_layer_destruction"
+    ],
+    "multi_model_dynamics": [
+      "model_diversity_as_signal",
+      "round_robin_iteration"
+    ],
+    "convergence_and_halting": [
+      "emergent_consensus_halting",
+      "convergence_stability",
+      "tension_divergence_signal"
+    ],
+    "vivify_correspondence": [
+      "cooccurrence_graph_growth",
+      "human_reasoning_analogy"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": 1.0,
+  "guardrail_actions": {}
+}

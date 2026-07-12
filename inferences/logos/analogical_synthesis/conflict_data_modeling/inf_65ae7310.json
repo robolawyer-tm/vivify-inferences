@@ -1,0 +1,70 @@
+{
+  "id": "inf_65ae7310",
+  "version": "1.0",
+  "timestamp": "2026-04-27T21:44:01.938271+00:00",
+  "source": "webpage",
+  "raw_text": "The system goal is to develop semantics that work with conflict data to predict beneficial outcomes from constructed functional models dynamically privately and on local hardware bridging two fundamentally different ways of understanding the world through analogical synthesis not dialectical synthesis combining emotional ground truth with analytical pattern detection producing output that remains fundamentally human",
+  "left_keywords": [
+    "analogical_synthesis",
+    "beneficial_outcome_modeling",
+    "semantic_digital_duality",
+    "logos_empathy_base",
+    "felt_meaning",
+    "conflict_data_modeling",
+    "functional_model_construction",
+    "mid_inference_memory",
+    "self_evolving_rules",
+    "synthesis_without_antithesis",
+    "empathy_native_output",
+    "live_worker_refinement"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "semantic_core": [
+      "analogical_synthesis",
+      "empathy_native_output",
+      "felt_meaning",
+      "logos_empathy_base"
+    ],
+    "outcome_model": [
+      "beneficial_outcome_modeling",
+      "conflict_data_modeling",
+      "functional_model_construction"
+    ],
+    "pipeline_evolution": [
+      "live_worker_refinement",
+      "mid_inference_memory",
+      "self_evolving_rules"
+    ],
+    "duality_framework": [
+      "semantic_digital_duality",
+      "synthesis_without_antithesis"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "logos",
+  "category_paths": [
+    "beneficial_outcome_modeling/analogical_synthesis",
+    "beneficial_outcome_modeling/conflict_data_modeling",
+    "beneficial_outcome_modeling/empathy_native_output",
+    "beneficial_outcome_modeling/felt_meaning",
+    "beneficial_outcome_modeling/functional_model_construction",
+    "beneficial_outcome_modeling/live_worker_refinement",
+    "beneficial_outcome_modeling/logos_empathy_base",
+    "beneficial_outcome_modeling/mid_inference_memory",
+    "beneficial_outcome_modeling/self_evolving_rules",
+    "beneficial_outcome_modeling/semantic_digital_duality",
+    "beneficial_outcome_modeling/synthesis_without_antithesis",
+    "semantic_digital_duality/analogical_synthesis",
+    "semantic_digital_duality/conflict_data_modeling",
+    "semantic_digital_duality/empathy_native_output",
+    "semantic_digital_duality/felt_meaning",
+    "semantic_digital_duality/functional_model_construction",
+    "semantic_digital_duality/live_worker_refinement",
+    "semantic_digital_duality/logos_empathy_base",
+    "semantic_digital_duality/mid_inference_memory",
+    "semantic_digital_duality/self_evolving_rules",
+    "semantic_digital_duality/synthesis_without_antithesis"
+  ]
+}

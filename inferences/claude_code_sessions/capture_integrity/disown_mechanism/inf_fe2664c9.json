@@ -1,0 +1,79 @@
+{
+  "id": "inf_fe2664c9",
+  "version": "1.0",
+  "timestamp": "2026-06-07T23:03:17.381991+00:00",
+  "source": "claude_session",
+  "raw_text": "The `disown` command was added after launching the terminal process so that closing or exiting the parent shell would not kill the child capture session. Without `disown`, the launched `mate-terminal` process would be part of the calling shell's process group and would receive a hangup signal on parent exit, potentially terminating the capture before the session completes and before gzip runs.",
+  "left_keywords": [
+    "parent_child_relationship",
+    "process_group_membership",
+    "hangup_signal_delivery",
+    "sighup_vulnerability",
+    "disown_mechanism",
+    "process_detachment",
+    "post_launch_intervention",
+    "capture_integrity",
+    "premature_termination_risk",
+    "sequencing_dependency",
+    "gzip_dependency"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "process_hierarchy": [
+      "parent_child_relationship",
+      "process_group_membership"
+    ],
+    "signal_risk": [
+      "hangup_signal_delivery",
+      "sighup_vulnerability"
+    ],
+    "job_control": [
+      "disown_mechanism",
+      "post_launch_intervention",
+      "process_detachment"
+    ],
+    "session_integrity": [
+      "capture_integrity",
+      "premature_termination_risk"
+    ],
+    "completion_dependency": [
+      "gzip_dependency",
+      "sequencing_dependency"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "capture_integrity/disown_mechanism",
+    "capture_integrity/gzip_dependency",
+    "capture_integrity/hangup_signal_delivery",
+    "capture_integrity/parent_child_relationship",
+    "capture_integrity/post_launch_intervention",
+    "capture_integrity/premature_termination_risk",
+    "capture_integrity/process_detachment",
+    "capture_integrity/process_group_membership",
+    "capture_integrity/sighup_vulnerability",
+    "sequencing_dependency/capture_integrity",
+    "sequencing_dependency/disown_mechanism",
+    "sequencing_dependency/gzip_dependency",
+    "sequencing_dependency/hangup_signal_delivery",
+    "sequencing_dependency/parent_child_relationship",
+    "sequencing_dependency/post_launch_intervention",
+    "sequencing_dependency/premature_termination_risk",
+    "sequencing_dependency/process_detachment",
+    "sequencing_dependency/process_group_membership",
+    "sequencing_dependency/sighup_vulnerability"
+  ]
+}

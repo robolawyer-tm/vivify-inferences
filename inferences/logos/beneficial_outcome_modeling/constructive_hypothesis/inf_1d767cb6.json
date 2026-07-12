@@ -1,0 +1,56 @@
+{
+  "id": "inf_1d767cb6",
+  "version": "1.0",
+  "timestamp": "2026-04-15T20:32:39.188439+00:00",
+  "source": "manual",
+  "raw_text": "There is debate whether what I attempting to achieve is actually doable in the moment - but I think it is because it was a year ago, and I am getting hints of intuition such that the logos analogic concept of human language structure is catalyzing within the left semantic side - called belief but also hypothesis that survives falsification which in my style moves to construct rather than supportable thesis.",
+  "left_keywords": [
+    "falsification_survival",
+    "constructive_hypothesis",
+    "logos_meaning_layer",
+    "predictive_intuition",
+    "pre_analytic_detection",
+    "beneficial_outcome_modeling",
+    "synthesis_without_closure"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "hypothesis_survival": [
+      "constructive_hypothesis",
+      "falsification_survival"
+    ],
+    "semantic_catalysis": [
+      "logos_meaning_layer"
+    ],
+    "intuition_as_signal": [
+      "pre_analytic_detection",
+      "predictive_intuition"
+    ],
+    "beneficial_modeling": [
+      "beneficial_outcome_modeling",
+      "synthesis_without_closure"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "logos",
+  "category_paths": [
+    "beneficial_outcome_modeling/constructive_hypothesis",
+    "beneficial_outcome_modeling/falsification_survival",
+    "beneficial_outcome_modeling/logos_meaning_layer",
+    "beneficial_outcome_modeling/pre_analytic_detection",
+    "beneficial_outcome_modeling/predictive_intuition",
+    "beneficial_outcome_modeling/synthesis_without_closure"
+  ]
+}

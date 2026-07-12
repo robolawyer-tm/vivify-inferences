@@ -1,0 +1,4053 @@
+{
+  "version": "3.0",
+  "total_inferences": 0,
+  "keywords": {},
+  "cooccurrence": {},
+  "categories": {
+    "tree": {
+      "emergent_structure": {
+        "semantic_digital_duality": [
+          "beneficial_outcome_modeling",
+          "analogical_synthesis",
+          "felt_meaning",
+          "schema_free_structure"
+        ],
+        "analogical_synthesis": [
+          "felt_meaning",
+          "schema_free_structure",
+          "local_first_sovereignty",
+          "human_in_loop_security"
+        ],
+        "felt_meaning": [
+          "schema_free_structure",
+          "local_first_sovereignty",
+          "human_in_loop_security",
+          "therapeutic_prediction"
+        ],
+        "schema_free_structure": [
+          "local_first_sovereignty",
+          "human_in_loop_security",
+          "therapeutic_prediction",
+          "beneficial_outcome_modeling"
+        ],
+        "local_first_sovereignty": [
+          "privacy_by_architecture",
+          "trust_through_encryption",
+          "human_in_the_loop",
+          "physical_confirmation_ritual"
+        ],
+        "human_in_loop_security": [
+          "therapeutic_prediction",
+          "beneficial_outcome_modeling",
+          "conflict_universality",
+          "persistent_intuition"
+        ],
+        "therapeutic_prediction": [
+          "beneficial_outcome_modeling",
+          "conflict_universality",
+          "persistent_intuition",
+          "filesystem_transparency"
+        ],
+        "beneficial_outcome_modeling": [
+          "conflict_universality",
+          "persistent_intuition",
+          "filesystem_transparency",
+          "inference_as_tube"
+        ],
+        "conflict_universality": [
+          "persistent_intuition",
+          "filesystem_transparency"
+        ],
+        "persistent_intuition": [
+          "filesystem_transparency"
+        ],
+        "filesystem_transparency": [],
+        "schema_refusal": [
+          "felt_meaning_extraction",
+          "anti_adversarial_stance",
+          "constructive_resolution",
+          "institutional_exclusion"
+        ],
+        "felt_meaning_extraction": [
+          "anti_adversarial_stance",
+          "constructive_resolution",
+          "institutional_exclusion",
+          "logos_bridge"
+        ],
+        "anti_adversarial_stance": [
+          "constructive_resolution",
+          "institutional_exclusion",
+          "logos_bridge",
+          "left_right_commensurability"
+        ],
+        "constructive_resolution": [
+          "institutional_exclusion",
+          "logos_bridge",
+          "left_right_commensurability",
+          "evolved_social_logic"
+        ],
+        "institutional_exclusion": [
+          "logos_bridge",
+          "left_right_commensurability",
+          "evolved_social_logic",
+          "self_evolving_pipeline"
+        ],
+        "logos_bridge": [
+          "left_right_commensurability",
+          "evolved_social_logic",
+          "self_evolving_pipeline",
+          "prose_reconstruction"
+        ],
+        "left_right_commensurability": [
+          "evolved_social_logic",
+          "self_evolving_pipeline",
+          "prose_reconstruction",
+          "repo_split_divergence"
+        ],
+        "evolved_social_logic": [
+          "self_evolving_pipeline",
+          "prose_reconstruction",
+          "repo_split_divergence",
+          "local_first_privacy"
+        ],
+        "self_evolving_pipeline": [
+          "prose_reconstruction",
+          "repo_split_divergence",
+          "local_first_privacy",
+          "layered_isomorphism"
+        ],
+        "prose_reconstruction": [
+          "repo_split_divergence",
+          "local_first_privacy",
+          "layered_isomorphism",
+          "tension_divergence"
+        ],
+        "repo_split_divergence": [
+          "local_first_privacy",
+          "layered_isomorphism",
+          "tension_divergence",
+          "researcher_grounding"
+        ],
+        "local_first_privacy": [
+          "layered_isomorphism",
+          "tension_divergence",
+          "researcher_grounding"
+        ],
+        "layered_isomorphism": [
+          "tension_divergence",
+          "researcher_grounding"
+        ],
+        "tension_divergence": [
+          "researcher_grounding"
+        ],
+        "researcher_grounding": [],
+        "latent_potentiality": [
+          "actualization_threshold",
+          "structural_tension",
+          "left_right_divergence",
+          "analog_digital_conflict"
+        ],
+        "actualization_threshold": [
+          "structural_tension",
+          "left_right_divergence",
+          "analog_digital_conflict",
+          "interpretive_pressure"
+        ],
+        "structural_tension": [
+          "left_right_divergence",
+          "analog_digital_conflict",
+          "interpretive_pressure",
+          "resolution_orientation"
+        ],
+        "left_right_divergence": [
+          "analog_digital_conflict",
+          "interpretive_pressure",
+          "resolution_orientation",
+          "filesystem_as_database"
+        ],
+        "analog_digital_conflict": [
+          "interpretive_pressure",
+          "resolution_orientation",
+          "filesystem_as_database",
+          "privacy_layering"
+        ],
+        "interpretive_pressure": [
+          "resolution_orientation",
+          "filesystem_as_database",
+          "privacy_layering",
+          "unactualized_paths"
+        ],
+        "resolution_orientation": [
+          "filesystem_as_database",
+          "privacy_layering",
+          "unactualized_paths",
+          "corpus_accumulation"
+        ],
+        "filesystem_as_database": [
+          "privacy_layering",
+          "unactualized_paths",
+          "corpus_accumulation"
+        ],
+        "privacy_layering": [
+          "unactualized_paths",
+          "corpus_accumulation"
+        ],
+        "unactualized_paths": [
+          "corpus_accumulation"
+        ],
+        "corpus_accumulation": []
+      },
+      "authority_gradient": {
+        "dunbar_layering": [
+          "group_size_thresholds",
+          "gemeinschaft_gesellschaft_transition",
+          "phase_change",
+          "bond_neurochemistry"
+        ],
+        "group_size_thresholds": [
+          "gemeinschaft_gesellschaft_transition",
+          "phase_change",
+          "bond_neurochemistry",
+          "affective_field"
+        ],
+        "gemeinschaft_gesellschaft_transition": [
+          "phase_change",
+          "bond_neurochemistry",
+          "affective_field",
+          "emotional_contagion"
+        ],
+        "phase_change": [
+          "bond_neurochemistry",
+          "affective_field",
+          "emotional_contagion",
+          "cooperative_violation"
+        ],
+        "bond_neurochemistry": [
+          "affective_field",
+          "emotional_contagion",
+          "cooperative_violation",
+          "resonance_to_illusion"
+        ],
+        "affective_field": [
+          "emotional_contagion",
+          "cooperative_violation",
+          "resonance_to_illusion",
+          "grid_group_coordinates"
+        ],
+        "emotional_contagion": [
+          "cooperative_violation",
+          "resonance_to_illusion",
+          "grid_group_coordinates",
+          "tension_as_derived"
+        ],
+        "cooperative_violation": [
+          "resonance_to_illusion",
+          "grid_group_coordinates",
+          "tension_as_derived",
+          "evolutionary_deformation"
+        ],
+        "resonance_to_illusion": [
+          "grid_group_coordinates",
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability"
+        ],
+        "grid_group_coordinates": [
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale"
+        ],
+        "tension_as_derived": [
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "evolutionary_deformation": [
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "inference_auditability": [
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "sacred_outside_scale": [
+          "institutional_suppression"
+        ],
+        "institutional_suppression": [],
+        "held_in_tension": [
+          "structure_function_dichotomy",
+          "orthogonal_axes",
+          "open_composition",
+          "speech_act_force"
+        ],
+        "structure_function_dichotomy": [
+          "orthogonal_axes",
+          "open_composition",
+          "speech_act_force",
+          "cooperative_maxim_violation"
+        ],
+        "orthogonal_axes": [
+          "open_composition",
+          "speech_act_force",
+          "cooperative_maxim_violation",
+          "implicature_gap"
+        ],
+        "open_composition": [
+          "speech_act_force",
+          "cooperative_maxim_violation",
+          "implicature_gap",
+          "communicative_payload"
+        ],
+        "speech_act_force": [
+          "cooperative_maxim_violation",
+          "implicature_gap",
+          "communicative_payload",
+          "emotional_resonance"
+        ],
+        "cooperative_maxim_violation": [
+          "implicature_gap",
+          "communicative_payload",
+          "emotional_resonance",
+          "illusory_harmony"
+        ],
+        "implicature_gap": [
+          "emotional_resonance",
+          "social_constraint_field",
+          "communicative_payload",
+          "illusory_harmony"
+        ],
+        "communicative_payload": [
+          "emotional_resonance",
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field"
+        ],
+        "emotional_resonance": [
+          "social_constraint_field",
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field"
+        ],
+        "illusory_harmony": [
+          "empathic_alignment",
+          "transmission_field",
+          "social_constraint_field",
+          "scale_monotonicity"
+        ],
+        "empathic_alignment": [
+          "transmission_field",
+          "social_constraint_field",
+          "scale_monotonicity",
+          "coordinate_geometry"
+        ],
+        "transmission_field": [
+          "social_constraint_field",
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space"
+        ],
+        "social_constraint_field": [
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays"
+        ],
+        "scale_monotonicity": [
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy"
+        ],
+        "coordinate_geometry": [
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty"
+        ],
+        "layered_social_space": [
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging"
+        ],
+        "cross_cutting_overlays": [
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "emergent_taxonomy": [
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": []
+      },
+      "implicature_gap": {
+        "emotional_resonance": [
+          "social_constraint_field",
+          "held_in_tension",
+          "structure_function_dichotomy",
+          "orthogonal_axes"
+        ],
+        "social_constraint_field": [
+          "held_in_tension",
+          "structure_function_dichotomy",
+          "orthogonal_axes",
+          "open_composition"
+        ],
+        "held_in_tension": [
+          "structure_function_dichotomy",
+          "orthogonal_axes",
+          "open_composition",
+          "speech_act_force"
+        ],
+        "structure_function_dichotomy": [
+          "orthogonal_axes",
+          "open_composition",
+          "speech_act_force",
+          "cooperative_maxim_violation"
+        ],
+        "orthogonal_axes": [
+          "open_composition",
+          "speech_act_force",
+          "cooperative_maxim_violation",
+          "communicative_payload"
+        ],
+        "open_composition": [
+          "speech_act_force",
+          "cooperative_maxim_violation",
+          "communicative_payload",
+          "illusory_harmony"
+        ],
+        "speech_act_force": [
+          "cooperative_maxim_violation",
+          "communicative_payload",
+          "illusory_harmony",
+          "empathic_alignment"
+        ],
+        "cooperative_maxim_violation": [
+          "communicative_payload",
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field"
+        ],
+        "communicative_payload": [
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity"
+        ],
+        "illusory_harmony": [
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry"
+        ],
+        "empathic_alignment": [
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space"
+        ],
+        "transmission_field": [
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays"
+        ],
+        "scale_monotonicity": [
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy"
+        ],
+        "coordinate_geometry": [
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty"
+        ],
+        "layered_social_space": [
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging"
+        ],
+        "cross_cutting_overlays": [
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "emergent_taxonomy": [
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": [],
+        "coordinate_schema": [
+          "provisional_hypothesis",
+          "emergent_deformation",
+          "speech_act_performativity",
+          "communicative_action"
+        ],
+        "provisional_hypothesis": [
+          "emergent_deformation",
+          "speech_act_performativity",
+          "communicative_action",
+          "transmission_channel"
+        ],
+        "emergent_deformation": [
+          "speech_act_performativity",
+          "communicative_action",
+          "transmission_channel",
+          "masked_friction"
+        ],
+        "speech_act_performativity": [
+          "communicative_action",
+          "transmission_channel",
+          "masked_friction",
+          "authority_source"
+        ],
+        "communicative_action": [
+          "transmission_channel",
+          "masked_friction",
+          "authority_source",
+          "hidden_knowledge"
+        ],
+        "transmission_channel": [
+          "masked_friction",
+          "authority_source",
+          "hidden_knowledge",
+          "cooperative_violation"
+        ],
+        "masked_friction": [
+          "authority_source",
+          "hidden_knowledge",
+          "cooperative_violation",
+          "pre_institutional_genuineness"
+        ],
+        "authority_source": [
+          "hidden_knowledge",
+          "cooperative_violation",
+          "pre_institutional_genuineness",
+          "silent_affective_layer"
+        ],
+        "hidden_knowledge": [
+          "cooperative_violation",
+          "pre_institutional_genuineness",
+          "silent_affective_layer",
+          "explicit_implicit_tension"
+        ],
+        "cooperative_violation": [
+          "dunbar_layering",
+          "group_size_thresholds",
+          "gemeinschaft_gesellschaft_transition",
+          "phase_change"
+        ],
+        "pre_institutional_genuineness": [
+          "silent_affective_layer",
+          "explicit_implicit_tension"
+        ],
+        "silent_affective_layer": [
+          "explicit_implicit_tension"
+        ],
+        "explicit_implicit_tension": []
+      },
+      "emotional_resonance": {
+        "social_constraint_field": [
+          "held_in_tension",
+          "structure_function_dichotomy",
+          "orthogonal_axes",
+          "open_composition"
+        ],
+        "held_in_tension": [
+          "structure_function_dichotomy",
+          "orthogonal_axes",
+          "open_composition",
+          "speech_act_force"
+        ],
+        "structure_function_dichotomy": [
+          "orthogonal_axes",
+          "open_composition",
+          "speech_act_force",
+          "cooperative_maxim_violation"
+        ],
+        "orthogonal_axes": [
+          "open_composition",
+          "speech_act_force",
+          "cooperative_maxim_violation",
+          "communicative_payload"
+        ],
+        "open_composition": [
+          "speech_act_force",
+          "cooperative_maxim_violation",
+          "communicative_payload",
+          "illusory_harmony"
+        ],
+        "speech_act_force": [
+          "cooperative_maxim_violation",
+          "communicative_payload",
+          "illusory_harmony",
+          "empathic_alignment"
+        ],
+        "cooperative_maxim_violation": [
+          "communicative_payload",
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field"
+        ],
+        "communicative_payload": [
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity"
+        ],
+        "illusory_harmony": [
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry"
+        ],
+        "empathic_alignment": [
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space"
+        ],
+        "transmission_field": [
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays"
+        ],
+        "scale_monotonicity": [
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy"
+        ],
+        "coordinate_geometry": [
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty"
+        ],
+        "layered_social_space": [
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging"
+        ],
+        "cross_cutting_overlays": [
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "emergent_taxonomy": [
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": [],
+        "coordinate_schema": [
+          "provisional_hypothesis",
+          "emergent_deformation",
+          "speech_act_performativity",
+          "communicative_action"
+        ],
+        "provisional_hypothesis": [
+          "emergent_deformation",
+          "speech_act_performativity",
+          "communicative_action",
+          "transmission_channel"
+        ],
+        "emergent_deformation": [
+          "speech_act_performativity",
+          "communicative_action",
+          "transmission_channel",
+          "masked_friction"
+        ],
+        "speech_act_performativity": [
+          "communicative_action",
+          "transmission_channel",
+          "masked_friction",
+          "authority_source"
+        ],
+        "communicative_action": [
+          "transmission_channel",
+          "masked_friction",
+          "authority_source",
+          "hidden_knowledge"
+        ],
+        "transmission_channel": [
+          "masked_friction",
+          "authority_source",
+          "hidden_knowledge",
+          "cooperative_violation"
+        ],
+        "masked_friction": [
+          "authority_source",
+          "hidden_knowledge",
+          "cooperative_violation",
+          "pre_institutional_genuineness"
+        ],
+        "authority_source": [
+          "hidden_knowledge",
+          "cooperative_violation",
+          "pre_institutional_genuineness",
+          "silent_affective_layer"
+        ],
+        "hidden_knowledge": [
+          "cooperative_violation",
+          "pre_institutional_genuineness",
+          "silent_affective_layer",
+          "explicit_implicit_tension"
+        ],
+        "cooperative_violation": [
+          "dunbar_layering",
+          "group_size_thresholds",
+          "gemeinschaft_gesellschaft_transition",
+          "phase_change"
+        ],
+        "pre_institutional_genuineness": [
+          "silent_affective_layer",
+          "explicit_implicit_tension"
+        ],
+        "silent_affective_layer": [
+          "explicit_implicit_tension"
+        ],
+        "explicit_implicit_tension": []
+      },
+      "social_constraint_field": {
+        "held_in_tension": [
+          "structure_function_dichotomy",
+          "orthogonal_axes",
+          "open_composition",
+          "speech_act_force"
+        ],
+        "structure_function_dichotomy": [
+          "orthogonal_axes",
+          "open_composition",
+          "speech_act_force",
+          "cooperative_maxim_violation"
+        ],
+        "orthogonal_axes": [
+          "open_composition",
+          "speech_act_force",
+          "cooperative_maxim_violation",
+          "communicative_payload"
+        ],
+        "open_composition": [
+          "speech_act_force",
+          "cooperative_maxim_violation",
+          "communicative_payload",
+          "illusory_harmony"
+        ],
+        "speech_act_force": [
+          "cooperative_maxim_violation",
+          "communicative_payload",
+          "illusory_harmony",
+          "empathic_alignment"
+        ],
+        "cooperative_maxim_violation": [
+          "communicative_payload",
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field"
+        ],
+        "communicative_payload": [
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity"
+        ],
+        "illusory_harmony": [
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry"
+        ],
+        "empathic_alignment": [
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space"
+        ],
+        "transmission_field": [
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays"
+        ],
+        "scale_monotonicity": [
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy"
+        ],
+        "coordinate_geometry": [
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty"
+        ],
+        "layered_social_space": [
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging"
+        ],
+        "cross_cutting_overlays": [
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "emergent_taxonomy": [
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": [],
+        "coordinate_schema": [
+          "provisional_hypothesis",
+          "emergent_deformation",
+          "speech_act_performativity",
+          "communicative_action"
+        ],
+        "provisional_hypothesis": [
+          "emergent_deformation",
+          "speech_act_performativity",
+          "communicative_action",
+          "transmission_channel"
+        ],
+        "emergent_deformation": [
+          "speech_act_performativity",
+          "communicative_action",
+          "transmission_channel",
+          "masked_friction"
+        ],
+        "speech_act_performativity": [
+          "communicative_action",
+          "transmission_channel",
+          "masked_friction",
+          "authority_source"
+        ],
+        "communicative_action": [
+          "transmission_channel",
+          "masked_friction",
+          "authority_source",
+          "hidden_knowledge"
+        ],
+        "transmission_channel": [
+          "masked_friction",
+          "authority_source",
+          "hidden_knowledge",
+          "cooperative_violation"
+        ],
+        "masked_friction": [
+          "authority_source",
+          "hidden_knowledge",
+          "cooperative_violation",
+          "pre_institutional_genuineness"
+        ],
+        "authority_source": [
+          "hidden_knowledge",
+          "cooperative_violation",
+          "pre_institutional_genuineness",
+          "silent_affective_layer"
+        ],
+        "hidden_knowledge": [
+          "cooperative_violation",
+          "pre_institutional_genuineness",
+          "silent_affective_layer",
+          "explicit_implicit_tension"
+        ],
+        "cooperative_violation": [
+          "dunbar_layering",
+          "group_size_thresholds",
+          "gemeinschaft_gesellschaft_transition",
+          "phase_change"
+        ],
+        "pre_institutional_genuineness": [
+          "silent_affective_layer",
+          "explicit_implicit_tension"
+        ],
+        "silent_affective_layer": [
+          "explicit_implicit_tension"
+        ],
+        "explicit_implicit_tension": []
+      },
+      "cooperative_violation": {
+        "dunbar_layering": [
+          "group_size_thresholds",
+          "gemeinschaft_gesellschaft_transition",
+          "phase_change",
+          "bond_neurochemistry"
+        ],
+        "group_size_thresholds": [
+          "gemeinschaft_gesellschaft_transition",
+          "phase_change",
+          "bond_neurochemistry",
+          "affective_field"
+        ],
+        "gemeinschaft_gesellschaft_transition": [
+          "phase_change",
+          "bond_neurochemistry",
+          "affective_field",
+          "emotional_contagion"
+        ],
+        "phase_change": [
+          "bond_neurochemistry",
+          "affective_field",
+          "emotional_contagion",
+          "resonance_to_illusion"
+        ],
+        "bond_neurochemistry": [
+          "affective_field",
+          "emotional_contagion",
+          "resonance_to_illusion",
+          "grid_group_coordinates"
+        ],
+        "affective_field": [
+          "emotional_contagion",
+          "resonance_to_illusion",
+          "grid_group_coordinates",
+          "tension_as_derived"
+        ],
+        "emotional_contagion": [
+          "resonance_to_illusion",
+          "grid_group_coordinates",
+          "tension_as_derived",
+          "evolutionary_deformation"
+        ],
+        "resonance_to_illusion": [
+          "grid_group_coordinates",
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability"
+        ],
+        "grid_group_coordinates": [
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale"
+        ],
+        "tension_as_derived": [
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "evolutionary_deformation": [
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "inference_auditability": [
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "sacred_outside_scale": [
+          "institutional_suppression"
+        ],
+        "institutional_suppression": [],
+        "coordinate_schema": [
+          "provisional_hypothesis",
+          "emergent_deformation",
+          "speech_act_performativity",
+          "communicative_action"
+        ],
+        "provisional_hypothesis": [
+          "emergent_deformation",
+          "speech_act_performativity",
+          "communicative_action",
+          "transmission_channel"
+        ],
+        "emergent_deformation": [
+          "speech_act_performativity",
+          "communicative_action",
+          "transmission_channel",
+          "masked_friction"
+        ],
+        "speech_act_performativity": [
+          "communicative_action",
+          "transmission_channel",
+          "masked_friction",
+          "authority_source"
+        ],
+        "communicative_action": [
+          "transmission_channel",
+          "masked_friction",
+          "authority_source",
+          "hidden_knowledge"
+        ],
+        "transmission_channel": [
+          "masked_friction",
+          "authority_source",
+          "hidden_knowledge",
+          "pre_institutional_genuineness"
+        ],
+        "masked_friction": [
+          "authority_source",
+          "hidden_knowledge",
+          "pre_institutional_genuineness",
+          "silent_affective_layer"
+        ],
+        "authority_source": [
+          "hidden_knowledge",
+          "pre_institutional_genuineness",
+          "silent_affective_layer",
+          "explicit_implicit_tension"
+        ],
+        "hidden_knowledge": [
+          "pre_institutional_genuineness",
+          "silent_affective_layer",
+          "explicit_implicit_tension"
+        ],
+        "pre_institutional_genuineness": [
+          "silent_affective_layer",
+          "explicit_implicit_tension"
+        ],
+        "silent_affective_layer": [
+          "explicit_implicit_tension"
+        ],
+        "explicit_implicit_tension": []
+      },
+      "local_first_sovereignty": {
+        "privacy_by_architecture": [
+          "trust_through_encryption",
+          "human_in_the_loop",
+          "physical_confirmation_ritual",
+          "layered_authentication"
+        ],
+        "trust_through_encryption": [
+          "human_in_the_loop",
+          "physical_confirmation_ritual",
+          "layered_authentication",
+          "hardened_userspace"
+        ],
+        "human_in_the_loop": [
+          "physical_confirmation_ritual",
+          "layered_authentication",
+          "hardened_userspace",
+          "constraint_driven_design"
+        ],
+        "physical_confirmation_ritual": [
+          "layered_authentication",
+          "hardened_userspace",
+          "constraint_driven_design",
+          "resilient_reconnection"
+        ],
+        "layered_authentication": [
+          "hardened_userspace",
+          "constraint_driven_design",
+          "resilient_reconnection",
+          "iterative_ai_collaboration"
+        ],
+        "hardened_userspace": [
+          "constraint_driven_design",
+          "resilient_reconnection",
+          "iterative_ai_collaboration",
+          "emergent_scope_growth"
+        ],
+        "constraint_driven_design": [
+          "resilient_reconnection",
+          "iterative_ai_collaboration",
+          "emergent_scope_growth",
+          "protective_reassurance"
+        ],
+        "resilient_reconnection": [
+          "iterative_ai_collaboration",
+          "emergent_scope_growth",
+          "protective_reassurance"
+        ],
+        "iterative_ai_collaboration": [
+          "emergent_scope_growth",
+          "protective_reassurance"
+        ],
+        "emergent_scope_growth": [
+          "protective_reassurance"
+        ],
+        "protective_reassurance": [],
+        "semantic_digital_duality": [
+          "beneficial_outcome_modeling",
+          "analogical_synthesis",
+          "felt_meaning",
+          "schema_free_structure"
+        ],
+        "analogical_synthesis": [
+          "felt_meaning",
+          "schema_free_structure",
+          "human_in_loop_security",
+          "therapeutic_prediction"
+        ],
+        "felt_meaning": [
+          "schema_free_structure",
+          "human_in_loop_security",
+          "therapeutic_prediction",
+          "beneficial_outcome_modeling"
+        ],
+        "schema_free_structure": [
+          "human_in_loop_security",
+          "therapeutic_prediction",
+          "beneficial_outcome_modeling",
+          "conflict_universality"
+        ],
+        "human_in_loop_security": [
+          "therapeutic_prediction",
+          "beneficial_outcome_modeling",
+          "conflict_universality",
+          "persistent_intuition"
+        ],
+        "therapeutic_prediction": [
+          "beneficial_outcome_modeling",
+          "conflict_universality",
+          "persistent_intuition",
+          "filesystem_transparency"
+        ],
+        "beneficial_outcome_modeling": [
+          "conflict_universality",
+          "persistent_intuition",
+          "filesystem_transparency",
+          "inference_as_tube"
+        ],
+        "conflict_universality": [
+          "persistent_intuition",
+          "filesystem_transparency"
+        ],
+        "persistent_intuition": [
+          "filesystem_transparency"
+        ],
+        "filesystem_transparency": []
+      },
+      "held_in_tension": {
+        "structure_function_dichotomy": [
+          "orthogonal_axes",
+          "open_composition",
+          "speech_act_force",
+          "cooperative_maxim_violation"
+        ],
+        "orthogonal_axes": [
+          "open_composition",
+          "speech_act_force",
+          "cooperative_maxim_violation",
+          "communicative_payload"
+        ],
+        "open_composition": [
+          "speech_act_force",
+          "cooperative_maxim_violation",
+          "communicative_payload",
+          "illusory_harmony"
+        ],
+        "speech_act_force": [
+          "cooperative_maxim_violation",
+          "communicative_payload",
+          "illusory_harmony",
+          "empathic_alignment"
+        ],
+        "cooperative_maxim_violation": [
+          "communicative_payload",
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field"
+        ],
+        "communicative_payload": [
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity"
+        ],
+        "illusory_harmony": [
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry"
+        ],
+        "empathic_alignment": [
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space"
+        ],
+        "transmission_field": [
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays"
+        ],
+        "scale_monotonicity": [
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy"
+        ],
+        "coordinate_geometry": [
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty"
+        ],
+        "layered_social_space": [
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging"
+        ],
+        "cross_cutting_overlays": [
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "emergent_taxonomy": [
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": []
+      },
+      "structure_function_dichotomy": {
+        "orthogonal_axes": [
+          "open_composition",
+          "speech_act_force",
+          "cooperative_maxim_violation",
+          "communicative_payload"
+        ],
+        "open_composition": [
+          "speech_act_force",
+          "cooperative_maxim_violation",
+          "communicative_payload",
+          "illusory_harmony"
+        ],
+        "speech_act_force": [
+          "cooperative_maxim_violation",
+          "communicative_payload",
+          "illusory_harmony",
+          "empathic_alignment"
+        ],
+        "cooperative_maxim_violation": [
+          "communicative_payload",
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field"
+        ],
+        "communicative_payload": [
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity"
+        ],
+        "illusory_harmony": [
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry"
+        ],
+        "empathic_alignment": [
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space"
+        ],
+        "transmission_field": [
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays"
+        ],
+        "scale_monotonicity": [
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy"
+        ],
+        "coordinate_geometry": [
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty"
+        ],
+        "layered_social_space": [
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging"
+        ],
+        "cross_cutting_overlays": [
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "emergent_taxonomy": [
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": []
+      },
+      "orthogonal_axes": {
+        "open_composition": [
+          "speech_act_force",
+          "cooperative_maxim_violation",
+          "communicative_payload",
+          "illusory_harmony"
+        ],
+        "speech_act_force": [
+          "cooperative_maxim_violation",
+          "communicative_payload",
+          "illusory_harmony",
+          "empathic_alignment"
+        ],
+        "cooperative_maxim_violation": [
+          "communicative_payload",
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field"
+        ],
+        "communicative_payload": [
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity"
+        ],
+        "illusory_harmony": [
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry"
+        ],
+        "empathic_alignment": [
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space"
+        ],
+        "transmission_field": [
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays"
+        ],
+        "scale_monotonicity": [
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy"
+        ],
+        "coordinate_geometry": [
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty"
+        ],
+        "layered_social_space": [
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging"
+        ],
+        "cross_cutting_overlays": [
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "emergent_taxonomy": [
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": []
+      },
+      "open_composition": {
+        "speech_act_force": [
+          "cooperative_maxim_violation",
+          "communicative_payload",
+          "illusory_harmony",
+          "empathic_alignment"
+        ],
+        "cooperative_maxim_violation": [
+          "communicative_payload",
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field"
+        ],
+        "communicative_payload": [
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity"
+        ],
+        "illusory_harmony": [
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry"
+        ],
+        "empathic_alignment": [
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space"
+        ],
+        "transmission_field": [
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays"
+        ],
+        "scale_monotonicity": [
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy"
+        ],
+        "coordinate_geometry": [
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty"
+        ],
+        "layered_social_space": [
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging"
+        ],
+        "cross_cutting_overlays": [
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "emergent_taxonomy": [
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": []
+      },
+      "speech_act_force": {
+        "cooperative_maxim_violation": [
+          "communicative_payload",
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field"
+        ],
+        "communicative_payload": [
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity"
+        ],
+        "illusory_harmony": [
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry"
+        ],
+        "empathic_alignment": [
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space"
+        ],
+        "transmission_field": [
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays"
+        ],
+        "scale_monotonicity": [
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy"
+        ],
+        "coordinate_geometry": [
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty"
+        ],
+        "layered_social_space": [
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging"
+        ],
+        "cross_cutting_overlays": [
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "emergent_taxonomy": [
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": []
+      },
+      "cooperative_maxim_violation": {
+        "communicative_payload": [
+          "illusory_harmony",
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity"
+        ],
+        "illusory_harmony": [
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry"
+        ],
+        "empathic_alignment": [
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space"
+        ],
+        "transmission_field": [
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays"
+        ],
+        "scale_monotonicity": [
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy"
+        ],
+        "coordinate_geometry": [
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty"
+        ],
+        "layered_social_space": [
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging"
+        ],
+        "cross_cutting_overlays": [
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "emergent_taxonomy": [
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": []
+      },
+      "communicative_payload": {
+        "illusory_harmony": [
+          "empathic_alignment",
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry"
+        ],
+        "empathic_alignment": [
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space"
+        ],
+        "transmission_field": [
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays"
+        ],
+        "scale_monotonicity": [
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy"
+        ],
+        "coordinate_geometry": [
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty"
+        ],
+        "layered_social_space": [
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging"
+        ],
+        "cross_cutting_overlays": [
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "emergent_taxonomy": [
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": []
+      },
+      "illusory_harmony": {
+        "empathic_alignment": [
+          "transmission_field",
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space"
+        ],
+        "transmission_field": [
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays"
+        ],
+        "scale_monotonicity": [
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy"
+        ],
+        "coordinate_geometry": [
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty"
+        ],
+        "layered_social_space": [
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging"
+        ],
+        "cross_cutting_overlays": [
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "emergent_taxonomy": [
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": []
+      },
+      "empathic_alignment": {
+        "transmission_field": [
+          "scale_monotonicity",
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays"
+        ],
+        "scale_monotonicity": [
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy"
+        ],
+        "coordinate_geometry": [
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty"
+        ],
+        "layered_social_space": [
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging"
+        ],
+        "cross_cutting_overlays": [
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "emergent_taxonomy": [
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": []
+      },
+      "transmission_field": {
+        "scale_monotonicity": [
+          "coordinate_geometry",
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy"
+        ],
+        "coordinate_geometry": [
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty"
+        ],
+        "layered_social_space": [
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging"
+        ],
+        "cross_cutting_overlays": [
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "emergent_taxonomy": [
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": []
+      },
+      "scale_monotonicity": {
+        "coordinate_geometry": [
+          "layered_social_space",
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty"
+        ],
+        "layered_social_space": [
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging"
+        ],
+        "cross_cutting_overlays": [
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "emergent_taxonomy": [
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": []
+      },
+      "coordinate_geometry": {
+        "layered_social_space": [
+          "cross_cutting_overlays",
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging"
+        ],
+        "cross_cutting_overlays": [
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "emergent_taxonomy": [
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": []
+      },
+      "layered_social_space": {
+        "cross_cutting_overlays": [
+          "emergent_taxonomy",
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "emergent_taxonomy": [
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": []
+      },
+      "cross_cutting_overlays": {
+        "emergent_taxonomy": [
+          "generative_uncertainty",
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": []
+      },
+      "emergent_taxonomy": {
+        "generative_uncertainty": [
+          "partial_tagging",
+          "store_deformation"
+        ],
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": []
+      },
+      "generative_uncertainty": {
+        "partial_tagging": [
+          "store_deformation"
+        ],
+        "store_deformation": []
+      },
+      "partial_tagging": {
+        "store_deformation": []
+      },
+      "semantic_digital_duality": {
+        "beneficial_outcome_modeling": [
+          "analogical_synthesis",
+          "felt_meaning",
+          "schema_free_structure",
+          "human_in_loop_security"
+        ],
+        "analogical_synthesis": [
+          "felt_meaning",
+          "schema_free_structure",
+          "human_in_loop_security",
+          "therapeutic_prediction"
+        ],
+        "felt_meaning": [
+          "schema_free_structure",
+          "human_in_loop_security",
+          "therapeutic_prediction",
+          "conflict_universality"
+        ],
+        "schema_free_structure": [
+          "human_in_loop_security",
+          "therapeutic_prediction",
+          "conflict_universality",
+          "persistent_intuition"
+        ],
+        "human_in_loop_security": [
+          "therapeutic_prediction",
+          "conflict_universality",
+          "persistent_intuition",
+          "filesystem_transparency"
+        ],
+        "therapeutic_prediction": [
+          "conflict_universality",
+          "persistent_intuition",
+          "filesystem_transparency"
+        ],
+        "conflict_universality": [
+          "persistent_intuition",
+          "filesystem_transparency"
+        ],
+        "persistent_intuition": [
+          "filesystem_transparency"
+        ],
+        "filesystem_transparency": [],
+        "inference_as_tube": [
+          "predictive_intuition",
+          "adversarial_betrayal",
+          "baseline_deviation_modeling",
+          "self_evolving_rules"
+        ],
+        "predictive_intuition": [
+          "adversarial_betrayal",
+          "baseline_deviation_modeling",
+          "self_evolving_rules",
+          "logos_as_analogical_knowledge"
+        ],
+        "adversarial_betrayal": [
+          "baseline_deviation_modeling",
+          "self_evolving_rules",
+          "logos_as_analogical_knowledge",
+          "empathy_absent_computation"
+        ],
+        "baseline_deviation_modeling": [
+          "self_evolving_rules",
+          "logos_as_analogical_knowledge",
+          "empathy_absent_computation",
+          "synthesis_without_antithesis"
+        ],
+        "self_evolving_rules": [
+          "logos_as_analogical_knowledge",
+          "empathy_absent_computation",
+          "synthesis_without_antithesis",
+          "llm_philosophical_drift"
+        ],
+        "logos_as_analogical_knowledge": [
+          "empathy_absent_computation",
+          "synthesis_without_antithesis",
+          "llm_philosophical_drift",
+          "functional_model_bridge"
+        ],
+        "empathy_absent_computation": [
+          "synthesis_without_antithesis",
+          "llm_philosophical_drift",
+          "functional_model_bridge"
+        ],
+        "synthesis_without_antithesis": [
+          "llm_philosophical_drift",
+          "functional_model_bridge"
+        ],
+        "llm_philosophical_drift": [
+          "functional_model_bridge"
+        ],
+        "functional_model_bridge": []
+      },
+      "beneficial_outcome_modeling": {
+        "analogical_synthesis": [
+          "felt_meaning",
+          "schema_free_structure",
+          "human_in_loop_security",
+          "therapeutic_prediction"
+        ],
+        "felt_meaning": [
+          "schema_free_structure",
+          "human_in_loop_security",
+          "therapeutic_prediction",
+          "conflict_universality"
+        ],
+        "schema_free_structure": [
+          "human_in_loop_security",
+          "therapeutic_prediction",
+          "conflict_universality",
+          "persistent_intuition"
+        ],
+        "human_in_loop_security": [
+          "therapeutic_prediction",
+          "conflict_universality",
+          "persistent_intuition",
+          "filesystem_transparency"
+        ],
+        "therapeutic_prediction": [
+          "conflict_universality",
+          "persistent_intuition",
+          "filesystem_transparency"
+        ],
+        "conflict_universality": [
+          "persistent_intuition",
+          "filesystem_transparency"
+        ],
+        "persistent_intuition": [
+          "filesystem_transparency"
+        ],
+        "filesystem_transparency": [],
+        "inference_as_tube": [
+          "predictive_intuition",
+          "adversarial_betrayal",
+          "baseline_deviation_modeling",
+          "self_evolving_rules"
+        ],
+        "predictive_intuition": [
+          "adversarial_betrayal",
+          "baseline_deviation_modeling",
+          "self_evolving_rules",
+          "logos_as_analogical_knowledge"
+        ],
+        "adversarial_betrayal": [
+          "baseline_deviation_modeling",
+          "self_evolving_rules",
+          "logos_as_analogical_knowledge",
+          "empathy_absent_computation"
+        ],
+        "baseline_deviation_modeling": [
+          "self_evolving_rules",
+          "logos_as_analogical_knowledge",
+          "empathy_absent_computation",
+          "synthesis_without_antithesis"
+        ],
+        "self_evolving_rules": [
+          "logos_as_analogical_knowledge",
+          "empathy_absent_computation",
+          "synthesis_without_antithesis",
+          "llm_philosophical_drift"
+        ],
+        "logos_as_analogical_knowledge": [
+          "empathy_absent_computation",
+          "synthesis_without_antithesis",
+          "llm_philosophical_drift",
+          "functional_model_bridge"
+        ],
+        "empathy_absent_computation": [
+          "synthesis_without_antithesis",
+          "llm_philosophical_drift",
+          "functional_model_bridge"
+        ],
+        "synthesis_without_antithesis": [
+          "llm_philosophical_drift",
+          "functional_model_bridge"
+        ],
+        "llm_philosophical_drift": [
+          "functional_model_bridge"
+        ],
+        "functional_model_bridge": []
+      },
+      "dunbar_layering": {
+        "group_size_thresholds": [
+          "gemeinschaft_gesellschaft_transition",
+          "phase_change",
+          "bond_neurochemistry",
+          "affective_field"
+        ],
+        "gemeinschaft_gesellschaft_transition": [
+          "phase_change",
+          "bond_neurochemistry",
+          "affective_field",
+          "emotional_contagion"
+        ],
+        "phase_change": [
+          "bond_neurochemistry",
+          "affective_field",
+          "emotional_contagion",
+          "resonance_to_illusion"
+        ],
+        "bond_neurochemistry": [
+          "affective_field",
+          "emotional_contagion",
+          "resonance_to_illusion",
+          "grid_group_coordinates"
+        ],
+        "affective_field": [
+          "emotional_contagion",
+          "resonance_to_illusion",
+          "grid_group_coordinates",
+          "tension_as_derived"
+        ],
+        "emotional_contagion": [
+          "resonance_to_illusion",
+          "grid_group_coordinates",
+          "tension_as_derived",
+          "evolutionary_deformation"
+        ],
+        "resonance_to_illusion": [
+          "grid_group_coordinates",
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability"
+        ],
+        "grid_group_coordinates": [
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale"
+        ],
+        "tension_as_derived": [
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "evolutionary_deformation": [
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "inference_auditability": [
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "sacred_outside_scale": [
+          "institutional_suppression"
+        ],
+        "institutional_suppression": []
+      },
+      "group_size_thresholds": {
+        "gemeinschaft_gesellschaft_transition": [
+          "phase_change",
+          "bond_neurochemistry",
+          "affective_field",
+          "emotional_contagion"
+        ],
+        "phase_change": [
+          "bond_neurochemistry",
+          "affective_field",
+          "emotional_contagion",
+          "resonance_to_illusion"
+        ],
+        "bond_neurochemistry": [
+          "affective_field",
+          "emotional_contagion",
+          "resonance_to_illusion",
+          "grid_group_coordinates"
+        ],
+        "affective_field": [
+          "emotional_contagion",
+          "resonance_to_illusion",
+          "grid_group_coordinates",
+          "tension_as_derived"
+        ],
+        "emotional_contagion": [
+          "resonance_to_illusion",
+          "grid_group_coordinates",
+          "tension_as_derived",
+          "evolutionary_deformation"
+        ],
+        "resonance_to_illusion": [
+          "grid_group_coordinates",
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability"
+        ],
+        "grid_group_coordinates": [
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale"
+        ],
+        "tension_as_derived": [
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "evolutionary_deformation": [
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "inference_auditability": [
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "sacred_outside_scale": [
+          "institutional_suppression"
+        ],
+        "institutional_suppression": []
+      },
+      "gemeinschaft_gesellschaft_transition": {
+        "phase_change": [
+          "bond_neurochemistry",
+          "affective_field",
+          "emotional_contagion",
+          "resonance_to_illusion"
+        ],
+        "bond_neurochemistry": [
+          "affective_field",
+          "emotional_contagion",
+          "resonance_to_illusion",
+          "grid_group_coordinates"
+        ],
+        "affective_field": [
+          "emotional_contagion",
+          "resonance_to_illusion",
+          "grid_group_coordinates",
+          "tension_as_derived"
+        ],
+        "emotional_contagion": [
+          "resonance_to_illusion",
+          "grid_group_coordinates",
+          "tension_as_derived",
+          "evolutionary_deformation"
+        ],
+        "resonance_to_illusion": [
+          "grid_group_coordinates",
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability"
+        ],
+        "grid_group_coordinates": [
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale"
+        ],
+        "tension_as_derived": [
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "evolutionary_deformation": [
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "inference_auditability": [
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "sacred_outside_scale": [
+          "institutional_suppression"
+        ],
+        "institutional_suppression": []
+      },
+      "phase_change": {
+        "bond_neurochemistry": [
+          "affective_field",
+          "emotional_contagion",
+          "resonance_to_illusion",
+          "grid_group_coordinates"
+        ],
+        "affective_field": [
+          "emotional_contagion",
+          "resonance_to_illusion",
+          "grid_group_coordinates",
+          "tension_as_derived"
+        ],
+        "emotional_contagion": [
+          "resonance_to_illusion",
+          "grid_group_coordinates",
+          "tension_as_derived",
+          "evolutionary_deformation"
+        ],
+        "resonance_to_illusion": [
+          "grid_group_coordinates",
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability"
+        ],
+        "grid_group_coordinates": [
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale"
+        ],
+        "tension_as_derived": [
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "evolutionary_deformation": [
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "inference_auditability": [
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "sacred_outside_scale": [
+          "institutional_suppression"
+        ],
+        "institutional_suppression": []
+      },
+      "bond_neurochemistry": {
+        "affective_field": [
+          "emotional_contagion",
+          "resonance_to_illusion",
+          "grid_group_coordinates",
+          "tension_as_derived"
+        ],
+        "emotional_contagion": [
+          "resonance_to_illusion",
+          "grid_group_coordinates",
+          "tension_as_derived",
+          "evolutionary_deformation"
+        ],
+        "resonance_to_illusion": [
+          "grid_group_coordinates",
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability"
+        ],
+        "grid_group_coordinates": [
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale"
+        ],
+        "tension_as_derived": [
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "evolutionary_deformation": [
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "inference_auditability": [
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "sacred_outside_scale": [
+          "institutional_suppression"
+        ],
+        "institutional_suppression": []
+      },
+      "affective_field": {
+        "emotional_contagion": [
+          "resonance_to_illusion",
+          "grid_group_coordinates",
+          "tension_as_derived",
+          "evolutionary_deformation"
+        ],
+        "resonance_to_illusion": [
+          "grid_group_coordinates",
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability"
+        ],
+        "grid_group_coordinates": [
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale"
+        ],
+        "tension_as_derived": [
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "evolutionary_deformation": [
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "inference_auditability": [
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "sacred_outside_scale": [
+          "institutional_suppression"
+        ],
+        "institutional_suppression": []
+      },
+      "emotional_contagion": {
+        "resonance_to_illusion": [
+          "grid_group_coordinates",
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability"
+        ],
+        "grid_group_coordinates": [
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale"
+        ],
+        "tension_as_derived": [
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "evolutionary_deformation": [
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "inference_auditability": [
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "sacred_outside_scale": [
+          "institutional_suppression"
+        ],
+        "institutional_suppression": []
+      },
+      "resonance_to_illusion": {
+        "grid_group_coordinates": [
+          "tension_as_derived",
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale"
+        ],
+        "tension_as_derived": [
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "evolutionary_deformation": [
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "inference_auditability": [
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "sacred_outside_scale": [
+          "institutional_suppression"
+        ],
+        "institutional_suppression": []
+      },
+      "grid_group_coordinates": {
+        "tension_as_derived": [
+          "evolutionary_deformation",
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "evolutionary_deformation": [
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "inference_auditability": [
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "sacred_outside_scale": [
+          "institutional_suppression"
+        ],
+        "institutional_suppression": []
+      },
+      "tension_as_derived": {
+        "evolutionary_deformation": [
+          "inference_auditability",
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "inference_auditability": [
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "sacred_outside_scale": [
+          "institutional_suppression"
+        ],
+        "institutional_suppression": []
+      },
+      "evolutionary_deformation": {
+        "inference_auditability": [
+          "sacred_outside_scale",
+          "institutional_suppression"
+        ],
+        "sacred_outside_scale": [
+          "institutional_suppression"
+        ],
+        "institutional_suppression": []
+      },
+      "inference_auditability": {
+        "sacred_outside_scale": [
+          "institutional_suppression"
+        ],
+        "institutional_suppression": []
+      },
+      "sacred_outside_scale": {
+        "institutional_suppression": []
+      }
+    },
+    "paths": {
+      "local_first_sovereignty/constraint_driven_design": [
+        "inf_99b17475"
+      ],
+      "local_first_sovereignty/emergent_scope_growth": [
+        "inf_99b17475"
+      ],
+      "local_first_sovereignty/hardened_userspace": [
+        "inf_99b17475"
+      ],
+      "local_first_sovereignty/human_in_the_loop": [
+        "inf_99b17475"
+      ],
+      "local_first_sovereignty/iterative_ai_collaboration": [
+        "inf_99b17475"
+      ],
+      "local_first_sovereignty/layered_authentication": [
+        "inf_99b17475"
+      ],
+      "local_first_sovereignty/physical_confirmation_ritual": [
+        "inf_99b17475"
+      ],
+      "local_first_sovereignty/privacy_by_architecture": [
+        "inf_99b17475"
+      ],
+      "local_first_sovereignty/protective_reassurance": [
+        "inf_99b17475"
+      ],
+      "local_first_sovereignty/resilient_reconnection": [
+        "inf_99b17475"
+      ],
+      "local_first_sovereignty/trust_through_encryption": [
+        "inf_99b17475"
+      ],
+      "affective_field/emotional_contagion": [
+        "inf_c70b0e6c"
+      ],
+      "affective_field/evolutionary_deformation": [
+        "inf_c70b0e6c"
+      ],
+      "affective_field/grid_group_coordinates": [
+        "inf_c70b0e6c"
+      ],
+      "affective_field/inference_auditability": [
+        "inf_c70b0e6c"
+      ],
+      "affective_field/institutional_suppression": [
+        "inf_c70b0e6c"
+      ],
+      "affective_field/resonance_to_illusion": [
+        "inf_c70b0e6c"
+      ],
+      "affective_field/sacred_outside_scale": [
+        "inf_c70b0e6c"
+      ],
+      "affective_field/tension_as_derived": [
+        "inf_c70b0e6c"
+      ],
+      "authority_gradient/affective_field": [
+        "inf_c70b0e6c"
+      ],
+      "authority_gradient/bond_neurochemistry": [
+        "inf_c70b0e6c"
+      ],
+      "authority_gradient/cooperative_violation": [
+        "inf_c70b0e6c"
+      ],
+      "authority_gradient/dunbar_layering": [
+        "inf_c70b0e6c"
+      ],
+      "authority_gradient/emotional_contagion": [
+        "inf_c70b0e6c"
+      ],
+      "authority_gradient/evolutionary_deformation": [
+        "inf_c70b0e6c"
+      ],
+      "authority_gradient/gemeinschaft_gesellschaft_transition": [
+        "inf_c70b0e6c"
+      ],
+      "authority_gradient/grid_group_coordinates": [
+        "inf_c70b0e6c"
+      ],
+      "authority_gradient/group_size_thresholds": [
+        "inf_c70b0e6c"
+      ],
+      "authority_gradient/inference_auditability": [
+        "inf_c70b0e6c"
+      ],
+      "authority_gradient/institutional_suppression": [
+        "inf_c70b0e6c"
+      ],
+      "authority_gradient/phase_change": [
+        "inf_c70b0e6c"
+      ],
+      "authority_gradient/resonance_to_illusion": [
+        "inf_c70b0e6c"
+      ],
+      "authority_gradient/sacred_outside_scale": [
+        "inf_c70b0e6c"
+      ],
+      "authority_gradient/tension_as_derived": [
+        "inf_c70b0e6c"
+      ],
+      "bond_neurochemistry/affective_field": [
+        "inf_c70b0e6c"
+      ],
+      "bond_neurochemistry/emotional_contagion": [
+        "inf_c70b0e6c"
+      ],
+      "bond_neurochemistry/evolutionary_deformation": [
+        "inf_c70b0e6c"
+      ],
+      "bond_neurochemistry/grid_group_coordinates": [
+        "inf_c70b0e6c"
+      ],
+      "bond_neurochemistry/inference_auditability": [
+        "inf_c70b0e6c"
+      ],
+      "bond_neurochemistry/institutional_suppression": [
+        "inf_c70b0e6c"
+      ],
+      "bond_neurochemistry/resonance_to_illusion": [
+        "inf_c70b0e6c"
+      ],
+      "bond_neurochemistry/sacred_outside_scale": [
+        "inf_c70b0e6c"
+      ],
+      "bond_neurochemistry/tension_as_derived": [
+        "inf_c70b0e6c"
+      ],
+      "cooperative_violation/affective_field": [
+        "inf_c70b0e6c"
+      ],
+      "cooperative_violation/bond_neurochemistry": [
+        "inf_c70b0e6c"
+      ],
+      "cooperative_violation/dunbar_layering": [
+        "inf_c70b0e6c"
+      ],
+      "cooperative_violation/emotional_contagion": [
+        "inf_c70b0e6c"
+      ],
+      "cooperative_violation/evolutionary_deformation": [
+        "inf_c70b0e6c"
+      ],
+      "cooperative_violation/gemeinschaft_gesellschaft_transition": [
+        "inf_c70b0e6c"
+      ],
+      "cooperative_violation/grid_group_coordinates": [
+        "inf_c70b0e6c"
+      ],
+      "cooperative_violation/group_size_thresholds": [
+        "inf_c70b0e6c"
+      ],
+      "cooperative_violation/inference_auditability": [
+        "inf_c70b0e6c"
+      ],
+      "cooperative_violation/institutional_suppression": [
+        "inf_c70b0e6c"
+      ],
+      "cooperative_violation/phase_change": [
+        "inf_c70b0e6c"
+      ],
+      "cooperative_violation/resonance_to_illusion": [
+        "inf_c70b0e6c"
+      ],
+      "cooperative_violation/sacred_outside_scale": [
+        "inf_c70b0e6c"
+      ],
+      "cooperative_violation/tension_as_derived": [
+        "inf_c70b0e6c"
+      ],
+      "dunbar_layering/affective_field": [
+        "inf_c70b0e6c"
+      ],
+      "dunbar_layering/bond_neurochemistry": [
+        "inf_c70b0e6c"
+      ],
+      "dunbar_layering/emotional_contagion": [
+        "inf_c70b0e6c"
+      ],
+      "dunbar_layering/evolutionary_deformation": [
+        "inf_c70b0e6c"
+      ],
+      "dunbar_layering/gemeinschaft_gesellschaft_transition": [
+        "inf_c70b0e6c"
+      ],
+      "dunbar_layering/grid_group_coordinates": [
+        "inf_c70b0e6c"
+      ],
+      "dunbar_layering/group_size_thresholds": [
+        "inf_c70b0e6c"
+      ],
+      "dunbar_layering/inference_auditability": [
+        "inf_c70b0e6c"
+      ],
+      "dunbar_layering/institutional_suppression": [
+        "inf_c70b0e6c"
+      ],
+      "dunbar_layering/phase_change": [
+        "inf_c70b0e6c"
+      ],
+      "dunbar_layering/resonance_to_illusion": [
+        "inf_c70b0e6c"
+      ],
+      "dunbar_layering/sacred_outside_scale": [
+        "inf_c70b0e6c"
+      ],
+      "dunbar_layering/tension_as_derived": [
+        "inf_c70b0e6c"
+      ],
+      "emotional_contagion/evolutionary_deformation": [
+        "inf_c70b0e6c"
+      ],
+      "emotional_contagion/grid_group_coordinates": [
+        "inf_c70b0e6c"
+      ],
+      "emotional_contagion/inference_auditability": [
+        "inf_c70b0e6c"
+      ],
+      "emotional_contagion/institutional_suppression": [
+        "inf_c70b0e6c"
+      ],
+      "emotional_contagion/resonance_to_illusion": [
+        "inf_c70b0e6c"
+      ],
+      "emotional_contagion/sacred_outside_scale": [
+        "inf_c70b0e6c"
+      ],
+      "emotional_contagion/tension_as_derived": [
+        "inf_c70b0e6c"
+      ],
+      "evolutionary_deformation/inference_auditability": [
+        "inf_c70b0e6c"
+      ],
+      "evolutionary_deformation/institutional_suppression": [
+        "inf_c70b0e6c"
+      ],
+      "evolutionary_deformation/sacred_outside_scale": [
+        "inf_c70b0e6c"
+      ],
+      "gemeinschaft_gesellschaft_transition/affective_field": [
+        "inf_c70b0e6c"
+      ],
+      "gemeinschaft_gesellschaft_transition/bond_neurochemistry": [
+        "inf_c70b0e6c"
+      ],
+      "gemeinschaft_gesellschaft_transition/emotional_contagion": [
+        "inf_c70b0e6c"
+      ],
+      "gemeinschaft_gesellschaft_transition/evolutionary_deformation": [
+        "inf_c70b0e6c"
+      ],
+      "gemeinschaft_gesellschaft_transition/grid_group_coordinates": [
+        "inf_c70b0e6c"
+      ],
+      "gemeinschaft_gesellschaft_transition/inference_auditability": [
+        "inf_c70b0e6c"
+      ],
+      "gemeinschaft_gesellschaft_transition/institutional_suppression": [
+        "inf_c70b0e6c"
+      ],
+      "gemeinschaft_gesellschaft_transition/phase_change": [
+        "inf_c70b0e6c"
+      ],
+      "gemeinschaft_gesellschaft_transition/resonance_to_illusion": [
+        "inf_c70b0e6c"
+      ],
+      "gemeinschaft_gesellschaft_transition/sacred_outside_scale": [
+        "inf_c70b0e6c"
+      ],
+      "gemeinschaft_gesellschaft_transition/tension_as_derived": [
+        "inf_c70b0e6c"
+      ],
+      "grid_group_coordinates/evolutionary_deformation": [
+        "inf_c70b0e6c"
+      ],
+      "grid_group_coordinates/inference_auditability": [
+        "inf_c70b0e6c"
+      ],
+      "grid_group_coordinates/institutional_suppression": [
+        "inf_c70b0e6c"
+      ],
+      "grid_group_coordinates/sacred_outside_scale": [
+        "inf_c70b0e6c"
+      ],
+      "grid_group_coordinates/tension_as_derived": [
+        "inf_c70b0e6c"
+      ],
+      "group_size_thresholds/affective_field": [
+        "inf_c70b0e6c"
+      ],
+      "group_size_thresholds/bond_neurochemistry": [
+        "inf_c70b0e6c"
+      ],
+      "group_size_thresholds/emotional_contagion": [
+        "inf_c70b0e6c"
+      ],
+      "group_size_thresholds/evolutionary_deformation": [
+        "inf_c70b0e6c"
+      ],
+      "group_size_thresholds/gemeinschaft_gesellschaft_transition": [
+        "inf_c70b0e6c"
+      ],
+      "group_size_thresholds/grid_group_coordinates": [
+        "inf_c70b0e6c"
+      ],
+      "group_size_thresholds/inference_auditability": [
+        "inf_c70b0e6c"
+      ],
+      "group_size_thresholds/institutional_suppression": [
+        "inf_c70b0e6c"
+      ],
+      "group_size_thresholds/phase_change": [
+        "inf_c70b0e6c"
+      ],
+      "group_size_thresholds/resonance_to_illusion": [
+        "inf_c70b0e6c"
+      ],
+      "group_size_thresholds/sacred_outside_scale": [
+        "inf_c70b0e6c"
+      ],
+      "group_size_thresholds/tension_as_derived": [
+        "inf_c70b0e6c"
+      ],
+      "inference_auditability/institutional_suppression": [
+        "inf_c70b0e6c"
+      ],
+      "inference_auditability/sacred_outside_scale": [
+        "inf_c70b0e6c"
+      ],
+      "phase_change/affective_field": [
+        "inf_c70b0e6c"
+      ],
+      "phase_change/bond_neurochemistry": [
+        "inf_c70b0e6c"
+      ],
+      "phase_change/emotional_contagion": [
+        "inf_c70b0e6c"
+      ],
+      "phase_change/evolutionary_deformation": [
+        "inf_c70b0e6c"
+      ],
+      "phase_change/grid_group_coordinates": [
+        "inf_c70b0e6c"
+      ],
+      "phase_change/inference_auditability": [
+        "inf_c70b0e6c"
+      ],
+      "phase_change/institutional_suppression": [
+        "inf_c70b0e6c"
+      ],
+      "phase_change/resonance_to_illusion": [
+        "inf_c70b0e6c"
+      ],
+      "phase_change/sacred_outside_scale": [
+        "inf_c70b0e6c"
+      ],
+      "phase_change/tension_as_derived": [
+        "inf_c70b0e6c"
+      ],
+      "resonance_to_illusion/evolutionary_deformation": [
+        "inf_c70b0e6c"
+      ],
+      "resonance_to_illusion/grid_group_coordinates": [
+        "inf_c70b0e6c"
+      ],
+      "resonance_to_illusion/inference_auditability": [
+        "inf_c70b0e6c"
+      ],
+      "resonance_to_illusion/institutional_suppression": [
+        "inf_c70b0e6c"
+      ],
+      "resonance_to_illusion/sacred_outside_scale": [
+        "inf_c70b0e6c"
+      ],
+      "resonance_to_illusion/tension_as_derived": [
+        "inf_c70b0e6c"
+      ],
+      "sacred_outside_scale/institutional_suppression": [
+        "inf_c70b0e6c"
+      ],
+      "tension_as_derived/evolutionary_deformation": [
+        "inf_c70b0e6c"
+      ],
+      "tension_as_derived/inference_auditability": [
+        "inf_c70b0e6c"
+      ],
+      "tension_as_derived/institutional_suppression": [
+        "inf_c70b0e6c"
+      ],
+      "tension_as_derived/sacred_outside_scale": [
+        "inf_c70b0e6c"
+      ],
+      "authority_gradient/communicative_payload": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/cooperative_maxim_violation": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/coordinate_geometry": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/cross_cutting_overlays": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/emergent_taxonomy": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/emotional_resonance": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/empathic_alignment": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/held_in_tension": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/illusory_harmony": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/implicature_gap": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/layered_social_space": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/open_composition": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/orthogonal_axes": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/scale_monotonicity": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/social_constraint_field": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/speech_act_force": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/store_deformation": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/structure_function_dichotomy": [
+        "inf_039423e5"
+      ],
+      "authority_gradient/transmission_field": [
+        "inf_039423e5"
+      ],
+      "communicative_payload/coordinate_geometry": [
+        "inf_039423e5"
+      ],
+      "communicative_payload/cross_cutting_overlays": [
+        "inf_039423e5"
+      ],
+      "communicative_payload/emergent_taxonomy": [
+        "inf_039423e5"
+      ],
+      "communicative_payload/empathic_alignment": [
+        "inf_039423e5"
+      ],
+      "communicative_payload/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "communicative_payload/illusory_harmony": [
+        "inf_039423e5"
+      ],
+      "communicative_payload/layered_social_space": [
+        "inf_039423e5"
+      ],
+      "communicative_payload/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "communicative_payload/scale_monotonicity": [
+        "inf_039423e5"
+      ],
+      "communicative_payload/store_deformation": [
+        "inf_039423e5"
+      ],
+      "communicative_payload/transmission_field": [
+        "inf_039423e5"
+      ],
+      "cooperative_maxim_violation/communicative_payload": [
+        "inf_039423e5"
+      ],
+      "cooperative_maxim_violation/coordinate_geometry": [
+        "inf_039423e5"
+      ],
+      "cooperative_maxim_violation/cross_cutting_overlays": [
+        "inf_039423e5"
+      ],
+      "cooperative_maxim_violation/emergent_taxonomy": [
+        "inf_039423e5"
+      ],
+      "cooperative_maxim_violation/empathic_alignment": [
+        "inf_039423e5"
+      ],
+      "cooperative_maxim_violation/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "cooperative_maxim_violation/illusory_harmony": [
+        "inf_039423e5"
+      ],
+      "cooperative_maxim_violation/layered_social_space": [
+        "inf_039423e5"
+      ],
+      "cooperative_maxim_violation/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "cooperative_maxim_violation/scale_monotonicity": [
+        "inf_039423e5"
+      ],
+      "cooperative_maxim_violation/store_deformation": [
+        "inf_039423e5"
+      ],
+      "cooperative_maxim_violation/transmission_field": [
+        "inf_039423e5"
+      ],
+      "coordinate_geometry/cross_cutting_overlays": [
+        "inf_039423e5"
+      ],
+      "coordinate_geometry/emergent_taxonomy": [
+        "inf_039423e5"
+      ],
+      "coordinate_geometry/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "coordinate_geometry/layered_social_space": [
+        "inf_039423e5"
+      ],
+      "coordinate_geometry/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "coordinate_geometry/store_deformation": [
+        "inf_039423e5"
+      ],
+      "cross_cutting_overlays/emergent_taxonomy": [
+        "inf_039423e5"
+      ],
+      "cross_cutting_overlays/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "cross_cutting_overlays/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "cross_cutting_overlays/store_deformation": [
+        "inf_039423e5"
+      ],
+      "emergent_taxonomy/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "emergent_taxonomy/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "emergent_taxonomy/store_deformation": [
+        "inf_039423e5"
+      ],
+      "emotional_resonance/communicative_payload": [
+        "inf_039423e5"
+      ],
+      "emotional_resonance/cooperative_maxim_violation": [
+        "inf_039423e5"
+      ],
+      "emotional_resonance/coordinate_geometry": [
+        "inf_039423e5"
+      ],
+      "emotional_resonance/cross_cutting_overlays": [
+        "inf_039423e5"
+      ],
+      "emotional_resonance/emergent_taxonomy": [
+        "inf_039423e5"
+      ],
+      "emotional_resonance/empathic_alignment": [
+        "inf_039423e5"
+      ],
+      "emotional_resonance/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "emotional_resonance/held_in_tension": [
+        "inf_039423e5"
+      ],
+      "emotional_resonance/illusory_harmony": [
+        "inf_039423e5"
+      ],
+      "emotional_resonance/layered_social_space": [
+        "inf_039423e5"
+      ],
+      "emotional_resonance/open_composition": [
+        "inf_039423e5"
+      ],
+      "emotional_resonance/orthogonal_axes": [
+        "inf_039423e5"
+      ],
+      "emotional_resonance/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "emotional_resonance/scale_monotonicity": [
+        "inf_039423e5"
+      ],
+      "emotional_resonance/social_constraint_field": [
+        "inf_039423e5",
+        "inf_e13933e2"
+      ],
+      "emotional_resonance/speech_act_force": [
+        "inf_039423e5"
+      ],
+      "emotional_resonance/store_deformation": [
+        "inf_039423e5"
+      ],
+      "emotional_resonance/structure_function_dichotomy": [
+        "inf_039423e5"
+      ],
+      "emotional_resonance/transmission_field": [
+        "inf_039423e5"
+      ],
+      "empathic_alignment/coordinate_geometry": [
+        "inf_039423e5"
+      ],
+      "empathic_alignment/cross_cutting_overlays": [
+        "inf_039423e5"
+      ],
+      "empathic_alignment/emergent_taxonomy": [
+        "inf_039423e5"
+      ],
+      "empathic_alignment/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "empathic_alignment/layered_social_space": [
+        "inf_039423e5"
+      ],
+      "empathic_alignment/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "empathic_alignment/scale_monotonicity": [
+        "inf_039423e5"
+      ],
+      "empathic_alignment/store_deformation": [
+        "inf_039423e5"
+      ],
+      "empathic_alignment/transmission_field": [
+        "inf_039423e5"
+      ],
+      "generative_uncertainty/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "generative_uncertainty/store_deformation": [
+        "inf_039423e5"
+      ],
+      "held_in_tension/communicative_payload": [
+        "inf_039423e5"
+      ],
+      "held_in_tension/cooperative_maxim_violation": [
+        "inf_039423e5"
+      ],
+      "held_in_tension/coordinate_geometry": [
+        "inf_039423e5"
+      ],
+      "held_in_tension/cross_cutting_overlays": [
+        "inf_039423e5"
+      ],
+      "held_in_tension/emergent_taxonomy": [
+        "inf_039423e5"
+      ],
+      "held_in_tension/empathic_alignment": [
+        "inf_039423e5"
+      ],
+      "held_in_tension/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "held_in_tension/illusory_harmony": [
+        "inf_039423e5"
+      ],
+      "held_in_tension/layered_social_space": [
+        "inf_039423e5"
+      ],
+      "held_in_tension/open_composition": [
+        "inf_039423e5"
+      ],
+      "held_in_tension/orthogonal_axes": [
+        "inf_039423e5"
+      ],
+      "held_in_tension/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "held_in_tension/scale_monotonicity": [
+        "inf_039423e5"
+      ],
+      "held_in_tension/speech_act_force": [
+        "inf_039423e5"
+      ],
+      "held_in_tension/store_deformation": [
+        "inf_039423e5"
+      ],
+      "held_in_tension/structure_function_dichotomy": [
+        "inf_039423e5"
+      ],
+      "held_in_tension/transmission_field": [
+        "inf_039423e5"
+      ],
+      "illusory_harmony/coordinate_geometry": [
+        "inf_039423e5"
+      ],
+      "illusory_harmony/cross_cutting_overlays": [
+        "inf_039423e5"
+      ],
+      "illusory_harmony/emergent_taxonomy": [
+        "inf_039423e5"
+      ],
+      "illusory_harmony/empathic_alignment": [
+        "inf_039423e5"
+      ],
+      "illusory_harmony/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "illusory_harmony/layered_social_space": [
+        "inf_039423e5"
+      ],
+      "illusory_harmony/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "illusory_harmony/scale_monotonicity": [
+        "inf_039423e5"
+      ],
+      "illusory_harmony/store_deformation": [
+        "inf_039423e5"
+      ],
+      "illusory_harmony/transmission_field": [
+        "inf_039423e5"
+      ],
+      "implicature_gap/communicative_payload": [
+        "inf_039423e5"
+      ],
+      "implicature_gap/cooperative_maxim_violation": [
+        "inf_039423e5"
+      ],
+      "implicature_gap/coordinate_geometry": [
+        "inf_039423e5"
+      ],
+      "implicature_gap/cross_cutting_overlays": [
+        "inf_039423e5"
+      ],
+      "implicature_gap/emergent_taxonomy": [
+        "inf_039423e5"
+      ],
+      "implicature_gap/emotional_resonance": [
+        "inf_039423e5",
+        "inf_e13933e2"
+      ],
+      "implicature_gap/empathic_alignment": [
+        "inf_039423e5"
+      ],
+      "implicature_gap/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "implicature_gap/held_in_tension": [
+        "inf_039423e5"
+      ],
+      "implicature_gap/illusory_harmony": [
+        "inf_039423e5"
+      ],
+      "implicature_gap/layered_social_space": [
+        "inf_039423e5"
+      ],
+      "implicature_gap/open_composition": [
+        "inf_039423e5"
+      ],
+      "implicature_gap/orthogonal_axes": [
+        "inf_039423e5"
+      ],
+      "implicature_gap/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "implicature_gap/scale_monotonicity": [
+        "inf_039423e5"
+      ],
+      "implicature_gap/social_constraint_field": [
+        "inf_039423e5",
+        "inf_e13933e2"
+      ],
+      "implicature_gap/speech_act_force": [
+        "inf_039423e5"
+      ],
+      "implicature_gap/store_deformation": [
+        "inf_039423e5"
+      ],
+      "implicature_gap/structure_function_dichotomy": [
+        "inf_039423e5"
+      ],
+      "implicature_gap/transmission_field": [
+        "inf_039423e5"
+      ],
+      "layered_social_space/cross_cutting_overlays": [
+        "inf_039423e5"
+      ],
+      "layered_social_space/emergent_taxonomy": [
+        "inf_039423e5"
+      ],
+      "layered_social_space/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "layered_social_space/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "layered_social_space/store_deformation": [
+        "inf_039423e5"
+      ],
+      "open_composition/communicative_payload": [
+        "inf_039423e5"
+      ],
+      "open_composition/cooperative_maxim_violation": [
+        "inf_039423e5"
+      ],
+      "open_composition/coordinate_geometry": [
+        "inf_039423e5"
+      ],
+      "open_composition/cross_cutting_overlays": [
+        "inf_039423e5"
+      ],
+      "open_composition/emergent_taxonomy": [
+        "inf_039423e5"
+      ],
+      "open_composition/empathic_alignment": [
+        "inf_039423e5"
+      ],
+      "open_composition/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "open_composition/illusory_harmony": [
+        "inf_039423e5"
+      ],
+      "open_composition/layered_social_space": [
+        "inf_039423e5"
+      ],
+      "open_composition/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "open_composition/scale_monotonicity": [
+        "inf_039423e5"
+      ],
+      "open_composition/speech_act_force": [
+        "inf_039423e5"
+      ],
+      "open_composition/store_deformation": [
+        "inf_039423e5"
+      ],
+      "open_composition/transmission_field": [
+        "inf_039423e5"
+      ],
+      "orthogonal_axes/communicative_payload": [
+        "inf_039423e5"
+      ],
+      "orthogonal_axes/cooperative_maxim_violation": [
+        "inf_039423e5"
+      ],
+      "orthogonal_axes/coordinate_geometry": [
+        "inf_039423e5"
+      ],
+      "orthogonal_axes/cross_cutting_overlays": [
+        "inf_039423e5"
+      ],
+      "orthogonal_axes/emergent_taxonomy": [
+        "inf_039423e5"
+      ],
+      "orthogonal_axes/empathic_alignment": [
+        "inf_039423e5"
+      ],
+      "orthogonal_axes/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "orthogonal_axes/illusory_harmony": [
+        "inf_039423e5"
+      ],
+      "orthogonal_axes/layered_social_space": [
+        "inf_039423e5"
+      ],
+      "orthogonal_axes/open_composition": [
+        "inf_039423e5"
+      ],
+      "orthogonal_axes/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "orthogonal_axes/scale_monotonicity": [
+        "inf_039423e5"
+      ],
+      "orthogonal_axes/speech_act_force": [
+        "inf_039423e5"
+      ],
+      "orthogonal_axes/store_deformation": [
+        "inf_039423e5"
+      ],
+      "orthogonal_axes/transmission_field": [
+        "inf_039423e5"
+      ],
+      "partial_tagging/store_deformation": [
+        "inf_039423e5"
+      ],
+      "scale_monotonicity/coordinate_geometry": [
+        "inf_039423e5"
+      ],
+      "scale_monotonicity/cross_cutting_overlays": [
+        "inf_039423e5"
+      ],
+      "scale_monotonicity/emergent_taxonomy": [
+        "inf_039423e5"
+      ],
+      "scale_monotonicity/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "scale_monotonicity/layered_social_space": [
+        "inf_039423e5"
+      ],
+      "scale_monotonicity/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "scale_monotonicity/store_deformation": [
+        "inf_039423e5"
+      ],
+      "social_constraint_field/communicative_payload": [
+        "inf_039423e5"
+      ],
+      "social_constraint_field/cooperative_maxim_violation": [
+        "inf_039423e5"
+      ],
+      "social_constraint_field/coordinate_geometry": [
+        "inf_039423e5"
+      ],
+      "social_constraint_field/cross_cutting_overlays": [
+        "inf_039423e5"
+      ],
+      "social_constraint_field/emergent_taxonomy": [
+        "inf_039423e5"
+      ],
+      "social_constraint_field/empathic_alignment": [
+        "inf_039423e5"
+      ],
+      "social_constraint_field/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "social_constraint_field/held_in_tension": [
+        "inf_039423e5"
+      ],
+      "social_constraint_field/illusory_harmony": [
+        "inf_039423e5"
+      ],
+      "social_constraint_field/layered_social_space": [
+        "inf_039423e5"
+      ],
+      "social_constraint_field/open_composition": [
+        "inf_039423e5"
+      ],
+      "social_constraint_field/orthogonal_axes": [
+        "inf_039423e5"
+      ],
+      "social_constraint_field/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "social_constraint_field/scale_monotonicity": [
+        "inf_039423e5"
+      ],
+      "social_constraint_field/speech_act_force": [
+        "inf_039423e5"
+      ],
+      "social_constraint_field/store_deformation": [
+        "inf_039423e5"
+      ],
+      "social_constraint_field/structure_function_dichotomy": [
+        "inf_039423e5"
+      ],
+      "social_constraint_field/transmission_field": [
+        "inf_039423e5"
+      ],
+      "speech_act_force/communicative_payload": [
+        "inf_039423e5"
+      ],
+      "speech_act_force/cooperative_maxim_violation": [
+        "inf_039423e5"
+      ],
+      "speech_act_force/coordinate_geometry": [
+        "inf_039423e5"
+      ],
+      "speech_act_force/cross_cutting_overlays": [
+        "inf_039423e5"
+      ],
+      "speech_act_force/emergent_taxonomy": [
+        "inf_039423e5"
+      ],
+      "speech_act_force/empathic_alignment": [
+        "inf_039423e5"
+      ],
+      "speech_act_force/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "speech_act_force/illusory_harmony": [
+        "inf_039423e5"
+      ],
+      "speech_act_force/layered_social_space": [
+        "inf_039423e5"
+      ],
+      "speech_act_force/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "speech_act_force/scale_monotonicity": [
+        "inf_039423e5"
+      ],
+      "speech_act_force/store_deformation": [
+        "inf_039423e5"
+      ],
+      "speech_act_force/transmission_field": [
+        "inf_039423e5"
+      ],
+      "structure_function_dichotomy/communicative_payload": [
+        "inf_039423e5"
+      ],
+      "structure_function_dichotomy/cooperative_maxim_violation": [
+        "inf_039423e5"
+      ],
+      "structure_function_dichotomy/coordinate_geometry": [
+        "inf_039423e5"
+      ],
+      "structure_function_dichotomy/cross_cutting_overlays": [
+        "inf_039423e5"
+      ],
+      "structure_function_dichotomy/emergent_taxonomy": [
+        "inf_039423e5"
+      ],
+      "structure_function_dichotomy/empathic_alignment": [
+        "inf_039423e5"
+      ],
+      "structure_function_dichotomy/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "structure_function_dichotomy/illusory_harmony": [
+        "inf_039423e5"
+      ],
+      "structure_function_dichotomy/layered_social_space": [
+        "inf_039423e5"
+      ],
+      "structure_function_dichotomy/open_composition": [
+        "inf_039423e5"
+      ],
+      "structure_function_dichotomy/orthogonal_axes": [
+        "inf_039423e5"
+      ],
+      "structure_function_dichotomy/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "structure_function_dichotomy/scale_monotonicity": [
+        "inf_039423e5"
+      ],
+      "structure_function_dichotomy/speech_act_force": [
+        "inf_039423e5"
+      ],
+      "structure_function_dichotomy/store_deformation": [
+        "inf_039423e5"
+      ],
+      "structure_function_dichotomy/transmission_field": [
+        "inf_039423e5"
+      ],
+      "transmission_field/coordinate_geometry": [
+        "inf_039423e5"
+      ],
+      "transmission_field/cross_cutting_overlays": [
+        "inf_039423e5"
+      ],
+      "transmission_field/emergent_taxonomy": [
+        "inf_039423e5"
+      ],
+      "transmission_field/generative_uncertainty": [
+        "inf_039423e5"
+      ],
+      "transmission_field/layered_social_space": [
+        "inf_039423e5"
+      ],
+      "transmission_field/partial_tagging": [
+        "inf_039423e5"
+      ],
+      "transmission_field/scale_monotonicity": [
+        "inf_039423e5"
+      ],
+      "transmission_field/store_deformation": [
+        "inf_039423e5"
+      ],
+      "cooperative_violation/authority_source": [
+        "inf_e13933e2"
+      ],
+      "cooperative_violation/communicative_action": [
+        "inf_e13933e2"
+      ],
+      "cooperative_violation/coordinate_schema": [
+        "inf_e13933e2"
+      ],
+      "cooperative_violation/emergent_deformation": [
+        "inf_e13933e2"
+      ],
+      "cooperative_violation/explicit_implicit_tension": [
+        "inf_e13933e2"
+      ],
+      "cooperative_violation/hidden_knowledge": [
+        "inf_e13933e2"
+      ],
+      "cooperative_violation/masked_friction": [
+        "inf_e13933e2"
+      ],
+      "cooperative_violation/pre_institutional_genuineness": [
+        "inf_e13933e2"
+      ],
+      "cooperative_violation/provisional_hypothesis": [
+        "inf_e13933e2"
+      ],
+      "cooperative_violation/silent_affective_layer": [
+        "inf_e13933e2"
+      ],
+      "cooperative_violation/speech_act_performativity": [
+        "inf_e13933e2"
+      ],
+      "cooperative_violation/transmission_channel": [
+        "inf_e13933e2"
+      ],
+      "emotional_resonance/authority_source": [
+        "inf_e13933e2"
+      ],
+      "emotional_resonance/communicative_action": [
+        "inf_e13933e2"
+      ],
+      "emotional_resonance/cooperative_violation": [
+        "inf_e13933e2"
+      ],
+      "emotional_resonance/coordinate_schema": [
+        "inf_e13933e2"
+      ],
+      "emotional_resonance/emergent_deformation": [
+        "inf_e13933e2"
+      ],
+      "emotional_resonance/explicit_implicit_tension": [
+        "inf_e13933e2"
+      ],
+      "emotional_resonance/hidden_knowledge": [
+        "inf_e13933e2"
+      ],
+      "emotional_resonance/masked_friction": [
+        "inf_e13933e2"
+      ],
+      "emotional_resonance/pre_institutional_genuineness": [
+        "inf_e13933e2"
+      ],
+      "emotional_resonance/provisional_hypothesis": [
+        "inf_e13933e2"
+      ],
+      "emotional_resonance/silent_affective_layer": [
+        "inf_e13933e2"
+      ],
+      "emotional_resonance/speech_act_performativity": [
+        "inf_e13933e2"
+      ],
+      "emotional_resonance/transmission_channel": [
+        "inf_e13933e2"
+      ],
+      "implicature_gap/authority_source": [
+        "inf_e13933e2"
+      ],
+      "implicature_gap/communicative_action": [
+        "inf_e13933e2"
+      ],
+      "implicature_gap/cooperative_violation": [
+        "inf_e13933e2"
+      ],
+      "implicature_gap/coordinate_schema": [
+        "inf_e13933e2"
+      ],
+      "implicature_gap/emergent_deformation": [
+        "inf_e13933e2"
+      ],
+      "implicature_gap/explicit_implicit_tension": [
+        "inf_e13933e2"
+      ],
+      "implicature_gap/hidden_knowledge": [
+        "inf_e13933e2"
+      ],
+      "implicature_gap/masked_friction": [
+        "inf_e13933e2"
+      ],
+      "implicature_gap/pre_institutional_genuineness": [
+        "inf_e13933e2"
+      ],
+      "implicature_gap/provisional_hypothesis": [
+        "inf_e13933e2"
+      ],
+      "implicature_gap/silent_affective_layer": [
+        "inf_e13933e2"
+      ],
+      "implicature_gap/speech_act_performativity": [
+        "inf_e13933e2"
+      ],
+      "implicature_gap/transmission_channel": [
+        "inf_e13933e2"
+      ],
+      "social_constraint_field/authority_source": [
+        "inf_e13933e2"
+      ],
+      "social_constraint_field/communicative_action": [
+        "inf_e13933e2"
+      ],
+      "social_constraint_field/cooperative_violation": [
+        "inf_e13933e2"
+      ],
+      "social_constraint_field/coordinate_schema": [
+        "inf_e13933e2"
+      ],
+      "social_constraint_field/emergent_deformation": [
+        "inf_e13933e2"
+      ],
+      "social_constraint_field/explicit_implicit_tension": [
+        "inf_e13933e2"
+      ],
+      "social_constraint_field/hidden_knowledge": [
+        "inf_e13933e2"
+      ],
+      "social_constraint_field/masked_friction": [
+        "inf_e13933e2"
+      ],
+      "social_constraint_field/pre_institutional_genuineness": [
+        "inf_e13933e2"
+      ],
+      "social_constraint_field/provisional_hypothesis": [
+        "inf_e13933e2"
+      ],
+      "social_constraint_field/silent_affective_layer": [
+        "inf_e13933e2"
+      ],
+      "social_constraint_field/speech_act_performativity": [
+        "inf_e13933e2"
+      ],
+      "social_constraint_field/transmission_channel": [
+        "inf_e13933e2"
+      ],
+      "beneficial_outcome_modeling/analogical_synthesis": [
+        "inf_d610e662"
+      ],
+      "beneficial_outcome_modeling/conflict_universality": [
+        "inf_d610e662"
+      ],
+      "beneficial_outcome_modeling/felt_meaning": [
+        "inf_d610e662"
+      ],
+      "beneficial_outcome_modeling/filesystem_transparency": [
+        "inf_d610e662"
+      ],
+      "beneficial_outcome_modeling/human_in_loop_security": [
+        "inf_d610e662"
+      ],
+      "beneficial_outcome_modeling/persistent_intuition": [
+        "inf_d610e662"
+      ],
+      "beneficial_outcome_modeling/schema_free_structure": [
+        "inf_d610e662"
+      ],
+      "beneficial_outcome_modeling/therapeutic_prediction": [
+        "inf_d610e662"
+      ],
+      "emergent_structure/analogical_synthesis": [
+        "inf_d610e662"
+      ],
+      "emergent_structure/beneficial_outcome_modeling": [
+        "inf_d610e662"
+      ],
+      "emergent_structure/conflict_universality": [
+        "inf_d610e662"
+      ],
+      "emergent_structure/felt_meaning": [
+        "inf_d610e662"
+      ],
+      "emergent_structure/filesystem_transparency": [
+        "inf_d610e662"
+      ],
+      "emergent_structure/human_in_loop_security": [
+        "inf_d610e662"
+      ],
+      "emergent_structure/local_first_sovereignty": [
+        "inf_d610e662"
+      ],
+      "emergent_structure/persistent_intuition": [
+        "inf_d610e662"
+      ],
+      "emergent_structure/schema_free_structure": [
+        "inf_d610e662"
+      ],
+      "emergent_structure/semantic_digital_duality": [
+        "inf_d610e662"
+      ],
+      "emergent_structure/therapeutic_prediction": [
+        "inf_d610e662"
+      ],
+      "local_first_sovereignty/analogical_synthesis": [
+        "inf_d610e662"
+      ],
+      "local_first_sovereignty/beneficial_outcome_modeling": [
+        "inf_d610e662"
+      ],
+      "local_first_sovereignty/conflict_universality": [
+        "inf_d610e662"
+      ],
+      "local_first_sovereignty/felt_meaning": [
+        "inf_d610e662"
+      ],
+      "local_first_sovereignty/filesystem_transparency": [
+        "inf_d610e662"
+      ],
+      "local_first_sovereignty/human_in_loop_security": [
+        "inf_d610e662"
+      ],
+      "local_first_sovereignty/persistent_intuition": [
+        "inf_d610e662"
+      ],
+      "local_first_sovereignty/schema_free_structure": [
+        "inf_d610e662"
+      ],
+      "local_first_sovereignty/semantic_digital_duality": [
+        "inf_d610e662"
+      ],
+      "local_first_sovereignty/therapeutic_prediction": [
+        "inf_d610e662"
+      ],
+      "semantic_digital_duality/analogical_synthesis": [
+        "inf_d610e662"
+      ],
+      "semantic_digital_duality/beneficial_outcome_modeling": [
+        "inf_00f3e5f0",
+        "inf_d610e662"
+      ],
+      "semantic_digital_duality/conflict_universality": [
+        "inf_d610e662"
+      ],
+      "semantic_digital_duality/felt_meaning": [
+        "inf_d610e662"
+      ],
+      "semantic_digital_duality/filesystem_transparency": [
+        "inf_d610e662"
+      ],
+      "semantic_digital_duality/human_in_loop_security": [
+        "inf_d610e662"
+      ],
+      "semantic_digital_duality/persistent_intuition": [
+        "inf_d610e662"
+      ],
+      "semantic_digital_duality/schema_free_structure": [
+        "inf_d610e662"
+      ],
+      "semantic_digital_duality/therapeutic_prediction": [
+        "inf_d610e662"
+      ],
+      "beneficial_outcome_modeling/adversarial_betrayal": [
+        "inf_00f3e5f0"
+      ],
+      "beneficial_outcome_modeling/baseline_deviation_modeling": [
+        "inf_00f3e5f0"
+      ],
+      "beneficial_outcome_modeling/empathy_absent_computation": [
+        "inf_00f3e5f0"
+      ],
+      "beneficial_outcome_modeling/functional_model_bridge": [
+        "inf_00f3e5f0"
+      ],
+      "beneficial_outcome_modeling/inference_as_tube": [
+        "inf_00f3e5f0"
+      ],
+      "beneficial_outcome_modeling/llm_philosophical_drift": [
+        "inf_00f3e5f0"
+      ],
+      "beneficial_outcome_modeling/logos_as_analogical_knowledge": [
+        "inf_00f3e5f0"
+      ],
+      "beneficial_outcome_modeling/predictive_intuition": [
+        "inf_00f3e5f0"
+      ],
+      "beneficial_outcome_modeling/self_evolving_rules": [
+        "inf_00f3e5f0"
+      ],
+      "beneficial_outcome_modeling/synthesis_without_antithesis": [
+        "inf_00f3e5f0"
+      ],
+      "semantic_digital_duality/adversarial_betrayal": [
+        "inf_00f3e5f0"
+      ],
+      "semantic_digital_duality/baseline_deviation_modeling": [
+        "inf_00f3e5f0"
+      ],
+      "semantic_digital_duality/empathy_absent_computation": [
+        "inf_00f3e5f0"
+      ],
+      "semantic_digital_duality/functional_model_bridge": [
+        "inf_00f3e5f0"
+      ],
+      "semantic_digital_duality/inference_as_tube": [
+        "inf_00f3e5f0"
+      ],
+      "semantic_digital_duality/llm_philosophical_drift": [
+        "inf_00f3e5f0"
+      ],
+      "semantic_digital_duality/logos_as_analogical_knowledge": [
+        "inf_00f3e5f0"
+      ],
+      "semantic_digital_duality/predictive_intuition": [
+        "inf_00f3e5f0"
+      ],
+      "semantic_digital_duality/self_evolving_rules": [
+        "inf_00f3e5f0"
+      ],
+      "semantic_digital_duality/synthesis_without_antithesis": [
+        "inf_00f3e5f0"
+      ],
+      "emergent_structure/anti_adversarial_stance": [
+        "inf_b1631d2c"
+      ],
+      "emergent_structure/constructive_resolution": [
+        "inf_b1631d2c"
+      ],
+      "emergent_structure/evolved_social_logic": [
+        "inf_b1631d2c"
+      ],
+      "emergent_structure/felt_meaning_extraction": [
+        "inf_b1631d2c"
+      ],
+      "emergent_structure/institutional_exclusion": [
+        "inf_b1631d2c"
+      ],
+      "emergent_structure/layered_isomorphism": [
+        "inf_b1631d2c"
+      ],
+      "emergent_structure/left_right_commensurability": [
+        "inf_b1631d2c"
+      ],
+      "emergent_structure/local_first_privacy": [
+        "inf_b1631d2c"
+      ],
+      "emergent_structure/logos_bridge": [
+        "inf_b1631d2c"
+      ],
+      "emergent_structure/prose_reconstruction": [
+        "inf_b1631d2c"
+      ],
+      "emergent_structure/repo_split_divergence": [
+        "inf_b1631d2c"
+      ],
+      "emergent_structure/researcher_grounding": [
+        "inf_b1631d2c"
+      ],
+      "emergent_structure/schema_refusal": [
+        "inf_b1631d2c"
+      ],
+      "emergent_structure/self_evolving_pipeline": [
+        "inf_b1631d2c"
+      ],
+      "emergent_structure/tension_divergence": [
+        "inf_b1631d2c"
+      ],
+      "emergent_structure/actualization_threshold": [
+        "inf_07f233fa"
+      ],
+      "emergent_structure/analog_digital_conflict": [
+        "inf_07f233fa"
+      ],
+      "emergent_structure/corpus_accumulation": [
+        "inf_07f233fa"
+      ],
+      "emergent_structure/filesystem_as_database": [
+        "inf_07f233fa"
+      ],
+      "emergent_structure/interpretive_pressure": [
+        "inf_07f233fa"
+      ],
+      "emergent_structure/latent_potentiality": [
+        "inf_07f233fa"
+      ],
+      "emergent_structure/left_right_divergence": [
+        "inf_07f233fa"
+      ],
+      "emergent_structure/privacy_layering": [
+        "inf_07f233fa"
+      ],
+      "emergent_structure/resolution_orientation": [
+        "inf_07f233fa"
+      ],
+      "emergent_structure/structural_tension": [
+        "inf_07f233fa"
+      ],
+      "emergent_structure/unactualized_paths": [
+        "inf_07f233fa"
+      ]
+    }
+  }
+}

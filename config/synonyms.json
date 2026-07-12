@@ -1,6 +1,7 @@
 {
   "_comment": "Maps keyword variants to canonical forms. Add entries as vocabulary drifts are detected.",
   "synonyms": {
+    "delayed_vindication": "delayed_justice",
     "beneficial_modeling": "beneficial_outcome_modeling",
     "beneficial_outcome_prediction": "beneficial_outcome_modeling",
     "beneficial_score_output": "beneficial_outcome_modeling",

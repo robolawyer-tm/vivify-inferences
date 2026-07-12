@@ -1,0 +1,48 @@
+{
+  "id": "inf_e7f88704",
+  "version": "1.0",
+  "timestamp": "2026-06-12T18:52:43.885249+00:00",
+  "source": "claude_session",
+  "raw_text": "Claude searched for and read `~/bin/claude_terminal`, a local script in the user's personal bin directory. The search was initiated by looking for `\"*terminal*\"` patterns in both `~/bin` and `~/repos/sys_adm`, suggesting that `claude_terminal` is part of a locally-maintained toolchain for managing or launching Claude Code sessions, and that the user maintains session-related scripts in both the deployed bin directory and the source sys_adm repository.",
+  "left_keywords": [
+    "local_toolchain",
+    "personal_bin_directory",
+    "self_maintained_scripts",
+    "session_management",
+    "claude_code_sessions",
+    "launch_infrastructure",
+    "glob_pattern_search",
+    "script_discovery",
+    "source_deployment_separation",
+    "deployed_bin",
+    "source_repository",
+    "dual_location_architecture"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "local_infrastructure": [
+      "local_toolchain",
+      "personal_bin_directory",
+      "self_maintained_scripts"
+    ],
+    "session_management": [
+      "claude_code_sessions",
+      "launch_infrastructure",
+      "session_management"
+    ],
+    "script_discovery": [
+      "filesystem_exploration",
+      "glob_pattern_search",
+      "script_discovery"
+    ],
+    "source_deployment_separation": [
+      "deployed_bin",
+      "dual_location_architecture",
+      "source_repository"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "inf_c3388eef",
+  "version": "1.0",
+  "timestamp": "2026-07-03T00:12:43.655117+00:00",
+  "source": "claude_session",
+  "raw_text": "The cross_scale operator builds a phi link map connecting inferences across scales of social organization, from self through dyad, small group, local network, and institution to global, and it makes zero LLM calls since it only reads existing tags. The analytically interesting output is the strongest links spanning the widest scale gaps \u2014 self-to-global or dyad-to-global \u2014 surfaced with the discriminating signature dimensions that make each link meaningful. Running it against the fully-tagged store produces the corpus-wide link structure that this operator exists to reveal.",
+  "left_keywords": [
+    "cross_scale_operator",
+    "phi_link_map",
+    "scale_spanning_connection",
+    "social_organization_scale",
+    "self_to_global_reach",
+    "dyad_to_global_reach",
+    "widest_gap_prioritization",
+    "strongest_link_surfacing",
+    "discriminating_signature",
+    "meaningful_link_criterion",
+    "zero_llm_cost",
+    "tag_only_derivation",
+    "corpus_wide_structure",
+    "emergent_revelation"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "cross_scale_linkage": [
+      "cross_scale_operator",
+      "phi_link_map",
+      "scale_spanning_connection"
+    ],
+    "organizational_scale_ladder": [
+      "dyad_to_global_reach",
+      "self_to_global_reach",
+      "social_organization_scale"
+    ],
+    "salience_selection": [
+      "strongest_link_surfacing",
+      "widest_gap_prioritization"
+    ],
+    "link_meaning": [
+      "discriminating_signature",
+      "meaningful_link_criterion"
+    ],
+    "cheap_derivation": [
+      "tag_only_derivation",
+      "zero_llm_cost"
+    ],
+    "corpus_revelation": [
+      "corpus_wide_structure",
+      "emergent_revelation"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": 1.0,
+  "guardrail_actions": {}
+}

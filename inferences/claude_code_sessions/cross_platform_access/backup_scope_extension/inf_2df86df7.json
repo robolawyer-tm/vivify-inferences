@@ -1,0 +1,75 @@
+{
+  "id": "inf_2df86df7",
+  "version": "1.0",
+  "timestamp": "2026-06-11T14:51:43.749453+00:00",
+  "source": "claude_session",
+  "raw_text": "The backup script desktop_backup was extended from covering only ~/Desktop to covering the full Linux home directory structure. On this system, $HOME is the functional equivalent of the Windows Desktop \u2014 the user works entirely in CLI and never looks at a graphical desktop, a discipline traced back to DEC VAX days. The same logical directory structure (info, picts, docs, etc.) that existed under \\Home\\John\\Desktop on Windows is reproduced directly under $HOME on Linux, so the script needed only to change its SRC variable from $HOME/Desktop to $HOME and adjust the dir list to reflect what actually exists in the Linux home.",
+  "left_keywords": [
+    "backup_scope_extension",
+    "home_directory_equivalence",
+    "cli_discipline",
+    "dec_vax_heritage",
+    "structural_migration",
+    "script_adaptation",
+    "cross_platform_access",
+    "filesystem_as_workspace",
+    "directory_name_preservation",
+    "workspace_philosophy"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "backup_evolution": [
+      "backup_scope_extension",
+      "directory_list_update",
+      "script_adaptation"
+    ],
+    "platform_equivalence": [
+      "cross_platform_access",
+      "home_directory_equivalence",
+      "structural_migration"
+    ],
+    "cli_discipline": [
+      "cli_first_workflow",
+      "graphical_desktop_absence",
+      "workspace_philosophy"
+    ],
+    "historical_continuity": [
+      "dec_vax_heritage",
+      "legacy_discipline",
+      "long_term_consistency"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "cross_platform_access/backup_scope_extension",
+    "cross_platform_access/cli_discipline",
+    "cross_platform_access/dec_vax_heritage",
+    "cross_platform_access/directory_name_preservation",
+    "cross_platform_access/filesystem_as_workspace",
+    "cross_platform_access/home_directory_equivalence",
+    "cross_platform_access/script_adaptation",
+    "cross_platform_access/structural_migration",
+    "cross_platform_access/workspace_philosophy",
+    "directory_name_preservation/backup_scope_extension",
+    "directory_name_preservation/cli_discipline",
+    "directory_name_preservation/dec_vax_heritage",
+    "directory_name_preservation/filesystem_as_workspace",
+    "directory_name_preservation/home_directory_equivalence",
+    "directory_name_preservation/script_adaptation",
+    "directory_name_preservation/structural_migration",
+    "directory_name_preservation/workspace_philosophy"
+  ]
+}

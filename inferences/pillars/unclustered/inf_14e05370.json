@@ -1,0 +1,58 @@
+{
+  "id": "inf_14e05370",
+  "version": "1.0",
+  "timestamp": "2026-07-07T20:34:02.148983+00:00",
+  "source": "pillars/DESIGN_PHILOSOPHY.md",
+  "raw_text": "# Design Philosophy: Process vs Structure\n\n## The Core Problem\n\nWhen someone follows installation instructions, they experience **process** (step 1, step 2, step 3...).\n\nBut the instructions assume a specific **file structure** (files in certain directories, certain permissions, certain configurations).\n\nThese two things are **deeply linked but often documented separately**, creating confusion:\n\n**Scenario:**\n> \"Follow these steps to install secret-server\"\n>\n> Step 1: Copy web_server.py to your phone  \n> Step 2: Install requirements.txt  \n> Step 3: Run web_server.py  \n>\n> \u274c But where should web_server.py live? ~/secret-server/ or ~/app/ or ~/src/secret-server/?  \n> \u274c When you \"install requirements,\" does it auto-find the file in your chosen location?  \n> \u274c How do you know if you've followed the process *correctly* if the structure is ambiguous?\n\n## The Solution: Coupled Documentation\n\n### 1. **Explicit Target State**\n\nDocument the **final file structure** that must exist after successful installation:\n\n```\nPHONE\n  ~/ (home directory)\n    \u251c\u2500\u2500 secret-server/\n    \u2502   \u251c\u2500\u2500 web_server.py\n    \u2502   \u251c\u2500\u2500 main.py\n    \u2502   \u251c\u2500\u2500 requirements.txt\n    \u2502   \u251c\u2500\u2500 lib/\n    \u2502   \u2502   \u251c\u2500\u2500 auth.py\n    \u2502   \u2502   \u251c\u2500\u2500 crypto.py\n    \u2502   \u2502   \u251c\u2500\u2500 network.py\n    \u2502   \u2502   \u2514\u2500\u2500 ...\n    \u2502   \u251c\u2500\u2500 db/\n    \u2502   \u2502   \u251c\u2500\u2500 sys_adm/\n    \u2502   \u2502   \u2502   \u2514\u2500\u2500 auth.json\n    \u2502   \u2502   \u251c\u2500\u2500 apitest/\n    \u2502   \u2502   \u2514\u2500\u2500 ...\n    \u2502   \u2514\u2500\u2500 start_server.sh\n    \u2502\n    \u251c\u2500\u2500 android_mnt/ (symlink or remount point on Linux)\n    \u2502\n    \u2514\u2500\u2500 .termux/\n        \u2514\u2500\u2500 boot/\n            \u2514\u2500\u2500 start_server (startup hook)\n```\n\nThis is **non-negotiable**. Everything else assumes this structure.\n\n### 2. **Process That References Structure**\n\nEvery step in the installation should **explicitly point back** to where files go:\n\n```\nPHASE 3: Copy Files\n\u251c\u2500 Copy web_server.py \u2192 PHONE ~/secret-server/web_server.py\n\u251c\u2500 Copy main.py \u2192 PHONE ~/secret-server/main.py\n\u251c\u2500 Copy lib/ \u2192 PHONE ~/secret-server/lib/\n\u251c\u2500 Copy db/ \u2192 PHONE ~/secret-server/db/\n\u2514\u2500 Verify: PHONE$ ls ~/secret-server/\n   Expected output:  main.py  web_server.py  lib/  db/  ...\n```\n\n**No ambiguity.** Process = explicit paths + verification steps.\n\n### 3. **Validation Code**\n\nInclude a **structure validator** that users can run:\n\n```python\ndef validate_structure(base_path=\"~/secret-server\"):\n    \"\"\"Check if target directory matches expected structure.\"\"\"\n    checks = {\n        \"web_server.py\": \"Web server entry point\",\n        \"main.py\": \"Main application module\",\n        \"requirements.txt\": \"Python dependencies\",\n        \"lib/auth.py\": \"Authentication module\",\n        \"lib/crypto.py\": \"Encryption module\",\n        \"lib/network.py\": \"Network utilities\",\n        \"db/\": \"Database directory\",\n    }\n    \n    for path, description in checks.items():\n        full_path = f\"{base_path}/{path}\"\n        if exists(full_path):\n            print(f\"\u2713 {description}: {path}\")\n        else:\n            print(f\"\u2717 MISSING: {description}: {path}\")\n            return False\n    \n    return True\n```\n\n**Usage:**\n```bash\npython validate_structure.py ~/secret-server\n# Output:\n# \u2713 Web server entry point: web_server.py\n# \u2713 Main application module: main.py\n# ... etc\n```\n\nUsers can run this **at any point** to check: \"Did I follow the process correctly?\"\n\n## Benefits\n\n1. **Removes ambiguity** \u2014 Process and structure are locked together\n2. **Self-verifying** \u2014 Users can check their work\n3. **Scalable** \u2014 New developers see the expected target state immediately\n4. **Debuggable** \u2014 If something breaks, the structure is the diagnostic first step\n5. **Testable** \u2014 Automated tests can verify structure matches expected state\n\n## Application\n\nThis philosophy is embedded in:\n\n- **VIRGIN_INSTALL_CHECKLIST.md** \u2014 Process with explicit paths + verify steps\n- **[Directory structure docs]** \u2014 target-state diagrams\n- **Validation scripts** \u2014 automated structure checking\n- **Architecture documentation** \u2014 why the structure is organized this way\n\n## Forward Note\n\nAs new projects emerge (auth-server, hub-manager, etc.), they should:\n1. Define their target file structure first\n2. Then write process documentation that references that structure\n3. Include validation code\n4. Test the process on virgin systems\n\nThis inverts the typical flow: **structure \u2192 process \u2192 validation**, not process \u2192 \"hope the structure works out.\"",
+  "left_keywords": [
+    "process_structure_duality",
+    "documentation_decoupling_confusion",
+    "path_ambiguity",
+    "coupled_documentation",
+    "explicit_target_state",
+    "structure_first_inversion",
+    "self_verification",
+    "automated_validation",
+    "diagnostic_transparency",
+    "install_reproducibility",
+    "onboarding_clarity",
+    "correctness_assurance"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "core_tension": [
+      "process_structure_duality",
+      "documentation_decoupling_confusion",
+      "path_ambiguity"
+    ],
+    "coupling_solution": [
+      "coupled_documentation",
+      "explicit_target_state",
+      "structure_first_inversion"
+    ],
+    "verification_loop": [
+      "self_verification",
+      "automated_validation",
+      "correctness_assurance"
+    ],
+    "systemic_benefits": [
+      "diagnostic_transparency",
+      "install_reproducibility",
+      "onboarding_clarity"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": 1.0,
+  "guardrail_actions": {}
+}

@@ -1,0 +1,59 @@
+{
+  "id": "inf_0801b607",
+  "version": "1.0",
+  "timestamp": "2026-04-15T21:41:23.180887+00:00",
+  "source": "manual",
+  "raw_text": "Workflows tend to have multiple models. Each of those models embeds data but workflow engineers will only look at output from the final model which makes sense in process. What I am hoping to do is collect all the embedded data and give it to the final model. Even better have the final outcome be a comparison between different approaches a group of models may have which each produce more embedded data suggesting an infinite round robin halted when the data ranks highly.",
+  "left_keywords": [
+    "multi_model_workflow",
+    "intermediate_embedding_collection",
+    "final_model_aggregation",
+    "comparative_outcome",
+    "infinite_round_robin",
+    "convergence_halting",
+    "embedding_accumulation",
+    "model_ensemble_comparison",
+    "emergent_ranking",
+    "intermediate_data_loss",
+    "iterative_refinement_loop",
+    "consensus_emergence"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "workflow_problem": [
+      "final_model_aggregation",
+      "intermediate_data_loss",
+      "multi_model_workflow"
+    ],
+    "solution_approach": [
+      "comparative_outcome",
+      "embedding_accumulation",
+      "intermediate_embedding_collection"
+    ],
+    "convergence_mechanism": [
+      "convergence_halting",
+      "emergent_ranking",
+      "infinite_round_robin"
+    ],
+    "model_dynamics": [
+      "consensus_emergence",
+      "iterative_refinement_loop",
+      "model_ensemble_comparison"
+    ]
+  },
+  "tension_score": 1.0,
+  "guardrail_actions": {},
+  "domain": "logos",
+  "category_paths": []
+}

@@ -1,0 +1,59 @@
+{
+  "id": "inf_3b5e5cff",
+  "version": "1.0",
+  "timestamp": "2026-07-03T00:12:34.814618+00:00",
+  "source": "claude_session",
+  "raw_text": "The flatten-to-index pivot revealed a hidden cost: the nested filesystem tree had served as a free graphical browser, where navigating into a path like coaching_redefined_as_protection/father_defense_removal visually signaled analytical structure versus raw data. Flattening trades that visual affordance for clean storage. The recovery path is a materialize-to-filesystem function that regenerates an eyeball-able category tree on demand from the index, meaning the read/view side is already designed for this need while in-place editing of inferences remains the real unsolved gap.",
+  "left_keywords": [
+    "flatten_index_pivot",
+    "hidden_cost_tradeoff",
+    "nested_tree_affordance",
+    "visual_browsing",
+    "path_as_signal",
+    "raw_data_distinction",
+    "clean_storage",
+    "materialize_on_demand",
+    "regenerated_category_tree",
+    "read_view_readiness",
+    "inplace_edit_gap",
+    "unsolved_problem"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "structural_pivot": [
+      "clean_storage",
+      "flatten_index_pivot",
+      "hidden_cost_tradeoff"
+    ],
+    "lost_visual_affordance": [
+      "nested_tree_affordance",
+      "path_as_signal",
+      "raw_data_distinction",
+      "visual_browsing"
+    ],
+    "recovery_mechanism": [
+      "materialize_on_demand",
+      "read_view_readiness",
+      "regenerated_category_tree"
+    ],
+    "remaining_gap": [
+      "inplace_edit_gap",
+      "unsolved_problem"
+    ]
+  },
+  "category_paths": [
+    "raw_data_distinction/clean_storage",
+    "raw_data_distinction/flatten_index_pivot",
+    "raw_data_distinction/hidden_cost_tradeoff",
+    "raw_data_distinction/inplace_edit_gap",
+    "raw_data_distinction/materialize_on_demand",
+    "raw_data_distinction/nested_tree_affordance",
+    "raw_data_distinction/path_as_signal",
+    "raw_data_distinction/read_view_readiness",
+    "raw_data_distinction/regenerated_category_tree",
+    "raw_data_distinction/unsolved_problem",
+    "raw_data_distinction/visual_browsing"
+  ],
+  "tension_score": 1.0,
+  "guardrail_actions": {}
+}
