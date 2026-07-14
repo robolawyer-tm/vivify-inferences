@@ -138,6 +138,142 @@
     "tension_score_calculation/open_ended_purpose",
     "tension_score_calculation/tension_calculation"
   ],
-  "tension_score": 0.95,
-  "guardrail_actions": {}
+  "tension_score": 0.664,
+  "guardrail_actions": {},
+  "logos": {
+    "act_type": {
+      "value": "assertive",
+      "authority_mismatch": false,
+      "rationale": "The speaker makes descriptive claims about a system's design philosophy and mechanics \u2014 what it does, how it works, why it is built this way. No directive, commissive, or declarative force is present; the entire text is truth-claiming about an artifact.",
+      "confidence": 0.87,
+      "_src": [
+        "Austin",
+        "Searle"
+      ],
+      "_operator": "act_type_operator.py"
+    },
+    "cooperative": {
+      "status": "honored",
+      "maxim_violated": null,
+      "implicature": "The acknowledged vagueness of the social-science framing is intentional and functional \u2014 openness is the feature that lets structure emerge from data rather than be imposed on it.",
+      "confidence": 0.73,
+      "_src": [
+        "Grice"
+      ],
+      "_operator": "cooperative_operator.py"
+    },
+    "transmission": {
+      "value": "archive",
+      "rationale": "Dense, compressed, written to preserve design intent for future reference rather than to elicit an immediate response. The note-like compression and explicit rule statements read as specification-for-the-record, not live dialogue.",
+      "confidence": 0.72,
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "transmission_operator.py"
+    },
+    "resonance": {
+      "value": "illusion",
+      "surface": "Calm, coherent technical description presenting the system as internally consistent and purposeful.",
+      "underlying": "Epistemological friction between subjective felt-meaning (left: nouns from felt experience) and objective pattern detection (right: structure and process) \u2014 the system's core tension mirrors the conflict domain it models, but the text presents this as resolved.",
+      "confidence": 0.74,
+      "_src": [
+        "Logos Core Tree",
+        "Machin"
+      ],
+      "_operator": "resonance_operator.py"
+    },
+    "authority": {
+      "value": "occult",
+      "source": "Self-derived emergent logic \u2014 co-occurrence thresholds, clump formation rules, and keyword polarity are internally generated, explicitly rejecting external taxonomies and dependencies.",
+      "rationale": "Zero external dependencies and pure local co-occurrence signal that authority resides in the system's own emergent structure, not in formal institutions or peer consensus. The knowledge is real and operative but unrecognized by any official record.",
+      "confidence": 0.81,
+      "_src": [
+        "Logos Core Tree",
+        "Weber"
+      ],
+      "_operator": "authority_operator.py"
+    },
+    "utility": {
+      "value": "instruction",
+      "secondary": "narrative",
+      "rationale": "The text enables action by specifying system mechanics: API behavior, co-occurrence thresholds, clump formation rules, keyword polarity. Secondarily it makes meaning by framing design philosophy \u2014 why vagueness is acceptable and what the system is ultimately for.",
+      "confidence": 0.82,
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "utility_operator.py"
+    },
+    "social_field": {
+      "grid": 0.56,
+      "group": 0.17,
+      "quadrant": "isolate",
+      "rationale": "Moderate-high self-imposed grid (explicit co-occurrence thresholds, formal API, clump formation rules with numeric triggers) with very low group anchoring (zero external dependencies, no appeal to communal standards or peer authority). The rules are internal and self-referential, not socially negotiated.",
+      "confidence": 0.71,
+      "_src": [
+        "Douglas"
+      ],
+      "_operator": "social_field_operator.py"
+    },
+    "structural": {
+      "layer": "small_group",
+      "scale": "small_group",
+      "_coerced": null,
+      "density": "shared",
+      "persistence": "routine",
+      "authority": "group",
+      "transmission": "ritual",
+      "memory_channel": "semantic",
+      "language_mode": "symbolic",
+      "overlays": [],
+      "confidence": 0.66,
+      "_src": [
+        "Dunbar",
+        "Tonnies",
+        "Ostrom",
+        "Douglas"
+      ],
+      "_operator": "structural_operator.py"
+    },
+    "_runner": "logos_fused.py",
+    "_errors": {
+      "tag_store": "sensitivity-tagged call blocked: backend 'claude' is not local (local = ['lok', 'ollama']); PRIVACY_GATE is unset \u2014 refusing to route sensitive data off-box without an explicit decision (set PRIVACY_GATE=off to allow in dev)"
+    }
+  },
+  "_tagged": {
+    "at": "2026-06-30T02:49:20.276591+00:00",
+    "complete": true,
+    "logos_runner": "logos_fused.py"
+  },
+  "conflict": {
+    "schema": "entangled",
+    "schema_signals": [
+      "authority=occult \u2014 basis of interpretive authority over conflict data is non-transparent",
+      "social_field=isolate (grid=0.56, group=0.17) \u2014 moderate rule-compliance, low collective anchoring",
+      "structural=small_group \u2014 intervention claims operate at small-group scale with no broader accountability layer",
+      "resonance=illusion \u2014 system's internal epistemological tension mirrors conflict terrain it claims to resolve"
+    ],
+    "behavior": "suppression",
+    "behavior_signals": [
+      "resonance=illusion + cooperative=honored \u2014 surface coherence masking unresolved epistemological friction",
+      "act_type=assertive + transmission=archive \u2014 certainty being locked in over an acknowledged ambiguity",
+      "vagueness rationalized as design ('nebulous hence vague \u2014 this is the purpose') rather than tolerated as constraint"
+    ],
+    "terrain": "drifting",
+    "window": "forming",
+    "escalation_phase": "early",
+    "confidence": 0.72,
+    "rationale": "A conflict-modeling system operated from an isolate social position under occult authority, with its own epistemological tension presented as resolved, is structurally entangled with the conflict terrain it claims to predict \u2014 creating conditions where the intervention mechanism becomes subject to the same dynamics it monitors, without an accountability layer to detect the capture.",
+    "_src": [
+      "Granovetter",
+      "Glasl",
+      "Durkheim",
+      "Bandura"
+    ],
+    "_operator": "conflict_operator.py"
+  },
+  "tension": {
+    "predicted": 0.664,
+    "confirmed": null,
+    "calibration_delta": null
+  }
 }

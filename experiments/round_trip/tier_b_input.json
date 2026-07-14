@@ -1,0 +1,110 @@
+{
+  "encoding": "tier_b: coordinates + left semantic keywords and clumps — still no rationales or source label",
+  "left_keywords": [
+    "wrongful_conviction",
+    "dna_exoneration",
+    "eyewitness_misidentification",
+    "forensic_fabrication",
+    "statistical_misrepresentation",
+    "institutional_incompetence",
+    "exculpatory_neglect",
+    "physical_evidence_contradiction",
+    "racial_disparity",
+    "inadequate_defense",
+    "delayed_justice",
+    "custodial_years_lost"
+  ],
+  "clumps": {
+    "flawed_forensics": [
+      "forensic_fabrication",
+      "statistical_misrepresentation",
+      "institutional_incompetence"
+    ],
+    "identification_failure": [
+      "eyewitness_misidentification",
+      "physical_evidence_contradiction",
+      "racial_disparity"
+    ],
+    "systemic_neglect": [
+      "exculpatory_neglect",
+      "inadequate_defense"
+    ],
+    "wrongful_outcome": [
+      "wrongful_conviction",
+      "custodial_years_lost",
+      "delayed_justice"
+    ],
+    "vindication": [
+      "dna_exoneration"
+    ]
+  },
+  "logos": {
+    "act_type": {
+      "value": "assertive",
+      "authority_mismatch": false,
+      "confidence": 0.95
+    },
+    "cooperative": {
+      "status": "honored",
+      "maxim_violated": null,
+      "confidence": 0.85
+    },
+    "transmission": {
+      "value": "archive",
+      "confidence": 0.8
+    },
+    "resonance": {
+      "value": "illusion",
+      "confidence": 0.82
+    },
+    "authority": {
+      "value": "sovereign",
+      "confidence": 0.85
+    },
+    "utility": {
+      "value": "narrative",
+      "secondary": "instruction",
+      "confidence": 0.85
+    },
+    "social_field": {
+      "grid": 0.85,
+      "group": 0.4,
+      "quadrant": "hierarchical",
+      "confidence": 0.8
+    },
+    "structural": {
+      "layer": "institution",
+      "scale": "institution",
+      "_coerced": null,
+      "density": "bureaucratic",
+      "persistence": "institutional",
+      "authority": "system",
+      "transmission": "archive",
+      "memory_channel": "institutional",
+      "language_mode": "formalized",
+      "overlays": [
+        "society"
+      ],
+      "confidence": 0.82
+    }
+  },
+  "conflict": {
+    "schema": "entangled",
+    "schema_signals": [
+      "authority:sovereign",
+      "structural:layer=institution",
+      "social_field:grid=0.85/hierarchical",
+      "resonance:illusion"
+    ],
+    "behavior": "suppression",
+    "behavior_signals": [
+      "resonance:illusion",
+      "utility:narrative",
+      "act_type:assertive"
+    ],
+    "terrain": "fringe",
+    "window": "rationalizing",
+    "escalation_phase": "exponential",
+    "confidence": 0.86
+  }
+}

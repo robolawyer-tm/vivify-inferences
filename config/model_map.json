@@ -2,5 +2,9 @@
   "default": "claude-sonnet-4-6",
   "prose_reconstruction": "claude-sonnet-4-6",
   "semantic_extraction": "claude-sonnet-4-6",
-  "keyword_normalization": "claude-sonnet-4-6"
+  "keyword_normalization": "claude-sonnet-4-6",
+  "fact_extraction": "claude-opus-4-8",
+  "logos_operator": "claude-opus-4-8",
+  "conflict_operator": "claude-opus-4-8",
+  "web_research": "groq:llama-3.3-70b-versatile"
 }

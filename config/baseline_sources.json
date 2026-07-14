@@ -1,0 +1,6 @@
+{
+  "_doc": "Sources whose claimed-vs-actual corrections count as ground truth. 'confirmed' tension — and therefore the calibration_delta evolution gradient — is computed ONLY for inferences from these sources. Everything else (research material, manual notes, model-generated syntheses) gets predicted tension only, however many discrepancies its text contains: a researched correction is a citation, not a baseline. Guards the data-role split: validated field data = evolution fuel; theory/research = readable but inert to the gradient.",
+  "validated": [
+    "innocence_project"
+  ]
+}

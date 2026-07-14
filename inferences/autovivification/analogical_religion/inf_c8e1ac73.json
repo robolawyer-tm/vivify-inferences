@@ -114,6 +114,141 @@
     "spiritual_container/tension_calculation",
     "spiritual_container/unconventional_thought_suppression"
   ],
-  "tension_score": 1.0,
-  "guardrail_actions": {}
+  "tension_score": 0.0316,
+  "guardrail_actions": {},
+  "logos": {
+    "act_type": {
+      "value": "assertive",
+      "authority_mismatch": false,
+      "rationale": "The speaker makes sincere first-person truth claims: that evolution is rhetorically weaponized, that religion/spirituality can be understood as containers for evolving morality, and that AI has shifted personal usage. All claims rest on personal intellectual synthesis with no institutional authority invoked or needed.",
+      "confidence": 0.88,
+      "_src": [
+        "Austin",
+        "Searle"
+      ],
+      "_operator": "act_type_operator.py"
+    },
+    "cooperative": {
+      "status": "honored",
+      "maxim_violated": null,
+      "implicature": "'Wacky thoughts like this' and 'from that era' presuppose a shared prior thread \u2014 the speaker implicates a conversational context the listener already holds, rather than making the referent fully explicit.",
+      "confidence": 0.82,
+      "_src": [
+        "Grice"
+      ],
+      "_operator": "cooperative_operator.py"
+    },
+    "transmission": {
+      "value": "leak",
+      "rationale": "Informal register ('for me', 'gotten me'), implicit shared context, and the personally confessional arc all signal a restricted dyadic or small-group disclosure \u2014 not a public broadcast and not an archival record.",
+      "confidence": 0.73,
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "transmission_operator.py"
+    },
+    "resonance": {
+      "value": "harmony",
+      "surface": "Speaker arrives at resolved synthesis \u2014 religion as moral container, synthesis rehabilitated \u2014 after explicitly naming the friction.",
+      "underlying": "Historical tension between scientific naturalism and spiritual/religious frameworks; named and then transcended rather than masked, so this is genuine harmony, not illusion.",
+      "confidence": 0.79,
+      "_src": [
+        "Logos Core Tree",
+        "Machin"
+      ],
+      "_operator": "resonance_operator.py"
+    },
+    "authority": {
+      "value": "tribal",
+      "source": "Peer intellectual tradition \u2014 Darwin, constructivism, applied humanistics \u2014 invoked as shared communal canon in a collegial register.",
+      "rationale": "Speaker positions themselves within an intellectual community by extending Darwin, not claiming sovereign institutional standing or drawing on unacknowledged hidden force.",
+      "confidence": 0.81,
+      "_src": [
+        "Logos Core Tree",
+        "Weber"
+      ],
+      "_operator": "authority_operator.py"
+    },
+    "utility": {
+      "value": "narrative",
+      "secondary": "currency",
+      "rationale": "Primary payload is meaning-making: tracing a personal conceptual arc from evolution-as-weapon through to rehabilitated synthesis. Secondary currency function: the closing AI line stakes intellectual credibility by marking a position shift as growth.",
+      "confidence": 0.83,
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "utility_operator.py"
+    },
+    "social_field": {
+      "grid": 0.2,
+      "group": 0.5,
+      "quadrant": "egalitarian",
+      "rationale": "Low grid: no formal roles, rules, or institutional constraints govern the exchange. Moderate group: implicit membership in a peer intellectual community (Darwinism, constructivism, humanistics) without strong boundary-marking. Egalitarian quadrant fits low-grid, moderate-group collegial discourse.",
+      "confidence": 0.76,
+      "_src": [
+        "Douglas"
+      ],
+      "_operator": "social_field_operator.py"
+    },
+    "structural": {
+      "layer": "dyad",
+      "scale": "dyad",
+      "_coerced": null,
+      "density": "proximal",
+      "persistence": "short_term",
+      "authority": "pair",
+      "transmission": "direct",
+      "memory_channel": "shared",
+      "language_mode": "relational",
+      "overlays": [
+        "religion",
+        "culture"
+      ],
+      "confidence": 0.77,
+      "_src": [
+        "Dunbar",
+        "Tonnies",
+        "Ostrom",
+        "Douglas"
+      ],
+      "_operator": "structural_operator.py"
+    },
+    "_runner": "logos_fused.py"
+  },
+  "conflict": {
+    "schema": "latent",
+    "schema_signals": [
+      "resonance: named underlying tension (scientific naturalism vs. spiritual frameworks)",
+      "authority: tribal (group-identity frame still present)",
+      "social_field: group=0.5 (moderate group attachment, not dissolved)"
+    ],
+    "behavior": "none",
+    "behavior_signals": [
+      "cooperative: honored, no maxim violated",
+      "resonance: genuine harmony not illusion \u2014 tension named before transcended",
+      "transmission: leak (unguarded, not strategic positioning)"
+    ],
+    "terrain": "center",
+    "window": "closed",
+    "escalation_phase": "none",
+    "confidence": 0.87,
+    "rationale": "Speaker is operating above a latent science-religion schema divide \u2014 naming it as a weaponization risk and then dissolving it through synthesis, with tribal authority reoriented toward convergence rather than boundary defense.",
+    "_src": [
+      "Granovetter",
+      "Glasl",
+      "Durkheim",
+      "Bandura"
+    ],
+    "_operator": "conflict_operator.py"
+  },
+  "_tagged": {
+    "at": "2026-06-28T19:41:43.710499+00:00",
+    "complete": true,
+    "logos_runner": "logos_fused.py"
+  },
+  "tension": {
+    "predicted": 0.0316,
+    "confirmed": null,
+    "calibration_delta": null
+  }
 }

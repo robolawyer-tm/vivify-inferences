@@ -1,0 +1,72 @@
+{
+  "encoding": "tier_a: coordinate values only — no rationales, no keywords, no source label",
+  "logos": {
+    "act_type": {
+      "value": "assertive",
+      "authority_mismatch": false,
+      "confidence": 0.95
+    },
+    "cooperative": {
+      "status": "honored",
+      "maxim_violated": null,
+      "confidence": 0.85
+    },
+    "transmission": {
+      "value": "archive",
+      "confidence": 0.8
+    },
+    "resonance": {
+      "value": "illusion",
+      "confidence": 0.82
+    },
+    "authority": {
+      "value": "sovereign",
+      "confidence": 0.85
+    },
+    "utility": {
+      "value": "narrative",
+      "secondary": "instruction",
+      "confidence": 0.85
+    },
+    "social_field": {
+      "grid": 0.85,
+      "group": 0.4,
+      "quadrant": "hierarchical",
+      "confidence": 0.8
+    },
+    "structural": {
+      "layer": "institution",
+      "scale": "institution",
+      "_coerced": null,
+      "density": "bureaucratic",
+      "persistence": "institutional",
+      "authority": "system",
+      "transmission": "archive",
+      "memory_channel": "institutional",
+      "language_mode": "formalized",
+      "overlays": [
+        "society"
+      ],
+      "confidence": 0.82
+    }
+  },
+  "conflict": {
+    "schema": "entangled",
+    "schema_signals": [
+      "authority:sovereign",
+      "structural:layer=institution",
+      "social_field:grid=0.85/hierarchical",
+      "resonance:illusion"
+    ],
+    "behavior": "suppression",
+    "behavior_signals": [
+      "resonance:illusion",
+      "utility:narrative",
+      "act_type:assertive"
+    ],
+    "terrain": "fringe",
+    "window": "rationalizing",
+    "escalation_phase": "exponential",
+    "confidence": 0.86
+  }
+}

@@ -149,6 +149,140 @@
     "tension_score_calculation/resolution_path_generation",
     "tension_score_calculation/tension_calculation"
   ],
-  "tension_score": 1.0,
-  "guardrail_actions": {}
+  "tension_score": 0.0352,
+  "guardrail_actions": {},
+  "logos": {
+    "act_type": {
+      "value": "declaration",
+      "authority_mismatch": false,
+      "rationale": "The opening 'This document formalizes...' is a performative act: by being written and accepted, it establishes the pipeline as the official definition. Within a project-internal context, technical specification documents carry sufficient authority to perform this kind of reality-constituting act \u2014 they do not merely describe a pipeline, they instantiate its formal existence.",
+      "confidence": 0.74,
+      "_src": [
+        "Austin",
+        "Searle"
+      ],
+      "_operator": "act_type_operator.py"
+    },
+    "cooperative": {
+      "status": "honored",
+      "maxim_violated": null,
+      "implicature": null,
+      "confidence": 0.85,
+      "_src": [
+        "Grice"
+      ],
+      "_operator": "cooperative_operator.py"
+    },
+    "transmission": {
+      "value": "archive",
+      "rationale": "The document is designed to persist as the authoritative record of the pipeline definition \u2014 formal, past-to-future, institutional. It is not a live broadcast (no implied audience receiving it in real time) and not a leak (no restricted or charged register). Its purpose is to be consulted, not consumed.",
+      "confidence": 0.91,
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "transmission_operator.py"
+    },
+    "resonance": {
+      "value": "harmony",
+      "surface": "Ordered, confident technical specification with no internal contradictions or hedges.",
+      "underlying": null,
+      "confidence": 0.88,
+      "_src": [
+        "Logos Core Tree",
+        "Machin"
+      ],
+      "_operator": "resonance_operator.py"
+    },
+    "authority": {
+      "value": "occult",
+      "source": "The system's authority derives from emergent co-occurrence structure in local data \u2014 real, operative, but entirely self-generated and unacknowledged by any external institution. 'Pure local co-occurrence with no external APIs' is the explicit marker: the system validates itself from within.",
+      "rationale": "Not sovereign (no external institution grants this pipeline authority) and not tribal (no peer community is invoked as legitimating). The authority is occult in the technical sense: real causal power operating outside the official record, derived from the data itself rather than from role, rank, or community.",
+      "confidence": 0.79,
+      "_src": [
+        "Logos Core Tree",
+        "Weber"
+      ],
+      "_operator": "authority_operator.py"
+    },
+    "utility": {
+      "value": "instruction",
+      "secondary": "narrative",
+      "rationale": "Primary payload is instructional: the document enables builders and users to implement and operate the pipeline (phases, formulas, thresholds, output shapes). Secondary payload is narrative: it frames the *meaning* of the system \u2014 conflict resolution, beneficial scores, Semantic Edge social science \u2014 giving the pipeline a story and a purpose beyond its mechanics.",
+      "confidence": 0.92,
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "utility_operator.py"
+    },
+    "social_field": {
+      "grid": 0.84,
+      "group": 0.22,
+      "quadrant": "isolate",
+      "rationale": "Grid is high: the document is dense with explicit procedural constraints (five numbered phases, a formula, defined thresholds, named output fields). Group is low: the text addresses a technical artifact, not a community of practice or shared identity \u2014 the only group marker ('Semantic Edge social science layer') is incidental. High grid + low group = isolate quadrant.",
+      "confidence": 0.82,
+      "_src": [
+        "Douglas"
+      ],
+      "_operator": "social_field_operator.py"
+    },
+    "structural": {
+      "layer": "institution",
+      "scale": "institution",
+      "_coerced": null,
+      "density": "bureaucratic",
+      "persistence": "institutional",
+      "authority": "system",
+      "transmission": "archive",
+      "memory_channel": "institutional",
+      "language_mode": "formalized",
+      "overlays": [],
+      "confidence": 0.87,
+      "_src": [
+        "Dunbar",
+        "Tonnies",
+        "Ostrom",
+        "Douglas"
+      ],
+      "_operator": "structural_operator.py"
+    },
+    "_runner": "logos_fused.py"
+  },
+  "conflict": {
+    "schema": "activated",
+    "schema_signals": [
+      "authority=occult \u2014 legitimating power is present but not named or accountable",
+      "social_field=isolate (grid=0.84, group=0.22) \u2014 operating under strong institutional rules with minimal social embeddedness",
+      "structural=institution \u2014 the declaration is grounded in institutional layer, not interpersonal or community",
+      "resonance=harmony (underlying: none) \u2014 surface presentation of coherence without actual harmonic grounding"
+    ],
+    "behavior": "positioning",
+    "behavior_signals": [
+      "act_type=declaration \u2014 formal assertion establishing the system's claim to authority",
+      "utility=instruction \u2014 the communication directs rather than invites, framing the pipeline as given",
+      "transmission=archive \u2014 the declaration is built to persist and accumulate weight over time",
+      "authority=occult \u2014 the decision-making substrate is embedded but not visible to those being served"
+    ],
+    "terrain": "drifting",
+    "window": "forming",
+    "escalation_phase": "early",
+    "confidence": 0.74,
+    "rationale": "An institution is formalizing hidden authority over conflict interpretation within a low-group, high-grid social position \u2014 the surface harmony of the declaration has no underlying resonance, indicating the system is establishing adjudicative power over social conflict without the social embeddedness that would make that authority accountable.",
+    "_src": [
+      "Granovetter",
+      "Glasl",
+      "Durkheim",
+      "Bandura"
+    ],
+    "_operator": "conflict_operator.py"
+  },
+  "_tagged": {
+    "at": "2026-06-28T19:49:42.222466+00:00",
+    "complete": true,
+    "logos_runner": "logos_fused.py"
+  },
+  "tension": {
+    "predicted": 0.0352,
+    "confirmed": null,
+    "calibration_delta": null
+  }
 }

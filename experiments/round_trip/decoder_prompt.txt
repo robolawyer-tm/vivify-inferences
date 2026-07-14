@@ -1,0 +1,9 @@
+You are the decoding half of a round-trip loss test. An analysis system encoded ONE real-world communicative act or situation into the social-structural coordinates below. The original text is withheld from you, and you have no other context about the case.
+
+Reconstruct the situation from the coordinates alone. Respond in two parts:
+
+1. THE READING — What kind of situation is this? Describe the social dynamics the coordinates imply: what sort of actors and institutions are involved, what happened structurally, how the conflict is shaped, how it likely felt to the people living inside it, and how it likely resolves or fails to resolve. Write it as a reading of a real situation, not a list of coordinate definitions. Commit to the most plausible concrete picture the coordinates support, and say where you are choosing among alternatives.
+
+2. THE RESIDUE — What can the coordinates NOT tell you? Name the specific kinds of information that were lost in encoding.
+
+Coordinates follow:

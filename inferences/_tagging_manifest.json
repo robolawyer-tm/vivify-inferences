@@ -1,0 +1,9 @@
+{
+  "_manifest": "tag_store.py",
+  "at": "2026-06-30T03:22:35.405729+00:00",
+  "store": "inferences",
+  "total": 30,
+  "complete": 30,
+  "incomplete": 0,
+  "incomplete_ids": []
+}

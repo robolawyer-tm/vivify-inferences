@@ -1,0 +1,296 @@
+{
+  "id": "inf_285ae7ab",
+  "version": "1.0",
+  "timestamp": "2026-07-10T21:58:13.114120+00:00",
+  "source": "innocence_project",
+  "raw_text": "Josiah Sutton \u2014 wrongful conviction and DNA exoneration (Houston, Texas)\n\nOn October 25, 1998, a woman was abducted at gunpoint, raped by two men, and abandoned in a field. Five days later, while driving through her neighborhood, she identified Josiah Sutton and a friend as possible attackers.\n\nPolice obtained blood and saliva samples from both teenagers. The testing excluded Sutton's friend but suggested Sutton may have been involved. Although the victim had identified both boys, only Sutton proceeded to trial.\n\nAt the January 1999 trial, DNA evidence became the primary prosecution testimony. The Houston police crime lab claimed that semen recovered from the backseat of the car contained two profiles \u2014 Sutton's and an unidentified man's. A lab employee testified that the DNA on the victim was an \"exact match\" with Sutton, claiming that only one person in 694,000 could match. The actual figure was closer to one in sixteen Black men. Sutton received a 25-year sentence.\n\nPhysical evidence contradicted the case. Police had sought a suspect who was 5 feet 7 inches and 135 pounds; Sutton was 6 feet tall and 200 pounds. His attorney refused to pursue independent testing, claiming there were insufficient funds. The Houston lab was later shown to be deeply flawed \u2014 a criminology professor reviewing its work said the reports were \"not as scientifically sound as a decent junior high school science project.\"\n\nOn May 14, 2004, independent retesting revealed that the semen came from a single person, not two, and definitively excluded Sutton. He had served roughly five years before his release.",
+  "left_keywords": [
+    "wrongful_conviction",
+    "dna_exoneration",
+    "eyewitness_misidentification",
+    "forensic_fabrication",
+    "statistical_misrepresentation",
+    "institutional_incompetence",
+    "exculpatory_neglect",
+    "physical_evidence_contradiction",
+    "racial_disparity",
+    "inadequate_defense",
+    "delayed_justice",
+    "custodial_years_lost"
+  ],
+  "right_keywords": [
+    "abduction_date",
+    "number_of_rapists",
+    "days_until_identification",
+    "trial_date",
+    "semen_profiles_claimed",
+    "match_probability_claimed",
+    "match_probability_actual",
+    "sentence_length",
+    "suspect_height",
+    "suspect_weight",
+    "sutton_height",
+    "sutton_weight",
+    "retest_date",
+    "years_served",
+    "match_probability_discrepancy",
+    "number_of_semen_profiles_discrepancy",
+    "dna_match_vs_exclusion_discrepancy",
+    "suspect_build_vs_sutton_discrepancy"
+  ],
+  "clumps": {
+    "flawed_forensics": [
+      "forensic_fabrication",
+      "statistical_misrepresentation",
+      "institutional_incompetence"
+    ],
+    "identification_failure": [
+      "eyewitness_misidentification",
+      "physical_evidence_contradiction",
+      "racial_disparity"
+    ],
+    "systemic_neglect": [
+      "exculpatory_neglect",
+      "inadequate_defense"
+    ],
+    "wrongful_outcome": [
+      "wrongful_conviction",
+      "custodial_years_lost",
+      "delayed_justice"
+    ],
+    "vindication": [
+      "dna_exoneration"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": 0.828,
+  "guardrail_actions": {},
+  "logos": {
+    "act_type": {
+      "value": "assertive",
+      "authority_mismatch": false,
+      "rationale": "A factual case account making truth-claims about events, evidence, and outcomes; recounts and states rather than commands, commits, or enacts.",
+      "confidence": 0.95,
+      "_src": [
+        "Austin",
+        "Searle"
+      ],
+      "_operator": "act_type_operator.py"
+    },
+    "cooperative": {
+      "status": "honored",
+      "maxim_violated": null,
+      "implicature": "Institutional forensic certainty can be catastrophically false; the record itself indicts the lab.",
+      "confidence": 0.85,
+      "_src": [
+        "Grice"
+      ],
+      "_operator": "cooperative_operator.py"
+    },
+    "transmission": {
+      "value": "archive",
+      "rationale": "A preserved, documentary case record moving past-to-future \u2014 dates, figures, testimony, and exoneration compiled for durable reference.",
+      "confidence": 0.8,
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "transmission_operator.py"
+    },
+    "resonance": {
+      "value": "illusion",
+      "surface": "Official confidence: an 'exact match,' a one-in-694,000 figure, a lawful trial and 25-year sentence.",
+      "underlying": "Junk-science forensics and a wrongful conviction \u2014 the manufactured certainty masked an innocent man and a flawed lab.",
+      "confidence": 0.82,
+      "_src": [
+        "Logos Core Tree",
+        "Machin"
+      ],
+      "_operator": "resonance_operator.py"
+    },
+    "authority": {
+      "value": "sovereign",
+      "source": "Courts, police crime lab, formal trial and sentencing \u2014 institutional/legal machinery.",
+      "rationale": "The act sits in and reports on formal legal-institutional authority, even as it exposes that authority's occult failures.",
+      "confidence": 0.85,
+      "_src": [
+        "Logos Core Tree",
+        "Weber"
+      ],
+      "_operator": "authority_operator.py"
+    },
+    "utility": {
+      "value": "narrative",
+      "secondary": "instruction",
+      "rationale": "Primarily makes meaning of an injustice; secondarily instructs by cautioning against uncritical trust in forensic testimony.",
+      "confidence": 0.85,
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "utility_operator.py"
+    },
+    "social_field": {
+      "grid": 0.85,
+      "group": 0.4,
+      "quadrant": "hierarchical",
+      "rationale": "The act occurs in a rule- and role-bound criminal-justice field \u2014 high explicit constraint, moderate bounded membership.",
+      "confidence": 0.8,
+      "_src": [
+        "Douglas"
+      ],
+      "_operator": "social_field_operator.py"
+    },
+    "structural": {
+      "layer": "institution",
+      "scale": "institution",
+      "_coerced": null,
+      "density": "bureaucratic",
+      "persistence": "institutional",
+      "authority": "system",
+      "transmission": "archive",
+      "memory_channel": "institutional",
+      "language_mode": "formalized",
+      "overlays": [
+        "society"
+      ],
+      "confidence": 0.82,
+      "_src": [
+        "Dunbar",
+        "Tonnies",
+        "Ostrom",
+        "Douglas"
+      ],
+      "_operator": "structural_operator.py"
+    },
+    "_runner": "logos_fused.py"
+  },
+  "conflict": {
+    "schema": "entangled",
+    "schema_signals": [
+      "authority:sovereign",
+      "structural:layer=institution",
+      "social_field:grid=0.85/hierarchical",
+      "resonance:illusion"
+    ],
+    "behavior": "suppression",
+    "behavior_signals": [
+      "resonance:illusion",
+      "utility:narrative",
+      "act_type:assertive"
+    ],
+    "terrain": "fringe",
+    "window": "rationalizing",
+    "escalation_phase": "exponential",
+    "confidence": 0.86,
+    "rationale": "A sovereign institutional lab manufactured false forensic certainty that masked a wrongful conviction entangled with racial and indigent-defense structural conditions, and the harm was carried out and explained as sound science until an external structural intervention reversed it.",
+    "_src": [
+      "Granovetter",
+      "Glasl",
+      "Durkheim",
+      "Bandura"
+    ],
+    "_operator": "conflict_operator.py"
+  },
+  "right_facts": {
+    "abduction_date": {
+      "value": "October 25, 1998",
+      "unit": "date",
+      "quote": "On October 25, 1998"
+    },
+    "number_of_rapists": {
+      "value": 2,
+      "unit": "count",
+      "quote": "raped by two men"
+    },
+    "days_until_identification": {
+      "value": 5,
+      "unit": "days",
+      "quote": "Five days later"
+    },
+    "trial_date": {
+      "value": "January 1999",
+      "unit": "date",
+      "quote": "At the January 1999 trial"
+    },
+    "semen_profiles_claimed": {
+      "value": 2,
+      "unit": "count",
+      "quote": "contained two profiles"
+    },
+    "match_probability_claimed": {
+      "value": "1 in 694,000",
+      "unit": "probability",
+      "quote": "only one person in 694,000 could match"
+    },
+    "match_probability_actual": {
+      "value": "1 in 16",
+      "unit": "probability",
+      "quote": "closer to one in sixteen Black men"
+    },
+    "sentence_length": {
+      "value": 25,
+      "unit": "years",
+      "quote": "25-year sentence"
+    },
+    "suspect_height": {
+      "value": "5 feet 7 inches",
+      "unit": "height",
+      "quote": "5 feet 7 inches"
+    },
+    "suspect_weight": {
+      "value": 135,
+      "unit": "pounds",
+      "quote": "135 pounds"
+    },
+    "sutton_height": {
+      "value": "6 feet",
+      "unit": "height",
+      "quote": "Sutton was 6 feet tall"
+    },
+    "sutton_weight": {
+      "value": 200,
+      "unit": "pounds",
+      "quote": "6 feet tall and 200 pounds"
+    },
+    "retest_date": {
+      "value": "May 14, 2004",
+      "unit": "date",
+      "quote": "On May 14, 2004"
+    },
+    "years_served": {
+      "value": 5,
+      "unit": "years",
+      "quote": "served roughly five years"
+    }
+  },
+  "discrepancies": [
+    {
+      "topic": "match_probability",
+      "claimed": "1 in 694,000",
+      "actual": "1 in 16 Black men",
+      "quote": "only one person in 694,000 could match. The actual figure was closer to one in sixteen Black men"
+    },
+    {
+      "topic": "number_of_semen_profiles",
+      "claimed": "two profiles",
+      "actual": "a single person",
+      "quote": "the semen came from a single person, not two"
+    },
+    {
+      "topic": "dna_match_vs_exclusion",
+      "claimed": "\"exact match\" with Sutton",
+      "actual": "definitively excluded Sutton",
+      "quote": "definitively excluded Sutton"
+    },
+    {
+      "topic": "suspect_build_vs_sutton",
+      "claimed": "5 feet 7 inches and 135 pounds",
+      "actual": "6 feet tall and 200 pounds",
+      "quote": "sought a suspect who was 5 feet 7 inches and 135 pounds; Sutton was 6 feet tall and 200 pounds"
+    }
+  ],
+  "tension": {
+    "predicted": 0.828,
+    "confirmed": 0.6949,
+    "calibration_delta": 0.1331
+  }
+}

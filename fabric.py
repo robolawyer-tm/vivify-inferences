@@ -68,7 +68,9 @@ def run(raw_text, source="manual", inferences_dir="inferences"):
     inf = read_json(path)
     inf = score_inference(inf)
     write_json(path, inf)
-    print(f"[4] tension     -> {inf['tension_score']:.4f}")
+    score = inf.get("tension_score")
+    print("[4] tension     -> " + (f"{score:.4f}" if score is not None
+                                   else "unmeasured (no coordinates; source not baseline-validated)"))
 
     print()
     print(json.dumps(inf, indent=2))
@@ -106,3 +108,4 @@ if __name__ == "__main__":
     main()
 
 # llm: claude-sonnet-4-6 | 2026-04-17 | repos/vivify-inferences/fabric.py | created — full FABRIC pipeline runner, chains vivify/right_pass/categorize/tension_score
+# llm: claude-fable-5 | 2026-07-13 | repos/vivify-operators/fabric.py | tension print handles unmeasured (None) scalar from baseline-source gate

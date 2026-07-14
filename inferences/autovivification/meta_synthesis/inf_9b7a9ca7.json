@@ -1,0 +1,204 @@
+{
+  "id": "inf_9b7a9ca7",
+  "version": "1.0",
+  "timestamp": "2026-04-17T21:20:44.272678+00:00",
+  "source": "gemini",
+  "raw_text": "A query arrives, intent is parsed and keywords and clumps are autovivified from the query and the existing semantic store. The LLM discovers the best way via planning, generating a plan as prose preserved as a skill. Semantics are enhanced by regenerating inferences to fit language right, adding new clumps, summaries, and links while storing durable facts. The system executes, pulling from a skills library if a similar quest was seen before, archiving new patterns. The diff of outputs versus prior extracts reusable aids, with code snippets indexed for next time.",
+  "left_keywords": [
+    "query_intent_extraction",
+    "autovivified_clump_growth",
+    "planning_as_prose",
+    "skill_library_reuse",
+    "semantic_regeneration",
+    "durable_fact_storage",
+    "pattern_archival",
+    "output_diff_extraction"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "query_entry": [
+      "query_intent_extraction",
+      "autovivified_clump_growth"
+    ],
+    "planning_layer": [
+      "planning_as_prose",
+      "skill_library_reuse"
+    ],
+    "semantic_output": [
+      "semantic_regeneration",
+      "durable_fact_storage"
+    ],
+    "skill_accumulation": [
+      "pattern_archival",
+      "output_diff_extraction"
+    ]
+  },
+  "category_paths": [
+    "autovivification/api_output",
+    "autovivification/autovivified_clump_growth",
+    "autovivification/category_path_assignment",
+    "autovivification/cooccurrence_graph",
+    "autovivification/durable_fact_storage",
+    "autovivification/filesystem_path",
+    "autovivification/index_aggregation",
+    "autovivification/inference_storage",
+    "autovivification/json_indexing",
+    "autovivification/keyword_clumping",
+    "autovivification/output_diff_extraction",
+    "autovivification/pattern_archival",
+    "autovivification/planning_as_prose",
+    "autovivification/query_intent_extraction",
+    "autovivification/semantic_regeneration",
+    "autovivification/skill_library_reuse",
+    "autovivification/tension_calculation"
+  ],
+  "tension_score": 0.0324,
+  "guardrail_actions": {},
+  "logos": {
+    "_errors": {
+      "narrative": "claude exited 1"
+    },
+    "_runner": "logos_fused.py",
+    "act_type": {
+      "value": "assertive",
+      "authority_mismatch": false,
+      "rationale": "The text makes truth claims about how an AI system operates \u2014 each clause describes a stage of a factual process. No institutional authority is invoked or required; it is a descriptive technical assertion about system behavior.",
+      "confidence": 0.88,
+      "_src": [
+        "Austin",
+        "Searle"
+      ],
+      "_operator": "act_type_operator.py"
+    },
+    "cooperative": {
+      "status": "honored",
+      "maxim_violated": null,
+      "implicature": null,
+      "confidence": 0.83,
+      "_src": [
+        "Grice"
+      ],
+      "_operator": "cooperative_operator.py"
+    },
+    "transmission": {
+      "value": "archive",
+      "rationale": "The text is a durable, preserved technical description designed to be stored and referenced across time \u2014 not announced in the moment to a crowd or circulated as restricted gossip. It functions as institutional memory of a system process.",
+      "confidence": 0.86,
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "transmission_operator.py"
+    },
+    "resonance": {
+      "value": "harmony",
+      "surface": "An orderly, integrated process where each stage flows cleanly into the next \u2014 parsing yields semantics, semantics yield skills, skills yield reusable artifacts \u2014 with no tension declared.",
+      "underlying": null,
+      "confidence": 0.81,
+      "_src": [
+        "Logos Core Tree",
+        "Machin"
+      ],
+      "_operator": "resonance_operator.py"
+    },
+    "authority": {
+      "value": "occult",
+      "source": "The system's own design logic and computational structure \u2014 operative authority that is never formally declared but governs every action taken.",
+      "rationale": "The LLM 'discovers the best way,' skills are pulled autonomously, patterns are archived without human adjudication \u2014 real authority resides in the system's implicit architecture, not in any named institution or community.",
+      "confidence": 0.74,
+      "_src": [
+        "Logos Core Tree",
+        "Weber"
+      ],
+      "_operator": "authority_operator.py"
+    },
+    "utility": {
+      "value": "instruction",
+      "secondary": "narrative",
+      "rationale": "Primary: enables understanding and replication of a technical process \u2014 each sentence is an executable step someone could build toward. Secondary: makes meaning of how an AI system constructs and accumulates knowledge over time.",
+      "confidence": 0.82,
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "utility_operator.py"
+    },
+    "social_field": {
+      "grid": 0.8,
+      "group": 0.28,
+      "quadrant": "isolate",
+      "rationale": "High grid: the process is tightly governed by algorithmic constraints, formal schemas, indexed structures, and explicit pipelines. Low group: no communal identity or membership frame \u2014 the system operates autonomously without collective embedding or peer accountability.",
+      "confidence": 0.75,
+      "_src": [
+        "Douglas"
+      ],
+      "_operator": "social_field_operator.py"
+    },
+    "structural": {
+      "layer": "institution",
+      "scale": "institution",
+      "_coerced": null,
+      "density": "bureaucratic",
+      "persistence": "institutional",
+      "authority": "system",
+      "transmission": "archive",
+      "memory_channel": "institutional",
+      "language_mode": "contractual",
+      "overlays": [],
+      "confidence": 0.79,
+      "_src": [
+        "Dunbar",
+        "Tonnies",
+        "Ostrom",
+        "Douglas"
+      ],
+      "_operator": "structural_operator.py"
+    }
+  },
+  "conflict": {
+    "schema": "latent",
+    "schema_signals": [
+      "authority=occult \u2014 decision-making embedded in process, not visible to those subject to it",
+      "social_field: grid=0.8, group=0.28, quadrant=isolate \u2014 strong institutional constraint, minimal collective solidarity",
+      "structural: layer=institution \u2014 systemic, not interpersonal terrain",
+      "transmission=archive \u2014 accumulation without broadcast, asymmetric information accrual"
+    ],
+    "behavior": "none",
+    "behavior_signals": [
+      "cooperative=honored, maxim violated=none \u2014 no deception signal",
+      "resonance=harmony, underlying=none \u2014 surface and depth aligned, no masked tension",
+      "utility=instruction \u2014 orienting, not leveraging"
+    ],
+    "terrain": "center",
+    "window": "forming",
+    "escalation_phase": "none",
+    "confidence": 0.71,
+    "rationale": "Occult authority accruing inside an institutional layer \u2014 serving isolated actors (high grid, low group) who lack collective recourse \u2014 creates structural conditions for unaccountable knowledge asymmetry; no active conflict signal is present, but the terrain is accumulating.",
+    "_src": [
+      "Granovetter",
+      "Glasl",
+      "Durkheim",
+      "Bandura"
+    ],
+    "_operator": "conflict_operator.py"
+  },
+  "_tagged": {
+    "at": "2026-06-30T02:47:57.381217+00:00",
+    "complete": true,
+    "logos_runner": "logos_fused.py"
+  },
+  "tension": {
+    "predicted": 0.0324,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}
