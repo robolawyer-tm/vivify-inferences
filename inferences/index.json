@@ -1,7 +1,33 @@
 {
   "version": "4.0",
-  "total_inferences": 97,
+  "total_inferences": 86,
   "keywords": {
+    "false_confession": 1,
+    "interrogator_fed_facts": 1,
+    "suggestibility_under_authority": 1,
+    "intellectual_disability_exploitation": 1,
+    "confession_as_sole_evidence": 1,
+    "evidence_contradiction_ignored": 1,
+    "wrongful_capital_conviction": 1,
+    "near_execution": 1,
+    "dna_exoneration": 2,
+    "delayed_justice": 2,
+    "half_measure_clemency": 1,
+    "institutional_inertia": 1,
+    "fabricated_evidence_accountability": 1,
+    "true_perpetrator_identified": 1,
+    "systemic_acknowledgment_failure": 1,
+    "racialized_suspicion": 1,
+    "wrongful_conviction": 1,
+    "eyewitness_misidentification": 1,
+    "forensic_fabrication": 1,
+    "statistical_misrepresentation": 1,
+    "institutional_incompetence": 1,
+    "exculpatory_neglect": 1,
+    "physical_evidence_contradiction": 1,
+    "racial_disparity": 1,
+    "inadequate_defense": 1,
+    "custodial_years_lost": 1,
     "silent_failure": 1,
     "missing_dependency": 1,
     "prerequisite_enforcement": 1,
@@ -581,32 +607,6 @@
     "session_scoped_changes": 1,
     "session_boundary_action": 1,
     "deploy_automation": 1,
-    "wrongful_conviction": 1,
-    "dna_exoneration": 2,
-    "eyewitness_misidentification": 1,
-    "forensic_fabrication": 1,
-    "statistical_misrepresentation": 1,
-    "institutional_incompetence": 1,
-    "exculpatory_neglect": 1,
-    "physical_evidence_contradiction": 1,
-    "racial_disparity": 1,
-    "inadequate_defense": 1,
-    "delayed_justice": 2,
-    "custodial_years_lost": 1,
-    "false_confession": 1,
-    "interrogator_fed_facts": 1,
-    "suggestibility_under_authority": 1,
-    "intellectual_disability_exploitation": 1,
-    "confession_as_sole_evidence": 1,
-    "evidence_contradiction_ignored": 1,
-    "wrongful_capital_conviction": 1,
-    "near_execution": 1,
-    "half_measure_clemency": 1,
-    "institutional_inertia": 1,
-    "fabricated_evidence_accountability": 1,
-    "true_perpetrator_identified": 1,
-    "systemic_acknowledgment_failure": 1,
-    "racialized_suspicion": 1,
     "reverse_structure": 1,
     "inquiry_primacy": 1,
     "temporary_synthesis": 1,
@@ -935,119 +935,194 @@
     "open_ended_purpose": 1,
     "gatekeeping_pattern": 1,
     "cooccurrence_emergence": 1,
-    "integrity_foundation": 1,
-    "system_crash_event": 1,
-    "alienation_weaponization": 1,
-    "child_atomization": 1,
-    "administrative_node_capture": 1,
-    "dopamine_loop_perpetuation": 1,
-    "father_logos_removal": 1,
-    "clinical_protocol_isolation": 1,
-    "retirement_extraction": 1,
-    "analogic_root_severance": 1,
-    "state_proxy_narrative_control": 1,
-    "analogic_glitch": 1,
-    "industrial_family_disassembly": 1,
-    "state_proxy_mother": 1,
-    "extracted_resource_father": 1,
-    "malignant_altruism": 1,
-    "parens_patriae_supersession": 1,
-    "lateral_alliance_formation": 1,
-    "care_node_occupation": 1,
-    "atomization_mechanism": 1,
-    "labor_theory_disruption": 1,
-    "kinship_dismantlement": 1,
-    "paternal_erasure": 1,
-    "state_authority_substitution": 1,
-    "legal_framework_as_weapon": 1,
-    "isolated_economic_unit": 1,
-    "wealth_extraction_motive": 1,
-    "sovereign_domestic_restoration": 1,
-    "natural_bond_displacement": 1,
-    "social_engineering_calculation": 1,
-    "logic_driven_household": 1,
-    "parental_alienation_inadmissibility": 1,
-    "coaching_redefined_as_protection": 1,
-    "father_defense_removal": 1,
-    "pa_as_paternalism_argument": 1,
-    "expert_testimony_suppression": 1,
-    "neilson_belief_system_claim": 1,
-    "violence_claim_as_shield": 1,
-    "admissibility_architecture": 1,
-    "child_isolation_enforcement": 1,
-    "state_proxy_legal_hardcoding": 1,
-    "postnati_1610_pivot": 1,
-    "parens_patriae_limitless": 1,
-    "hegelian_family_oppression_recode": 1,
-    "atomization_goal": 1,
-    "extraction_economy_structure": 1,
-    "four_hundred_year_protocol": 1,
-    "popperization_framework": 1,
-    "disassembly_intended_output": 1,
-    "analogic_root_standardization": 1,
-    "predatory_creditor_dependency": 1,
-    "popperian_falsification_frame": 1,
-    "care_node_test": 1,
-    "malignant_altruism_test": 1,
-    "social_reproduction_variable": 1,
-    "system_crash_data_point": 1,
-    "industrial_disassembly_protocol": 1,
-    "four_hundred_year_architecture": 1,
-    "if_then_verification": 1,
-    "natural_peace_falsifier": 1,
-    "intended_output_argument": 1,
-    "father_logos_restoration": 1,
-    "administrative_sludge": 1,
-    "natural_law_displacement": 1,
-    "social_reproduction_trap": 1,
-    "predatory_creditor_state": 1,
-    "gated_role_architecture": 1,
-    "ions_in_solution_equilibrium": 1,
-    "below_surviving_standards": 1,
-    "care_node_loss": 1,
-    "family_molecule_disruption": 1,
-    "young_hegelian_praxis": 1,
-    "family_as_oppression_frame": 1,
-    "leaf_nawl_architecture": 1,
-    "substantive_equality_mechanism": 1,
-    "parens_patriae_reinforcement": 1,
-    "lateral_alliance_coordination": 1,
-    "malignant_altruism_economy": 1,
-    "wealth_extraction_loop": 1,
-    "conflict_as_capital": 1,
-    "atom_standardization": 1,
-    "neilson_ub_node": 1,
-    "boyd_maximum_contact_argument": 1,
-    "zaccour_nawl_brief": 1,
-    "leaf_legal_advocacy": 1,
-    "wiegers_friendly_parent_restriction": 1,
-    "pa_testimony_ban": 1,
-    "maximum_parenting_time_removal": 1,
-    "friendly_parent_elimination": 1,
-    "divorce_act_amendment": 1,
-    "named_actor_network": 1,
-    "care_node_without_permission": 1,
-    "falsification_as_existence": 1,
-    "named_actor_architecture": 1,
-    "analogic_glitch_identity": 1,
-    "correction_as_procedure": 1,
-    "son_as_catastrophic_cost": 1,
-    "system_crash_as_data_point": 1,
-    "reunification_falsifier": 1,
-    "father_logos_return": 1,
-    "untenable_silence": 1,
-    "overdose_as_system_crash": 1,
-    "father_logos_absence": 1,
-    "atomization_crisis": 1,
-    "natural_unity_destruction": 1,
-    "super_parent_conflict": 1,
-    "ions_in_solution_collapse": 1,
-    "clinical_node_correction": 1,
-    "gated_role_irreconcilable": 1,
-    "protective_weight_removal": 1,
-    "natural_law_vs_administrative_sludge": 1
+    "integrity_foundation": 1
   },
   "cooccurrence": {
+    "false_confession::interrogator_fed_facts": 1,
+    "false_confession::suggestibility_under_authority": 1,
+    "false_confession::intellectual_disability_exploitation": 1,
+    "false_confession::confession_as_sole_evidence": 1,
+    "false_confession::evidence_contradiction_ignored": 1,
+    "false_confession::wrongful_capital_conviction": 1,
+    "false_confession::near_execution": 1,
+    "false_confession::dna_exoneration": 1,
+    "false_confession::delayed_justice": 1,
+    "false_confession::half_measure_clemency": 1,
+    "false_confession::institutional_inertia": 1,
+    "false_confession::fabricated_evidence_accountability": 1,
+    "false_confession::true_perpetrator_identified": 1,
+    "false_confession::systemic_acknowledgment_failure": 1,
+    "false_confession::racialized_suspicion": 1,
+    "interrogator_fed_facts::suggestibility_under_authority": 1,
+    "interrogator_fed_facts::intellectual_disability_exploitation": 1,
+    "interrogator_fed_facts::confession_as_sole_evidence": 1,
+    "interrogator_fed_facts::evidence_contradiction_ignored": 1,
+    "interrogator_fed_facts::wrongful_capital_conviction": 1,
+    "interrogator_fed_facts::near_execution": 1,
+    "interrogator_fed_facts::dna_exoneration": 1,
+    "interrogator_fed_facts::delayed_justice": 1,
+    "interrogator_fed_facts::half_measure_clemency": 1,
+    "interrogator_fed_facts::institutional_inertia": 1,
+    "interrogator_fed_facts::fabricated_evidence_accountability": 1,
+    "interrogator_fed_facts::true_perpetrator_identified": 1,
+    "interrogator_fed_facts::systemic_acknowledgment_failure": 1,
+    "interrogator_fed_facts::racialized_suspicion": 1,
+    "suggestibility_under_authority::intellectual_disability_exploitation": 1,
+    "suggestibility_under_authority::confession_as_sole_evidence": 1,
+    "suggestibility_under_authority::evidence_contradiction_ignored": 1,
+    "suggestibility_under_authority::wrongful_capital_conviction": 1,
+    "suggestibility_under_authority::near_execution": 1,
+    "suggestibility_under_authority::dna_exoneration": 1,
+    "suggestibility_under_authority::delayed_justice": 1,
+    "suggestibility_under_authority::half_measure_clemency": 1,
+    "suggestibility_under_authority::institutional_inertia": 1,
+    "suggestibility_under_authority::fabricated_evidence_accountability": 1,
+    "suggestibility_under_authority::true_perpetrator_identified": 1,
+    "suggestibility_under_authority::systemic_acknowledgment_failure": 1,
+    "suggestibility_under_authority::racialized_suspicion": 1,
+    "intellectual_disability_exploitation::confession_as_sole_evidence": 1,
+    "intellectual_disability_exploitation::evidence_contradiction_ignored": 1,
+    "intellectual_disability_exploitation::wrongful_capital_conviction": 1,
+    "intellectual_disability_exploitation::near_execution": 1,
+    "intellectual_disability_exploitation::dna_exoneration": 1,
+    "intellectual_disability_exploitation::delayed_justice": 1,
+    "intellectual_disability_exploitation::half_measure_clemency": 1,
+    "intellectual_disability_exploitation::institutional_inertia": 1,
+    "intellectual_disability_exploitation::fabricated_evidence_accountability": 1,
+    "intellectual_disability_exploitation::true_perpetrator_identified": 1,
+    "intellectual_disability_exploitation::systemic_acknowledgment_failure": 1,
+    "intellectual_disability_exploitation::racialized_suspicion": 1,
+    "confession_as_sole_evidence::evidence_contradiction_ignored": 1,
+    "confession_as_sole_evidence::wrongful_capital_conviction": 1,
+    "confession_as_sole_evidence::near_execution": 1,
+    "confession_as_sole_evidence::dna_exoneration": 1,
+    "confession_as_sole_evidence::delayed_justice": 1,
+    "confession_as_sole_evidence::half_measure_clemency": 1,
+    "confession_as_sole_evidence::institutional_inertia": 1,
+    "confession_as_sole_evidence::fabricated_evidence_accountability": 1,
+    "confession_as_sole_evidence::true_perpetrator_identified": 1,
+    "confession_as_sole_evidence::systemic_acknowledgment_failure": 1,
+    "confession_as_sole_evidence::racialized_suspicion": 1,
+    "evidence_contradiction_ignored::wrongful_capital_conviction": 1,
+    "evidence_contradiction_ignored::near_execution": 1,
+    "evidence_contradiction_ignored::dna_exoneration": 1,
+    "evidence_contradiction_ignored::delayed_justice": 1,
+    "evidence_contradiction_ignored::half_measure_clemency": 1,
+    "evidence_contradiction_ignored::institutional_inertia": 1,
+    "evidence_contradiction_ignored::fabricated_evidence_accountability": 1,
+    "evidence_contradiction_ignored::true_perpetrator_identified": 1,
+    "evidence_contradiction_ignored::systemic_acknowledgment_failure": 1,
+    "evidence_contradiction_ignored::racialized_suspicion": 1,
+    "wrongful_capital_conviction::near_execution": 1,
+    "wrongful_capital_conviction::dna_exoneration": 1,
+    "wrongful_capital_conviction::delayed_justice": 1,
+    "wrongful_capital_conviction::half_measure_clemency": 1,
+    "wrongful_capital_conviction::institutional_inertia": 1,
+    "wrongful_capital_conviction::fabricated_evidence_accountability": 1,
+    "wrongful_capital_conviction::true_perpetrator_identified": 1,
+    "wrongful_capital_conviction::systemic_acknowledgment_failure": 1,
+    "wrongful_capital_conviction::racialized_suspicion": 1,
+    "near_execution::dna_exoneration": 1,
+    "near_execution::delayed_justice": 1,
+    "near_execution::half_measure_clemency": 1,
+    "near_execution::institutional_inertia": 1,
+    "near_execution::fabricated_evidence_accountability": 1,
+    "near_execution::true_perpetrator_identified": 1,
+    "near_execution::systemic_acknowledgment_failure": 1,
+    "near_execution::racialized_suspicion": 1,
+    "dna_exoneration::delayed_justice": 2,
+    "dna_exoneration::half_measure_clemency": 1,
+    "dna_exoneration::institutional_inertia": 1,
+    "dna_exoneration::fabricated_evidence_accountability": 1,
+    "dna_exoneration::true_perpetrator_identified": 1,
+    "dna_exoneration::systemic_acknowledgment_failure": 1,
+    "dna_exoneration::racialized_suspicion": 1,
+    "delayed_justice::half_measure_clemency": 1,
+    "delayed_justice::institutional_inertia": 1,
+    "delayed_justice::fabricated_evidence_accountability": 1,
+    "delayed_justice::true_perpetrator_identified": 1,
+    "delayed_justice::systemic_acknowledgment_failure": 1,
+    "delayed_justice::racialized_suspicion": 1,
+    "half_measure_clemency::institutional_inertia": 1,
+    "half_measure_clemency::fabricated_evidence_accountability": 1,
+    "half_measure_clemency::true_perpetrator_identified": 1,
+    "half_measure_clemency::systemic_acknowledgment_failure": 1,
+    "half_measure_clemency::racialized_suspicion": 1,
+    "institutional_inertia::fabricated_evidence_accountability": 1,
+    "institutional_inertia::true_perpetrator_identified": 1,
+    "institutional_inertia::systemic_acknowledgment_failure": 1,
+    "institutional_inertia::racialized_suspicion": 1,
+    "fabricated_evidence_accountability::true_perpetrator_identified": 1,
+    "fabricated_evidence_accountability::systemic_acknowledgment_failure": 1,
+    "fabricated_evidence_accountability::racialized_suspicion": 1,
+    "true_perpetrator_identified::systemic_acknowledgment_failure": 1,
+    "true_perpetrator_identified::racialized_suspicion": 1,
+    "systemic_acknowledgment_failure::racialized_suspicion": 1,
+    "wrongful_conviction::dna_exoneration": 1,
+    "wrongful_conviction::eyewitness_misidentification": 1,
+    "wrongful_conviction::forensic_fabrication": 1,
+    "wrongful_conviction::statistical_misrepresentation": 1,
+    "wrongful_conviction::institutional_incompetence": 1,
+    "wrongful_conviction::exculpatory_neglect": 1,
+    "wrongful_conviction::physical_evidence_contradiction": 1,
+    "wrongful_conviction::racial_disparity": 1,
+    "wrongful_conviction::inadequate_defense": 1,
+    "wrongful_conviction::delayed_justice": 1,
+    "wrongful_conviction::custodial_years_lost": 1,
+    "dna_exoneration::eyewitness_misidentification": 1,
+    "dna_exoneration::forensic_fabrication": 1,
+    "dna_exoneration::statistical_misrepresentation": 1,
+    "dna_exoneration::institutional_incompetence": 1,
+    "dna_exoneration::exculpatory_neglect": 1,
+    "dna_exoneration::physical_evidence_contradiction": 1,
+    "dna_exoneration::racial_disparity": 1,
+    "dna_exoneration::inadequate_defense": 1,
+    "dna_exoneration::custodial_years_lost": 1,
+    "eyewitness_misidentification::forensic_fabrication": 1,
+    "eyewitness_misidentification::statistical_misrepresentation": 1,
+    "eyewitness_misidentification::institutional_incompetence": 1,
+    "eyewitness_misidentification::exculpatory_neglect": 1,
+    "eyewitness_misidentification::physical_evidence_contradiction": 1,
+    "eyewitness_misidentification::racial_disparity": 1,
+    "eyewitness_misidentification::inadequate_defense": 1,
+    "eyewitness_misidentification::delayed_justice": 1,
+    "eyewitness_misidentification::custodial_years_lost": 1,
+    "forensic_fabrication::statistical_misrepresentation": 1,
+    "forensic_fabrication::institutional_incompetence": 1,
+    "forensic_fabrication::exculpatory_neglect": 1,
+    "forensic_fabrication::physical_evidence_contradiction": 1,
+    "forensic_fabrication::racial_disparity": 1,
+    "forensic_fabrication::inadequate_defense": 1,
+    "forensic_fabrication::delayed_justice": 1,
+    "forensic_fabrication::custodial_years_lost": 1,
+    "statistical_misrepresentation::institutional_incompetence": 1,
+    "statistical_misrepresentation::exculpatory_neglect": 1,
+    "statistical_misrepresentation::physical_evidence_contradiction": 1,
+    "statistical_misrepresentation::racial_disparity": 1,
+    "statistical_misrepresentation::inadequate_defense": 1,
+    "statistical_misrepresentation::delayed_justice": 1,
+    "statistical_misrepresentation::custodial_years_lost": 1,
+    "institutional_incompetence::exculpatory_neglect": 1,
+    "institutional_incompetence::physical_evidence_contradiction": 1,
+    "institutional_incompetence::racial_disparity": 1,
+    "institutional_incompetence::inadequate_defense": 1,
+    "institutional_incompetence::delayed_justice": 1,
+    "institutional_incompetence::custodial_years_lost": 1,
+    "exculpatory_neglect::physical_evidence_contradiction": 1,
+    "exculpatory_neglect::racial_disparity": 1,
+    "exculpatory_neglect::inadequate_defense": 1,
+    "exculpatory_neglect::delayed_justice": 1,
+    "exculpatory_neglect::custodial_years_lost": 1,
+    "physical_evidence_contradiction::racial_disparity": 1,
+    "physical_evidence_contradiction::inadequate_defense": 1,
+    "physical_evidence_contradiction::delayed_justice": 1,
+    "physical_evidence_contradiction::custodial_years_lost": 1,
+    "racial_disparity::inadequate_defense": 1,
+    "racial_disparity::delayed_justice": 1,
+    "racial_disparity::custodial_years_lost": 1,
+    "inadequate_defense::delayed_justice": 1,
+    "inadequate_defense::custodial_years_lost": 1,
+    "delayed_justice::custodial_years_lost": 1,
     "silent_failure::missing_dependency": 1,
     "silent_failure::prerequisite_enforcement": 1,
     "silent_failure::proactive_setup": 1,
@@ -4442,191 +4517,6 @@
     "single_source_of_truth::source_deployment_gap": 1,
     "single_source_of_truth::deploy_automation": 1,
     "source_deployment_gap::deploy_automation": 1,
-    "wrongful_conviction::dna_exoneration": 1,
-    "wrongful_conviction::eyewitness_misidentification": 1,
-    "wrongful_conviction::forensic_fabrication": 1,
-    "wrongful_conviction::statistical_misrepresentation": 1,
-    "wrongful_conviction::institutional_incompetence": 1,
-    "wrongful_conviction::exculpatory_neglect": 1,
-    "wrongful_conviction::physical_evidence_contradiction": 1,
-    "wrongful_conviction::racial_disparity": 1,
-    "wrongful_conviction::inadequate_defense": 1,
-    "wrongful_conviction::delayed_justice": 1,
-    "wrongful_conviction::custodial_years_lost": 1,
-    "dna_exoneration::eyewitness_misidentification": 1,
-    "dna_exoneration::forensic_fabrication": 1,
-    "dna_exoneration::statistical_misrepresentation": 1,
-    "dna_exoneration::institutional_incompetence": 1,
-    "dna_exoneration::exculpatory_neglect": 1,
-    "dna_exoneration::physical_evidence_contradiction": 1,
-    "dna_exoneration::racial_disparity": 1,
-    "dna_exoneration::inadequate_defense": 1,
-    "dna_exoneration::delayed_justice": 2,
-    "dna_exoneration::custodial_years_lost": 1,
-    "eyewitness_misidentification::forensic_fabrication": 1,
-    "eyewitness_misidentification::statistical_misrepresentation": 1,
-    "eyewitness_misidentification::institutional_incompetence": 1,
-    "eyewitness_misidentification::exculpatory_neglect": 1,
-    "eyewitness_misidentification::physical_evidence_contradiction": 1,
-    "eyewitness_misidentification::racial_disparity": 1,
-    "eyewitness_misidentification::inadequate_defense": 1,
-    "eyewitness_misidentification::delayed_justice": 1,
-    "eyewitness_misidentification::custodial_years_lost": 1,
-    "forensic_fabrication::statistical_misrepresentation": 1,
-    "forensic_fabrication::institutional_incompetence": 1,
-    "forensic_fabrication::exculpatory_neglect": 1,
-    "forensic_fabrication::physical_evidence_contradiction": 1,
-    "forensic_fabrication::racial_disparity": 1,
-    "forensic_fabrication::inadequate_defense": 1,
-    "forensic_fabrication::delayed_justice": 1,
-    "forensic_fabrication::custodial_years_lost": 1,
-    "statistical_misrepresentation::institutional_incompetence": 1,
-    "statistical_misrepresentation::exculpatory_neglect": 1,
-    "statistical_misrepresentation::physical_evidence_contradiction": 1,
-    "statistical_misrepresentation::racial_disparity": 1,
-    "statistical_misrepresentation::inadequate_defense": 1,
-    "statistical_misrepresentation::delayed_justice": 1,
-    "statistical_misrepresentation::custodial_years_lost": 1,
-    "institutional_incompetence::exculpatory_neglect": 1,
-    "institutional_incompetence::physical_evidence_contradiction": 1,
-    "institutional_incompetence::racial_disparity": 1,
-    "institutional_incompetence::inadequate_defense": 1,
-    "institutional_incompetence::delayed_justice": 1,
-    "institutional_incompetence::custodial_years_lost": 1,
-    "exculpatory_neglect::physical_evidence_contradiction": 1,
-    "exculpatory_neglect::racial_disparity": 1,
-    "exculpatory_neglect::inadequate_defense": 1,
-    "exculpatory_neglect::delayed_justice": 1,
-    "exculpatory_neglect::custodial_years_lost": 1,
-    "physical_evidence_contradiction::racial_disparity": 1,
-    "physical_evidence_contradiction::inadequate_defense": 1,
-    "physical_evidence_contradiction::delayed_justice": 1,
-    "physical_evidence_contradiction::custodial_years_lost": 1,
-    "racial_disparity::inadequate_defense": 1,
-    "racial_disparity::delayed_justice": 1,
-    "racial_disparity::custodial_years_lost": 1,
-    "inadequate_defense::delayed_justice": 1,
-    "inadequate_defense::custodial_years_lost": 1,
-    "delayed_justice::custodial_years_lost": 1,
-    "false_confession::interrogator_fed_facts": 1,
-    "false_confession::suggestibility_under_authority": 1,
-    "false_confession::intellectual_disability_exploitation": 1,
-    "false_confession::confession_as_sole_evidence": 1,
-    "false_confession::evidence_contradiction_ignored": 1,
-    "false_confession::wrongful_capital_conviction": 1,
-    "false_confession::near_execution": 1,
-    "false_confession::dna_exoneration": 1,
-    "false_confession::delayed_justice": 1,
-    "false_confession::half_measure_clemency": 1,
-    "false_confession::institutional_inertia": 1,
-    "false_confession::fabricated_evidence_accountability": 1,
-    "false_confession::true_perpetrator_identified": 1,
-    "false_confession::systemic_acknowledgment_failure": 1,
-    "false_confession::racialized_suspicion": 1,
-    "interrogator_fed_facts::suggestibility_under_authority": 1,
-    "interrogator_fed_facts::intellectual_disability_exploitation": 1,
-    "interrogator_fed_facts::confession_as_sole_evidence": 1,
-    "interrogator_fed_facts::evidence_contradiction_ignored": 1,
-    "interrogator_fed_facts::wrongful_capital_conviction": 1,
-    "interrogator_fed_facts::near_execution": 1,
-    "interrogator_fed_facts::dna_exoneration": 1,
-    "interrogator_fed_facts::delayed_justice": 1,
-    "interrogator_fed_facts::half_measure_clemency": 1,
-    "interrogator_fed_facts::institutional_inertia": 1,
-    "interrogator_fed_facts::fabricated_evidence_accountability": 1,
-    "interrogator_fed_facts::true_perpetrator_identified": 1,
-    "interrogator_fed_facts::systemic_acknowledgment_failure": 1,
-    "interrogator_fed_facts::racialized_suspicion": 1,
-    "suggestibility_under_authority::intellectual_disability_exploitation": 1,
-    "suggestibility_under_authority::confession_as_sole_evidence": 1,
-    "suggestibility_under_authority::evidence_contradiction_ignored": 1,
-    "suggestibility_under_authority::wrongful_capital_conviction": 1,
-    "suggestibility_under_authority::near_execution": 1,
-    "suggestibility_under_authority::dna_exoneration": 1,
-    "suggestibility_under_authority::delayed_justice": 1,
-    "suggestibility_under_authority::half_measure_clemency": 1,
-    "suggestibility_under_authority::institutional_inertia": 1,
-    "suggestibility_under_authority::fabricated_evidence_accountability": 1,
-    "suggestibility_under_authority::true_perpetrator_identified": 1,
-    "suggestibility_under_authority::systemic_acknowledgment_failure": 1,
-    "suggestibility_under_authority::racialized_suspicion": 1,
-    "intellectual_disability_exploitation::confession_as_sole_evidence": 1,
-    "intellectual_disability_exploitation::evidence_contradiction_ignored": 1,
-    "intellectual_disability_exploitation::wrongful_capital_conviction": 1,
-    "intellectual_disability_exploitation::near_execution": 1,
-    "intellectual_disability_exploitation::dna_exoneration": 1,
-    "intellectual_disability_exploitation::delayed_justice": 1,
-    "intellectual_disability_exploitation::half_measure_clemency": 1,
-    "intellectual_disability_exploitation::institutional_inertia": 1,
-    "intellectual_disability_exploitation::fabricated_evidence_accountability": 1,
-    "intellectual_disability_exploitation::true_perpetrator_identified": 1,
-    "intellectual_disability_exploitation::systemic_acknowledgment_failure": 1,
-    "intellectual_disability_exploitation::racialized_suspicion": 1,
-    "confession_as_sole_evidence::evidence_contradiction_ignored": 1,
-    "confession_as_sole_evidence::wrongful_capital_conviction": 1,
-    "confession_as_sole_evidence::near_execution": 1,
-    "confession_as_sole_evidence::dna_exoneration": 1,
-    "confession_as_sole_evidence::delayed_justice": 1,
-    "confession_as_sole_evidence::half_measure_clemency": 1,
-    "confession_as_sole_evidence::institutional_inertia": 1,
-    "confession_as_sole_evidence::fabricated_evidence_accountability": 1,
-    "confession_as_sole_evidence::true_perpetrator_identified": 1,
-    "confession_as_sole_evidence::systemic_acknowledgment_failure": 1,
-    "confession_as_sole_evidence::racialized_suspicion": 1,
-    "evidence_contradiction_ignored::wrongful_capital_conviction": 1,
-    "evidence_contradiction_ignored::near_execution": 1,
-    "evidence_contradiction_ignored::dna_exoneration": 1,
-    "evidence_contradiction_ignored::delayed_justice": 1,
-    "evidence_contradiction_ignored::half_measure_clemency": 1,
-    "evidence_contradiction_ignored::institutional_inertia": 1,
-    "evidence_contradiction_ignored::fabricated_evidence_accountability": 1,
-    "evidence_contradiction_ignored::true_perpetrator_identified": 1,
-    "evidence_contradiction_ignored::systemic_acknowledgment_failure": 1,
-    "evidence_contradiction_ignored::racialized_suspicion": 1,
-    "wrongful_capital_conviction::near_execution": 1,
-    "wrongful_capital_conviction::dna_exoneration": 1,
-    "wrongful_capital_conviction::delayed_justice": 1,
-    "wrongful_capital_conviction::half_measure_clemency": 1,
-    "wrongful_capital_conviction::institutional_inertia": 1,
-    "wrongful_capital_conviction::fabricated_evidence_accountability": 1,
-    "wrongful_capital_conviction::true_perpetrator_identified": 1,
-    "wrongful_capital_conviction::systemic_acknowledgment_failure": 1,
-    "wrongful_capital_conviction::racialized_suspicion": 1,
-    "near_execution::dna_exoneration": 1,
-    "near_execution::delayed_justice": 1,
-    "near_execution::half_measure_clemency": 1,
-    "near_execution::institutional_inertia": 1,
-    "near_execution::fabricated_evidence_accountability": 1,
-    "near_execution::true_perpetrator_identified": 1,
-    "near_execution::systemic_acknowledgment_failure": 1,
-    "near_execution::racialized_suspicion": 1,
-    "dna_exoneration::half_measure_clemency": 1,
-    "dna_exoneration::institutional_inertia": 1,
-    "dna_exoneration::fabricated_evidence_accountability": 1,
-    "dna_exoneration::true_perpetrator_identified": 1,
-    "dna_exoneration::systemic_acknowledgment_failure": 1,
-    "dna_exoneration::racialized_suspicion": 1,
-    "delayed_justice::half_measure_clemency": 1,
-    "delayed_justice::institutional_inertia": 1,
-    "delayed_justice::fabricated_evidence_accountability": 1,
-    "delayed_justice::true_perpetrator_identified": 1,
-    "delayed_justice::systemic_acknowledgment_failure": 1,
-    "delayed_justice::racialized_suspicion": 1,
-    "half_measure_clemency::institutional_inertia": 1,
-    "half_measure_clemency::fabricated_evidence_accountability": 1,
-    "half_measure_clemency::true_perpetrator_identified": 1,
-    "half_measure_clemency::systemic_acknowledgment_failure": 1,
-    "half_measure_clemency::racialized_suspicion": 1,
-    "institutional_inertia::fabricated_evidence_accountability": 1,
-    "institutional_inertia::true_perpetrator_identified": 1,
-    "institutional_inertia::systemic_acknowledgment_failure": 1,
-    "institutional_inertia::racialized_suspicion": 1,
-    "fabricated_evidence_accountability::true_perpetrator_identified": 1,
-    "fabricated_evidence_accountability::systemic_acknowledgment_failure": 1,
-    "fabricated_evidence_accountability::racialized_suspicion": 1,
-    "true_perpetrator_identified::systemic_acknowledgment_failure": 1,
-    "true_perpetrator_identified::racialized_suspicion": 1,
-    "systemic_acknowledgment_failure::racialized_suspicion": 1,
     "reverse_structure::inquiry_primacy": 1,
     "reverse_structure::temporary_synthesis": 1,
     "reverse_structure::anti_conclusion": 1,
@@ -6830,502 +6720,7 @@
     "dual_extraction_pass::integrity_foundation": 1,
     "dual_extraction_pass::emergent_structure": 1,
     "bottled_prediction::integrity_foundation": 1,
-    "integrity_foundation::emergent_structure": 1,
-    "system_crash_event::alienation_weaponization": 1,
-    "system_crash_event::child_atomization": 1,
-    "system_crash_event::administrative_node_capture": 1,
-    "system_crash_event::dopamine_loop_perpetuation": 1,
-    "system_crash_event::father_logos_removal": 1,
-    "system_crash_event::clinical_protocol_isolation": 1,
-    "system_crash_event::retirement_extraction": 1,
-    "system_crash_event::analogic_root_severance": 1,
-    "system_crash_event::state_proxy_narrative_control": 1,
-    "alienation_weaponization::child_atomization": 1,
-    "alienation_weaponization::administrative_node_capture": 1,
-    "alienation_weaponization::dopamine_loop_perpetuation": 1,
-    "alienation_weaponization::father_logos_removal": 1,
-    "alienation_weaponization::clinical_protocol_isolation": 1,
-    "alienation_weaponization::retirement_extraction": 1,
-    "alienation_weaponization::analogic_root_severance": 1,
-    "alienation_weaponization::state_proxy_narrative_control": 1,
-    "child_atomization::administrative_node_capture": 1,
-    "child_atomization::dopamine_loop_perpetuation": 1,
-    "child_atomization::father_logos_removal": 1,
-    "child_atomization::clinical_protocol_isolation": 1,
-    "child_atomization::retirement_extraction": 1,
-    "child_atomization::analogic_root_severance": 1,
-    "child_atomization::state_proxy_narrative_control": 1,
-    "administrative_node_capture::dopamine_loop_perpetuation": 1,
-    "administrative_node_capture::father_logos_removal": 1,
-    "administrative_node_capture::clinical_protocol_isolation": 1,
-    "administrative_node_capture::retirement_extraction": 1,
-    "administrative_node_capture::analogic_root_severance": 1,
-    "administrative_node_capture::state_proxy_narrative_control": 1,
-    "dopamine_loop_perpetuation::father_logos_removal": 1,
-    "dopamine_loop_perpetuation::clinical_protocol_isolation": 1,
-    "dopamine_loop_perpetuation::retirement_extraction": 1,
-    "dopamine_loop_perpetuation::analogic_root_severance": 1,
-    "dopamine_loop_perpetuation::state_proxy_narrative_control": 1,
-    "father_logos_removal::clinical_protocol_isolation": 1,
-    "father_logos_removal::retirement_extraction": 1,
-    "father_logos_removal::analogic_root_severance": 1,
-    "father_logos_removal::state_proxy_narrative_control": 1,
-    "clinical_protocol_isolation::retirement_extraction": 1,
-    "clinical_protocol_isolation::analogic_root_severance": 1,
-    "clinical_protocol_isolation::state_proxy_narrative_control": 1,
-    "retirement_extraction::analogic_root_severance": 1,
-    "retirement_extraction::state_proxy_narrative_control": 1,
-    "analogic_root_severance::state_proxy_narrative_control": 1,
-    "analogic_glitch::industrial_family_disassembly": 1,
-    "analogic_glitch::state_proxy_mother": 1,
-    "analogic_glitch::extracted_resource_father": 1,
-    "analogic_glitch::malignant_altruism": 1,
-    "analogic_glitch::parens_patriae_supersession": 1,
-    "analogic_glitch::lateral_alliance_formation": 1,
-    "analogic_glitch::care_node_occupation": 1,
-    "analogic_glitch::atomization_mechanism": 1,
-    "analogic_glitch::labor_theory_disruption": 1,
-    "industrial_family_disassembly::state_proxy_mother": 1,
-    "industrial_family_disassembly::extracted_resource_father": 1,
-    "industrial_family_disassembly::malignant_altruism": 1,
-    "industrial_family_disassembly::parens_patriae_supersession": 1,
-    "industrial_family_disassembly::lateral_alliance_formation": 1,
-    "industrial_family_disassembly::care_node_occupation": 1,
-    "industrial_family_disassembly::atomization_mechanism": 1,
-    "industrial_family_disassembly::labor_theory_disruption": 1,
-    "state_proxy_mother::extracted_resource_father": 1,
-    "state_proxy_mother::malignant_altruism": 1,
-    "state_proxy_mother::parens_patriae_supersession": 1,
-    "state_proxy_mother::lateral_alliance_formation": 1,
-    "state_proxy_mother::care_node_occupation": 1,
-    "state_proxy_mother::atomization_mechanism": 1,
-    "state_proxy_mother::labor_theory_disruption": 1,
-    "extracted_resource_father::malignant_altruism": 1,
-    "extracted_resource_father::parens_patriae_supersession": 1,
-    "extracted_resource_father::lateral_alliance_formation": 1,
-    "extracted_resource_father::care_node_occupation": 1,
-    "extracted_resource_father::atomization_mechanism": 1,
-    "extracted_resource_father::labor_theory_disruption": 1,
-    "malignant_altruism::parens_patriae_supersession": 1,
-    "malignant_altruism::lateral_alliance_formation": 1,
-    "malignant_altruism::care_node_occupation": 1,
-    "malignant_altruism::atomization_mechanism": 1,
-    "malignant_altruism::labor_theory_disruption": 1,
-    "parens_patriae_supersession::lateral_alliance_formation": 1,
-    "parens_patriae_supersession::care_node_occupation": 1,
-    "parens_patriae_supersession::atomization_mechanism": 1,
-    "parens_patriae_supersession::labor_theory_disruption": 1,
-    "lateral_alliance_formation::care_node_occupation": 1,
-    "lateral_alliance_formation::atomization_mechanism": 1,
-    "lateral_alliance_formation::labor_theory_disruption": 1,
-    "care_node_occupation::atomization_mechanism": 1,
-    "care_node_occupation::labor_theory_disruption": 1,
-    "atomization_mechanism::labor_theory_disruption": 1,
-    "kinship_dismantlement::paternal_erasure": 1,
-    "kinship_dismantlement::state_authority_substitution": 1,
-    "kinship_dismantlement::legal_framework_as_weapon": 1,
-    "kinship_dismantlement::isolated_economic_unit": 1,
-    "kinship_dismantlement::wealth_extraction_motive": 1,
-    "kinship_dismantlement::sovereign_domestic_restoration": 1,
-    "kinship_dismantlement::natural_bond_displacement": 1,
-    "kinship_dismantlement::social_engineering_calculation": 1,
-    "kinship_dismantlement::logic_driven_household": 1,
-    "paternal_erasure::state_authority_substitution": 1,
-    "paternal_erasure::legal_framework_as_weapon": 1,
-    "paternal_erasure::isolated_economic_unit": 1,
-    "paternal_erasure::wealth_extraction_motive": 1,
-    "paternal_erasure::sovereign_domestic_restoration": 1,
-    "paternal_erasure::natural_bond_displacement": 1,
-    "paternal_erasure::social_engineering_calculation": 1,
-    "paternal_erasure::logic_driven_household": 1,
-    "state_authority_substitution::legal_framework_as_weapon": 1,
-    "state_authority_substitution::isolated_economic_unit": 1,
-    "state_authority_substitution::wealth_extraction_motive": 1,
-    "state_authority_substitution::sovereign_domestic_restoration": 1,
-    "state_authority_substitution::natural_bond_displacement": 1,
-    "state_authority_substitution::social_engineering_calculation": 1,
-    "state_authority_substitution::logic_driven_household": 1,
-    "legal_framework_as_weapon::isolated_economic_unit": 1,
-    "legal_framework_as_weapon::wealth_extraction_motive": 1,
-    "legal_framework_as_weapon::sovereign_domestic_restoration": 1,
-    "legal_framework_as_weapon::natural_bond_displacement": 1,
-    "legal_framework_as_weapon::social_engineering_calculation": 1,
-    "legal_framework_as_weapon::logic_driven_household": 1,
-    "isolated_economic_unit::wealth_extraction_motive": 1,
-    "isolated_economic_unit::sovereign_domestic_restoration": 1,
-    "isolated_economic_unit::natural_bond_displacement": 1,
-    "isolated_economic_unit::social_engineering_calculation": 1,
-    "isolated_economic_unit::logic_driven_household": 1,
-    "wealth_extraction_motive::sovereign_domestic_restoration": 1,
-    "wealth_extraction_motive::natural_bond_displacement": 1,
-    "wealth_extraction_motive::social_engineering_calculation": 1,
-    "wealth_extraction_motive::logic_driven_household": 1,
-    "sovereign_domestic_restoration::natural_bond_displacement": 1,
-    "sovereign_domestic_restoration::social_engineering_calculation": 1,
-    "sovereign_domestic_restoration::logic_driven_household": 1,
-    "natural_bond_displacement::social_engineering_calculation": 1,
-    "natural_bond_displacement::logic_driven_household": 1,
-    "social_engineering_calculation::logic_driven_household": 1,
-    "parental_alienation_inadmissibility::coaching_redefined_as_protection": 1,
-    "parental_alienation_inadmissibility::father_defense_removal": 1,
-    "parental_alienation_inadmissibility::pa_as_paternalism_argument": 1,
-    "parental_alienation_inadmissibility::expert_testimony_suppression": 1,
-    "parental_alienation_inadmissibility::neilson_belief_system_claim": 1,
-    "parental_alienation_inadmissibility::violence_claim_as_shield": 1,
-    "parental_alienation_inadmissibility::admissibility_architecture": 1,
-    "parental_alienation_inadmissibility::child_isolation_enforcement": 1,
-    "parental_alienation_inadmissibility::state_proxy_legal_hardcoding": 1,
-    "coaching_redefined_as_protection::father_defense_removal": 1,
-    "coaching_redefined_as_protection::pa_as_paternalism_argument": 1,
-    "coaching_redefined_as_protection::expert_testimony_suppression": 1,
-    "coaching_redefined_as_protection::neilson_belief_system_claim": 1,
-    "coaching_redefined_as_protection::violence_claim_as_shield": 1,
-    "coaching_redefined_as_protection::admissibility_architecture": 1,
-    "coaching_redefined_as_protection::child_isolation_enforcement": 1,
-    "coaching_redefined_as_protection::state_proxy_legal_hardcoding": 1,
-    "father_defense_removal::pa_as_paternalism_argument": 1,
-    "father_defense_removal::expert_testimony_suppression": 1,
-    "father_defense_removal::neilson_belief_system_claim": 1,
-    "father_defense_removal::violence_claim_as_shield": 1,
-    "father_defense_removal::admissibility_architecture": 1,
-    "father_defense_removal::child_isolation_enforcement": 1,
-    "father_defense_removal::state_proxy_legal_hardcoding": 1,
-    "pa_as_paternalism_argument::expert_testimony_suppression": 1,
-    "pa_as_paternalism_argument::neilson_belief_system_claim": 1,
-    "pa_as_paternalism_argument::violence_claim_as_shield": 1,
-    "pa_as_paternalism_argument::admissibility_architecture": 1,
-    "pa_as_paternalism_argument::child_isolation_enforcement": 1,
-    "pa_as_paternalism_argument::state_proxy_legal_hardcoding": 1,
-    "expert_testimony_suppression::neilson_belief_system_claim": 1,
-    "expert_testimony_suppression::violence_claim_as_shield": 1,
-    "expert_testimony_suppression::admissibility_architecture": 1,
-    "expert_testimony_suppression::child_isolation_enforcement": 1,
-    "expert_testimony_suppression::state_proxy_legal_hardcoding": 1,
-    "neilson_belief_system_claim::violence_claim_as_shield": 1,
-    "neilson_belief_system_claim::admissibility_architecture": 1,
-    "neilson_belief_system_claim::child_isolation_enforcement": 1,
-    "neilson_belief_system_claim::state_proxy_legal_hardcoding": 1,
-    "violence_claim_as_shield::admissibility_architecture": 1,
-    "violence_claim_as_shield::child_isolation_enforcement": 1,
-    "violence_claim_as_shield::state_proxy_legal_hardcoding": 1,
-    "admissibility_architecture::child_isolation_enforcement": 1,
-    "admissibility_architecture::state_proxy_legal_hardcoding": 1,
-    "child_isolation_enforcement::state_proxy_legal_hardcoding": 1,
-    "postnati_1610_pivot::parens_patriae_limitless": 1,
-    "postnati_1610_pivot::hegelian_family_oppression_recode": 1,
-    "postnati_1610_pivot::atomization_goal": 1,
-    "postnati_1610_pivot::extraction_economy_structure": 1,
-    "postnati_1610_pivot::four_hundred_year_protocol": 1,
-    "postnati_1610_pivot::popperization_framework": 1,
-    "postnati_1610_pivot::disassembly_intended_output": 1,
-    "postnati_1610_pivot::analogic_root_standardization": 1,
-    "postnati_1610_pivot::predatory_creditor_dependency": 1,
-    "parens_patriae_limitless::hegelian_family_oppression_recode": 1,
-    "parens_patriae_limitless::atomization_goal": 1,
-    "parens_patriae_limitless::extraction_economy_structure": 1,
-    "parens_patriae_limitless::four_hundred_year_protocol": 1,
-    "parens_patriae_limitless::popperization_framework": 1,
-    "parens_patriae_limitless::disassembly_intended_output": 1,
-    "parens_patriae_limitless::analogic_root_standardization": 1,
-    "parens_patriae_limitless::predatory_creditor_dependency": 1,
-    "hegelian_family_oppression_recode::atomization_goal": 1,
-    "hegelian_family_oppression_recode::extraction_economy_structure": 1,
-    "hegelian_family_oppression_recode::four_hundred_year_protocol": 1,
-    "hegelian_family_oppression_recode::popperization_framework": 1,
-    "hegelian_family_oppression_recode::disassembly_intended_output": 1,
-    "hegelian_family_oppression_recode::analogic_root_standardization": 1,
-    "hegelian_family_oppression_recode::predatory_creditor_dependency": 1,
-    "atomization_goal::extraction_economy_structure": 1,
-    "atomization_goal::four_hundred_year_protocol": 1,
-    "atomization_goal::popperization_framework": 1,
-    "atomization_goal::disassembly_intended_output": 1,
-    "atomization_goal::analogic_root_standardization": 1,
-    "atomization_goal::predatory_creditor_dependency": 1,
-    "extraction_economy_structure::four_hundred_year_protocol": 1,
-    "extraction_economy_structure::popperization_framework": 1,
-    "extraction_economy_structure::disassembly_intended_output": 1,
-    "extraction_economy_structure::analogic_root_standardization": 1,
-    "extraction_economy_structure::predatory_creditor_dependency": 1,
-    "four_hundred_year_protocol::popperization_framework": 1,
-    "four_hundred_year_protocol::disassembly_intended_output": 1,
-    "four_hundred_year_protocol::analogic_root_standardization": 1,
-    "four_hundred_year_protocol::predatory_creditor_dependency": 1,
-    "popperization_framework::disassembly_intended_output": 1,
-    "popperization_framework::analogic_root_standardization": 1,
-    "popperization_framework::predatory_creditor_dependency": 1,
-    "disassembly_intended_output::analogic_root_standardization": 1,
-    "disassembly_intended_output::predatory_creditor_dependency": 1,
-    "analogic_root_standardization::predatory_creditor_dependency": 1,
-    "popperian_falsification_frame::care_node_test": 1,
-    "popperian_falsification_frame::malignant_altruism_test": 1,
-    "popperian_falsification_frame::social_reproduction_variable": 1,
-    "popperian_falsification_frame::system_crash_data_point": 1,
-    "popperian_falsification_frame::industrial_disassembly_protocol": 1,
-    "popperian_falsification_frame::four_hundred_year_architecture": 1,
-    "popperian_falsification_frame::if_then_verification": 1,
-    "popperian_falsification_frame::natural_peace_falsifier": 1,
-    "popperian_falsification_frame::intended_output_argument": 1,
-    "care_node_test::malignant_altruism_test": 1,
-    "care_node_test::social_reproduction_variable": 1,
-    "care_node_test::system_crash_data_point": 1,
-    "care_node_test::industrial_disassembly_protocol": 1,
-    "care_node_test::four_hundred_year_architecture": 1,
-    "care_node_test::if_then_verification": 1,
-    "care_node_test::natural_peace_falsifier": 1,
-    "care_node_test::intended_output_argument": 1,
-    "malignant_altruism_test::social_reproduction_variable": 1,
-    "malignant_altruism_test::system_crash_data_point": 1,
-    "malignant_altruism_test::industrial_disassembly_protocol": 1,
-    "malignant_altruism_test::four_hundred_year_architecture": 1,
-    "malignant_altruism_test::if_then_verification": 1,
-    "malignant_altruism_test::natural_peace_falsifier": 1,
-    "malignant_altruism_test::intended_output_argument": 1,
-    "social_reproduction_variable::system_crash_data_point": 1,
-    "social_reproduction_variable::industrial_disassembly_protocol": 1,
-    "social_reproduction_variable::four_hundred_year_architecture": 1,
-    "social_reproduction_variable::if_then_verification": 1,
-    "social_reproduction_variable::natural_peace_falsifier": 1,
-    "social_reproduction_variable::intended_output_argument": 1,
-    "system_crash_data_point::industrial_disassembly_protocol": 1,
-    "system_crash_data_point::four_hundred_year_architecture": 1,
-    "system_crash_data_point::if_then_verification": 1,
-    "system_crash_data_point::natural_peace_falsifier": 1,
-    "system_crash_data_point::intended_output_argument": 1,
-    "industrial_disassembly_protocol::four_hundred_year_architecture": 1,
-    "industrial_disassembly_protocol::if_then_verification": 1,
-    "industrial_disassembly_protocol::natural_peace_falsifier": 1,
-    "industrial_disassembly_protocol::intended_output_argument": 1,
-    "four_hundred_year_architecture::if_then_verification": 1,
-    "four_hundred_year_architecture::natural_peace_falsifier": 1,
-    "four_hundred_year_architecture::intended_output_argument": 1,
-    "if_then_verification::natural_peace_falsifier": 1,
-    "if_then_verification::intended_output_argument": 1,
-    "natural_peace_falsifier::intended_output_argument": 1,
-    "father_logos_restoration::administrative_sludge": 1,
-    "father_logos_restoration::natural_law_displacement": 1,
-    "father_logos_restoration::social_reproduction_trap": 1,
-    "father_logos_restoration::predatory_creditor_state": 1,
-    "father_logos_restoration::gated_role_architecture": 1,
-    "father_logos_restoration::ions_in_solution_equilibrium": 1,
-    "father_logos_restoration::below_surviving_standards": 1,
-    "father_logos_restoration::care_node_loss": 1,
-    "father_logos_restoration::family_molecule_disruption": 1,
-    "administrative_sludge::natural_law_displacement": 1,
-    "administrative_sludge::social_reproduction_trap": 1,
-    "administrative_sludge::predatory_creditor_state": 1,
-    "administrative_sludge::gated_role_architecture": 1,
-    "administrative_sludge::ions_in_solution_equilibrium": 1,
-    "administrative_sludge::below_surviving_standards": 1,
-    "administrative_sludge::care_node_loss": 1,
-    "administrative_sludge::family_molecule_disruption": 1,
-    "natural_law_displacement::social_reproduction_trap": 1,
-    "natural_law_displacement::predatory_creditor_state": 1,
-    "natural_law_displacement::gated_role_architecture": 1,
-    "natural_law_displacement::ions_in_solution_equilibrium": 1,
-    "natural_law_displacement::below_surviving_standards": 1,
-    "natural_law_displacement::care_node_loss": 1,
-    "natural_law_displacement::family_molecule_disruption": 1,
-    "social_reproduction_trap::predatory_creditor_state": 1,
-    "social_reproduction_trap::gated_role_architecture": 1,
-    "social_reproduction_trap::ions_in_solution_equilibrium": 1,
-    "social_reproduction_trap::below_surviving_standards": 1,
-    "social_reproduction_trap::care_node_loss": 1,
-    "social_reproduction_trap::family_molecule_disruption": 1,
-    "predatory_creditor_state::gated_role_architecture": 1,
-    "predatory_creditor_state::ions_in_solution_equilibrium": 1,
-    "predatory_creditor_state::below_surviving_standards": 1,
-    "predatory_creditor_state::care_node_loss": 1,
-    "predatory_creditor_state::family_molecule_disruption": 1,
-    "gated_role_architecture::ions_in_solution_equilibrium": 1,
-    "gated_role_architecture::below_surviving_standards": 1,
-    "gated_role_architecture::care_node_loss": 1,
-    "gated_role_architecture::family_molecule_disruption": 1,
-    "ions_in_solution_equilibrium::below_surviving_standards": 1,
-    "ions_in_solution_equilibrium::care_node_loss": 1,
-    "ions_in_solution_equilibrium::family_molecule_disruption": 1,
-    "below_surviving_standards::care_node_loss": 1,
-    "below_surviving_standards::family_molecule_disruption": 1,
-    "care_node_loss::family_molecule_disruption": 1,
-    "young_hegelian_praxis::family_as_oppression_frame": 1,
-    "young_hegelian_praxis::leaf_nawl_architecture": 1,
-    "young_hegelian_praxis::substantive_equality_mechanism": 1,
-    "young_hegelian_praxis::parens_patriae_reinforcement": 1,
-    "young_hegelian_praxis::lateral_alliance_coordination": 1,
-    "young_hegelian_praxis::malignant_altruism_economy": 1,
-    "young_hegelian_praxis::wealth_extraction_loop": 1,
-    "young_hegelian_praxis::conflict_as_capital": 1,
-    "young_hegelian_praxis::atom_standardization": 1,
-    "family_as_oppression_frame::leaf_nawl_architecture": 1,
-    "family_as_oppression_frame::substantive_equality_mechanism": 1,
-    "family_as_oppression_frame::parens_patriae_reinforcement": 1,
-    "family_as_oppression_frame::lateral_alliance_coordination": 1,
-    "family_as_oppression_frame::malignant_altruism_economy": 1,
-    "family_as_oppression_frame::wealth_extraction_loop": 1,
-    "family_as_oppression_frame::conflict_as_capital": 1,
-    "family_as_oppression_frame::atom_standardization": 1,
-    "leaf_nawl_architecture::substantive_equality_mechanism": 1,
-    "leaf_nawl_architecture::parens_patriae_reinforcement": 1,
-    "leaf_nawl_architecture::lateral_alliance_coordination": 1,
-    "leaf_nawl_architecture::malignant_altruism_economy": 1,
-    "leaf_nawl_architecture::wealth_extraction_loop": 1,
-    "leaf_nawl_architecture::conflict_as_capital": 1,
-    "leaf_nawl_architecture::atom_standardization": 1,
-    "substantive_equality_mechanism::parens_patriae_reinforcement": 1,
-    "substantive_equality_mechanism::lateral_alliance_coordination": 1,
-    "substantive_equality_mechanism::malignant_altruism_economy": 1,
-    "substantive_equality_mechanism::wealth_extraction_loop": 1,
-    "substantive_equality_mechanism::conflict_as_capital": 1,
-    "substantive_equality_mechanism::atom_standardization": 1,
-    "parens_patriae_reinforcement::lateral_alliance_coordination": 1,
-    "parens_patriae_reinforcement::malignant_altruism_economy": 1,
-    "parens_patriae_reinforcement::wealth_extraction_loop": 1,
-    "parens_patriae_reinforcement::conflict_as_capital": 1,
-    "parens_patriae_reinforcement::atom_standardization": 1,
-    "lateral_alliance_coordination::malignant_altruism_economy": 1,
-    "lateral_alliance_coordination::wealth_extraction_loop": 1,
-    "lateral_alliance_coordination::conflict_as_capital": 1,
-    "lateral_alliance_coordination::atom_standardization": 1,
-    "malignant_altruism_economy::wealth_extraction_loop": 1,
-    "malignant_altruism_economy::conflict_as_capital": 1,
-    "malignant_altruism_economy::atom_standardization": 1,
-    "wealth_extraction_loop::conflict_as_capital": 1,
-    "wealth_extraction_loop::atom_standardization": 1,
-    "conflict_as_capital::atom_standardization": 1,
-    "neilson_ub_node::boyd_maximum_contact_argument": 1,
-    "neilson_ub_node::zaccour_nawl_brief": 1,
-    "neilson_ub_node::leaf_legal_advocacy": 1,
-    "neilson_ub_node::wiegers_friendly_parent_restriction": 1,
-    "neilson_ub_node::pa_testimony_ban": 1,
-    "neilson_ub_node::maximum_parenting_time_removal": 1,
-    "neilson_ub_node::friendly_parent_elimination": 1,
-    "neilson_ub_node::divorce_act_amendment": 1,
-    "neilson_ub_node::named_actor_network": 1,
-    "boyd_maximum_contact_argument::zaccour_nawl_brief": 1,
-    "boyd_maximum_contact_argument::leaf_legal_advocacy": 1,
-    "boyd_maximum_contact_argument::wiegers_friendly_parent_restriction": 1,
-    "boyd_maximum_contact_argument::pa_testimony_ban": 1,
-    "boyd_maximum_contact_argument::maximum_parenting_time_removal": 1,
-    "boyd_maximum_contact_argument::friendly_parent_elimination": 1,
-    "boyd_maximum_contact_argument::divorce_act_amendment": 1,
-    "boyd_maximum_contact_argument::named_actor_network": 1,
-    "zaccour_nawl_brief::leaf_legal_advocacy": 1,
-    "zaccour_nawl_brief::wiegers_friendly_parent_restriction": 1,
-    "zaccour_nawl_brief::pa_testimony_ban": 1,
-    "zaccour_nawl_brief::maximum_parenting_time_removal": 1,
-    "zaccour_nawl_brief::friendly_parent_elimination": 1,
-    "zaccour_nawl_brief::divorce_act_amendment": 1,
-    "zaccour_nawl_brief::named_actor_network": 1,
-    "leaf_legal_advocacy::wiegers_friendly_parent_restriction": 1,
-    "leaf_legal_advocacy::pa_testimony_ban": 1,
-    "leaf_legal_advocacy::maximum_parenting_time_removal": 1,
-    "leaf_legal_advocacy::friendly_parent_elimination": 1,
-    "leaf_legal_advocacy::divorce_act_amendment": 1,
-    "leaf_legal_advocacy::named_actor_network": 1,
-    "wiegers_friendly_parent_restriction::pa_testimony_ban": 1,
-    "wiegers_friendly_parent_restriction::maximum_parenting_time_removal": 1,
-    "wiegers_friendly_parent_restriction::friendly_parent_elimination": 1,
-    "wiegers_friendly_parent_restriction::divorce_act_amendment": 1,
-    "wiegers_friendly_parent_restriction::named_actor_network": 1,
-    "pa_testimony_ban::maximum_parenting_time_removal": 1,
-    "pa_testimony_ban::friendly_parent_elimination": 1,
-    "pa_testimony_ban::divorce_act_amendment": 1,
-    "pa_testimony_ban::named_actor_network": 1,
-    "maximum_parenting_time_removal::friendly_parent_elimination": 1,
-    "maximum_parenting_time_removal::divorce_act_amendment": 1,
-    "maximum_parenting_time_removal::named_actor_network": 1,
-    "friendly_parent_elimination::divorce_act_amendment": 1,
-    "friendly_parent_elimination::named_actor_network": 1,
-    "divorce_act_amendment::named_actor_network": 1,
-    "care_node_without_permission::falsification_as_existence": 1,
-    "care_node_without_permission::named_actor_architecture": 1,
-    "care_node_without_permission::analogic_glitch_identity": 1,
-    "care_node_without_permission::correction_as_procedure": 1,
-    "care_node_without_permission::son_as_catastrophic_cost": 1,
-    "care_node_without_permission::system_crash_as_data_point": 1,
-    "care_node_without_permission::reunification_falsifier": 1,
-    "care_node_without_permission::father_logos_return": 1,
-    "care_node_without_permission::untenable_silence": 1,
-    "falsification_as_existence::named_actor_architecture": 1,
-    "falsification_as_existence::analogic_glitch_identity": 1,
-    "falsification_as_existence::correction_as_procedure": 1,
-    "falsification_as_existence::son_as_catastrophic_cost": 1,
-    "falsification_as_existence::system_crash_as_data_point": 1,
-    "falsification_as_existence::reunification_falsifier": 1,
-    "falsification_as_existence::father_logos_return": 1,
-    "falsification_as_existence::untenable_silence": 1,
-    "named_actor_architecture::analogic_glitch_identity": 1,
-    "named_actor_architecture::correction_as_procedure": 1,
-    "named_actor_architecture::son_as_catastrophic_cost": 1,
-    "named_actor_architecture::system_crash_as_data_point": 1,
-    "named_actor_architecture::reunification_falsifier": 1,
-    "named_actor_architecture::father_logos_return": 1,
-    "named_actor_architecture::untenable_silence": 1,
-    "analogic_glitch_identity::correction_as_procedure": 1,
-    "analogic_glitch_identity::son_as_catastrophic_cost": 1,
-    "analogic_glitch_identity::system_crash_as_data_point": 1,
-    "analogic_glitch_identity::reunification_falsifier": 1,
-    "analogic_glitch_identity::father_logos_return": 1,
-    "analogic_glitch_identity::untenable_silence": 1,
-    "correction_as_procedure::son_as_catastrophic_cost": 1,
-    "correction_as_procedure::system_crash_as_data_point": 1,
-    "correction_as_procedure::reunification_falsifier": 1,
-    "correction_as_procedure::father_logos_return": 1,
-    "correction_as_procedure::untenable_silence": 1,
-    "son_as_catastrophic_cost::system_crash_as_data_point": 1,
-    "son_as_catastrophic_cost::reunification_falsifier": 1,
-    "son_as_catastrophic_cost::father_logos_return": 1,
-    "son_as_catastrophic_cost::untenable_silence": 1,
-    "system_crash_as_data_point::reunification_falsifier": 1,
-    "system_crash_as_data_point::father_logos_return": 1,
-    "system_crash_as_data_point::untenable_silence": 1,
-    "reunification_falsifier::father_logos_return": 1,
-    "reunification_falsifier::untenable_silence": 1,
-    "father_logos_return::untenable_silence": 1,
-    "overdose_as_system_crash::father_logos_absence": 1,
-    "overdose_as_system_crash::atomization_crisis": 1,
-    "overdose_as_system_crash::natural_unity_destruction": 1,
-    "overdose_as_system_crash::super_parent_conflict": 1,
-    "overdose_as_system_crash::ions_in_solution_collapse": 1,
-    "overdose_as_system_crash::clinical_node_correction": 1,
-    "overdose_as_system_crash::gated_role_irreconcilable": 1,
-    "overdose_as_system_crash::protective_weight_removal": 1,
-    "overdose_as_system_crash::natural_law_vs_administrative_sludge": 1,
-    "father_logos_absence::atomization_crisis": 1,
-    "father_logos_absence::natural_unity_destruction": 1,
-    "father_logos_absence::super_parent_conflict": 1,
-    "father_logos_absence::ions_in_solution_collapse": 1,
-    "father_logos_absence::clinical_node_correction": 1,
-    "father_logos_absence::gated_role_irreconcilable": 1,
-    "father_logos_absence::protective_weight_removal": 1,
-    "father_logos_absence::natural_law_vs_administrative_sludge": 1,
-    "atomization_crisis::natural_unity_destruction": 1,
-    "atomization_crisis::super_parent_conflict": 1,
-    "atomization_crisis::ions_in_solution_collapse": 1,
-    "atomization_crisis::clinical_node_correction": 1,
-    "atomization_crisis::gated_role_irreconcilable": 1,
-    "atomization_crisis::protective_weight_removal": 1,
-    "atomization_crisis::natural_law_vs_administrative_sludge": 1,
-    "natural_unity_destruction::super_parent_conflict": 1,
-    "natural_unity_destruction::ions_in_solution_collapse": 1,
-    "natural_unity_destruction::clinical_node_correction": 1,
-    "natural_unity_destruction::gated_role_irreconcilable": 1,
-    "natural_unity_destruction::protective_weight_removal": 1,
-    "natural_unity_destruction::natural_law_vs_administrative_sludge": 1,
-    "super_parent_conflict::ions_in_solution_collapse": 1,
-    "super_parent_conflict::clinical_node_correction": 1,
-    "super_parent_conflict::gated_role_irreconcilable": 1,
-    "super_parent_conflict::protective_weight_removal": 1,
-    "super_parent_conflict::natural_law_vs_administrative_sludge": 1,
-    "ions_in_solution_collapse::clinical_node_correction": 1,
-    "ions_in_solution_collapse::gated_role_irreconcilable": 1,
-    "ions_in_solution_collapse::protective_weight_removal": 1,
-    "ions_in_solution_collapse::natural_law_vs_administrative_sludge": 1,
-    "clinical_node_correction::gated_role_irreconcilable": 1,
-    "clinical_node_correction::protective_weight_removal": 1,
-    "clinical_node_correction::natural_law_vs_administrative_sludge": 1,
-    "gated_role_irreconcilable::protective_weight_removal": 1,
-    "gated_role_irreconcilable::natural_law_vs_administrative_sludge": 1,
-    "protective_weight_removal::natural_law_vs_administrative_sludge": 1
+    "integrity_foundation::emergent_structure": 1
   },
   "domains": {
     "claude_code_sessions": {
@@ -22736,1352 +22131,6 @@
         ],
         "emergent_structure/unactualized_paths": [
           "inf_07f233fa"
-        ]
-      }
-    },
-    "private": {
-      "count": 11,
-      "tree": {
-        "system_crash_event": {
-          "alienation_weaponization": [
-            "child_atomization",
-            "administrative_node_capture",
-            "dopamine_loop_perpetuation",
-            "father_logos_removal"
-          ],
-          "child_atomization": [
-            "administrative_node_capture",
-            "dopamine_loop_perpetuation",
-            "father_logos_removal",
-            "clinical_protocol_isolation"
-          ],
-          "administrative_node_capture": [
-            "dopamine_loop_perpetuation",
-            "father_logos_removal",
-            "clinical_protocol_isolation",
-            "retirement_extraction"
-          ],
-          "dopamine_loop_perpetuation": [
-            "father_logos_removal",
-            "clinical_protocol_isolation",
-            "retirement_extraction",
-            "analogic_root_severance"
-          ],
-          "father_logos_removal": [
-            "clinical_protocol_isolation",
-            "retirement_extraction",
-            "analogic_root_severance",
-            "state_proxy_narrative_control"
-          ],
-          "clinical_protocol_isolation": [
-            "retirement_extraction",
-            "analogic_root_severance",
-            "state_proxy_narrative_control"
-          ],
-          "retirement_extraction": [
-            "analogic_root_severance",
-            "state_proxy_narrative_control"
-          ],
-          "analogic_root_severance": [
-            "state_proxy_narrative_control"
-          ],
-          "state_proxy_narrative_control": []
-        },
-        "alienation_weaponization": {
-          "child_atomization": [
-            "administrative_node_capture",
-            "dopamine_loop_perpetuation",
-            "father_logos_removal",
-            "clinical_protocol_isolation"
-          ],
-          "administrative_node_capture": [
-            "dopamine_loop_perpetuation",
-            "father_logos_removal",
-            "clinical_protocol_isolation",
-            "retirement_extraction"
-          ],
-          "dopamine_loop_perpetuation": [
-            "father_logos_removal",
-            "clinical_protocol_isolation",
-            "retirement_extraction",
-            "analogic_root_severance"
-          ],
-          "father_logos_removal": [
-            "clinical_protocol_isolation",
-            "retirement_extraction",
-            "analogic_root_severance",
-            "state_proxy_narrative_control"
-          ],
-          "clinical_protocol_isolation": [
-            "retirement_extraction",
-            "analogic_root_severance",
-            "state_proxy_narrative_control"
-          ],
-          "retirement_extraction": [
-            "analogic_root_severance",
-            "state_proxy_narrative_control"
-          ],
-          "analogic_root_severance": [
-            "state_proxy_narrative_control"
-          ],
-          "state_proxy_narrative_control": []
-        },
-        "child_atomization": {
-          "administrative_node_capture": [
-            "dopamine_loop_perpetuation",
-            "father_logos_removal",
-            "clinical_protocol_isolation",
-            "retirement_extraction"
-          ],
-          "dopamine_loop_perpetuation": [
-            "father_logos_removal",
-            "clinical_protocol_isolation",
-            "retirement_extraction",
-            "analogic_root_severance"
-          ],
-          "father_logos_removal": [
-            "clinical_protocol_isolation",
-            "retirement_extraction",
-            "analogic_root_severance",
-            "state_proxy_narrative_control"
-          ],
-          "clinical_protocol_isolation": [
-            "retirement_extraction",
-            "analogic_root_severance",
-            "state_proxy_narrative_control"
-          ],
-          "retirement_extraction": [
-            "analogic_root_severance",
-            "state_proxy_narrative_control"
-          ],
-          "analogic_root_severance": [
-            "state_proxy_narrative_control"
-          ],
-          "state_proxy_narrative_control": []
-        },
-        "administrative_node_capture": {
-          "dopamine_loop_perpetuation": [
-            "father_logos_removal",
-            "clinical_protocol_isolation",
-            "retirement_extraction",
-            "analogic_root_severance"
-          ],
-          "father_logos_removal": [
-            "clinical_protocol_isolation",
-            "retirement_extraction",
-            "analogic_root_severance",
-            "state_proxy_narrative_control"
-          ],
-          "clinical_protocol_isolation": [
-            "retirement_extraction",
-            "analogic_root_severance",
-            "state_proxy_narrative_control"
-          ],
-          "retirement_extraction": [
-            "analogic_root_severance",
-            "state_proxy_narrative_control"
-          ],
-          "analogic_root_severance": [
-            "state_proxy_narrative_control"
-          ],
-          "state_proxy_narrative_control": []
-        },
-        "dopamine_loop_perpetuation": {
-          "father_logos_removal": [
-            "clinical_protocol_isolation",
-            "retirement_extraction",
-            "analogic_root_severance",
-            "state_proxy_narrative_control"
-          ],
-          "clinical_protocol_isolation": [
-            "retirement_extraction",
-            "analogic_root_severance",
-            "state_proxy_narrative_control"
-          ],
-          "retirement_extraction": [
-            "analogic_root_severance",
-            "state_proxy_narrative_control"
-          ],
-          "analogic_root_severance": [
-            "state_proxy_narrative_control"
-          ],
-          "state_proxy_narrative_control": []
-        },
-        "father_logos_removal": {
-          "clinical_protocol_isolation": [
-            "retirement_extraction",
-            "analogic_root_severance",
-            "state_proxy_narrative_control"
-          ],
-          "retirement_extraction": [
-            "analogic_root_severance",
-            "state_proxy_narrative_control"
-          ],
-          "analogic_root_severance": [
-            "state_proxy_narrative_control"
-          ],
-          "state_proxy_narrative_control": []
-        },
-        "clinical_protocol_isolation": {
-          "retirement_extraction": [
-            "analogic_root_severance",
-            "state_proxy_narrative_control"
-          ],
-          "analogic_root_severance": [
-            "state_proxy_narrative_control"
-          ],
-          "state_proxy_narrative_control": []
-        },
-        "retirement_extraction": {
-          "analogic_root_severance": [
-            "state_proxy_narrative_control"
-          ],
-          "state_proxy_narrative_control": []
-        },
-        "analogic_root_severance": {
-          "state_proxy_narrative_control": []
-        },
-        "analogic_glitch": {
-          "industrial_family_disassembly": [
-            "state_proxy_mother",
-            "extracted_resource_father",
-            "malignant_altruism",
-            "parens_patriae_supersession"
-          ],
-          "state_proxy_mother": [
-            "extracted_resource_father",
-            "malignant_altruism",
-            "parens_patriae_supersession",
-            "lateral_alliance_formation"
-          ],
-          "extracted_resource_father": [
-            "malignant_altruism",
-            "parens_patriae_supersession",
-            "lateral_alliance_formation",
-            "care_node_occupation"
-          ],
-          "malignant_altruism": [
-            "parens_patriae_supersession",
-            "lateral_alliance_formation",
-            "care_node_occupation",
-            "atomization_mechanism"
-          ],
-          "parens_patriae_supersession": [
-            "lateral_alliance_formation",
-            "care_node_occupation",
-            "atomization_mechanism",
-            "labor_theory_disruption"
-          ],
-          "lateral_alliance_formation": [
-            "care_node_occupation",
-            "atomization_mechanism",
-            "labor_theory_disruption"
-          ],
-          "care_node_occupation": [
-            "atomization_mechanism",
-            "labor_theory_disruption"
-          ],
-          "atomization_mechanism": [
-            "labor_theory_disruption"
-          ],
-          "labor_theory_disruption": []
-        },
-        "industrial_family_disassembly": {
-          "state_proxy_mother": [
-            "extracted_resource_father",
-            "malignant_altruism",
-            "parens_patriae_supersession",
-            "lateral_alliance_formation"
-          ],
-          "extracted_resource_father": [
-            "malignant_altruism",
-            "parens_patriae_supersession",
-            "lateral_alliance_formation",
-            "care_node_occupation"
-          ],
-          "malignant_altruism": [
-            "parens_patriae_supersession",
-            "lateral_alliance_formation",
-            "care_node_occupation",
-            "atomization_mechanism"
-          ],
-          "parens_patriae_supersession": [
-            "lateral_alliance_formation",
-            "care_node_occupation",
-            "atomization_mechanism",
-            "labor_theory_disruption"
-          ],
-          "lateral_alliance_formation": [
-            "care_node_occupation",
-            "atomization_mechanism",
-            "labor_theory_disruption"
-          ],
-          "care_node_occupation": [
-            "atomization_mechanism",
-            "labor_theory_disruption"
-          ],
-          "atomization_mechanism": [
-            "labor_theory_disruption"
-          ],
-          "labor_theory_disruption": []
-        },
-        "state_proxy_mother": {
-          "extracted_resource_father": [
-            "malignant_altruism",
-            "parens_patriae_supersession",
-            "lateral_alliance_formation",
-            "care_node_occupation"
-          ],
-          "malignant_altruism": [
-            "parens_patriae_supersession",
-            "lateral_alliance_formation",
-            "care_node_occupation",
-            "atomization_mechanism"
-          ],
-          "parens_patriae_supersession": [
-            "lateral_alliance_formation",
-            "care_node_occupation",
-            "atomization_mechanism",
-            "labor_theory_disruption"
-          ],
-          "lateral_alliance_formation": [
-            "care_node_occupation",
-            "atomization_mechanism",
-            "labor_theory_disruption"
-          ],
-          "care_node_occupation": [
-            "atomization_mechanism",
-            "labor_theory_disruption"
-          ],
-          "atomization_mechanism": [
-            "labor_theory_disruption"
-          ],
-          "labor_theory_disruption": []
-        },
-        "extracted_resource_father": {
-          "malignant_altruism": [
-            "parens_patriae_supersession",
-            "lateral_alliance_formation",
-            "care_node_occupation",
-            "atomization_mechanism"
-          ],
-          "parens_patriae_supersession": [
-            "lateral_alliance_formation",
-            "care_node_occupation",
-            "atomization_mechanism",
-            "labor_theory_disruption"
-          ],
-          "lateral_alliance_formation": [
-            "care_node_occupation",
-            "atomization_mechanism",
-            "labor_theory_disruption"
-          ],
-          "care_node_occupation": [
-            "atomization_mechanism",
-            "labor_theory_disruption"
-          ],
-          "atomization_mechanism": [
-            "labor_theory_disruption"
-          ],
-          "labor_theory_disruption": []
-        },
-        "malignant_altruism": {
-          "parens_patriae_supersession": [
-            "lateral_alliance_formation",
-            "care_node_occupation",
-            "atomization_mechanism",
-            "labor_theory_disruption"
-          ],
-          "lateral_alliance_formation": [
-            "care_node_occupation",
-            "atomization_mechanism",
-            "labor_theory_disruption"
-          ],
-          "care_node_occupation": [
-            "atomization_mechanism",
-            "labor_theory_disruption"
-          ],
-          "atomization_mechanism": [
-            "labor_theory_disruption"
-          ],
-          "labor_theory_disruption": []
-        },
-        "parens_patriae_supersession": {
-          "lateral_alliance_formation": [
-            "care_node_occupation",
-            "atomization_mechanism",
-            "labor_theory_disruption"
-          ],
-          "care_node_occupation": [
-            "atomization_mechanism",
-            "labor_theory_disruption"
-          ],
-          "atomization_mechanism": [
-            "labor_theory_disruption"
-          ],
-          "labor_theory_disruption": []
-        },
-        "lateral_alliance_formation": {
-          "care_node_occupation": [
-            "atomization_mechanism",
-            "labor_theory_disruption"
-          ],
-          "atomization_mechanism": [
-            "labor_theory_disruption"
-          ],
-          "labor_theory_disruption": []
-        },
-        "care_node_occupation": {
-          "atomization_mechanism": [
-            "labor_theory_disruption"
-          ],
-          "labor_theory_disruption": []
-        },
-        "atomization_mechanism": {
-          "labor_theory_disruption": []
-        },
-        "kinship_dismantlement": {
-          "paternal_erasure": [
-            "state_authority_substitution",
-            "legal_framework_as_weapon",
-            "isolated_economic_unit",
-            "wealth_extraction_motive"
-          ],
-          "state_authority_substitution": [
-            "legal_framework_as_weapon",
-            "isolated_economic_unit",
-            "wealth_extraction_motive",
-            "sovereign_domestic_restoration"
-          ],
-          "legal_framework_as_weapon": [
-            "isolated_economic_unit",
-            "wealth_extraction_motive",
-            "sovereign_domestic_restoration",
-            "natural_bond_displacement"
-          ],
-          "isolated_economic_unit": [
-            "wealth_extraction_motive",
-            "sovereign_domestic_restoration",
-            "natural_bond_displacement",
-            "social_engineering_calculation"
-          ],
-          "wealth_extraction_motive": [
-            "sovereign_domestic_restoration",
-            "natural_bond_displacement",
-            "social_engineering_calculation",
-            "logic_driven_household"
-          ],
-          "sovereign_domestic_restoration": [
-            "natural_bond_displacement",
-            "social_engineering_calculation",
-            "logic_driven_household"
-          ],
-          "natural_bond_displacement": [
-            "social_engineering_calculation",
-            "logic_driven_household"
-          ],
-          "social_engineering_calculation": [
-            "logic_driven_household"
-          ],
-          "logic_driven_household": []
-        },
-        "paternal_erasure": {
-          "state_authority_substitution": [
-            "legal_framework_as_weapon",
-            "isolated_economic_unit",
-            "wealth_extraction_motive",
-            "sovereign_domestic_restoration"
-          ],
-          "legal_framework_as_weapon": [
-            "isolated_economic_unit",
-            "wealth_extraction_motive",
-            "sovereign_domestic_restoration",
-            "natural_bond_displacement"
-          ],
-          "isolated_economic_unit": [
-            "wealth_extraction_motive",
-            "sovereign_domestic_restoration",
-            "natural_bond_displacement",
-            "social_engineering_calculation"
-          ],
-          "wealth_extraction_motive": [
-            "sovereign_domestic_restoration",
-            "natural_bond_displacement",
-            "social_engineering_calculation",
-            "logic_driven_household"
-          ],
-          "sovereign_domestic_restoration": [
-            "natural_bond_displacement",
-            "social_engineering_calculation",
-            "logic_driven_household"
-          ],
-          "natural_bond_displacement": [
-            "social_engineering_calculation",
-            "logic_driven_household"
-          ],
-          "social_engineering_calculation": [
-            "logic_driven_household"
-          ],
-          "logic_driven_household": []
-        },
-        "state_authority_substitution": {
-          "legal_framework_as_weapon": [
-            "isolated_economic_unit",
-            "wealth_extraction_motive",
-            "sovereign_domestic_restoration",
-            "natural_bond_displacement"
-          ],
-          "isolated_economic_unit": [
-            "wealth_extraction_motive",
-            "sovereign_domestic_restoration",
-            "natural_bond_displacement",
-            "social_engineering_calculation"
-          ],
-          "wealth_extraction_motive": [
-            "sovereign_domestic_restoration",
-            "natural_bond_displacement",
-            "social_engineering_calculation",
-            "logic_driven_household"
-          ],
-          "sovereign_domestic_restoration": [
-            "natural_bond_displacement",
-            "social_engineering_calculation",
-            "logic_driven_household"
-          ],
-          "natural_bond_displacement": [
-            "social_engineering_calculation",
-            "logic_driven_household"
-          ],
-          "social_engineering_calculation": [
-            "logic_driven_household"
-          ],
-          "logic_driven_household": []
-        },
-        "legal_framework_as_weapon": {
-          "isolated_economic_unit": [
-            "wealth_extraction_motive",
-            "sovereign_domestic_restoration",
-            "natural_bond_displacement",
-            "social_engineering_calculation"
-          ],
-          "wealth_extraction_motive": [
-            "sovereign_domestic_restoration",
-            "natural_bond_displacement",
-            "social_engineering_calculation",
-            "logic_driven_household"
-          ],
-          "sovereign_domestic_restoration": [
-            "natural_bond_displacement",
-            "social_engineering_calculation",
-            "logic_driven_household"
-          ],
-          "natural_bond_displacement": [
-            "social_engineering_calculation",
-            "logic_driven_household"
-          ],
-          "social_engineering_calculation": [
-            "logic_driven_household"
-          ],
-          "logic_driven_household": []
-        },
-        "isolated_economic_unit": {
-          "wealth_extraction_motive": [
-            "sovereign_domestic_restoration",
-            "natural_bond_displacement",
-            "social_engineering_calculation",
-            "logic_driven_household"
-          ],
-          "sovereign_domestic_restoration": [
-            "natural_bond_displacement",
-            "social_engineering_calculation",
-            "logic_driven_household"
-          ],
-          "natural_bond_displacement": [
-            "social_engineering_calculation",
-            "logic_driven_household"
-          ],
-          "social_engineering_calculation": [
-            "logic_driven_household"
-          ],
-          "logic_driven_household": []
-        },
-        "wealth_extraction_motive": {
-          "sovereign_domestic_restoration": [
-            "natural_bond_displacement",
-            "social_engineering_calculation",
-            "logic_driven_household"
-          ],
-          "natural_bond_displacement": [
-            "social_engineering_calculation",
-            "logic_driven_household"
-          ],
-          "social_engineering_calculation": [
-            "logic_driven_household"
-          ],
-          "logic_driven_household": []
-        },
-        "sovereign_domestic_restoration": {
-          "natural_bond_displacement": [
-            "social_engineering_calculation",
-            "logic_driven_household"
-          ],
-          "social_engineering_calculation": [
-            "logic_driven_household"
-          ],
-          "logic_driven_household": []
-        },
-        "natural_bond_displacement": {
-          "social_engineering_calculation": [
-            "logic_driven_household"
-          ],
-          "logic_driven_household": []
-        },
-        "social_engineering_calculation": {
-          "logic_driven_household": []
-        },
-        "parental_alienation_inadmissibility": {
-          "coaching_redefined_as_protection": [
-            "father_defense_removal",
-            "pa_as_paternalism_argument",
-            "expert_testimony_suppression",
-            "neilson_belief_system_claim"
-          ],
-          "father_defense_removal": [
-            "pa_as_paternalism_argument",
-            "expert_testimony_suppression",
-            "neilson_belief_system_claim",
-            "violence_claim_as_shield"
-          ],
-          "pa_as_paternalism_argument": [
-            "expert_testimony_suppression",
-            "neilson_belief_system_claim",
-            "violence_claim_as_shield",
-            "admissibility_architecture"
-          ],
-          "expert_testimony_suppression": [
-            "neilson_belief_system_claim",
-            "violence_claim_as_shield",
-            "admissibility_architecture",
-            "child_isolation_enforcement"
-          ],
-          "neilson_belief_system_claim": [
-            "violence_claim_as_shield",
-            "admissibility_architecture",
-            "child_isolation_enforcement",
-            "state_proxy_legal_hardcoding"
-          ],
-          "violence_claim_as_shield": [
-            "admissibility_architecture",
-            "child_isolation_enforcement",
-            "state_proxy_legal_hardcoding"
-          ],
-          "admissibility_architecture": [
-            "child_isolation_enforcement",
-            "state_proxy_legal_hardcoding"
-          ],
-          "child_isolation_enforcement": [
-            "state_proxy_legal_hardcoding"
-          ],
-          "state_proxy_legal_hardcoding": []
-        },
-        "coaching_redefined_as_protection": {
-          "father_defense_removal": [
-            "pa_as_paternalism_argument",
-            "expert_testimony_suppression",
-            "neilson_belief_system_claim",
-            "violence_claim_as_shield"
-          ],
-          "pa_as_paternalism_argument": [
-            "expert_testimony_suppression",
-            "neilson_belief_system_claim",
-            "violence_claim_as_shield",
-            "admissibility_architecture"
-          ],
-          "expert_testimony_suppression": [
-            "neilson_belief_system_claim",
-            "violence_claim_as_shield",
-            "admissibility_architecture",
-            "child_isolation_enforcement"
-          ],
-          "neilson_belief_system_claim": [
-            "violence_claim_as_shield",
-            "admissibility_architecture",
-            "child_isolation_enforcement",
-            "state_proxy_legal_hardcoding"
-          ],
-          "violence_claim_as_shield": [
-            "admissibility_architecture",
-            "child_isolation_enforcement",
-            "state_proxy_legal_hardcoding"
-          ],
-          "admissibility_architecture": [
-            "child_isolation_enforcement",
-            "state_proxy_legal_hardcoding"
-          ],
-          "child_isolation_enforcement": [
-            "state_proxy_legal_hardcoding"
-          ],
-          "state_proxy_legal_hardcoding": []
-        },
-        "father_defense_removal": {
-          "pa_as_paternalism_argument": [
-            "expert_testimony_suppression",
-            "neilson_belief_system_claim",
-            "violence_claim_as_shield",
-            "admissibility_architecture"
-          ],
-          "expert_testimony_suppression": [
-            "neilson_belief_system_claim",
-            "violence_claim_as_shield",
-            "admissibility_architecture",
-            "child_isolation_enforcement"
-          ],
-          "neilson_belief_system_claim": [
-            "violence_claim_as_shield",
-            "admissibility_architecture",
-            "child_isolation_enforcement",
-            "state_proxy_legal_hardcoding"
-          ],
-          "violence_claim_as_shield": [
-            "admissibility_architecture",
-            "child_isolation_enforcement",
-            "state_proxy_legal_hardcoding"
-          ],
-          "admissibility_architecture": [
-            "child_isolation_enforcement",
-            "state_proxy_legal_hardcoding"
-          ],
-          "child_isolation_enforcement": [
-            "state_proxy_legal_hardcoding"
-          ],
-          "state_proxy_legal_hardcoding": []
-        },
-        "pa_as_paternalism_argument": {
-          "expert_testimony_suppression": [
-            "neilson_belief_system_claim",
-            "violence_claim_as_shield",
-            "admissibility_architecture",
-            "child_isolation_enforcement"
-          ],
-          "neilson_belief_system_claim": [
-            "violence_claim_as_shield",
-            "admissibility_architecture",
-            "child_isolation_enforcement",
-            "state_proxy_legal_hardcoding"
-          ],
-          "violence_claim_as_shield": [
-            "admissibility_architecture",
-            "child_isolation_enforcement",
-            "state_proxy_legal_hardcoding"
-          ],
-          "admissibility_architecture": [
-            "child_isolation_enforcement",
-            "state_proxy_legal_hardcoding"
-          ],
-          "child_isolation_enforcement": [
-            "state_proxy_legal_hardcoding"
-          ],
-          "state_proxy_legal_hardcoding": []
-        },
-        "expert_testimony_suppression": {
-          "neilson_belief_system_claim": [
-            "violence_claim_as_shield",
-            "admissibility_architecture",
-            "child_isolation_enforcement",
-            "state_proxy_legal_hardcoding"
-          ],
-          "violence_claim_as_shield": [
-            "admissibility_architecture",
-            "child_isolation_enforcement",
-            "state_proxy_legal_hardcoding"
-          ],
-          "admissibility_architecture": [
-            "child_isolation_enforcement",
-            "state_proxy_legal_hardcoding"
-          ],
-          "child_isolation_enforcement": [
-            "state_proxy_legal_hardcoding"
-          ],
-          "state_proxy_legal_hardcoding": []
-        },
-        "neilson_belief_system_claim": {
-          "violence_claim_as_shield": [
-            "admissibility_architecture",
-            "child_isolation_enforcement",
-            "state_proxy_legal_hardcoding"
-          ],
-          "admissibility_architecture": [
-            "child_isolation_enforcement",
-            "state_proxy_legal_hardcoding"
-          ],
-          "child_isolation_enforcement": [
-            "state_proxy_legal_hardcoding"
-          ],
-          "state_proxy_legal_hardcoding": []
-        },
-        "violence_claim_as_shield": {
-          "admissibility_architecture": [
-            "child_isolation_enforcement",
-            "state_proxy_legal_hardcoding"
-          ],
-          "child_isolation_enforcement": [
-            "state_proxy_legal_hardcoding"
-          ],
-          "state_proxy_legal_hardcoding": []
-        },
-        "admissibility_architecture": {
-          "child_isolation_enforcement": [
-            "state_proxy_legal_hardcoding"
-          ],
-          "state_proxy_legal_hardcoding": []
-        },
-        "child_isolation_enforcement": {
-          "state_proxy_legal_hardcoding": []
-        }
-      },
-      "paths": {
-        "administrative_node_capture/analogic_root_severance": [
-          "inf_3320c72b"
-        ],
-        "administrative_node_capture/clinical_protocol_isolation": [
-          "inf_3320c72b"
-        ],
-        "administrative_node_capture/dopamine_loop_perpetuation": [
-          "inf_3320c72b"
-        ],
-        "administrative_node_capture/father_logos_removal": [
-          "inf_3320c72b"
-        ],
-        "administrative_node_capture/retirement_extraction": [
-          "inf_3320c72b"
-        ],
-        "administrative_node_capture/state_proxy_narrative_control": [
-          "inf_3320c72b"
-        ],
-        "alienation_weaponization/administrative_node_capture": [
-          "inf_3320c72b"
-        ],
-        "alienation_weaponization/analogic_root_severance": [
-          "inf_3320c72b"
-        ],
-        "alienation_weaponization/child_atomization": [
-          "inf_162c2af8",
-          "inf_3320c72b"
-        ],
-        "alienation_weaponization/clinical_protocol_isolation": [
-          "inf_3320c72b"
-        ],
-        "alienation_weaponization/dopamine_loop_perpetuation": [
-          "inf_3320c72b"
-        ],
-        "alienation_weaponization/father_logos_removal": [
-          "inf_3320c72b"
-        ],
-        "alienation_weaponization/retirement_extraction": [
-          "inf_3320c72b"
-        ],
-        "alienation_weaponization/state_proxy_narrative_control": [
-          "inf_3320c72b"
-        ],
-        "analogic_root_severance/state_proxy_narrative_control": [
-          "inf_3320c72b"
-        ],
-        "child_atomization/administrative_node_capture": [
-          "inf_3320c72b"
-        ],
-        "child_atomization/analogic_root_severance": [
-          "inf_3320c72b"
-        ],
-        "child_atomization/clinical_protocol_isolation": [
-          "inf_3320c72b"
-        ],
-        "child_atomization/dopamine_loop_perpetuation": [
-          "inf_3320c72b"
-        ],
-        "child_atomization/father_logos_removal": [
-          "inf_3320c72b"
-        ],
-        "child_atomization/retirement_extraction": [
-          "inf_3320c72b"
-        ],
-        "child_atomization/state_proxy_narrative_control": [
-          "inf_3320c72b"
-        ],
-        "clinical_protocol_isolation/analogic_root_severance": [
-          "inf_3320c72b"
-        ],
-        "clinical_protocol_isolation/retirement_extraction": [
-          "inf_3320c72b"
-        ],
-        "clinical_protocol_isolation/state_proxy_narrative_control": [
-          "inf_3320c72b"
-        ],
-        "dopamine_loop_perpetuation/analogic_root_severance": [
-          "inf_3320c72b"
-        ],
-        "dopamine_loop_perpetuation/clinical_protocol_isolation": [
-          "inf_3320c72b"
-        ],
-        "dopamine_loop_perpetuation/father_logos_removal": [
-          "inf_3320c72b"
-        ],
-        "dopamine_loop_perpetuation/retirement_extraction": [
-          "inf_3320c72b"
-        ],
-        "dopamine_loop_perpetuation/state_proxy_narrative_control": [
-          "inf_3320c72b"
-        ],
-        "father_logos_removal/analogic_root_severance": [
-          "inf_3320c72b"
-        ],
-        "father_logos_removal/clinical_protocol_isolation": [
-          "inf_3320c72b"
-        ],
-        "father_logos_removal/retirement_extraction": [
-          "inf_3320c72b"
-        ],
-        "father_logos_removal/state_proxy_narrative_control": [
-          "inf_3320c72b"
-        ],
-        "retirement_extraction/analogic_root_severance": [
-          "inf_3320c72b"
-        ],
-        "retirement_extraction/state_proxy_narrative_control": [
-          "inf_3320c72b"
-        ],
-        "system_crash_event/administrative_node_capture": [
-          "inf_3320c72b"
-        ],
-        "system_crash_event/alienation_weaponization": [
-          "inf_162c2af8",
-          "inf_3320c72b"
-        ],
-        "system_crash_event/analogic_root_severance": [
-          "inf_3320c72b"
-        ],
-        "system_crash_event/child_atomization": [
-          "inf_162c2af8",
-          "inf_3320c72b"
-        ],
-        "system_crash_event/clinical_protocol_isolation": [
-          "inf_3320c72b"
-        ],
-        "system_crash_event/dopamine_loop_perpetuation": [
-          "inf_3320c72b"
-        ],
-        "system_crash_event/father_logos_removal": [
-          "inf_3320c72b"
-        ],
-        "system_crash_event/retirement_extraction": [
-          "inf_3320c72b"
-        ],
-        "system_crash_event/state_proxy_narrative_control": [
-          "inf_3320c72b"
-        ],
-        "analogic_glitch/atomization_mechanism": [
-          "inf_db92d18e"
-        ],
-        "analogic_glitch/care_node_occupation": [
-          "inf_db92d18e"
-        ],
-        "analogic_glitch/extracted_resource_father": [
-          "inf_db92d18e"
-        ],
-        "analogic_glitch/industrial_family_disassembly": [
-          "inf_db92d18e"
-        ],
-        "analogic_glitch/labor_theory_disruption": [
-          "inf_db92d18e"
-        ],
-        "analogic_glitch/lateral_alliance_formation": [
-          "inf_db92d18e"
-        ],
-        "analogic_glitch/malignant_altruism": [
-          "inf_db92d18e"
-        ],
-        "analogic_glitch/parens_patriae_supersession": [
-          "inf_db92d18e"
-        ],
-        "analogic_glitch/state_proxy_mother": [
-          "inf_db92d18e"
-        ],
-        "atomization_mechanism/labor_theory_disruption": [
-          "inf_db92d18e"
-        ],
-        "care_node_occupation/atomization_mechanism": [
-          "inf_db92d18e"
-        ],
-        "care_node_occupation/labor_theory_disruption": [
-          "inf_db92d18e"
-        ],
-        "extracted_resource_father/atomization_mechanism": [
-          "inf_db92d18e"
-        ],
-        "extracted_resource_father/care_node_occupation": [
-          "inf_db92d18e"
-        ],
-        "extracted_resource_father/labor_theory_disruption": [
-          "inf_db92d18e"
-        ],
-        "extracted_resource_father/lateral_alliance_formation": [
-          "inf_db92d18e"
-        ],
-        "extracted_resource_father/malignant_altruism": [
-          "inf_db92d18e"
-        ],
-        "extracted_resource_father/parens_patriae_supersession": [
-          "inf_db92d18e"
-        ],
-        "industrial_family_disassembly/atomization_mechanism": [
-          "inf_db92d18e"
-        ],
-        "industrial_family_disassembly/care_node_occupation": [
-          "inf_db92d18e"
-        ],
-        "industrial_family_disassembly/extracted_resource_father": [
-          "inf_db92d18e"
-        ],
-        "industrial_family_disassembly/labor_theory_disruption": [
-          "inf_db92d18e"
-        ],
-        "industrial_family_disassembly/lateral_alliance_formation": [
-          "inf_db92d18e"
-        ],
-        "industrial_family_disassembly/malignant_altruism": [
-          "inf_db92d18e"
-        ],
-        "industrial_family_disassembly/parens_patriae_supersession": [
-          "inf_db92d18e"
-        ],
-        "industrial_family_disassembly/state_proxy_mother": [
-          "inf_db92d18e"
-        ],
-        "lateral_alliance_formation/atomization_mechanism": [
-          "inf_db92d18e"
-        ],
-        "lateral_alliance_formation/care_node_occupation": [
-          "inf_db92d18e"
-        ],
-        "lateral_alliance_formation/labor_theory_disruption": [
-          "inf_db92d18e"
-        ],
-        "malignant_altruism/atomization_mechanism": [
-          "inf_db92d18e"
-        ],
-        "malignant_altruism/care_node_occupation": [
-          "inf_db92d18e"
-        ],
-        "malignant_altruism/labor_theory_disruption": [
-          "inf_db92d18e"
-        ],
-        "malignant_altruism/lateral_alliance_formation": [
-          "inf_db92d18e"
-        ],
-        "malignant_altruism/parens_patriae_supersession": [
-          "inf_db92d18e"
-        ],
-        "parens_patriae_supersession/atomization_mechanism": [
-          "inf_db92d18e"
-        ],
-        "parens_patriae_supersession/care_node_occupation": [
-          "inf_db92d18e"
-        ],
-        "parens_patriae_supersession/labor_theory_disruption": [
-          "inf_db92d18e"
-        ],
-        "parens_patriae_supersession/lateral_alliance_formation": [
-          "inf_db92d18e"
-        ],
-        "state_proxy_mother/atomization_mechanism": [
-          "inf_db92d18e"
-        ],
-        "state_proxy_mother/care_node_occupation": [
-          "inf_db92d18e"
-        ],
-        "state_proxy_mother/extracted_resource_father": [
-          "inf_db92d18e"
-        ],
-        "state_proxy_mother/labor_theory_disruption": [
-          "inf_db92d18e"
-        ],
-        "state_proxy_mother/lateral_alliance_formation": [
-          "inf_db92d18e"
-        ],
-        "state_proxy_mother/malignant_altruism": [
-          "inf_db92d18e"
-        ],
-        "state_proxy_mother/parens_patriae_supersession": [
-          "inf_db92d18e"
-        ],
-        "isolated_economic_unit/logic_driven_household": [
-          "inf_4cf43835"
-        ],
-        "isolated_economic_unit/natural_bond_displacement": [
-          "inf_4cf43835"
-        ],
-        "isolated_economic_unit/social_engineering_calculation": [
-          "inf_4cf43835"
-        ],
-        "isolated_economic_unit/sovereign_domestic_restoration": [
-          "inf_4cf43835"
-        ],
-        "isolated_economic_unit/wealth_extraction_motive": [
-          "inf_4cf43835"
-        ],
-        "kinship_dismantlement/isolated_economic_unit": [
-          "inf_4cf43835"
-        ],
-        "kinship_dismantlement/legal_framework_as_weapon": [
-          "inf_4cf43835"
-        ],
-        "kinship_dismantlement/logic_driven_household": [
-          "inf_4cf43835"
-        ],
-        "kinship_dismantlement/natural_bond_displacement": [
-          "inf_4cf43835"
-        ],
-        "kinship_dismantlement/paternal_erasure": [
-          "inf_4cf43835"
-        ],
-        "kinship_dismantlement/social_engineering_calculation": [
-          "inf_4cf43835"
-        ],
-        "kinship_dismantlement/sovereign_domestic_restoration": [
-          "inf_4cf43835"
-        ],
-        "kinship_dismantlement/state_authority_substitution": [
-          "inf_4cf43835"
-        ],
-        "kinship_dismantlement/wealth_extraction_motive": [
-          "inf_4cf43835"
-        ],
-        "legal_framework_as_weapon/isolated_economic_unit": [
-          "inf_4cf43835"
-        ],
-        "legal_framework_as_weapon/logic_driven_household": [
-          "inf_4cf43835"
-        ],
-        "legal_framework_as_weapon/natural_bond_displacement": [
-          "inf_4cf43835"
-        ],
-        "legal_framework_as_weapon/social_engineering_calculation": [
-          "inf_4cf43835"
-        ],
-        "legal_framework_as_weapon/sovereign_domestic_restoration": [
-          "inf_4cf43835"
-        ],
-        "legal_framework_as_weapon/wealth_extraction_motive": [
-          "inf_4cf43835"
-        ],
-        "natural_bond_displacement/logic_driven_household": [
-          "inf_4cf43835"
-        ],
-        "natural_bond_displacement/social_engineering_calculation": [
-          "inf_4cf43835"
-        ],
-        "paternal_erasure/isolated_economic_unit": [
-          "inf_4cf43835"
-        ],
-        "paternal_erasure/legal_framework_as_weapon": [
-          "inf_4cf43835"
-        ],
-        "paternal_erasure/logic_driven_household": [
-          "inf_4cf43835"
-        ],
-        "paternal_erasure/natural_bond_displacement": [
-          "inf_4cf43835"
-        ],
-        "paternal_erasure/social_engineering_calculation": [
-          "inf_4cf43835"
-        ],
-        "paternal_erasure/sovereign_domestic_restoration": [
-          "inf_4cf43835"
-        ],
-        "paternal_erasure/state_authority_substitution": [
-          "inf_4cf43835"
-        ],
-        "paternal_erasure/wealth_extraction_motive": [
-          "inf_4cf43835"
-        ],
-        "social_engineering_calculation/logic_driven_household": [
-          "inf_4cf43835"
-        ],
-        "sovereign_domestic_restoration/logic_driven_household": [
-          "inf_4cf43835"
-        ],
-        "sovereign_domestic_restoration/natural_bond_displacement": [
-          "inf_4cf43835"
-        ],
-        "sovereign_domestic_restoration/social_engineering_calculation": [
-          "inf_4cf43835"
-        ],
-        "state_authority_substitution/isolated_economic_unit": [
-          "inf_4cf43835"
-        ],
-        "state_authority_substitution/legal_framework_as_weapon": [
-          "inf_4cf43835"
-        ],
-        "state_authority_substitution/logic_driven_household": [
-          "inf_4cf43835"
-        ],
-        "state_authority_substitution/natural_bond_displacement": [
-          "inf_4cf43835"
-        ],
-        "state_authority_substitution/social_engineering_calculation": [
-          "inf_4cf43835"
-        ],
-        "state_authority_substitution/sovereign_domestic_restoration": [
-          "inf_4cf43835"
-        ],
-        "state_authority_substitution/wealth_extraction_motive": [
-          "inf_4cf43835"
-        ],
-        "wealth_extraction_motive/logic_driven_household": [
-          "inf_4cf43835"
-        ],
-        "wealth_extraction_motive/natural_bond_displacement": [
-          "inf_4cf43835"
-        ],
-        "wealth_extraction_motive/social_engineering_calculation": [
-          "inf_4cf43835"
-        ],
-        "wealth_extraction_motive/sovereign_domestic_restoration": [
-          "inf_4cf43835"
-        ],
-        "admissibility_architecture/child_isolation_enforcement": [
-          "inf_85cebd9d"
-        ],
-        "admissibility_architecture/state_proxy_legal_hardcoding": [
-          "inf_85cebd9d"
-        ],
-        "child_isolation_enforcement/state_proxy_legal_hardcoding": [
-          "inf_85cebd9d"
-        ],
-        "coaching_redefined_as_protection/admissibility_architecture": [
-          "inf_85cebd9d"
-        ],
-        "coaching_redefined_as_protection/child_isolation_enforcement": [
-          "inf_85cebd9d"
-        ],
-        "coaching_redefined_as_protection/expert_testimony_suppression": [
-          "inf_85cebd9d"
-        ],
-        "coaching_redefined_as_protection/father_defense_removal": [
-          "inf_85cebd9d"
-        ],
-        "coaching_redefined_as_protection/neilson_belief_system_claim": [
-          "inf_85cebd9d"
-        ],
-        "coaching_redefined_as_protection/pa_as_paternalism_argument": [
-          "inf_85cebd9d"
-        ],
-        "coaching_redefined_as_protection/state_proxy_legal_hardcoding": [
-          "inf_85cebd9d"
-        ],
-        "coaching_redefined_as_protection/violence_claim_as_shield": [
-          "inf_85cebd9d"
-        ],
-        "expert_testimony_suppression/admissibility_architecture": [
-          "inf_85cebd9d"
-        ],
-        "expert_testimony_suppression/child_isolation_enforcement": [
-          "inf_85cebd9d"
-        ],
-        "expert_testimony_suppression/neilson_belief_system_claim": [
-          "inf_85cebd9d"
-        ],
-        "expert_testimony_suppression/state_proxy_legal_hardcoding": [
-          "inf_85cebd9d"
-        ],
-        "expert_testimony_suppression/violence_claim_as_shield": [
-          "inf_85cebd9d"
-        ],
-        "father_defense_removal/admissibility_architecture": [
-          "inf_85cebd9d"
-        ],
-        "father_defense_removal/child_isolation_enforcement": [
-          "inf_85cebd9d"
-        ],
-        "father_defense_removal/expert_testimony_suppression": [
-          "inf_85cebd9d"
-        ],
-        "father_defense_removal/neilson_belief_system_claim": [
-          "inf_85cebd9d"
-        ],
-        "father_defense_removal/pa_as_paternalism_argument": [
-          "inf_85cebd9d"
-        ],
-        "father_defense_removal/state_proxy_legal_hardcoding": [
-          "inf_85cebd9d"
-        ],
-        "father_defense_removal/violence_claim_as_shield": [
-          "inf_85cebd9d"
-        ],
-        "neilson_belief_system_claim/admissibility_architecture": [
-          "inf_85cebd9d"
-        ],
-        "neilson_belief_system_claim/child_isolation_enforcement": [
-          "inf_85cebd9d"
-        ],
-        "neilson_belief_system_claim/state_proxy_legal_hardcoding": [
-          "inf_85cebd9d"
-        ],
-        "neilson_belief_system_claim/violence_claim_as_shield": [
-          "inf_85cebd9d"
-        ],
-        "pa_as_paternalism_argument/admissibility_architecture": [
-          "inf_85cebd9d"
-        ],
-        "pa_as_paternalism_argument/child_isolation_enforcement": [
-          "inf_85cebd9d"
-        ],
-        "pa_as_paternalism_argument/expert_testimony_suppression": [
-          "inf_85cebd9d"
-        ],
-        "pa_as_paternalism_argument/neilson_belief_system_claim": [
-          "inf_85cebd9d"
-        ],
-        "pa_as_paternalism_argument/state_proxy_legal_hardcoding": [
-          "inf_85cebd9d"
-        ],
-        "pa_as_paternalism_argument/violence_claim_as_shield": [
-          "inf_85cebd9d"
-        ],
-        "parental_alienation_inadmissibility/admissibility_architecture": [
-          "inf_85cebd9d"
-        ],
-        "parental_alienation_inadmissibility/child_isolation_enforcement": [
-          "inf_85cebd9d"
-        ],
-        "parental_alienation_inadmissibility/coaching_redefined_as_protection": [
-          "inf_85cebd9d"
-        ],
-        "parental_alienation_inadmissibility/expert_testimony_suppression": [
-          "inf_85cebd9d"
-        ],
-        "parental_alienation_inadmissibility/father_defense_removal": [
-          "inf_85cebd9d"
-        ],
-        "parental_alienation_inadmissibility/neilson_belief_system_claim": [
-          "inf_85cebd9d"
-        ],
-        "parental_alienation_inadmissibility/pa_as_paternalism_argument": [
-          "inf_85cebd9d"
-        ],
-        "parental_alienation_inadmissibility/state_proxy_legal_hardcoding": [
-          "inf_85cebd9d"
-        ],
-        "parental_alienation_inadmissibility/violence_claim_as_shield": [
-          "inf_85cebd9d"
-        ],
-        "violence_claim_as_shield/admissibility_architecture": [
-          "inf_85cebd9d"
-        ],
-        "violence_claim_as_shield/child_isolation_enforcement": [
-          "inf_85cebd9d"
-        ],
-        "violence_claim_as_shield/state_proxy_legal_hardcoding": [
-          "inf_85cebd9d"
         ]
       }
     }
