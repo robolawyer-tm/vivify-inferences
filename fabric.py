@@ -27,6 +27,7 @@ from vivify_core import read_json, write_json
 from vivify import vivify
 from right_pass import apply_right_pass
 from categorize import categorize_all
+from promote import promote_all
 from tension_score import score_inference
 
 
@@ -49,6 +50,14 @@ def run(raw_text, source="manual", inferences_dir="inferences"):
         print(f"[3] categorize  -> {categorized[0]['paths']}")
     else:
         print(f"[3] categorize  -> unclustered (corpus too small to seed)")
+
+    # Pass 3b: file categorized inferences out of unclustered/ into their category dir
+    promoted = promote_all(inferences_dir=inferences_dir)
+    filed = next((p for p in promoted["promoted"] if p["id"] == inf["id"]), None)
+    if filed:
+        print(f"[3b] promote    -> {filed['dest']}")
+    else:
+        print(f"[3b] promote    -> kept in unclustered/")
 
     # Reload after categorize — file may have moved to a category subdir
     for p in Path(inferences_dir).rglob(f"{inf['id']}.json"):
