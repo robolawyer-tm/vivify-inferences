@@ -41,15 +41,47 @@ Return ONLY valid JSON in this exact shape:
     ...
   }
 }
-
-Inference text:
 """
 
 
-def extract_keywords_via_api(raw_text):
+def established_vocabulary(inferences_dir="inferences", min_count=2, cap=150):
+    """Keywords already used by 2+ inferences in this store — the emerged vocabulary.
+
+    - Read from the store's own index.json; NOT an external taxonomy (it emerged
+      from prior extractions here), so anchoring on it honors the non-negotiable
+    - Sorted most-established first, capped to keep the prompt lean
+    - Empty list when the index is missing — anchoring degrades to nothing
+    """
+    index = read_json(Path(inferences_dir) / "index.json")
+    if not index:
+        return []
+    kws = [(k, n) for k, n in index.get("keywords", {}).items() if n >= min_count]
+    kws.sort(key=lambda x: -x[1])
+    return [k for k, _ in kws[:cap]]
+
+
+def anchored_prompt(raw_text, vocab):
+    """Assemble the extraction prompt, anchoring on the store's emerged vocabulary.
+
+    - Reuse-if-apt, mint-if-needed: fixes vocabulary divergence at the source
+      without imposing a taxonomy (the terms emerged from this store's own data)
+    """
+    anchor = ""
+    if vocab:
+        anchor = (
+            "\nVocabulary that has already emerged from prior inferences in this "
+            "store (not an external taxonomy). Reuse a term ONLY when it names the "
+            "same concept in this text; otherwise mint a new keyword as usual:\n"
+            + ", ".join(vocab) + "\n"
+        )
+    return KEYWORDS_PROMPT + anchor + "\nInference text:\n" + raw_text
+
+
+def extract_keywords_via_api(raw_text, vocab=None):
     """Call the Claude API for the left-semantic keyword pass.
 
     - Model resolved from config/model_map.json via 'semantic_extraction' capability
+    - vocab: emerged corpus keywords to anchor on (reuse-if-apt, mint-if-needed)
     - Returns dict with left_keywords and clumps
     - Raises on API error or malformed response
     """
@@ -59,7 +91,7 @@ def extract_keywords_via_api(raw_text):
         message = client.messages.create(
             model=resolve_model("semantic_extraction"),
             max_tokens=1024,
-            messages=[{"role": "user", "content": KEYWORDS_PROMPT + raw_text}]
+            messages=[{"role": "user", "content": anchored_prompt(raw_text, vocab or [])}]
         )
         return json.loads(message.content[0].text)
     except ImportError:
@@ -91,7 +123,8 @@ def vivify(raw_text, keywords=None, source="manual", inferences_dir="inferences"
     if keywords:
         inf = update_inference(inf, keywords)
     else:
-        kw = extract_keywords_via_api(raw_text)
+        vocab = established_vocabulary(inferences_dir)
+        kw = extract_keywords_via_api(raw_text, vocab=vocab)
         inf = update_inference(inf, kw)
 
     path = save_inference(inf, inferences_dir=inferences_dir)
@@ -157,3 +190,4 @@ if __name__ == "__main__":
 
 # llm: claude-sonnet-4-6 | 2026-04-15 | repos/vivify-inferences/vivify.py | created — FABRIC vivify component, left-semantic pass via Claude API or manual keywords
 # llm: claude-sonnet-4-6 | 2026-04-27 | repos/vivify-inferences/vivify.py | replaced hardcoded model string with resolve_model("semantic_extraction")
+# llm: claude-fable-5 | 2026-07-14 | repos/vivify-operators/vivify.py | vocabulary anchoring: established_vocabulary() from index.json (count>=2, cap 150) injected into extraction prompt as reuse-if-apt/mint-if-needed
