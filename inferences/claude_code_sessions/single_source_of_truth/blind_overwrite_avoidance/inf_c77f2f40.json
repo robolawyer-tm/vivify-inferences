@@ -1,0 +1,85 @@
+{
+  "id": "inf_c77f2f40",
+  "version": "1.0",
+  "timestamp": "2026-06-11T14:52:30.240090+00:00",
+  "source": "claude_session",
+  "raw_text": "A planned addition to the wrapup workflow was identified: a deploy step that reads git diff --name-only against sys_adm to find recently changed files and copies only those to ~/bin, rather than syncing the entire directory. The sys_adm repo is the authoritative source for shell scripts and the ~/bin directory is the deployed runtime location, but there is currently no automated mechanism connecting them. Wiring this into /wrapup as the final step before session close would close the gap between editing a script and having it available as a command, and would do so selectively based on what was actually worked on in the session rather than blindly overwriting everything.",
+  "left_keywords": [
+    "selective_deployment",
+    "incremental_copy",
+    "blind_overwrite_avoidance",
+    "git_diff_gating",
+    "session_scoped_changes",
+    "wrapup_integration",
+    "session_boundary_action",
+    "single_source_of_truth",
+    "source_deployment_gap",
+    "deploy_automation"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "deployment_selectivity": [
+      "blind_overwrite_avoidance",
+      "incremental_copy",
+      "selective_deployment"
+    ],
+    "change_detection": [
+      "git_diff_gating",
+      "session_scoped_changes"
+    ],
+    "workflow_closure": [
+      "deploy_automation",
+      "session_boundary_action",
+      "wrapup_integration"
+    ],
+    "source_runtime_relationship": [
+      "single_source_of_truth",
+      "source_deployment_gap"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "single_source_of_truth/blind_overwrite_avoidance",
+    "single_source_of_truth/deploy_automation",
+    "single_source_of_truth/git_diff_gating",
+    "single_source_of_truth/incremental_copy",
+    "single_source_of_truth/selective_deployment",
+    "single_source_of_truth/session_boundary_action",
+    "single_source_of_truth/session_scoped_changes",
+    "single_source_of_truth/source_deployment_gap",
+    "single_source_of_truth/wrapup_integration",
+    "source_deployment_gap/blind_overwrite_avoidance",
+    "source_deployment_gap/deploy_automation",
+    "source_deployment_gap/git_diff_gating",
+    "source_deployment_gap/incremental_copy",
+    "source_deployment_gap/selective_deployment",
+    "source_deployment_gap/session_boundary_action",
+    "source_deployment_gap/session_scoped_changes",
+    "source_deployment_gap/wrapup_integration",
+    "wrapup_integration/blind_overwrite_avoidance",
+    "wrapup_integration/deploy_automation",
+    "wrapup_integration/git_diff_gating",
+    "wrapup_integration/incremental_copy",
+    "wrapup_integration/selective_deployment",
+    "wrapup_integration/session_boundary_action",
+    "wrapup_integration/session_scoped_changes"
+  ],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

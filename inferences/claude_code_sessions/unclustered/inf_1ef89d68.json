@@ -1,0 +1,54 @@
+{
+  "id": "inf_1ef89d68",
+  "version": "1.0",
+  "timestamp": "2026-07-07T22:03:27.082303+00:00",
+  "source": "claude_session",
+  "raw_text": "The transcript you've provided contains no extractable session content. After the session header (`claude-session.20260620-184936`), the only material present is the system initialization block \u2014 the deferred-tool listing, MCP server connection notice, agent-type roster, and skill descriptions. These are all terminal/harness chrome of exactly the kind the extraction instructions say to ignore.\n\nThere are no user turns, no assistant responses, no decisions, pivots, problems solved, or terminology established \u2014 nothing that constitutes an inference unit. The session appears to have been captured before any actual conversation occurred, or the cleaning step stripped the conversational content along with the noise.\n\nI'm not going to fabricate 3-8 inferences from tool listings, since anything I produced would poison the vivify corpus with hallucinated content \u2014 contrary to the \"all structure emerges from the data\" principle. If the source `.jsonl` for this session exists (the timestamp suggests 2026-06-20, 18:49), re-running the cleaning/extraction step on it should recover the real transcript; point me at that file and I'll extract from it directly.",
+  "left_keywords": [
+    "empty_transcript",
+    "harness_chrome",
+    "extraction_refusal",
+    "fabrication_risk",
+    "corpus_poisoning",
+    "data_emergence_principle",
+    "cleaning_step_failure",
+    "content_stripping",
+    "source_recovery",
+    "reprocessing_path",
+    "session_capture_timing",
+    "inference_unit_absence"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "absent_content": [
+      "empty_transcript",
+      "inference_unit_absence",
+      "session_capture_timing"
+    ],
+    "noise_vs_signal": [
+      "harness_chrome",
+      "cleaning_step_failure",
+      "content_stripping"
+    ],
+    "integrity_stance": [
+      "extraction_refusal",
+      "fabrication_risk",
+      "corpus_poisoning"
+    ],
+    "principled_grounding": [
+      "data_emergence_principle"
+    ],
+    "remediation": [
+      "source_recovery",
+      "reprocessing_path"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {},
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

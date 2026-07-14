@@ -1,0 +1,65 @@
+{
+  "id": "inf_94f93543",
+  "version": "1.0",
+  "timestamp": "2026-07-07T20:33:41.871757+00:00",
+  "source": "pillars/FABRIC.md",
+  "raw_text": "# FABRIC (always JSON for consistency + recognizability)\n# UPDATE / CREATION\n## Input\n### Graphical UI (vivify.client)\n### Curses CLI (vivify.client)\n## Autovivify\n### Build un\u2011schema'd JSON (hash of hashes)\n## Secrecy\n### Encrypt secrets\n## Freeze\n### Serialize payload \u2192 prepare for IP send\n## Server\n### Strip first two layers (name, app\u2011name/topic)\n### Remove large binary chunks\n### Store remainder\n#### JSON file\n#### Blob (binary large object)\n##### Must have meaningful text name (metadata)\n##### Stored unencrypted for admin ease\n###### Secrets remain client\u2011encrypted\n###### Same password usable for casual access\n# RETRIEVAL\n## Input\n### Graphical UI (vivify.client)\n### Curses CLI (vivify.client)\n## Payload creation\n### Input name (db top layer)\n### App/topic name\n### Next layer + desired value\n### db\u2011user secret + app\u2011name\n### Access JSON file\n#### Traverse depth (Perl\u2011like hash of hashes)\n## Return\n### Desired value (encrypted payload)\n### If structure named \u2192 whole or subset returned\n## Client\n### Reverse creation process\n#### Print data",
+  "left_keywords": [
+    "autovivification",
+    "schemaless_structure",
+    "nested_hash_traversal",
+    "client_side_encryption",
+    "secrecy_layering",
+    "payload_serialization",
+    "freeze_transport",
+    "layer_stripping",
+    "metadata_naming",
+    "admin_transparency",
+    "symmetric_reversal",
+    "retrieval_mirroring"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "emergent_structure": [
+      "autovivification",
+      "schemaless_structure",
+      "nested_hash_traversal"
+    ],
+    "trust_boundaries": [
+      "client_side_encryption",
+      "secrecy_layering",
+      "admin_transparency"
+    ],
+    "transport_ritual": [
+      "payload_serialization",
+      "freeze_transport",
+      "layer_stripping"
+    ],
+    "naming_as_meaning": [
+      "metadata_naming"
+    ],
+    "process_symmetry": [
+      "symmetric_reversal",
+      "retrieval_mirroring"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {},
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

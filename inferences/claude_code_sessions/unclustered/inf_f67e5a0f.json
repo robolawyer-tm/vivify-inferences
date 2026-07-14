@@ -1,0 +1,61 @@
+{
+  "id": "inf_f67e5a0f",
+  "version": "1.0",
+  "timestamp": "2026-06-26T17:48:15.416377+00:00",
+  "source": "claude_session",
+  "raw_text": "A fused-versus-per-operator parity check on public inferences returned only about 55% agreement, revealing that fusion is not a safe wholesale drop-in: clean dimensions like act_type, resonance, authority, and utility agreed perfectly, but cooperative and structural diverged badly, with cooperative systematically flipping violated to honored as the model read cooperation too charitably without its focused Gricean lens. An important honest caveat was raised that this measures agreement with the per-operator baseline, not correctness \u2014 the baseline itself has sampling variance and is not ground truth, so an unknown portion of the gap is plain LLM noise and the fused call may even be more defensible on some judgments.",
+  "left_keywords": [
+    "fusion_parity_gap",
+    "per_operator_baseline",
+    "wholesale_dropin_risk",
+    "dimensional_agreement",
+    "clean_dimension_convergence",
+    "structural_divergence",
+    "cooperative_misread",
+    "violated_to_honored_flip",
+    "missing_gricean_lens",
+    "charitable_overreading",
+    "baseline_not_ground_truth",
+    "sampling_variance",
+    "llm_noise_floor",
+    "honest_caveat",
+    "fused_defensibility"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "fusion_validation": [
+      "fusion_parity_gap",
+      "per_operator_baseline",
+      "wholesale_dropin_risk"
+    ],
+    "dimensional_split": [
+      "clean_dimension_convergence",
+      "dimensional_agreement",
+      "structural_divergence"
+    ],
+    "cooperative_failure": [
+      "charitable_overreading",
+      "cooperative_misread",
+      "missing_gricean_lens",
+      "violated_to_honored_flip"
+    ],
+    "epistemic_humility": [
+      "baseline_not_ground_truth",
+      "honest_caveat",
+      "llm_noise_floor",
+      "sampling_variance"
+    ],
+    "counter_reading": [
+      "fused_defensibility"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

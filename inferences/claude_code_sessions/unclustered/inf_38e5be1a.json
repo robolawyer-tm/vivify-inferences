@@ -1,0 +1,66 @@
+{
+  "id": "inf_38e5be1a",
+  "version": "1.0",
+  "timestamp": "2026-06-07T23:04:06.012141+00:00",
+  "source": "claude_session",
+  "raw_text": "The date variable used for filename stamping required double-quoted string interpolation in the bash `-c` argument passed to `mate-terminal`. Single quotes would have suppressed `${date}` expansion, leaving the literal string in the filename rather than the timestamp. The corrected form used double quotes around the entire bash command string with the variable expanding at invocation time, producing uniquely named files in the format `claude-session.YYYYMMDD-HHMMSS`.",
+  "left_keywords": [
+    "single_quote_suppression",
+    "double_quote_interpolation",
+    "invocation_time_expansion",
+    "literal_string_bypass",
+    "timestamp_stamping",
+    "unique_filename_generation",
+    "bash_c_argument",
+    "terminal_command_context",
+    "quoting_correction",
+    "expansion_failure",
+    "deferred_evaluation",
+    "temporal_naming"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "quote_semantics": [
+      "double_quote_interpolation",
+      "quoting_correction",
+      "single_quote_suppression"
+    ],
+    "variable_expansion": [
+      "deferred_evaluation",
+      "invocation_time_expansion",
+      "literal_string_bypass"
+    ],
+    "nested_invocation": [
+      "bash_c_argument",
+      "terminal_command_context"
+    ],
+    "filename_generation": [
+      "temporal_naming",
+      "timestamp_stamping",
+      "unique_filename_generation"
+    ],
+    "failure_pattern": [
+      "expansion_failure"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

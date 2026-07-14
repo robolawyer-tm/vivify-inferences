@@ -1,0 +1,73 @@
+{
+  "id": "inf_acbceacf",
+  "version": "1.0",
+  "timestamp": "2026-06-07T23:02:25.947219+00:00",
+  "source": "claude_session",
+  "raw_text": "A tradeoff was identified between stripping control characters before compression versus compressing the raw terminal output directly. Running `col -b` before gzip would produce cleaner, human-readable text but would require an additional pipe stage and lose timing or escape metadata embedded in the raw output. The decision leaned toward compressing raw `script` output, accepting that the stored files would require decompression and interpretation rather than being directly readable.",
+  "left_keywords": [
+    "preprocessing_overhead",
+    "pipe_stage_cost",
+    "raw_compression_preference",
+    "raw_fidelity",
+    "human_readability",
+    "readability_sacrifice",
+    "timing_metadata",
+    "escape_metadata_preservation",
+    "compressed_storage",
+    "interpretation_burden",
+    "accepted_opacity"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "pipeline_architecture": [
+      "pipe_stage_cost",
+      "preprocessing_overhead",
+      "raw_compression_preference"
+    ],
+    "fidelity_tradeoff": [
+      "human_readability",
+      "raw_fidelity",
+      "readability_sacrifice"
+    ],
+    "metadata_preservation": [
+      "escape_metadata_preservation",
+      "timing_metadata"
+    ],
+    "deferred_interpretation": [
+      "accepted_opacity",
+      "compressed_storage",
+      "interpretation_burden"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "human_readability/accepted_opacity",
+    "human_readability/compressed_storage",
+    "human_readability/escape_metadata_preservation",
+    "human_readability/interpretation_burden",
+    "human_readability/pipe_stage_cost",
+    "human_readability/preprocessing_overhead",
+    "human_readability/raw_compression_preference",
+    "human_readability/raw_fidelity",
+    "human_readability/readability_sacrifice",
+    "human_readability/timing_metadata"
+  ],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

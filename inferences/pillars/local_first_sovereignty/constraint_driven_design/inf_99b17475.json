@@ -1,0 +1,75 @@
+{
+  "id": "inf_99b17475",
+  "version": "1.0",
+  "timestamp": "2026-07-07T20:34:23.098996+00:00",
+  "source": "pillars/Semantic_edge_manifesto.md",
+  "raw_text": "Secret Server - Hardened Android Admin Platform\n\"We may be virtual, but we have your back\"\nA secure, local-first admin platform for Android/Termux that provides encrypted remote administration via SSH tunnels and filesystem mounting over WiFi hotspot connections.\nOverview\nSecret Server is a hardened Android userspace admin system that:\n\nRuns entirely in Termux (no root required)\nProvides secure admin access from Linux laptops\nUses two-factor authentication (hotspot + human approval)\nEstablishes encrypted SSH tunnels for all traffic\nMounts phone filesystem for remote editing via SSHFS\nAuto-reconnects if connection drops\nCurrently hosts a secret manager with autovivification-based storage\n\nKey Features\nSecurity\n\nTwo-factor authentication: WiFi hotspot password + manual approval\nSSH key-based auth: Automatic key generation and deployment\nEncrypted tunnels: All traffic over SSH (no plaintext HTTP)\nHuman-in-the-loop pairing: Physical confirmation required for new devices\nNo cloud dependencies: Everything runs locally\n\nUser Experience\n\nOne-command connection: Single script handles everything\nAuto-reconnection: Monitors connection and recovers from drops\nTerminal browser UI: Uses w3m for approval (no app switching)\nSSHFS integration: Edit phone files from laptop IDE\nClear error messages: Helpful guidance when things go wrong\n\nArchitecture\n\nHardened Android userspace: Works within Android's restrictions\nModular design: Auth layer separate from applications\nExtensible: Other apps can use the same auth infrastructure\nLocal-first: No external servers or dependencies\n\nProject Status\nFirst Generation (Current)\n\n\u2705 Admin pairing and connection system\n\u2705 SSH tunnel and SSHFS mounting\n\u2705 Secret manager application (autovivification storage)\n\u2705 Auto-start on phone boot\n\ud83d\udd04 Documentation and install scripts (in progress)\n\nSecond Generation (Planned)\n\nSemantic edge applications\nUser-tier connections (non-admin)\nAdditional security hardening\nEnhanced install automation\n\nComponents\nPhone Side (Android/Termux)\n\nauth_server.py - Pairing and admin endpoint (port 8080)\nweb_server.py - Secret manager Flask app (port 5001, localhost only)\nBoot scripts for auto-start\n\nLaptop Side (Linux)\n\nssh_admin_connection.py - Complete connection manager\nAuto-generates SSH keys if needed\nHandles pairing, tunneling, mounting, monitoring\n\nRepository Structure\nsecret-server/\n\u251c\u2500\u2500 README.md\n\u251c\u2500\u2500 INSTALL.md\n\u251c\u2500\u2500 LLM_CONTEXT.md\n\u251c\u2500\u2500 admin-ssh-connection/\n\u2502   \u2514\u2500\u2500 ssh_admin_connection.py\n\u2514\u2500\u2500 android_mnt/                    # SSHFS mount point\n    \u2514\u2500\u2500 auth-server/                # Phone code (when mounted)\n        \u251c\u2500\u2500 auth_server.py\n        \u251c\u2500\u2500 web_server.py\n        \u2514\u2500\u2500 lib/\nQuick Start\nPrerequisites\n\nPhone: Android device with Termux + Termux:Boot\nLaptop: Linux with nmcli, sshfs, Python 3\n\nInstallation\nSee INSTALL.md for complete instructions.\nBasic Usage\nOn phone:\nbashcd ~/auth-server\n./auth_server.py\nOn laptop:\nbashexport SSH_PHONE_PASSWORD=\"your-hotspot-password\"\ncd ~/secret-server/admin-ssh-connection\n./ssh_admin_connection.py\nFirst run triggers pairing flow. Subsequent runs connect automatically.\nTechnology Stack\n\nPython 3 - Core application logic\nFlask - Web server framework\nSSH/OpenSSH - Encryption and authentication\nSSHFS - Filesystem mounting\nw3m - Terminal web browser\nNetworkManager (nmcli) - WiFi management\nTermux - Android Linux environment\n\nUse Cases\nCurrent\n\nSecure secret/password management\nRemote Android administration\nLocal-first encrypted storage\nDevelopment/debugging on phone from laptop\n\nFuture\n\nSemantic search and AI-powered applications\nCollaborative document editing (peer-to-peer)\nPersonal knowledge base management\nEdge computing applications\n\nDesign Philosophy\n\nSecurity by architecture - Not security theater\nLocal-first - Your data stays on your device\nMinimal dependencies - Fewer moving parts, less to break\nHuman-centric - Clear UX, helpful errors\nPlatform agnostic - Works within Android's constraints\nExtensible - Auth platform for multiple applications\n\nDevelopment History\nDeveloped iteratively with AI assistance (Claude, NotebookLM, Gemini, Copilot) while working around:\n\nAndroid's permission restrictions\nTermux environment limitations\nDynamic IP addressing in hotspots\nBoot script reliability issues\nLLM hallucinations and context scrambling\n\nThe project evolved from a simple secret manager into a general-purpose hardened admin platform.\nContributing\nThis is currently a personal project, but feedback and suggestions are welcome. See installation docs for setting up a development environment.\nLicense\n[To be determined]\nAcknowledgments\nBuilt with assistance from Claude (Anthropic), exploring the intersection of:\n\nAndroid userspace hardening\nLocal-first software\nAutovivification-based storage (inspired by Perl's approach)\nHuman-in-the-loop security\n\n\nNote: android_mnt/ directory contains stale code in git. When SSHFS mounts, it overlays with live phone code. All development happens on the phone via the mount. Git commits should be pushed from the phone (Termux).",
+  "left_keywords": [
+    "local_first_sovereignty",
+    "privacy_by_architecture",
+    "trust_through_encryption",
+    "human_in_the_loop",
+    "physical_confirmation_ritual",
+    "layered_authentication",
+    "hardened_userspace",
+    "constraint_driven_design",
+    "resilient_reconnection",
+    "iterative_ai_collaboration",
+    "emergent_scope_growth",
+    "protective_reassurance"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "sovereignty_and_privacy": [
+      "local_first_sovereignty",
+      "privacy_by_architecture",
+      "trust_through_encryption"
+    ],
+    "human_centered_security": [
+      "human_in_the_loop",
+      "physical_confirmation_ritual",
+      "layered_authentication"
+    ],
+    "working_within_constraints": [
+      "hardened_userspace",
+      "constraint_driven_design",
+      "resilient_reconnection"
+    ],
+    "evolution_and_care": [
+      "iterative_ai_collaboration",
+      "emergent_scope_growth",
+      "protective_reassurance"
+    ]
+  },
+  "category_paths": [
+    "local_first_sovereignty/constraint_driven_design",
+    "local_first_sovereignty/emergent_scope_growth",
+    "local_first_sovereignty/hardened_userspace",
+    "local_first_sovereignty/human_in_the_loop",
+    "local_first_sovereignty/iterative_ai_collaboration",
+    "local_first_sovereignty/layered_authentication",
+    "local_first_sovereignty/physical_confirmation_ritual",
+    "local_first_sovereignty/privacy_by_architecture",
+    "local_first_sovereignty/protective_reassurance",
+    "local_first_sovereignty/resilient_reconnection",
+    "local_first_sovereignty/trust_through_encryption"
+  ],
+  "tension_score": null,
+  "guardrail_actions": {},
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

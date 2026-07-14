@@ -1,0 +1,95 @@
+{
+  "id": "inf_4b7b1b31",
+  "version": "1.0",
+  "timestamp": "2026-06-11T16:52:50.567334+00:00",
+  "source": "claude_session_op",
+  "raw_text": "The decision to reformat backup drives from NTFS to ext4 was driven by a friction_state around silent fidelity loss: NTFS-on-Linux silently drops executable bits, ownership, and symlinks, meaning a backup can pass visual inspection \u2014 files present, sizes matching \u2014 while being a restoration failure because the machine's runnable state is not preserved. This occult_dependency is especially acute on Alpine-style rebuilds where the executable scripts in ~/repos, their permissions, and their git config are precisely what makes the machine reconstructible. The authority for this resolution is sovereign: filesystem semantics are non-negotiable at the kernel level. The potential harmony_friction of losing Windows access was resolved by an assertive discovery \u2014 ext4 volumes mount from Windows via WSL \u2014 eliminating the compatibility argument entirely. The resonance state after this exchange is genuine harmony: the drives are ext4, accessible from both environments, and permission fidelity is guaranteed.",
+  "left_keywords": [
+    "silent_fidelity_loss",
+    "occult_dependency",
+    "restoration_failure",
+    "superficial_validation",
+    "permission_fidelity",
+    "filesystem_sovereignty",
+    "runnable_state_preservation",
+    "machine_state_reconstruction",
+    "alpine_rebuild_pattern",
+    "cross_platform_access",
+    "assertive_discovery",
+    "harmony_restoration"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "silent_failure_mode": [
+      "occult_dependency",
+      "restoration_failure",
+      "silent_fidelity_loss",
+      "superficial_validation"
+    ],
+    "filesystem_semantics": [
+      "filesystem_sovereignty",
+      "permission_fidelity",
+      "runnable_state_preservation"
+    ],
+    "reconstructibility": [
+      "alpine_rebuild_pattern",
+      "machine_state_reconstruction"
+    ],
+    "compatibility_resolution": [
+      "assertive_discovery",
+      "cross_platform_access",
+      "harmony_restoration"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "cross_platform_access/alpine_rebuild_pattern",
+    "cross_platform_access/assertive_discovery",
+    "cross_platform_access/filesystem_sovereignty",
+    "cross_platform_access/machine_state_reconstruction",
+    "cross_platform_access/permission_fidelity",
+    "cross_platform_access/restoration_failure",
+    "cross_platform_access/runnable_state_preservation",
+    "cross_platform_access/silent_fidelity_loss",
+    "cross_platform_access/superficial_validation",
+    "harmony_restoration/alpine_rebuild_pattern",
+    "harmony_restoration/assertive_discovery",
+    "harmony_restoration/cross_platform_access",
+    "harmony_restoration/filesystem_sovereignty",
+    "harmony_restoration/machine_state_reconstruction",
+    "harmony_restoration/occult_dependency",
+    "harmony_restoration/permission_fidelity",
+    "harmony_restoration/restoration_failure",
+    "harmony_restoration/runnable_state_preservation",
+    "harmony_restoration/silent_fidelity_loss",
+    "harmony_restoration/superficial_validation",
+    "occult_dependency/alpine_rebuild_pattern",
+    "occult_dependency/assertive_discovery",
+    "occult_dependency/cross_platform_access",
+    "occult_dependency/filesystem_sovereignty",
+    "occult_dependency/machine_state_reconstruction",
+    "occult_dependency/permission_fidelity",
+    "occult_dependency/restoration_failure",
+    "occult_dependency/runnable_state_preservation",
+    "occult_dependency/silent_fidelity_loss",
+    "occult_dependency/superficial_validation"
+  ],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

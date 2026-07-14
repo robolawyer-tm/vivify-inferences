@@ -1,0 +1,67 @@
+{
+  "id": "inf_b69d505f",
+  "version": "1.0",
+  "timestamp": "2026-06-26T17:47:02.277099+00:00",
+  "source": "claude_session",
+  "raw_text": "A retry-on-invalid mechanism was introduced so that recoverable model failures are re-asked rather than silently dropped. The new call_and_validate routine calls the model, extracts and validates coordinates, and retries on validation errors or malformed output with a small temperature bump to break a stuck wrong answer, while never retrying genuine transport-down failures so that those stay fail-fast. The deeper rationale was that silently dropping an invalid small-model response had been starving the cross_scale step of needed scale tags; treating a recoverable miss as a missing dimension corrupted downstream results.",
+  "left_keywords": [
+    "retry_on_invalid",
+    "recoverable_failure_recovery",
+    "silent_drop_corruption",
+    "validation_retry_loop",
+    "temperature_perturbation",
+    "stuck_answer_escape",
+    "fail_fast_on_transport_down",
+    "failure_class_discrimination",
+    "starved_downstream_dependency",
+    "missing_dimension_corruption",
+    "scale_tag_provisioning",
+    "graceful_degradation"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "recovery_mechanism": [
+      "recoverable_failure_recovery",
+      "retry_on_invalid",
+      "validation_retry_loop"
+    ],
+    "perturbation_escape": [
+      "stuck_answer_escape",
+      "temperature_perturbation"
+    ],
+    "failure_discipline": [
+      "fail_fast_on_transport_down",
+      "failure_class_discrimination"
+    ],
+    "silent_drop_harm": [
+      "graceful_degradation",
+      "silent_drop_corruption"
+    ],
+    "downstream_integrity": [
+      "missing_dimension_corruption",
+      "scale_tag_provisioning",
+      "starved_downstream_dependency"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "fail_fast_on_transport_down/failure_class_discrimination",
+    "fail_fast_on_transport_down/graceful_degradation",
+    "fail_fast_on_transport_down/missing_dimension_corruption",
+    "fail_fast_on_transport_down/recoverable_failure_recovery",
+    "fail_fast_on_transport_down/retry_on_invalid",
+    "fail_fast_on_transport_down/scale_tag_provisioning",
+    "fail_fast_on_transport_down/silent_drop_corruption",
+    "fail_fast_on_transport_down/starved_downstream_dependency",
+    "fail_fast_on_transport_down/stuck_answer_escape",
+    "fail_fast_on_transport_down/temperature_perturbation",
+    "fail_fast_on_transport_down/validation_retry_loop"
+  ],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

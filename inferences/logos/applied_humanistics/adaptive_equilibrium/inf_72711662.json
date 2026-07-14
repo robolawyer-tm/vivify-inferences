@@ -1,0 +1,223 @@
+{
+  "logos": {
+    "act_type": {
+      "value": "assertive",
+      "authority_mismatch": false,
+      "rationale": "The text makes a sustained series of truth-claims: evolution is a constructive tool; religion was a beneficial social technology; synthesis is adaptive equilibrium; Hegel represented the highest container of his era. No one is directed, committed, or declared. No institutional authority is invoked to change social reality \u2014 pure propositional assertion throughout.",
+      "confidence": 0.93,
+      "_src": [
+        "Austin",
+        "Searle"
+      ],
+      "_operator": "act_type_operator.py"
+    },
+    "cooperative": {
+      "status": "honored",
+      "maxim_violated": null,
+      "implicature": null,
+      "confidence": 0.86,
+      "_src": [
+        "Grice"
+      ],
+      "_operator": "cooperative_operator.py"
+    },
+    "transmission": {
+      "value": "broadcast",
+      "rationale": "Formulated as a public philosophical argument \u2014 thesis-dense, declarative, addressed to a general intellectual audience. Not restricted or charged (not a leak). While archivable, the primary mode is one-to-many dissemination: a lecture, essay, or position paper.",
+      "confidence": 0.81,
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "transmission_operator.py"
+    },
+    "resonance": {
+      "value": "harmony",
+      "surface": "Conciliatory synthesis \u2014 evolution and religion are cast as compatible and mutually validating; Hegel 'was not wrong.' The frame actively dissolves rather than exploits opposition.",
+      "underlying": null,
+      "confidence": 0.88,
+      "_src": [
+        "Logos Core Tree",
+        "Machin"
+      ],
+      "_operator": "resonance_operator.py"
+    },
+    "authority": {
+      "value": "tribal",
+      "source": "Academic-intellectual community \u2014 evolutionary biology, constructivist epistemology, Hegelian philosophy \u2014 whose peer consensus is the validating substrate.",
+      "rationale": "No formal institutional power backs the claims; no occult mechanism is cited. Credibility flows entirely from agreement within a knowledge-community tribe. The appeal to Hegel, natural selection, and constructivism are all intra-tribal warrants, not sovereign or hidden-authority ones.",
+      "confidence": 0.79,
+      "_src": [
+        "Logos Core Tree",
+        "Weber"
+      ],
+      "_operator": "authority_operator.py"
+    },
+    "utility": {
+      "value": "narrative",
+      "secondary": "instruction",
+      "rationale": "Primary: builds a coherent meaning-framework \u2014 a story about how moral progress accumulates through adaptive synthesis. Secondary: the framework is also methodologically instructional ('use evolution as a constructive tool, not a weapon' is an actionable epistemic directive).",
+      "confidence": 0.85,
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "utility_operator.py"
+    },
+    "social_field": {
+      "grid": 0.28,
+      "group": 0.62,
+      "quadrant": "egalitarian",
+      "rationale": "Low-to-moderate grid: implicit norms of reasoned argument apply but no rigid formal roles or enforced hierarchy. Moderate-to-high group: the text constructs shared intellectual identity around evolutionary constructivism and moral synthesis \u2014 membership in a community of understanding. Egalitarian: shared values and collective meaning-making without strong hierarchical constraint.",
+      "confidence": 0.77,
+      "_src": [
+        "Douglas"
+      ],
+      "_operator": "social_field_operator.py"
+    },
+    "structural": {
+      "layer": "institution",
+      "scale": "institution",
+      "_coerced": null,
+      "density": "distributed",
+      "persistence": "institutional",
+      "authority": "system",
+      "transmission": "archive",
+      "memory_channel": "institutional",
+      "language_mode": "contractual",
+      "overlays": [
+        "culture",
+        "religion",
+        "society"
+      ],
+      "confidence": 0.83,
+      "_src": [
+        "Dunbar",
+        "Tonnies",
+        "Ostrom",
+        "Douglas"
+      ],
+      "_operator": "structural_operator.py"
+    },
+    "_runner": "logos_fused.py"
+  },
+  "conflict": {
+    "schema": "entangled",
+    "schema_signals": [
+      "authority=tribal",
+      "resonance=harmony(underlying:none)",
+      "structural=institution",
+      "social_field=egalitarian quadrant"
+    ],
+    "behavior": "positioning",
+    "behavior_signals": [
+      "act_type=assertive",
+      "utility=narrative",
+      "transmission=broadcast",
+      "authority=tribal"
+    ],
+    "terrain": "center",
+    "window": "forming",
+    "escalation_phase": "early",
+    "confidence": 0.7,
+    "rationale": "An assertive tribal broadcast offering evolutionary synthesis of religion and philosophy is entangled across multiple contested institutional terrains simultaneously \u2014 cooperative in intent but structurally received as position-claiming by constituencies whose group identity is anchored in the frameworks being subordinated to the naturalistic meta-frame.",
+    "_src": [
+      "Granovetter",
+      "Glasl",
+      "Durkheim",
+      "Bandura"
+    ],
+    "_operator": "conflict_operator.py"
+  },
+  "id": "inf_72711662",
+  "version": "1.0",
+  "timestamp": "2026-04-15T21:33:05.315788+00:00",
+  "source": "gemini",
+  "raw_text": "Using evolution as a constructive tool to understand human progress rather than a weapon to dismiss older philosophical ideas. Spirituality and religion were powerful social technologies providing selective advantage through group cohesion trust and meaning. These are not wrong but beneficial syntheses that stabilized the human animal allowing higher forms of morality to emerge. Synthesis as adaptive equilibrium reached by combining successful moral social structures. Constructivism means we actively build social reality rather than receiving a fixed divine blueprint. Applied humanistics prioritizes human welfare as the moral goal grounded in evolved social instincts. Hegel was not wrong but represented the highest abstract container that human thought evolved to create in that era.",
+  "left_keywords": [
+    "evolution_as_tool",
+    "moral_evolution",
+    "social_technology",
+    "selective_advantage",
+    "group_cohesion_mechanism",
+    "adaptive_equilibrium",
+    "constructivist_reality_building",
+    "applied_humanistics",
+    "hegelian_contrast",
+    "beneficial_synthesis",
+    "verifiable_moral_grounding",
+    "objective_spirit"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "evolutionary_function": [
+      "adaptive_equilibrium",
+      "evolution_as_tool",
+      "moral_evolution",
+      "selective_advantage"
+    ],
+    "social_technology": [
+      "beneficial_synthesis",
+      "group_cohesion_mechanism",
+      "social_technology"
+    ],
+    "constructivist_framework": [
+      "applied_humanistics",
+      "constructivist_reality_building",
+      "verifiable_moral_grounding"
+    ],
+    "philosophical_contrast": [
+      "hegelian_contrast",
+      "objective_spirit"
+    ]
+  },
+  "tension_score": 0.0702,
+  "guardrail_actions": {},
+  "domain": "logos",
+  "category_paths": [
+    "applied_humanistics/adaptive_equilibrium",
+    "applied_humanistics/beneficial_synthesis",
+    "applied_humanistics/constructivist_reality_building",
+    "applied_humanistics/evolution_as_tool",
+    "applied_humanistics/group_cohesion_mechanism",
+    "applied_humanistics/hegelian_contrast",
+    "applied_humanistics/objective_spirit",
+    "applied_humanistics/selective_advantage",
+    "applied_humanistics/social_technology",
+    "applied_humanistics/verifiable_moral_grounding",
+    "beneficial_synthesis/adaptive_equilibrium",
+    "beneficial_synthesis/constructivist_reality_building",
+    "beneficial_synthesis/evolution_as_tool",
+    "beneficial_synthesis/group_cohesion_mechanism",
+    "beneficial_synthesis/hegelian_contrast",
+    "beneficial_synthesis/objective_spirit",
+    "beneficial_synthesis/selective_advantage",
+    "beneficial_synthesis/social_technology",
+    "beneficial_synthesis/verifiable_moral_grounding",
+    "moral_evolution/adaptive_equilibrium",
+    "moral_evolution/applied_humanistics",
+    "moral_evolution/beneficial_synthesis",
+    "moral_evolution/constructivist_reality_building",
+    "moral_evolution/evolution_as_tool",
+    "moral_evolution/group_cohesion_mechanism",
+    "moral_evolution/hegelian_contrast",
+    "moral_evolution/objective_spirit",
+    "moral_evolution/selective_advantage",
+    "moral_evolution/social_technology",
+    "moral_evolution/verifiable_moral_grounding"
+  ],
+  "tension": {
+    "predicted": 0.0702,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "inf_c862d6ed",
+  "version": "1.0",
+  "timestamp": "2026-06-11T14:51:57.680352+00:00",
+  "source": "claude_session",
+  "raw_text": "The claude_terminal launch script was updated to produce a .md twin of each session at close time. The pipeline on session exit became: script exits \u2192 gzip \u2192 col -b \u2192 .md saved to ~/logs/claude/ \u2192 session_extract.py reads from .md. This split was described as occurring at the capture layer rather than the inference layer. The .gz remains the crash-resilient bit-faithful archive; the .md is the first time the session exists as a human- and LLM-readable document. The .md is not a convenience \u2014 without it, any tool reading the raw .gz output would be replaying the terminal state machine, producing cursor jumps, screen clears, and overwritten text rather than prose.",
+  "left_keywords": [
+    "exit_triggered_transform",
+    "capture_layer_boundary",
+    "bitfaithful_archive",
+    "human_readable_twin",
+    "format_duality",
+    "terminal_state_machine",
+    "ansi_stripping",
+    "prose_rendering",
+    "llm_readable_document",
+    "first_readable_form",
+    "gzip_preservation",
+    "fault_tolerant_storage"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "session_pipeline": [
+      "capture_layer_boundary",
+      "exit_triggered_transform"
+    ],
+    "dual_archival": [
+      "bitfaithful_archive",
+      "format_duality",
+      "human_readable_twin"
+    ],
+    "terminal_decoding": [
+      "ansi_stripping",
+      "prose_rendering",
+      "terminal_state_machine"
+    ],
+    "semantic_accessibility": [
+      "first_readable_form",
+      "llm_readable_document"
+    ],
+    "crash_resilience": [
+      "fault_tolerant_storage",
+      "gzip_preservation"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "ansi_stripping/bitfaithful_archive",
+    "ansi_stripping/capture_layer_boundary",
+    "ansi_stripping/exit_triggered_transform",
+    "ansi_stripping/fault_tolerant_storage",
+    "ansi_stripping/first_readable_form",
+    "ansi_stripping/format_duality",
+    "ansi_stripping/gzip_preservation",
+    "ansi_stripping/human_readable_twin",
+    "ansi_stripping/llm_readable_document",
+    "ansi_stripping/prose_rendering",
+    "ansi_stripping/terminal_state_machine"
+  ],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "inf_c39187c6",
+  "version": "1.0",
+  "timestamp": "2026-06-11T16:52:24.340907+00:00",
+  "source": "claude_session_op",
+  "raw_text": "The user rejected \"tension\" as a drive name and chose \"inference1/inference2\" instead \u2014 a declaration act that affiliates infrastructure with project identity rather than inheriting overloaded LLM vocabulary. The friction_state driving this was naming contamination: tension carries LLM-generated resonance that would bleed into every reference to the backup system, conflating storage infrastructure with a conceptual category the project already owns. The harmony_restoration came through project-native naming that is self-documenting and carries no prior implicature. The underscore separator in inference_1 was further resolved on cooperative manner grounds \u2014 1 and lowercase l are visually ambiguous \u2014 demonstrating that even infrastructure identifiers are subject to legibility pressure. This is a tribal authority move: the name earns its place by fitting the project's conceptual field rather than following an external convention.",
+  "left_keywords": [
+    "lexical_contamination",
+    "vocabulary_inheritance",
+    "semantic_bleed",
+    "prior_implicature",
+    "tribal_authority",
+    "declaration_act",
+    "project_native_naming",
+    "latent_friction_state",
+    "harmony_restoration",
+    "typographic_ambiguity",
+    "legibility_pressure",
+    "conceptual_ownership"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "naming_contamination": [
+      "overloaded_vocabulary",
+      "prior_implicature",
+      "semantic_bleed",
+      "vocabulary_inheritance"
+    ],
+    "project_identity_assertion": [
+      "conceptual_affiliation",
+      "declaration_act",
+      "project_native_naming",
+      "tribal_authority"
+    ],
+    "friction_resolution": [
+      "harmony_restoration",
+      "latent_friction_state",
+      "naming_conflict"
+    ],
+    "legibility_pressure": [
+      "cooperative_disambiguation",
+      "self_documenting_identifier",
+      "typographic_ambiguity"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "harmony_restoration/conceptual_ownership",
+    "harmony_restoration/declaration_act",
+    "harmony_restoration/latent_friction_state",
+    "harmony_restoration/legibility_pressure",
+    "harmony_restoration/lexical_contamination",
+    "harmony_restoration/prior_implicature",
+    "harmony_restoration/project_native_naming",
+    "harmony_restoration/semantic_bleed",
+    "harmony_restoration/tribal_authority",
+    "harmony_restoration/typographic_ambiguity",
+    "harmony_restoration/vocabulary_inheritance",
+    "latent_friction_state/conceptual_ownership",
+    "latent_friction_state/declaration_act",
+    "latent_friction_state/legibility_pressure",
+    "latent_friction_state/prior_implicature",
+    "latent_friction_state/project_native_naming",
+    "latent_friction_state/semantic_bleed",
+    "latent_friction_state/tribal_authority",
+    "latent_friction_state/vocabulary_inheritance",
+    "lexical_contamination/conceptual_ownership",
+    "lexical_contamination/declaration_act",
+    "lexical_contamination/latent_friction_state",
+    "lexical_contamination/legibility_pressure",
+    "lexical_contamination/prior_implicature",
+    "lexical_contamination/project_native_naming",
+    "lexical_contamination/semantic_bleed",
+    "lexical_contamination/tribal_authority",
+    "lexical_contamination/typographic_ambiguity",
+    "lexical_contamination/vocabulary_inheritance",
+    "typographic_ambiguity/conceptual_ownership",
+    "typographic_ambiguity/declaration_act",
+    "typographic_ambiguity/latent_friction_state",
+    "typographic_ambiguity/legibility_pressure",
+    "typographic_ambiguity/prior_implicature",
+    "typographic_ambiguity/project_native_naming",
+    "typographic_ambiguity/semantic_bleed",
+    "typographic_ambiguity/tribal_authority",
+    "typographic_ambiguity/vocabulary_inheritance"
+  ],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

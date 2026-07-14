@@ -1,0 +1,83 @@
+{
+  "id": "inf_51b82f0d",
+  "version": "1.0",
+  "timestamp": "2026-07-03T00:11:41.565016+00:00",
+  "source": "claude_session",
+  "raw_text": "A completeness bug in the fused logos pipeline was traced to bookkeeping rather than data. Six inferences were flagged incomplete despite having all eight logos dimensions present and valid plus a conflict block, because the fused pass re-tagged every dimension correctly but never cleared pre-existing error markers left over from the retired per-operator path. Those stale errors even referenced a \"narrative\" dimension that the fused operator no longer produces. Since the completeness check treated any leftover error as incomplete, fully-valid inferences were wedged \"incomplete\" forever by stale metadata. The initial diagnosis of transient transport failures was wrong, verified by reading the actual files.",
+  "left_keywords": [
+    "false_incompleteness",
+    "stale_error_persistence",
+    "bookkeeping_not_data",
+    "retired_operator_residue",
+    "phantom_dimension_reference",
+    "fused_pass_retagging",
+    "leftover_error_gating",
+    "misdiagnosed_transport_failure",
+    "file_level_verification",
+    "permanent_incomplete_wedge",
+    "valid_dimensions_intact",
+    "state_not_cleared"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "root_cause_bookkeeping": [
+      "bookkeeping_not_data",
+      "leftover_error_gating",
+      "stale_error_persistence",
+      "state_not_cleared"
+    ],
+    "legacy_residue": [
+      "fused_pass_retagging",
+      "phantom_dimension_reference",
+      "retired_operator_residue"
+    ],
+    "false_incompleteness": [
+      "false_incompleteness",
+      "permanent_incomplete_wedge",
+      "valid_dimensions_intact"
+    ],
+    "diagnostic_correction": [
+      "file_level_verification",
+      "misdiagnosed_transport_failure"
+    ]
+  },
+  "category_paths": [
+    "false_incompleteness/bookkeeping_not_data",
+    "false_incompleteness/file_level_verification",
+    "false_incompleteness/fused_pass_retagging",
+    "false_incompleteness/leftover_error_gating",
+    "false_incompleteness/misdiagnosed_transport_failure",
+    "false_incompleteness/permanent_incomplete_wedge",
+    "false_incompleteness/phantom_dimension_reference",
+    "false_incompleteness/retired_operator_residue",
+    "false_incompleteness/state_not_cleared",
+    "false_incompleteness/valid_dimensions_intact",
+    "misdiagnosed_transport_failure/bookkeeping_not_data",
+    "misdiagnosed_transport_failure/file_level_verification",
+    "misdiagnosed_transport_failure/fused_pass_retagging",
+    "misdiagnosed_transport_failure/leftover_error_gating",
+    "misdiagnosed_transport_failure/permanent_incomplete_wedge",
+    "misdiagnosed_transport_failure/phantom_dimension_reference",
+    "misdiagnosed_transport_failure/retired_operator_residue",
+    "misdiagnosed_transport_failure/state_not_cleared",
+    "misdiagnosed_transport_failure/valid_dimensions_intact",
+    "stale_error_persistence/bookkeeping_not_data",
+    "stale_error_persistence/false_incompleteness",
+    "stale_error_persistence/file_level_verification",
+    "stale_error_persistence/fused_pass_retagging",
+    "stale_error_persistence/leftover_error_gating",
+    "stale_error_persistence/misdiagnosed_transport_failure",
+    "stale_error_persistence/permanent_incomplete_wedge",
+    "stale_error_persistence/phantom_dimension_reference",
+    "stale_error_persistence/retired_operator_residue",
+    "stale_error_persistence/state_not_cleared",
+    "stale_error_persistence/valid_dimensions_intact"
+  ],
+  "tension_score": null,
+  "guardrail_actions": {},
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

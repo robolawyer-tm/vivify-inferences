@@ -1,0 +1,66 @@
+{
+  "id": "inf_62431a1a",
+  "version": "1.0",
+  "timestamp": "2026-07-03T00:12:08.796862+00:00",
+  "source": "claude_session",
+  "raw_text": "A residual weakness was flagged for future attention: a historical subprocess transport failure was recorded as a per-inference content error in the old per-operator path rather than triggering a fail-fast exit. This did not cause harm in the current situation, but a future per-operator batch could silently log a quota wall or transport outage as fake content errors, masking an operational failure as a data problem. The distinction between transport failures and genuine content errors matters for how the pipeline should halt versus record.",
+  "left_keywords": [
+    "transport_failure",
+    "misdiagnosed_transport_failure",
+    "fail_fast_absence",
+    "silent_masking",
+    "operational_vs_data_fault",
+    "per_operator_batch_risk",
+    "quota_wall",
+    "halt_versus_record",
+    "residual_weakness",
+    "future_latency_risk"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "failure_misclassification": [
+      "misdiagnosed_transport_failure",
+      "operational_vs_data_fault",
+      "transport_failure"
+    ],
+    "silent_masking": [
+      "per_operator_batch_risk",
+      "quota_wall",
+      "silent_masking"
+    ],
+    "control_flow_gap": [
+      "fail_fast_absence",
+      "halt_versus_record"
+    ],
+    "deferred_concern": [
+      "future_latency_risk",
+      "residual_weakness"
+    ]
+  },
+  "category_paths": [
+    "misdiagnosed_transport_failure/fail_fast_absence",
+    "misdiagnosed_transport_failure/future_latency_risk",
+    "misdiagnosed_transport_failure/halt_versus_record",
+    "misdiagnosed_transport_failure/operational_vs_data_fault",
+    "misdiagnosed_transport_failure/per_operator_batch_risk",
+    "misdiagnosed_transport_failure/quota_wall",
+    "misdiagnosed_transport_failure/residual_weakness",
+    "misdiagnosed_transport_failure/silent_masking",
+    "transport_failure/fail_fast_absence",
+    "transport_failure/future_latency_risk",
+    "transport_failure/halt_versus_record",
+    "transport_failure/misdiagnosed_transport_failure",
+    "transport_failure/operational_vs_data_fault",
+    "transport_failure/per_operator_batch_risk",
+    "transport_failure/quota_wall",
+    "transport_failure/residual_weakness",
+    "transport_failure/silent_masking"
+  ],
+  "tension_score": null,
+  "guardrail_actions": {},
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

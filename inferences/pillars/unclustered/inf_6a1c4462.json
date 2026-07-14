@@ -1,0 +1,69 @@
+{
+  "id": "inf_6a1c4462",
+  "version": "1.0",
+  "timestamp": "2026-07-07T20:34:55.568056+00:00",
+  "source": "pillars/WORKING_MEMORY_VISION.md",
+  "raw_text": "# Working Memory Stage \u2014 Vivify Future Vision\n\nThe vivify pipeline needs a RAM-resident analogical workspace where concept structures form and tension-test before earning filesystem persistence.\n\n- The current pipeline commits directly: raw text \u2192 keywords \u2192 filesystem, with no intermediate stage where meaning can be fluid\n- The working memory stage sits between inference and vivify commit \u2014 structures form, relate, and resolve in RAM before touching a file\n- The filesystem receives the settled thought, not the arriving one; only stabilized structures cross the boundary\n\nThe tension score serves a different function in working memory than in the stored pipeline.\n\n- In the current pipeline, tension measures left/right divergence after the fact\n- In working memory, tension is the halting criterion: commit when it stabilizes, discard when it doesn't resolve\n- High and changing tension = still intrusive, still arriving; stable tension = ready to persist\n\nThis maps to the logos model of intrusive thought \u2014 something that enters unbidden, carries meaning, and demands attention before consent.\n\n- A modifier that acts without permission is intrusive in this sense: it enters the meaning-space before the thought has resolved\n- The permission prompt is the consent mechanism the logos model requires\n- Working memory is where intrusive thoughts are allowed to be intrusive before they earn the right to become files\n\nThe working memory stage connects directly to multi-model convergence.\n\n- Intermediate embeddings from each model in the round-robin live in working memory, not on disk\n- The co-occurrence graph stabilizes in RAM across iterations; only the stable graph commits\n- Halting criterion is identical: tension stops changing = ready to persist\n\nThe reify/vivify duality points to this stage as the missing third term.\n\n- vivify: raw text \u2192 structure (left to right)\n- reify: structure \u2192 felt prose (right to left)\n- working memory: the pre-vivify moment where meaning is still fluid, neither text nor structure, not yet a file\n\n<!-- llm: claude-sonnet-4-6 | 2026-04-21 | repos/pillars/WORKING_MEMORY_VISION.md | created \u2014 RAM working memory stage vision, tension as halting criterion, logos/intrusive thought connection -->",
+  "left_keywords": [
+    "ram_resident_workspace",
+    "pre_persistence_fluidity",
+    "settled_thought_boundary",
+    "tension_as_halting_criterion",
+    "tension_stabilization",
+    "divergence_measurement",
+    "intrusive_thought_logos",
+    "consent_before_meaning",
+    "permission_mechanism",
+    "multi_model_convergence",
+    "cooccurrence_graph_stabilization",
+    "reify_vivify_duality",
+    "missing_third_term",
+    "meaning_in_transition"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "working_memory_space": [
+      "ram_resident_workspace",
+      "pre_persistence_fluidity",
+      "settled_thought_boundary"
+    ],
+    "tension_dynamics": [
+      "tension_as_halting_criterion",
+      "tension_stabilization",
+      "divergence_measurement"
+    ],
+    "intrusion_and_consent": [
+      "intrusive_thought_logos",
+      "consent_before_meaning",
+      "permission_mechanism"
+    ],
+    "convergence_process": [
+      "multi_model_convergence",
+      "cooccurrence_graph_stabilization"
+    ],
+    "structural_duality": [
+      "reify_vivify_duality",
+      "missing_third_term",
+      "meaning_in_transition"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {},
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

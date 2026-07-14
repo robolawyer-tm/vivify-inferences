@@ -1,0 +1,52 @@
+{
+  "id": "inf_c89e6704",
+  "version": "1.0",
+  "timestamp": "2026-07-03T00:12:26.656321+00:00",
+  "source": "claude_session",
+  "raw_text": "The private domain carried two layers of filesystem categories, unlike the flat structure of the rest of the store, a remnant of the old filesystem categorizer that materialized cooccurrence cross-product paths as real directories and copied inferences into each. The decision was to flatten to a clean flat-by-domain layout with categories living in the index, deduplicating afterward by keeping the seed-domain (autovivification) copy over the singleton path copy. A snapshot was taken before any migration, following the principle of understanding exact structure before moving files rather than inventing a domain model.",
+  "left_keywords": [
+    "nested_category_layers",
+    "materialized_crossproduct_paths",
+    "inference_duplication",
+    "legacy_categorizer_remnant",
+    "flatten_to_domain",
+    "index_resident_categories",
+    "deduplication_by_seed",
+    "autovivification_priority",
+    "singleton_path_discard",
+    "pre_migration_snapshot",
+    "structure_before_movement",
+    "empirical_over_invented_model"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "legacy_materialization": [
+      "inference_duplication",
+      "legacy_categorizer_remnant",
+      "materialized_crossproduct_paths",
+      "nested_category_layers"
+    ],
+    "flat_domain_redesign": [
+      "flatten_to_domain",
+      "index_resident_categories"
+    ],
+    "seed_priority_dedup": [
+      "autovivification_priority",
+      "deduplication_by_seed",
+      "singleton_path_discard"
+    ],
+    "cautious_migration": [
+      "empirical_over_invented_model",
+      "pre_migration_snapshot",
+      "structure_before_movement"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {},
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

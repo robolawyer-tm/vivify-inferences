@@ -1,0 +1,71 @@
+{
+  "id": "inf_487bfeea",
+  "version": "1.0",
+  "timestamp": "2026-06-17T17:03:43.687293+00:00",
+  "source": "claude_session",
+  "raw_text": "EncryptPad's format was adopted as the default encryption standard for the passphrase-based tool because interoperability with Windows machines requires the EncryptPad format for shared files. This cross-platform sharing constraint, rather than abstract preference, drove the choice of EncryptPad as the baseline while the SSH-key-based `seal_it` path serves the purely local sealing and backup workflow.",
+  "left_keywords": [
+    "interoperability_constraint",
+    "cross_platform_access",
+    "windows_compatibility",
+    "encryptpad_baseline",
+    "default_standard",
+    "format_adoption",
+    "ssh_key_sealing",
+    "local_backup_workflow",
+    "pragmatic_necessity",
+    "compatibility_over_preference",
+    "tool_path_divergence"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "interoperability_pressure": [
+      "cross_platform_access",
+      "interoperability_constraint",
+      "windows_compatibility"
+    ],
+    "format_default_choice": [
+      "default_standard",
+      "encryptpad_baseline",
+      "format_adoption"
+    ],
+    "local_sealing_path": [
+      "local_backup_workflow",
+      "ssh_key_sealing",
+      "tool_path_divergence"
+    ],
+    "necessity_over_taste": [
+      "compatibility_over_preference",
+      "pragmatic_necessity"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "cross_platform_access/compatibility_over_preference",
+    "cross_platform_access/default_standard",
+    "cross_platform_access/encryptpad_baseline",
+    "cross_platform_access/format_adoption",
+    "cross_platform_access/interoperability_constraint",
+    "cross_platform_access/local_backup_workflow",
+    "cross_platform_access/pragmatic_necessity",
+    "cross_platform_access/ssh_key_sealing",
+    "cross_platform_access/tool_path_divergence",
+    "cross_platform_access/windows_compatibility",
+    "ssh_key_sealing/compatibility_over_preference",
+    "ssh_key_sealing/default_standard",
+    "ssh_key_sealing/encryptpad_baseline",
+    "ssh_key_sealing/format_adoption",
+    "ssh_key_sealing/interoperability_constraint",
+    "ssh_key_sealing/local_backup_workflow",
+    "ssh_key_sealing/pragmatic_necessity",
+    "ssh_key_sealing/tool_path_divergence",
+    "ssh_key_sealing/windows_compatibility"
+  ],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

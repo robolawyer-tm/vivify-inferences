@@ -1,0 +1,63 @@
+{
+  "id": "inf_b55c90f6",
+  "version": "1.0",
+  "timestamp": "2026-07-07T20:34:35.462880+00:00",
+  "source": "pillars/MESH_TOPOLOGY_VISION.md",
+  "raw_text": "# Mesh Topology Vision: Phone-to-Phone Bridging\n\n## The Goal\n\nExtend the star-bridge model to allow **peer discovery and direct SSH tunneling** between phones.\n\n**Current Model (Star):**\n```\n       LINUX BOX\n         / | \\\n        /  |  \\\n   Phone1 Phone2 Phone3\n```\n\n**Vision (Mesh):**\n```\n       LINUX BOX\n         / | \\\n        /  |  \\\n   Phone1-Phone2-Phone3\n    |      |      |\n    +------+------+\n```\n\nEach phone can reach others directly via SSH, forming a resilient network with no central cloud dependency.\n\n---\n\n## Core Principles\n\n1. **Zero Commercial Platforms** \u2014 Pure SSH, routing tables, and custom code\n2. **Pure P2P Discovery** \u2014 Phones find each other via local scan or config\n3. **SSH Tunneling** \u2014 All bridges built on SSH's native capabilities\n4. **Resilient Chains** \u2014 If direct link fails, reroute through intermediaries\n5. **Simple Implementation** \u2014 Code must be understandable; favor clarity over optimization\n6. **Minimal Exceptions** \u2014 Only peer discovery service allowed; everything else native code\n\n---\n\n## Architecture\n\n### Phase 1: Phone Discovery (Minimal Exception)\n\nPhones need to find each other. Options:\n\n**Option A: Local Network Scanning (Pure)**\n```python\ndef discover_phones_on_network(prefix=\"192.168.44\"):\n    \"\"\"Scan local subnet for responding SSH daemons.\"\"\"\n    discovered = []\n    for i in range(1, 255):\n        ip = f\"{prefix}.{i}\"\n        if ssh_probe(ip, port=8022, timeout=1):  # Non-blocking probe\n            discovered.append(ip)\n    return discovered\n```\n\nPros: No external service needed  \nCons: Slow, noisy, works only on same subnet\n\n**Option B: Lightweight Registry (Acceptable Exception)**\n\nA simple file-based registry on Linux that stores known phones:\n```\n~/.config/star-bridge/known_phones.json\n{\n  \"phone1\": {\"ip\": \"192.168.44.1\", \"hostname\": \"pixel6\", \"last_seen\": \"2026-02-06T15:30:00Z\"},\n  \"phone2\": {\"ip\": \"192.168.44.2\", \"hostname\": \"samsung\", \"last_seen\": \"2026-02-06T15:31:00Z\"}\n}\n```\n\nEach phone, when it connects via ssh_admin_connection.py, updates this registry.\n\nRecommended: **Start with Option B** (1 service, pure code for everything else)\n\n---\n\n### Phase 2: Phone-to-Phone SSH Tunneling\n\nOnce phones know each other, establish direct SSH bridges:\n\n```python\ndef bridge_phones(phone_a_ip, phone_b_ip, username, service_port=5001):\n    \"\"\"\n    Create SSH tunnel: Phone A \u2192 Phone B (for service on Port)\n    \n    Allows: Linux \u2192 Phone A \u2192 Phone B services\n    \"\"\"\n    # On Phone A, create reverse tunnel to Phone B\n    cmd = f\"\"\"\n    ssh -N -R {service_port}:localhost:{service_port} \\\n        {username}@{phone_b_ip} -p 8022 \\\n        -o StrictHostKeyChecking=no\n    \"\"\"\n    # Now: Phone A can reach Phone B's service via localhost:5001\n    return subprocess.Popen(cmd, shell=True)\n```\n\n**Result:** Phone A \u2192 (SSH bridge) \u2192 Phone B:5001\n\n### Phase 3: Routing & Failover\n\nPhones maintain a **routing table** mapping services to reachable nodes:\n\n```python\nclass PhoneMesh:\n    def __init__(self):\n        self.routes = {\n            \"phone1:5001\": {\n                \"direct\": \"192.168.44.1:5001\",\n                \"via_phone2\": \"192.168.44.2 \u2192 192.168.44.1:5001\",\n                \"via_phone3\": \"192.168.44.3 \u2192 192.168.44.2 \u2192 192.168.44.1:5001\",\n            }\n        }\n    \n    def get_best_path(self, target_service):\n        \"\"\"Return shortest path to target service.\"\"\"\n        paths = self.routes[target_service]\n        # Prefer direct, fallback to via_phone2, then via_phone3\n        for path in [\"direct\", \"via_phone2\", \"via_phone3\"]:\n            if self.is_reachable(paths[path]):\n                return paths[path]\n        return None\n    \n    def is_reachable(self, path):\n        \"\"\"Probe the path without consuming bandwidth.\"\"\"\n        # Quick SSH connectivity check\n        return ssh_probe(path, timeout=2)\n```\n\n---\n\n## 90s P2P Inspiration\n\nThis approach mirrors **Gnutella** and **Kazaa** from the late 90s:\n\n1. **Local node discovery** \u2014 Nodes announce themselves on LAN\n2. **Peer directories** \u2014 Simple rosters of known peers\n3. **Chain routing** \u2014 Find content by asking neighbors\n4. **No central authority** \u2014 Fully decentralized\n\nApplied here:\n\n- Phones are **nodes**\n- Services (web_server, auth_server) are **resources**\n- SSH tunnels are **query paths**\n- Registry is the **peer directory**\n\n---\n\n## Pseudo-Code: Full Mesh Connection\n\n```\nSYSTEM STATE:\n  linux_box$ Has ssh_admin_connection.py running\n  phone1$ Connected to linux via USB/hotspot\n  phone2$ Connected to linux via USB/hotspot\n\nSTEP 1: Phones report to registry\n  phone1$ python ssh_admin_connection.py\n    \u2514\u2500\u2192 Updates ~/.config/star-bridge/known_phones.json\n        { \"phone1\": { \"ip\": \"192.168.44.1\", ... } }\n  \n  phone2$ python ssh_admin_connection.py\n    \u2514\u2500\u2192 Updates registry\n        { \"phone2\": { \"ip\": \"192.168.44.2\", ... } }\n\nSTEP 2: Linux reads registry and builds mesh\n  linux$ read known_phones.json\n  linux$ for each phone_pair:\n           establish_bridge(phone_a, phone_b)\n\nSTEP 3: Phone-to-Phone Bridge\n  linux$ ssh -N -R 5001:localhost:5001 \\\n           u0_aXXXX@192.168.44.2 -p 8022\n  \n  Result: Phone1's service now accessible from Phone2\n\nSTEP 4: Failover\n  If Phone1 \u2192 direct fails:\n    Try: Linux \u2192 Phone2 \u2192 Phone1 (chain tunnel)\n    Try: Linux \u2192 Phone3 \u2192 Phone1 (if available)\n\nSTEP 5: Service Discovery\n  Phone1$ curl http://localhost:5001/\n    \u2193 (local service)\n  \n  Phone1$ curl http://phone2:5001/\n    \u2193 (via SSH tunnel from Step 3)\n```\n\n---\n\n## Exception Cases\n\n1. **Peer Discovery** \u2014 Registry service or local scan (unavoidable)\n2. **Distance routing** \u2014 May need NAT/firewall workarounds (log as known issues)\n3. **Bandwidth constraints** \u2014 Document limitations\n\nEverything else: pure SSH + custom Python code.\n\n---\n\n## Implementation Phases\n\n**Phase 1 (Now):** Single phone + Linux (current star-bridge)\n\n**Phase 2 (Next):** Two phones + registry\n- Add known_phones.json registry\n- Implement phone_discovery() in ssh_admin_connection.py\n- Document manual registry updates\n\n**Phase 3 (Future):** Auto-bridging\n- Extend ssh_admin_connection.py to establish phone-phone tunnels\n- Implement routing table logic\n- Add failover detection\n\n**Phase 4 (Future):** Service discovery API\n- Phones advertise services to registry\n- Other phones query and auto-connect\n\n---\n\n## Code Organization\n\n```\nstar-bridge/\n  \u251c\u2500\u2500 ssh_admin_connection.py        (current: Linux \u2194 Phone)\n  \u251c\u2500\u2500 mesh_registry.py               (Phase 2: Registry manager)\n  \u251c\u2500\u2500 mesh_router.py                 (Phase 3: Routing + failover)\n  \u251c\u2500\u2500 phone_discovery.py             (Phase 2: Find peers)\n  \u2514\u2500\u2500 auth-server/\n      \u2514\u2500\u2500 auth_server.py             (unchanged)\n```\n\n---\n\n## Key Insight\n\nThe **mesh doesn't require a new protocol**. It's just SSH doing what it was designed to do:\n\n- **SSH tunnel** = bridge between two endpoints\n- **Chained tunnels** = bridge through intermediary\n- **Local routing table** = which path to use\n\nPure code, pure concepts, 90s-proven reliability.",
+  "left_keywords": [
+    "mesh_topology",
+    "peer_discovery",
+    "ssh_tunneling",
+    "decentralized_resilience",
+    "cloud_independence",
+    "routing_failover",
+    "chained_intermediaries",
+    "minimal_exceptions",
+    "clarity_over_optimization",
+    "p2p_heritage",
+    "phased_evolution",
+    "protocol_sufficiency"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "network_shape": [
+      "mesh_topology",
+      "chained_intermediaries",
+      "routing_failover"
+    ],
+    "autonomy_ethos": [
+      "cloud_independence",
+      "decentralized_resilience",
+      "p2p_heritage"
+    ],
+    "connection_mechanics": [
+      "ssh_tunneling",
+      "peer_discovery",
+      "protocol_sufficiency"
+    ],
+    "design_discipline": [
+      "minimal_exceptions",
+      "clarity_over_optimization",
+      "phased_evolution"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {},
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "inf_aafd87d0",
+  "version": "1.0",
+  "timestamp": "2026-07-03T00:11:51.638725+00:00",
+  "source": "claude_session",
+  "raw_text": "The stale-error bug was resolved with two complementary fixes that assign clear responsibility for error state. The fused logos runner now authoritatively drops stale per-dimension errors for the eight dimensions it re-tags on a successful pass, clearing the entire error map when only retired dimensions remain. Separately, the completeness predicate was scoped to check only the eight managed dimensions, so a vestigial error from a retired dimension can no longer mark a fully-tagged inference as incomplete. This separates the concern of what dimensions the driver manages from what historical errors may linger in the store.",
+  "left_keywords": [
+    "stale_error_persistence",
+    "responsibility_assignment",
+    "authoritative_error_drop",
+    "dimension_retagging",
+    "error_map_clearing",
+    "retired_dimension_residue",
+    "completeness_scoping",
+    "managed_dimension_boundary",
+    "false_incompleteness",
+    "concern_separation",
+    "driver_scope",
+    "store_lingering_state"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "stale_error_lifecycle": [
+      "authoritative_error_drop",
+      "error_map_clearing",
+      "stale_error_persistence"
+    ],
+    "dimension_governance": [
+      "dimension_retagging",
+      "managed_dimension_boundary",
+      "retired_dimension_residue"
+    ],
+    "completeness_integrity": [
+      "completeness_scoping",
+      "driver_scope",
+      "false_incompleteness"
+    ],
+    "separation_of_concern": [
+      "concern_separation",
+      "responsibility_assignment",
+      "store_lingering_state"
+    ]
+  },
+  "category_paths": [
+    "false_incompleteness/authoritative_error_drop",
+    "false_incompleteness/completeness_scoping",
+    "false_incompleteness/concern_separation",
+    "false_incompleteness/dimension_retagging",
+    "false_incompleteness/driver_scope",
+    "false_incompleteness/error_map_clearing",
+    "false_incompleteness/managed_dimension_boundary",
+    "false_incompleteness/responsibility_assignment",
+    "false_incompleteness/retired_dimension_residue",
+    "false_incompleteness/store_lingering_state",
+    "stale_error_persistence/authoritative_error_drop",
+    "stale_error_persistence/completeness_scoping",
+    "stale_error_persistence/concern_separation",
+    "stale_error_persistence/dimension_retagging",
+    "stale_error_persistence/driver_scope",
+    "stale_error_persistence/error_map_clearing",
+    "stale_error_persistence/false_incompleteness",
+    "stale_error_persistence/managed_dimension_boundary",
+    "stale_error_persistence/responsibility_assignment",
+    "stale_error_persistence/retired_dimension_residue",
+    "stale_error_persistence/store_lingering_state"
+  ],
+  "tension_score": null,
+  "guardrail_actions": {},
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

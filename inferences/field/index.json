@@ -1,0 +1,1460 @@
+{
+  "version": "3.0",
+  "total_inferences": 0,
+  "keywords": {},
+  "cooccurrence": {},
+  "categories": {
+    "tree": {
+      "dna_exoneration": {
+        "delayed_justice": [
+          "wrongful_conviction",
+          "eyewitness_misidentification",
+          "forensic_fabrication",
+          "statistical_misrepresentation"
+        ],
+        "wrongful_conviction": [
+          "eyewitness_misidentification",
+          "forensic_fabrication",
+          "statistical_misrepresentation",
+          "institutional_incompetence"
+        ],
+        "eyewitness_misidentification": [
+          "forensic_fabrication",
+          "statistical_misrepresentation",
+          "institutional_incompetence",
+          "exculpatory_neglect"
+        ],
+        "forensic_fabrication": [
+          "statistical_misrepresentation",
+          "institutional_incompetence",
+          "exculpatory_neglect",
+          "physical_evidence_contradiction"
+        ],
+        "statistical_misrepresentation": [
+          "institutional_incompetence",
+          "exculpatory_neglect",
+          "physical_evidence_contradiction",
+          "racial_disparity"
+        ],
+        "institutional_incompetence": [
+          "exculpatory_neglect",
+          "physical_evidence_contradiction",
+          "racial_disparity",
+          "inadequate_defense"
+        ],
+        "exculpatory_neglect": [
+          "physical_evidence_contradiction",
+          "racial_disparity",
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "physical_evidence_contradiction": [
+          "racial_disparity",
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "racial_disparity": [
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "inadequate_defense": [
+          "custodial_years_lost"
+        ],
+        "custodial_years_lost": [],
+        "false_confession": [
+          "interrogator_fed_facts",
+          "suggestibility_under_authority",
+          "intellectual_disability_exploitation",
+          "confession_as_sole_evidence"
+        ],
+        "interrogator_fed_facts": [
+          "suggestibility_under_authority",
+          "intellectual_disability_exploitation",
+          "confession_as_sole_evidence",
+          "evidence_contradiction_ignored"
+        ],
+        "suggestibility_under_authority": [
+          "intellectual_disability_exploitation",
+          "confession_as_sole_evidence",
+          "evidence_contradiction_ignored",
+          "wrongful_capital_conviction"
+        ],
+        "intellectual_disability_exploitation": [
+          "confession_as_sole_evidence",
+          "evidence_contradiction_ignored",
+          "wrongful_capital_conviction",
+          "near_execution"
+        ],
+        "confession_as_sole_evidence": [
+          "evidence_contradiction_ignored",
+          "wrongful_capital_conviction",
+          "near_execution",
+          "half_measure_clemency"
+        ],
+        "evidence_contradiction_ignored": [
+          "wrongful_capital_conviction",
+          "near_execution",
+          "half_measure_clemency",
+          "institutional_inertia"
+        ],
+        "wrongful_capital_conviction": [
+          "near_execution",
+          "half_measure_clemency",
+          "institutional_inertia",
+          "fabricated_evidence_accountability"
+        ],
+        "near_execution": [
+          "half_measure_clemency",
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified"
+        ],
+        "half_measure_clemency": [
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure"
+        ],
+        "institutional_inertia": [
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "fabricated_evidence_accountability": [
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "true_perpetrator_identified": [
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "systemic_acknowledgment_failure": [
+          "racialized_suspicion"
+        ],
+        "racialized_suspicion": []
+      },
+      "delayed_justice": {
+        "wrongful_conviction": [
+          "eyewitness_misidentification",
+          "forensic_fabrication",
+          "statistical_misrepresentation",
+          "institutional_incompetence"
+        ],
+        "eyewitness_misidentification": [
+          "forensic_fabrication",
+          "statistical_misrepresentation",
+          "institutional_incompetence",
+          "exculpatory_neglect"
+        ],
+        "forensic_fabrication": [
+          "statistical_misrepresentation",
+          "institutional_incompetence",
+          "exculpatory_neglect",
+          "physical_evidence_contradiction"
+        ],
+        "statistical_misrepresentation": [
+          "institutional_incompetence",
+          "exculpatory_neglect",
+          "physical_evidence_contradiction",
+          "racial_disparity"
+        ],
+        "institutional_incompetence": [
+          "exculpatory_neglect",
+          "physical_evidence_contradiction",
+          "racial_disparity",
+          "inadequate_defense"
+        ],
+        "exculpatory_neglect": [
+          "physical_evidence_contradiction",
+          "racial_disparity",
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "physical_evidence_contradiction": [
+          "racial_disparity",
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "racial_disparity": [
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "inadequate_defense": [
+          "custodial_years_lost"
+        ],
+        "custodial_years_lost": [],
+        "false_confession": [
+          "interrogator_fed_facts",
+          "suggestibility_under_authority",
+          "intellectual_disability_exploitation",
+          "confession_as_sole_evidence"
+        ],
+        "interrogator_fed_facts": [
+          "suggestibility_under_authority",
+          "intellectual_disability_exploitation",
+          "confession_as_sole_evidence",
+          "evidence_contradiction_ignored"
+        ],
+        "suggestibility_under_authority": [
+          "intellectual_disability_exploitation",
+          "confession_as_sole_evidence",
+          "evidence_contradiction_ignored",
+          "wrongful_capital_conviction"
+        ],
+        "intellectual_disability_exploitation": [
+          "confession_as_sole_evidence",
+          "evidence_contradiction_ignored",
+          "wrongful_capital_conviction",
+          "near_execution"
+        ],
+        "confession_as_sole_evidence": [
+          "evidence_contradiction_ignored",
+          "wrongful_capital_conviction",
+          "near_execution",
+          "half_measure_clemency"
+        ],
+        "evidence_contradiction_ignored": [
+          "wrongful_capital_conviction",
+          "near_execution",
+          "half_measure_clemency",
+          "institutional_inertia"
+        ],
+        "wrongful_capital_conviction": [
+          "near_execution",
+          "half_measure_clemency",
+          "institutional_inertia",
+          "fabricated_evidence_accountability"
+        ],
+        "near_execution": [
+          "half_measure_clemency",
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified"
+        ],
+        "half_measure_clemency": [
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure"
+        ],
+        "institutional_inertia": [
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "fabricated_evidence_accountability": [
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "true_perpetrator_identified": [
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "systemic_acknowledgment_failure": [
+          "racialized_suspicion"
+        ],
+        "racialized_suspicion": []
+      },
+      "false_confession": {
+        "interrogator_fed_facts": [
+          "suggestibility_under_authority",
+          "intellectual_disability_exploitation",
+          "confession_as_sole_evidence",
+          "evidence_contradiction_ignored"
+        ],
+        "suggestibility_under_authority": [
+          "intellectual_disability_exploitation",
+          "confession_as_sole_evidence",
+          "evidence_contradiction_ignored",
+          "wrongful_capital_conviction"
+        ],
+        "intellectual_disability_exploitation": [
+          "confession_as_sole_evidence",
+          "evidence_contradiction_ignored",
+          "wrongful_capital_conviction",
+          "near_execution"
+        ],
+        "confession_as_sole_evidence": [
+          "evidence_contradiction_ignored",
+          "wrongful_capital_conviction",
+          "near_execution",
+          "half_measure_clemency"
+        ],
+        "evidence_contradiction_ignored": [
+          "wrongful_capital_conviction",
+          "near_execution",
+          "half_measure_clemency",
+          "institutional_inertia"
+        ],
+        "wrongful_capital_conviction": [
+          "near_execution",
+          "half_measure_clemency",
+          "institutional_inertia",
+          "fabricated_evidence_accountability"
+        ],
+        "near_execution": [
+          "half_measure_clemency",
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified"
+        ],
+        "half_measure_clemency": [
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure"
+        ],
+        "institutional_inertia": [
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "fabricated_evidence_accountability": [
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "true_perpetrator_identified": [
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "systemic_acknowledgment_failure": [
+          "racialized_suspicion"
+        ],
+        "racialized_suspicion": []
+      },
+      "interrogator_fed_facts": {
+        "suggestibility_under_authority": [
+          "intellectual_disability_exploitation",
+          "confession_as_sole_evidence",
+          "evidence_contradiction_ignored",
+          "wrongful_capital_conviction"
+        ],
+        "intellectual_disability_exploitation": [
+          "confession_as_sole_evidence",
+          "evidence_contradiction_ignored",
+          "wrongful_capital_conviction",
+          "near_execution"
+        ],
+        "confession_as_sole_evidence": [
+          "evidence_contradiction_ignored",
+          "wrongful_capital_conviction",
+          "near_execution",
+          "half_measure_clemency"
+        ],
+        "evidence_contradiction_ignored": [
+          "wrongful_capital_conviction",
+          "near_execution",
+          "half_measure_clemency",
+          "institutional_inertia"
+        ],
+        "wrongful_capital_conviction": [
+          "near_execution",
+          "half_measure_clemency",
+          "institutional_inertia",
+          "fabricated_evidence_accountability"
+        ],
+        "near_execution": [
+          "half_measure_clemency",
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified"
+        ],
+        "half_measure_clemency": [
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure"
+        ],
+        "institutional_inertia": [
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "fabricated_evidence_accountability": [
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "true_perpetrator_identified": [
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "systemic_acknowledgment_failure": [
+          "racialized_suspicion"
+        ],
+        "racialized_suspicion": []
+      },
+      "suggestibility_under_authority": {
+        "intellectual_disability_exploitation": [
+          "confession_as_sole_evidence",
+          "evidence_contradiction_ignored",
+          "wrongful_capital_conviction",
+          "near_execution"
+        ],
+        "confession_as_sole_evidence": [
+          "evidence_contradiction_ignored",
+          "wrongful_capital_conviction",
+          "near_execution",
+          "half_measure_clemency"
+        ],
+        "evidence_contradiction_ignored": [
+          "wrongful_capital_conviction",
+          "near_execution",
+          "half_measure_clemency",
+          "institutional_inertia"
+        ],
+        "wrongful_capital_conviction": [
+          "near_execution",
+          "half_measure_clemency",
+          "institutional_inertia",
+          "fabricated_evidence_accountability"
+        ],
+        "near_execution": [
+          "half_measure_clemency",
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified"
+        ],
+        "half_measure_clemency": [
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure"
+        ],
+        "institutional_inertia": [
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "fabricated_evidence_accountability": [
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "true_perpetrator_identified": [
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "systemic_acknowledgment_failure": [
+          "racialized_suspicion"
+        ],
+        "racialized_suspicion": []
+      },
+      "intellectual_disability_exploitation": {
+        "confession_as_sole_evidence": [
+          "evidence_contradiction_ignored",
+          "wrongful_capital_conviction",
+          "near_execution",
+          "half_measure_clemency"
+        ],
+        "evidence_contradiction_ignored": [
+          "wrongful_capital_conviction",
+          "near_execution",
+          "half_measure_clemency",
+          "institutional_inertia"
+        ],
+        "wrongful_capital_conviction": [
+          "near_execution",
+          "half_measure_clemency",
+          "institutional_inertia",
+          "fabricated_evidence_accountability"
+        ],
+        "near_execution": [
+          "half_measure_clemency",
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified"
+        ],
+        "half_measure_clemency": [
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure"
+        ],
+        "institutional_inertia": [
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "fabricated_evidence_accountability": [
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "true_perpetrator_identified": [
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "systemic_acknowledgment_failure": [
+          "racialized_suspicion"
+        ],
+        "racialized_suspicion": []
+      },
+      "confession_as_sole_evidence": {
+        "evidence_contradiction_ignored": [
+          "wrongful_capital_conviction",
+          "near_execution",
+          "half_measure_clemency",
+          "institutional_inertia"
+        ],
+        "wrongful_capital_conviction": [
+          "near_execution",
+          "half_measure_clemency",
+          "institutional_inertia",
+          "fabricated_evidence_accountability"
+        ],
+        "near_execution": [
+          "half_measure_clemency",
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified"
+        ],
+        "half_measure_clemency": [
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure"
+        ],
+        "institutional_inertia": [
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "fabricated_evidence_accountability": [
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "true_perpetrator_identified": [
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "systemic_acknowledgment_failure": [
+          "racialized_suspicion"
+        ],
+        "racialized_suspicion": []
+      },
+      "evidence_contradiction_ignored": {
+        "wrongful_capital_conviction": [
+          "near_execution",
+          "half_measure_clemency",
+          "institutional_inertia",
+          "fabricated_evidence_accountability"
+        ],
+        "near_execution": [
+          "half_measure_clemency",
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified"
+        ],
+        "half_measure_clemency": [
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure"
+        ],
+        "institutional_inertia": [
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "fabricated_evidence_accountability": [
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "true_perpetrator_identified": [
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "systemic_acknowledgment_failure": [
+          "racialized_suspicion"
+        ],
+        "racialized_suspicion": []
+      },
+      "wrongful_capital_conviction": {
+        "near_execution": [
+          "half_measure_clemency",
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified"
+        ],
+        "half_measure_clemency": [
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure"
+        ],
+        "institutional_inertia": [
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "fabricated_evidence_accountability": [
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "true_perpetrator_identified": [
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "systemic_acknowledgment_failure": [
+          "racialized_suspicion"
+        ],
+        "racialized_suspicion": []
+      },
+      "near_execution": {
+        "half_measure_clemency": [
+          "institutional_inertia",
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure"
+        ],
+        "institutional_inertia": [
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "fabricated_evidence_accountability": [
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "true_perpetrator_identified": [
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "systemic_acknowledgment_failure": [
+          "racialized_suspicion"
+        ],
+        "racialized_suspicion": []
+      },
+      "half_measure_clemency": {
+        "institutional_inertia": [
+          "fabricated_evidence_accountability",
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "fabricated_evidence_accountability": [
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "true_perpetrator_identified": [
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "systemic_acknowledgment_failure": [
+          "racialized_suspicion"
+        ],
+        "racialized_suspicion": []
+      },
+      "institutional_inertia": {
+        "fabricated_evidence_accountability": [
+          "true_perpetrator_identified",
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "true_perpetrator_identified": [
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "systemic_acknowledgment_failure": [
+          "racialized_suspicion"
+        ],
+        "racialized_suspicion": []
+      },
+      "fabricated_evidence_accountability": {
+        "true_perpetrator_identified": [
+          "systemic_acknowledgment_failure",
+          "racialized_suspicion"
+        ],
+        "systemic_acknowledgment_failure": [
+          "racialized_suspicion"
+        ],
+        "racialized_suspicion": []
+      },
+      "true_perpetrator_identified": {
+        "systemic_acknowledgment_failure": [
+          "racialized_suspicion"
+        ],
+        "racialized_suspicion": []
+      },
+      "systemic_acknowledgment_failure": {
+        "racialized_suspicion": []
+      },
+      "wrongful_conviction": {
+        "eyewitness_misidentification": [
+          "forensic_fabrication",
+          "statistical_misrepresentation",
+          "institutional_incompetence",
+          "exculpatory_neglect"
+        ],
+        "forensic_fabrication": [
+          "statistical_misrepresentation",
+          "institutional_incompetence",
+          "exculpatory_neglect",
+          "physical_evidence_contradiction"
+        ],
+        "statistical_misrepresentation": [
+          "institutional_incompetence",
+          "exculpatory_neglect",
+          "physical_evidence_contradiction",
+          "racial_disparity"
+        ],
+        "institutional_incompetence": [
+          "exculpatory_neglect",
+          "physical_evidence_contradiction",
+          "racial_disparity",
+          "inadequate_defense"
+        ],
+        "exculpatory_neglect": [
+          "physical_evidence_contradiction",
+          "racial_disparity",
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "physical_evidence_contradiction": [
+          "racial_disparity",
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "racial_disparity": [
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "inadequate_defense": [
+          "custodial_years_lost"
+        ],
+        "custodial_years_lost": []
+      },
+      "eyewitness_misidentification": {
+        "forensic_fabrication": [
+          "statistical_misrepresentation",
+          "institutional_incompetence",
+          "exculpatory_neglect",
+          "physical_evidence_contradiction"
+        ],
+        "statistical_misrepresentation": [
+          "institutional_incompetence",
+          "exculpatory_neglect",
+          "physical_evidence_contradiction",
+          "racial_disparity"
+        ],
+        "institutional_incompetence": [
+          "exculpatory_neglect",
+          "physical_evidence_contradiction",
+          "racial_disparity",
+          "inadequate_defense"
+        ],
+        "exculpatory_neglect": [
+          "physical_evidence_contradiction",
+          "racial_disparity",
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "physical_evidence_contradiction": [
+          "racial_disparity",
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "racial_disparity": [
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "inadequate_defense": [
+          "custodial_years_lost"
+        ],
+        "custodial_years_lost": []
+      },
+      "forensic_fabrication": {
+        "statistical_misrepresentation": [
+          "institutional_incompetence",
+          "exculpatory_neglect",
+          "physical_evidence_contradiction",
+          "racial_disparity"
+        ],
+        "institutional_incompetence": [
+          "exculpatory_neglect",
+          "physical_evidence_contradiction",
+          "racial_disparity",
+          "inadequate_defense"
+        ],
+        "exculpatory_neglect": [
+          "physical_evidence_contradiction",
+          "racial_disparity",
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "physical_evidence_contradiction": [
+          "racial_disparity",
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "racial_disparity": [
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "inadequate_defense": [
+          "custodial_years_lost"
+        ],
+        "custodial_years_lost": []
+      },
+      "statistical_misrepresentation": {
+        "institutional_incompetence": [
+          "exculpatory_neglect",
+          "physical_evidence_contradiction",
+          "racial_disparity",
+          "inadequate_defense"
+        ],
+        "exculpatory_neglect": [
+          "physical_evidence_contradiction",
+          "racial_disparity",
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "physical_evidence_contradiction": [
+          "racial_disparity",
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "racial_disparity": [
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "inadequate_defense": [
+          "custodial_years_lost"
+        ],
+        "custodial_years_lost": []
+      },
+      "institutional_incompetence": {
+        "exculpatory_neglect": [
+          "physical_evidence_contradiction",
+          "racial_disparity",
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "physical_evidence_contradiction": [
+          "racial_disparity",
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "racial_disparity": [
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "inadequate_defense": [
+          "custodial_years_lost"
+        ],
+        "custodial_years_lost": []
+      },
+      "exculpatory_neglect": {
+        "physical_evidence_contradiction": [
+          "racial_disparity",
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "racial_disparity": [
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "inadequate_defense": [
+          "custodial_years_lost"
+        ],
+        "custodial_years_lost": []
+      },
+      "physical_evidence_contradiction": {
+        "racial_disparity": [
+          "inadequate_defense",
+          "custodial_years_lost"
+        ],
+        "inadequate_defense": [
+          "custodial_years_lost"
+        ],
+        "custodial_years_lost": []
+      },
+      "racial_disparity": {
+        "inadequate_defense": [
+          "custodial_years_lost"
+        ],
+        "custodial_years_lost": []
+      },
+      "inadequate_defense": {
+        "custodial_years_lost": []
+      }
+    },
+    "paths": {
+      "delayed_justice/custodial_years_lost": [
+        "inf_285ae7ab"
+      ],
+      "delayed_justice/exculpatory_neglect": [
+        "inf_285ae7ab"
+      ],
+      "delayed_justice/eyewitness_misidentification": [
+        "inf_285ae7ab"
+      ],
+      "delayed_justice/forensic_fabrication": [
+        "inf_285ae7ab"
+      ],
+      "delayed_justice/inadequate_defense": [
+        "inf_285ae7ab"
+      ],
+      "delayed_justice/institutional_incompetence": [
+        "inf_285ae7ab"
+      ],
+      "delayed_justice/physical_evidence_contradiction": [
+        "inf_285ae7ab"
+      ],
+      "delayed_justice/racial_disparity": [
+        "inf_285ae7ab"
+      ],
+      "delayed_justice/statistical_misrepresentation": [
+        "inf_285ae7ab"
+      ],
+      "delayed_justice/wrongful_conviction": [
+        "inf_285ae7ab"
+      ],
+      "dna_exoneration/custodial_years_lost": [
+        "inf_285ae7ab"
+      ],
+      "dna_exoneration/delayed_justice": [
+        "inf_285ae7ab",
+        "inf_a3d99808"
+      ],
+      "dna_exoneration/exculpatory_neglect": [
+        "inf_285ae7ab"
+      ],
+      "dna_exoneration/eyewitness_misidentification": [
+        "inf_285ae7ab"
+      ],
+      "dna_exoneration/forensic_fabrication": [
+        "inf_285ae7ab"
+      ],
+      "dna_exoneration/inadequate_defense": [
+        "inf_285ae7ab"
+      ],
+      "dna_exoneration/institutional_incompetence": [
+        "inf_285ae7ab"
+      ],
+      "dna_exoneration/physical_evidence_contradiction": [
+        "inf_285ae7ab"
+      ],
+      "dna_exoneration/racial_disparity": [
+        "inf_285ae7ab"
+      ],
+      "dna_exoneration/statistical_misrepresentation": [
+        "inf_285ae7ab"
+      ],
+      "dna_exoneration/wrongful_conviction": [
+        "inf_285ae7ab"
+      ],
+      "exculpatory_neglect/custodial_years_lost": [
+        "inf_285ae7ab"
+      ],
+      "exculpatory_neglect/inadequate_defense": [
+        "inf_285ae7ab"
+      ],
+      "exculpatory_neglect/physical_evidence_contradiction": [
+        "inf_285ae7ab"
+      ],
+      "exculpatory_neglect/racial_disparity": [
+        "inf_285ae7ab"
+      ],
+      "eyewitness_misidentification/custodial_years_lost": [
+        "inf_285ae7ab"
+      ],
+      "eyewitness_misidentification/exculpatory_neglect": [
+        "inf_285ae7ab"
+      ],
+      "eyewitness_misidentification/forensic_fabrication": [
+        "inf_285ae7ab"
+      ],
+      "eyewitness_misidentification/inadequate_defense": [
+        "inf_285ae7ab"
+      ],
+      "eyewitness_misidentification/institutional_incompetence": [
+        "inf_285ae7ab"
+      ],
+      "eyewitness_misidentification/physical_evidence_contradiction": [
+        "inf_285ae7ab"
+      ],
+      "eyewitness_misidentification/racial_disparity": [
+        "inf_285ae7ab"
+      ],
+      "eyewitness_misidentification/statistical_misrepresentation": [
+        "inf_285ae7ab"
+      ],
+      "forensic_fabrication/custodial_years_lost": [
+        "inf_285ae7ab"
+      ],
+      "forensic_fabrication/exculpatory_neglect": [
+        "inf_285ae7ab"
+      ],
+      "forensic_fabrication/inadequate_defense": [
+        "inf_285ae7ab"
+      ],
+      "forensic_fabrication/institutional_incompetence": [
+        "inf_285ae7ab"
+      ],
+      "forensic_fabrication/physical_evidence_contradiction": [
+        "inf_285ae7ab"
+      ],
+      "forensic_fabrication/racial_disparity": [
+        "inf_285ae7ab"
+      ],
+      "forensic_fabrication/statistical_misrepresentation": [
+        "inf_285ae7ab"
+      ],
+      "inadequate_defense/custodial_years_lost": [
+        "inf_285ae7ab"
+      ],
+      "institutional_incompetence/custodial_years_lost": [
+        "inf_285ae7ab"
+      ],
+      "institutional_incompetence/exculpatory_neglect": [
+        "inf_285ae7ab"
+      ],
+      "institutional_incompetence/inadequate_defense": [
+        "inf_285ae7ab"
+      ],
+      "institutional_incompetence/physical_evidence_contradiction": [
+        "inf_285ae7ab"
+      ],
+      "institutional_incompetence/racial_disparity": [
+        "inf_285ae7ab"
+      ],
+      "physical_evidence_contradiction/custodial_years_lost": [
+        "inf_285ae7ab"
+      ],
+      "physical_evidence_contradiction/inadequate_defense": [
+        "inf_285ae7ab"
+      ],
+      "physical_evidence_contradiction/racial_disparity": [
+        "inf_285ae7ab"
+      ],
+      "racial_disparity/custodial_years_lost": [
+        "inf_285ae7ab"
+      ],
+      "racial_disparity/inadequate_defense": [
+        "inf_285ae7ab"
+      ],
+      "statistical_misrepresentation/custodial_years_lost": [
+        "inf_285ae7ab"
+      ],
+      "statistical_misrepresentation/exculpatory_neglect": [
+        "inf_285ae7ab"
+      ],
+      "statistical_misrepresentation/inadequate_defense": [
+        "inf_285ae7ab"
+      ],
+      "statistical_misrepresentation/institutional_incompetence": [
+        "inf_285ae7ab"
+      ],
+      "statistical_misrepresentation/physical_evidence_contradiction": [
+        "inf_285ae7ab"
+      ],
+      "statistical_misrepresentation/racial_disparity": [
+        "inf_285ae7ab"
+      ],
+      "wrongful_conviction/custodial_years_lost": [
+        "inf_285ae7ab"
+      ],
+      "wrongful_conviction/exculpatory_neglect": [
+        "inf_285ae7ab"
+      ],
+      "wrongful_conviction/eyewitness_misidentification": [
+        "inf_285ae7ab"
+      ],
+      "wrongful_conviction/forensic_fabrication": [
+        "inf_285ae7ab"
+      ],
+      "wrongful_conviction/inadequate_defense": [
+        "inf_285ae7ab"
+      ],
+      "wrongful_conviction/institutional_incompetence": [
+        "inf_285ae7ab"
+      ],
+      "wrongful_conviction/physical_evidence_contradiction": [
+        "inf_285ae7ab"
+      ],
+      "wrongful_conviction/racial_disparity": [
+        "inf_285ae7ab"
+      ],
+      "wrongful_conviction/statistical_misrepresentation": [
+        "inf_285ae7ab"
+      ],
+      "confession_as_sole_evidence/evidence_contradiction_ignored": [
+        "inf_a3d99808"
+      ],
+      "confession_as_sole_evidence/fabricated_evidence_accountability": [
+        "inf_a3d99808"
+      ],
+      "confession_as_sole_evidence/half_measure_clemency": [
+        "inf_a3d99808"
+      ],
+      "confession_as_sole_evidence/institutional_inertia": [
+        "inf_a3d99808"
+      ],
+      "confession_as_sole_evidence/near_execution": [
+        "inf_a3d99808"
+      ],
+      "confession_as_sole_evidence/racialized_suspicion": [
+        "inf_a3d99808"
+      ],
+      "confession_as_sole_evidence/systemic_acknowledgment_failure": [
+        "inf_a3d99808"
+      ],
+      "confession_as_sole_evidence/true_perpetrator_identified": [
+        "inf_a3d99808"
+      ],
+      "confession_as_sole_evidence/wrongful_capital_conviction": [
+        "inf_a3d99808"
+      ],
+      "delayed_justice/confession_as_sole_evidence": [
+        "inf_a3d99808"
+      ],
+      "delayed_justice/evidence_contradiction_ignored": [
+        "inf_a3d99808"
+      ],
+      "delayed_justice/fabricated_evidence_accountability": [
+        "inf_a3d99808"
+      ],
+      "delayed_justice/false_confession": [
+        "inf_a3d99808"
+      ],
+      "delayed_justice/half_measure_clemency": [
+        "inf_a3d99808"
+      ],
+      "delayed_justice/institutional_inertia": [
+        "inf_a3d99808"
+      ],
+      "delayed_justice/intellectual_disability_exploitation": [
+        "inf_a3d99808"
+      ],
+      "delayed_justice/interrogator_fed_facts": [
+        "inf_a3d99808"
+      ],
+      "delayed_justice/near_execution": [
+        "inf_a3d99808"
+      ],
+      "delayed_justice/racialized_suspicion": [
+        "inf_a3d99808"
+      ],
+      "delayed_justice/suggestibility_under_authority": [
+        "inf_a3d99808"
+      ],
+      "delayed_justice/systemic_acknowledgment_failure": [
+        "inf_a3d99808"
+      ],
+      "delayed_justice/true_perpetrator_identified": [
+        "inf_a3d99808"
+      ],
+      "delayed_justice/wrongful_capital_conviction": [
+        "inf_a3d99808"
+      ],
+      "dna_exoneration/confession_as_sole_evidence": [
+        "inf_a3d99808"
+      ],
+      "dna_exoneration/evidence_contradiction_ignored": [
+        "inf_a3d99808"
+      ],
+      "dna_exoneration/fabricated_evidence_accountability": [
+        "inf_a3d99808"
+      ],
+      "dna_exoneration/false_confession": [
+        "inf_a3d99808"
+      ],
+      "dna_exoneration/half_measure_clemency": [
+        "inf_a3d99808"
+      ],
+      "dna_exoneration/institutional_inertia": [
+        "inf_a3d99808"
+      ],
+      "dna_exoneration/intellectual_disability_exploitation": [
+        "inf_a3d99808"
+      ],
+      "dna_exoneration/interrogator_fed_facts": [
+        "inf_a3d99808"
+      ],
+      "dna_exoneration/near_execution": [
+        "inf_a3d99808"
+      ],
+      "dna_exoneration/racialized_suspicion": [
+        "inf_a3d99808"
+      ],
+      "dna_exoneration/suggestibility_under_authority": [
+        "inf_a3d99808"
+      ],
+      "dna_exoneration/systemic_acknowledgment_failure": [
+        "inf_a3d99808"
+      ],
+      "dna_exoneration/true_perpetrator_identified": [
+        "inf_a3d99808"
+      ],
+      "dna_exoneration/wrongful_capital_conviction": [
+        "inf_a3d99808"
+      ],
+      "evidence_contradiction_ignored/fabricated_evidence_accountability": [
+        "inf_a3d99808"
+      ],
+      "evidence_contradiction_ignored/half_measure_clemency": [
+        "inf_a3d99808"
+      ],
+      "evidence_contradiction_ignored/institutional_inertia": [
+        "inf_a3d99808"
+      ],
+      "evidence_contradiction_ignored/near_execution": [
+        "inf_a3d99808"
+      ],
+      "evidence_contradiction_ignored/racialized_suspicion": [
+        "inf_a3d99808"
+      ],
+      "evidence_contradiction_ignored/systemic_acknowledgment_failure": [
+        "inf_a3d99808"
+      ],
+      "evidence_contradiction_ignored/true_perpetrator_identified": [
+        "inf_a3d99808"
+      ],
+      "evidence_contradiction_ignored/wrongful_capital_conviction": [
+        "inf_a3d99808"
+      ],
+      "fabricated_evidence_accountability/racialized_suspicion": [
+        "inf_a3d99808"
+      ],
+      "fabricated_evidence_accountability/systemic_acknowledgment_failure": [
+        "inf_a3d99808"
+      ],
+      "fabricated_evidence_accountability/true_perpetrator_identified": [
+        "inf_a3d99808"
+      ],
+      "false_confession/confession_as_sole_evidence": [
+        "inf_a3d99808"
+      ],
+      "false_confession/evidence_contradiction_ignored": [
+        "inf_a3d99808"
+      ],
+      "false_confession/fabricated_evidence_accountability": [
+        "inf_a3d99808"
+      ],
+      "false_confession/half_measure_clemency": [
+        "inf_a3d99808"
+      ],
+      "false_confession/institutional_inertia": [
+        "inf_a3d99808"
+      ],
+      "false_confession/intellectual_disability_exploitation": [
+        "inf_a3d99808"
+      ],
+      "false_confession/interrogator_fed_facts": [
+        "inf_a3d99808"
+      ],
+      "false_confession/near_execution": [
+        "inf_a3d99808"
+      ],
+      "false_confession/racialized_suspicion": [
+        "inf_a3d99808"
+      ],
+      "false_confession/suggestibility_under_authority": [
+        "inf_a3d99808"
+      ],
+      "false_confession/systemic_acknowledgment_failure": [
+        "inf_a3d99808"
+      ],
+      "false_confession/true_perpetrator_identified": [
+        "inf_a3d99808"
+      ],
+      "false_confession/wrongful_capital_conviction": [
+        "inf_a3d99808"
+      ],
+      "half_measure_clemency/fabricated_evidence_accountability": [
+        "inf_a3d99808"
+      ],
+      "half_measure_clemency/institutional_inertia": [
+        "inf_a3d99808"
+      ],
+      "half_measure_clemency/racialized_suspicion": [
+        "inf_a3d99808"
+      ],
+      "half_measure_clemency/systemic_acknowledgment_failure": [
+        "inf_a3d99808"
+      ],
+      "half_measure_clemency/true_perpetrator_identified": [
+        "inf_a3d99808"
+      ],
+      "institutional_inertia/fabricated_evidence_accountability": [
+        "inf_a3d99808"
+      ],
+      "institutional_inertia/racialized_suspicion": [
+        "inf_a3d99808"
+      ],
+      "institutional_inertia/systemic_acknowledgment_failure": [
+        "inf_a3d99808"
+      ],
+      "institutional_inertia/true_perpetrator_identified": [
+        "inf_a3d99808"
+      ],
+      "intellectual_disability_exploitation/confession_as_sole_evidence": [
+        "inf_a3d99808"
+      ],
+      "intellectual_disability_exploitation/evidence_contradiction_ignored": [
+        "inf_a3d99808"
+      ],
+      "intellectual_disability_exploitation/fabricated_evidence_accountability": [
+        "inf_a3d99808"
+      ],
+      "intellectual_disability_exploitation/half_measure_clemency": [
+        "inf_a3d99808"
+      ],
+      "intellectual_disability_exploitation/institutional_inertia": [
+        "inf_a3d99808"
+      ],
+      "intellectual_disability_exploitation/near_execution": [
+        "inf_a3d99808"
+      ],
+      "intellectual_disability_exploitation/racialized_suspicion": [
+        "inf_a3d99808"
+      ],
+      "intellectual_disability_exploitation/systemic_acknowledgment_failure": [
+        "inf_a3d99808"
+      ],
+      "intellectual_disability_exploitation/true_perpetrator_identified": [
+        "inf_a3d99808"
+      ],
+      "intellectual_disability_exploitation/wrongful_capital_conviction": [
+        "inf_a3d99808"
+      ],
+      "interrogator_fed_facts/confession_as_sole_evidence": [
+        "inf_a3d99808"
+      ],
+      "interrogator_fed_facts/evidence_contradiction_ignored": [
+        "inf_a3d99808"
+      ],
+      "interrogator_fed_facts/fabricated_evidence_accountability": [
+        "inf_a3d99808"
+      ],
+      "interrogator_fed_facts/half_measure_clemency": [
+        "inf_a3d99808"
+      ],
+      "interrogator_fed_facts/institutional_inertia": [
+        "inf_a3d99808"
+      ],
+      "interrogator_fed_facts/intellectual_disability_exploitation": [
+        "inf_a3d99808"
+      ],
+      "interrogator_fed_facts/near_execution": [
+        "inf_a3d99808"
+      ],
+      "interrogator_fed_facts/racialized_suspicion": [
+        "inf_a3d99808"
+      ],
+      "interrogator_fed_facts/suggestibility_under_authority": [
+        "inf_a3d99808"
+      ],
+      "interrogator_fed_facts/systemic_acknowledgment_failure": [
+        "inf_a3d99808"
+      ],
+      "interrogator_fed_facts/true_perpetrator_identified": [
+        "inf_a3d99808"
+      ],
+      "interrogator_fed_facts/wrongful_capital_conviction": [
+        "inf_a3d99808"
+      ],
+      "near_execution/fabricated_evidence_accountability": [
+        "inf_a3d99808"
+      ],
+      "near_execution/half_measure_clemency": [
+        "inf_a3d99808"
+      ],
+      "near_execution/institutional_inertia": [
+        "inf_a3d99808"
+      ],
+      "near_execution/racialized_suspicion": [
+        "inf_a3d99808"
+      ],
+      "near_execution/systemic_acknowledgment_failure": [
+        "inf_a3d99808"
+      ],
+      "near_execution/true_perpetrator_identified": [
+        "inf_a3d99808"
+      ],
+      "suggestibility_under_authority/confession_as_sole_evidence": [
+        "inf_a3d99808"
+      ],
+      "suggestibility_under_authority/evidence_contradiction_ignored": [
+        "inf_a3d99808"
+      ],
+      "suggestibility_under_authority/fabricated_evidence_accountability": [
+        "inf_a3d99808"
+      ],
+      "suggestibility_under_authority/half_measure_clemency": [
+        "inf_a3d99808"
+      ],
+      "suggestibility_under_authority/institutional_inertia": [
+        "inf_a3d99808"
+      ],
+      "suggestibility_under_authority/intellectual_disability_exploitation": [
+        "inf_a3d99808"
+      ],
+      "suggestibility_under_authority/near_execution": [
+        "inf_a3d99808"
+      ],
+      "suggestibility_under_authority/racialized_suspicion": [
+        "inf_a3d99808"
+      ],
+      "suggestibility_under_authority/systemic_acknowledgment_failure": [
+        "inf_a3d99808"
+      ],
+      "suggestibility_under_authority/true_perpetrator_identified": [
+        "inf_a3d99808"
+      ],
+      "suggestibility_under_authority/wrongful_capital_conviction": [
+        "inf_a3d99808"
+      ],
+      "systemic_acknowledgment_failure/racialized_suspicion": [
+        "inf_a3d99808"
+      ],
+      "true_perpetrator_identified/racialized_suspicion": [
+        "inf_a3d99808"
+      ],
+      "true_perpetrator_identified/systemic_acknowledgment_failure": [
+        "inf_a3d99808"
+      ],
+      "wrongful_capital_conviction/fabricated_evidence_accountability": [
+        "inf_a3d99808"
+      ],
+      "wrongful_capital_conviction/half_measure_clemency": [
+        "inf_a3d99808"
+      ],
+      "wrongful_capital_conviction/institutional_inertia": [
+        "inf_a3d99808"
+      ],
+      "wrongful_capital_conviction/near_execution": [
+        "inf_a3d99808"
+      ],
+      "wrongful_capital_conviction/racialized_suspicion": [
+        "inf_a3d99808"
+      ],
+      "wrongful_capital_conviction/systemic_acknowledgment_failure": [
+        "inf_a3d99808"
+      ],
+      "wrongful_capital_conviction/true_perpetrator_identified": [
+        "inf_a3d99808"
+      ]
+    }
+  }
+}

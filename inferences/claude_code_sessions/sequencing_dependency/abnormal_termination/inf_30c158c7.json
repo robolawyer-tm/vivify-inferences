@@ -1,0 +1,79 @@
+{
+  "id": "inf_30c158c7",
+  "version": "1.0",
+  "timestamp": "2026-06-07T23:03:54.313318+00:00",
+  "source": "claude_session",
+  "raw_text": "A sequencing limitation was identified: gzip only runs after `script` exits cleanly, so abnormal termination of the Claude Code session \u2014 for instance, a crash or forced kill \u2014 would leave an uncompressed raw file and gzip would never execute. This was noted as a known limitation rather than a blocker, since the raw file would still be present and recoverable, but the expected compressed artifact would be absent.",
+  "left_keywords": [
+    "sequencing_dependency",
+    "conditional_execution",
+    "exit_gating",
+    "abnormal_termination",
+    "forced_kill_scenario",
+    "uncompressed_residue",
+    "missing_artifact",
+    "raw_file_persistence",
+    "known_limitation",
+    "non_blocking_risk",
+    "data_recoverability",
+    "risk_acceptance"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "process_ordering": [
+      "conditional_execution",
+      "exit_gating",
+      "sequencing_dependency"
+    ],
+    "failure_modes": [
+      "abnormal_termination",
+      "forced_kill_scenario"
+    ],
+    "artifact_state": [
+      "missing_artifact",
+      "raw_file_persistence",
+      "uncompressed_residue"
+    ],
+    "risk_framing": [
+      "known_limitation",
+      "non_blocking_risk",
+      "risk_acceptance"
+    ],
+    "recoverability": [
+      "data_recoverability",
+      "raw_file_persistence"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "sequencing_dependency/abnormal_termination",
+    "sequencing_dependency/conditional_execution",
+    "sequencing_dependency/data_recoverability",
+    "sequencing_dependency/exit_gating",
+    "sequencing_dependency/forced_kill_scenario",
+    "sequencing_dependency/known_limitation",
+    "sequencing_dependency/missing_artifact",
+    "sequencing_dependency/non_blocking_risk",
+    "sequencing_dependency/raw_file_persistence",
+    "sequencing_dependency/risk_acceptance",
+    "sequencing_dependency/uncompressed_residue"
+  ],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

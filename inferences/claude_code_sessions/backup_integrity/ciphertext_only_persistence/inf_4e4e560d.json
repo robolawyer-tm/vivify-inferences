@@ -1,0 +1,67 @@
+{
+  "id": "inf_4e4e560d",
+  "version": "1.0",
+  "timestamp": "2026-06-17T17:03:35.136717+00:00",
+  "source": "claude_session",
+  "raw_text": "A privacy architecture principle was enforced in the backup flow: a plaintext source must never be written to the backup directory. The `encrypt_it` source-removal step was rewired so that, before any plaintext is deleted, the source is first sealed with the user's SSH key via `seal_it`, the sealed ciphertext is archived to `~/backups`, and only the encrypted copy persists. Recovery is performed later with `unseal_it`, ensuring that what lands in backups is always opaque ciphertext that still round-trips faithfully to the original.",
+  "left_keywords": [
+    "plaintext_exclusion",
+    "backup_integrity",
+    "encrypt_before_delete",
+    "ssh_key_sealing",
+    "ciphertext_only_persistence",
+    "source_removal_rewiring",
+    "opaque_archive_guarantee",
+    "faithful_roundtrip",
+    "recovery_via_unseal",
+    "privacy_architecture_principle"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "plaintext_prohibition": [
+      "encrypt_before_delete",
+      "plaintext_exclusion",
+      "source_removal_rewiring"
+    ],
+    "sealing_mechanism": [
+      "ciphertext_only_persistence",
+      "opaque_archive_guarantee",
+      "ssh_key_sealing"
+    ],
+    "reversibility_assurance": [
+      "backup_integrity",
+      "faithful_roundtrip",
+      "recovery_via_unseal"
+    ],
+    "governing_principle": [
+      "privacy_architecture_principle"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "backup_integrity/ciphertext_only_persistence",
+    "backup_integrity/encrypt_before_delete",
+    "backup_integrity/faithful_roundtrip",
+    "backup_integrity/opaque_archive_guarantee",
+    "backup_integrity/plaintext_exclusion",
+    "backup_integrity/privacy_architecture_principle",
+    "backup_integrity/recovery_via_unseal",
+    "backup_integrity/source_removal_rewiring",
+    "backup_integrity/ssh_key_sealing",
+    "ssh_key_sealing/ciphertext_only_persistence",
+    "ssh_key_sealing/encrypt_before_delete",
+    "ssh_key_sealing/faithful_roundtrip",
+    "ssh_key_sealing/opaque_archive_guarantee",
+    "ssh_key_sealing/plaintext_exclusion",
+    "ssh_key_sealing/privacy_architecture_principle",
+    "ssh_key_sealing/recovery_via_unseal",
+    "ssh_key_sealing/source_removal_rewiring"
+  ],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

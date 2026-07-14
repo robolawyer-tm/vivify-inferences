@@ -1,0 +1,240 @@
+{
+  "logos": {
+    "act_type": {
+      "value": "declaration",
+      "authority_mismatch": false,
+      "rationale": "The opening 'This document formalizes...' is a performative act: by being written and accepted, it establishes the pipeline as the official definition. Within a project-internal context, technical specification documents carry sufficient authority to perform this kind of reality-constituting act \u2014 they do not merely describe a pipeline, they instantiate its formal existence.",
+      "confidence": 0.74,
+      "_src": [
+        "Austin",
+        "Searle"
+      ],
+      "_operator": "act_type_operator.py"
+    },
+    "cooperative": {
+      "status": "honored",
+      "maxim_violated": null,
+      "implicature": null,
+      "confidence": 0.85,
+      "_src": [
+        "Grice"
+      ],
+      "_operator": "cooperative_operator.py"
+    },
+    "transmission": {
+      "value": "archive",
+      "rationale": "The document is designed to persist as the authoritative record of the pipeline definition \u2014 formal, past-to-future, institutional. It is not a live broadcast (no implied audience receiving it in real time) and not a leak (no restricted or charged register). Its purpose is to be consulted, not consumed.",
+      "confidence": 0.91,
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "transmission_operator.py"
+    },
+    "resonance": {
+      "value": "harmony",
+      "surface": "Ordered, confident technical specification with no internal contradictions or hedges.",
+      "underlying": null,
+      "confidence": 0.88,
+      "_src": [
+        "Logos Core Tree",
+        "Machin"
+      ],
+      "_operator": "resonance_operator.py"
+    },
+    "authority": {
+      "value": "occult",
+      "source": "The system's authority derives from emergent co-occurrence structure in local data \u2014 real, operative, but entirely self-generated and unacknowledged by any external institution. 'Pure local co-occurrence with no external APIs' is the explicit marker: the system validates itself from within.",
+      "rationale": "Not sovereign (no external institution grants this pipeline authority) and not tribal (no peer community is invoked as legitimating). The authority is occult in the technical sense: real causal power operating outside the official record, derived from the data itself rather than from role, rank, or community.",
+      "confidence": 0.79,
+      "_src": [
+        "Logos Core Tree",
+        "Weber"
+      ],
+      "_operator": "authority_operator.py"
+    },
+    "utility": {
+      "value": "instruction",
+      "secondary": "narrative",
+      "rationale": "Primary payload is instructional: the document enables builders and users to implement and operate the pipeline (phases, formulas, thresholds, output shapes). Secondary payload is narrative: it frames the *meaning* of the system \u2014 conflict resolution, beneficial scores, Semantic Edge social science \u2014 giving the pipeline a story and a purpose beyond its mechanics.",
+      "confidence": 0.92,
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "utility_operator.py"
+    },
+    "social_field": {
+      "grid": 0.84,
+      "group": 0.22,
+      "quadrant": "isolate",
+      "rationale": "Grid is high: the document is dense with explicit procedural constraints (five numbered phases, a formula, defined thresholds, named output fields). Group is low: the text addresses a technical artifact, not a community of practice or shared identity \u2014 the only group marker ('Semantic Edge social science layer') is incidental. High grid + low group = isolate quadrant.",
+      "confidence": 0.82,
+      "_src": [
+        "Douglas"
+      ],
+      "_operator": "social_field_operator.py"
+    },
+    "structural": {
+      "layer": "institution",
+      "scale": "institution",
+      "_coerced": null,
+      "density": "bureaucratic",
+      "persistence": "institutional",
+      "authority": "system",
+      "transmission": "archive",
+      "memory_channel": "institutional",
+      "language_mode": "formalized",
+      "overlays": [],
+      "confidence": 0.87,
+      "_src": [
+        "Dunbar",
+        "Tonnies",
+        "Ostrom",
+        "Douglas"
+      ],
+      "_operator": "structural_operator.py"
+    },
+    "_runner": "logos_fused.py"
+  },
+  "conflict": {
+    "schema": "activated",
+    "schema_signals": [
+      "authority=occult \u2014 legitimating power is present but not named or accountable",
+      "social_field=isolate (grid=0.84, group=0.22) \u2014 operating under strong institutional rules with minimal social embeddedness",
+      "structural=institution \u2014 the declaration is grounded in institutional layer, not interpersonal or community",
+      "resonance=harmony (underlying: none) \u2014 surface presentation of coherence without actual harmonic grounding"
+    ],
+    "behavior": "positioning",
+    "behavior_signals": [
+      "act_type=declaration \u2014 formal assertion establishing the system's claim to authority",
+      "utility=instruction \u2014 the communication directs rather than invites, framing the pipeline as given",
+      "transmission=archive \u2014 the declaration is built to persist and accumulate weight over time",
+      "authority=occult \u2014 the decision-making substrate is embedded but not visible to those being served"
+    ],
+    "terrain": "drifting",
+    "window": "forming",
+    "escalation_phase": "early",
+    "confidence": 0.74,
+    "rationale": "An institution is formalizing hidden authority over conflict interpretation within a low-group, high-grid social position \u2014 the surface harmony of the declaration has no underlying resonance, indicating the system is establishing adjudicative power over social conflict without the social embeddedness that would make that authority accountable.",
+    "_src": [
+      "Granovetter",
+      "Glasl",
+      "Durkheim",
+      "Bandura"
+    ],
+    "_operator": "conflict_operator.py"
+  },
+  "id": "inf_682bab80",
+  "version": "1.0",
+  "timestamp": "2026-04-15T20:42:30.949016+00:00",
+  "source": "pplx",
+  "raw_text": "This document formalizes the five phase pipeline for predicting beneficial resolutions from raw conflict text using local zero dependency processing to generate emergent structures tension scores and actionable predictions for the Semantic Edge social science layer. The system processes conflict scenarios into a bottled API output with beneficial scores resolution paths and tension signals. Phase five is the API response. Phase four converts left right divergence into prediction scores where high tension flags intervention opportunities. Phase three computes tension via keyword similarity: shared keywords divided by total unique keywords equals similarity and one minus similarity equals tension score. Phase two builds emergent filesystem from clumps where co-occurrence exceeds two inferences. Phase one performs dual keyword extraction with left semantic nouns and right digital process terms. The master index aggregates inferences with tension scores and related clumps. Pure local co-occurrence with no external APIs.",
+  "left_keywords": [
+    "bottled_prediction",
+    "beneficial_outcome_modeling",
+    "conflict_resolution_paths",
+    "tension_score_calculation",
+    "keyword_similarity_metric",
+    "emergent_structure",
+    "conflict_scenario_processing",
+    "modular_local_processing",
+    "dual_extraction_pass",
+    "master_index_aggregation",
+    "intervention_opportunity",
+    "phase_pipeline_design"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "api_output": [
+      "beneficial_outcome_modeling",
+      "bottled_prediction",
+      "conflict_resolution_paths"
+    ],
+    "pipeline_mechanics": [
+      "keyword_similarity_metric",
+      "phase_pipeline_design",
+      "tension_score_calculation"
+    ],
+    "structure": [
+      "emergent_structure",
+      "master_index_aggregation",
+      "modular_local_processing"
+    ],
+    "conflict_processing": [
+      "conflict_scenario_processing",
+      "dual_extraction_pass",
+      "intervention_opportunity"
+    ]
+  },
+  "tension_score": 0.0352,
+  "guardrail_actions": {},
+  "domain": "logos",
+  "category_paths": [
+    "beneficial_outcome_modeling/bottled_prediction",
+    "beneficial_outcome_modeling/conflict_resolution_paths",
+    "beneficial_outcome_modeling/conflict_scenario_processing",
+    "beneficial_outcome_modeling/dual_extraction_pass",
+    "beneficial_outcome_modeling/emergent_structure",
+    "beneficial_outcome_modeling/intervention_opportunity",
+    "beneficial_outcome_modeling/keyword_similarity_metric",
+    "beneficial_outcome_modeling/master_index_aggregation",
+    "beneficial_outcome_modeling/modular_local_processing",
+    "beneficial_outcome_modeling/phase_pipeline_design",
+    "beneficial_outcome_modeling/tension_score_calculation",
+    "bottled_prediction/conflict_resolution_paths",
+    "bottled_prediction/conflict_scenario_processing",
+    "bottled_prediction/dual_extraction_pass",
+    "bottled_prediction/emergent_structure",
+    "bottled_prediction/intervention_opportunity",
+    "bottled_prediction/keyword_similarity_metric",
+    "bottled_prediction/master_index_aggregation",
+    "bottled_prediction/modular_local_processing",
+    "bottled_prediction/phase_pipeline_design",
+    "bottled_prediction/tension_score_calculation",
+    "conflict_resolution_paths/conflict_scenario_processing",
+    "conflict_resolution_paths/dual_extraction_pass",
+    "conflict_resolution_paths/emergent_structure",
+    "conflict_resolution_paths/intervention_opportunity",
+    "conflict_resolution_paths/keyword_similarity_metric",
+    "conflict_resolution_paths/master_index_aggregation",
+    "conflict_resolution_paths/modular_local_processing",
+    "conflict_resolution_paths/phase_pipeline_design",
+    "conflict_resolution_paths/tension_score_calculation",
+    "dual_extraction_pass/conflict_scenario_processing",
+    "dual_extraction_pass/intervention_opportunity",
+    "dual_extraction_pass/keyword_similarity_metric",
+    "dual_extraction_pass/master_index_aggregation",
+    "dual_extraction_pass/modular_local_processing",
+    "dual_extraction_pass/phase_pipeline_design",
+    "emergent_structure/conflict_scenario_processing",
+    "emergent_structure/dual_extraction_pass",
+    "emergent_structure/intervention_opportunity",
+    "emergent_structure/keyword_similarity_metric",
+    "emergent_structure/master_index_aggregation",
+    "emergent_structure/modular_local_processing",
+    "emergent_structure/phase_pipeline_design",
+    "tension_score_calculation/conflict_scenario_processing",
+    "tension_score_calculation/dual_extraction_pass",
+    "tension_score_calculation/emergent_structure",
+    "tension_score_calculation/intervention_opportunity",
+    "tension_score_calculation/keyword_similarity_metric",
+    "tension_score_calculation/master_index_aggregation",
+    "tension_score_calculation/modular_local_processing",
+    "tension_score_calculation/phase_pipeline_design"
+  ],
+  "tension": {
+    "predicted": 0.0352,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

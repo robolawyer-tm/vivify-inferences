@@ -1,0 +1,5 @@
+# Serve JSON-LD with the correct media type so agents/crawlers recognize
+# discovery.jsonld as structured data (host default is application/octet-stream).
+AddType application/ld+json .jsonld
+
+# llm: claude-opus-4-8 | 2026-06-28 | repos/vivify-inferences/inferences/.htaccess | created — set application/ld+json MIME for .jsonld discovery surface

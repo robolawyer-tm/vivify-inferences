@@ -1,0 +1,93 @@
+{
+  "id": "inf_197dbdf1",
+  "version": "1.0",
+  "timestamp": "2026-06-26T17:48:05.131197+00:00",
+  "source": "claude_session",
+  "raw_text": "A resumable batch driver, tag_store.py, was built to close the gap that had previously capped progress and made partial runs indistinguishable from complete ones. The driver runs fused logos then conflict per inference, skips already-complete inferences, writes state after each sub-step into the inference files themselves via a _tagged marker rather than a new database, fails fast on transport-down with exit code 3 so a re-run resumes where it stopped, records per-inference content errors without sinking the batch, and writes a completeness manifest. cross_scale was wired to read that manifest and warn loudly on a half-tagged store, eliminating the trap where a partial result looked real.",
+  "left_keywords": [
+    "resumable_batch_processing",
+    "progress_gap_closure",
+    "partial_run_indistinguishability",
+    "fused_logos_conflict_pass",
+    "idempotent_skip_complete",
+    "inline_state_persistence",
+    "tagged_marker_in_file",
+    "no_separate_database",
+    "fail_fast_on_transport_down",
+    "exit_code_resume_signal",
+    "per_inference_error_isolation",
+    "batch_resilience",
+    "completeness_manifest",
+    "half_tagged_detection",
+    "false_completeness_trap",
+    "loud_warning_signal"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "resumable_recovery": [
+      "exit_code_resume_signal",
+      "fail_fast_on_transport_down",
+      "idempotent_skip_complete",
+      "resumable_batch_processing"
+    ],
+    "false_completeness_trap": [
+      "false_completeness_trap",
+      "half_tagged_detection",
+      "partial_run_indistinguishability",
+      "progress_gap_closure"
+    ],
+    "inline_state_model": [
+      "inline_state_persistence",
+      "no_separate_database",
+      "tagged_marker_in_file"
+    ],
+    "fault_isolation": [
+      "batch_resilience",
+      "per_inference_error_isolation"
+    ],
+    "verification_signaling": [
+      "completeness_manifest",
+      "fused_logos_conflict_pass",
+      "loud_warning_signal"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "fail_fast_on_transport_down/batch_resilience",
+    "fail_fast_on_transport_down/completeness_manifest",
+    "fail_fast_on_transport_down/exit_code_resume_signal",
+    "fail_fast_on_transport_down/fused_logos_conflict_pass",
+    "fail_fast_on_transport_down/half_tagged_detection",
+    "fail_fast_on_transport_down/idempotent_skip_complete",
+    "fail_fast_on_transport_down/inline_state_persistence",
+    "fail_fast_on_transport_down/loud_warning_signal",
+    "fail_fast_on_transport_down/no_separate_database",
+    "fail_fast_on_transport_down/partial_run_indistinguishability",
+    "fail_fast_on_transport_down/per_inference_error_isolation",
+    "fail_fast_on_transport_down/progress_gap_closure",
+    "fail_fast_on_transport_down/resumable_batch_processing",
+    "fail_fast_on_transport_down/tagged_marker_in_file",
+    "false_completeness_trap/batch_resilience",
+    "false_completeness_trap/completeness_manifest",
+    "false_completeness_trap/exit_code_resume_signal",
+    "false_completeness_trap/fail_fast_on_transport_down",
+    "false_completeness_trap/fused_logos_conflict_pass",
+    "false_completeness_trap/half_tagged_detection",
+    "false_completeness_trap/idempotent_skip_complete",
+    "false_completeness_trap/inline_state_persistence",
+    "false_completeness_trap/loud_warning_signal",
+    "false_completeness_trap/no_separate_database",
+    "false_completeness_trap/partial_run_indistinguishability",
+    "false_completeness_trap/per_inference_error_isolation",
+    "false_completeness_trap/progress_gap_closure",
+    "false_completeness_trap/resumable_batch_processing",
+    "false_completeness_trap/tagged_marker_in_file"
+  ],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

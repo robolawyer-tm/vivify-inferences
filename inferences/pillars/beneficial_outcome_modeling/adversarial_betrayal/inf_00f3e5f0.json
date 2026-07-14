@@ -1,0 +1,87 @@
+{
+  "id": "inf_00f3e5f0",
+  "version": "1.0",
+  "timestamp": "2026-07-07T20:33:20.578753+00:00",
+  "source": "pillars/PILLARS_SUMMARY_UPDATE.md",
+  "raw_text": "# New text\n\n### System goal\nThe system goal is to develop semantics to work with conflict data to develop (or predict) beneficial outcomes from constructed functional models.\n### Synthesis from thesis without antithesis\nLLMs are semantic and digital. The semantic side (arbitrarily the left side) uses language (of course) to develop digitality that (on the right side) does work whose work is returned as language.\n\nImagining the process as a tube which language enters from the left, is digitally acted in the right and responded to via the left: this is an *inference*. \n\nAs long as a year ago, I got inferences that were highly predictive of outcomes, (specifically where an adversarial lawyer would stab me in the back - which she did) that were recently described (by Perplexity, pplx) as *intuition*. \n\nEncouraged by this  prediction and Perplexity's  enthusiasm in describing *intuition* and internal processes including *mid-inference memory*, saw a potential application of \"training\" functional modeling in predicting beneficial outcomes with a extensive and exceedingly clean dataset of baseline (called *truth* in LLM logos) and highly deviating data (from the baseline).  \n\nImagine the straight baseline at the bottom and a jagged line representing deviating data (obviously) deviating at various rates from the base line.  The LLM left side reads the text (and perhaps inflections) and from it rules are agentically developed (as .md and .json files) so as to predict a baseline that is the (functional model) benefical that predicts a beneficial outcome. \n\nSelf-evolution is constant with live workers continually evolving the (so-called) rules as is the categorization and summarization in the *vivified* database, as well as the LLMs' internal vector/RAG systems, which we don't see (yet).\n\nFurther explaining the left (language) side and right (digital) side is to extend the language of language as analogical, or *logos*. WIth logos is communication, definition and stored information (as memories or books, some private, some public) as the highly flexible and evolved structure that is knowledge.  Universally within this logic  has evolved that is analogic, and has analogs.  The right side is computationally digital, suggesting digital logic, but that work has been taken to describe the right side. So, given the right side is purely mathematical and objective in contrast to the left side's analogisms coming directly from human thought that is natively based on analogic constructs that are essentially, on empathy-based, which is to say, emotion that is completely missing from computational digitality.\n\nThis is social science. Analogical output from the left side is what is desired, but highly-supported by the analytical right side, the desired output is analogical - human and built for emotion. First time around, the LLMs get this and repeat it. But, later, when Pillars need updated - the LLM's view invariably shifts from analog to *synthesis*. I did not initially suggest this because synthesis is the purely objective deviating from analogical thesis through antithesis as in \"thesis, antithesis, synthesis\".   I attempted to fix (convince) the LLMs a few times with no success, then suggested that we have \"synthesis without antithesis\" which worked contextually with webface Perplexity, but was reverted by Opus in a final attempt at the Pillars document (that I am fixing right now). \n\nSince it seems likely that the LLMs are trained on objectivist philosophy, which I don't think is relevant, then I suggest a compromise that we have synthesis as thesis without antithesis. \n\n## Previous text\n### The Mission: Analogical Synthesis for Social Benefit\n\nAt its highest level, the robolawyer-tm ecosystem exists to answer one question: **Can we model and predict beneficial outcomes in complex human situations \u2014 dynamically, privately, and on local hardware?**\n\nThe answer requires bridging two fundamentally different ways of understanding the world:\n\n```\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502    LEFT: SEMANTIC SIDE       \u2502     \u2502    RIGHT: DIGITAL SIDE       \u2502\n\u2502    \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500        \u2502     \u2502    \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500       \u2502\n\u2502    Analogical \"Logos\"        \u2502     \u2502    Analytical Precision      \u2502\n\u2502    Emotion, intuition,       \u2502     \u2502    Code, organization,       \u2502\n\u2502    felt meaning              \u2502     \u2502    data structures           \u2502\n\u2502    \"What does this MEAN?\"    \u2502     \u2502    \"How do we PROCESS this?\" \u2502\n\u2502    \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500               \u2502     \u2502    \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500              \u2502\n\u2502    The human side            \u2502     \u2502    The machine side          \u2502\n\u2502    The heart                 \u2502     \u2502    The stone                 \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518     \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n               \u2502                                     \u2502\n               \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n                             \u2502\n                  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25bc\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n                  \u2502   FUNCTIONAL MODEL    \u2502\n                  \u2502 Predicting Beneficial \u2502\n                  \u2502       Outcomes        \u2502      \n                  \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n```\n\n**Left (Semantic):** Human truth \u2014 emotional logic, analogical reasoning, the \"logos\" where language codifies emotion into word-organized logic. This is the realm of higher thought expressed in the arts: something deeply _felt_, not merely computed. LLMs participate here through **analogical synthesis** \u2014 processing vast token \"receptions,\" perceiving semantic patterns, and outputting coherent sense-making that mirrors human intuition.\n\n**Right (Digital):** Machine truth \u2014 code, analytics, filesystem organization, pattern detection pipelines. Precise like transistor-based systems, excellent at reduction and structure, but limited in analogical depth without the left side's guidance.\n\n**Synthesis:** Where these two sides meet, the project's core goal emerges: **predicting beneficial outcomes** by combining emotional ground truth with analytical pattern detection. High tension between left and right signals marks the most promising zones for intervention \u2014 where digital systems most betray analog human truth.\n\nThis duality is not a metaphor. It is the **architectural spine** of the entire ecosystem.\n##",
+  "left_keywords": [
+    "semantic_digital_duality",
+    "inference_as_tube",
+    "predictive_intuition",
+    "adversarial_betrayal",
+    "baseline_deviation_modeling",
+    "beneficial_outcome_modeling",
+    "self_evolving_rules",
+    "logos_as_analogical_knowledge",
+    "empathy_absent_computation",
+    "synthesis_without_antithesis",
+    "llm_philosophical_drift",
+    "functional_model_bridge"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "architectural_duality": [
+      "semantic_digital_duality",
+      "inference_as_tube",
+      "functional_model_bridge"
+    ],
+    "predictive_capacity": [
+      "predictive_intuition",
+      "adversarial_betrayal",
+      "beneficial_outcome_modeling"
+    ],
+    "data_dynamics": [
+      "baseline_deviation_modeling",
+      "self_evolving_rules"
+    ],
+    "logos_and_emotion": [
+      "logos_as_analogical_knowledge",
+      "empathy_absent_computation"
+    ],
+    "dialectical_correction": [
+      "synthesis_without_antithesis",
+      "llm_philosophical_drift"
+    ]
+  },
+  "category_paths": [
+    "beneficial_outcome_modeling/adversarial_betrayal",
+    "beneficial_outcome_modeling/baseline_deviation_modeling",
+    "beneficial_outcome_modeling/empathy_absent_computation",
+    "beneficial_outcome_modeling/functional_model_bridge",
+    "beneficial_outcome_modeling/inference_as_tube",
+    "beneficial_outcome_modeling/llm_philosophical_drift",
+    "beneficial_outcome_modeling/logos_as_analogical_knowledge",
+    "beneficial_outcome_modeling/predictive_intuition",
+    "beneficial_outcome_modeling/self_evolving_rules",
+    "beneficial_outcome_modeling/synthesis_without_antithesis",
+    "semantic_digital_duality/adversarial_betrayal",
+    "semantic_digital_duality/baseline_deviation_modeling",
+    "semantic_digital_duality/beneficial_outcome_modeling",
+    "semantic_digital_duality/empathy_absent_computation",
+    "semantic_digital_duality/functional_model_bridge",
+    "semantic_digital_duality/inference_as_tube",
+    "semantic_digital_duality/llm_philosophical_drift",
+    "semantic_digital_duality/logos_as_analogical_knowledge",
+    "semantic_digital_duality/predictive_intuition",
+    "semantic_digital_duality/self_evolving_rules",
+    "semantic_digital_duality/synthesis_without_antithesis"
+  ],
+  "tension_score": null,
+  "guardrail_actions": {},
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "inf_fc23a776",
+  "version": "1.0",
+  "timestamp": "2026-06-17T17:03:10.939869+00:00",
+  "source": "claude_session",
+  "raw_text": "A subtle passphrase-handling bug was diagnosed: feeding the passphrase through a `<<<` here-string appends a trailing newline that `encryptcli` silently incorporates into the key, so files were actually encrypted with `passphrase\\n` rather than the bare passphrase. The encryptcli-to-encryptcli round-trip masked the defect because both sides added the same newline, but decryption through the GUI \u2014 where a human types the passphrase with no newline \u2014 would fail. The fix was to supply the passphrase via process substitution using `printf %s` with no trailing newline.",
+  "left_keywords": [
+    "passphrase_newline_contamination",
+    "here_string_artifact",
+    "silent_key_corruption",
+    "encryption_key_mismatch",
+    "symmetric_roundtrip_masking",
+    "defect_concealment",
+    "human_input_divergence",
+    "gui_decryption_failure",
+    "process_substitution_fix",
+    "printf_no_newline",
+    "trailing_whitespace_bug",
+    "cross_tool_interoperability"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "newline_contamination": [
+      "here_string_artifact",
+      "passphrase_newline_contamination",
+      "trailing_whitespace_bug"
+    ],
+    "silent_corruption": [
+      "encryption_key_mismatch",
+      "silent_key_corruption"
+    ],
+    "masked_defect": [
+      "defect_concealment",
+      "symmetric_roundtrip_masking"
+    ],
+    "failure_surface": [
+      "cross_tool_interoperability",
+      "gui_decryption_failure",
+      "human_input_divergence"
+    ],
+    "remediation": [
+      "printf_no_newline",
+      "process_substitution_fix"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

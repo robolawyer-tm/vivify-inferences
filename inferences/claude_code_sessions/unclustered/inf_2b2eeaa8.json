@@ -1,0 +1,60 @@
+{
+  "id": "inf_2b2eeaa8",
+  "version": "1.0",
+  "timestamp": "2026-06-07T23:02:08.787004+00:00",
+  "source": "claude_session",
+  "raw_text": "The log directory `~/logs/claude/` was found not to exist, which would cause the capture script to fail silently. Rather than treating this as an error condition, the decision was made to add `mkdir -p ~/logs/claude` as an explicit first step in the script, making directory creation a prerequisite that the script always handles rather than assuming the environment is pre-configured.",
+  "left_keywords": [
+    "silent_failure",
+    "missing_dependency",
+    "prerequisite_enforcement",
+    "proactive_setup",
+    "self_provisioning",
+    "pre_configuration_assumption",
+    "error_reframing",
+    "script_resilience",
+    "directory_bootstrapping",
+    "environment_dependency"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "failure_modes": [
+      "missing_dependency",
+      "silent_failure"
+    ],
+    "defensive_initialization": [
+      "directory_bootstrapping",
+      "prerequisite_enforcement",
+      "proactive_setup"
+    ],
+    "environment_assumptions": [
+      "environment_dependency",
+      "pre_configuration_assumption"
+    ],
+    "design_reframing": [
+      "error_reframing",
+      "script_resilience",
+      "self_provisioning"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

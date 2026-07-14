@@ -1,0 +1,203 @@
+{
+  "logos": {
+    "act_type": {
+      "value": "assertive",
+      "authority_mismatch": false,
+      "rationale": "The utterance describes and claims what the system goal is \u2014 a statement of purpose that asserts a set of design intentions as true of the project.",
+      "confidence": 0.91,
+      "_src": [
+        "Austin",
+        "Searle"
+      ],
+      "_operator": "act_type_operator.py"
+    },
+    "cooperative": {
+      "status": "violated",
+      "maxim_violated": "manner",
+      "implicature": "The run-on, unpunctuated form enacts the content \u2014 a synthesis that refuses categorical boundaries; the speaker may be performing the bridging process rather than merely describing it, implying the system's logic is itself continuous and non-discrete",
+      "confidence": 0.87,
+      "_src": [
+        "Grice"
+      ],
+      "_operator": "cooperative_operator.py"
+    },
+    "transmission": {
+      "value": "archive",
+      "rationale": "This system goal statement is preserved as institutional documentation \u2014 past-to-future, definitional, filed into inference records to fix architectural intent against future drift.",
+      "confidence": 0.74,
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "transmission_operator.py"
+    },
+    "resonance": {
+      "value": "harmony",
+      "surface": "A unified mission statement integrating emotional and analytical frameworks, explicitly preferring analogical (bridging) synthesis over dialectical (oppositional) synthesis, with output oriented toward human connection",
+      "underlying": null,
+      "confidence": 0.87,
+      "_src": [
+        "Logos Core Tree",
+        "Machin"
+      ],
+      "_operator": "resonance_operator.py"
+    },
+    "authority": {
+      "value": "occult",
+      "source": "internal design authority of the project architects, articulated as a private system goal outside public or institutional acknowledgment",
+      "rationale": "The text invokes authority from a privately-held design intent ('privately and on local hardware'), explicitly rejects a publicly-acknowledged methodology (dialectical synthesis), and positions its framework as known only within a restricted group \u2014 all markers of authority that is real but unacknowledged in any official record.",
+      "confidence": 0.74,
+      "_src": [
+        "Logos Core Tree",
+        "Weber"
+      ],
+      "_operator": "authority_operator.py"
+    },
+    "utility": {
+      "value": "narrative",
+      "secondary": "instruction",
+      "rationale": "This communication constructs the meaning and identity of the system \u2014 what it is for and why its approach is distinctive \u2014 rather than directing action or tracking standing.",
+      "confidence": 0.88,
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "utility_operator.py"
+    },
+    "social_field": {
+      "grid": 0.1,
+      "group": 0.08,
+      "quadrant": "individualist",
+      "rationale": "The communication occurs in a self-directed solo research field: privately operated, locally hosted, with self-invented vocabulary and no institutional authority, collective membership signal, or role-prescribed constraints.",
+      "confidence": 0.87,
+      "_src": [
+        "Douglas"
+      ],
+      "_operator": "social_field_operator.py"
+    },
+    "structural": {
+      "layer": "institution",
+      "scale": "institution",
+      "density": "bureaucratic",
+      "persistence": "institutional",
+      "authority": "system",
+      "transmission": "archive",
+      "memory_channel": "institutional",
+      "language_mode": "contractual",
+      "overlays": [
+        "culture"
+      ],
+      "confidence": 0.72,
+      "_src": [
+        "Dunbar",
+        "Tonnies",
+        "Ostrom",
+        "Douglas"
+      ],
+      "_operator": "structural_operator.py"
+    },
+    "narrative": {
+      "text": "This claims a complete vision for the whole system in one breathless, unpunctuated rush \u2014 hiding who is speaking, courting agreement, and presenting itself as settled truth rather than a proposal someone might push back on.",
+      "_operator": "logos_narrative.py"
+    },
+    "_runner": "logos_operator.py"
+  },
+  "conflict": {
+    "schema": "activated",
+    "schema_signals": [
+      "authority=occult",
+      "structural.layer=institution",
+      "social_field grid=0.1 group=0.08 individualist"
+    ],
+    "behavior": "suppression",
+    "behavior_signals": [
+      "cooperative=violated(manner)",
+      "resonance=harmony/underlying=none",
+      "utility=narrative",
+      "transmission=archive"
+    ],
+    "terrain": "drifting",
+    "window": "forming",
+    "escalation_phase": "early",
+    "confidence": 0.72,
+    "rationale": "Occult authority operating at the institutional layer, combined with harmony masking absent underlying resonance through a manner-violated cooperative frame, reveals structural conditions in which power conceals itself while presenting as alignment-seeking \u2014 the schema is active, the window is forming at the institutional level.",
+    "_src": [
+      "Granovetter",
+      "Glasl",
+      "Durkheim",
+      "Bandura"
+    ],
+    "_operator": "conflict_operator.py"
+  },
+  "id": "inf_65ae7310",
+  "version": "1.0",
+  "timestamp": "2026-04-27T21:44:01.938271+00:00",
+  "source": "webpage",
+  "raw_text": "The system goal is to develop semantics that work with conflict data to predict beneficial outcomes from constructed functional models dynamically privately and on local hardware bridging two fundamentally different ways of understanding the world through analogical synthesis not dialectical synthesis combining emotional ground truth with analytical pattern detection producing output that remains fundamentally human",
+  "left_keywords": [
+    "analogical_synthesis",
+    "beneficial_outcome_modeling",
+    "semantic_digital_duality",
+    "logos_empathy_base",
+    "felt_meaning",
+    "conflict_data_modeling",
+    "functional_model_construction",
+    "mid_inference_memory",
+    "self_evolving_rules",
+    "synthesis_without_antithesis",
+    "empathy_native_output",
+    "live_worker_refinement"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "semantic_core": [
+      "analogical_synthesis",
+      "empathy_native_output",
+      "felt_meaning",
+      "logos_empathy_base"
+    ],
+    "outcome_model": [
+      "beneficial_outcome_modeling",
+      "conflict_data_modeling",
+      "functional_model_construction"
+    ],
+    "pipeline_evolution": [
+      "live_worker_refinement",
+      "mid_inference_memory",
+      "self_evolving_rules"
+    ],
+    "duality_framework": [
+      "semantic_digital_duality",
+      "synthesis_without_antithesis"
+    ]
+  },
+  "tension_score": 0.0708,
+  "guardrail_actions": {},
+  "domain": "logos",
+  "category_paths": [
+    "beneficial_outcome_modeling/analogical_synthesis",
+    "beneficial_outcome_modeling/conflict_data_modeling",
+    "beneficial_outcome_modeling/empathy_native_output",
+    "beneficial_outcome_modeling/felt_meaning",
+    "beneficial_outcome_modeling/functional_model_construction",
+    "beneficial_outcome_modeling/live_worker_refinement",
+    "beneficial_outcome_modeling/logos_empathy_base",
+    "beneficial_outcome_modeling/mid_inference_memory",
+    "beneficial_outcome_modeling/self_evolving_rules",
+    "beneficial_outcome_modeling/semantic_digital_duality",
+    "beneficial_outcome_modeling/synthesis_without_antithesis",
+    "semantic_digital_duality/analogical_synthesis",
+    "semantic_digital_duality/conflict_data_modeling",
+    "semantic_digital_duality/empathy_native_output",
+    "semantic_digital_duality/felt_meaning",
+    "semantic_digital_duality/functional_model_construction",
+    "semantic_digital_duality/live_worker_refinement",
+    "semantic_digital_duality/logos_empathy_base",
+    "semantic_digital_duality/mid_inference_memory",
+    "semantic_digital_duality/self_evolving_rules",
+    "semantic_digital_duality/synthesis_without_antithesis"
+  ],
+  "tension": {
+    "predicted": 0.0708,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

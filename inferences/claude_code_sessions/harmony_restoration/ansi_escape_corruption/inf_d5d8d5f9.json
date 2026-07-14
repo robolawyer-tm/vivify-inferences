@@ -1,0 +1,88 @@
+{
+  "id": "inf_d5d8d5f9",
+  "version": "1.0",
+  "timestamp": "2026-06-11T16:53:37.708205+00:00",
+  "source": "claude_session_op",
+  "raw_text": "The decision to add a .md save step to claude_terminal was restated mid-session from convenience to necessity. Raw script output contains ANSI escape sequences that, when read back, replay the terminal state machine and corrupt the reading environment \u2014 cursor jumps, screen clears, overwritten text. The friction_state was latent until the user named it directly: \"the escape sequences in the session save literally change how the terminal works.\" The .md produced by col -b is therefore not a cosmetic duplicate but the only form in which the session exists as a legible document rather than a terminal recording. This is a declaration \u2014 a reclassification of the .md's architectural status from nice-to-have to required \u2014 driven by a cooperative quality violation in the raw archive: the .gz appears to contain the session but misleads about its accessibility. The harmony_restoration is a pipeline that automatically produces legible output at session close, closing the gap between what is captured and what can actually be read.",
+  "left_keywords": [
+    "ansi_escape_corruption",
+    "environment_contamination",
+    "terminal_state_replay",
+    "session_legibility",
+    "archive_inaccessibility",
+    "document_vs_recording",
+    "necessity_reclassification",
+    "convenience_to_requirement",
+    "latent_friction_state",
+    "cooperative_quality_violation",
+    "harmony_restoration",
+    "pipeline_closure"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "terminal_corruption": [
+      "ansi_escape_corruption",
+      "environment_contamination",
+      "terminal_state_replay"
+    ],
+    "legibility_crisis": [
+      "archive_inaccessibility",
+      "document_vs_recording",
+      "session_legibility"
+    ],
+    "architectural_reclassification": [
+      "convenience_to_requirement",
+      "necessity_reclassification"
+    ],
+    "latent_friction": [
+      "cooperative_quality_violation",
+      "latent_friction_state"
+    ],
+    "harmony_restoration": [
+      "harmony_restoration",
+      "pipeline_closure"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "harmony_restoration/ansi_escape_corruption",
+    "harmony_restoration/archive_inaccessibility",
+    "harmony_restoration/convenience_to_requirement",
+    "harmony_restoration/cooperative_quality_violation",
+    "harmony_restoration/document_vs_recording",
+    "harmony_restoration/environment_contamination",
+    "harmony_restoration/latent_friction_state",
+    "harmony_restoration/necessity_reclassification",
+    "harmony_restoration/pipeline_closure",
+    "harmony_restoration/session_legibility",
+    "harmony_restoration/terminal_state_replay",
+    "latent_friction_state/ansi_escape_corruption",
+    "latent_friction_state/archive_inaccessibility",
+    "latent_friction_state/convenience_to_requirement",
+    "latent_friction_state/cooperative_quality_violation",
+    "latent_friction_state/document_vs_recording",
+    "latent_friction_state/environment_contamination",
+    "latent_friction_state/necessity_reclassification",
+    "latent_friction_state/pipeline_closure",
+    "latent_friction_state/session_legibility",
+    "latent_friction_state/terminal_state_replay"
+  ],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

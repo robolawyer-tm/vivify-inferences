@@ -1,0 +1,53 @@
+{
+  "id": "inf_311bd569",
+  "version": "1.0",
+  "timestamp": "2026-06-26T17:48:24.638201+00:00",
+  "source": "claude_session",
+  "raw_text": "The guiding decision for this stage was to prioritize the most efficient route and accept second-quality output, on the reasoning that this is extreme prototyping where no relevant data has yet been run, being wrong is acceptable, and the immediate goal is getting all parts of the chain working end-to-end. Refinement was explicitly deferred to a later time when there is room to improve the process, especially since the paths to the final goals are not yet clear. A hybrid refinement target was logged for the future \u2014 fuse the clean dimensions while keeping cooperative, structural, authority, and social_field focused \u2014 so the map exists for when quality matters.",
+  "left_keywords": [
+    "efficiency_prioritization",
+    "second_quality_acceptance",
+    "extreme_prototyping",
+    "error_tolerance",
+    "end_to_end_chain",
+    "refinement_deferral",
+    "uncharted_path",
+    "future_quality_window",
+    "hybrid_refinement_target",
+    "dimension_fusion",
+    "focus_preservation",
+    "map_for_later"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "speed_over_polish": [
+      "efficiency_prioritization",
+      "error_tolerance",
+      "second_quality_acceptance"
+    ],
+    "prototype_stage": [
+      "end_to_end_chain",
+      "extreme_prototyping",
+      "uncharted_path"
+    ],
+    "deferred_refinement": [
+      "future_quality_window",
+      "map_for_later",
+      "refinement_deferral"
+    ],
+    "structural_blueprint": [
+      "dimension_fusion",
+      "focus_preservation",
+      "hybrid_refinement_target"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

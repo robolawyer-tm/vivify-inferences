@@ -1,0 +1,104 @@
+{
+  "id": "inf_a5b28282",
+  "version": "1.0",
+  "timestamp": "2026-06-11T14:50:38.181698+00:00",
+  "source": "claude_session",
+  "raw_text": "The two backup drives were named \"inference_1\" and \"inference_2\" rather than \"backup1\" and \"backup2\" or \"tension1\" and \"tension2.\" The word \"tension\" was rejected because it is an overloaded LLM term, carrying unwanted word-association baggage from model outputs. The underscore separator was chosen over no separator because the digit 1 and lowercase letter L are visually indistinguishable in many terminal fonts, making \"inference1\" ambiguous at a glance. The underscore convention also aligns with the project's existing naming standard for files and directories.",
+  "left_keywords": [
+    "semantic_naming",
+    "naming_philosophy",
+    "lexical_contamination",
+    "term_overloading",
+    "semantic_baggage",
+    "typographic_ambiguity",
+    "visual_disambiguation",
+    "character_collision",
+    "delimiter_choice",
+    "convention_alignment",
+    "naming_convention",
+    "vocabulary_hygiene"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "naming_intent": [
+      "label_precision",
+      "naming_philosophy",
+      "semantic_naming"
+    ],
+    "llm_vocabulary_contamination": [
+      "lexical_contamination",
+      "semantic_baggage",
+      "term_overloading",
+      "vocabulary_hygiene"
+    ],
+    "typographic_disambiguation": [
+      "character_collision",
+      "delimiter_choice",
+      "typographic_ambiguity",
+      "visual_disambiguation"
+    ],
+    "convention_consistency": [
+      "convention_alignment",
+      "naming_convention"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "lexical_contamination/character_collision",
+    "lexical_contamination/convention_alignment",
+    "lexical_contamination/delimiter_choice",
+    "lexical_contamination/naming_philosophy",
+    "lexical_contamination/semantic_baggage",
+    "lexical_contamination/semantic_naming",
+    "lexical_contamination/term_overloading",
+    "lexical_contamination/typographic_ambiguity",
+    "lexical_contamination/visual_disambiguation",
+    "lexical_contamination/vocabulary_hygiene",
+    "naming_convention/character_collision",
+    "naming_convention/convention_alignment",
+    "naming_convention/delimiter_choice",
+    "naming_convention/lexical_contamination",
+    "naming_convention/naming_philosophy",
+    "naming_convention/semantic_baggage",
+    "naming_convention/semantic_naming",
+    "naming_convention/term_overloading",
+    "naming_convention/typographic_ambiguity",
+    "naming_convention/visual_disambiguation",
+    "naming_convention/vocabulary_hygiene",
+    "typographic_ambiguity/character_collision",
+    "typographic_ambiguity/convention_alignment",
+    "typographic_ambiguity/delimiter_choice",
+    "typographic_ambiguity/naming_philosophy",
+    "typographic_ambiguity/semantic_baggage",
+    "typographic_ambiguity/semantic_naming",
+    "typographic_ambiguity/term_overloading",
+    "typographic_ambiguity/visual_disambiguation",
+    "typographic_ambiguity/vocabulary_hygiene",
+    "visual_disambiguation/character_collision",
+    "visual_disambiguation/convention_alignment",
+    "visual_disambiguation/delimiter_choice",
+    "visual_disambiguation/naming_philosophy",
+    "visual_disambiguation/semantic_baggage",
+    "visual_disambiguation/semantic_naming",
+    "visual_disambiguation/term_overloading",
+    "visual_disambiguation/vocabulary_hygiene"
+  ],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

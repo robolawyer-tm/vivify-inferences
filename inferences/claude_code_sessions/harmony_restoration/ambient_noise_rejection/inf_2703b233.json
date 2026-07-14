@@ -1,0 +1,95 @@
+{
+  "id": "inf_2703b233",
+  "version": "1.0",
+  "timestamp": "2026-06-11T16:48:08.659104+00:00",
+  "source": "claude_session_op",
+  "raw_text": "The naming of the drives as inference_1 and inference_2 was a declaration that changed the identity of the storage layer. The user rejected the word \"tension\" \u2014 an overloaded LLM term that had accumulated too much ambient noise to function as a clean identifier \u2014 and chose the project's own operative vocabulary instead. This is a harmony_restoration through lexical sovereignty: the backup medium is now named after the artifacts it protects, making the drive label a tribal signal readable to anyone inside the project's conceptual field. The renaming also introduced an underscore convention that the user explicitly motivated on perceptual grounds (1 and lowercase l look alike), a manner-cooperative act that encodes human legibility directly into the naming standard.",
+  "left_keywords": [
+    "identity_declaration",
+    "operative_vocabulary",
+    "naming_as_artifact",
+    "lexical_sovereignty",
+    "ambient_noise_rejection",
+    "harmony_restoration",
+    "tribal_signal",
+    "conceptual_field",
+    "perceptual_legibility",
+    "manner_cooperation",
+    "visual_disambiguation",
+    "naming_convention"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "identity_declaration": [
+      "identity_declaration",
+      "naming_as_artifact",
+      "operative_vocabulary"
+    ],
+    "lexical_sovereignty": [
+      "ambient_noise_rejection",
+      "harmony_restoration",
+      "lexical_sovereignty"
+    ],
+    "tribal_signaling": [
+      "conceptual_field",
+      "insider_readability",
+      "tribal_signal"
+    ],
+    "human_legibility": [
+      "manner_cooperation",
+      "perceptual_legibility",
+      "visual_disambiguation"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "harmony_restoration/ambient_noise_rejection",
+    "harmony_restoration/conceptual_field",
+    "harmony_restoration/identity_declaration",
+    "harmony_restoration/lexical_sovereignty",
+    "harmony_restoration/manner_cooperation",
+    "harmony_restoration/naming_as_artifact",
+    "harmony_restoration/naming_convention",
+    "harmony_restoration/operative_vocabulary",
+    "harmony_restoration/perceptual_legibility",
+    "harmony_restoration/tribal_signal",
+    "harmony_restoration/visual_disambiguation",
+    "naming_convention/ambient_noise_rejection",
+    "naming_convention/conceptual_field",
+    "naming_convention/identity_declaration",
+    "naming_convention/lexical_sovereignty",
+    "naming_convention/manner_cooperation",
+    "naming_convention/naming_as_artifact",
+    "naming_convention/operative_vocabulary",
+    "naming_convention/perceptual_legibility",
+    "naming_convention/tribal_signal",
+    "naming_convention/visual_disambiguation",
+    "visual_disambiguation/ambient_noise_rejection",
+    "visual_disambiguation/conceptual_field",
+    "visual_disambiguation/identity_declaration",
+    "visual_disambiguation/lexical_sovereignty",
+    "visual_disambiguation/manner_cooperation",
+    "visual_disambiguation/naming_as_artifact",
+    "visual_disambiguation/operative_vocabulary",
+    "visual_disambiguation/perceptual_legibility",
+    "visual_disambiguation/tribal_signal"
+  ],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

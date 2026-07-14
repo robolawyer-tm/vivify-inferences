@@ -1,0 +1,59 @@
+{
+  "id": "inf_4862accf",
+  "version": "1.0",
+  "timestamp": "2026-06-17T17:03:19.636789+00:00",
+  "source": "claude_session",
+  "raw_text": "Terminology for the new public-key encryption tool was settled on `seal_it` and its companion `unseal_it`. The user floated the coinage \"secretfy\" as a more descriptive alternative but deliberately chose the common \"seal\" phrasing for familiarity, establishing the naming pair for the sealing workflow.",
+  "left_keywords": [
+    "naming_convention",
+    "terminology_settlement",
+    "verb_pairing",
+    "sealing_metaphor",
+    "encryption_workflow",
+    "public_key_tooling",
+    "coinage_rejection",
+    "descriptive_vs_familiar",
+    "familiarity_preference",
+    "deliberate_choice"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "naming_decision": [
+      "naming_convention",
+      "terminology_settlement",
+      "verb_pairing"
+    ],
+    "metaphor_framing": [
+      "coinage_rejection",
+      "descriptive_vs_familiar",
+      "sealing_metaphor"
+    ],
+    "tooling_context": [
+      "encryption_workflow",
+      "public_key_tooling"
+    ],
+    "intentional_authorship": [
+      "deliberate_choice",
+      "familiarity_preference"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "naming_convention/coinage_rejection",
+    "naming_convention/deliberate_choice",
+    "naming_convention/descriptive_vs_familiar",
+    "naming_convention/encryption_workflow",
+    "naming_convention/familiarity_preference",
+    "naming_convention/public_key_tooling",
+    "naming_convention/sealing_metaphor",
+    "naming_convention/terminology_settlement",
+    "naming_convention/verb_pairing"
+  ],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

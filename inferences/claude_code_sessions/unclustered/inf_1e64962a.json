@@ -1,0 +1,66 @@
+{
+  "id": "inf_1e64962a",
+  "version": "1.0",
+  "timestamp": "2026-06-11T16:54:36.209335+00:00",
+  "source": "claude_session_op",
+  "raw_text": "The session's overarching act-type is commissive: drive formatting, filesystem mapping, script consolidation, .md pipeline, and deploy step are all initiated but not fully closed. These are not independent housekeeping tasks; they constitute shared field preparation for the \"major pivot\" the user named, where cleanup is structural rather than cosmetic. The social_field operating here has low grid \u2014 rules are self-authored from the CLAUDE.md non-negotiables \u2014 and moderate group, where those non-negotiables (local-first, privacy-preserving, no external taxonomies) function as tribal norms generating downstream infrastructure requirements that only become visible when rebuilding from scratch. The occult authority is the CLAUDE.md itself: its directives were never explicitly cited in the session but silently governed every choice, from filesystem format to naming convention to backup scope. The resonance state at session close is productive friction: multiple threads parked with enough context to resume, no harmony falsely declared, and the infrastructure cleanup framed as the condition under which the conceptual work can proceed cleanly.",
+  "left_keywords": [
+    "commissive_act_type",
+    "open_closure_asymmetry",
+    "structural_preparation",
+    "field_preparation",
+    "low_grid_social_field",
+    "tribal_norm_generation",
+    "occult_authority",
+    "silent_governance",
+    "productive_friction",
+    "parked_thread_continuity",
+    "infrastructure_as_precondition",
+    "false_harmony_resistance"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "commissive_incompletion": [
+      "commissive_act_type",
+      "open_closure_asymmetry",
+      "parked_thread_continuity"
+    ],
+    "structural_field_work": [
+      "field_preparation",
+      "infrastructure_as_precondition",
+      "structural_preparation"
+    ],
+    "social_field_dynamics": [
+      "low_grid_social_field",
+      "tribal_norm_generation"
+    ],
+    "occult_governance": [
+      "occult_authority",
+      "silent_governance"
+    ],
+    "productive_tension": [
+      "false_harmony_resistance",
+      "productive_friction"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

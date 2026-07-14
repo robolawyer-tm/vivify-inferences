@@ -1,0 +1,69 @@
+{
+  "id": "inf_4bffc946",
+  "version": "1.0",
+  "timestamp": "2026-07-07T20:34:46.422007+00:00",
+  "source": "pillars/NOTATION_VISION.md",
+  "raw_text": "# Notation Vision: Making Installation/Process Flows Accessible\n\n## The Problem\n\nCurrent documentation tools show process as **linear checklists**:\n```\n- [ ] Step 1\n- [ ] Step 2\n- [ ] Step 3\n```\n\nBut the **actual reality** involves:\n- **Multiple actors** (Linux box, Phone, services)\n- **Data movement** (files copied, configs synced)\n- **Parallel processes** (tunnels, mounts, servers running simultaneously)\n- **Error conditions** (what if this fails? what happens next?)\n- **Interdependencies** (Step 3 only works if Step 2 succeeded)\n\nChecklists flatten this complexity. People get lost.\n\n## Vision: Dynamic, Visual Notation\n\n### 1. **Flow Diagrams That Show Actors & Data**\n\nInstead of:\n```\n- [ ] Copy files to phone\n- [ ] Install packages\n- [ ] Start server\n```\n\nShow:\n```\nLINUX BOX                              PHONE\n   \u2502                                    \u2502\n   \u251c\u2500 Discover IP via nmcli \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n   \u251c\u2500 SSH to port 8022 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2192 sshd (listening)\n   \u2502                                    \u2502\n   \u251c\u2500 Copy files via SCP \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2192 ~/secret-server/\n   \u2502                                    \u2502\n   \u2514\u2500 Run pip install \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2192 ~/secret-server/requirements.txt\n                                        \u2502\n                                        \u2514\u2500\u2192 [Flask installed]\n                                            [cryptography installed]\n                                            [Ready to run]\n```\n\n**Advantages:**\n- Shows which machine does what\n- Shows data crossing from one to another\n- Shows state changes (\"Ready to run\")\n- Easier for non-technical people to follow\n\n### 2. **Checklist + Diagram Fusion**\n\n```\nPHASE 3: Deploy Code\n\u2502\n\u251c\u2500 DIAGRAM: Show files flowing from Linux \u2192 Phone\n\u2502  \n\u251c\u2500 COMMAND BLOCKS: Actual, copy-paste code\n\u2502  LINUX$ scp -r ~/repos/secret-server/*.py phone:~/secret-server/\n\u2502  PHONE$ ls ~/secret-server/\n\u2502\n\u2514\u2500 VERIFICATION: Explicit success criteria\n   \u2713 web_server.py exists on phone\n   \u2713 lib/ directory exists on phone\n   \u2713 requirements.txt present\n```\n\nA person could follow **with minimal previous knowledge** because:\n- The diagram shows intent\n- The commands show execution\n- The verification shows \"did it work?\"\n\n### 3. **Interactive Representation (Future)**\n\nImagine a tool that:\n- Shows the flow diagram\n- Highlights current step\n- Shows a \"progress bar\" across both machines\n- Can show \"if you're at this checkpoint and X failed, click here for recovery steps\"\n- Shows logs in context (\"Here's what the server printed at step 3.2\")\n\n```\n[00%]========[PHASE 3: Deploy Code]=============>[100%]\n\nPROGRESS:\n  Linux: \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591 (Step 2.3 of 5)\n  Phone: \u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591 (Waiting for files)\n\nDIAGRAM:\n  LINUX \u2192 [copying files...] \u2192 PHONE\n\nCURRENT COMMAND:\n  scp -r ~/repos/secret-server/lib phone:~/secret-server/\n  [\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591 42% transferred]\n\nLOGS:\n  [10:45:22] Connected to phone\n  [10:45:24] Transferring web_server.py... OK\n  [10:45:31] Transferring lib/ directory...\n```\n\n### 4. **Notation Principles**\n\n1. **Clarity first** \u2014 A non-programmer should understand intent\n2. **Multi-actor design** \u2014 Show all parties (Linux, Phone, services)\n3. **Data-centric** \u2014 Draw where data flows, not just where commands run\n4. **Verification built-in** \u2014 Each step shows \"how to know it worked\"\n5. **Context preservation** \u2014 Commands stay near their diagrams\n6. **Error-aware** \u2014 Include \"what to do if this fails\" branches\n\n## Starting Point\n\nThe **VIRGIN_INSTALL_CHECKLIST.md** already uses primitive versions of this:\n\n\u2713 ASCII flow diagrams  \n\u2713 Explicit command blocks with LINUX$ vs PHONE$ labels  \n\u2713 Verification steps at each checkpoint  \n\u2713 Quick reference section  \n\nThis is a good **proof of concept**. The vision is to:\n\n1. **Formalize the notation** \u2014 Define exact conventions for diagrams\n2. **Create a template generator** \u2014 Tools that can auto-create these diagrams from structured data\n3. **Build an interactive viewer** \u2014 Web or terminal-based tool that guides users through flows\n4. **Document the pattern** \u2014 So other projects can use it\n\n## Example: A Future Notation Standard\n\n```mermaid\ngraph LR\n    A[\"[LINUX] Discover IP\"] -->|via nmcli| B[\"[PHONE] sshd running\"]\n    B -->|SSH connection| C[\"[LINUX] Mount SSHFS\"]\n    C -->|~/android_mnt ready| D[\"[LINUX] Copy files\"]\n    D -->|web_server.py + lib/ + db/| E[\"[PHONE] ~/secret-server/\"]\n    E -->|verify ls| F[\"[LINUX] Proceed to pip\"]\n    F -->|pip install -r| G[\"[PHONE] Packages installed\"]\n    G -->|verify python imports| H[\"Ready for Phase 5\"]\n```\n\n(This is Mermaid syntax, which renders nicely in GitHub and many documentation tools.)\n\n## Future Steps\n\n1. **Formalize the notation** in a separate document (NOTATION_SPEC.md)\n2. **Create validators** that check structure against diagrams\n3. **Build a flow-to-markdown converter** so diagrams auto-generate checklists\n4. **Design templates** for common patterns (install, upgrade, backup, recovery)\n\n---\n\n## Inspiration & Reference\n\nThis vision draws from:\n- **UML Sequence Diagrams** \u2014 showing interactions across actors\n- **Flowcharts** \u2014 showing decision paths\n- **DevOps runbooks** \u2014 mixing commands with prose\n- **Ansible playbooks** \u2014 structured, verifiable operations\n- **Terraform plans** \u2014 \"here's what will change\" visualizations\n\nThe goal is to create something **simpler than all of these** but **more capable than a checklist**.",
+  "left_keywords": [
+    "checklist_flattening",
+    "process_complexity",
+    "multi_actor_visibility",
+    "data_flow_centrality",
+    "state_transition",
+    "verification_built_in",
+    "error_recovery_branching",
+    "interdependency_awareness",
+    "accessibility_for_novices",
+    "notation_formalization",
+    "interactive_guidance",
+    "diagram_command_fusion",
+    "proof_of_concept_grounding",
+    "simplicity_over_capability_tradeoff"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "linear_representation_failure": [
+      "checklist_flattening",
+      "process_complexity",
+      "interdependency_awareness"
+    ],
+    "actor_and_data_visibility": [
+      "multi_actor_visibility",
+      "data_flow_centrality",
+      "state_transition"
+    ],
+    "trust_through_verification": [
+      "verification_built_in",
+      "error_recovery_branching"
+    ],
+    "human_accessibility": [
+      "accessibility_for_novices",
+      "diagram_command_fusion",
+      "interactive_guidance"
+    ],
+    "vision_maturation": [
+      "notation_formalization",
+      "proof_of_concept_grounding",
+      "simplicity_over_capability_tradeoff"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {},
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

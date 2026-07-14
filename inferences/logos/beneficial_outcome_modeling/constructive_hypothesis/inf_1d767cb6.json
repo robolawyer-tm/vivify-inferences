@@ -1,0 +1,183 @@
+{
+  "logos": {
+    "act_type": {
+      "value": "assertive",
+      "authority_mismatch": false,
+      "rationale": "The speaker makes overlapping truth-claims: about feasibility (it was doable a year ago, therefore now), about current cognitive state (I am getting hints of intuition), and about their personal epistemic method (belief/hypothesis that survives falsification moves to construct). All three are first-person assertions grounded in experience the speaker has natural authority over.",
+      "confidence": 0.85,
+      "_src": [
+        "Austin",
+        "Searle"
+      ],
+      "_operator": "act_type_operator.py"
+    },
+    "cooperative": {
+      "status": "violated",
+      "maxim_violated": "manner",
+      "implicature": "The speaker presupposes the listener shares their terminological framework (logos analogic, left semantic side, construct vs. supportable thesis). The dense, clause-stacked structure and idiosyncratic vocabulary obscure the claim from any reader outside that framework, breaching clarity without any apparent communicative gain.",
+      "confidence": 0.73,
+      "_src": [
+        "Grice"
+      ],
+      "_operator": "cooperative_operator.py"
+    },
+    "transmission": {
+      "value": "archive",
+      "rationale": "The text functions as a dated cognitive record \u2014 the speaker is preserving a snapshot of intellectual progress (catalysis in progress, prior-year precedent noted) for continuity across time, not broadcasting to a public nor leaking under social pressure. The past-to-future orientation dominates.",
+      "confidence": 0.66,
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "transmission_operator.py"
+    },
+    "resonance": {
+      "value": "friction",
+      "surface": "Cautious forward momentum \u2014 the speaker acknowledges doubt but presses toward conviction.",
+      "underlying": "Unresolved tension between external skepticism ('there is debate') and internal warrant ('I think it is / hints of intuition') \u2014 the speaker is not yet through the friction; commitment is claimed but not settled.",
+      "confidence": 0.74,
+      "_src": [
+        "Logos Core Tree",
+        "Machin"
+      ],
+      "_operator": "resonance_operator.py"
+    },
+    "authority": {
+      "value": "occult",
+      "source": "Personal intuition, embodied prior experience (the year-ago precedent), and a self-developed epistemic method (belief \u2192 falsification-surviving hypothesis \u2192 construct) that carries real epistemic weight but exists entirely outside formal or peer-validated records.",
+      "rationale": "No institutional or communal body underwrites this claim. The speaker's authority is genuine but unofficial \u2014 grounded in private pattern recognition and inner cognitive signals rather than sovereign credentials or tribal consensus.",
+      "confidence": 0.8,
+      "_src": [
+        "Logos Core Tree",
+        "Weber"
+      ],
+      "_operator": "authority_operator.py"
+    },
+    "utility": {
+      "value": "narrative",
+      "secondary": "instruction",
+      "rationale": "Primary: the speaker is making meaning \u2014 constructing an account of their own cognitive catalysis and situating it within a larger intellectual arc. Secondary instruction: the articulation of their epistemic method (how belief becomes construct) is transmissible as procedure, even if incidentally so here.",
+      "confidence": 0.76,
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "utility_operator.py"
+    },
+    "social_field": {
+      "grid": 0.32,
+      "group": 0.25,
+      "quadrant": "individualist",
+      "rationale": "Low grid: the speaker operates under self-imposed epistemic rules (their own logos framework, their own falsification standard) rather than externally assigned roles. Low group: the intellectual project is solitary; no communal boundary or shared identity is invoked. Individualist quadrant: self-defined authority, self-generated meaning, minimal constraint from outside.",
+      "confidence": 0.7,
+      "_src": [
+        "Douglas"
+      ],
+      "_operator": "social_field_operator.py"
+    },
+    "structural": {
+      "layer": "self",
+      "scale": "self",
+      "_coerced": null,
+      "density": "embodied",
+      "persistence": "momentary",
+      "authority": "self",
+      "transmission": "direct",
+      "memory_channel": "episodic",
+      "language_mode": "indexical",
+      "overlays": [],
+      "confidence": 0.71,
+      "_src": [
+        "Dunbar",
+        "Tonnies",
+        "Ostrom",
+        "Douglas"
+      ],
+      "_operator": "structural_operator.py"
+    },
+    "_runner": "logos_fused.py"
+  },
+  "conflict": {
+    "schema": "latent",
+    "schema_signals": [
+      "authority=occult",
+      "social_field=individualist(grid=0.32,group=0.25)",
+      "structural=self"
+    ],
+    "behavior": "positioning",
+    "behavior_signals": [
+      "act_type=assertive",
+      "cooperative=violated(manner)",
+      "resonance=friction"
+    ],
+    "terrain": "drifting",
+    "window": "forming",
+    "escalation_phase": "early",
+    "confidence": 0.62,
+    "rationale": "The speaker is converting unresolved internal epistemic friction into assertive belief via occult authority and historical precedent, operating in an individualist field with low structural anchoring \u2014 conditions that insulate against external challenge and prime for entrenchment if the construct meets organized skepticism.",
+    "_src": [
+      "Granovetter",
+      "Glasl",
+      "Durkheim",
+      "Bandura"
+    ],
+    "_operator": "conflict_operator.py"
+  },
+  "id": "inf_1d767cb6",
+  "version": "1.0",
+  "timestamp": "2026-04-15T20:32:39.188439+00:00",
+  "source": "manual",
+  "raw_text": "There is debate whether what I attempting to achieve is actually doable in the moment - but I think it is because it was a year ago, and I am getting hints of intuition such that the logos analogic concept of human language structure is catalyzing within the left semantic side - called belief but also hypothesis that survives falsification which in my style moves to construct rather than supportable thesis.",
+  "left_keywords": [
+    "falsification_survival",
+    "constructive_hypothesis",
+    "logos_meaning_layer",
+    "predictive_intuition",
+    "pre_analytic_detection",
+    "beneficial_outcome_modeling",
+    "synthesis_without_closure"
+  ],
+  "right_keywords": [
+    "json_indexing",
+    "keyword_clumping",
+    "cooccurrence_graph",
+    "autovivification",
+    "filesystem_path",
+    "tension_calculation",
+    "index_aggregation",
+    "api_output",
+    "inference_storage",
+    "category_path_assignment"
+  ],
+  "clumps": {
+    "hypothesis_survival": [
+      "constructive_hypothesis",
+      "falsification_survival"
+    ],
+    "semantic_catalysis": [
+      "logos_meaning_layer"
+    ],
+    "intuition_as_signal": [
+      "pre_analytic_detection",
+      "predictive_intuition"
+    ],
+    "beneficial_modeling": [
+      "beneficial_outcome_modeling",
+      "synthesis_without_closure"
+    ]
+  },
+  "tension_score": 0.296,
+  "guardrail_actions": {},
+  "domain": "logos",
+  "category_paths": [
+    "beneficial_outcome_modeling/constructive_hypothesis",
+    "beneficial_outcome_modeling/falsification_survival",
+    "beneficial_outcome_modeling/logos_meaning_layer",
+    "beneficial_outcome_modeling/pre_analytic_detection",
+    "beneficial_outcome_modeling/predictive_intuition",
+    "beneficial_outcome_modeling/synthesis_without_closure"
+  ],
+  "tension": {
+    "predicted": 0.296,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "inf_cfcc4d94",
+  "version": "1.0",
+  "timestamp": "2026-06-12T18:52:55.568310+00:00",
+  "source": "claude_session",
+  "raw_text": "The `/capture` skill and its destination file `~/repos/pillars/capture/inbox.md` were referenced as the landing point for inferences generated mid-session. This confirms that the capture inbox functions as an in-session waystation \u2014 ideas and inferences are routed there during active work rather than being deferred to a separate review step, supporting the principle that context captured in the moment is more complete than reconstructed summaries.",
+  "left_keywords": [
+    "in_session_capture",
+    "temporal_capture_advantage",
+    "deferred_review_contrast",
+    "context_completeness",
+    "reconstruction_loss",
+    "capture_fidelity",
+    "inbox_as_staging",
+    "immediate_routing",
+    "waystation_function",
+    "mid_session_inference",
+    "active_work_context",
+    "moment_vs_memory"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "capture_timing": [
+      "deferred_review_contrast",
+      "in_session_capture",
+      "temporal_capture_advantage"
+    ],
+    "context_fidelity": [
+      "capture_fidelity",
+      "context_completeness",
+      "reconstruction_loss"
+    ],
+    "waystation_function": [
+      "immediate_routing",
+      "inbox_as_staging",
+      "waystation_function"
+    ],
+    "active_work_flow": [
+      "active_work_context",
+      "mid_session_inference",
+      "moment_vs_memory"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

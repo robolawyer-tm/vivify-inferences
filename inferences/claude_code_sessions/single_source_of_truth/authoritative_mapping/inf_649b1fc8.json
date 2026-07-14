@@ -1,0 +1,65 @@
+{
+  "id": "inf_649b1fc8",
+  "version": "1.0",
+  "timestamp": "2026-06-26T17:47:58.370209+00:00",
+  "source": "claude_session",
+  "raw_text": "To prevent the fused prompt from silently drifting from the real operator logic, each logos operator was refactored to expose a parse() function so the operators remain the single source of truth. The fused pass injects allowed enum values from coordinates.json at import and reuses each operator's own result-to-coordinate mapping, including structural's scale coercion, so its output is byte-identical to the per-operator path and downstream consumers read it unchanged. This established the discipline that the fused convenience layer must never duplicate or diverge from the authoritative per-dimension mappings.",
+  "left_keywords": [
+    "single_source_of_truth",
+    "fused_prompt_drift",
+    "parse_function_exposure",
+    "authoritative_mapping",
+    "enum_injection",
+    "result_to_coordinate_mapping",
+    "scale_coercion",
+    "byte_identical_output",
+    "downstream_invariance",
+    "no_duplication_discipline",
+    "convenience_layer_constraint",
+    "per_dimension_fidelity"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "source_of_truth": [
+      "authoritative_mapping",
+      "parse_function_exposure",
+      "single_source_of_truth"
+    ],
+    "drift_prevention": [
+      "convenience_layer_constraint",
+      "fused_prompt_drift",
+      "no_duplication_discipline"
+    ],
+    "mapping_fidelity": [
+      "per_dimension_fidelity",
+      "result_to_coordinate_mapping",
+      "scale_coercion"
+    ],
+    "output_invariance": [
+      "byte_identical_output",
+      "downstream_invariance",
+      "enum_injection"
+    ]
+  },
+  "tension_score": null,
+  "guardrail_actions": {},
+  "domain": "claude_code_sessions",
+  "category_paths": [
+    "single_source_of_truth/authoritative_mapping",
+    "single_source_of_truth/byte_identical_output",
+    "single_source_of_truth/convenience_layer_constraint",
+    "single_source_of_truth/downstream_invariance",
+    "single_source_of_truth/enum_injection",
+    "single_source_of_truth/fused_prompt_drift",
+    "single_source_of_truth/no_duplication_discipline",
+    "single_source_of_truth/parse_function_exposure",
+    "single_source_of_truth/per_dimension_fidelity",
+    "single_source_of_truth/result_to_coordinate_mapping",
+    "single_source_of_truth/scale_coercion"
+  ],
+  "tension": {
+    "predicted": null,
+    "confirmed": null,
+    "calibration_delta": null
+  }
+}

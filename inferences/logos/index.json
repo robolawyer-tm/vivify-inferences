@@ -1,0 +1,3243 @@
+{
+  "version": "3.0",
+  "total_inferences": 0,
+  "keywords": {},
+  "cooccurrence": {},
+  "categories": {
+    "tree": {
+      "beneficial_outcome_modeling": {
+        "semantic_digital_duality": [
+          "analogical_synthesis",
+          "logos_empathy_base",
+          "felt_meaning",
+          "conflict_data_modeling"
+        ],
+        "constructive_hypothesis": [
+          "logos_meaning_layer",
+          "synthesis_without_closure",
+          "falsification_survival",
+          "predictive_intuition"
+        ],
+        "logos_meaning_layer": [
+          "synthesis_without_closure",
+          "falsification_survival",
+          "predictive_intuition",
+          "pre_analytic_detection"
+        ],
+        "synthesis_without_closure": [
+          "falsification_survival",
+          "predictive_intuition",
+          "pre_analytic_detection",
+          "empathy_analog_logic"
+        ],
+        "bottled_prediction": [
+          "conflict_resolution_paths",
+          "tension_score_calculation",
+          "emergent_structure",
+          "dual_extraction_pass"
+        ],
+        "conflict_resolution_paths": [
+          "tension_score_calculation",
+          "emergent_structure",
+          "dual_extraction_pass",
+          "keyword_similarity_metric"
+        ],
+        "tension_score_calculation": [
+          "emergent_structure",
+          "dual_extraction_pass",
+          "keyword_similarity_metric",
+          "conflict_scenario_processing"
+        ],
+        "emergent_structure": [
+          "dual_extraction_pass",
+          "keyword_similarity_metric",
+          "conflict_scenario_processing",
+          "modular_local_processing"
+        ],
+        "dual_extraction_pass": [
+          "keyword_similarity_metric",
+          "conflict_scenario_processing",
+          "modular_local_processing",
+          "master_index_aggregation"
+        ],
+        "analogical_synthesis": [
+          "logos_empathy_base",
+          "felt_meaning",
+          "conflict_data_modeling",
+          "functional_model_construction"
+        ],
+        "logos_empathy_base": [
+          "felt_meaning",
+          "conflict_data_modeling",
+          "functional_model_construction",
+          "mid_inference_memory"
+        ],
+        "felt_meaning": [
+          "conflict_data_modeling",
+          "functional_model_construction",
+          "mid_inference_memory",
+          "self_evolving_rules"
+        ],
+        "conflict_data_modeling": [
+          "functional_model_construction",
+          "mid_inference_memory",
+          "self_evolving_rules",
+          "synthesis_without_antithesis"
+        ],
+        "functional_model_construction": [
+          "mid_inference_memory",
+          "self_evolving_rules",
+          "synthesis_without_antithesis",
+          "empathy_native_output"
+        ],
+        "mid_inference_memory": [
+          "self_evolving_rules",
+          "synthesis_without_antithesis",
+          "empathy_native_output",
+          "live_worker_refinement"
+        ],
+        "self_evolving_rules": [
+          "synthesis_without_antithesis",
+          "empathy_native_output",
+          "live_worker_refinement"
+        ],
+        "synthesis_without_antithesis": [
+          "empathy_native_output",
+          "live_worker_refinement"
+        ],
+        "empathy_native_output": [
+          "live_worker_refinement"
+        ],
+        "live_worker_refinement": [],
+        "falsification_survival": [
+          "predictive_intuition",
+          "pre_analytic_detection"
+        ],
+        "predictive_intuition": [
+          "pre_analytic_detection"
+        ],
+        "pre_analytic_detection": [],
+        "keyword_similarity_metric": [
+          "conflict_scenario_processing",
+          "modular_local_processing",
+          "master_index_aggregation",
+          "intervention_opportunity"
+        ],
+        "conflict_scenario_processing": [
+          "modular_local_processing",
+          "master_index_aggregation",
+          "intervention_opportunity",
+          "phase_pipeline_design"
+        ],
+        "modular_local_processing": [
+          "master_index_aggregation",
+          "intervention_opportunity",
+          "phase_pipeline_design"
+        ],
+        "master_index_aggregation": [
+          "intervention_opportunity",
+          "phase_pipeline_design"
+        ],
+        "intervention_opportunity": [
+          "phase_pipeline_design"
+        ],
+        "phase_pipeline_design": [],
+        "empathy_analog_logic": [
+          "baseline_deviation_modeling",
+          "agentic_self_evolution"
+        ],
+        "baseline_deviation_modeling": [
+          "agentic_self_evolution"
+        ],
+        "agentic_self_evolution": [],
+        "open_ended_purpose": [
+          "gatekeeping_pattern",
+          "autovivification",
+          "cooccurrence_emergence",
+          "integrity_foundation"
+        ],
+        "gatekeeping_pattern": [
+          "autovivification",
+          "cooccurrence_emergence",
+          "integrity_foundation"
+        ],
+        "autovivification": [
+          "semantic_worker_isolation",
+          "transient_agent_instantiation",
+          "rules_as_scaffolding",
+          "disposable_execution"
+        ],
+        "cooccurrence_emergence": [
+          "integrity_foundation"
+        ],
+        "integrity_foundation": []
+      },
+      "durable_semantic_store": {
+        "disposable_execution": [
+          "language_as_runtime_spec",
+          "schema_light_evolution",
+          "loop_entry_point",
+          "rules_as_instantiation"
+        ],
+        "language_as_runtime_spec": [
+          "schema_light_evolution",
+          "loop_entry_point",
+          "rules_as_instantiation",
+          "skill_sediment"
+        ],
+        "schema_light_evolution": [
+          "loop_entry_point",
+          "rules_as_instantiation",
+          "skill_sediment",
+          "semantic_fit_iteration"
+        ],
+        "query_intent_extraction": [
+          "autovivified_clump_growth",
+          "planning_as_prose",
+          "skill_library_reuse",
+          "semantic_regeneration"
+        ],
+        "autovivified_clump_growth": [
+          "planning_as_prose",
+          "skill_library_reuse",
+          "semantic_regeneration",
+          "pattern_archival"
+        ],
+        "planning_as_prose": [
+          "skill_library_reuse",
+          "semantic_regeneration",
+          "pattern_archival",
+          "output_diff_extraction"
+        ],
+        "skill_library_reuse": [
+          "semantic_regeneration",
+          "pattern_archival",
+          "output_diff_extraction"
+        ],
+        "semantic_regeneration": [
+          "pattern_archival",
+          "output_diff_extraction"
+        ],
+        "pattern_archival": [
+          "output_diff_extraction"
+        ],
+        "output_diff_extraction": [],
+        "loop_entry_point": [
+          "rules_as_instantiation",
+          "skill_sediment",
+          "semantic_fit_iteration",
+          "meaning_structure_gap"
+        ],
+        "rules_as_instantiation": [
+          "skill_sediment",
+          "semantic_fit_iteration",
+          "meaning_structure_gap",
+          "narrowing_as_work"
+        ],
+        "skill_sediment": [
+          "semantic_fit_iteration",
+          "meaning_structure_gap",
+          "narrowing_as_work"
+        ],
+        "semantic_fit_iteration": [
+          "meaning_structure_gap",
+          "narrowing_as_work",
+          "quest_driven_generation",
+          "semantic_enhancement_loop"
+        ],
+        "meaning_structure_gap": [
+          "narrowing_as_work"
+        ],
+        "narrowing_as_work": [],
+        "semantic_worker_isolation": [
+          "transient_agent_instantiation",
+          "rules_as_scaffolding",
+          "autovivification",
+          "semantic_database_binding"
+        ],
+        "transient_agent_instantiation": [
+          "rules_as_scaffolding",
+          "autovivification",
+          "semantic_database_binding",
+          "sandboxed_llm_call"
+        ],
+        "rules_as_scaffolding": [
+          "autovivification",
+          "semantic_database_binding",
+          "sandboxed_llm_call"
+        ],
+        "autovivification": [
+          "semantic_database_binding",
+          "sandboxed_llm_call",
+          "open_ended_purpose",
+          "tension_score_calculation"
+        ],
+        "semantic_database_binding": [
+          "sandboxed_llm_call"
+        ],
+        "sandboxed_llm_call": []
+      },
+      "moral_evolution": {
+        "applied_humanistics": [
+          "beneficial_synthesis",
+          "evolution_as_weapon",
+          "spiritual_container",
+          "constructivism"
+        ],
+        "beneficial_synthesis": [
+          "evolution_as_weapon",
+          "spiritual_container",
+          "constructivism",
+          "synthesis_rehabilitation"
+        ],
+        "evolution_as_weapon": [
+          "spiritual_container",
+          "constructivism",
+          "synthesis_rehabilitation",
+          "morality_container"
+        ],
+        "spiritual_container": [
+          "constructivism",
+          "synthesis_rehabilitation",
+          "morality_container",
+          "logos_evolution"
+        ],
+        "constructivism": [
+          "synthesis_rehabilitation",
+          "morality_container",
+          "logos_evolution",
+          "dual_practice_evidence"
+        ],
+        "synthesis_rehabilitation": [
+          "morality_container",
+          "logos_evolution",
+          "dual_practice_evidence",
+          "unconventional_thought_suppression"
+        ],
+        "morality_container": [
+          "logos_evolution",
+          "dual_practice_evidence",
+          "unconventional_thought_suppression",
+          "analogical_religion"
+        ],
+        "logos_evolution": [
+          "dual_practice_evidence",
+          "unconventional_thought_suppression",
+          "analogical_religion"
+        ],
+        "dual_practice_evidence": [
+          "unconventional_thought_suppression",
+          "analogical_religion"
+        ],
+        "unconventional_thought_suppression": [
+          "analogical_religion"
+        ],
+        "analogical_religion": [],
+        "evolution_as_tool": [
+          "social_technology",
+          "selective_advantage",
+          "group_cohesion_mechanism",
+          "adaptive_equilibrium"
+        ],
+        "social_technology": [
+          "selective_advantage",
+          "group_cohesion_mechanism",
+          "adaptive_equilibrium",
+          "constructivist_reality_building"
+        ],
+        "selective_advantage": [
+          "group_cohesion_mechanism",
+          "adaptive_equilibrium",
+          "constructivist_reality_building",
+          "hegelian_contrast"
+        ],
+        "group_cohesion_mechanism": [
+          "adaptive_equilibrium",
+          "constructivist_reality_building",
+          "hegelian_contrast",
+          "verifiable_moral_grounding"
+        ],
+        "adaptive_equilibrium": [
+          "constructivist_reality_building",
+          "hegelian_contrast",
+          "verifiable_moral_grounding",
+          "objective_spirit"
+        ],
+        "constructivist_reality_building": [
+          "hegelian_contrast",
+          "verifiable_moral_grounding",
+          "objective_spirit"
+        ],
+        "hegelian_contrast": [
+          "verifiable_moral_grounding",
+          "objective_spirit"
+        ],
+        "verifiable_moral_grounding": [
+          "objective_spirit"
+        ],
+        "objective_spirit": []
+      },
+      "applied_humanistics": {
+        "beneficial_synthesis": [
+          "evolution_as_weapon",
+          "spiritual_container",
+          "constructivism",
+          "synthesis_rehabilitation"
+        ],
+        "evolution_as_weapon": [
+          "spiritual_container",
+          "constructivism",
+          "synthesis_rehabilitation",
+          "morality_container"
+        ],
+        "spiritual_container": [
+          "constructivism",
+          "synthesis_rehabilitation",
+          "morality_container",
+          "logos_evolution"
+        ],
+        "constructivism": [
+          "synthesis_rehabilitation",
+          "morality_container",
+          "logos_evolution",
+          "dual_practice_evidence"
+        ],
+        "synthesis_rehabilitation": [
+          "morality_container",
+          "logos_evolution",
+          "dual_practice_evidence",
+          "unconventional_thought_suppression"
+        ],
+        "morality_container": [
+          "logos_evolution",
+          "dual_practice_evidence",
+          "unconventional_thought_suppression",
+          "analogical_religion"
+        ],
+        "logos_evolution": [
+          "dual_practice_evidence",
+          "unconventional_thought_suppression",
+          "analogical_religion"
+        ],
+        "dual_practice_evidence": [
+          "unconventional_thought_suppression",
+          "analogical_religion"
+        ],
+        "unconventional_thought_suppression": [
+          "analogical_religion"
+        ],
+        "analogical_religion": [],
+        "evolution_as_tool": [
+          "social_technology",
+          "selective_advantage",
+          "group_cohesion_mechanism",
+          "adaptive_equilibrium"
+        ],
+        "social_technology": [
+          "selective_advantage",
+          "group_cohesion_mechanism",
+          "adaptive_equilibrium",
+          "constructivist_reality_building"
+        ],
+        "selective_advantage": [
+          "group_cohesion_mechanism",
+          "adaptive_equilibrium",
+          "constructivist_reality_building",
+          "hegelian_contrast"
+        ],
+        "group_cohesion_mechanism": [
+          "adaptive_equilibrium",
+          "constructivist_reality_building",
+          "hegelian_contrast",
+          "verifiable_moral_grounding"
+        ],
+        "adaptive_equilibrium": [
+          "constructivist_reality_building",
+          "hegelian_contrast",
+          "verifiable_moral_grounding",
+          "objective_spirit"
+        ],
+        "constructivist_reality_building": [
+          "hegelian_contrast",
+          "verifiable_moral_grounding",
+          "objective_spirit"
+        ],
+        "hegelian_contrast": [
+          "verifiable_moral_grounding",
+          "objective_spirit"
+        ],
+        "verifiable_moral_grounding": [
+          "objective_spirit"
+        ],
+        "objective_spirit": []
+      },
+      "beneficial_synthesis": {
+        "evolution_as_weapon": [
+          "spiritual_container",
+          "constructivism",
+          "synthesis_rehabilitation",
+          "morality_container"
+        ],
+        "spiritual_container": [
+          "constructivism",
+          "synthesis_rehabilitation",
+          "morality_container",
+          "logos_evolution"
+        ],
+        "constructivism": [
+          "synthesis_rehabilitation",
+          "morality_container",
+          "logos_evolution",
+          "dual_practice_evidence"
+        ],
+        "synthesis_rehabilitation": [
+          "morality_container",
+          "logos_evolution",
+          "dual_practice_evidence",
+          "unconventional_thought_suppression"
+        ],
+        "morality_container": [
+          "logos_evolution",
+          "dual_practice_evidence",
+          "unconventional_thought_suppression",
+          "analogical_religion"
+        ],
+        "logos_evolution": [
+          "dual_practice_evidence",
+          "unconventional_thought_suppression",
+          "analogical_religion"
+        ],
+        "dual_practice_evidence": [
+          "unconventional_thought_suppression",
+          "analogical_religion"
+        ],
+        "unconventional_thought_suppression": [
+          "analogical_religion"
+        ],
+        "analogical_religion": [],
+        "evolution_as_tool": [
+          "social_technology",
+          "selective_advantage",
+          "group_cohesion_mechanism",
+          "adaptive_equilibrium"
+        ],
+        "social_technology": [
+          "selective_advantage",
+          "group_cohesion_mechanism",
+          "adaptive_equilibrium",
+          "constructivist_reality_building"
+        ],
+        "selective_advantage": [
+          "group_cohesion_mechanism",
+          "adaptive_equilibrium",
+          "constructivist_reality_building",
+          "hegelian_contrast"
+        ],
+        "group_cohesion_mechanism": [
+          "adaptive_equilibrium",
+          "constructivist_reality_building",
+          "hegelian_contrast",
+          "verifiable_moral_grounding"
+        ],
+        "adaptive_equilibrium": [
+          "constructivist_reality_building",
+          "hegelian_contrast",
+          "verifiable_moral_grounding",
+          "objective_spirit"
+        ],
+        "constructivist_reality_building": [
+          "hegelian_contrast",
+          "verifiable_moral_grounding",
+          "objective_spirit"
+        ],
+        "hegelian_contrast": [
+          "verifiable_moral_grounding",
+          "objective_spirit"
+        ],
+        "verifiable_moral_grounding": [
+          "objective_spirit"
+        ],
+        "objective_spirit": []
+      },
+      "embedded_data_iteration": {
+        "comprehension_gap": [
+          "chunking_artifact",
+          "semantic_gap_coverage",
+          "ai_workflow_design",
+          "meaning_preservation"
+        ],
+        "chunking_artifact": [
+          "semantic_gap_coverage",
+          "ai_workflow_design",
+          "meaning_preservation",
+          "context_continuity"
+        ],
+        "semantic_gap_coverage": [
+          "ai_workflow_design",
+          "meaning_preservation",
+          "context_continuity",
+          "iterative_embedding"
+        ],
+        "ai_workflow_design": [
+          "meaning_preservation",
+          "context_continuity",
+          "iterative_embedding",
+          "input_data_fidelity"
+        ],
+        "meaning_preservation": [
+          "context_continuity",
+          "iterative_embedding",
+          "input_data_fidelity",
+          "ai_workflow_comprehension"
+        ],
+        "context_continuity": [
+          "iterative_embedding",
+          "input_data_fidelity",
+          "ai_workflow_comprehension",
+          "iterative_semantic_pass"
+        ],
+        "iterative_embedding": [
+          "input_data_fidelity",
+          "ai_workflow_comprehension",
+          "iterative_semantic_pass"
+        ],
+        "input_data_fidelity": [
+          "ai_workflow_comprehension",
+          "iterative_semantic_pass"
+        ],
+        "ai_workflow_comprehension": [
+          "iterative_semantic_pass"
+        ],
+        "iterative_semantic_pass": [],
+        "rationale_sense_gap": [
+          "chunking_perfidy",
+          "multi_layer_retrieval",
+          "contextual_frame_embedding",
+          "semantic_tag_iteration"
+        ],
+        "chunking_perfidy": [
+          "multi_layer_retrieval",
+          "contextual_frame_embedding",
+          "semantic_tag_iteration",
+          "recursive_summary_abstraction"
+        ],
+        "multi_layer_retrieval": [
+          "contextual_frame_embedding",
+          "semantic_tag_iteration",
+          "recursive_summary_abstraction",
+          "sense_rationale_synthesis"
+        ],
+        "contextual_frame_embedding": [
+          "semantic_tag_iteration",
+          "recursive_summary_abstraction",
+          "sense_rationale_synthesis",
+          "narrative_arc_preservation"
+        ],
+        "semantic_tag_iteration": [
+          "recursive_summary_abstraction",
+          "sense_rationale_synthesis",
+          "narrative_arc_preservation",
+          "holistic_context_recovery"
+        ],
+        "recursive_summary_abstraction": [
+          "sense_rationale_synthesis",
+          "narrative_arc_preservation",
+          "holistic_context_recovery",
+          "fact_context_simultaneous"
+        ],
+        "sense_rationale_synthesis": [
+          "narrative_arc_preservation",
+          "holistic_context_recovery",
+          "fact_context_simultaneous"
+        ],
+        "narrative_arc_preservation": [
+          "holistic_context_recovery",
+          "fact_context_simultaneous"
+        ],
+        "holistic_context_recovery": [
+          "fact_context_simultaneous"
+        ],
+        "fact_context_simultaneous": []
+      },
+      "comprehension_gap": {
+        "chunking_artifact": [
+          "semantic_gap_coverage",
+          "ai_workflow_design",
+          "meaning_preservation",
+          "context_continuity"
+        ],
+        "semantic_gap_coverage": [
+          "ai_workflow_design",
+          "meaning_preservation",
+          "context_continuity",
+          "iterative_embedding"
+        ],
+        "ai_workflow_design": [
+          "meaning_preservation",
+          "context_continuity",
+          "iterative_embedding",
+          "input_data_fidelity"
+        ],
+        "meaning_preservation": [
+          "context_continuity",
+          "iterative_embedding",
+          "input_data_fidelity",
+          "ai_workflow_comprehension"
+        ],
+        "context_continuity": [
+          "iterative_embedding",
+          "input_data_fidelity",
+          "ai_workflow_comprehension",
+          "iterative_semantic_pass"
+        ],
+        "iterative_embedding": [
+          "input_data_fidelity",
+          "ai_workflow_comprehension",
+          "iterative_semantic_pass"
+        ],
+        "input_data_fidelity": [
+          "ai_workflow_comprehension",
+          "iterative_semantic_pass"
+        ],
+        "ai_workflow_comprehension": [
+          "iterative_semantic_pass"
+        ],
+        "iterative_semantic_pass": [],
+        "rationale_sense_gap": [
+          "chunking_perfidy",
+          "multi_layer_retrieval",
+          "contextual_frame_embedding",
+          "semantic_tag_iteration"
+        ],
+        "chunking_perfidy": [
+          "multi_layer_retrieval",
+          "contextual_frame_embedding",
+          "semantic_tag_iteration",
+          "recursive_summary_abstraction"
+        ],
+        "multi_layer_retrieval": [
+          "contextual_frame_embedding",
+          "semantic_tag_iteration",
+          "recursive_summary_abstraction",
+          "sense_rationale_synthesis"
+        ],
+        "contextual_frame_embedding": [
+          "semantic_tag_iteration",
+          "recursive_summary_abstraction",
+          "sense_rationale_synthesis",
+          "narrative_arc_preservation"
+        ],
+        "semantic_tag_iteration": [
+          "recursive_summary_abstraction",
+          "sense_rationale_synthesis",
+          "narrative_arc_preservation",
+          "holistic_context_recovery"
+        ],
+        "recursive_summary_abstraction": [
+          "sense_rationale_synthesis",
+          "narrative_arc_preservation",
+          "holistic_context_recovery",
+          "fact_context_simultaneous"
+        ],
+        "sense_rationale_synthesis": [
+          "narrative_arc_preservation",
+          "holistic_context_recovery",
+          "fact_context_simultaneous"
+        ],
+        "narrative_arc_preservation": [
+          "holistic_context_recovery",
+          "fact_context_simultaneous"
+        ],
+        "holistic_context_recovery": [
+          "fact_context_simultaneous"
+        ],
+        "fact_context_simultaneous": []
+      },
+      "autovivification": {
+        "semantic_worker_isolation": [
+          "transient_agent_instantiation",
+          "rules_as_scaffolding",
+          "disposable_execution",
+          "schema_light_evolution"
+        ],
+        "transient_agent_instantiation": [
+          "rules_as_scaffolding",
+          "disposable_execution",
+          "schema_light_evolution",
+          "semantic_database_binding"
+        ],
+        "rules_as_scaffolding": [
+          "disposable_execution",
+          "schema_light_evolution",
+          "semantic_database_binding",
+          "sandboxed_llm_call"
+        ],
+        "disposable_execution": [
+          "language_as_runtime_spec",
+          "schema_light_evolution",
+          "loop_entry_point",
+          "rules_as_instantiation"
+        ],
+        "schema_light_evolution": [
+          "language_as_runtime_spec",
+          "loop_entry_point",
+          "rules_as_instantiation",
+          "skill_sediment"
+        ],
+        "semantic_database_binding": [
+          "sandboxed_llm_call",
+          "language_as_runtime_spec"
+        ],
+        "sandboxed_llm_call": [
+          "language_as_runtime_spec"
+        ],
+        "language_as_runtime_spec": [
+          "loop_entry_point",
+          "rules_as_instantiation",
+          "skill_sediment",
+          "semantic_fit_iteration"
+        ],
+        "open_ended_purpose": [
+          "tension_score_calculation",
+          "gatekeeping_pattern",
+          "conflict_resolution_paths",
+          "cooccurrence_emergence"
+        ],
+        "tension_score_calculation": [
+          "bottled_prediction",
+          "conflict_resolution_paths",
+          "emergent_structure",
+          "dual_extraction_pass"
+        ],
+        "gatekeeping_pattern": [
+          "conflict_resolution_paths",
+          "cooccurrence_emergence",
+          "dual_extraction_pass",
+          "bottled_prediction"
+        ],
+        "conflict_resolution_paths": [
+          "bottled_prediction",
+          "emergent_structure",
+          "dual_extraction_pass",
+          "keyword_similarity_metric"
+        ],
+        "cooccurrence_emergence": [
+          "dual_extraction_pass",
+          "bottled_prediction",
+          "integrity_foundation",
+          "emergent_structure"
+        ],
+        "dual_extraction_pass": [
+          "bottled_prediction",
+          "emergent_structure",
+          "keyword_similarity_metric",
+          "conflict_scenario_processing"
+        ],
+        "bottled_prediction": [
+          "emergent_structure",
+          "keyword_similarity_metric",
+          "conflict_scenario_processing",
+          "modular_local_processing"
+        ],
+        "integrity_foundation": [
+          "emergent_structure"
+        ],
+        "emergent_structure": [
+          "keyword_similarity_metric",
+          "conflict_scenario_processing",
+          "modular_local_processing",
+          "master_index_aggregation"
+        ]
+      },
+      "semantic_digital_duality": {
+        "analogical_synthesis": [
+          "logos_empathy_base",
+          "felt_meaning",
+          "conflict_data_modeling",
+          "functional_model_construction"
+        ],
+        "logos_empathy_base": [
+          "felt_meaning",
+          "conflict_data_modeling",
+          "functional_model_construction",
+          "mid_inference_memory"
+        ],
+        "felt_meaning": [
+          "conflict_data_modeling",
+          "functional_model_construction",
+          "mid_inference_memory",
+          "self_evolving_rules"
+        ],
+        "conflict_data_modeling": [
+          "functional_model_construction",
+          "mid_inference_memory",
+          "self_evolving_rules",
+          "synthesis_without_antithesis"
+        ],
+        "functional_model_construction": [
+          "mid_inference_memory",
+          "self_evolving_rules",
+          "synthesis_without_antithesis",
+          "empathy_native_output"
+        ],
+        "mid_inference_memory": [
+          "self_evolving_rules",
+          "synthesis_without_antithesis",
+          "empathy_native_output",
+          "live_worker_refinement"
+        ],
+        "self_evolving_rules": [
+          "synthesis_without_antithesis",
+          "empathy_native_output",
+          "live_worker_refinement"
+        ],
+        "synthesis_without_antithesis": [
+          "empathy_native_output",
+          "live_worker_refinement"
+        ],
+        "empathy_native_output": [
+          "live_worker_refinement"
+        ],
+        "live_worker_refinement": [],
+        "logos_meaning_layer": [
+          "constructive_hypothesis",
+          "synthesis_without_closure",
+          "falsification_survival",
+          "predictive_intuition"
+        ],
+        "empathy_analog_logic": [
+          "baseline_deviation_modeling",
+          "agentic_self_evolution",
+          "constructive_hypothesis",
+          "synthesis_without_closure"
+        ],
+        "baseline_deviation_modeling": [
+          "agentic_self_evolution",
+          "constructive_hypothesis",
+          "synthesis_without_closure"
+        ],
+        "agentic_self_evolution": [
+          "constructive_hypothesis",
+          "synthesis_without_closure"
+        ],
+        "constructive_hypothesis": [
+          "synthesis_without_closure",
+          "falsification_survival",
+          "predictive_intuition",
+          "pre_analytic_detection"
+        ],
+        "synthesis_without_closure": [
+          "falsification_survival",
+          "predictive_intuition",
+          "pre_analytic_detection"
+        ]
+      },
+      "bottled_prediction": {
+        "conflict_resolution_paths": [
+          "tension_score_calculation",
+          "emergent_structure",
+          "dual_extraction_pass",
+          "keyword_similarity_metric"
+        ],
+        "tension_score_calculation": [
+          "emergent_structure",
+          "dual_extraction_pass",
+          "keyword_similarity_metric",
+          "conflict_scenario_processing"
+        ],
+        "emergent_structure": [
+          "dual_extraction_pass",
+          "keyword_similarity_metric",
+          "conflict_scenario_processing",
+          "modular_local_processing"
+        ],
+        "dual_extraction_pass": [
+          "keyword_similarity_metric",
+          "conflict_scenario_processing",
+          "modular_local_processing",
+          "master_index_aggregation"
+        ],
+        "keyword_similarity_metric": [
+          "conflict_scenario_processing",
+          "modular_local_processing",
+          "master_index_aggregation",
+          "intervention_opportunity"
+        ],
+        "conflict_scenario_processing": [
+          "modular_local_processing",
+          "master_index_aggregation",
+          "intervention_opportunity",
+          "phase_pipeline_design"
+        ],
+        "modular_local_processing": [
+          "master_index_aggregation",
+          "intervention_opportunity",
+          "phase_pipeline_design"
+        ],
+        "master_index_aggregation": [
+          "intervention_opportunity",
+          "phase_pipeline_design"
+        ],
+        "intervention_opportunity": [
+          "phase_pipeline_design"
+        ],
+        "phase_pipeline_design": [],
+        "open_ended_purpose": [
+          "gatekeeping_pattern",
+          "cooccurrence_emergence",
+          "integrity_foundation"
+        ],
+        "gatekeeping_pattern": [
+          "cooccurrence_emergence",
+          "integrity_foundation"
+        ],
+        "cooccurrence_emergence": [
+          "integrity_foundation"
+        ],
+        "integrity_foundation": []
+      },
+      "conflict_resolution_paths": {
+        "tension_score_calculation": [
+          "emergent_structure",
+          "dual_extraction_pass",
+          "keyword_similarity_metric",
+          "conflict_scenario_processing"
+        ],
+        "emergent_structure": [
+          "dual_extraction_pass",
+          "keyword_similarity_metric",
+          "conflict_scenario_processing",
+          "modular_local_processing"
+        ],
+        "dual_extraction_pass": [
+          "keyword_similarity_metric",
+          "conflict_scenario_processing",
+          "modular_local_processing",
+          "master_index_aggregation"
+        ],
+        "keyword_similarity_metric": [
+          "conflict_scenario_processing",
+          "modular_local_processing",
+          "master_index_aggregation",
+          "intervention_opportunity"
+        ],
+        "conflict_scenario_processing": [
+          "modular_local_processing",
+          "master_index_aggregation",
+          "intervention_opportunity",
+          "phase_pipeline_design"
+        ],
+        "modular_local_processing": [
+          "master_index_aggregation",
+          "intervention_opportunity",
+          "phase_pipeline_design"
+        ],
+        "master_index_aggregation": [
+          "intervention_opportunity",
+          "phase_pipeline_design"
+        ],
+        "intervention_opportunity": [
+          "phase_pipeline_design"
+        ],
+        "phase_pipeline_design": [],
+        "open_ended_purpose": [
+          "gatekeeping_pattern",
+          "cooccurrence_emergence",
+          "integrity_foundation"
+        ],
+        "gatekeeping_pattern": [
+          "cooccurrence_emergence",
+          "integrity_foundation"
+        ],
+        "cooccurrence_emergence": [
+          "integrity_foundation"
+        ],
+        "integrity_foundation": []
+      },
+      "tension_score_calculation": {
+        "emergent_structure": [
+          "dual_extraction_pass",
+          "keyword_similarity_metric",
+          "conflict_scenario_processing",
+          "modular_local_processing"
+        ],
+        "dual_extraction_pass": [
+          "keyword_similarity_metric",
+          "conflict_scenario_processing",
+          "modular_local_processing",
+          "master_index_aggregation"
+        ],
+        "keyword_similarity_metric": [
+          "conflict_scenario_processing",
+          "modular_local_processing",
+          "master_index_aggregation",
+          "intervention_opportunity"
+        ],
+        "conflict_scenario_processing": [
+          "modular_local_processing",
+          "master_index_aggregation",
+          "intervention_opportunity",
+          "phase_pipeline_design"
+        ],
+        "modular_local_processing": [
+          "master_index_aggregation",
+          "intervention_opportunity",
+          "phase_pipeline_design"
+        ],
+        "master_index_aggregation": [
+          "intervention_opportunity",
+          "phase_pipeline_design"
+        ],
+        "intervention_opportunity": [
+          "phase_pipeline_design"
+        ],
+        "phase_pipeline_design": [],
+        "open_ended_purpose": [
+          "gatekeeping_pattern",
+          "cooccurrence_emergence",
+          "integrity_foundation"
+        ],
+        "gatekeeping_pattern": [
+          "cooccurrence_emergence",
+          "integrity_foundation"
+        ],
+        "cooccurrence_emergence": [
+          "integrity_foundation"
+        ],
+        "integrity_foundation": []
+      },
+      "emergent_structure": {
+        "dual_extraction_pass": [
+          "keyword_similarity_metric",
+          "conflict_scenario_processing",
+          "modular_local_processing",
+          "master_index_aggregation"
+        ],
+        "keyword_similarity_metric": [
+          "conflict_scenario_processing",
+          "modular_local_processing",
+          "master_index_aggregation",
+          "intervention_opportunity"
+        ],
+        "conflict_scenario_processing": [
+          "modular_local_processing",
+          "master_index_aggregation",
+          "intervention_opportunity",
+          "phase_pipeline_design"
+        ],
+        "modular_local_processing": [
+          "master_index_aggregation",
+          "intervention_opportunity",
+          "phase_pipeline_design"
+        ],
+        "master_index_aggregation": [
+          "intervention_opportunity",
+          "phase_pipeline_design"
+        ],
+        "intervention_opportunity": [
+          "phase_pipeline_design"
+        ],
+        "phase_pipeline_design": [],
+        "open_ended_purpose": [
+          "gatekeeping_pattern",
+          "cooccurrence_emergence",
+          "integrity_foundation"
+        ],
+        "gatekeeping_pattern": [
+          "cooccurrence_emergence",
+          "integrity_foundation"
+        ],
+        "cooccurrence_emergence": [
+          "integrity_foundation"
+        ],
+        "integrity_foundation": []
+      },
+      "dual_extraction_pass": {
+        "keyword_similarity_metric": [
+          "conflict_scenario_processing",
+          "modular_local_processing",
+          "master_index_aggregation",
+          "intervention_opportunity"
+        ],
+        "conflict_scenario_processing": [
+          "modular_local_processing",
+          "master_index_aggregation",
+          "intervention_opportunity",
+          "phase_pipeline_design"
+        ],
+        "modular_local_processing": [
+          "master_index_aggregation",
+          "intervention_opportunity",
+          "phase_pipeline_design"
+        ],
+        "master_index_aggregation": [
+          "intervention_opportunity",
+          "phase_pipeline_design"
+        ],
+        "intervention_opportunity": [
+          "phase_pipeline_design"
+        ],
+        "phase_pipeline_design": [],
+        "open_ended_purpose": [
+          "gatekeeping_pattern",
+          "cooccurrence_emergence",
+          "integrity_foundation"
+        ],
+        "gatekeeping_pattern": [
+          "cooccurrence_emergence",
+          "integrity_foundation"
+        ],
+        "cooccurrence_emergence": [
+          "integrity_foundation"
+        ],
+        "integrity_foundation": []
+      },
+      "semantic_fit_iteration": {
+        "loop_entry_point": [
+          "disposable_execution",
+          "language_as_runtime_spec",
+          "rules_as_instantiation",
+          "skill_sediment"
+        ],
+        "disposable_execution": [
+          "language_as_runtime_spec",
+          "schema_light_evolution",
+          "rules_as_instantiation",
+          "skill_sediment"
+        ],
+        "language_as_runtime_spec": [
+          "schema_light_evolution",
+          "rules_as_instantiation",
+          "skill_sediment",
+          "meaning_structure_gap"
+        ],
+        "rules_as_instantiation": [
+          "skill_sediment",
+          "schema_light_evolution",
+          "meaning_structure_gap",
+          "narrowing_as_work"
+        ],
+        "skill_sediment": [
+          "schema_light_evolution",
+          "meaning_structure_gap",
+          "narrowing_as_work"
+        ],
+        "schema_light_evolution": [
+          "meaning_structure_gap",
+          "narrowing_as_work",
+          "semantic_worker_isolation",
+          "transient_agent_instantiation"
+        ],
+        "meaning_structure_gap": [
+          "narrowing_as_work"
+        ],
+        "narrowing_as_work": [],
+        "quest_driven_generation": [
+          "semantic_enhancement_loop",
+          "skill_preservation",
+          "code_as_discovery",
+          "request_as_catalyst"
+        ],
+        "semantic_enhancement_loop": [
+          "skill_preservation",
+          "code_as_discovery",
+          "request_as_catalyst",
+          "adaptive_output_construction"
+        ],
+        "skill_preservation": [
+          "code_as_discovery",
+          "request_as_catalyst",
+          "adaptive_output_construction",
+          "reusable_aid_accumulation"
+        ],
+        "code_as_discovery": [
+          "request_as_catalyst",
+          "adaptive_output_construction",
+          "reusable_aid_accumulation"
+        ],
+        "request_as_catalyst": [
+          "adaptive_output_construction",
+          "reusable_aid_accumulation"
+        ],
+        "adaptive_output_construction": [
+          "reusable_aid_accumulation"
+        ],
+        "reusable_aid_accumulation": []
+      },
+      "disposable_execution": {
+        "language_as_runtime_spec": [
+          "schema_light_evolution",
+          "loop_entry_point",
+          "rules_as_instantiation",
+          "skill_sediment"
+        ],
+        "schema_light_evolution": [
+          "loop_entry_point",
+          "rules_as_instantiation",
+          "skill_sediment",
+          "meaning_structure_gap"
+        ],
+        "loop_entry_point": [
+          "rules_as_instantiation",
+          "skill_sediment",
+          "meaning_structure_gap",
+          "narrowing_as_work"
+        ],
+        "rules_as_instantiation": [
+          "skill_sediment",
+          "meaning_structure_gap",
+          "narrowing_as_work"
+        ],
+        "skill_sediment": [
+          "meaning_structure_gap",
+          "narrowing_as_work"
+        ],
+        "meaning_structure_gap": [
+          "narrowing_as_work"
+        ],
+        "narrowing_as_work": [],
+        "semantic_worker_isolation": [
+          "transient_agent_instantiation",
+          "rules_as_scaffolding",
+          "semantic_database_binding",
+          "sandboxed_llm_call"
+        ],
+        "transient_agent_instantiation": [
+          "rules_as_scaffolding",
+          "semantic_database_binding",
+          "sandboxed_llm_call"
+        ],
+        "rules_as_scaffolding": [
+          "semantic_database_binding",
+          "sandboxed_llm_call"
+        ],
+        "semantic_database_binding": [
+          "sandboxed_llm_call"
+        ],
+        "sandboxed_llm_call": []
+      },
+      "language_as_runtime_spec": {
+        "schema_light_evolution": [
+          "loop_entry_point",
+          "rules_as_instantiation",
+          "skill_sediment",
+          "meaning_structure_gap"
+        ],
+        "loop_entry_point": [
+          "rules_as_instantiation",
+          "skill_sediment",
+          "meaning_structure_gap",
+          "narrowing_as_work"
+        ],
+        "rules_as_instantiation": [
+          "skill_sediment",
+          "meaning_structure_gap",
+          "narrowing_as_work"
+        ],
+        "skill_sediment": [
+          "meaning_structure_gap",
+          "narrowing_as_work"
+        ],
+        "meaning_structure_gap": [
+          "narrowing_as_work"
+        ],
+        "narrowing_as_work": [],
+        "semantic_worker_isolation": [
+          "transient_agent_instantiation",
+          "rules_as_scaffolding",
+          "semantic_database_binding",
+          "sandboxed_llm_call"
+        ],
+        "transient_agent_instantiation": [
+          "rules_as_scaffolding",
+          "semantic_database_binding",
+          "sandboxed_llm_call"
+        ],
+        "rules_as_scaffolding": [
+          "semantic_database_binding",
+          "sandboxed_llm_call"
+        ],
+        "semantic_database_binding": [
+          "sandboxed_llm_call"
+        ],
+        "sandboxed_llm_call": []
+      },
+      "schema_light_evolution": {
+        "loop_entry_point": [
+          "rules_as_instantiation",
+          "skill_sediment",
+          "meaning_structure_gap",
+          "narrowing_as_work"
+        ],
+        "rules_as_instantiation": [
+          "skill_sediment",
+          "meaning_structure_gap",
+          "narrowing_as_work"
+        ],
+        "skill_sediment": [
+          "meaning_structure_gap",
+          "narrowing_as_work"
+        ],
+        "meaning_structure_gap": [
+          "narrowing_as_work"
+        ],
+        "narrowing_as_work": [],
+        "semantic_worker_isolation": [
+          "transient_agent_instantiation",
+          "rules_as_scaffolding",
+          "semantic_database_binding",
+          "sandboxed_llm_call"
+        ],
+        "transient_agent_instantiation": [
+          "rules_as_scaffolding",
+          "semantic_database_binding",
+          "sandboxed_llm_call"
+        ],
+        "rules_as_scaffolding": [
+          "semantic_database_binding",
+          "sandboxed_llm_call"
+        ],
+        "semantic_database_binding": [
+          "sandboxed_llm_call"
+        ],
+        "sandboxed_llm_call": []
+      },
+      "constructivist_inquiry_model": {
+        "reverse_flow_methodology": [
+          "dynamic_synthesis",
+          "temporary_synthesis_platform",
+          "inquiry_over_conclusion",
+          "learning_journey_validation"
+        ],
+        "dynamic_synthesis": [
+          "temporary_synthesis_platform",
+          "inquiry_over_conclusion",
+          "learning_journey_validation",
+          "sense_over_rationale"
+        ],
+        "temporary_synthesis_platform": [
+          "inquiry_over_conclusion",
+          "learning_journey_validation",
+          "sense_over_rationale",
+          "destination_first_structure"
+        ],
+        "inquiry_over_conclusion": [
+          "learning_journey_validation",
+          "sense_over_rationale",
+          "destination_first_structure",
+          "discovery_process_validation"
+        ],
+        "learning_journey_validation": [
+          "sense_over_rationale",
+          "destination_first_structure",
+          "discovery_process_validation",
+          "humanistic_structure"
+        ],
+        "sense_over_rationale": [
+          "destination_first_structure",
+          "discovery_process_validation",
+          "humanistic_structure",
+          "regressive_inductive_flow"
+        ],
+        "destination_first_structure": [
+          "discovery_process_validation",
+          "humanistic_structure",
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "discovery_process_validation": [
+          "humanistic_structure",
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "humanistic_structure": [
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "regressive_inductive_flow": [
+          "static_synthesis_contrast"
+        ],
+        "static_synthesis_contrast": []
+      },
+      "reverse_flow_methodology": {
+        "dynamic_synthesis": [
+          "temporary_synthesis_platform",
+          "inquiry_over_conclusion",
+          "learning_journey_validation",
+          "sense_over_rationale"
+        ],
+        "temporary_synthesis_platform": [
+          "inquiry_over_conclusion",
+          "learning_journey_validation",
+          "sense_over_rationale",
+          "destination_first_structure"
+        ],
+        "inquiry_over_conclusion": [
+          "learning_journey_validation",
+          "sense_over_rationale",
+          "destination_first_structure",
+          "discovery_process_validation"
+        ],
+        "learning_journey_validation": [
+          "sense_over_rationale",
+          "destination_first_structure",
+          "discovery_process_validation",
+          "humanistic_structure"
+        ],
+        "sense_over_rationale": [
+          "destination_first_structure",
+          "discovery_process_validation",
+          "humanistic_structure",
+          "regressive_inductive_flow"
+        ],
+        "destination_first_structure": [
+          "discovery_process_validation",
+          "humanistic_structure",
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "discovery_process_validation": [
+          "humanistic_structure",
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "humanistic_structure": [
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "regressive_inductive_flow": [
+          "static_synthesis_contrast"
+        ],
+        "static_synthesis_contrast": []
+      },
+      "dynamic_synthesis": {
+        "temporary_synthesis_platform": [
+          "inquiry_over_conclusion",
+          "learning_journey_validation",
+          "sense_over_rationale",
+          "destination_first_structure"
+        ],
+        "inquiry_over_conclusion": [
+          "learning_journey_validation",
+          "sense_over_rationale",
+          "destination_first_structure",
+          "discovery_process_validation"
+        ],
+        "learning_journey_validation": [
+          "sense_over_rationale",
+          "destination_first_structure",
+          "discovery_process_validation",
+          "humanistic_structure"
+        ],
+        "sense_over_rationale": [
+          "destination_first_structure",
+          "discovery_process_validation",
+          "humanistic_structure",
+          "regressive_inductive_flow"
+        ],
+        "destination_first_structure": [
+          "discovery_process_validation",
+          "humanistic_structure",
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "discovery_process_validation": [
+          "humanistic_structure",
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "humanistic_structure": [
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "regressive_inductive_flow": [
+          "static_synthesis_contrast"
+        ],
+        "static_synthesis_contrast": []
+      },
+      "temporary_synthesis_platform": {
+        "inquiry_over_conclusion": [
+          "learning_journey_validation",
+          "sense_over_rationale",
+          "destination_first_structure",
+          "discovery_process_validation"
+        ],
+        "learning_journey_validation": [
+          "sense_over_rationale",
+          "destination_first_structure",
+          "discovery_process_validation",
+          "humanistic_structure"
+        ],
+        "sense_over_rationale": [
+          "destination_first_structure",
+          "discovery_process_validation",
+          "humanistic_structure",
+          "regressive_inductive_flow"
+        ],
+        "destination_first_structure": [
+          "discovery_process_validation",
+          "humanistic_structure",
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "discovery_process_validation": [
+          "humanistic_structure",
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "humanistic_structure": [
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "regressive_inductive_flow": [
+          "static_synthesis_contrast"
+        ],
+        "static_synthesis_contrast": []
+      },
+      "inquiry_over_conclusion": {
+        "learning_journey_validation": [
+          "sense_over_rationale",
+          "destination_first_structure",
+          "discovery_process_validation",
+          "humanistic_structure"
+        ],
+        "sense_over_rationale": [
+          "destination_first_structure",
+          "discovery_process_validation",
+          "humanistic_structure",
+          "regressive_inductive_flow"
+        ],
+        "destination_first_structure": [
+          "discovery_process_validation",
+          "humanistic_structure",
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "discovery_process_validation": [
+          "humanistic_structure",
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "humanistic_structure": [
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "regressive_inductive_flow": [
+          "static_synthesis_contrast"
+        ],
+        "static_synthesis_contrast": []
+      },
+      "learning_journey_validation": {
+        "sense_over_rationale": [
+          "destination_first_structure",
+          "discovery_process_validation",
+          "humanistic_structure",
+          "regressive_inductive_flow"
+        ],
+        "destination_first_structure": [
+          "discovery_process_validation",
+          "humanistic_structure",
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "discovery_process_validation": [
+          "humanistic_structure",
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "humanistic_structure": [
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "regressive_inductive_flow": [
+          "static_synthesis_contrast"
+        ],
+        "static_synthesis_contrast": []
+      },
+      "sense_over_rationale": {
+        "destination_first_structure": [
+          "discovery_process_validation",
+          "humanistic_structure",
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "discovery_process_validation": [
+          "humanistic_structure",
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "humanistic_structure": [
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "regressive_inductive_flow": [
+          "static_synthesis_contrast"
+        ],
+        "static_synthesis_contrast": []
+      },
+      "destination_first_structure": {
+        "discovery_process_validation": [
+          "humanistic_structure",
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "humanistic_structure": [
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "regressive_inductive_flow": [
+          "static_synthesis_contrast"
+        ],
+        "static_synthesis_contrast": []
+      },
+      "discovery_process_validation": {
+        "humanistic_structure": [
+          "regressive_inductive_flow",
+          "static_synthesis_contrast"
+        ],
+        "regressive_inductive_flow": [
+          "static_synthesis_contrast"
+        ],
+        "static_synthesis_contrast": []
+      },
+      "humanistic_structure": {
+        "regressive_inductive_flow": [
+          "static_synthesis_contrast"
+        ],
+        "static_synthesis_contrast": []
+      },
+      "regressive_inductive_flow": {
+        "static_synthesis_contrast": []
+      },
+      "writing_in_reverse": {
+        "final_learning_first": [
+          "reverse_sequential_support",
+          "inquiry_as_origin",
+          "no_conclusions_preference",
+          "submitted_text_as_inquiry"
+        ],
+        "reverse_sequential_support": [
+          "inquiry_as_origin",
+          "no_conclusions_preference",
+          "submitted_text_as_inquiry",
+          "constructive_preference"
+        ],
+        "inquiry_as_origin": [
+          "no_conclusions_preference",
+          "submitted_text_as_inquiry",
+          "constructive_preference",
+          "idea_structured_inquiry"
+        ],
+        "no_conclusions_preference": [
+          "submitted_text_as_inquiry",
+          "constructive_preference",
+          "idea_structured_inquiry",
+          "learning_sequence_inversion"
+        ],
+        "submitted_text_as_inquiry": [
+          "constructive_preference",
+          "idea_structured_inquiry",
+          "learning_sequence_inversion",
+          "inquiry_driven_structure"
+        ],
+        "constructive_preference": [
+          "idea_structured_inquiry",
+          "learning_sequence_inversion",
+          "inquiry_driven_structure",
+          "text_as_food"
+        ],
+        "idea_structured_inquiry": [
+          "learning_sequence_inversion",
+          "inquiry_driven_structure",
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "learning_sequence_inversion": [
+          "inquiry_driven_structure",
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "inquiry_driven_structure": [
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "text_as_food": [
+          "open_ended_output"
+        ],
+        "open_ended_output": []
+      },
+      "final_learning_first": {
+        "reverse_sequential_support": [
+          "inquiry_as_origin",
+          "no_conclusions_preference",
+          "submitted_text_as_inquiry",
+          "constructive_preference"
+        ],
+        "inquiry_as_origin": [
+          "no_conclusions_preference",
+          "submitted_text_as_inquiry",
+          "constructive_preference",
+          "idea_structured_inquiry"
+        ],
+        "no_conclusions_preference": [
+          "submitted_text_as_inquiry",
+          "constructive_preference",
+          "idea_structured_inquiry",
+          "learning_sequence_inversion"
+        ],
+        "submitted_text_as_inquiry": [
+          "constructive_preference",
+          "idea_structured_inquiry",
+          "learning_sequence_inversion",
+          "inquiry_driven_structure"
+        ],
+        "constructive_preference": [
+          "idea_structured_inquiry",
+          "learning_sequence_inversion",
+          "inquiry_driven_structure",
+          "text_as_food"
+        ],
+        "idea_structured_inquiry": [
+          "learning_sequence_inversion",
+          "inquiry_driven_structure",
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "learning_sequence_inversion": [
+          "inquiry_driven_structure",
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "inquiry_driven_structure": [
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "text_as_food": [
+          "open_ended_output"
+        ],
+        "open_ended_output": []
+      },
+      "reverse_sequential_support": {
+        "inquiry_as_origin": [
+          "no_conclusions_preference",
+          "submitted_text_as_inquiry",
+          "constructive_preference",
+          "idea_structured_inquiry"
+        ],
+        "no_conclusions_preference": [
+          "submitted_text_as_inquiry",
+          "constructive_preference",
+          "idea_structured_inquiry",
+          "learning_sequence_inversion"
+        ],
+        "submitted_text_as_inquiry": [
+          "constructive_preference",
+          "idea_structured_inquiry",
+          "learning_sequence_inversion",
+          "inquiry_driven_structure"
+        ],
+        "constructive_preference": [
+          "idea_structured_inquiry",
+          "learning_sequence_inversion",
+          "inquiry_driven_structure",
+          "text_as_food"
+        ],
+        "idea_structured_inquiry": [
+          "learning_sequence_inversion",
+          "inquiry_driven_structure",
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "learning_sequence_inversion": [
+          "inquiry_driven_structure",
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "inquiry_driven_structure": [
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "text_as_food": [
+          "open_ended_output"
+        ],
+        "open_ended_output": []
+      },
+      "inquiry_as_origin": {
+        "no_conclusions_preference": [
+          "submitted_text_as_inquiry",
+          "constructive_preference",
+          "idea_structured_inquiry",
+          "learning_sequence_inversion"
+        ],
+        "submitted_text_as_inquiry": [
+          "constructive_preference",
+          "idea_structured_inquiry",
+          "learning_sequence_inversion",
+          "inquiry_driven_structure"
+        ],
+        "constructive_preference": [
+          "idea_structured_inquiry",
+          "learning_sequence_inversion",
+          "inquiry_driven_structure",
+          "text_as_food"
+        ],
+        "idea_structured_inquiry": [
+          "learning_sequence_inversion",
+          "inquiry_driven_structure",
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "learning_sequence_inversion": [
+          "inquiry_driven_structure",
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "inquiry_driven_structure": [
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "text_as_food": [
+          "open_ended_output"
+        ],
+        "open_ended_output": []
+      },
+      "no_conclusions_preference": {
+        "submitted_text_as_inquiry": [
+          "constructive_preference",
+          "idea_structured_inquiry",
+          "learning_sequence_inversion",
+          "inquiry_driven_structure"
+        ],
+        "constructive_preference": [
+          "idea_structured_inquiry",
+          "learning_sequence_inversion",
+          "inquiry_driven_structure",
+          "text_as_food"
+        ],
+        "idea_structured_inquiry": [
+          "learning_sequence_inversion",
+          "inquiry_driven_structure",
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "learning_sequence_inversion": [
+          "inquiry_driven_structure",
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "inquiry_driven_structure": [
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "text_as_food": [
+          "open_ended_output"
+        ],
+        "open_ended_output": []
+      },
+      "submitted_text_as_inquiry": {
+        "constructive_preference": [
+          "idea_structured_inquiry",
+          "learning_sequence_inversion",
+          "inquiry_driven_structure",
+          "text_as_food"
+        ],
+        "idea_structured_inquiry": [
+          "learning_sequence_inversion",
+          "inquiry_driven_structure",
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "learning_sequence_inversion": [
+          "inquiry_driven_structure",
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "inquiry_driven_structure": [
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "text_as_food": [
+          "open_ended_output"
+        ],
+        "open_ended_output": []
+      },
+      "constructive_preference": {
+        "idea_structured_inquiry": [
+          "learning_sequence_inversion",
+          "inquiry_driven_structure",
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "learning_sequence_inversion": [
+          "inquiry_driven_structure",
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "inquiry_driven_structure": [
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "text_as_food": [
+          "open_ended_output"
+        ],
+        "open_ended_output": []
+      },
+      "idea_structured_inquiry": {
+        "learning_sequence_inversion": [
+          "inquiry_driven_structure",
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "inquiry_driven_structure": [
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "text_as_food": [
+          "open_ended_output"
+        ],
+        "open_ended_output": []
+      },
+      "learning_sequence_inversion": {
+        "inquiry_driven_structure": [
+          "text_as_food",
+          "open_ended_output"
+        ],
+        "text_as_food": [
+          "open_ended_output"
+        ],
+        "open_ended_output": []
+      },
+      "inquiry_driven_structure": {
+        "text_as_food": [
+          "open_ended_output"
+        ],
+        "open_ended_output": []
+      }
+    },
+    "paths": {
+      "constructivist_inquiry_model/destination_first_structure": [
+        "inf_910ee0e9"
+      ],
+      "constructivist_inquiry_model/discovery_process_validation": [
+        "inf_910ee0e9"
+      ],
+      "constructivist_inquiry_model/dynamic_synthesis": [
+        "inf_910ee0e9"
+      ],
+      "constructivist_inquiry_model/humanistic_structure": [
+        "inf_910ee0e9"
+      ],
+      "constructivist_inquiry_model/inquiry_over_conclusion": [
+        "inf_910ee0e9"
+      ],
+      "constructivist_inquiry_model/learning_journey_validation": [
+        "inf_910ee0e9"
+      ],
+      "constructivist_inquiry_model/regressive_inductive_flow": [
+        "inf_910ee0e9"
+      ],
+      "constructivist_inquiry_model/reverse_flow_methodology": [
+        "inf_910ee0e9"
+      ],
+      "constructivist_inquiry_model/sense_over_rationale": [
+        "inf_910ee0e9"
+      ],
+      "constructivist_inquiry_model/static_synthesis_contrast": [
+        "inf_910ee0e9"
+      ],
+      "constructivist_inquiry_model/temporary_synthesis_platform": [
+        "inf_910ee0e9"
+      ],
+      "destination_first_structure/discovery_process_validation": [
+        "inf_910ee0e9"
+      ],
+      "destination_first_structure/humanistic_structure": [
+        "inf_910ee0e9"
+      ],
+      "destination_first_structure/regressive_inductive_flow": [
+        "inf_910ee0e9"
+      ],
+      "destination_first_structure/static_synthesis_contrast": [
+        "inf_910ee0e9"
+      ],
+      "discovery_process_validation/humanistic_structure": [
+        "inf_910ee0e9"
+      ],
+      "discovery_process_validation/regressive_inductive_flow": [
+        "inf_910ee0e9"
+      ],
+      "discovery_process_validation/static_synthesis_contrast": [
+        "inf_910ee0e9"
+      ],
+      "dynamic_synthesis/destination_first_structure": [
+        "inf_910ee0e9"
+      ],
+      "dynamic_synthesis/discovery_process_validation": [
+        "inf_910ee0e9"
+      ],
+      "dynamic_synthesis/humanistic_structure": [
+        "inf_910ee0e9"
+      ],
+      "dynamic_synthesis/inquiry_over_conclusion": [
+        "inf_910ee0e9"
+      ],
+      "dynamic_synthesis/learning_journey_validation": [
+        "inf_910ee0e9"
+      ],
+      "dynamic_synthesis/regressive_inductive_flow": [
+        "inf_910ee0e9"
+      ],
+      "dynamic_synthesis/sense_over_rationale": [
+        "inf_910ee0e9"
+      ],
+      "dynamic_synthesis/static_synthesis_contrast": [
+        "inf_910ee0e9"
+      ],
+      "dynamic_synthesis/temporary_synthesis_platform": [
+        "inf_910ee0e9"
+      ],
+      "humanistic_structure/regressive_inductive_flow": [
+        "inf_910ee0e9"
+      ],
+      "humanistic_structure/static_synthesis_contrast": [
+        "inf_910ee0e9"
+      ],
+      "inquiry_over_conclusion/destination_first_structure": [
+        "inf_910ee0e9"
+      ],
+      "inquiry_over_conclusion/discovery_process_validation": [
+        "inf_910ee0e9"
+      ],
+      "inquiry_over_conclusion/humanistic_structure": [
+        "inf_910ee0e9"
+      ],
+      "inquiry_over_conclusion/learning_journey_validation": [
+        "inf_910ee0e9"
+      ],
+      "inquiry_over_conclusion/regressive_inductive_flow": [
+        "inf_910ee0e9"
+      ],
+      "inquiry_over_conclusion/sense_over_rationale": [
+        "inf_910ee0e9"
+      ],
+      "inquiry_over_conclusion/static_synthesis_contrast": [
+        "inf_910ee0e9"
+      ],
+      "learning_journey_validation/destination_first_structure": [
+        "inf_910ee0e9"
+      ],
+      "learning_journey_validation/discovery_process_validation": [
+        "inf_910ee0e9"
+      ],
+      "learning_journey_validation/humanistic_structure": [
+        "inf_910ee0e9"
+      ],
+      "learning_journey_validation/regressive_inductive_flow": [
+        "inf_910ee0e9"
+      ],
+      "learning_journey_validation/sense_over_rationale": [
+        "inf_910ee0e9"
+      ],
+      "learning_journey_validation/static_synthesis_contrast": [
+        "inf_910ee0e9"
+      ],
+      "regressive_inductive_flow/static_synthesis_contrast": [
+        "inf_910ee0e9"
+      ],
+      "reverse_flow_methodology/destination_first_structure": [
+        "inf_910ee0e9"
+      ],
+      "reverse_flow_methodology/discovery_process_validation": [
+        "inf_910ee0e9"
+      ],
+      "reverse_flow_methodology/dynamic_synthesis": [
+        "inf_910ee0e9"
+      ],
+      "reverse_flow_methodology/humanistic_structure": [
+        "inf_910ee0e9"
+      ],
+      "reverse_flow_methodology/inquiry_over_conclusion": [
+        "inf_910ee0e9"
+      ],
+      "reverse_flow_methodology/learning_journey_validation": [
+        "inf_910ee0e9"
+      ],
+      "reverse_flow_methodology/regressive_inductive_flow": [
+        "inf_910ee0e9"
+      ],
+      "reverse_flow_methodology/sense_over_rationale": [
+        "inf_910ee0e9"
+      ],
+      "reverse_flow_methodology/static_synthesis_contrast": [
+        "inf_910ee0e9"
+      ],
+      "reverse_flow_methodology/temporary_synthesis_platform": [
+        "inf_910ee0e9"
+      ],
+      "sense_over_rationale/destination_first_structure": [
+        "inf_910ee0e9"
+      ],
+      "sense_over_rationale/discovery_process_validation": [
+        "inf_910ee0e9"
+      ],
+      "sense_over_rationale/humanistic_structure": [
+        "inf_910ee0e9"
+      ],
+      "sense_over_rationale/regressive_inductive_flow": [
+        "inf_910ee0e9"
+      ],
+      "sense_over_rationale/static_synthesis_contrast": [
+        "inf_910ee0e9"
+      ],
+      "temporary_synthesis_platform/destination_first_structure": [
+        "inf_910ee0e9"
+      ],
+      "temporary_synthesis_platform/discovery_process_validation": [
+        "inf_910ee0e9"
+      ],
+      "temporary_synthesis_platform/humanistic_structure": [
+        "inf_910ee0e9"
+      ],
+      "temporary_synthesis_platform/inquiry_over_conclusion": [
+        "inf_910ee0e9"
+      ],
+      "temporary_synthesis_platform/learning_journey_validation": [
+        "inf_910ee0e9"
+      ],
+      "temporary_synthesis_platform/regressive_inductive_flow": [
+        "inf_910ee0e9"
+      ],
+      "temporary_synthesis_platform/sense_over_rationale": [
+        "inf_910ee0e9"
+      ],
+      "temporary_synthesis_platform/static_synthesis_contrast": [
+        "inf_910ee0e9"
+      ],
+      "constructive_preference/idea_structured_inquiry": [
+        "inf_03b9a985"
+      ],
+      "constructive_preference/inquiry_driven_structure": [
+        "inf_03b9a985"
+      ],
+      "constructive_preference/learning_sequence_inversion": [
+        "inf_03b9a985"
+      ],
+      "constructive_preference/open_ended_output": [
+        "inf_03b9a985"
+      ],
+      "constructive_preference/text_as_food": [
+        "inf_03b9a985"
+      ],
+      "final_learning_first/constructive_preference": [
+        "inf_03b9a985"
+      ],
+      "final_learning_first/idea_structured_inquiry": [
+        "inf_03b9a985"
+      ],
+      "final_learning_first/inquiry_as_origin": [
+        "inf_03b9a985"
+      ],
+      "final_learning_first/inquiry_driven_structure": [
+        "inf_03b9a985"
+      ],
+      "final_learning_first/learning_sequence_inversion": [
+        "inf_03b9a985"
+      ],
+      "final_learning_first/no_conclusions_preference": [
+        "inf_03b9a985"
+      ],
+      "final_learning_first/open_ended_output": [
+        "inf_03b9a985"
+      ],
+      "final_learning_first/reverse_sequential_support": [
+        "inf_03b9a985"
+      ],
+      "final_learning_first/submitted_text_as_inquiry": [
+        "inf_03b9a985"
+      ],
+      "final_learning_first/text_as_food": [
+        "inf_03b9a985"
+      ],
+      "idea_structured_inquiry/inquiry_driven_structure": [
+        "inf_03b9a985"
+      ],
+      "idea_structured_inquiry/learning_sequence_inversion": [
+        "inf_03b9a985"
+      ],
+      "idea_structured_inquiry/open_ended_output": [
+        "inf_03b9a985"
+      ],
+      "idea_structured_inquiry/text_as_food": [
+        "inf_03b9a985"
+      ],
+      "inquiry_as_origin/constructive_preference": [
+        "inf_03b9a985"
+      ],
+      "inquiry_as_origin/idea_structured_inquiry": [
+        "inf_03b9a985"
+      ],
+      "inquiry_as_origin/inquiry_driven_structure": [
+        "inf_03b9a985"
+      ],
+      "inquiry_as_origin/learning_sequence_inversion": [
+        "inf_03b9a985"
+      ],
+      "inquiry_as_origin/no_conclusions_preference": [
+        "inf_03b9a985"
+      ],
+      "inquiry_as_origin/open_ended_output": [
+        "inf_03b9a985"
+      ],
+      "inquiry_as_origin/submitted_text_as_inquiry": [
+        "inf_03b9a985"
+      ],
+      "inquiry_as_origin/text_as_food": [
+        "inf_03b9a985"
+      ],
+      "inquiry_driven_structure/open_ended_output": [
+        "inf_03b9a985"
+      ],
+      "inquiry_driven_structure/text_as_food": [
+        "inf_03b9a985"
+      ],
+      "learning_sequence_inversion/inquiry_driven_structure": [
+        "inf_03b9a985"
+      ],
+      "learning_sequence_inversion/open_ended_output": [
+        "inf_03b9a985"
+      ],
+      "learning_sequence_inversion/text_as_food": [
+        "inf_03b9a985"
+      ],
+      "no_conclusions_preference/constructive_preference": [
+        "inf_03b9a985"
+      ],
+      "no_conclusions_preference/idea_structured_inquiry": [
+        "inf_03b9a985"
+      ],
+      "no_conclusions_preference/inquiry_driven_structure": [
+        "inf_03b9a985"
+      ],
+      "no_conclusions_preference/learning_sequence_inversion": [
+        "inf_03b9a985"
+      ],
+      "no_conclusions_preference/open_ended_output": [
+        "inf_03b9a985"
+      ],
+      "no_conclusions_preference/submitted_text_as_inquiry": [
+        "inf_03b9a985"
+      ],
+      "no_conclusions_preference/text_as_food": [
+        "inf_03b9a985"
+      ],
+      "reverse_sequential_support/constructive_preference": [
+        "inf_03b9a985"
+      ],
+      "reverse_sequential_support/idea_structured_inquiry": [
+        "inf_03b9a985"
+      ],
+      "reverse_sequential_support/inquiry_as_origin": [
+        "inf_03b9a985"
+      ],
+      "reverse_sequential_support/inquiry_driven_structure": [
+        "inf_03b9a985"
+      ],
+      "reverse_sequential_support/learning_sequence_inversion": [
+        "inf_03b9a985"
+      ],
+      "reverse_sequential_support/no_conclusions_preference": [
+        "inf_03b9a985"
+      ],
+      "reverse_sequential_support/open_ended_output": [
+        "inf_03b9a985"
+      ],
+      "reverse_sequential_support/submitted_text_as_inquiry": [
+        "inf_03b9a985"
+      ],
+      "reverse_sequential_support/text_as_food": [
+        "inf_03b9a985"
+      ],
+      "submitted_text_as_inquiry/constructive_preference": [
+        "inf_03b9a985"
+      ],
+      "submitted_text_as_inquiry/idea_structured_inquiry": [
+        "inf_03b9a985"
+      ],
+      "submitted_text_as_inquiry/inquiry_driven_structure": [
+        "inf_03b9a985"
+      ],
+      "submitted_text_as_inquiry/learning_sequence_inversion": [
+        "inf_03b9a985"
+      ],
+      "submitted_text_as_inquiry/open_ended_output": [
+        "inf_03b9a985"
+      ],
+      "submitted_text_as_inquiry/text_as_food": [
+        "inf_03b9a985"
+      ],
+      "writing_in_reverse/constructive_preference": [
+        "inf_03b9a985"
+      ],
+      "writing_in_reverse/final_learning_first": [
+        "inf_03b9a985"
+      ],
+      "writing_in_reverse/idea_structured_inquiry": [
+        "inf_03b9a985"
+      ],
+      "writing_in_reverse/inquiry_as_origin": [
+        "inf_03b9a985"
+      ],
+      "writing_in_reverse/inquiry_driven_structure": [
+        "inf_03b9a985"
+      ],
+      "writing_in_reverse/learning_sequence_inversion": [
+        "inf_03b9a985"
+      ],
+      "writing_in_reverse/no_conclusions_preference": [
+        "inf_03b9a985"
+      ],
+      "writing_in_reverse/open_ended_output": [
+        "inf_03b9a985"
+      ],
+      "writing_in_reverse/reverse_sequential_support": [
+        "inf_03b9a985"
+      ],
+      "writing_in_reverse/submitted_text_as_inquiry": [
+        "inf_03b9a985"
+      ],
+      "writing_in_reverse/text_as_food": [
+        "inf_03b9a985"
+      ],
+      "beneficial_outcome_modeling/analogical_synthesis": [
+        "inf_65ae7310"
+      ],
+      "beneficial_outcome_modeling/conflict_data_modeling": [
+        "inf_65ae7310"
+      ],
+      "beneficial_outcome_modeling/empathy_native_output": [
+        "inf_65ae7310"
+      ],
+      "beneficial_outcome_modeling/felt_meaning": [
+        "inf_65ae7310"
+      ],
+      "beneficial_outcome_modeling/functional_model_construction": [
+        "inf_65ae7310"
+      ],
+      "beneficial_outcome_modeling/live_worker_refinement": [
+        "inf_65ae7310"
+      ],
+      "beneficial_outcome_modeling/logos_empathy_base": [
+        "inf_65ae7310"
+      ],
+      "beneficial_outcome_modeling/mid_inference_memory": [
+        "inf_65ae7310"
+      ],
+      "beneficial_outcome_modeling/self_evolving_rules": [
+        "inf_65ae7310"
+      ],
+      "beneficial_outcome_modeling/semantic_digital_duality": [
+        "inf_0bc11447",
+        "inf_65ae7310"
+      ],
+      "beneficial_outcome_modeling/synthesis_without_antithesis": [
+        "inf_65ae7310"
+      ],
+      "semantic_digital_duality/analogical_synthesis": [
+        "inf_65ae7310"
+      ],
+      "semantic_digital_duality/conflict_data_modeling": [
+        "inf_65ae7310"
+      ],
+      "semantic_digital_duality/empathy_native_output": [
+        "inf_65ae7310"
+      ],
+      "semantic_digital_duality/felt_meaning": [
+        "inf_65ae7310"
+      ],
+      "semantic_digital_duality/functional_model_construction": [
+        "inf_65ae7310"
+      ],
+      "semantic_digital_duality/live_worker_refinement": [
+        "inf_65ae7310"
+      ],
+      "semantic_digital_duality/logos_empathy_base": [
+        "inf_65ae7310"
+      ],
+      "semantic_digital_duality/mid_inference_memory": [
+        "inf_65ae7310"
+      ],
+      "semantic_digital_duality/self_evolving_rules": [
+        "inf_65ae7310"
+      ],
+      "semantic_digital_duality/synthesis_without_antithesis": [
+        "inf_65ae7310"
+      ],
+      "applied_humanistics/analogical_religion": [
+        "inf_c8e1ac73"
+      ],
+      "applied_humanistics/beneficial_synthesis": [
+        "inf_72711662",
+        "inf_c8e1ac73"
+      ],
+      "applied_humanistics/constructivism": [
+        "inf_c8e1ac73"
+      ],
+      "applied_humanistics/dual_practice_evidence": [
+        "inf_c8e1ac73"
+      ],
+      "applied_humanistics/evolution_as_weapon": [
+        "inf_c8e1ac73"
+      ],
+      "applied_humanistics/logos_evolution": [
+        "inf_c8e1ac73"
+      ],
+      "applied_humanistics/morality_container": [
+        "inf_c8e1ac73"
+      ],
+      "applied_humanistics/spiritual_container": [
+        "inf_c8e1ac73"
+      ],
+      "applied_humanistics/synthesis_rehabilitation": [
+        "inf_c8e1ac73"
+      ],
+      "applied_humanistics/unconventional_thought_suppression": [
+        "inf_c8e1ac73"
+      ],
+      "beneficial_synthesis/analogical_religion": [
+        "inf_c8e1ac73"
+      ],
+      "beneficial_synthesis/constructivism": [
+        "inf_c8e1ac73"
+      ],
+      "beneficial_synthesis/dual_practice_evidence": [
+        "inf_c8e1ac73"
+      ],
+      "beneficial_synthesis/evolution_as_weapon": [
+        "inf_c8e1ac73"
+      ],
+      "beneficial_synthesis/logos_evolution": [
+        "inf_c8e1ac73"
+      ],
+      "beneficial_synthesis/morality_container": [
+        "inf_c8e1ac73"
+      ],
+      "beneficial_synthesis/spiritual_container": [
+        "inf_c8e1ac73"
+      ],
+      "beneficial_synthesis/synthesis_rehabilitation": [
+        "inf_c8e1ac73"
+      ],
+      "beneficial_synthesis/unconventional_thought_suppression": [
+        "inf_c8e1ac73"
+      ],
+      "moral_evolution/analogical_religion": [
+        "inf_c8e1ac73"
+      ],
+      "moral_evolution/applied_humanistics": [
+        "inf_72711662",
+        "inf_c8e1ac73"
+      ],
+      "moral_evolution/beneficial_synthesis": [
+        "inf_72711662",
+        "inf_c8e1ac73"
+      ],
+      "moral_evolution/constructivism": [
+        "inf_c8e1ac73"
+      ],
+      "moral_evolution/dual_practice_evidence": [
+        "inf_c8e1ac73"
+      ],
+      "moral_evolution/evolution_as_weapon": [
+        "inf_c8e1ac73"
+      ],
+      "moral_evolution/logos_evolution": [
+        "inf_c8e1ac73"
+      ],
+      "moral_evolution/morality_container": [
+        "inf_c8e1ac73"
+      ],
+      "moral_evolution/spiritual_container": [
+        "inf_c8e1ac73"
+      ],
+      "moral_evolution/synthesis_rehabilitation": [
+        "inf_c8e1ac73"
+      ],
+      "moral_evolution/unconventional_thought_suppression": [
+        "inf_c8e1ac73"
+      ],
+      "applied_humanistics/adaptive_equilibrium": [
+        "inf_72711662"
+      ],
+      "applied_humanistics/constructivist_reality_building": [
+        "inf_72711662"
+      ],
+      "applied_humanistics/evolution_as_tool": [
+        "inf_72711662"
+      ],
+      "applied_humanistics/group_cohesion_mechanism": [
+        "inf_72711662"
+      ],
+      "applied_humanistics/hegelian_contrast": [
+        "inf_72711662"
+      ],
+      "applied_humanistics/objective_spirit": [
+        "inf_72711662"
+      ],
+      "applied_humanistics/selective_advantage": [
+        "inf_72711662"
+      ],
+      "applied_humanistics/social_technology": [
+        "inf_72711662"
+      ],
+      "applied_humanistics/verifiable_moral_grounding": [
+        "inf_72711662"
+      ],
+      "beneficial_synthesis/adaptive_equilibrium": [
+        "inf_72711662"
+      ],
+      "beneficial_synthesis/constructivist_reality_building": [
+        "inf_72711662"
+      ],
+      "beneficial_synthesis/evolution_as_tool": [
+        "inf_72711662"
+      ],
+      "beneficial_synthesis/group_cohesion_mechanism": [
+        "inf_72711662"
+      ],
+      "beneficial_synthesis/hegelian_contrast": [
+        "inf_72711662"
+      ],
+      "beneficial_synthesis/objective_spirit": [
+        "inf_72711662"
+      ],
+      "beneficial_synthesis/selective_advantage": [
+        "inf_72711662"
+      ],
+      "beneficial_synthesis/social_technology": [
+        "inf_72711662"
+      ],
+      "beneficial_synthesis/verifiable_moral_grounding": [
+        "inf_72711662"
+      ],
+      "moral_evolution/adaptive_equilibrium": [
+        "inf_72711662"
+      ],
+      "moral_evolution/constructivist_reality_building": [
+        "inf_72711662"
+      ],
+      "moral_evolution/evolution_as_tool": [
+        "inf_72711662"
+      ],
+      "moral_evolution/group_cohesion_mechanism": [
+        "inf_72711662"
+      ],
+      "moral_evolution/hegelian_contrast": [
+        "inf_72711662"
+      ],
+      "moral_evolution/objective_spirit": [
+        "inf_72711662"
+      ],
+      "moral_evolution/selective_advantage": [
+        "inf_72711662"
+      ],
+      "moral_evolution/social_technology": [
+        "inf_72711662"
+      ],
+      "moral_evolution/verifiable_moral_grounding": [
+        "inf_72711662"
+      ],
+      "comprehension_gap/ai_workflow_comprehension": [
+        "inf_58190c7d"
+      ],
+      "comprehension_gap/ai_workflow_design": [
+        "inf_58190c7d"
+      ],
+      "comprehension_gap/chunking_artifact": [
+        "inf_58190c7d"
+      ],
+      "comprehension_gap/context_continuity": [
+        "inf_58190c7d"
+      ],
+      "comprehension_gap/input_data_fidelity": [
+        "inf_58190c7d"
+      ],
+      "comprehension_gap/iterative_embedding": [
+        "inf_58190c7d"
+      ],
+      "comprehension_gap/iterative_semantic_pass": [
+        "inf_58190c7d"
+      ],
+      "comprehension_gap/meaning_preservation": [
+        "inf_58190c7d"
+      ],
+      "comprehension_gap/semantic_gap_coverage": [
+        "inf_58190c7d"
+      ],
+      "embedded_data_iteration/ai_workflow_comprehension": [
+        "inf_58190c7d"
+      ],
+      "embedded_data_iteration/ai_workflow_design": [
+        "inf_58190c7d"
+      ],
+      "embedded_data_iteration/chunking_artifact": [
+        "inf_58190c7d"
+      ],
+      "embedded_data_iteration/comprehension_gap": [
+        "inf_58190c7d",
+        "inf_c17433c3"
+      ],
+      "embedded_data_iteration/context_continuity": [
+        "inf_58190c7d"
+      ],
+      "embedded_data_iteration/input_data_fidelity": [
+        "inf_58190c7d"
+      ],
+      "embedded_data_iteration/iterative_embedding": [
+        "inf_58190c7d"
+      ],
+      "embedded_data_iteration/iterative_semantic_pass": [
+        "inf_58190c7d"
+      ],
+      "embedded_data_iteration/meaning_preservation": [
+        "inf_58190c7d"
+      ],
+      "embedded_data_iteration/semantic_gap_coverage": [
+        "inf_58190c7d"
+      ],
+      "comprehension_gap/chunking_perfidy": [
+        "inf_c17433c3"
+      ],
+      "comprehension_gap/contextual_frame_embedding": [
+        "inf_c17433c3"
+      ],
+      "comprehension_gap/fact_context_simultaneous": [
+        "inf_c17433c3"
+      ],
+      "comprehension_gap/holistic_context_recovery": [
+        "inf_c17433c3"
+      ],
+      "comprehension_gap/multi_layer_retrieval": [
+        "inf_c17433c3"
+      ],
+      "comprehension_gap/narrative_arc_preservation": [
+        "inf_c17433c3"
+      ],
+      "comprehension_gap/rationale_sense_gap": [
+        "inf_c17433c3"
+      ],
+      "comprehension_gap/recursive_summary_abstraction": [
+        "inf_c17433c3"
+      ],
+      "comprehension_gap/semantic_tag_iteration": [
+        "inf_c17433c3"
+      ],
+      "comprehension_gap/sense_rationale_synthesis": [
+        "inf_c17433c3"
+      ],
+      "embedded_data_iteration/chunking_perfidy": [
+        "inf_c17433c3"
+      ],
+      "embedded_data_iteration/contextual_frame_embedding": [
+        "inf_c17433c3"
+      ],
+      "embedded_data_iteration/fact_context_simultaneous": [
+        "inf_c17433c3"
+      ],
+      "embedded_data_iteration/holistic_context_recovery": [
+        "inf_c17433c3"
+      ],
+      "embedded_data_iteration/multi_layer_retrieval": [
+        "inf_c17433c3"
+      ],
+      "embedded_data_iteration/narrative_arc_preservation": [
+        "inf_c17433c3"
+      ],
+      "embedded_data_iteration/rationale_sense_gap": [
+        "inf_c17433c3"
+      ],
+      "embedded_data_iteration/recursive_summary_abstraction": [
+        "inf_c17433c3"
+      ],
+      "embedded_data_iteration/semantic_tag_iteration": [
+        "inf_c17433c3"
+      ],
+      "embedded_data_iteration/sense_rationale_synthesis": [
+        "inf_c17433c3"
+      ],
+      "durable_semantic_store/autovivified_clump_growth": [
+        "inf_9b7a9ca7"
+      ],
+      "durable_semantic_store/output_diff_extraction": [
+        "inf_9b7a9ca7"
+      ],
+      "durable_semantic_store/pattern_archival": [
+        "inf_9b7a9ca7"
+      ],
+      "durable_semantic_store/planning_as_prose": [
+        "inf_9b7a9ca7"
+      ],
+      "durable_semantic_store/query_intent_extraction": [
+        "inf_9b7a9ca7"
+      ],
+      "durable_semantic_store/semantic_regeneration": [
+        "inf_9b7a9ca7"
+      ],
+      "durable_semantic_store/skill_library_reuse": [
+        "inf_9b7a9ca7"
+      ],
+      "beneficial_outcome_modeling/constructive_hypothesis": [
+        "inf_0bc11447",
+        "inf_1d767cb6"
+      ],
+      "beneficial_outcome_modeling/falsification_survival": [
+        "inf_1d767cb6"
+      ],
+      "beneficial_outcome_modeling/logos_meaning_layer": [
+        "inf_0bc11447",
+        "inf_1d767cb6"
+      ],
+      "beneficial_outcome_modeling/pre_analytic_detection": [
+        "inf_1d767cb6"
+      ],
+      "beneficial_outcome_modeling/predictive_intuition": [
+        "inf_1d767cb6"
+      ],
+      "beneficial_outcome_modeling/synthesis_without_closure": [
+        "inf_0bc11447",
+        "inf_1d767cb6"
+      ],
+      "beneficial_outcome_modeling/bottled_prediction": [
+        "inf_682bab80",
+        "inf_a636d323"
+      ],
+      "beneficial_outcome_modeling/conflict_resolution_paths": [
+        "inf_682bab80",
+        "inf_a636d323"
+      ],
+      "beneficial_outcome_modeling/conflict_scenario_processing": [
+        "inf_682bab80"
+      ],
+      "beneficial_outcome_modeling/dual_extraction_pass": [
+        "inf_682bab80",
+        "inf_a636d323"
+      ],
+      "beneficial_outcome_modeling/emergent_structure": [
+        "inf_682bab80",
+        "inf_a636d323"
+      ],
+      "beneficial_outcome_modeling/intervention_opportunity": [
+        "inf_682bab80"
+      ],
+      "beneficial_outcome_modeling/keyword_similarity_metric": [
+        "inf_682bab80"
+      ],
+      "beneficial_outcome_modeling/master_index_aggregation": [
+        "inf_682bab80"
+      ],
+      "beneficial_outcome_modeling/modular_local_processing": [
+        "inf_682bab80"
+      ],
+      "beneficial_outcome_modeling/phase_pipeline_design": [
+        "inf_682bab80"
+      ],
+      "beneficial_outcome_modeling/tension_score_calculation": [
+        "inf_682bab80",
+        "inf_a636d323"
+      ],
+      "bottled_prediction/conflict_resolution_paths": [
+        "inf_682bab80",
+        "inf_a636d323"
+      ],
+      "bottled_prediction/conflict_scenario_processing": [
+        "inf_682bab80"
+      ],
+      "bottled_prediction/dual_extraction_pass": [
+        "inf_682bab80",
+        "inf_a636d323"
+      ],
+      "bottled_prediction/emergent_structure": [
+        "inf_682bab80",
+        "inf_a636d323"
+      ],
+      "bottled_prediction/intervention_opportunity": [
+        "inf_682bab80"
+      ],
+      "bottled_prediction/keyword_similarity_metric": [
+        "inf_682bab80"
+      ],
+      "bottled_prediction/master_index_aggregation": [
+        "inf_682bab80"
+      ],
+      "bottled_prediction/modular_local_processing": [
+        "inf_682bab80"
+      ],
+      "bottled_prediction/phase_pipeline_design": [
+        "inf_682bab80"
+      ],
+      "bottled_prediction/tension_score_calculation": [
+        "inf_682bab80",
+        "inf_a636d323"
+      ],
+      "conflict_resolution_paths/conflict_scenario_processing": [
+        "inf_682bab80"
+      ],
+      "conflict_resolution_paths/dual_extraction_pass": [
+        "inf_682bab80",
+        "inf_a636d323"
+      ],
+      "conflict_resolution_paths/emergent_structure": [
+        "inf_682bab80",
+        "inf_a636d323"
+      ],
+      "conflict_resolution_paths/intervention_opportunity": [
+        "inf_682bab80"
+      ],
+      "conflict_resolution_paths/keyword_similarity_metric": [
+        "inf_682bab80"
+      ],
+      "conflict_resolution_paths/master_index_aggregation": [
+        "inf_682bab80"
+      ],
+      "conflict_resolution_paths/modular_local_processing": [
+        "inf_682bab80"
+      ],
+      "conflict_resolution_paths/phase_pipeline_design": [
+        "inf_682bab80"
+      ],
+      "conflict_resolution_paths/tension_score_calculation": [
+        "inf_682bab80",
+        "inf_a636d323"
+      ],
+      "dual_extraction_pass/conflict_scenario_processing": [
+        "inf_682bab80"
+      ],
+      "dual_extraction_pass/intervention_opportunity": [
+        "inf_682bab80"
+      ],
+      "dual_extraction_pass/keyword_similarity_metric": [
+        "inf_682bab80"
+      ],
+      "dual_extraction_pass/master_index_aggregation": [
+        "inf_682bab80"
+      ],
+      "dual_extraction_pass/modular_local_processing": [
+        "inf_682bab80"
+      ],
+      "dual_extraction_pass/phase_pipeline_design": [
+        "inf_682bab80"
+      ],
+      "emergent_structure/conflict_scenario_processing": [
+        "inf_682bab80"
+      ],
+      "emergent_structure/dual_extraction_pass": [
+        "inf_682bab80",
+        "inf_a636d323"
+      ],
+      "emergent_structure/intervention_opportunity": [
+        "inf_682bab80"
+      ],
+      "emergent_structure/keyword_similarity_metric": [
+        "inf_682bab80"
+      ],
+      "emergent_structure/master_index_aggregation": [
+        "inf_682bab80"
+      ],
+      "emergent_structure/modular_local_processing": [
+        "inf_682bab80"
+      ],
+      "emergent_structure/phase_pipeline_design": [
+        "inf_682bab80"
+      ],
+      "tension_score_calculation/conflict_scenario_processing": [
+        "inf_682bab80"
+      ],
+      "tension_score_calculation/dual_extraction_pass": [
+        "inf_682bab80",
+        "inf_a636d323"
+      ],
+      "tension_score_calculation/emergent_structure": [
+        "inf_682bab80",
+        "inf_a636d323"
+      ],
+      "tension_score_calculation/intervention_opportunity": [
+        "inf_682bab80"
+      ],
+      "tension_score_calculation/keyword_similarity_metric": [
+        "inf_682bab80"
+      ],
+      "tension_score_calculation/master_index_aggregation": [
+        "inf_682bab80"
+      ],
+      "tension_score_calculation/modular_local_processing": [
+        "inf_682bab80"
+      ],
+      "tension_score_calculation/phase_pipeline_design": [
+        "inf_682bab80"
+      ],
+      "beneficial_outcome_modeling/agentic_self_evolution": [
+        "inf_0bc11447"
+      ],
+      "beneficial_outcome_modeling/baseline_deviation_modeling": [
+        "inf_0bc11447"
+      ],
+      "beneficial_outcome_modeling/empathy_analog_logic": [
+        "inf_0bc11447"
+      ],
+      "semantic_digital_duality/agentic_self_evolution": [
+        "inf_0bc11447"
+      ],
+      "semantic_digital_duality/baseline_deviation_modeling": [
+        "inf_0bc11447"
+      ],
+      "semantic_digital_duality/constructive_hypothesis": [
+        "inf_0bc11447"
+      ],
+      "semantic_digital_duality/empathy_analog_logic": [
+        "inf_0bc11447"
+      ],
+      "semantic_digital_duality/logos_meaning_layer": [
+        "inf_0bc11447"
+      ],
+      "semantic_digital_duality/synthesis_without_closure": [
+        "inf_0bc11447"
+      ],
+      "beneficial_outcome_modeling/durable_semantic_store": [
+        "inf_a06769b1"
+      ],
+      "beneficial_outcome_modeling/moral_evolution": [
+        "inf_a06769b1"
+      ],
+      "durable_semantic_store/moral_evolution": [
+        "inf_a06769b1"
+      ],
+      "semantic_fit_iteration/adaptive_output_construction": [
+        "inf_44592bee"
+      ],
+      "semantic_fit_iteration/code_as_discovery": [
+        "inf_44592bee"
+      ],
+      "semantic_fit_iteration/quest_driven_generation": [
+        "inf_44592bee"
+      ],
+      "semantic_fit_iteration/request_as_catalyst": [
+        "inf_44592bee"
+      ],
+      "semantic_fit_iteration/reusable_aid_accumulation": [
+        "inf_44592bee"
+      ],
+      "semantic_fit_iteration/semantic_enhancement_loop": [
+        "inf_44592bee"
+      ],
+      "semantic_fit_iteration/skill_preservation": [
+        "inf_44592bee"
+      ],
+      "autovivification/disposable_execution": [
+        "inf_4b52ae70"
+      ],
+      "autovivification/language_as_runtime_spec": [
+        "inf_4b52ae70"
+      ],
+      "autovivification/rules_as_scaffolding": [
+        "inf_4b52ae70"
+      ],
+      "autovivification/sandboxed_llm_call": [
+        "inf_4b52ae70"
+      ],
+      "autovivification/schema_light_evolution": [
+        "inf_4b52ae70"
+      ],
+      "autovivification/semantic_database_binding": [
+        "inf_4b52ae70"
+      ],
+      "autovivification/semantic_worker_isolation": [
+        "inf_4b52ae70"
+      ],
+      "autovivification/transient_agent_instantiation": [
+        "inf_4b52ae70"
+      ],
+      "disposable_execution/language_as_runtime_spec": [
+        "inf_4b52ae70"
+      ],
+      "disposable_execution/rules_as_scaffolding": [
+        "inf_4b52ae70"
+      ],
+      "disposable_execution/sandboxed_llm_call": [
+        "inf_4b52ae70"
+      ],
+      "disposable_execution/schema_light_evolution": [
+        "inf_4b52ae70"
+      ],
+      "disposable_execution/semantic_database_binding": [
+        "inf_4b52ae70"
+      ],
+      "disposable_execution/semantic_worker_isolation": [
+        "inf_4b52ae70"
+      ],
+      "disposable_execution/transient_agent_instantiation": [
+        "inf_4b52ae70"
+      ],
+      "durable_semantic_store/autovivification": [
+        "inf_4b52ae70"
+      ],
+      "durable_semantic_store/disposable_execution": [
+        "inf_4b52ae70"
+      ],
+      "durable_semantic_store/language_as_runtime_spec": [
+        "inf_4b52ae70"
+      ],
+      "durable_semantic_store/rules_as_scaffolding": [
+        "inf_4b52ae70"
+      ],
+      "durable_semantic_store/sandboxed_llm_call": [
+        "inf_4b52ae70"
+      ],
+      "durable_semantic_store/schema_light_evolution": [
+        "inf_4b52ae70"
+      ],
+      "durable_semantic_store/semantic_database_binding": [
+        "inf_4b52ae70"
+      ],
+      "durable_semantic_store/semantic_worker_isolation": [
+        "inf_4b52ae70"
+      ],
+      "durable_semantic_store/transient_agent_instantiation": [
+        "inf_4b52ae70"
+      ],
+      "language_as_runtime_spec/rules_as_scaffolding": [
+        "inf_4b52ae70"
+      ],
+      "language_as_runtime_spec/sandboxed_llm_call": [
+        "inf_4b52ae70"
+      ],
+      "language_as_runtime_spec/schema_light_evolution": [
+        "inf_4b52ae70"
+      ],
+      "language_as_runtime_spec/semantic_database_binding": [
+        "inf_4b52ae70"
+      ],
+      "language_as_runtime_spec/semantic_worker_isolation": [
+        "inf_4b52ae70"
+      ],
+      "language_as_runtime_spec/transient_agent_instantiation": [
+        "inf_4b52ae70"
+      ],
+      "schema_light_evolution/rules_as_scaffolding": [
+        "inf_4b52ae70"
+      ],
+      "schema_light_evolution/sandboxed_llm_call": [
+        "inf_4b52ae70"
+      ],
+      "schema_light_evolution/semantic_database_binding": [
+        "inf_4b52ae70"
+      ],
+      "schema_light_evolution/semantic_worker_isolation": [
+        "inf_4b52ae70"
+      ],
+      "schema_light_evolution/transient_agent_instantiation": [
+        "inf_4b52ae70"
+      ],
+      "autovivification/bottled_prediction": [
+        "inf_a636d323"
+      ],
+      "autovivification/conflict_resolution_paths": [
+        "inf_a636d323"
+      ],
+      "autovivification/cooccurrence_emergence": [
+        "inf_a636d323"
+      ],
+      "autovivification/dual_extraction_pass": [
+        "inf_a636d323"
+      ],
+      "autovivification/emergent_structure": [
+        "inf_a636d323"
+      ],
+      "autovivification/gatekeeping_pattern": [
+        "inf_a636d323"
+      ],
+      "autovivification/integrity_foundation": [
+        "inf_a636d323"
+      ],
+      "autovivification/open_ended_purpose": [
+        "inf_a636d323"
+      ],
+      "autovivification/tension_score_calculation": [
+        "inf_a636d323"
+      ],
+      "beneficial_outcome_modeling/autovivification": [
+        "inf_a636d323"
+      ],
+      "beneficial_outcome_modeling/cooccurrence_emergence": [
+        "inf_a636d323"
+      ],
+      "beneficial_outcome_modeling/gatekeeping_pattern": [
+        "inf_a636d323"
+      ],
+      "beneficial_outcome_modeling/integrity_foundation": [
+        "inf_a636d323"
+      ],
+      "beneficial_outcome_modeling/open_ended_purpose": [
+        "inf_a636d323"
+      ],
+      "bottled_prediction/cooccurrence_emergence": [
+        "inf_a636d323"
+      ],
+      "bottled_prediction/gatekeeping_pattern": [
+        "inf_a636d323"
+      ],
+      "bottled_prediction/integrity_foundation": [
+        "inf_a636d323"
+      ],
+      "bottled_prediction/open_ended_purpose": [
+        "inf_a636d323"
+      ],
+      "conflict_resolution_paths/cooccurrence_emergence": [
+        "inf_a636d323"
+      ],
+      "conflict_resolution_paths/gatekeeping_pattern": [
+        "inf_a636d323"
+      ],
+      "conflict_resolution_paths/integrity_foundation": [
+        "inf_a636d323"
+      ],
+      "conflict_resolution_paths/open_ended_purpose": [
+        "inf_a636d323"
+      ],
+      "dual_extraction_pass/cooccurrence_emergence": [
+        "inf_a636d323"
+      ],
+      "dual_extraction_pass/gatekeeping_pattern": [
+        "inf_a636d323"
+      ],
+      "dual_extraction_pass/integrity_foundation": [
+        "inf_a636d323"
+      ],
+      "dual_extraction_pass/open_ended_purpose": [
+        "inf_a636d323"
+      ],
+      "emergent_structure/cooccurrence_emergence": [
+        "inf_a636d323"
+      ],
+      "emergent_structure/gatekeeping_pattern": [
+        "inf_a636d323"
+      ],
+      "emergent_structure/integrity_foundation": [
+        "inf_a636d323"
+      ],
+      "emergent_structure/open_ended_purpose": [
+        "inf_a636d323"
+      ],
+      "tension_score_calculation/cooccurrence_emergence": [
+        "inf_a636d323"
+      ],
+      "tension_score_calculation/gatekeeping_pattern": [
+        "inf_a636d323"
+      ],
+      "tension_score_calculation/integrity_foundation": [
+        "inf_a636d323"
+      ],
+      "tension_score_calculation/open_ended_purpose": [
+        "inf_a636d323"
+      ]
+    }
+  }
+}
