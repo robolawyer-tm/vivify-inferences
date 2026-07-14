@@ -9,10 +9,9 @@
     "process_group_membership",
     "hangup_signal_delivery",
     "sighup_vulnerability",
-    "disown_mechanism",
     "process_detachment",
     "post_launch_intervention",
-    "capture_integrity",
+    "capture_fidelity",
     "premature_termination_risk",
     "sequencing_dependency",
     "gzip_dependency"
@@ -39,12 +38,11 @@
       "sighup_vulnerability"
     ],
     "job_control": [
-      "disown_mechanism",
       "post_launch_intervention",
       "process_detachment"
     ],
     "session_integrity": [
-      "capture_integrity",
+      "capture_fidelity",
       "premature_termination_risk"
     ],
     "completion_dependency": [
@@ -56,17 +54,15 @@
   "guardrail_actions": {},
   "domain": "claude_code_sessions",
   "category_paths": [
-    "capture_integrity/disown_mechanism",
-    "capture_integrity/gzip_dependency",
-    "capture_integrity/hangup_signal_delivery",
-    "capture_integrity/parent_child_relationship",
-    "capture_integrity/post_launch_intervention",
-    "capture_integrity/premature_termination_risk",
-    "capture_integrity/process_detachment",
-    "capture_integrity/process_group_membership",
-    "capture_integrity/sighup_vulnerability",
-    "sequencing_dependency/capture_integrity",
-    "sequencing_dependency/disown_mechanism",
+    "capture_fidelity/gzip_dependency",
+    "capture_fidelity/hangup_signal_delivery",
+    "capture_fidelity/parent_child_relationship",
+    "capture_fidelity/post_launch_intervention",
+    "capture_fidelity/premature_termination_risk",
+    "capture_fidelity/process_detachment",
+    "capture_fidelity/process_group_membership",
+    "capture_fidelity/sequencing_dependency",
+    "capture_fidelity/sighup_vulnerability",
     "sequencing_dependency/gzip_dependency",
     "sequencing_dependency/hangup_signal_delivery",
     "sequencing_dependency/parent_child_relationship",

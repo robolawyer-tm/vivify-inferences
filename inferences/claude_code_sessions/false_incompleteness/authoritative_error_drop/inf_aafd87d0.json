@@ -10,7 +10,7 @@
     "authoritative_error_drop",
     "dimension_retagging",
     "error_map_clearing",
-    "retired_dimension_residue",
+    "retired_structure_residue",
     "completeness_scoping",
     "managed_dimension_boundary",
     "false_incompleteness",
@@ -28,7 +28,7 @@
     "dimension_governance": [
       "dimension_retagging",
       "managed_dimension_boundary",
-      "retired_dimension_residue"
+      "retired_structure_residue"
     ],
     "completeness_integrity": [
       "completeness_scoping",
@@ -50,8 +50,17 @@
     "false_incompleteness/error_map_clearing",
     "false_incompleteness/managed_dimension_boundary",
     "false_incompleteness/responsibility_assignment",
-    "false_incompleteness/retired_dimension_residue",
     "false_incompleteness/store_lingering_state",
+    "retired_structure_residue/authoritative_error_drop",
+    "retired_structure_residue/completeness_scoping",
+    "retired_structure_residue/concern_separation",
+    "retired_structure_residue/dimension_retagging",
+    "retired_structure_residue/driver_scope",
+    "retired_structure_residue/error_map_clearing",
+    "retired_structure_residue/false_incompleteness",
+    "retired_structure_residue/managed_dimension_boundary",
+    "retired_structure_residue/responsibility_assignment",
+    "retired_structure_residue/store_lingering_state",
     "stale_error_persistence/authoritative_error_drop",
     "stale_error_persistence/completeness_scoping",
     "stale_error_persistence/concern_separation",
@@ -61,7 +70,7 @@
     "stale_error_persistence/false_incompleteness",
     "stale_error_persistence/managed_dimension_boundary",
     "stale_error_persistence/responsibility_assignment",
-    "stale_error_persistence/retired_dimension_residue",
+    "stale_error_persistence/retired_structure_residue",
     "stale_error_persistence/store_lingering_state"
   ],
   "tension_score": null,

@@ -13,7 +13,7 @@
     "launch_infrastructure",
     "glob_pattern_search",
     "script_discovery",
-    "source_deployment_separation",
+    "source_deployment_gap",
     "deployed_bin",
     "source_repository",
     "dual_location_architecture"
@@ -44,7 +44,19 @@
   "tension_score": null,
   "guardrail_actions": {},
   "domain": "claude_code_sessions",
-  "category_paths": [],
+  "category_paths": [
+    "source_deployment_gap/claude_code_sessions",
+    "source_deployment_gap/deployed_bin",
+    "source_deployment_gap/dual_location_architecture",
+    "source_deployment_gap/glob_pattern_search",
+    "source_deployment_gap/launch_infrastructure",
+    "source_deployment_gap/local_toolchain",
+    "source_deployment_gap/personal_bin_directory",
+    "source_deployment_gap/script_discovery",
+    "source_deployment_gap/self_maintained_scripts",
+    "source_deployment_gap/session_management",
+    "source_deployment_gap/source_repository"
+  ],
   "tension": {
     "predicted": null,
     "confirmed": null,

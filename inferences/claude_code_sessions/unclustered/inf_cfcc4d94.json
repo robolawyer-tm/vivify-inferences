@@ -44,7 +44,19 @@
   "tension_score": null,
   "guardrail_actions": {},
   "domain": "claude_code_sessions",
-  "category_paths": [],
+  "category_paths": [
+    "capture_fidelity/active_work_context",
+    "capture_fidelity/context_completeness",
+    "capture_fidelity/deferred_review_contrast",
+    "capture_fidelity/immediate_routing",
+    "capture_fidelity/in_session_capture",
+    "capture_fidelity/inbox_as_staging",
+    "capture_fidelity/mid_session_inference",
+    "capture_fidelity/moment_vs_memory",
+    "capture_fidelity/reconstruction_loss",
+    "capture_fidelity/temporal_capture_advantage",
+    "capture_fidelity/waystation_function"
+  ],
   "tension": {
     "predicted": null,
     "confirmed": null,

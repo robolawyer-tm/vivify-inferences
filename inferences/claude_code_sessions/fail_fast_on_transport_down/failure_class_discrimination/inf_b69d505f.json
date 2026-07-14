@@ -7,8 +7,7 @@
   "left_keywords": [
     "retry_on_invalid",
     "recoverable_failure_recovery",
-    "silent_drop_corruption",
-    "validation_retry_loop",
+    "silent_corruption",
     "temperature_perturbation",
     "stuck_answer_escape",
     "fail_fast_on_transport_down",
@@ -22,8 +21,7 @@
   "clumps": {
     "recovery_mechanism": [
       "recoverable_failure_recovery",
-      "retry_on_invalid",
-      "validation_retry_loop"
+      "retry_on_invalid"
     ],
     "perturbation_escape": [
       "stuck_answer_escape",
@@ -35,7 +33,7 @@
     ],
     "silent_drop_harm": [
       "graceful_degradation",
-      "silent_drop_corruption"
+      "silent_corruption"
     ],
     "downstream_integrity": [
       "missing_dimension_corruption",
@@ -53,11 +51,19 @@
     "fail_fast_on_transport_down/recoverable_failure_recovery",
     "fail_fast_on_transport_down/retry_on_invalid",
     "fail_fast_on_transport_down/scale_tag_provisioning",
-    "fail_fast_on_transport_down/silent_drop_corruption",
+    "fail_fast_on_transport_down/silent_corruption",
     "fail_fast_on_transport_down/starved_downstream_dependency",
     "fail_fast_on_transport_down/stuck_answer_escape",
     "fail_fast_on_transport_down/temperature_perturbation",
-    "fail_fast_on_transport_down/validation_retry_loop"
+    "silent_corruption/failure_class_discrimination",
+    "silent_corruption/graceful_degradation",
+    "silent_corruption/missing_dimension_corruption",
+    "silent_corruption/recoverable_failure_recovery",
+    "silent_corruption/retry_on_invalid",
+    "silent_corruption/scale_tag_provisioning",
+    "silent_corruption/starved_downstream_dependency",
+    "silent_corruption/stuck_answer_escape",
+    "silent_corruption/temperature_perturbation"
   ],
   "tension": {
     "predicted": null,

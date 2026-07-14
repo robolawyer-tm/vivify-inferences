@@ -26,21 +26,21 @@
       "session_capture_timing"
     ],
     "noise_vs_signal": [
-      "harness_chrome",
       "cleaning_step_failure",
-      "content_stripping"
+      "content_stripping",
+      "harness_chrome"
     ],
     "integrity_stance": [
+      "corpus_poisoning",
       "extraction_refusal",
-      "fabrication_risk",
-      "corpus_poisoning"
+      "fabrication_risk"
     ],
     "principled_grounding": [
       "data_emergence_principle"
     ],
     "remediation": [
-      "source_recovery",
-      "reprocessing_path"
+      "reprocessing_path",
+      "source_recovery"
     ]
   },
   "category_paths": [],

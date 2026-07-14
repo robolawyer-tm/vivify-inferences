@@ -24,6 +24,15 @@
     "constructive_revision": "constructive_hypothesis",
     "non_conclusive_construct": "synthesis_without_closure",
     "language_transformation": "semantic_digital_duality",
-    "architectural_spine": "semantic_digital_duality"
+    "architectural_spine": "semantic_digital_duality",
+    "source_deployment_separation": "source_deployment_gap",
+    "retired_dimension_residue": "retired_structure_residue",
+    "retired_operator_residue": "retired_structure_residue",
+    "silent_drop_corruption": "silent_corruption",
+    "silent_key_corruption": "silent_corruption",
+    "capture_integrity": "capture_fidelity",
+    "disown_mechanism": "process_detachment",
+    "character_collision": "typographic_ambiguity",
+    "validation_retry_loop": "retry_on_invalid"
   }
 }

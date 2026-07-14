@@ -12,7 +12,6 @@
     "semantic_baggage",
     "typographic_ambiguity",
     "visual_disambiguation",
-    "character_collision",
     "delimiter_choice",
     "convention_alignment",
     "naming_convention",
@@ -43,7 +42,6 @@
       "vocabulary_hygiene"
     ],
     "typographic_disambiguation": [
-      "character_collision",
       "delimiter_choice",
       "typographic_ambiguity",
       "visual_disambiguation"
@@ -57,7 +55,6 @@
   "guardrail_actions": {},
   "domain": "claude_code_sessions",
   "category_paths": [
-    "lexical_contamination/character_collision",
     "lexical_contamination/convention_alignment",
     "lexical_contamination/delimiter_choice",
     "lexical_contamination/naming_philosophy",
@@ -67,7 +64,6 @@
     "lexical_contamination/typographic_ambiguity",
     "lexical_contamination/visual_disambiguation",
     "lexical_contamination/vocabulary_hygiene",
-    "naming_convention/character_collision",
     "naming_convention/convention_alignment",
     "naming_convention/delimiter_choice",
     "naming_convention/lexical_contamination",
@@ -78,7 +74,6 @@
     "naming_convention/typographic_ambiguity",
     "naming_convention/visual_disambiguation",
     "naming_convention/vocabulary_hygiene",
-    "typographic_ambiguity/character_collision",
     "typographic_ambiguity/convention_alignment",
     "typographic_ambiguity/delimiter_choice",
     "typographic_ambiguity/naming_philosophy",
@@ -87,7 +82,6 @@
     "typographic_ambiguity/term_overloading",
     "typographic_ambiguity/visual_disambiguation",
     "typographic_ambiguity/vocabulary_hygiene",
-    "visual_disambiguation/character_collision",
     "visual_disambiguation/convention_alignment",
     "visual_disambiguation/delimiter_choice",
     "visual_disambiguation/naming_philosophy",

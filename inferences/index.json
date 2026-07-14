@@ -40,7 +40,7 @@
     "environment_dependency": 1,
     "passphrase_newline_contamination": 1,
     "here_string_artifact": 1,
-    "silent_key_corruption": 1,
+    "silent_corruption": 2,
     "encryption_key_mismatch": 1,
     "symmetric_roundtrip_masking": 1,
     "defect_concealment": 1,
@@ -79,7 +79,7 @@
     "deferred_review_contrast": 1,
     "context_completeness": 1,
     "reconstruction_loss": 1,
-    "capture_fidelity": 1,
+    "capture_fidelity": 3,
     "inbox_as_staging": 1,
     "immediate_routing": 1,
     "waystation_function": 1,
@@ -203,7 +203,7 @@
     "launch_infrastructure": 1,
     "glob_pattern_search": 1,
     "script_discovery": 1,
-    "source_deployment_separation": 1,
+    "source_deployment_gap": 3,
     "deployed_bin": 1,
     "source_repository": 1,
     "dual_location_architecture": 1,
@@ -271,7 +271,6 @@
     "semantic_baggage": 1,
     "typographic_ambiguity": 2,
     "visual_disambiguation": 2,
-    "character_collision": 1,
     "delimiter_choice": 1,
     "convention_alignment": 1,
     "naming_convention": 3,
@@ -298,10 +297,8 @@
     "process_group_membership": 1,
     "hangup_signal_delivery": 1,
     "sighup_vulnerability": 1,
-    "disown_mechanism": 1,
     "process_detachment": 1,
     "post_launch_intervention": 1,
-    "capture_integrity": 2,
     "premature_termination_risk": 1,
     "sequencing_dependency": 2,
     "gzip_dependency": 1,
@@ -359,7 +356,7 @@
     "authoritative_error_drop": 1,
     "dimension_retagging": 1,
     "error_map_clearing": 1,
-    "retired_dimension_residue": 1,
+    "retired_structure_residue": 2,
     "completeness_scoping": 1,
     "managed_dimension_boundary": 1,
     "false_incompleteness": 2,
@@ -367,7 +364,6 @@
     "driver_scope": 1,
     "store_lingering_state": 1,
     "bookkeeping_not_data": 1,
-    "retired_operator_residue": 1,
     "phantom_dimension_reference": 1,
     "fused_pass_retagging": 1,
     "leftover_error_gating": 1,
@@ -437,7 +433,6 @@
     "local_only_keys": 1,
     "agent_autonomy_limit": 1,
     "silent_divergence": 1,
-    "source_deployment_gap": 2,
     "authorship_execution_link": 1,
     "deploy_enforcement": 1,
     "commissive_resolution": 1,
@@ -485,8 +480,6 @@
     "loud_warning_signal": 1,
     "retry_on_invalid": 1,
     "recoverable_failure_recovery": 1,
-    "silent_drop_corruption": 1,
-    "validation_retry_loop": 1,
     "temperature_perturbation": 1,
     "stuck_answer_escape": 1,
     "failure_class_discrimination": 1,
@@ -1169,7 +1162,7 @@
     "script_resilience::environment_dependency": 1,
     "directory_bootstrapping::environment_dependency": 1,
     "passphrase_newline_contamination::here_string_artifact": 1,
-    "passphrase_newline_contamination::silent_key_corruption": 1,
+    "passphrase_newline_contamination::silent_corruption": 1,
     "passphrase_newline_contamination::encryption_key_mismatch": 1,
     "passphrase_newline_contamination::symmetric_roundtrip_masking": 1,
     "passphrase_newline_contamination::defect_concealment": 1,
@@ -1179,7 +1172,7 @@
     "passphrase_newline_contamination::printf_no_newline": 1,
     "passphrase_newline_contamination::trailing_whitespace_bug": 1,
     "passphrase_newline_contamination::cross_tool_interoperability": 1,
-    "here_string_artifact::silent_key_corruption": 1,
+    "here_string_artifact::silent_corruption": 1,
     "here_string_artifact::encryption_key_mismatch": 1,
     "here_string_artifact::symmetric_roundtrip_masking": 1,
     "here_string_artifact::defect_concealment": 1,
@@ -1189,15 +1182,15 @@
     "here_string_artifact::printf_no_newline": 1,
     "here_string_artifact::trailing_whitespace_bug": 1,
     "here_string_artifact::cross_tool_interoperability": 1,
-    "silent_key_corruption::encryption_key_mismatch": 1,
-    "silent_key_corruption::symmetric_roundtrip_masking": 1,
-    "silent_key_corruption::defect_concealment": 1,
-    "silent_key_corruption::human_input_divergence": 1,
-    "silent_key_corruption::gui_decryption_failure": 1,
-    "silent_key_corruption::process_substitution_fix": 1,
-    "silent_key_corruption::printf_no_newline": 1,
-    "silent_key_corruption::trailing_whitespace_bug": 1,
-    "silent_key_corruption::cross_tool_interoperability": 1,
+    "silent_corruption::encryption_key_mismatch": 1,
+    "silent_corruption::symmetric_roundtrip_masking": 1,
+    "silent_corruption::defect_concealment": 1,
+    "silent_corruption::human_input_divergence": 1,
+    "silent_corruption::gui_decryption_failure": 1,
+    "silent_corruption::process_substitution_fix": 1,
+    "silent_corruption::printf_no_newline": 1,
+    "silent_corruption::trailing_whitespace_bug": 1,
+    "silent_corruption::cross_tool_interoperability": 1,
     "encryption_key_mismatch::symmetric_roundtrip_masking": 1,
     "encryption_key_mismatch::defect_concealment": 1,
     "encryption_key_mismatch::human_input_divergence": 1,
@@ -2054,7 +2047,7 @@
     "local_toolchain::launch_infrastructure": 1,
     "local_toolchain::glob_pattern_search": 1,
     "local_toolchain::script_discovery": 1,
-    "local_toolchain::source_deployment_separation": 1,
+    "local_toolchain::source_deployment_gap": 1,
     "local_toolchain::deployed_bin": 1,
     "local_toolchain::source_repository": 1,
     "local_toolchain::dual_location_architecture": 1,
@@ -2064,7 +2057,7 @@
     "personal_bin_directory::launch_infrastructure": 1,
     "personal_bin_directory::glob_pattern_search": 1,
     "personal_bin_directory::script_discovery": 1,
-    "personal_bin_directory::source_deployment_separation": 1,
+    "personal_bin_directory::source_deployment_gap": 1,
     "personal_bin_directory::deployed_bin": 1,
     "personal_bin_directory::source_repository": 1,
     "personal_bin_directory::dual_location_architecture": 1,
@@ -2073,7 +2066,7 @@
     "self_maintained_scripts::launch_infrastructure": 1,
     "self_maintained_scripts::glob_pattern_search": 1,
     "self_maintained_scripts::script_discovery": 1,
-    "self_maintained_scripts::source_deployment_separation": 1,
+    "self_maintained_scripts::source_deployment_gap": 1,
     "self_maintained_scripts::deployed_bin": 1,
     "self_maintained_scripts::source_repository": 1,
     "self_maintained_scripts::dual_location_architecture": 1,
@@ -2081,35 +2074,35 @@
     "session_management::launch_infrastructure": 1,
     "session_management::glob_pattern_search": 1,
     "session_management::script_discovery": 1,
-    "session_management::source_deployment_separation": 1,
+    "session_management::source_deployment_gap": 1,
     "session_management::deployed_bin": 1,
     "session_management::source_repository": 1,
     "session_management::dual_location_architecture": 1,
     "claude_code_sessions::launch_infrastructure": 1,
     "claude_code_sessions::glob_pattern_search": 1,
     "claude_code_sessions::script_discovery": 1,
-    "claude_code_sessions::source_deployment_separation": 1,
+    "claude_code_sessions::source_deployment_gap": 1,
     "claude_code_sessions::deployed_bin": 1,
     "claude_code_sessions::source_repository": 1,
     "claude_code_sessions::dual_location_architecture": 1,
     "launch_infrastructure::glob_pattern_search": 1,
     "launch_infrastructure::script_discovery": 1,
-    "launch_infrastructure::source_deployment_separation": 1,
+    "launch_infrastructure::source_deployment_gap": 1,
     "launch_infrastructure::deployed_bin": 1,
     "launch_infrastructure::source_repository": 1,
     "launch_infrastructure::dual_location_architecture": 1,
     "glob_pattern_search::script_discovery": 1,
-    "glob_pattern_search::source_deployment_separation": 1,
+    "glob_pattern_search::source_deployment_gap": 1,
     "glob_pattern_search::deployed_bin": 1,
     "glob_pattern_search::source_repository": 1,
     "glob_pattern_search::dual_location_architecture": 1,
-    "script_discovery::source_deployment_separation": 1,
+    "script_discovery::source_deployment_gap": 1,
     "script_discovery::deployed_bin": 1,
     "script_discovery::source_repository": 1,
     "script_discovery::dual_location_architecture": 1,
-    "source_deployment_separation::deployed_bin": 1,
-    "source_deployment_separation::source_repository": 1,
-    "source_deployment_separation::dual_location_architecture": 1,
+    "source_deployment_gap::deployed_bin": 1,
+    "source_deployment_gap::source_repository": 1,
+    "source_deployment_gap::dual_location_architecture": 1,
     "deployed_bin::source_repository": 1,
     "deployed_bin::dual_location_architecture": 1,
     "source_repository::dual_location_architecture": 1,
@@ -2428,7 +2421,6 @@
     "semantic_naming::semantic_baggage": 1,
     "semantic_naming::typographic_ambiguity": 1,
     "semantic_naming::visual_disambiguation": 1,
-    "semantic_naming::character_collision": 1,
     "semantic_naming::delimiter_choice": 1,
     "semantic_naming::convention_alignment": 1,
     "semantic_naming::naming_convention": 1,
@@ -2438,7 +2430,6 @@
     "naming_philosophy::semantic_baggage": 1,
     "naming_philosophy::typographic_ambiguity": 1,
     "naming_philosophy::visual_disambiguation": 1,
-    "naming_philosophy::character_collision": 1,
     "naming_philosophy::delimiter_choice": 1,
     "naming_philosophy::convention_alignment": 1,
     "naming_philosophy::naming_convention": 1,
@@ -2447,7 +2438,6 @@
     "lexical_contamination::semantic_baggage": 1,
     "lexical_contamination::typographic_ambiguity": 2,
     "lexical_contamination::visual_disambiguation": 1,
-    "lexical_contamination::character_collision": 1,
     "lexical_contamination::delimiter_choice": 1,
     "lexical_contamination::convention_alignment": 1,
     "lexical_contamination::naming_convention": 1,
@@ -2455,33 +2445,25 @@
     "term_overloading::semantic_baggage": 1,
     "term_overloading::typographic_ambiguity": 1,
     "term_overloading::visual_disambiguation": 1,
-    "term_overloading::character_collision": 1,
     "term_overloading::delimiter_choice": 1,
     "term_overloading::convention_alignment": 1,
     "term_overloading::naming_convention": 1,
     "term_overloading::vocabulary_hygiene": 1,
     "semantic_baggage::typographic_ambiguity": 1,
     "semantic_baggage::visual_disambiguation": 1,
-    "semantic_baggage::character_collision": 1,
     "semantic_baggage::delimiter_choice": 1,
     "semantic_baggage::convention_alignment": 1,
     "semantic_baggage::naming_convention": 1,
     "semantic_baggage::vocabulary_hygiene": 1,
     "typographic_ambiguity::visual_disambiguation": 1,
-    "typographic_ambiguity::character_collision": 1,
     "typographic_ambiguity::delimiter_choice": 1,
     "typographic_ambiguity::convention_alignment": 1,
     "typographic_ambiguity::naming_convention": 1,
     "typographic_ambiguity::vocabulary_hygiene": 1,
-    "visual_disambiguation::character_collision": 1,
     "visual_disambiguation::delimiter_choice": 1,
     "visual_disambiguation::convention_alignment": 1,
     "visual_disambiguation::naming_convention": 2,
     "visual_disambiguation::vocabulary_hygiene": 1,
-    "character_collision::delimiter_choice": 1,
-    "character_collision::convention_alignment": 1,
-    "character_collision::naming_convention": 1,
-    "character_collision::vocabulary_hygiene": 1,
     "delimiter_choice::convention_alignment": 1,
     "delimiter_choice::naming_convention": 1,
     "delimiter_choice::vocabulary_hygiene": 1,
@@ -2581,55 +2563,45 @@
     "parent_child_relationship::process_group_membership": 1,
     "parent_child_relationship::hangup_signal_delivery": 1,
     "parent_child_relationship::sighup_vulnerability": 1,
-    "parent_child_relationship::disown_mechanism": 1,
     "parent_child_relationship::process_detachment": 1,
     "parent_child_relationship::post_launch_intervention": 1,
-    "parent_child_relationship::capture_integrity": 1,
+    "parent_child_relationship::capture_fidelity": 1,
     "parent_child_relationship::premature_termination_risk": 1,
     "parent_child_relationship::sequencing_dependency": 1,
     "parent_child_relationship::gzip_dependency": 1,
     "process_group_membership::hangup_signal_delivery": 1,
     "process_group_membership::sighup_vulnerability": 1,
-    "process_group_membership::disown_mechanism": 1,
     "process_group_membership::process_detachment": 1,
     "process_group_membership::post_launch_intervention": 1,
-    "process_group_membership::capture_integrity": 1,
+    "process_group_membership::capture_fidelity": 1,
     "process_group_membership::premature_termination_risk": 1,
     "process_group_membership::sequencing_dependency": 1,
     "process_group_membership::gzip_dependency": 1,
     "hangup_signal_delivery::sighup_vulnerability": 1,
-    "hangup_signal_delivery::disown_mechanism": 1,
     "hangup_signal_delivery::process_detachment": 1,
     "hangup_signal_delivery::post_launch_intervention": 1,
-    "hangup_signal_delivery::capture_integrity": 1,
+    "hangup_signal_delivery::capture_fidelity": 1,
     "hangup_signal_delivery::premature_termination_risk": 1,
     "hangup_signal_delivery::sequencing_dependency": 1,
     "hangup_signal_delivery::gzip_dependency": 1,
-    "sighup_vulnerability::disown_mechanism": 1,
     "sighup_vulnerability::process_detachment": 1,
     "sighup_vulnerability::post_launch_intervention": 1,
-    "sighup_vulnerability::capture_integrity": 1,
+    "sighup_vulnerability::capture_fidelity": 1,
     "sighup_vulnerability::premature_termination_risk": 1,
     "sighup_vulnerability::sequencing_dependency": 1,
     "sighup_vulnerability::gzip_dependency": 1,
-    "disown_mechanism::process_detachment": 1,
-    "disown_mechanism::post_launch_intervention": 1,
-    "disown_mechanism::capture_integrity": 1,
-    "disown_mechanism::premature_termination_risk": 1,
-    "disown_mechanism::sequencing_dependency": 1,
-    "disown_mechanism::gzip_dependency": 1,
     "process_detachment::post_launch_intervention": 1,
-    "process_detachment::capture_integrity": 1,
+    "process_detachment::capture_fidelity": 1,
     "process_detachment::premature_termination_risk": 1,
     "process_detachment::sequencing_dependency": 1,
     "process_detachment::gzip_dependency": 1,
-    "post_launch_intervention::capture_integrity": 1,
+    "post_launch_intervention::capture_fidelity": 1,
     "post_launch_intervention::premature_termination_risk": 1,
     "post_launch_intervention::sequencing_dependency": 1,
     "post_launch_intervention::gzip_dependency": 1,
-    "capture_integrity::premature_termination_risk": 1,
-    "capture_integrity::sequencing_dependency": 1,
-    "capture_integrity::gzip_dependency": 1,
+    "capture_fidelity::premature_termination_risk": 1,
+    "capture_fidelity::sequencing_dependency": 1,
+    "capture_fidelity::gzip_dependency": 1,
     "premature_termination_risk::sequencing_dependency": 1,
     "premature_termination_risk::gzip_dependency": 1,
     "sequencing_dependency::gzip_dependency": 1,
@@ -2639,7 +2611,7 @@
     "subprocess_invocation::invocation_contamination": 1,
     "subprocess_invocation::recursive_capture_avoidance": 1,
     "subprocess_invocation::visual_isolation": 1,
-    "subprocess_invocation::capture_integrity": 1,
+    "subprocess_invocation::capture_fidelity": 1,
     "subprocess_invocation::environment_coupling": 1,
     "subprocess_invocation::platform_specificity": 1,
     "session_separation::shell_isolation": 1,
@@ -2647,36 +2619,36 @@
     "session_separation::invocation_contamination": 1,
     "session_separation::recursive_capture_avoidance": 1,
     "session_separation::visual_isolation": 1,
-    "session_separation::capture_integrity": 1,
+    "session_separation::capture_fidelity": 1,
     "session_separation::environment_coupling": 1,
     "session_separation::platform_specificity": 1,
     "shell_isolation::self_referential_capture": 1,
     "shell_isolation::invocation_contamination": 1,
     "shell_isolation::recursive_capture_avoidance": 1,
     "shell_isolation::visual_isolation": 1,
-    "shell_isolation::capture_integrity": 1,
+    "shell_isolation::capture_fidelity": 1,
     "shell_isolation::environment_coupling": 1,
     "shell_isolation::platform_specificity": 1,
     "self_referential_capture::invocation_contamination": 1,
     "self_referential_capture::recursive_capture_avoidance": 1,
     "self_referential_capture::visual_isolation": 1,
-    "self_referential_capture::capture_integrity": 1,
+    "self_referential_capture::capture_fidelity": 1,
     "self_referential_capture::environment_coupling": 1,
     "self_referential_capture::platform_specificity": 1,
     "invocation_contamination::recursive_capture_avoidance": 1,
     "invocation_contamination::visual_isolation": 1,
-    "invocation_contamination::capture_integrity": 1,
+    "invocation_contamination::capture_fidelity": 1,
     "invocation_contamination::environment_coupling": 1,
     "invocation_contamination::platform_specificity": 1,
     "recursive_capture_avoidance::visual_isolation": 1,
-    "recursive_capture_avoidance::capture_integrity": 1,
+    "recursive_capture_avoidance::capture_fidelity": 1,
     "recursive_capture_avoidance::environment_coupling": 1,
     "recursive_capture_avoidance::platform_specificity": 1,
-    "visual_isolation::capture_integrity": 1,
+    "visual_isolation::capture_fidelity": 1,
     "visual_isolation::environment_coupling": 1,
     "visual_isolation::platform_specificity": 1,
-    "capture_integrity::environment_coupling": 1,
-    "capture_integrity::platform_specificity": 1,
+    "capture_fidelity::environment_coupling": 1,
+    "capture_fidelity::platform_specificity": 1,
     "environment_coupling::platform_specificity": 1,
     "crash_vulnerability::incremental_write_risk": 1,
     "crash_vulnerability::memory_leak_vulnerability": 1,
@@ -2903,7 +2875,7 @@
     "stale_error_persistence::authoritative_error_drop": 1,
     "stale_error_persistence::dimension_retagging": 1,
     "stale_error_persistence::error_map_clearing": 1,
-    "stale_error_persistence::retired_dimension_residue": 1,
+    "stale_error_persistence::retired_structure_residue": 2,
     "stale_error_persistence::completeness_scoping": 1,
     "stale_error_persistence::managed_dimension_boundary": 1,
     "stale_error_persistence::false_incompleteness": 1,
@@ -2913,7 +2885,7 @@
     "responsibility_assignment::authoritative_error_drop": 1,
     "responsibility_assignment::dimension_retagging": 1,
     "responsibility_assignment::error_map_clearing": 1,
-    "responsibility_assignment::retired_dimension_residue": 1,
+    "responsibility_assignment::retired_structure_residue": 1,
     "responsibility_assignment::completeness_scoping": 1,
     "responsibility_assignment::managed_dimension_boundary": 1,
     "responsibility_assignment::false_incompleteness": 1,
@@ -2922,7 +2894,7 @@
     "responsibility_assignment::store_lingering_state": 1,
     "authoritative_error_drop::dimension_retagging": 1,
     "authoritative_error_drop::error_map_clearing": 1,
-    "authoritative_error_drop::retired_dimension_residue": 1,
+    "authoritative_error_drop::retired_structure_residue": 1,
     "authoritative_error_drop::completeness_scoping": 1,
     "authoritative_error_drop::managed_dimension_boundary": 1,
     "authoritative_error_drop::false_incompleteness": 1,
@@ -2930,26 +2902,26 @@
     "authoritative_error_drop::driver_scope": 1,
     "authoritative_error_drop::store_lingering_state": 1,
     "dimension_retagging::error_map_clearing": 1,
-    "dimension_retagging::retired_dimension_residue": 1,
+    "dimension_retagging::retired_structure_residue": 1,
     "dimension_retagging::completeness_scoping": 1,
     "dimension_retagging::managed_dimension_boundary": 1,
     "dimension_retagging::false_incompleteness": 1,
     "dimension_retagging::concern_separation": 1,
     "dimension_retagging::driver_scope": 1,
     "dimension_retagging::store_lingering_state": 1,
-    "error_map_clearing::retired_dimension_residue": 1,
+    "error_map_clearing::retired_structure_residue": 1,
     "error_map_clearing::completeness_scoping": 1,
     "error_map_clearing::managed_dimension_boundary": 1,
     "error_map_clearing::false_incompleteness": 1,
     "error_map_clearing::concern_separation": 1,
     "error_map_clearing::driver_scope": 1,
     "error_map_clearing::store_lingering_state": 1,
-    "retired_dimension_residue::completeness_scoping": 1,
-    "retired_dimension_residue::managed_dimension_boundary": 1,
-    "retired_dimension_residue::false_incompleteness": 1,
-    "retired_dimension_residue::concern_separation": 1,
-    "retired_dimension_residue::driver_scope": 1,
-    "retired_dimension_residue::store_lingering_state": 1,
+    "retired_structure_residue::completeness_scoping": 1,
+    "retired_structure_residue::managed_dimension_boundary": 1,
+    "retired_structure_residue::false_incompleteness": 1,
+    "retired_structure_residue::concern_separation": 1,
+    "retired_structure_residue::driver_scope": 1,
+    "retired_structure_residue::store_lingering_state": 1,
     "completeness_scoping::managed_dimension_boundary": 1,
     "completeness_scoping::false_incompleteness": 1,
     "completeness_scoping::concern_separation": 1,
@@ -2967,7 +2939,7 @@
     "driver_scope::store_lingering_state": 1,
     "false_incompleteness::stale_error_persistence": 1,
     "false_incompleteness::bookkeeping_not_data": 1,
-    "false_incompleteness::retired_operator_residue": 1,
+    "false_incompleteness::retired_structure_residue": 1,
     "false_incompleteness::phantom_dimension_reference": 1,
     "false_incompleteness::fused_pass_retagging": 1,
     "false_incompleteness::leftover_error_gating": 1,
@@ -2977,7 +2949,6 @@
     "false_incompleteness::valid_dimensions_intact": 1,
     "false_incompleteness::state_not_cleared": 1,
     "stale_error_persistence::bookkeeping_not_data": 1,
-    "stale_error_persistence::retired_operator_residue": 1,
     "stale_error_persistence::phantom_dimension_reference": 1,
     "stale_error_persistence::fused_pass_retagging": 1,
     "stale_error_persistence::leftover_error_gating": 1,
@@ -2986,7 +2957,7 @@
     "stale_error_persistence::permanent_incomplete_wedge": 1,
     "stale_error_persistence::valid_dimensions_intact": 1,
     "stale_error_persistence::state_not_cleared": 1,
-    "bookkeeping_not_data::retired_operator_residue": 1,
+    "bookkeeping_not_data::retired_structure_residue": 1,
     "bookkeeping_not_data::phantom_dimension_reference": 1,
     "bookkeeping_not_data::fused_pass_retagging": 1,
     "bookkeeping_not_data::leftover_error_gating": 1,
@@ -2995,14 +2966,14 @@
     "bookkeeping_not_data::permanent_incomplete_wedge": 1,
     "bookkeeping_not_data::valid_dimensions_intact": 1,
     "bookkeeping_not_data::state_not_cleared": 1,
-    "retired_operator_residue::phantom_dimension_reference": 1,
-    "retired_operator_residue::fused_pass_retagging": 1,
-    "retired_operator_residue::leftover_error_gating": 1,
-    "retired_operator_residue::misdiagnosed_transport_failure": 1,
-    "retired_operator_residue::file_level_verification": 1,
-    "retired_operator_residue::permanent_incomplete_wedge": 1,
-    "retired_operator_residue::valid_dimensions_intact": 1,
-    "retired_operator_residue::state_not_cleared": 1,
+    "retired_structure_residue::phantom_dimension_reference": 1,
+    "retired_structure_residue::fused_pass_retagging": 1,
+    "retired_structure_residue::leftover_error_gating": 1,
+    "retired_structure_residue::misdiagnosed_transport_failure": 1,
+    "retired_structure_residue::file_level_verification": 1,
+    "retired_structure_residue::permanent_incomplete_wedge": 1,
+    "retired_structure_residue::valid_dimensions_intact": 1,
+    "retired_structure_residue::state_not_cleared": 1,
     "phantom_dimension_reference::fused_pass_retagging": 1,
     "phantom_dimension_reference::leftover_error_gating": 1,
     "phantom_dimension_reference::misdiagnosed_transport_failure": 1,
@@ -3742,8 +3713,7 @@
     "half_tagged_detection::loud_warning_signal": 1,
     "false_completeness_trap::loud_warning_signal": 1,
     "retry_on_invalid::recoverable_failure_recovery": 1,
-    "retry_on_invalid::silent_drop_corruption": 1,
-    "retry_on_invalid::validation_retry_loop": 1,
+    "retry_on_invalid::silent_corruption": 1,
     "retry_on_invalid::temperature_perturbation": 1,
     "retry_on_invalid::stuck_answer_escape": 1,
     "retry_on_invalid::fail_fast_on_transport_down": 1,
@@ -3752,8 +3722,7 @@
     "retry_on_invalid::missing_dimension_corruption": 1,
     "retry_on_invalid::scale_tag_provisioning": 1,
     "retry_on_invalid::graceful_degradation": 1,
-    "recoverable_failure_recovery::silent_drop_corruption": 1,
-    "recoverable_failure_recovery::validation_retry_loop": 1,
+    "recoverable_failure_recovery::silent_corruption": 1,
     "recoverable_failure_recovery::temperature_perturbation": 1,
     "recoverable_failure_recovery::stuck_answer_escape": 1,
     "recoverable_failure_recovery::fail_fast_on_transport_down": 1,
@@ -3762,23 +3731,14 @@
     "recoverable_failure_recovery::missing_dimension_corruption": 1,
     "recoverable_failure_recovery::scale_tag_provisioning": 1,
     "recoverable_failure_recovery::graceful_degradation": 1,
-    "silent_drop_corruption::validation_retry_loop": 1,
-    "silent_drop_corruption::temperature_perturbation": 1,
-    "silent_drop_corruption::stuck_answer_escape": 1,
-    "silent_drop_corruption::fail_fast_on_transport_down": 1,
-    "silent_drop_corruption::failure_class_discrimination": 1,
-    "silent_drop_corruption::starved_downstream_dependency": 1,
-    "silent_drop_corruption::missing_dimension_corruption": 1,
-    "silent_drop_corruption::scale_tag_provisioning": 1,
-    "silent_drop_corruption::graceful_degradation": 1,
-    "validation_retry_loop::temperature_perturbation": 1,
-    "validation_retry_loop::stuck_answer_escape": 1,
-    "validation_retry_loop::fail_fast_on_transport_down": 1,
-    "validation_retry_loop::failure_class_discrimination": 1,
-    "validation_retry_loop::starved_downstream_dependency": 1,
-    "validation_retry_loop::missing_dimension_corruption": 1,
-    "validation_retry_loop::scale_tag_provisioning": 1,
-    "validation_retry_loop::graceful_degradation": 1,
+    "silent_corruption::temperature_perturbation": 1,
+    "silent_corruption::stuck_answer_escape": 1,
+    "silent_corruption::fail_fast_on_transport_down": 1,
+    "silent_corruption::failure_class_discrimination": 1,
+    "silent_corruption::starved_downstream_dependency": 1,
+    "silent_corruption::missing_dimension_corruption": 1,
+    "silent_corruption::scale_tag_provisioning": 1,
+    "silent_corruption::graceful_degradation": 1,
     "temperature_perturbation::stuck_answer_escape": 1,
     "temperature_perturbation::fail_fast_on_transport_down": 1,
     "temperature_perturbation::failure_class_discrimination": 1,
@@ -6724,7 +6684,7 @@
   },
   "domains": {
     "claude_code_sessions": {
-      "count": 53,
+      "count": 0,
       "tree": {
         "harmony_restoration": {
           "latent_friction_state": [
@@ -7213,9 +7173,9 @@
           ],
           "source_deployment_gap": [
             "wrapup_integration",
-            "authorship_execution_link",
-            "tribal_knowledge",
-            "deploy_enforcement"
+            "local_toolchain",
+            "personal_bin_directory",
+            "self_maintained_scripts"
           ],
           "authorship_execution_link": [
             "tribal_knowledge",
@@ -7377,9 +7337,9 @@
           ],
           "source_deployment_gap": [
             "wrapup_integration",
-            "authorship_execution_link",
-            "deploy_enforcement",
-            "commissive_resolution"
+            "local_toolchain",
+            "personal_bin_directory",
+            "self_maintained_scripts"
           ],
           "authorship_execution_link": [
             "deploy_enforcement",
@@ -7474,148 +7434,145 @@
           ],
           "cross_platform_harmony": []
         },
-        "naming_convention": {
-          "visual_disambiguation": [
-            "semantic_naming",
-            "naming_philosophy",
-            "lexical_contamination",
-            "term_overloading"
+        "source_deployment_gap": {
+          "wrapup_integration": [
+            "silent_divergence",
+            "authorship_execution_link",
+            "deploy_enforcement",
+            "commissive_resolution"
           ],
-          "semantic_naming": [
-            "naming_philosophy",
-            "lexical_contamination",
-            "term_overloading",
-            "semantic_baggage"
+          "local_toolchain": [
+            "personal_bin_directory",
+            "self_maintained_scripts",
+            "session_management",
+            "claude_code_sessions"
           ],
-          "naming_philosophy": [
-            "lexical_contamination",
-            "term_overloading",
-            "semantic_baggage",
-            "typographic_ambiguity"
+          "personal_bin_directory": [
+            "self_maintained_scripts",
+            "session_management",
+            "claude_code_sessions",
+            "launch_infrastructure"
           ],
-          "lexical_contamination": [
-            "typographic_ambiguity",
-            "term_overloading",
-            "semantic_baggage",
-            "character_collision"
+          "self_maintained_scripts": [
+            "session_management",
+            "claude_code_sessions",
+            "launch_infrastructure",
+            "glob_pattern_search"
           ],
-          "term_overloading": [
-            "semantic_baggage",
-            "typographic_ambiguity",
-            "character_collision",
-            "delimiter_choice"
+          "session_management": [
+            "claude_code_sessions",
+            "launch_infrastructure",
+            "glob_pattern_search",
+            "script_discovery"
           ],
-          "semantic_baggage": [
-            "typographic_ambiguity",
-            "character_collision",
-            "delimiter_choice",
-            "convention_alignment"
+          "claude_code_sessions": [
+            "launch_infrastructure",
+            "glob_pattern_search",
+            "script_discovery",
+            "deployed_bin"
           ],
-          "typographic_ambiguity": [
-            "character_collision",
-            "delimiter_choice",
-            "convention_alignment",
-            "vocabulary_hygiene"
+          "launch_infrastructure": [
+            "glob_pattern_search",
+            "script_discovery",
+            "deployed_bin",
+            "source_repository"
           ],
-          "character_collision": [
-            "delimiter_choice",
-            "convention_alignment",
-            "vocabulary_hygiene"
+          "glob_pattern_search": [
+            "script_discovery",
+            "deployed_bin",
+            "source_repository",
+            "dual_location_architecture"
           ],
-          "delimiter_choice": [
-            "convention_alignment",
-            "vocabulary_hygiene"
+          "script_discovery": [
+            "deployed_bin",
+            "source_repository",
+            "dual_location_architecture"
           ],
-          "convention_alignment": [
-            "vocabulary_hygiene"
+          "deployed_bin": [
+            "source_repository",
+            "dual_location_architecture"
           ],
-          "vocabulary_hygiene": [],
-          "terminology_settlement": [
-            "verb_pairing",
-            "sealing_metaphor",
-            "encryption_workflow",
-            "public_key_tooling"
+          "source_repository": [
+            "dual_location_architecture"
           ],
-          "verb_pairing": [
-            "sealing_metaphor",
-            "encryption_workflow",
-            "public_key_tooling",
-            "coinage_rejection"
+          "dual_location_architecture": [],
+          "silent_divergence": [
+            "authorship_execution_link",
+            "deploy_enforcement",
+            "commissive_resolution",
+            "deploy_step_commissioning"
           ],
-          "sealing_metaphor": [
-            "encryption_workflow",
-            "public_key_tooling",
-            "coinage_rejection",
-            "descriptive_vs_familiar"
+          "authorship_execution_link": [
+            "deploy_enforcement",
+            "commissive_resolution",
+            "deploy_step_commissioning",
+            "deferred_implementation"
           ],
-          "encryption_workflow": [
-            "public_key_tooling",
-            "coinage_rejection",
-            "descriptive_vs_familiar",
-            "familiarity_preference"
+          "deploy_enforcement": [
+            "commissive_resolution",
+            "deploy_step_commissioning",
+            "deferred_implementation",
+            "friction_named"
           ],
-          "public_key_tooling": [
-            "coinage_rejection",
-            "descriptive_vs_familiar",
-            "familiarity_preference",
-            "deliberate_choice"
+          "commissive_resolution": [
+            "deploy_step_commissioning",
+            "deferred_implementation",
+            "friction_named",
+            "closure_without_resolution"
           ],
-          "coinage_rejection": [
-            "descriptive_vs_familiar",
-            "familiarity_preference",
-            "deliberate_choice"
+          "deploy_step_commissioning": [
+            "deferred_implementation",
+            "friction_named",
+            "closure_without_resolution"
           ],
-          "descriptive_vs_familiar": [
-            "familiarity_preference",
-            "deliberate_choice"
+          "deferred_implementation": [
+            "friction_named",
+            "closure_without_resolution"
           ],
-          "familiarity_preference": [
-            "deliberate_choice"
+          "friction_named": [
+            "closure_without_resolution"
           ],
-          "deliberate_choice": [],
-          "identity_declaration": [
-            "operative_vocabulary",
-            "naming_as_artifact",
-            "lexical_sovereignty",
-            "ambient_noise_rejection"
+          "closure_without_resolution": [],
+          "selective_deployment": [
+            "incremental_copy",
+            "blind_overwrite_avoidance",
+            "git_diff_gating",
+            "session_scoped_changes"
           ],
-          "operative_vocabulary": [
-            "naming_as_artifact",
-            "lexical_sovereignty",
-            "ambient_noise_rejection",
-            "tribal_signal"
+          "incremental_copy": [
+            "blind_overwrite_avoidance",
+            "git_diff_gating",
+            "session_scoped_changes",
+            "session_boundary_action"
           ],
-          "naming_as_artifact": [
-            "lexical_sovereignty",
-            "ambient_noise_rejection",
-            "tribal_signal",
-            "conceptual_field"
+          "blind_overwrite_avoidance": [
+            "git_diff_gating",
+            "session_scoped_changes",
+            "session_boundary_action",
+            "single_source_of_truth"
           ],
-          "lexical_sovereignty": [
-            "ambient_noise_rejection",
-            "tribal_signal",
-            "conceptual_field",
-            "perceptual_legibility"
+          "git_diff_gating": [
+            "session_scoped_changes",
+            "session_boundary_action",
+            "single_source_of_truth",
+            "deploy_automation"
           ],
-          "ambient_noise_rejection": [
-            "tribal_signal",
-            "conceptual_field",
-            "perceptual_legibility",
-            "manner_cooperation"
+          "session_scoped_changes": [
+            "session_boundary_action",
+            "single_source_of_truth",
+            "deploy_automation"
           ],
-          "tribal_signal": [
-            "conceptual_field",
-            "perceptual_legibility",
-            "manner_cooperation"
+          "session_boundary_action": [
+            "single_source_of_truth",
+            "deploy_automation"
           ],
-          "conceptual_field": [
-            "perceptual_legibility",
-            "manner_cooperation"
+          "single_source_of_truth": [
+            "fused_prompt_drift",
+            "parse_function_exposure",
+            "authoritative_mapping",
+            "enum_injection"
           ],
-          "perceptual_legibility": [
-            "manner_cooperation"
-          ],
-          "manner_cooperation": []
+          "deploy_automation": []
         },
         "cross_platform_access": {
           "silent_fidelity_loss": [
@@ -7756,6 +7713,290 @@
             "tool_path_divergence"
           ],
           "tool_path_divergence": []
+        },
+        "capture_fidelity": {
+          "in_session_capture": [
+            "temporal_capture_advantage",
+            "deferred_review_contrast",
+            "context_completeness",
+            "reconstruction_loss"
+          ],
+          "temporal_capture_advantage": [
+            "deferred_review_contrast",
+            "context_completeness",
+            "reconstruction_loss",
+            "inbox_as_staging"
+          ],
+          "deferred_review_contrast": [
+            "context_completeness",
+            "reconstruction_loss",
+            "inbox_as_staging",
+            "immediate_routing"
+          ],
+          "context_completeness": [
+            "reconstruction_loss",
+            "inbox_as_staging",
+            "immediate_routing",
+            "waystation_function"
+          ],
+          "reconstruction_loss": [
+            "inbox_as_staging",
+            "immediate_routing",
+            "waystation_function",
+            "mid_session_inference"
+          ],
+          "inbox_as_staging": [
+            "immediate_routing",
+            "waystation_function",
+            "mid_session_inference",
+            "active_work_context"
+          ],
+          "immediate_routing": [
+            "waystation_function",
+            "mid_session_inference",
+            "active_work_context",
+            "moment_vs_memory"
+          ],
+          "waystation_function": [
+            "mid_session_inference",
+            "active_work_context",
+            "moment_vs_memory"
+          ],
+          "mid_session_inference": [
+            "active_work_context",
+            "moment_vs_memory"
+          ],
+          "active_work_context": [
+            "moment_vs_memory"
+          ],
+          "moment_vs_memory": [],
+          "parent_child_relationship": [
+            "process_group_membership",
+            "hangup_signal_delivery",
+            "sighup_vulnerability",
+            "process_detachment"
+          ],
+          "process_group_membership": [
+            "hangup_signal_delivery",
+            "sighup_vulnerability",
+            "process_detachment",
+            "post_launch_intervention"
+          ],
+          "hangup_signal_delivery": [
+            "sighup_vulnerability",
+            "process_detachment",
+            "post_launch_intervention",
+            "premature_termination_risk"
+          ],
+          "sighup_vulnerability": [
+            "process_detachment",
+            "post_launch_intervention",
+            "premature_termination_risk",
+            "sequencing_dependency"
+          ],
+          "process_detachment": [
+            "post_launch_intervention",
+            "premature_termination_risk",
+            "sequencing_dependency",
+            "gzip_dependency"
+          ],
+          "post_launch_intervention": [
+            "premature_termination_risk",
+            "sequencing_dependency",
+            "gzip_dependency"
+          ],
+          "premature_termination_risk": [
+            "sequencing_dependency",
+            "gzip_dependency"
+          ],
+          "sequencing_dependency": [
+            "gzip_dependency",
+            "conditional_execution",
+            "exit_gating",
+            "abnormal_termination"
+          ],
+          "gzip_dependency": [],
+          "subprocess_invocation": [
+            "session_separation",
+            "shell_isolation",
+            "self_referential_capture",
+            "invocation_contamination"
+          ],
+          "session_separation": [
+            "shell_isolation",
+            "self_referential_capture",
+            "invocation_contamination",
+            "recursive_capture_avoidance"
+          ],
+          "shell_isolation": [
+            "self_referential_capture",
+            "invocation_contamination",
+            "recursive_capture_avoidance",
+            "visual_isolation"
+          ],
+          "self_referential_capture": [
+            "invocation_contamination",
+            "recursive_capture_avoidance",
+            "visual_isolation",
+            "environment_coupling"
+          ],
+          "invocation_contamination": [
+            "recursive_capture_avoidance",
+            "visual_isolation",
+            "environment_coupling",
+            "platform_specificity"
+          ],
+          "recursive_capture_avoidance": [
+            "visual_isolation",
+            "environment_coupling",
+            "platform_specificity"
+          ],
+          "visual_isolation": [
+            "environment_coupling",
+            "platform_specificity"
+          ],
+          "environment_coupling": [
+            "platform_specificity"
+          ],
+          "platform_specificity": []
+        },
+        "naming_convention": {
+          "visual_disambiguation": [
+            "semantic_naming",
+            "naming_philosophy",
+            "lexical_contamination",
+            "term_overloading"
+          ],
+          "semantic_naming": [
+            "naming_philosophy",
+            "lexical_contamination",
+            "term_overloading",
+            "semantic_baggage"
+          ],
+          "naming_philosophy": [
+            "lexical_contamination",
+            "term_overloading",
+            "semantic_baggage",
+            "typographic_ambiguity"
+          ],
+          "lexical_contamination": [
+            "typographic_ambiguity",
+            "term_overloading",
+            "semantic_baggage",
+            "delimiter_choice"
+          ],
+          "term_overloading": [
+            "semantic_baggage",
+            "typographic_ambiguity",
+            "delimiter_choice",
+            "convention_alignment"
+          ],
+          "semantic_baggage": [
+            "typographic_ambiguity",
+            "delimiter_choice",
+            "convention_alignment",
+            "vocabulary_hygiene"
+          ],
+          "typographic_ambiguity": [
+            "delimiter_choice",
+            "convention_alignment",
+            "vocabulary_hygiene",
+            "vocabulary_inheritance"
+          ],
+          "delimiter_choice": [
+            "convention_alignment",
+            "vocabulary_hygiene"
+          ],
+          "convention_alignment": [
+            "vocabulary_hygiene"
+          ],
+          "vocabulary_hygiene": [],
+          "terminology_settlement": [
+            "verb_pairing",
+            "sealing_metaphor",
+            "encryption_workflow",
+            "public_key_tooling"
+          ],
+          "verb_pairing": [
+            "sealing_metaphor",
+            "encryption_workflow",
+            "public_key_tooling",
+            "coinage_rejection"
+          ],
+          "sealing_metaphor": [
+            "encryption_workflow",
+            "public_key_tooling",
+            "coinage_rejection",
+            "descriptive_vs_familiar"
+          ],
+          "encryption_workflow": [
+            "public_key_tooling",
+            "coinage_rejection",
+            "descriptive_vs_familiar",
+            "familiarity_preference"
+          ],
+          "public_key_tooling": [
+            "coinage_rejection",
+            "descriptive_vs_familiar",
+            "familiarity_preference",
+            "deliberate_choice"
+          ],
+          "coinage_rejection": [
+            "descriptive_vs_familiar",
+            "familiarity_preference",
+            "deliberate_choice"
+          ],
+          "descriptive_vs_familiar": [
+            "familiarity_preference",
+            "deliberate_choice"
+          ],
+          "familiarity_preference": [
+            "deliberate_choice"
+          ],
+          "deliberate_choice": [],
+          "identity_declaration": [
+            "operative_vocabulary",
+            "naming_as_artifact",
+            "lexical_sovereignty",
+            "ambient_noise_rejection"
+          ],
+          "operative_vocabulary": [
+            "naming_as_artifact",
+            "lexical_sovereignty",
+            "ambient_noise_rejection",
+            "tribal_signal"
+          ],
+          "naming_as_artifact": [
+            "lexical_sovereignty",
+            "ambient_noise_rejection",
+            "tribal_signal",
+            "conceptual_field"
+          ],
+          "lexical_sovereignty": [
+            "ambient_noise_rejection",
+            "tribal_signal",
+            "conceptual_field",
+            "perceptual_legibility"
+          ],
+          "ambient_noise_rejection": [
+            "tribal_signal",
+            "conceptual_field",
+            "perceptual_legibility",
+            "manner_cooperation"
+          ],
+          "tribal_signal": [
+            "conceptual_field",
+            "perceptual_legibility",
+            "manner_cooperation"
+          ],
+          "conceptual_field": [
+            "perceptual_legibility",
+            "manner_cooperation"
+          ],
+          "perceptual_legibility": [
+            "manner_cooperation"
+          ],
+          "manner_cooperation": []
         },
         "false_completeness_trap": {
           "format_authority_contest": [
@@ -8096,27 +8337,21 @@
           "loud_warning_signal": [],
           "retry_on_invalid": [
             "recoverable_failure_recovery",
-            "silent_drop_corruption",
-            "validation_retry_loop",
-            "temperature_perturbation"
-          ],
-          "recoverable_failure_recovery": [
-            "silent_drop_corruption",
-            "validation_retry_loop",
+            "silent_corruption",
             "temperature_perturbation",
             "stuck_answer_escape"
           ],
-          "silent_drop_corruption": [
-            "validation_retry_loop",
+          "recoverable_failure_recovery": [
+            "silent_corruption",
             "temperature_perturbation",
             "stuck_answer_escape",
             "failure_class_discrimination"
           ],
-          "validation_retry_loop": [
-            "temperature_perturbation",
-            "stuck_answer_escape",
-            "failure_class_discrimination",
-            "starved_downstream_dependency"
+          "silent_corruption": [
+            "passphrase_newline_contamination",
+            "here_string_artifact",
+            "encryption_key_mismatch",
+            "symmetric_roundtrip_masking"
           ],
           "temperature_perturbation": [
             "stuck_answer_escape",
@@ -8249,6 +8484,106 @@
             "agent_autonomy_limit"
           ],
           "agent_autonomy_limit": []
+        },
+        "silent_corruption": {
+          "passphrase_newline_contamination": [
+            "here_string_artifact",
+            "encryption_key_mismatch",
+            "symmetric_roundtrip_masking",
+            "defect_concealment"
+          ],
+          "here_string_artifact": [
+            "encryption_key_mismatch",
+            "symmetric_roundtrip_masking",
+            "defect_concealment",
+            "human_input_divergence"
+          ],
+          "encryption_key_mismatch": [
+            "symmetric_roundtrip_masking",
+            "defect_concealment",
+            "human_input_divergence",
+            "gui_decryption_failure"
+          ],
+          "symmetric_roundtrip_masking": [
+            "defect_concealment",
+            "human_input_divergence",
+            "gui_decryption_failure",
+            "process_substitution_fix"
+          ],
+          "defect_concealment": [
+            "human_input_divergence",
+            "gui_decryption_failure",
+            "process_substitution_fix",
+            "printf_no_newline"
+          ],
+          "human_input_divergence": [
+            "gui_decryption_failure",
+            "process_substitution_fix",
+            "printf_no_newline",
+            "trailing_whitespace_bug"
+          ],
+          "gui_decryption_failure": [
+            "process_substitution_fix",
+            "printf_no_newline",
+            "trailing_whitespace_bug",
+            "cross_tool_interoperability"
+          ],
+          "process_substitution_fix": [
+            "printf_no_newline",
+            "trailing_whitespace_bug",
+            "cross_tool_interoperability"
+          ],
+          "printf_no_newline": [
+            "trailing_whitespace_bug",
+            "cross_tool_interoperability"
+          ],
+          "trailing_whitespace_bug": [
+            "cross_tool_interoperability"
+          ],
+          "cross_tool_interoperability": [],
+          "retry_on_invalid": [
+            "recoverable_failure_recovery",
+            "temperature_perturbation",
+            "stuck_answer_escape",
+            "failure_class_discrimination"
+          ],
+          "recoverable_failure_recovery": [
+            "temperature_perturbation",
+            "stuck_answer_escape",
+            "failure_class_discrimination",
+            "starved_downstream_dependency"
+          ],
+          "temperature_perturbation": [
+            "stuck_answer_escape",
+            "failure_class_discrimination",
+            "starved_downstream_dependency",
+            "missing_dimension_corruption"
+          ],
+          "stuck_answer_escape": [
+            "failure_class_discrimination",
+            "starved_downstream_dependency",
+            "missing_dimension_corruption",
+            "scale_tag_provisioning"
+          ],
+          "failure_class_discrimination": [
+            "starved_downstream_dependency",
+            "missing_dimension_corruption",
+            "scale_tag_provisioning",
+            "graceful_degradation"
+          ],
+          "starved_downstream_dependency": [
+            "missing_dimension_corruption",
+            "scale_tag_provisioning",
+            "graceful_degradation"
+          ],
+          "missing_dimension_corruption": [
+            "scale_tag_provisioning",
+            "graceful_degradation"
+          ],
+          "scale_tag_provisioning": [
+            "graceful_degradation"
+          ],
+          "graceful_degradation": []
         },
         "backup_recoverability": {
           "ntfs_incompatibility": [
@@ -8444,588 +8779,6 @@
           ],
           "ext4_migration": []
         },
-        "lexical_contamination": {
-          "typographic_ambiguity": [
-            "semantic_naming",
-            "naming_philosophy",
-            "term_overloading",
-            "semantic_baggage"
-          ],
-          "semantic_naming": [
-            "naming_philosophy",
-            "term_overloading",
-            "semantic_baggage",
-            "visual_disambiguation"
-          ],
-          "naming_philosophy": [
-            "term_overloading",
-            "semantic_baggage",
-            "visual_disambiguation",
-            "character_collision"
-          ],
-          "term_overloading": [
-            "semantic_baggage",
-            "visual_disambiguation",
-            "character_collision",
-            "delimiter_choice"
-          ],
-          "semantic_baggage": [
-            "visual_disambiguation",
-            "character_collision",
-            "delimiter_choice",
-            "convention_alignment"
-          ],
-          "visual_disambiguation": [
-            "character_collision",
-            "delimiter_choice",
-            "convention_alignment",
-            "vocabulary_hygiene"
-          ],
-          "character_collision": [
-            "delimiter_choice",
-            "convention_alignment",
-            "vocabulary_hygiene"
-          ],
-          "delimiter_choice": [
-            "convention_alignment",
-            "vocabulary_hygiene"
-          ],
-          "convention_alignment": [
-            "vocabulary_hygiene"
-          ],
-          "vocabulary_hygiene": [],
-          "vocabulary_inheritance": [
-            "semantic_bleed",
-            "prior_implicature",
-            "tribal_authority",
-            "declaration_act"
-          ],
-          "semantic_bleed": [
-            "prior_implicature",
-            "tribal_authority",
-            "declaration_act",
-            "project_native_naming"
-          ],
-          "prior_implicature": [
-            "tribal_authority",
-            "declaration_act",
-            "project_native_naming",
-            "latent_friction_state"
-          ],
-          "tribal_authority": [
-            "declaration_act",
-            "project_native_naming",
-            "latent_friction_state",
-            "legibility_pressure"
-          ],
-          "declaration_act": [
-            "project_native_naming",
-            "latent_friction_state",
-            "legibility_pressure",
-            "conceptual_ownership"
-          ],
-          "project_native_naming": [
-            "latent_friction_state",
-            "legibility_pressure",
-            "conceptual_ownership"
-          ],
-          "latent_friction_state": [
-            "ansi_escape_corruption",
-            "environment_contamination",
-            "terminal_state_replay",
-            "session_legibility"
-          ],
-          "legibility_pressure": [
-            "conceptual_ownership"
-          ],
-          "conceptual_ownership": []
-        },
-        "typographic_ambiguity": {
-          "semantic_naming": [
-            "naming_philosophy",
-            "term_overloading",
-            "semantic_baggage",
-            "visual_disambiguation"
-          ],
-          "naming_philosophy": [
-            "term_overloading",
-            "semantic_baggage",
-            "visual_disambiguation",
-            "character_collision"
-          ],
-          "term_overloading": [
-            "semantic_baggage",
-            "visual_disambiguation",
-            "character_collision",
-            "delimiter_choice"
-          ],
-          "semantic_baggage": [
-            "visual_disambiguation",
-            "character_collision",
-            "delimiter_choice",
-            "convention_alignment"
-          ],
-          "visual_disambiguation": [
-            "character_collision",
-            "delimiter_choice",
-            "convention_alignment",
-            "vocabulary_hygiene"
-          ],
-          "character_collision": [
-            "delimiter_choice",
-            "convention_alignment",
-            "vocabulary_hygiene"
-          ],
-          "delimiter_choice": [
-            "convention_alignment",
-            "vocabulary_hygiene"
-          ],
-          "convention_alignment": [
-            "vocabulary_hygiene"
-          ],
-          "vocabulary_hygiene": [],
-          "vocabulary_inheritance": [
-            "semantic_bleed",
-            "prior_implicature",
-            "tribal_authority",
-            "declaration_act"
-          ],
-          "semantic_bleed": [
-            "prior_implicature",
-            "tribal_authority",
-            "declaration_act",
-            "project_native_naming"
-          ],
-          "prior_implicature": [
-            "tribal_authority",
-            "declaration_act",
-            "project_native_naming",
-            "latent_friction_state"
-          ],
-          "tribal_authority": [
-            "declaration_act",
-            "project_native_naming",
-            "latent_friction_state",
-            "legibility_pressure"
-          ],
-          "declaration_act": [
-            "project_native_naming",
-            "latent_friction_state",
-            "legibility_pressure",
-            "conceptual_ownership"
-          ],
-          "project_native_naming": [
-            "latent_friction_state",
-            "legibility_pressure",
-            "conceptual_ownership"
-          ],
-          "latent_friction_state": [
-            "ansi_escape_corruption",
-            "environment_contamination",
-            "terminal_state_replay",
-            "session_legibility"
-          ],
-          "legibility_pressure": [
-            "conceptual_ownership"
-          ],
-          "conceptual_ownership": []
-        },
-        "visual_disambiguation": {
-          "semantic_naming": [
-            "naming_philosophy",
-            "term_overloading",
-            "semantic_baggage",
-            "character_collision"
-          ],
-          "naming_philosophy": [
-            "term_overloading",
-            "semantic_baggage",
-            "character_collision",
-            "delimiter_choice"
-          ],
-          "term_overloading": [
-            "semantic_baggage",
-            "character_collision",
-            "delimiter_choice",
-            "convention_alignment"
-          ],
-          "semantic_baggage": [
-            "character_collision",
-            "delimiter_choice",
-            "convention_alignment",
-            "vocabulary_hygiene"
-          ],
-          "character_collision": [
-            "delimiter_choice",
-            "convention_alignment",
-            "vocabulary_hygiene"
-          ],
-          "delimiter_choice": [
-            "convention_alignment",
-            "vocabulary_hygiene"
-          ],
-          "convention_alignment": [
-            "vocabulary_hygiene"
-          ],
-          "vocabulary_hygiene": [],
-          "identity_declaration": [
-            "operative_vocabulary",
-            "naming_as_artifact",
-            "lexical_sovereignty",
-            "ambient_noise_rejection"
-          ],
-          "operative_vocabulary": [
-            "naming_as_artifact",
-            "lexical_sovereignty",
-            "ambient_noise_rejection",
-            "tribal_signal"
-          ],
-          "naming_as_artifact": [
-            "lexical_sovereignty",
-            "ambient_noise_rejection",
-            "tribal_signal",
-            "conceptual_field"
-          ],
-          "lexical_sovereignty": [
-            "ambient_noise_rejection",
-            "tribal_signal",
-            "conceptual_field",
-            "perceptual_legibility"
-          ],
-          "ambient_noise_rejection": [
-            "tribal_signal",
-            "conceptual_field",
-            "perceptual_legibility",
-            "manner_cooperation"
-          ],
-          "tribal_signal": [
-            "conceptual_field",
-            "perceptual_legibility",
-            "manner_cooperation"
-          ],
-          "conceptual_field": [
-            "perceptual_legibility",
-            "manner_cooperation"
-          ],
-          "perceptual_legibility": [
-            "manner_cooperation"
-          ],
-          "manner_cooperation": []
-        },
-        "sequencing_dependency": {
-          "parent_child_relationship": [
-            "process_group_membership",
-            "hangup_signal_delivery",
-            "sighup_vulnerability",
-            "disown_mechanism"
-          ],
-          "process_group_membership": [
-            "hangup_signal_delivery",
-            "sighup_vulnerability",
-            "disown_mechanism",
-            "process_detachment"
-          ],
-          "hangup_signal_delivery": [
-            "sighup_vulnerability",
-            "disown_mechanism",
-            "process_detachment",
-            "post_launch_intervention"
-          ],
-          "sighup_vulnerability": [
-            "disown_mechanism",
-            "process_detachment",
-            "post_launch_intervention",
-            "capture_integrity"
-          ],
-          "disown_mechanism": [
-            "process_detachment",
-            "post_launch_intervention",
-            "capture_integrity",
-            "premature_termination_risk"
-          ],
-          "process_detachment": [
-            "post_launch_intervention",
-            "capture_integrity",
-            "premature_termination_risk",
-            "gzip_dependency"
-          ],
-          "post_launch_intervention": [
-            "capture_integrity",
-            "premature_termination_risk",
-            "gzip_dependency"
-          ],
-          "capture_integrity": [
-            "premature_termination_risk",
-            "gzip_dependency",
-            "subprocess_invocation",
-            "session_separation"
-          ],
-          "premature_termination_risk": [
-            "gzip_dependency"
-          ],
-          "gzip_dependency": [],
-          "conditional_execution": [
-            "exit_gating",
-            "abnormal_termination",
-            "forced_kill_scenario",
-            "uncompressed_residue"
-          ],
-          "exit_gating": [
-            "abnormal_termination",
-            "forced_kill_scenario",
-            "uncompressed_residue",
-            "missing_artifact"
-          ],
-          "abnormal_termination": [
-            "forced_kill_scenario",
-            "uncompressed_residue",
-            "missing_artifact",
-            "raw_file_persistence"
-          ],
-          "forced_kill_scenario": [
-            "uncompressed_residue",
-            "missing_artifact",
-            "raw_file_persistence",
-            "known_limitation"
-          ],
-          "uncompressed_residue": [
-            "missing_artifact",
-            "raw_file_persistence",
-            "known_limitation",
-            "non_blocking_risk"
-          ],
-          "missing_artifact": [
-            "raw_file_persistence",
-            "known_limitation",
-            "non_blocking_risk",
-            "data_recoverability"
-          ],
-          "raw_file_persistence": [
-            "known_limitation",
-            "non_blocking_risk",
-            "data_recoverability",
-            "risk_acceptance"
-          ],
-          "known_limitation": [
-            "non_blocking_risk",
-            "data_recoverability",
-            "risk_acceptance"
-          ],
-          "non_blocking_risk": [
-            "data_recoverability",
-            "risk_acceptance"
-          ],
-          "data_recoverability": [
-            "risk_acceptance"
-          ],
-          "risk_acceptance": []
-        },
-        "stale_error_persistence": {
-          "false_incompleteness": [
-            "responsibility_assignment",
-            "authoritative_error_drop",
-            "dimension_retagging",
-            "error_map_clearing"
-          ],
-          "responsibility_assignment": [
-            "authoritative_error_drop",
-            "dimension_retagging",
-            "error_map_clearing",
-            "retired_dimension_residue"
-          ],
-          "authoritative_error_drop": [
-            "dimension_retagging",
-            "error_map_clearing",
-            "retired_dimension_residue",
-            "completeness_scoping"
-          ],
-          "dimension_retagging": [
-            "error_map_clearing",
-            "retired_dimension_residue",
-            "completeness_scoping",
-            "managed_dimension_boundary"
-          ],
-          "error_map_clearing": [
-            "retired_dimension_residue",
-            "completeness_scoping",
-            "managed_dimension_boundary",
-            "concern_separation"
-          ],
-          "retired_dimension_residue": [
-            "completeness_scoping",
-            "managed_dimension_boundary",
-            "concern_separation",
-            "driver_scope"
-          ],
-          "completeness_scoping": [
-            "managed_dimension_boundary",
-            "concern_separation",
-            "driver_scope",
-            "store_lingering_state"
-          ],
-          "managed_dimension_boundary": [
-            "concern_separation",
-            "driver_scope",
-            "store_lingering_state"
-          ],
-          "concern_separation": [
-            "driver_scope",
-            "store_lingering_state"
-          ],
-          "driver_scope": [
-            "store_lingering_state"
-          ],
-          "store_lingering_state": [],
-          "bookkeeping_not_data": [
-            "retired_operator_residue",
-            "phantom_dimension_reference",
-            "fused_pass_retagging",
-            "leftover_error_gating"
-          ],
-          "retired_operator_residue": [
-            "phantom_dimension_reference",
-            "fused_pass_retagging",
-            "leftover_error_gating",
-            "misdiagnosed_transport_failure"
-          ],
-          "phantom_dimension_reference": [
-            "fused_pass_retagging",
-            "leftover_error_gating",
-            "misdiagnosed_transport_failure",
-            "file_level_verification"
-          ],
-          "fused_pass_retagging": [
-            "leftover_error_gating",
-            "misdiagnosed_transport_failure",
-            "file_level_verification",
-            "permanent_incomplete_wedge"
-          ],
-          "leftover_error_gating": [
-            "misdiagnosed_transport_failure",
-            "file_level_verification",
-            "permanent_incomplete_wedge",
-            "valid_dimensions_intact"
-          ],
-          "misdiagnosed_transport_failure": [
-            "transport_failure",
-            "fail_fast_absence",
-            "silent_masking",
-            "operational_vs_data_fault"
-          ],
-          "file_level_verification": [
-            "permanent_incomplete_wedge",
-            "valid_dimensions_intact",
-            "state_not_cleared"
-          ],
-          "permanent_incomplete_wedge": [
-            "valid_dimensions_intact",
-            "state_not_cleared"
-          ],
-          "valid_dimensions_intact": [
-            "state_not_cleared"
-          ],
-          "state_not_cleared": []
-        },
-        "false_incompleteness": {
-          "responsibility_assignment": [
-            "authoritative_error_drop",
-            "dimension_retagging",
-            "error_map_clearing",
-            "retired_dimension_residue"
-          ],
-          "authoritative_error_drop": [
-            "dimension_retagging",
-            "error_map_clearing",
-            "retired_dimension_residue",
-            "completeness_scoping"
-          ],
-          "dimension_retagging": [
-            "error_map_clearing",
-            "retired_dimension_residue",
-            "completeness_scoping",
-            "managed_dimension_boundary"
-          ],
-          "error_map_clearing": [
-            "retired_dimension_residue",
-            "completeness_scoping",
-            "managed_dimension_boundary",
-            "concern_separation"
-          ],
-          "retired_dimension_residue": [
-            "completeness_scoping",
-            "managed_dimension_boundary",
-            "concern_separation",
-            "driver_scope"
-          ],
-          "completeness_scoping": [
-            "managed_dimension_boundary",
-            "concern_separation",
-            "driver_scope",
-            "store_lingering_state"
-          ],
-          "managed_dimension_boundary": [
-            "concern_separation",
-            "driver_scope",
-            "store_lingering_state"
-          ],
-          "concern_separation": [
-            "driver_scope",
-            "store_lingering_state"
-          ],
-          "driver_scope": [
-            "store_lingering_state"
-          ],
-          "store_lingering_state": [],
-          "bookkeeping_not_data": [
-            "retired_operator_residue",
-            "phantom_dimension_reference",
-            "fused_pass_retagging",
-            "leftover_error_gating"
-          ],
-          "retired_operator_residue": [
-            "phantom_dimension_reference",
-            "fused_pass_retagging",
-            "leftover_error_gating",
-            "misdiagnosed_transport_failure"
-          ],
-          "phantom_dimension_reference": [
-            "fused_pass_retagging",
-            "leftover_error_gating",
-            "misdiagnosed_transport_failure",
-            "file_level_verification"
-          ],
-          "fused_pass_retagging": [
-            "leftover_error_gating",
-            "misdiagnosed_transport_failure",
-            "file_level_verification",
-            "permanent_incomplete_wedge"
-          ],
-          "leftover_error_gating": [
-            "misdiagnosed_transport_failure",
-            "file_level_verification",
-            "permanent_incomplete_wedge",
-            "valid_dimensions_intact"
-          ],
-          "misdiagnosed_transport_failure": [
-            "transport_failure",
-            "fail_fast_absence",
-            "silent_masking",
-            "operational_vs_data_fault"
-          ],
-          "file_level_verification": [
-            "permanent_incomplete_wedge",
-            "valid_dimensions_intact",
-            "state_not_cleared"
-          ],
-          "permanent_incomplete_wedge": [
-            "valid_dimensions_intact",
-            "state_not_cleared"
-          ],
-          "valid_dimensions_intact": [
-            "state_not_cleared"
-          ],
-          "state_not_cleared": []
-        },
         "latent_friction_state": {
           "ansi_escape_corruption": [
             "environment_contamination",
@@ -9076,6 +8829,12 @@
             "pipeline_closure"
           ],
           "pipeline_closure": [],
+          "lexical_contamination": [
+            "typographic_ambiguity",
+            "semantic_naming",
+            "naming_philosophy",
+            "term_overloading"
+          ],
           "vocabulary_inheritance": [
             "semantic_bleed",
             "prior_implicature",
@@ -9092,22 +8851,30 @@
             "tribal_authority",
             "declaration_act",
             "project_native_naming",
-            "legibility_pressure"
+            "typographic_ambiguity"
           ],
           "tribal_authority": [
             "declaration_act",
             "project_native_naming",
-            "legibility_pressure",
-            "conceptual_ownership"
+            "typographic_ambiguity",
+            "legibility_pressure"
           ],
           "declaration_act": [
             "project_native_naming",
+            "typographic_ambiguity",
             "legibility_pressure",
             "conceptual_ownership"
           ],
           "project_native_naming": [
+            "typographic_ambiguity",
             "legibility_pressure",
             "conceptual_ownership"
+          ],
+          "typographic_ambiguity": [
+            "semantic_naming",
+            "naming_philosophy",
+            "term_overloading",
+            "semantic_baggage"
           ],
           "legibility_pressure": [
             "conceptual_ownership"
@@ -9614,6 +9381,242 @@
           ],
           "privacy_architecture_principle": []
         },
+        "lexical_contamination": {
+          "typographic_ambiguity": [
+            "semantic_naming",
+            "naming_philosophy",
+            "term_overloading",
+            "semantic_baggage"
+          ],
+          "semantic_naming": [
+            "naming_philosophy",
+            "term_overloading",
+            "semantic_baggage",
+            "visual_disambiguation"
+          ],
+          "naming_philosophy": [
+            "term_overloading",
+            "semantic_baggage",
+            "visual_disambiguation",
+            "delimiter_choice"
+          ],
+          "term_overloading": [
+            "semantic_baggage",
+            "visual_disambiguation",
+            "delimiter_choice",
+            "convention_alignment"
+          ],
+          "semantic_baggage": [
+            "visual_disambiguation",
+            "delimiter_choice",
+            "convention_alignment",
+            "vocabulary_hygiene"
+          ],
+          "visual_disambiguation": [
+            "delimiter_choice",
+            "convention_alignment",
+            "vocabulary_hygiene",
+            "identity_declaration"
+          ],
+          "delimiter_choice": [
+            "convention_alignment",
+            "vocabulary_hygiene"
+          ],
+          "convention_alignment": [
+            "vocabulary_hygiene"
+          ],
+          "vocabulary_hygiene": [],
+          "vocabulary_inheritance": [
+            "semantic_bleed",
+            "prior_implicature",
+            "tribal_authority",
+            "declaration_act"
+          ],
+          "semantic_bleed": [
+            "prior_implicature",
+            "tribal_authority",
+            "declaration_act",
+            "project_native_naming"
+          ],
+          "prior_implicature": [
+            "tribal_authority",
+            "declaration_act",
+            "project_native_naming",
+            "legibility_pressure"
+          ],
+          "tribal_authority": [
+            "declaration_act",
+            "project_native_naming",
+            "legibility_pressure",
+            "conceptual_ownership"
+          ],
+          "declaration_act": [
+            "project_native_naming",
+            "legibility_pressure",
+            "conceptual_ownership"
+          ],
+          "project_native_naming": [
+            "legibility_pressure",
+            "conceptual_ownership"
+          ],
+          "legibility_pressure": [
+            "conceptual_ownership"
+          ],
+          "conceptual_ownership": []
+        },
+        "typographic_ambiguity": {
+          "semantic_naming": [
+            "naming_philosophy",
+            "term_overloading",
+            "semantic_baggage",
+            "visual_disambiguation"
+          ],
+          "naming_philosophy": [
+            "term_overloading",
+            "semantic_baggage",
+            "visual_disambiguation",
+            "delimiter_choice"
+          ],
+          "term_overloading": [
+            "semantic_baggage",
+            "visual_disambiguation",
+            "delimiter_choice",
+            "convention_alignment"
+          ],
+          "semantic_baggage": [
+            "visual_disambiguation",
+            "delimiter_choice",
+            "convention_alignment",
+            "vocabulary_hygiene"
+          ],
+          "visual_disambiguation": [
+            "delimiter_choice",
+            "convention_alignment",
+            "vocabulary_hygiene",
+            "identity_declaration"
+          ],
+          "delimiter_choice": [
+            "convention_alignment",
+            "vocabulary_hygiene"
+          ],
+          "convention_alignment": [
+            "vocabulary_hygiene"
+          ],
+          "vocabulary_hygiene": [],
+          "vocabulary_inheritance": [
+            "semantic_bleed",
+            "prior_implicature",
+            "tribal_authority",
+            "declaration_act"
+          ],
+          "semantic_bleed": [
+            "prior_implicature",
+            "tribal_authority",
+            "declaration_act",
+            "project_native_naming"
+          ],
+          "prior_implicature": [
+            "tribal_authority",
+            "declaration_act",
+            "project_native_naming",
+            "legibility_pressure"
+          ],
+          "tribal_authority": [
+            "declaration_act",
+            "project_native_naming",
+            "legibility_pressure",
+            "conceptual_ownership"
+          ],
+          "declaration_act": [
+            "project_native_naming",
+            "legibility_pressure",
+            "conceptual_ownership"
+          ],
+          "project_native_naming": [
+            "legibility_pressure",
+            "conceptual_ownership"
+          ],
+          "legibility_pressure": [
+            "conceptual_ownership"
+          ],
+          "conceptual_ownership": []
+        },
+        "visual_disambiguation": {
+          "semantic_naming": [
+            "naming_philosophy",
+            "term_overloading",
+            "semantic_baggage",
+            "delimiter_choice"
+          ],
+          "naming_philosophy": [
+            "term_overloading",
+            "semantic_baggage",
+            "delimiter_choice",
+            "convention_alignment"
+          ],
+          "term_overloading": [
+            "semantic_baggage",
+            "delimiter_choice",
+            "convention_alignment",
+            "vocabulary_hygiene"
+          ],
+          "semantic_baggage": [
+            "delimiter_choice",
+            "convention_alignment",
+            "vocabulary_hygiene"
+          ],
+          "delimiter_choice": [
+            "convention_alignment",
+            "vocabulary_hygiene"
+          ],
+          "convention_alignment": [
+            "vocabulary_hygiene"
+          ],
+          "vocabulary_hygiene": [],
+          "identity_declaration": [
+            "operative_vocabulary",
+            "naming_as_artifact",
+            "lexical_sovereignty",
+            "ambient_noise_rejection"
+          ],
+          "operative_vocabulary": [
+            "naming_as_artifact",
+            "lexical_sovereignty",
+            "ambient_noise_rejection",
+            "tribal_signal"
+          ],
+          "naming_as_artifact": [
+            "lexical_sovereignty",
+            "ambient_noise_rejection",
+            "tribal_signal",
+            "conceptual_field"
+          ],
+          "lexical_sovereignty": [
+            "ambient_noise_rejection",
+            "tribal_signal",
+            "conceptual_field",
+            "perceptual_legibility"
+          ],
+          "ambient_noise_rejection": [
+            "tribal_signal",
+            "conceptual_field",
+            "perceptual_legibility",
+            "manner_cooperation"
+          ],
+          "tribal_signal": [
+            "conceptual_field",
+            "perceptual_legibility",
+            "manner_cooperation"
+          ],
+          "conceptual_field": [
+            "perceptual_legibility",
+            "manner_cooperation"
+          ],
+          "perceptual_legibility": [
+            "manner_cooperation"
+          ],
+          "manner_cooperation": []
+        },
         "misdiagnosed_transport_failure": {
           "fail_fast_absence": [
             "silent_masking",
@@ -9652,17 +9655,29 @@
             "future_latency_risk"
           ],
           "future_latency_risk": [],
+          "false_incompleteness": [
+            "stale_error_persistence",
+            "retired_structure_residue",
+            "responsibility_assignment",
+            "authoritative_error_drop"
+          ],
+          "stale_error_persistence": [
+            "retired_structure_residue",
+            "responsibility_assignment",
+            "authoritative_error_drop",
+            "dimension_retagging"
+          ],
           "bookkeeping_not_data": [
-            "retired_operator_residue",
+            "retired_structure_residue",
             "phantom_dimension_reference",
             "fused_pass_retagging",
             "leftover_error_gating"
           ],
-          "retired_operator_residue": [
-            "phantom_dimension_reference",
-            "fused_pass_retagging",
-            "leftover_error_gating",
-            "file_level_verification"
+          "retired_structure_residue": [
+            "responsibility_assignment",
+            "authoritative_error_drop",
+            "dimension_retagging",
+            "error_map_clearing"
           ],
           "phantom_dimension_reference": [
             "fused_pass_retagging",
@@ -9695,6 +9710,100 @@
             "state_not_cleared"
           ],
           "state_not_cleared": []
+        },
+        "sequencing_dependency": {
+          "parent_child_relationship": [
+            "process_group_membership",
+            "hangup_signal_delivery",
+            "sighup_vulnerability",
+            "process_detachment"
+          ],
+          "process_group_membership": [
+            "hangup_signal_delivery",
+            "sighup_vulnerability",
+            "process_detachment",
+            "post_launch_intervention"
+          ],
+          "hangup_signal_delivery": [
+            "sighup_vulnerability",
+            "process_detachment",
+            "post_launch_intervention",
+            "premature_termination_risk"
+          ],
+          "sighup_vulnerability": [
+            "process_detachment",
+            "post_launch_intervention",
+            "premature_termination_risk",
+            "gzip_dependency"
+          ],
+          "process_detachment": [
+            "post_launch_intervention",
+            "premature_termination_risk",
+            "gzip_dependency"
+          ],
+          "post_launch_intervention": [
+            "premature_termination_risk",
+            "gzip_dependency"
+          ],
+          "premature_termination_risk": [
+            "gzip_dependency"
+          ],
+          "gzip_dependency": [],
+          "conditional_execution": [
+            "exit_gating",
+            "abnormal_termination",
+            "forced_kill_scenario",
+            "uncompressed_residue"
+          ],
+          "exit_gating": [
+            "abnormal_termination",
+            "forced_kill_scenario",
+            "uncompressed_residue",
+            "missing_artifact"
+          ],
+          "abnormal_termination": [
+            "forced_kill_scenario",
+            "uncompressed_residue",
+            "missing_artifact",
+            "raw_file_persistence"
+          ],
+          "forced_kill_scenario": [
+            "uncompressed_residue",
+            "missing_artifact",
+            "raw_file_persistence",
+            "known_limitation"
+          ],
+          "uncompressed_residue": [
+            "missing_artifact",
+            "raw_file_persistence",
+            "known_limitation",
+            "non_blocking_risk"
+          ],
+          "missing_artifact": [
+            "raw_file_persistence",
+            "known_limitation",
+            "non_blocking_risk",
+            "data_recoverability"
+          ],
+          "raw_file_persistence": [
+            "known_limitation",
+            "non_blocking_risk",
+            "data_recoverability",
+            "risk_acceptance"
+          ],
+          "known_limitation": [
+            "non_blocking_risk",
+            "data_recoverability",
+            "risk_acceptance"
+          ],
+          "non_blocking_risk": [
+            "data_recoverability",
+            "risk_acceptance"
+          ],
+          "data_recoverability": [
+            "risk_acceptance"
+          ],
+          "risk_acceptance": []
         },
         "human_readability": {
           "preprocessing_overhead": [
@@ -9795,6 +9904,270 @@
             "downstream_usability"
           ],
           "downstream_usability": []
+        },
+        "stale_error_persistence": {
+          "retired_structure_residue": [
+            "false_incompleteness",
+            "responsibility_assignment",
+            "authoritative_error_drop",
+            "dimension_retagging"
+          ],
+          "false_incompleteness": [
+            "responsibility_assignment",
+            "authoritative_error_drop",
+            "dimension_retagging",
+            "error_map_clearing"
+          ],
+          "responsibility_assignment": [
+            "authoritative_error_drop",
+            "dimension_retagging",
+            "error_map_clearing",
+            "completeness_scoping"
+          ],
+          "authoritative_error_drop": [
+            "dimension_retagging",
+            "error_map_clearing",
+            "completeness_scoping",
+            "managed_dimension_boundary"
+          ],
+          "dimension_retagging": [
+            "error_map_clearing",
+            "completeness_scoping",
+            "managed_dimension_boundary",
+            "concern_separation"
+          ],
+          "error_map_clearing": [
+            "completeness_scoping",
+            "managed_dimension_boundary",
+            "concern_separation",
+            "driver_scope"
+          ],
+          "completeness_scoping": [
+            "managed_dimension_boundary",
+            "concern_separation",
+            "driver_scope",
+            "store_lingering_state"
+          ],
+          "managed_dimension_boundary": [
+            "concern_separation",
+            "driver_scope",
+            "store_lingering_state"
+          ],
+          "concern_separation": [
+            "driver_scope",
+            "store_lingering_state"
+          ],
+          "driver_scope": [
+            "store_lingering_state"
+          ],
+          "store_lingering_state": [],
+          "bookkeeping_not_data": [
+            "phantom_dimension_reference",
+            "fused_pass_retagging",
+            "leftover_error_gating",
+            "file_level_verification"
+          ],
+          "phantom_dimension_reference": [
+            "fused_pass_retagging",
+            "leftover_error_gating",
+            "file_level_verification",
+            "permanent_incomplete_wedge"
+          ],
+          "fused_pass_retagging": [
+            "leftover_error_gating",
+            "file_level_verification",
+            "permanent_incomplete_wedge",
+            "valid_dimensions_intact"
+          ],
+          "leftover_error_gating": [
+            "file_level_verification",
+            "permanent_incomplete_wedge",
+            "valid_dimensions_intact",
+            "state_not_cleared"
+          ],
+          "file_level_verification": [
+            "permanent_incomplete_wedge",
+            "valid_dimensions_intact",
+            "state_not_cleared"
+          ],
+          "permanent_incomplete_wedge": [
+            "valid_dimensions_intact",
+            "state_not_cleared"
+          ],
+          "valid_dimensions_intact": [
+            "state_not_cleared"
+          ],
+          "state_not_cleared": []
+        },
+        "retired_structure_residue": {
+          "false_incompleteness": [
+            "responsibility_assignment",
+            "authoritative_error_drop",
+            "dimension_retagging",
+            "error_map_clearing"
+          ],
+          "responsibility_assignment": [
+            "authoritative_error_drop",
+            "dimension_retagging",
+            "error_map_clearing",
+            "completeness_scoping"
+          ],
+          "authoritative_error_drop": [
+            "dimension_retagging",
+            "error_map_clearing",
+            "completeness_scoping",
+            "managed_dimension_boundary"
+          ],
+          "dimension_retagging": [
+            "error_map_clearing",
+            "completeness_scoping",
+            "managed_dimension_boundary",
+            "concern_separation"
+          ],
+          "error_map_clearing": [
+            "completeness_scoping",
+            "managed_dimension_boundary",
+            "concern_separation",
+            "driver_scope"
+          ],
+          "completeness_scoping": [
+            "managed_dimension_boundary",
+            "concern_separation",
+            "driver_scope",
+            "store_lingering_state"
+          ],
+          "managed_dimension_boundary": [
+            "concern_separation",
+            "driver_scope",
+            "store_lingering_state"
+          ],
+          "concern_separation": [
+            "driver_scope",
+            "store_lingering_state"
+          ],
+          "driver_scope": [
+            "store_lingering_state"
+          ],
+          "store_lingering_state": [],
+          "bookkeeping_not_data": [
+            "phantom_dimension_reference",
+            "fused_pass_retagging",
+            "leftover_error_gating",
+            "file_level_verification"
+          ],
+          "phantom_dimension_reference": [
+            "fused_pass_retagging",
+            "leftover_error_gating",
+            "file_level_verification",
+            "permanent_incomplete_wedge"
+          ],
+          "fused_pass_retagging": [
+            "leftover_error_gating",
+            "file_level_verification",
+            "permanent_incomplete_wedge",
+            "valid_dimensions_intact"
+          ],
+          "leftover_error_gating": [
+            "file_level_verification",
+            "permanent_incomplete_wedge",
+            "valid_dimensions_intact",
+            "state_not_cleared"
+          ],
+          "file_level_verification": [
+            "permanent_incomplete_wedge",
+            "valid_dimensions_intact",
+            "state_not_cleared"
+          ],
+          "permanent_incomplete_wedge": [
+            "valid_dimensions_intact",
+            "state_not_cleared"
+          ],
+          "valid_dimensions_intact": [
+            "state_not_cleared"
+          ],
+          "state_not_cleared": []
+        },
+        "false_incompleteness": {
+          "responsibility_assignment": [
+            "authoritative_error_drop",
+            "dimension_retagging",
+            "error_map_clearing",
+            "completeness_scoping"
+          ],
+          "authoritative_error_drop": [
+            "dimension_retagging",
+            "error_map_clearing",
+            "completeness_scoping",
+            "managed_dimension_boundary"
+          ],
+          "dimension_retagging": [
+            "error_map_clearing",
+            "completeness_scoping",
+            "managed_dimension_boundary",
+            "concern_separation"
+          ],
+          "error_map_clearing": [
+            "completeness_scoping",
+            "managed_dimension_boundary",
+            "concern_separation",
+            "driver_scope"
+          ],
+          "completeness_scoping": [
+            "managed_dimension_boundary",
+            "concern_separation",
+            "driver_scope",
+            "store_lingering_state"
+          ],
+          "managed_dimension_boundary": [
+            "concern_separation",
+            "driver_scope",
+            "store_lingering_state"
+          ],
+          "concern_separation": [
+            "driver_scope",
+            "store_lingering_state"
+          ],
+          "driver_scope": [
+            "store_lingering_state"
+          ],
+          "store_lingering_state": [],
+          "bookkeeping_not_data": [
+            "phantom_dimension_reference",
+            "fused_pass_retagging",
+            "leftover_error_gating",
+            "file_level_verification"
+          ],
+          "phantom_dimension_reference": [
+            "fused_pass_retagging",
+            "leftover_error_gating",
+            "file_level_verification",
+            "permanent_incomplete_wedge"
+          ],
+          "fused_pass_retagging": [
+            "leftover_error_gating",
+            "file_level_verification",
+            "permanent_incomplete_wedge",
+            "valid_dimensions_intact"
+          ],
+          "leftover_error_gating": [
+            "file_level_verification",
+            "permanent_incomplete_wedge",
+            "valid_dimensions_intact",
+            "state_not_cleared"
+          ],
+          "file_level_verification": [
+            "permanent_incomplete_wedge",
+            "valid_dimensions_intact",
+            "state_not_cleared"
+          ],
+          "permanent_incomplete_wedge": [
+            "valid_dimensions_intact",
+            "state_not_cleared"
+          ],
+          "valid_dimensions_intact": [
+            "state_not_cleared"
+          ],
+          "state_not_cleared": []
         },
         "directory_name_preservation": {
           "cli_first_orientation": [
@@ -9962,29 +10335,21 @@
             "session_scoped_changes",
             "wrapup_integration",
             "session_boundary_action",
-            "source_deployment_gap"
+            "deploy_automation"
           ],
           "session_scoped_changes": [
             "wrapup_integration",
             "session_boundary_action",
-            "source_deployment_gap",
             "deploy_automation"
           ],
           "wrapup_integration": [
-            "source_deployment_gap",
-            "silent_divergence",
-            "authorship_execution_link",
-            "deploy_enforcement"
-          ],
-          "session_boundary_action": [
-            "source_deployment_gap",
-            "deploy_automation"
-          ],
-          "source_deployment_gap": [
             "silent_divergence",
             "authorship_execution_link",
             "deploy_enforcement",
             "commissive_resolution"
+          ],
+          "session_boundary_action": [
+            "deploy_automation"
           ],
           "deploy_automation": []
         },
@@ -10069,94 +10434,6 @@
             "tool_path_divergence"
           ],
           "tool_path_divergence": []
-        },
-        "capture_integrity": {
-          "parent_child_relationship": [
-            "process_group_membership",
-            "hangup_signal_delivery",
-            "sighup_vulnerability",
-            "disown_mechanism"
-          ],
-          "process_group_membership": [
-            "hangup_signal_delivery",
-            "sighup_vulnerability",
-            "disown_mechanism",
-            "process_detachment"
-          ],
-          "hangup_signal_delivery": [
-            "sighup_vulnerability",
-            "disown_mechanism",
-            "process_detachment",
-            "post_launch_intervention"
-          ],
-          "sighup_vulnerability": [
-            "disown_mechanism",
-            "process_detachment",
-            "post_launch_intervention",
-            "premature_termination_risk"
-          ],
-          "disown_mechanism": [
-            "process_detachment",
-            "post_launch_intervention",
-            "premature_termination_risk",
-            "gzip_dependency"
-          ],
-          "process_detachment": [
-            "post_launch_intervention",
-            "premature_termination_risk",
-            "gzip_dependency"
-          ],
-          "post_launch_intervention": [
-            "premature_termination_risk",
-            "gzip_dependency"
-          ],
-          "premature_termination_risk": [
-            "gzip_dependency"
-          ],
-          "gzip_dependency": [],
-          "subprocess_invocation": [
-            "session_separation",
-            "shell_isolation",
-            "self_referential_capture",
-            "invocation_contamination"
-          ],
-          "session_separation": [
-            "shell_isolation",
-            "self_referential_capture",
-            "invocation_contamination",
-            "recursive_capture_avoidance"
-          ],
-          "shell_isolation": [
-            "self_referential_capture",
-            "invocation_contamination",
-            "recursive_capture_avoidance",
-            "visual_isolation"
-          ],
-          "self_referential_capture": [
-            "invocation_contamination",
-            "recursive_capture_avoidance",
-            "visual_isolation",
-            "environment_coupling"
-          ],
-          "invocation_contamination": [
-            "recursive_capture_avoidance",
-            "visual_isolation",
-            "environment_coupling",
-            "platform_specificity"
-          ],
-          "recursive_capture_avoidance": [
-            "visual_isolation",
-            "environment_coupling",
-            "platform_specificity"
-          ],
-          "visual_isolation": [
-            "environment_coupling",
-            "platform_specificity"
-          ],
-          "environment_coupling": [
-            "platform_specificity"
-          ],
-          "platform_specificity": []
         },
         "unix_script_command": {
           "raw_session_logs": [
@@ -10245,82 +10522,6 @@
             "long_term_storage"
           ],
           "long_term_storage": []
-        },
-        "source_deployment_gap": {
-          "wrapup_integration": [
-            "silent_divergence",
-            "authorship_execution_link",
-            "deploy_enforcement",
-            "commissive_resolution"
-          ],
-          "silent_divergence": [
-            "authorship_execution_link",
-            "deploy_enforcement",
-            "commissive_resolution",
-            "deploy_step_commissioning"
-          ],
-          "authorship_execution_link": [
-            "deploy_enforcement",
-            "commissive_resolution",
-            "deploy_step_commissioning",
-            "deferred_implementation"
-          ],
-          "deploy_enforcement": [
-            "commissive_resolution",
-            "deploy_step_commissioning",
-            "deferred_implementation",
-            "friction_named"
-          ],
-          "commissive_resolution": [
-            "deploy_step_commissioning",
-            "deferred_implementation",
-            "friction_named",
-            "closure_without_resolution"
-          ],
-          "deploy_step_commissioning": [
-            "deferred_implementation",
-            "friction_named",
-            "closure_without_resolution"
-          ],
-          "deferred_implementation": [
-            "friction_named",
-            "closure_without_resolution"
-          ],
-          "friction_named": [
-            "closure_without_resolution"
-          ],
-          "closure_without_resolution": [],
-          "selective_deployment": [
-            "incremental_copy",
-            "blind_overwrite_avoidance",
-            "git_diff_gating",
-            "session_scoped_changes"
-          ],
-          "incremental_copy": [
-            "blind_overwrite_avoidance",
-            "git_diff_gating",
-            "session_scoped_changes",
-            "session_boundary_action"
-          ],
-          "blind_overwrite_avoidance": [
-            "git_diff_gating",
-            "session_scoped_changes",
-            "session_boundary_action",
-            "deploy_automation"
-          ],
-          "git_diff_gating": [
-            "session_scoped_changes",
-            "session_boundary_action",
-            "deploy_automation"
-          ],
-          "session_scoped_changes": [
-            "session_boundary_action",
-            "deploy_automation"
-          ],
-          "session_boundary_action": [
-            "deploy_automation"
-          ],
-          "deploy_automation": []
         },
         "wrapup_integration": {
           "silent_divergence": [
@@ -10758,141 +10959,108 @@
             "cost_deprioritization"
           ],
           "cost_deprioritization": []
-        },
-        "false_blocker": {
-          "hardware_misattribution": [
-            "privacy_non_negotiable",
-            "privacy_gate_inapplicable",
-            "public_record_exemption",
-            "local_model_routing"
-          ],
-          "privacy_non_negotiable": [
-            "privacy_gate_inapplicable",
-            "public_record_exemption",
-            "local_model_routing",
-            "claude_substrate_legitimacy"
-          ],
-          "privacy_gate_inapplicable": [
-            "public_record_exemption",
-            "local_model_routing",
-            "claude_substrate_legitimacy",
-            "cloud_substrate_permitted"
-          ],
-          "public_record_exemption": [
-            "local_model_routing",
-            "claude_substrate_legitimacy",
-            "cloud_substrate_permitted",
-            "corpus_sequencing"
-          ],
-          "local_model_routing": [
-            "claude_substrate_legitimacy",
-            "cloud_substrate_permitted",
-            "corpus_sequencing",
-            "private_affidavit_deferral"
-          ],
-          "claude_substrate_legitimacy": [
-            "cloud_substrate_permitted",
-            "corpus_sequencing",
-            "private_affidavit_deferral",
-            "calibration_endpoint"
-          ],
-          "cloud_substrate_permitted": [
-            "corpus_sequencing",
-            "private_affidavit_deferral",
-            "calibration_endpoint",
-            "rate_window_constraint"
-          ],
-          "corpus_sequencing": [
-            "private_affidavit_deferral",
-            "calibration_endpoint",
-            "rate_window_constraint",
-            "true_bottleneck_identification"
-          ],
-          "private_affidavit_deferral": [
-            "calibration_endpoint",
-            "rate_window_constraint",
-            "true_bottleneck_identification",
-            "cost_deprioritization"
-          ],
-          "calibration_endpoint": [
-            "rate_window_constraint",
-            "true_bottleneck_identification",
-            "cost_deprioritization"
-          ],
-          "rate_window_constraint": [
-            "true_bottleneck_identification",
-            "cost_deprioritization"
-          ],
-          "true_bottleneck_identification": [
-            "cost_deprioritization"
-          ],
-          "cost_deprioritization": []
-        },
-        "hardware_misattribution": {
-          "privacy_non_negotiable": [
-            "privacy_gate_inapplicable",
-            "public_record_exemption",
-            "local_model_routing",
-            "claude_substrate_legitimacy"
-          ],
-          "privacy_gate_inapplicable": [
-            "public_record_exemption",
-            "local_model_routing",
-            "claude_substrate_legitimacy",
-            "cloud_substrate_permitted"
-          ],
-          "public_record_exemption": [
-            "local_model_routing",
-            "claude_substrate_legitimacy",
-            "cloud_substrate_permitted",
-            "corpus_sequencing"
-          ],
-          "local_model_routing": [
-            "claude_substrate_legitimacy",
-            "cloud_substrate_permitted",
-            "corpus_sequencing",
-            "private_affidavit_deferral"
-          ],
-          "claude_substrate_legitimacy": [
-            "cloud_substrate_permitted",
-            "corpus_sequencing",
-            "private_affidavit_deferral",
-            "calibration_endpoint"
-          ],
-          "cloud_substrate_permitted": [
-            "corpus_sequencing",
-            "private_affidavit_deferral",
-            "calibration_endpoint",
-            "rate_window_constraint"
-          ],
-          "corpus_sequencing": [
-            "private_affidavit_deferral",
-            "calibration_endpoint",
-            "rate_window_constraint",
-            "true_bottleneck_identification"
-          ],
-          "private_affidavit_deferral": [
-            "calibration_endpoint",
-            "rate_window_constraint",
-            "true_bottleneck_identification",
-            "cost_deprioritization"
-          ],
-          "calibration_endpoint": [
-            "rate_window_constraint",
-            "true_bottleneck_identification",
-            "cost_deprioritization"
-          ],
-          "rate_window_constraint": [
-            "true_bottleneck_identification",
-            "cost_deprioritization"
-          ],
-          "true_bottleneck_identification": [
-            "cost_deprioritization"
-          ],
-          "cost_deprioritization": []
         }
       },
       "paths": {
+        "silent_corruption/cross_tool_interoperability": [
+          "inf_fc23a776"
+        ],
+        "silent_corruption/defect_concealment": [
+          "inf_fc23a776"
+        ],
+        "silent_corruption/encryption_key_mismatch": [
+          "inf_fc23a776"
+        ],
+        "silent_corruption/gui_decryption_failure": [
+          "inf_fc23a776"
+        ],
+        "silent_corruption/here_string_artifact": [
+          "inf_fc23a776"
+        ],
+        "silent_corruption/human_input_divergence": [
+          "inf_fc23a776"
+        ],
+        "silent_corruption/passphrase_newline_contamination": [
+          "inf_fc23a776"
+        ],
+        "silent_corruption/printf_no_newline": [
+          "inf_fc23a776"
+        ],
+        "silent_corruption/process_substitution_fix": [
+          "inf_fc23a776"
+        ],
+        "silent_corruption/symmetric_roundtrip_masking": [
+          "inf_fc23a776"
+        ],
+        "silent_corruption/trailing_whitespace_bug": [
+          "inf_fc23a776"
+        ],
+        "capture_fidelity/active_work_context": [
+          "inf_cfcc4d94"
+        ],
+        "capture_fidelity/context_completeness": [
+          "inf_cfcc4d94"
+        ],
+        "capture_fidelity/deferred_review_contrast": [
+          "inf_cfcc4d94"
+        ],
+        "capture_fidelity/immediate_routing": [
+          "inf_cfcc4d94"
+        ],
+        "capture_fidelity/in_session_capture": [
+          "inf_cfcc4d94"
+        ],
+        "capture_fidelity/inbox_as_staging": [
+          "inf_cfcc4d94"
+        ],
+        "capture_fidelity/mid_session_inference": [
+          "inf_cfcc4d94"
+        ],
+        "capture_fidelity/moment_vs_memory": [
+          "inf_cfcc4d94"
+        ],
+        "capture_fidelity/reconstruction_loss": [
+          "inf_cfcc4d94"
+        ],
+        "capture_fidelity/temporal_capture_advantage": [
+          "inf_cfcc4d94"
+        ],
+        "capture_fidelity/waystation_function": [
+          "inf_cfcc4d94"
+        ],
+        "source_deployment_gap/claude_code_sessions": [
+          "inf_e7f88704"
+        ],
+        "source_deployment_gap/deployed_bin": [
+          "inf_e7f88704"
+        ],
+        "source_deployment_gap/dual_location_architecture": [
+          "inf_e7f88704"
+        ],
+        "source_deployment_gap/glob_pattern_search": [
+          "inf_e7f88704"
+        ],
+        "source_deployment_gap/launch_infrastructure": [
+          "inf_e7f88704"
+        ],
+        "source_deployment_gap/local_toolchain": [
+          "inf_e7f88704"
+        ],
+        "source_deployment_gap/personal_bin_directory": [
+          "inf_e7f88704"
+        ],
+        "source_deployment_gap/script_discovery": [
+          "inf_e7f88704"
+        ],
+        "source_deployment_gap/self_maintained_scripts": [
+          "inf_e7f88704"
+        ],
+        "source_deployment_gap/session_management": [
+          "inf_e7f88704"
+        ],
+        "source_deployment_gap/source_repository": [
+          "inf_e7f88704"
+        ],
         "raw_data_distinction/clean_storage": [
           "inf_3b5e5cff"
         ],
@@ -11101,9 +11269,6 @@
         "ssh_key_sealing/source_removal_rewiring": [
           "inf_4e4e560d"
         ],
-        "lexical_contamination/character_collision": [
-          "inf_a5b28282"
-        ],
         "lexical_contamination/convention_alignment": [
           "inf_a5b28282"
         ],
@@ -11130,9 +11295,6 @@
           "inf_a5b28282"
         ],
         "lexical_contamination/vocabulary_hygiene": [
-          "inf_a5b28282"
-        ],
-        "naming_convention/character_collision": [
           "inf_a5b28282"
         ],
         "naming_convention/convention_alignment": [
@@ -11166,9 +11328,6 @@
         "naming_convention/vocabulary_hygiene": [
           "inf_a5b28282"
         ],
-        "typographic_ambiguity/character_collision": [
-          "inf_a5b28282"
-        ],
         "typographic_ambiguity/convention_alignment": [
           "inf_a5b28282"
         ],
@@ -11191,9 +11350,6 @@
           "inf_a5b28282"
         ],
         "typographic_ambiguity/vocabulary_hygiene": [
-          "inf_a5b28282"
-        ],
-        "visual_disambiguation/character_collision": [
           "inf_a5b28282"
         ],
         "visual_disambiguation/convention_alignment": [
@@ -11295,37 +11451,31 @@
         "naming_convention/verb_pairing": [
           "inf_4862accf"
         ],
-        "capture_integrity/disown_mechanism": [
+        "capture_fidelity/gzip_dependency": [
           "inf_fe2664c9"
         ],
-        "capture_integrity/gzip_dependency": [
+        "capture_fidelity/hangup_signal_delivery": [
           "inf_fe2664c9"
         ],
-        "capture_integrity/hangup_signal_delivery": [
+        "capture_fidelity/parent_child_relationship": [
           "inf_fe2664c9"
         ],
-        "capture_integrity/parent_child_relationship": [
+        "capture_fidelity/post_launch_intervention": [
           "inf_fe2664c9"
         ],
-        "capture_integrity/post_launch_intervention": [
+        "capture_fidelity/premature_termination_risk": [
           "inf_fe2664c9"
         ],
-        "capture_integrity/premature_termination_risk": [
+        "capture_fidelity/process_detachment": [
           "inf_fe2664c9"
         ],
-        "capture_integrity/process_detachment": [
+        "capture_fidelity/process_group_membership": [
           "inf_fe2664c9"
         ],
-        "capture_integrity/process_group_membership": [
+        "capture_fidelity/sequencing_dependency": [
           "inf_fe2664c9"
         ],
-        "capture_integrity/sighup_vulnerability": [
-          "inf_fe2664c9"
-        ],
-        "sequencing_dependency/capture_integrity": [
-          "inf_fe2664c9"
-        ],
-        "sequencing_dependency/disown_mechanism": [
+        "capture_fidelity/sighup_vulnerability": [
           "inf_fe2664c9"
         ],
         "sequencing_dependency/gzip_dependency": [
@@ -11352,31 +11502,31 @@
         "sequencing_dependency/sighup_vulnerability": [
           "inf_fe2664c9"
         ],
-        "capture_integrity/environment_coupling": [
+        "capture_fidelity/environment_coupling": [
           "inf_e7906240"
         ],
-        "capture_integrity/invocation_contamination": [
+        "capture_fidelity/invocation_contamination": [
           "inf_e7906240"
         ],
-        "capture_integrity/platform_specificity": [
+        "capture_fidelity/platform_specificity": [
           "inf_e7906240"
         ],
-        "capture_integrity/recursive_capture_avoidance": [
+        "capture_fidelity/recursive_capture_avoidance": [
           "inf_e7906240"
         ],
-        "capture_integrity/self_referential_capture": [
+        "capture_fidelity/self_referential_capture": [
           "inf_e7906240"
         ],
-        "capture_integrity/session_separation": [
+        "capture_fidelity/session_separation": [
           "inf_e7906240"
         ],
-        "capture_integrity/shell_isolation": [
+        "capture_fidelity/shell_isolation": [
           "inf_e7906240"
         ],
-        "capture_integrity/subprocess_invocation": [
+        "capture_fidelity/subprocess_invocation": [
           "inf_e7906240"
         ],
-        "capture_integrity/visual_isolation": [
+        "capture_fidelity/visual_isolation": [
           "inf_e7906240"
         ],
         "continuous_flush_strategy/clean_close_dependency": [
@@ -11691,10 +11841,38 @@
         "false_incompleteness/responsibility_assignment": [
           "inf_aafd87d0"
         ],
-        "false_incompleteness/retired_dimension_residue": [
+        "false_incompleteness/store_lingering_state": [
           "inf_aafd87d0"
         ],
-        "false_incompleteness/store_lingering_state": [
+        "retired_structure_residue/authoritative_error_drop": [
+          "inf_aafd87d0"
+        ],
+        "retired_structure_residue/completeness_scoping": [
+          "inf_aafd87d0"
+        ],
+        "retired_structure_residue/concern_separation": [
+          "inf_aafd87d0"
+        ],
+        "retired_structure_residue/dimension_retagging": [
+          "inf_aafd87d0"
+        ],
+        "retired_structure_residue/driver_scope": [
+          "inf_aafd87d0"
+        ],
+        "retired_structure_residue/error_map_clearing": [
+          "inf_aafd87d0"
+        ],
+        "retired_structure_residue/false_incompleteness": [
+          "inf_51b82f0d",
+          "inf_aafd87d0"
+        ],
+        "retired_structure_residue/managed_dimension_boundary": [
+          "inf_aafd87d0"
+        ],
+        "retired_structure_residue/responsibility_assignment": [
+          "inf_aafd87d0"
+        ],
+        "retired_structure_residue/store_lingering_state": [
           "inf_aafd87d0"
         ],
         "stale_error_persistence/authoritative_error_drop": [
@@ -11725,7 +11903,8 @@
         "stale_error_persistence/responsibility_assignment": [
           "inf_aafd87d0"
         ],
-        "stale_error_persistence/retired_dimension_residue": [
+        "stale_error_persistence/retired_structure_residue": [
+          "inf_51b82f0d",
           "inf_aafd87d0"
         ],
         "stale_error_persistence/store_lingering_state": [
@@ -11743,16 +11922,10 @@
         "false_incompleteness/leftover_error_gating": [
           "inf_51b82f0d"
         ],
-        "false_incompleteness/misdiagnosed_transport_failure": [
-          "inf_51b82f0d"
-        ],
         "false_incompleteness/permanent_incomplete_wedge": [
           "inf_51b82f0d"
         ],
         "false_incompleteness/phantom_dimension_reference": [
-          "inf_51b82f0d"
-        ],
-        "false_incompleteness/retired_operator_residue": [
           "inf_51b82f0d"
         ],
         "false_incompleteness/state_not_cleared": [
@@ -11762,6 +11935,9 @@
           "inf_51b82f0d"
         ],
         "misdiagnosed_transport_failure/bookkeeping_not_data": [
+          "inf_51b82f0d"
+        ],
+        "misdiagnosed_transport_failure/false_incompleteness": [
           "inf_51b82f0d"
         ],
         "misdiagnosed_transport_failure/file_level_verification": [
@@ -11779,13 +11955,40 @@
         "misdiagnosed_transport_failure/phantom_dimension_reference": [
           "inf_51b82f0d"
         ],
-        "misdiagnosed_transport_failure/retired_operator_residue": [
+        "misdiagnosed_transport_failure/retired_structure_residue": [
+          "inf_51b82f0d"
+        ],
+        "misdiagnosed_transport_failure/stale_error_persistence": [
           "inf_51b82f0d"
         ],
         "misdiagnosed_transport_failure/state_not_cleared": [
           "inf_51b82f0d"
         ],
         "misdiagnosed_transport_failure/valid_dimensions_intact": [
+          "inf_51b82f0d"
+        ],
+        "retired_structure_residue/bookkeeping_not_data": [
+          "inf_51b82f0d"
+        ],
+        "retired_structure_residue/file_level_verification": [
+          "inf_51b82f0d"
+        ],
+        "retired_structure_residue/fused_pass_retagging": [
+          "inf_51b82f0d"
+        ],
+        "retired_structure_residue/leftover_error_gating": [
+          "inf_51b82f0d"
+        ],
+        "retired_structure_residue/permanent_incomplete_wedge": [
+          "inf_51b82f0d"
+        ],
+        "retired_structure_residue/phantom_dimension_reference": [
+          "inf_51b82f0d"
+        ],
+        "retired_structure_residue/state_not_cleared": [
+          "inf_51b82f0d"
+        ],
+        "retired_structure_residue/valid_dimensions_intact": [
           "inf_51b82f0d"
         ],
         "stale_error_persistence/bookkeeping_not_data": [
@@ -11800,16 +12003,10 @@
         "stale_error_persistence/leftover_error_gating": [
           "inf_51b82f0d"
         ],
-        "stale_error_persistence/misdiagnosed_transport_failure": [
-          "inf_51b82f0d"
-        ],
         "stale_error_persistence/permanent_incomplete_wedge": [
           "inf_51b82f0d"
         ],
         "stale_error_persistence/phantom_dimension_reference": [
-          "inf_51b82f0d"
-        ],
-        "stale_error_persistence/retired_operator_residue": [
           "inf_51b82f0d"
         ],
         "stale_error_persistence/state_not_cleared": [
@@ -12008,6 +12205,9 @@
         "latent_friction_state/legibility_pressure": [
           "inf_c39187c6"
         ],
+        "latent_friction_state/lexical_contamination": [
+          "inf_c39187c6"
+        ],
         "latent_friction_state/prior_implicature": [
           "inf_c39187c6"
         ],
@@ -12020,6 +12220,9 @@
         "latent_friction_state/tribal_authority": [
           "inf_c39187c6"
         ],
+        "latent_friction_state/typographic_ambiguity": [
+          "inf_c39187c6"
+        ],
         "latent_friction_state/vocabulary_inheritance": [
           "inf_c39187c6"
         ],
@@ -12027,9 +12230,6 @@
           "inf_c39187c6"
         ],
         "lexical_contamination/declaration_act": [
-          "inf_c39187c6"
-        ],
-        "lexical_contamination/latent_friction_state": [
           "inf_c39187c6"
         ],
         "lexical_contamination/legibility_pressure": [
@@ -12054,9 +12254,6 @@
           "inf_c39187c6"
         ],
         "typographic_ambiguity/declaration_act": [
-          "inf_c39187c6"
-        ],
-        "typographic_ambiguity/latent_friction_state": [
           "inf_c39187c6"
         ],
         "typographic_ambiguity/legibility_pressure": [
@@ -12632,7 +12829,7 @@
         "fail_fast_on_transport_down/scale_tag_provisioning": [
           "inf_b69d505f"
         ],
-        "fail_fast_on_transport_down/silent_drop_corruption": [
+        "fail_fast_on_transport_down/silent_corruption": [
           "inf_b69d505f"
         ],
         "fail_fast_on_transport_down/starved_downstream_dependency": [
@@ -12644,7 +12841,31 @@
         "fail_fast_on_transport_down/temperature_perturbation": [
           "inf_b69d505f"
         ],
-        "fail_fast_on_transport_down/validation_retry_loop": [
+        "silent_corruption/failure_class_discrimination": [
+          "inf_b69d505f"
+        ],
+        "silent_corruption/graceful_degradation": [
+          "inf_b69d505f"
+        ],
+        "silent_corruption/missing_dimension_corruption": [
+          "inf_b69d505f"
+        ],
+        "silent_corruption/recoverable_failure_recovery": [
+          "inf_b69d505f"
+        ],
+        "silent_corruption/retry_on_invalid": [
+          "inf_b69d505f"
+        ],
+        "silent_corruption/scale_tag_provisioning": [
+          "inf_b69d505f"
+        ],
+        "silent_corruption/starved_downstream_dependency": [
+          "inf_b69d505f"
+        ],
+        "silent_corruption/stuck_answer_escape": [
+          "inf_b69d505f"
+        ],
+        "silent_corruption/temperature_perturbation": [
           "inf_b69d505f"
         ],
         "terminal_recording/compression_ratio": [
@@ -13124,81 +13345,6 @@
         "assumption_dissolution/true_bottleneck_identification": [
           "inf_c28008c3"
         ],
-        "false_blocker/calibration_endpoint": [
-          "inf_c28008c3"
-        ],
-        "false_blocker/claude_substrate_legitimacy": [
-          "inf_c28008c3"
-        ],
-        "false_blocker/cloud_substrate_permitted": [
-          "inf_c28008c3"
-        ],
-        "false_blocker/corpus_sequencing": [
-          "inf_c28008c3"
-        ],
-        "false_blocker/cost_deprioritization": [
-          "inf_c28008c3"
-        ],
-        "false_blocker/hardware_misattribution": [
-          "inf_c28008c3"
-        ],
-        "false_blocker/local_model_routing": [
-          "inf_c28008c3"
-        ],
-        "false_blocker/privacy_gate_inapplicable": [
-          "inf_c28008c3"
-        ],
-        "false_blocker/privacy_non_negotiable": [
-          "inf_c28008c3"
-        ],
-        "false_blocker/private_affidavit_deferral": [
-          "inf_c28008c3"
-        ],
-        "false_blocker/public_record_exemption": [
-          "inf_c28008c3"
-        ],
-        "false_blocker/rate_window_constraint": [
-          "inf_c28008c3"
-        ],
-        "false_blocker/true_bottleneck_identification": [
-          "inf_c28008c3"
-        ],
-        "hardware_misattribution/calibration_endpoint": [
-          "inf_c28008c3"
-        ],
-        "hardware_misattribution/claude_substrate_legitimacy": [
-          "inf_c28008c3"
-        ],
-        "hardware_misattribution/cloud_substrate_permitted": [
-          "inf_c28008c3"
-        ],
-        "hardware_misattribution/corpus_sequencing": [
-          "inf_c28008c3"
-        ],
-        "hardware_misattribution/cost_deprioritization": [
-          "inf_c28008c3"
-        ],
-        "hardware_misattribution/local_model_routing": [
-          "inf_c28008c3"
-        ],
-        "hardware_misattribution/privacy_gate_inapplicable": [
-          "inf_c28008c3"
-        ],
-        "hardware_misattribution/privacy_non_negotiable": [
-          "inf_c28008c3"
-        ],
-        "hardware_misattribution/private_affidavit_deferral": [
-          "inf_c28008c3"
-        ],
-        "hardware_misattribution/public_record_exemption": [
-          "inf_c28008c3"
-        ],
-        "hardware_misattribution/rate_window_constraint": [
-          "inf_c28008c3"
-        ],
-        "hardware_misattribution/true_bottleneck_identification": [
-          "inf_c28008c3"
-        ],
         "raw_data_distinction/assumption_dissolution": [
           "inf_c28008c3"
         ],
@@ -13343,9 +13489,6 @@
         "single_source_of_truth/session_scoped_changes": [
           "inf_c77f2f40"
         ],
-        "single_source_of_truth/source_deployment_gap": [
-          "inf_c77f2f40"
-        ],
         "single_source_of_truth/wrapup_integration": [
           "inf_c77f2f40"
         ],
@@ -13368,6 +13511,9 @@
           "inf_c77f2f40"
         ],
         "source_deployment_gap/session_scoped_changes": [
+          "inf_c77f2f40"
+        ],
+        "source_deployment_gap/single_source_of_truth": [
           "inf_c77f2f40"
         ],
         "wrapup_integration/blind_overwrite_avoidance": [

@@ -12,7 +12,7 @@
     "invocation_contamination",
     "recursive_capture_avoidance",
     "visual_isolation",
-    "capture_integrity",
+    "capture_fidelity",
     "environment_coupling",
     "platform_specificity"
   ],
@@ -40,7 +40,7 @@
       "self_referential_capture"
     ],
     "visual_distinction": [
-      "capture_integrity",
+      "capture_fidelity",
       "visual_isolation"
     ],
     "platform_coupling": [
@@ -52,15 +52,15 @@
   "guardrail_actions": {},
   "domain": "claude_code_sessions",
   "category_paths": [
-    "capture_integrity/environment_coupling",
-    "capture_integrity/invocation_contamination",
-    "capture_integrity/platform_specificity",
-    "capture_integrity/recursive_capture_avoidance",
-    "capture_integrity/self_referential_capture",
-    "capture_integrity/session_separation",
-    "capture_integrity/shell_isolation",
-    "capture_integrity/subprocess_invocation",
-    "capture_integrity/visual_isolation"
+    "capture_fidelity/environment_coupling",
+    "capture_fidelity/invocation_contamination",
+    "capture_fidelity/platform_specificity",
+    "capture_fidelity/recursive_capture_avoidance",
+    "capture_fidelity/self_referential_capture",
+    "capture_fidelity/session_separation",
+    "capture_fidelity/shell_isolation",
+    "capture_fidelity/subprocess_invocation",
+    "capture_fidelity/visual_isolation"
   ],
   "tension": {
     "predicted": null,
