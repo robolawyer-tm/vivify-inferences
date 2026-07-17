@@ -98,7 +98,16 @@
       "text": "This claims a complete vision for the whole system in one breathless, unpunctuated rush \u2014 hiding who is speaking, courting agreement, and presenting itself as settled truth rather than a proposal someone might push back on.",
       "_operator": "logos_narrative.py"
     },
-    "_runner": "logos_operator.py"
+    "_runner": "logos_operator.py",
+    "act_position": {
+      "value": "about",
+      "rationale": "The text states and theorizes the system's overarching goal, standing outside any events to describe what the project aims to do.",
+      "confidence": 0.9,
+      "_src": [
+        "round_trip loss test 2026-07-13"
+      ],
+      "_operator": "act_position_operator.py"
+    }
   },
   "conflict": {
     "schema": "activated",

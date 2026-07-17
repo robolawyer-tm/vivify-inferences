@@ -96,7 +96,16 @@
       ],
       "_operator": "structural_operator.py"
     },
-    "_runner": "logos_fused.py"
+    "_runner": "logos_fused.py",
+    "act_position": {
+      "value": "about",
+      "rationale": "The text analyzes and theorizes the problem of chunking and proposes a solution, standing outside any events it describes.",
+      "confidence": 0.97,
+      "_src": [
+        "round_trip loss test 2026-07-13"
+      ],
+      "_operator": "act_position_operator.py"
+    }
   },
   "conflict": {
     "schema": "activated",

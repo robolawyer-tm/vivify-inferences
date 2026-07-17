@@ -97,6 +97,15 @@
         "Weber"
       ],
       "_operator": "authority_operator.py"
+    },
+    "act_position": {
+      "value": "about",
+      "rationale": "The text stands outside any events and reflects on AI workflow techniques for chunking and embedding, theorizing about meaning preservation rather than acting on a situation.",
+      "confidence": 0.95,
+      "_src": [
+        "round_trip loss test 2026-07-13"
+      ],
+      "_operator": "act_position_operator.py"
     }
   },
   "conflict": {

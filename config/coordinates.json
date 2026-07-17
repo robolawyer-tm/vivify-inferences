@@ -1,0 +1,249 @@
+{
+  "_doc": "Allowed values for operator output coordinates \u2014 the validation gate's source of truth. validate_coordinates() in lib/vivify_core.py checks each operator's parsed LLM output against this BEFORE it may enter the inference store. These are the operators' own emergent vocabularies, not an imposed external taxonomy: revisable, data-driven, edited as operators evolve. enums = closed value sets; floats = [lo, hi] ranges; bools = must be true/false; lists = array fields (string elements length-capped); nullable = enum/text fields that may also be JSON null; free_text = open-string surface (advisory \u2014 enforced only by the global length cap, which is the injection guard).",
+  "_max_string_len": 600,
+  "operators": {
+    "act_type": {
+      "enums": {
+        "act_type": [
+          "assertive",
+          "directive",
+          "commissive",
+          "expressive",
+          "declaration"
+        ]
+      },
+      "bools": [
+        "authority_mismatch"
+      ],
+      "free_text": [
+        "rationale"
+      ]
+    },
+    "authority": {
+      "enums": {
+        "authority": [
+          "sovereign",
+          "tribal",
+          "occult"
+        ]
+      },
+      "free_text": [
+        "source",
+        "rationale"
+      ]
+    },
+    "conflict": {
+      "enums": {
+        "schema": [
+          "none",
+          "latent",
+          "activated",
+          "entangled"
+        ],
+        "behavior": [
+          "none",
+          "positioning",
+          "suppression",
+          "escalating",
+          "rationalizing"
+        ],
+        "terrain": [
+          "center",
+          "drifting",
+          "fringe",
+          "fringe_hook"
+        ],
+        "window": [
+          "closed",
+          "forming",
+          "open",
+          "rationalizing"
+        ],
+        "escalation_phase": [
+          "none",
+          "early",
+          "threshold",
+          "exponential"
+        ]
+      },
+      "floats": {
+        "confidence": [
+          0.0,
+          1.0
+        ]
+      },
+      "lists": [
+        "schema_signals",
+        "behavior_signals"
+      ],
+      "free_text": [
+        "rationale"
+      ]
+    },
+    "cooperative": {
+      "enums": {
+        "status": [
+          "honored",
+          "violated",
+          "suspended"
+        ],
+        "maxim_violated": [
+          "quantity",
+          "quality",
+          "relation",
+          "manner"
+        ]
+      },
+      "nullable": [
+        "maxim_violated",
+        "implicature"
+      ],
+      "free_text": [
+        "implicature"
+      ]
+    },
+    "resonance": {
+      "enums": {
+        "resonance": [
+          "harmony",
+          "friction",
+          "illusion"
+        ]
+      },
+      "nullable": [
+        "underlying"
+      ],
+      "free_text": [
+        "surface",
+        "underlying"
+      ]
+    },
+    "social_field": {
+      "enums": {
+        "quadrant": [
+          "individualist",
+          "isolate",
+          "egalitarian",
+          "hierarchical"
+        ]
+      },
+      "floats": {
+        "grid": [
+          0.0,
+          1.0
+        ],
+        "group": [
+          0.0,
+          1.0
+        ],
+        "confidence": [
+          0.0,
+          1.0
+        ]
+      },
+      "free_text": [
+        "rationale"
+      ]
+    },
+    "structural": {
+      "_note": "layer/scale are intentionally NOT gated here \u2014 structural_operator coerces them to null against VALID_SCALES so cross_scale can skip rather than crash. The gate covers the six fields the operator otherwise trusts blindly.",
+      "enums": {
+        "density": [
+          "embodied",
+          "proximal",
+          "shared",
+          "distributed",
+          "bureaucratic",
+          "archival"
+        ],
+        "persistence": [
+          "momentary",
+          "short_term",
+          "routine",
+          "customary",
+          "institutional",
+          "durable"
+        ],
+        "authority": [
+          "self",
+          "pair",
+          "group",
+          "elders",
+          "system",
+          "formal"
+        ],
+        "transmission": [
+          "direct",
+          "leak",
+          "ritual",
+          "broadcast",
+          "archive",
+          "code"
+        ],
+        "memory_channel": [
+          "episodic",
+          "shared",
+          "semantic",
+          "procedural",
+          "institutional",
+          "global"
+        ],
+        "language_mode": [
+          "indexical",
+          "relational",
+          "normative",
+          "symbolic",
+          "contractual",
+          "formalized"
+        ]
+      },
+      "lists": [
+        "overlays"
+      ]
+    },
+    "transmission": {
+      "enums": {
+        "transmission": [
+          "broadcast",
+          "leak",
+          "archive"
+        ]
+      },
+      "free_text": [
+        "rationale"
+      ]
+    },
+    "utility": {
+      "enums": {
+        "utility": [
+          "instruction",
+          "narrative",
+          "currency"
+        ],
+        "secondary": [
+          "instruction",
+          "narrative",
+          "currency"
+        ]
+      },
+      "nullable": [
+        "secondary"
+      ],
+      "free_text": [
+        "rationale"
+      ]
+    },
+    "act_position": {
+      "enums": {
+        "act_position": [
+          "within",
+          "about"
+        ]
+      },
+      "nullable": [],
+      "free_text": [
+        "rationale"
+      ]
+    }
+  }
+}

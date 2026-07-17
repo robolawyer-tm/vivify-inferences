@@ -96,6 +96,15 @@
         "Douglas"
       ],
       "_operator": "structural_operator.py"
+    },
+    "act_position": {
+      "value": "about",
+      "rationale": "The text expounds and theorizes a model of inquiry, describing what 'writing in reverse' is rather than performing any move within an ongoing situation.",
+      "confidence": 0.9,
+      "_src": [
+        "round_trip loss test 2026-07-13"
+      ],
+      "_operator": "act_position_operator.py"
     }
   },
   "conflict": {

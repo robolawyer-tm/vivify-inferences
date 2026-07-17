@@ -93,7 +93,16 @@
       ],
       "_operator": "structural_operator.py"
     },
-    "_runner": "logos_fused.py"
+    "_runner": "logos_fused.py",
+    "act_position": {
+      "value": "about",
+      "rationale": "The text describes and theorizes a proposed workflow for collecting embedded model data, standing outside any such system rather than enacting it.",
+      "confidence": 0.9,
+      "_src": [
+        "round_trip loss test 2026-07-13"
+      ],
+      "_operator": "act_position_operator.py"
+    }
   },
   "conflict": {
     "schema": "latent",

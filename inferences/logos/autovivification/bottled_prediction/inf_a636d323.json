@@ -96,6 +96,15 @@
     "_runner": "logos_fused.py",
     "_errors": {
       "tag_store": "sensitivity-tagged call blocked: backend 'claude' is not local (local = ['lok', 'ollama']); PRIVACY_GATE is unset \u2014 refusing to route sensitive data off-box without an explicit decision (set PRIVACY_GATE=off to allow in dev)"
+    },
+    "act_position": {
+      "value": "about",
+      "rationale": "The text is design/project notes describing and theorizing how a prediction system works and why it exists, standing outside those workings rather than performing any of them.",
+      "confidence": 0.9,
+      "_src": [
+        "round_trip loss test 2026-07-13"
+      ],
+      "_operator": "act_position_operator.py"
     }
   },
   "conflict": {

@@ -96,6 +96,15 @@
         "Douglas"
       ],
       "_operator": "structural_operator.py"
+    },
+    "act_position": {
+      "value": "about",
+      "rationale": "The text describes and explains how a query-processing system operates, standing outside that process as an account of it rather than performing any step of it.",
+      "confidence": 0.9,
+      "_src": [
+        "round_trip loss test 2026-07-13"
+      ],
+      "_operator": "act_position_operator.py"
     }
   },
   "conflict": {

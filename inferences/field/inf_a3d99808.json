@@ -305,7 +305,16 @@
       ],
       "_operator": "structural_operator.py"
     },
-    "_runner": "logos_fused.py"
+    "_runner": "logos_fused.py",
+    "act_position": {
+      "value": "about",
+      "rationale": "The text is a retrospective case study that reports, summarizes, and analyzes the Washington events from outside them, adding nothing that acted on the case itself.",
+      "confidence": 0.98,
+      "_src": [
+        "round_trip loss test 2026-07-13"
+      ],
+      "_operator": "act_position_operator.py"
+    }
   },
   "conflict": {
     "schema": "entangled",

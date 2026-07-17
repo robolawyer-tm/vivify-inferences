@@ -97,7 +97,16 @@
       ],
       "_operator": "structural_operator.py"
     },
-    "_runner": "logos_fused.py"
+    "_runner": "logos_fused.py",
+    "act_position": {
+      "value": "about",
+      "rationale": "The text theorizes and analyzes ideas about evolution, spirituality, and human progress, standing outside any events to synthesize a philosophical position rather than acting within a situation.",
+      "confidence": 0.82,
+      "_src": [
+        "round_trip loss test 2026-07-13"
+      ],
+      "_operator": "act_position_operator.py"
+    }
   },
   "conflict": {
     "schema": "entangled",

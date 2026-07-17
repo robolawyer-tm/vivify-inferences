@@ -95,7 +95,16 @@
       ],
       "_operator": "structural_operator.py"
     },
-    "_runner": "logos_fused.py"
+    "_runner": "logos_fused.py",
+    "act_position": {
+      "value": "about",
+      "rationale": "The text theorizes and reflects on a method of inquiry and its own authorial stance rather than acting on any situation.",
+      "confidence": 0.85,
+      "_src": [
+        "round_trip loss test 2026-07-13"
+      ],
+      "_operator": "act_position_operator.py"
+    }
   },
   "conflict": {
     "schema": "latent",
