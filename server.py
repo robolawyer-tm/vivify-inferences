@@ -30,20 +30,17 @@ INDEX_FILE = INFERENCES_DIR / "index.json"
 # ── Storage functions (usable standalone without Flask) ──────────────────────
 
 def store_inference(inference):
-    """Strip packaging and store an inference to the filesystem.
+    """Strip packaging and store an inference flat, partitioned only by domain.
 
-    - Unclustered inferences land in inferences/unclustered/
-    - Category-assigned inferences go to inferences/{category}/{sub}/
+    - Storage is flat within a domain dir: inferences/{domain}/{id}.json
+    - Categorization is not done here — run categorize.py to (re)build the
+      emergent tree into index.json; the filesystem is no longer the categorizer
     - Returns the path written
     """
     inf_id = inference.get("id", "inf_unknown")
-    category_paths = inference.get("category_paths", [])
+    domain = inference.get("domain") or "unclustered"
 
-    if category_paths:
-        # Store under first category path
-        dest = INFERENCES_DIR / Path(category_paths[0]) / f"{inf_id}.json"
-    else:
-        dest = INFERENCES_DIR / "unclustered" / f"{inf_id}.json"
+    dest = INFERENCES_DIR / domain / f"{inf_id}.json"
 
     write_json(dest, inference)
     _update_index(inference)
@@ -164,3 +161,4 @@ if __name__ == "__main__":
     main()
 
 # llm: claude-sonnet-4-6 | 2026-04-15 | repos/vivify-inferences/server.py | created — FABRIC server component, gleaned from secret-server/web_server.py
+# llm: claude-opus-4-8 | 2026-06-28 | repos/vivify-operators/server.py | ported from vivify-inferences — store_inference writes flat by domain (inferences/{domain}/{id}.json)

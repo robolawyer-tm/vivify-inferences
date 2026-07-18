@@ -56,6 +56,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
 from vivify_core import read_json, resolve_model
+from category_index import ids_for_path, load_by_id
 
 
 REIFY_PROMPT = """You are the inverse pass of a vivify pipeline.
@@ -174,13 +175,45 @@ def reify_synthesize(inf_a, inf_b, dry_run=False):
 
 
 def reify_voice(category, inferences_dir="inferences", dry_run=False):
-    """Generate text that speaks for an entire category directory."""
-    category_path = Path(inferences_dir) / category
-    if not category_path.exists():
-        raise FileNotFoundError(f"Category path not found: {category_path}")
+    """Generate text that speaks for an entire category, read from the index."""
+    index = read_json(Path(inferences_dir) / "index.json")
+    ids = ids_for_path(index, category)
+    if not ids:
+        raise ValueError(f"No inferences indexed under category: {category}")
 
     inferences = []
-    for path in category_path.rglob("inf_*.json"):
+    for inf_id in ids:
+        inf = load_by_id(inferences_dir, inf_id)
+        if inf:
+            inferences.append({
+                "id": inf["id"],
+                "left_keywords": inf.get("left_keywords", []),
+                "clumps": inf.get("clumps", {}),
+                "tension_score": inf.get("tension_score")
+            })
+
+    if not inferences:
+        raise ValueError(f"Indexed ids for {category} not found in storage")
+
+    prompt = VOICE_PROMPT.format(
+        category=category,
+        inferences=json.dumps(inferences, indent=2)
+    )
+    return call_api(prompt, dry_run=dry_run)
+
+
+def reify_domain_voice(inferences_dir, domain_name=None, dry_run=False):
+    """Generate one voice for an entire domain — synthesizes all its inferences.
+
+    Unlike reify_voice (a single category path), this speaks for the whole domain
+    by loading every inference directly under the domain dir. Used to populate the
+    domain descriptions in the JSON-LD discovery surface.
+    """
+    d = Path(inferences_dir)
+    domain_name = domain_name or d.name
+
+    inferences = []
+    for path in d.glob("inf_*.json"):
         inf = read_json(path)
         if inf:
             inferences.append({
@@ -191,10 +224,10 @@ def reify_voice(category, inferences_dir="inferences", dry_run=False):
             })
 
     if not inferences:
-        raise ValueError(f"No inferences found in {category_path}")
+        raise ValueError(f"No inferences found in {d}")
 
     prompt = VOICE_PROMPT.format(
-        category=category,
+        category=domain_name,
         inferences=json.dumps(inferences, indent=2)
     )
     return call_api(prompt, dry_run=dry_run)
@@ -259,3 +292,4 @@ if __name__ == "__main__":
 # llm: claude-sonnet-4-6 | 2026-04-17 | repos/vivify-inferences/reify.py | created — inverse pass, JSON inference → prose via Claude API; single/synthesize/voice modes
 # llm: claude-sonnet-4-6 | 2026-04-21 | repos/vivify-inferences/reify.py | updated all three prompts — output format changed to series of sentence+bullets constructs
 # llm: claude-sonnet-4-6 | 2026-04-27 | repos/vivify-inferences/reify.py | replaced hardcoded model string with resolve_model("prose_reconstruction")
+# llm: claude-opus-4-8 | 2026-06-28 | repos/vivify-operators/reify.py | ported index-based reify_voice + added reify_domain_voice (kept operators anthropic-SDK call_api)
