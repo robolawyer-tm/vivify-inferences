@@ -3,8 +3,9 @@
 and fails closed after exhausting retries — the recovery path for the small local
 model so a recoverable miss isn't silently dropped as a missing dimension.
 
-No real LLM calls — vivify_core.llm_call is monkeypatched to a scripted sequence
-of responses. Validates against the real config/coordinates.json (act_type enum).
+No real LLM calls — vivify_core.llm_call_model is monkeypatched to a scripted
+sequence of responses. Validates against the real config/coordinates.json
+(act_type enum).
 
 Run standalone: python3 tests/test_retry_validation.py  (exit 0 = pass)
 """
@@ -23,11 +24,14 @@ GOOD = '{"act_type": "assertive"}'        # in the act_type enum -> accepted
 
 
 def _script(responses):
-    """Return a fake llm_call yielding responses in order (Exception -> raised),
-    plus a state dict counting calls. The last response repeats if over-consumed."""
+    """Return a fake llm_call_model yielding responses in order (Exception -> raised),
+    plus a state dict counting calls. The last response repeats if over-consumed.
+
+    call_and_validate resolves the model once up front (so the result can record
+    which model produced it) and calls llm_call_model directly — that is the seam."""
     state = {"i": 0, "calls": 0}
 
-    def fake(prompt, capability="default", sensitive=False, params=None, config_dir="config"):
+    def fake(prompt, model_id, params=None, sensitive=False):
         state["calls"] += 1
         r = responses[min(state["i"], len(responses) - 1)]
         state["i"] += 1
@@ -39,13 +43,13 @@ def _script(responses):
 
 
 def _with_llm(fake, fn):
-    """Run fn() with vc.llm_call swapped for fake, always restoring the original."""
-    orig = vc.llm_call
-    vc.llm_call = fake
+    """Run fn() with vc.llm_call_model swapped for fake, always restoring the original."""
+    orig = vc.llm_call_model
+    vc.llm_call_model = fake
     try:
         return fn()
     finally:
-        vc.llm_call = orig
+        vc.llm_call_model = orig
 
 
 def test_retry_recovers_after_invalid():
@@ -120,3 +124,4 @@ if __name__ == "__main__":
     sys.exit(1 if failed else 0)
 
 # llm: claude-opus-4-8 | 2026-06-24 | repos/vivify-operators/tests/test_retry_validation.py | new: proves call_and_validate() retries CoordinateValidationError + malformed JSON, fails closed after exhausting, and never retries LLMUnavailable
+# llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/tests/test_retry_validation.py | patch seam moved llm_call -> llm_call_model (call_and_validate now resolves the model up front)

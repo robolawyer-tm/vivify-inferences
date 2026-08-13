@@ -16,7 +16,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
 
 from inference import new_inference, save_inference, update_inference
-from vivify_core import write_json, read_json, resolve_model
+from vivify_core import (write_json, read_json, resolve_model, llm_call_model,
+                         extract_json)
 
 
 KEYWORDS_PROMPT = """You are the left-semantic pass of a vivify pipeline.
@@ -78,24 +79,22 @@ def anchored_prompt(raw_text, vocab):
 
 
 def extract_keywords_via_api(raw_text, vocab=None):
-    """Call the Claude API for the left-semantic keyword pass.
+    """Run the left-semantic keyword pass through the shared LLM transport.
 
     - Model resolved from config/model_map.json via 'semantic_extraction' capability
+      (or VIVIFY_MODEL_OVERRIDE); recorded on the inference as left_pass._model
     - vocab: emerged corpus keywords to anchor on (reuse-if-apt, mint-if-needed)
-    - Returns dict with left_keywords and clumps
-    - Raises on API error or malformed response
+    - sensitive=True: this pass sees the raw field text, so it must go through the
+      privacy gate like every other pass. The former path called the anthropic SDK
+      directly, which needed an API key the box does not have AND bypassed the gate
+      entirely — raw field text off-box with no enforcement point.
+    - Returns (dict with left_keywords and clumps, model id)
+    - Raises LLMUnavailable / json.JSONDecodeError upward
     """
-    try:
-        import anthropic
-        client = anthropic.Anthropic()
-        message = client.messages.create(
-            model=resolve_model("semantic_extraction"),
-            max_tokens=1024,
-            messages=[{"role": "user", "content": anchored_prompt(raw_text, vocab or [])}]
-        )
-        return json.loads(message.content[0].text)
-    except ImportError:
-        raise RuntimeError("anthropic package not installed — pip install anthropic")
+    model = resolve_model("semantic_extraction")
+    raw = llm_call_model(anchored_prompt(raw_text, vocab or []), model, None,
+                         sensitive=True)
+    return extract_json(raw), model
 
 
 def extract_keywords_manual(keywords_str, clumps_str=None):
@@ -110,22 +109,26 @@ def extract_keywords_manual(keywords_str, clumps_str=None):
     return {"left_keywords": keywords, "clumps": clumps}
 
 
-def vivify(raw_text, keywords=None, source="manual", inferences_dir="inferences"):
+def vivify(raw_text, keywords=None, source="manual", inferences_dir="inferences",
+           case_id=None):
     """Run the full vivify pass on raw text.
 
     - Creates inference unit
     - Extracts keywords (API or manual)
     - Saves to inferences/unclustered/
+    - case_id marks this text as one telling of a named case — pass it when the
+      same case is entering the store a second time from a different document
     - Returns the saved inference and its path
     """
-    inf = new_inference(raw_text, source=source)
+    inf = new_inference(raw_text, source=source, case_id=case_id)
 
     if keywords:
         inf = update_inference(inf, keywords)
     else:
         vocab = established_vocabulary(inferences_dir)
-        kw = extract_keywords_via_api(raw_text, vocab=vocab)
+        kw, model = extract_keywords_via_api(raw_text, vocab=vocab)
         inf = update_inference(inf, kw)
+        inf["left_pass"] = {"_model": model, "_operator": "vivify.py"}
 
     path = save_inference(inf, inferences_dir=inferences_dir)
     return inf, path
@@ -140,6 +143,8 @@ def usage():
     print("  --keywords <csv>     Pre-extracted keywords (skips API call)")
     print("  --clumps <json>      Pre-extracted clumps as JSON string")
     print("  --source <name>      Source label (default: manual)")
+    print("  --case <slug>        Case this text describes — same slug = variant,")
+    print("                       not an independent observation (default: none)")
     print("  --dir <path>         Inferences directory (default: inferences)")
     print("  -h, --help           Show this help")
     sys.exit(1)
@@ -151,6 +156,7 @@ def parse_args():
     parser.add_argument("--keywords")
     parser.add_argument("--clumps")
     parser.add_argument("--source", default="manual")
+    parser.add_argument("--case", default=None)
     parser.add_argument("--dir", default="inferences")
     parser.add_argument("-h", "--help", action="store_true")
     return parser.parse_args()
@@ -179,7 +185,8 @@ def main():
     if args.keywords:
         keywords = extract_keywords_manual(args.keywords, args.clumps)
 
-    inf, path = vivify(raw_text, keywords=keywords, source=args.source, inferences_dir=args.dir)
+    inf, path = vivify(raw_text, keywords=keywords, source=args.source,
+                       inferences_dir=args.dir, case_id=args.case)
 
     print(f"Saved: {path}")
     print(json.dumps(inf, indent=2))
@@ -191,3 +198,5 @@ if __name__ == "__main__":
 # llm: claude-sonnet-4-6 | 2026-04-15 | repos/vivify-inferences/vivify.py | created — FABRIC vivify component, left-semantic pass via Claude API or manual keywords
 # llm: claude-sonnet-4-6 | 2026-04-27 | repos/vivify-inferences/vivify.py | replaced hardcoded model string with resolve_model("semantic_extraction")
 # llm: claude-fable-5 | 2026-07-14 | repos/vivify-operators/vivify.py | vocabulary anchoring: established_vocabulary() from index.json (count>=2, cap 150) injected into extraction prompt as reuse-if-apt/mint-if-needed
+# llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/vivify.py | case_id passthrough + --case CLI flag
+# llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/vivify.py | left pass ported from the anthropic SDK to the shared llm_call_model transport (no API key on the box; the SDK path also bypassed the privacy gate); returns + records left_pass._model

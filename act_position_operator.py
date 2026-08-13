@@ -74,6 +74,7 @@ def parse(result: dict, inference: dict) -> dict:
         "value":      result["act_position"],
         "rationale":  result.get("rationale"),
         "confidence": result.get("confidence"),
+        "_model":     result.get("_model"),
         "_src":       ["round_trip loss test 2026-07-13"],
         "_operator":  "act_position_operator.py"
     }
@@ -99,3 +100,4 @@ if __name__ == "__main__":
         write_json(path, tagged)
         print(f"logos.act_position tagged: {tagged['logos']['act_position']['value']}")
 # llm: claude-fable-5 | 2026-07-17 | repos/vivify-operators/act_position_operator.py | created — within|about vantage coordinate, forced by three observed conflations (round-trip tier A, research-tops-tension, cross_scale about-links)
+# llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/act_position_operator.py | parse() records _model beside _operator — which model produced the coordinate

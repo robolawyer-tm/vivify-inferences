@@ -25,7 +25,32 @@ Run all four passes at once with `fabric.py`:
 echo 'your inference text' | python3 fabric.py
 python3 fabric.py 'your inference text'
 python3 fabric.py --source <label> 'your inference text'
+python3 fabric.py --source <label> --case <slug> 'your inference text'
 ```
+
+`--case` names the underlying case a text describes. The same case can enter the store more than once — a second telling from a different source document is how source-text sensitivity gets measured — and the two tellings carry the same slug. Scoring stays per-text: every telling gets its own keywords, coordinates, and three-number tension. What changes is the aggregate. Store-level passes group by case, so one case counts once:
+
+- `cross_scale.py` never links two tellings of the same case, and computes its information weights over cases rather than inferences
+- `tension_score.py` takes one calibration-gradient point per case (earliest telling canonical), listing the later ones as excluded variants
+
+Untagged inferences are each their own case, so nothing collapses by accident.
+
+### Switching models for a comparison arm
+
+Which model produced a coordinate is recorded on the coordinate itself — `_model`, beside `_operator` — and `right_facts`/`discrepancies` carry theirs under `right_pass._model`. Without that, two tellings of one case run on different models are indistinguishable after the fact.
+
+Switch models with `VIVIFY_MODEL_OVERRIDE`, never by editing `config/model_map.json`: a forgotten config revert silently re-models every later run, and an env var dies with the shell.
+
+```
+# whole pipeline, every capability
+VIVIFY_MODEL_OVERRIDE=claude-fable-5 python3 logos_fused.py inferences/field/inf_XXXXXXXX.json
+
+# one variable at a time — swap the coordinate producers, hold the left pass fixed
+VIVIFY_MODEL_OVERRIDE=logos_operator=claude-fable-5,conflict_operator=claude-fable-5 \
+  python3 logos_fused.py inferences/field/inf_XXXXXXXX.json
+```
+
+The scoped form is the one to reach for. Swapping `semantic_extraction` too moves the left keywords, which moves categorization and vocabulary anchoring, and nothing downstream can then be attributed to the operators. `fact_extraction` deserves its own arm: it produces the discrepancies behind *confirmed* tension, so a difference there means the calibration baseline itself is model-dependent — a different and more serious finding than a difference in the operators' prediction.
 
 ### Pass 1 — `vivify.py` (left semantic pass)
 
@@ -127,3 +152,5 @@ export ANTHROPIC_API_KEY=your_key_here
 ```
 
 To persist across sessions, add that line to `~/.bashrc` or `~/.profile`.
+<!-- llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/README.md | documented --case / variant tellings and the two store-level consumers -->
+<!-- llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/README.md | documented VIVIFY_MODEL_OVERRIDE (bare/scoped) and the _model provenance stamp for model-comparison arms -->

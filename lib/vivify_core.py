@@ -579,28 +579,70 @@ def call_and_validate(prompt, operator, capability="default", sensitive=False,
       batch can fail fast (re-asking a dead CLI just burns quota).
     - After `retries` extra attempts all fail, the last validation/parse error is
       raised, so the caller still quarantines exactly as before (fail-closed).
+    - The validated result carries `_model`: the model id this call actually used,
+      resolved ONCE up front rather than re-derived later, so an operator's parse()
+      records what produced the coordinate instead of what the config says now.
     """
+    model = resolve_model(capability, config_dir)
     last_err = None
     for attempt in range(retries + 1):
         call_params = dict(params or {})
         if attempt > 0 and "temperature" not in call_params:
             # nudge diversity only on retries; the first attempt honors caller intent
             call_params["temperature"] = round(0.3 * attempt, 2)
-        raw = llm_call(prompt, capability=capability, sensitive=sensitive,
-                       params=call_params or None, config_dir=config_dir)
+        raw = llm_call_model(prompt, model, call_params or None, sensitive=sensitive)
         try:
-            return validate_coordinates(extract_json(raw), operator, config_dir)
+            result = validate_coordinates(extract_json(raw), operator, config_dir)
+            result["_model"] = model
+            return result
         except (CoordinateValidationError, json.JSONDecodeError) as e:
             last_err = e
     raise last_err
 
 
+def model_override(capability):
+    """Read VIVIFY_MODEL_OVERRIDE — the model-comparison arm switch, env-scoped.
+
+    Swapping models by editing config/model_map.json is the wrong mechanism for an
+    experiment: a forgotten revert silently re-models every later run, and nothing
+    in the store would say so. An env var dies with the shell.
+
+    Two forms:
+      VIVIFY_MODEL_OVERRIDE=claude-fable-5
+          every capability, including web_research — the blunt whole-pipeline arm
+      VIVIFY_MODEL_OVERRIDE=logos_operator=claude-fable-5,conflict_operator=claude-fable-5
+          named capabilities only; everything else keeps its mapped model. This is
+          the form that isolates one variable — swap the coordinate producers and
+          hold semantic_extraction fixed, so left keywords stay comparable.
+
+    - Returns the override model id for this capability, or None
+    - Malformed entries are skipped rather than raising: a typo'd arm must not
+      take down a run, and _model in the store records what was ACTUALLY used
+    """
+    import os
+    raw = os.environ.get("VIVIFY_MODEL_OVERRIDE", "").strip()
+    if not raw:
+        return None
+    if "=" not in raw:
+        return raw
+    for entry in raw.split(","):
+        cap, _, model = entry.partition("=")
+        if cap.strip() == capability and model.strip():
+            return model.strip()
+    return None
+
+
 def resolve_model(capability, config_dir="config"):
     """Return the model ID for a named capability from config/model_map.json.
 
+    - VIVIFY_MODEL_OVERRIDE wins over the map when it names this capability
+      (see model_override) — the experiment switch, never a config edit
     - Falls back to 'default' if capability not found
     - Falls back to claude-sonnet-4-6 if config missing
     """
+    override = model_override(capability)
+    if override:
+        return override
     model_map = read_json(Path(config_dir) / "model_map.json")
     return model_map.get(capability) or model_map.get("default", "claude-sonnet-4-6")
 
@@ -638,3 +680,4 @@ if __name__ == "__main__":
 # llm: claude-opus-4-8 | 2026-06-21 | repos/vivify-operators/lib/vivify_core.py | send explicit User-Agent on OpenAI-compat + gemini transports — Groq is behind Cloudflare which 403s (error 1010) the default Python-urllib UA
 # llm: claude-opus-4-8 | 2026-06-24 | repos/vivify-operators/lib/vivify_core.py | safe-default privacy gate: _privacy_gate_state() tristate, unset/unrecognized now fails CLOSED for sensitive off-box calls (only explicit PRIVACY_GATE=off relaxes) — forgetting the env protects data instead of leaking it
 # llm: claude-opus-4-8 | 2026-06-24 | repos/vivify-operators/lib/vivify_core.py | added call_and_validate() — retries CoordinateValidationError/JSONDecodeError (temp bump on retry) before fail-closing, so a recoverable small-model miss isn't dropped as a missing dimension; LLMUnavailable still propagates
+# llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/lib/vivify_core.py | VIVIFY_MODEL_OVERRIDE (bare = all capabilities, scoped = capability=model pairs) via model_override(); call_and_validate resolves the model once, calls llm_call_model directly, stamps result["_model"]

@@ -108,9 +108,13 @@ def test_all_operators_pass_sensitive():
     retry wrapper call_and_validate. Guards against a new operator skipping the flag."""
     missing = []
     checked = []
-    for op in sorted(ROOT.glob("*_operator.py")):
+    # logos_fused.py is included explicitly: it is the path field runs actually use
+    # (8 dims in 1 call) and it does NOT match *_operator.py, so the contract was
+    # scanning every operator except the one doing the work.
+    for op in sorted(ROOT.glob("*_operator.py")) + [ROOT / "logos_fused.py"]:
         src = op.read_text()
-        if "llm_call(" not in src and "call_and_validate(" not in src:
+        if all(call not in src for call in
+               ("llm_call(", "call_and_validate(", "llm_call_model(")):
             continue
         checked.append(op.name)
         if "sensitive=True" not in src:
@@ -135,3 +139,4 @@ if __name__ == "__main__":
 
 # llm: claude-opus-4-8 | 2026-06-20 | repos/vivify-operators/tests/test_privacy_gate.py | new: focused test proving privacy gate blocks sensitive remote calls + all-operators-pass-sensitive contract
 # llm: claude-opus-4-8 | 2026-06-24 | repos/vivify-operators/tests/test_privacy_gate.py | added unset/garbage fail-closed cases — safe-default gate blocks sensitive off-box calls unless PRIVACY_GATE is explicitly off
+# llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/tests/test_privacy_gate.py | sensitive=True contract now scans logos_fused.py too — the fused path never matched *_operator.py and was going unchecked

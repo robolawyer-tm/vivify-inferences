@@ -107,6 +107,7 @@ def parse(result: dict, inference: dict) -> dict:
         "language_mode":  result["language_mode"],
         "overlays":       result.get("overlays", []),
         "confidence":     result.get("confidence"),
+        "_model":         result.get("_model"),
         "_src":           ["Dunbar", "Tonnies", "Ostrom", "Douglas"],
         "_operator":      "structural_operator.py",
     }
@@ -139,3 +140,4 @@ if __name__ == "__main__":
 # llm: claude-opus-4-8 | 2026-06-20 | repos/vivify-operators/structural_operator.py | wired sensitive=True into llm_call so the privacy gate protects field data
 # llm: claude-opus-4-8 | 2026-06-24 | repos/vivify-operators/structural_operator.py | retry-on-invalid: run() uses call_and_validate() so a recoverable small-model miss is re-asked, not dropped as a missing dimension
 # llm: claude-opus-4-8 | 2026-06-24 | repos/vivify-operators/structural_operator.py | split result->logos mapping into parse() so logos_fused.py reuses it without re-calling the LLM (run = call_and_validate + parse); behavior unchanged
+# llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/structural_operator.py | parse() records _model beside _operator — which model produced the coordinate

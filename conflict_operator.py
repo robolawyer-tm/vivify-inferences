@@ -147,6 +147,7 @@ def run(inference: dict) -> dict:
         "escalation_phase": result["escalation_phase"],
         "confidence":       result.get("confidence"),
         "rationale":        result.get("rationale"),
+        "_model":           result.get("_model"),
         "_src":             ["Granovetter", "Glasl", "Durkheim", "Bandura"],
         "_operator":        "conflict_operator.py",
     })
@@ -184,3 +185,4 @@ if __name__ == "__main__":
 # llm: claude-opus-4-8 | 2026-06-20 | repos/vivify-operators/conflict_operator.py | wired inbound validation gate: validate_coordinates() on extract_json output
 # llm: claude-opus-4-8 | 2026-06-20 | repos/vivify-operators/conflict_operator.py | wired sensitive=True into llm_call; fixed missing validate_coordinates import
 # llm: claude-opus-4-8 | 2026-06-24 | repos/vivify-operators/conflict_operator.py | retry-on-invalid: run() uses call_and_validate() so a recoverable small-model miss is re-asked, not dropped
+# llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/conflict_operator.py | parse() records _model beside _operator — which model produced the coordinate

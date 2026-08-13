@@ -31,6 +31,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
 from vivify_core import read_json, write_json
+from inference import case_key, is_canonical
 
 
 INFERENCES_DIR = Path("inferences")
@@ -201,6 +202,54 @@ def score_all(inferences_dir=None, dry_run=False):
     return sorted(results, key=lambda x: (x[3] is None, -(x[3] or 0)))
 
 
+def gradient(inferences_dir=None):
+    """The calibration gradient — one point per case, variant tellings excluded.
+
+    Every inference still carries its own three numbers; scoring is per-text and
+    unchanged. This is the aggregate view, and it must count each underlying case
+    once: a case entered twice would otherwise vote twice on how well the
+    operators are calibrated, and the more re-tellings a case has, the louder its
+    delta gets. That is measurement of the instrument leaking into the gradient.
+
+    - A point needs a measured calibration_delta (predicted AND confirmed present,
+      so in practice a baseline-validated source)
+    - Canonical telling of a case = the one marked `canonical: true`, else the
+      earliest timestamp. Earliest-wins alone is wrong whenever a later telling is
+      the better source — which is the usual reason to re-tell a case at all — so
+      the mark exists to override arrival order.
+    - Returns (points, variants), each a list of dicts with id, case, delta
+    """
+    inferences_dir = Path(inferences_dir or INFERENCES_DIR)
+    by_case = {}
+
+    for path in inferences_dir.rglob("inf_*.json"):
+        inference = read_json(path)
+        if not inference:
+            continue
+        delta = (inference.get("tension") or {}).get("calibration_delta")
+        if delta is None:
+            continue
+        entry = {
+            "id": inference["id"],
+            "case": case_key(inference),
+            "delta": delta,
+            "canonical": is_canonical(inference),
+            "timestamp": inference.get("timestamp", ""),
+            "path": str(path),
+        }
+        by_case.setdefault(entry["case"], []).append(entry)
+
+    points, variants = [], []
+    for tellings in by_case.values():
+        tellings.sort(key=lambda e: e["timestamp"])
+        marked = [t for t in tellings if t["canonical"]]
+        chosen = marked[0] if marked else tellings[0]
+        points.append(chosen)
+        variants.extend(t for t in tellings if t is not chosen)
+
+    return sorted(points, key=lambda e: -abs(e["delta"])), variants
+
+
 def beneficial_signals(inferences_dir=None, threshold=0.5):
     """Find inferences where measured tension exceeds threshold — intervention candidates.
 
@@ -314,6 +363,23 @@ def main():
         avg = sum(s for _, _, _, s in measured) / len(measured)
         print(f"Average measured tension: {avg:.4f}")
         print(f"Peak: {measured[0][3]:.4f}  ({measured[0][0]})")
+
+    points, variants = gradient()
+    if points:
+        mean_delta = sum(abs(p["delta"]) for p in points) / len(points)
+        print(f"Calibration gradient: {len(points)} point(s), "
+              f"mean |delta| {mean_delta:.4f}")
+        if variants:
+            print(f"  {len(variants)} variant telling(s) excluded "
+                  f"(same case as a canonical point):")
+            for v in variants:
+                print(f"    {v['id']}  case={v['case']}  delta={_fmt(v['delta'])}")
+            unmarked = sorted({v["case"] for v in variants}
+                              - {p["case"] for p in points if p["canonical"]})
+            for case in unmarked:
+                print(f"  !! {case}: no telling marked canonical — arrival order "
+                      f"chose the point. Set \"canonical\": true on the one that "
+                      f"should count.")
     if unmeasured:
         print(f"Unmeasured (no operator coordinates, no real right_pass): {unmeasured}")
 
@@ -323,3 +389,5 @@ if __name__ == "__main__":
 
 # llm: claude-sonnet-4-6 | 2026-04-15 | repos/vivify-inferences/tension_score.py | created — left/right divergence scoring, beneficial signals, Phase 5 prediction output
 # llm: claude-fable-5 | 2026-07-13 | repos/vivify-operators/tension_score.py | three-number rewire: predicted (resonance gap + conflict alarms), confirmed (discrepancy log-magnitudes), calibration_delta (the gradient); legacy scalar = predicted??confirmed??None, junk lexical-overlap formula removed
+# llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/tension_score.py | gradient() — one calibration point per case, earliest telling canonical, later ones reported as excluded variants; per-inference scoring unchanged
+# llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/tension_score.py | gradient() prefers an explicit canonical telling over earliest-timestamp, and warns when arrival order silently decided a multi-telling case

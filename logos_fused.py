@@ -26,8 +26,9 @@ import argparse
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
-from vivify_core import (read_json, write_json, llm_call, extract_json,
-                         validate_coordinates, CoordinateValidationError, LLMUnavailable)
+from vivify_core import (read_json, write_json, llm_call_model, resolve_model,
+                         extract_json, validate_coordinates,
+                         CoordinateValidationError, LLMUnavailable)
 
 import act_type_operator
 import cooperative_operator
@@ -161,13 +162,22 @@ def _validate_fused(result):
 def _fused_call(prompt, retries=2):
     """One LLM call returning all 8 dimensions, retried on invalid/malformed output
     (same recovery contract as call_and_validate, but across the whole fused block).
-    LLMUnavailable is NOT caught here — transport-down stays fatal/fail-fast."""
+    LLMUnavailable is NOT caught here — transport-down stays fatal/fail-fast.
+
+    Each per-dimension block is stamped with `_model` before it reaches the
+    operators' parse(), mirroring call_and_validate on the per-operator path — the
+    fused path is the one the field runs actually use, so it must not be the path
+    that loses provenance."""
+    model = resolve_model("logos_operator")
     last_err = None
     for attempt in range(retries + 1):
         params = {"temperature": round(0.3 * attempt, 2)} if attempt > 0 else None
-        raw = llm_call(prompt, capability="logos_operator", sensitive=True, params=params)
+        raw = llm_call_model(prompt, model, params, sensitive=True)
         try:
-            return _validate_fused(extract_json(raw))
+            result = _validate_fused(extract_json(raw))
+            for key, _mod in LOGOS_DIMS:
+                result[key]["_model"] = model
+            return result
         except (CoordinateValidationError, json.JSONDecodeError) as e:
             last_err = e
     raise last_err
@@ -236,3 +246,4 @@ if __name__ == "__main__":
 
 # llm: claude-opus-4-8 | 2026-06-24 | repos/vivify-operators/logos_fused.py | created — fused logos pass: all 8 independent logos dimensions in ONE claude -p call (8->1, raw_text sent once) for in-plan throughput; enums injected from coordinates.json, mapping reused from each operator's parse(), one-call validate+retry loop; conflict stays a separate pass
 # llm: claude-opus-4-8 | 2026-06-29 | repos/vivify-operators/logos_fused.py | run() now clears stale per-dimension _errors for the 8 dims it re-tags on a successful pass (prevents an old per-operator error from wedging logos_complete forever)
+# llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/logos_fused.py | fused path stamps _model on all 8 blocks before parse() (the per-operator path got it from call_and_validate; the fused path is what field runs use)

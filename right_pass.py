@@ -27,7 +27,8 @@ import fileinput
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
-from vivify_core import write_json, read_json, llm_call, extract_json, LLMUnavailable
+from vivify_core import (write_json, read_json, llm_call_model, resolve_model,
+                         extract_json, LLMUnavailable)
 
 
 # The former stub stamped these pipeline-vocabulary terms onto every inference.
@@ -129,15 +130,18 @@ def extract_facts(raw_text, sensitive=False, config_dir="config"):
     """Run the analytical LLM pass and return grounded right_facts + discrepancies.
 
     - Model resolved from config/model_map.json via 'fact_extraction' capability
+      (or VIVIFY_MODEL_OVERRIDE), and returned as the third element: discrepancies
+      feed CONFIRMED tension, the ground truth the whole calibration gradient is
+      measured against, so which model read the text is not a footnote here
     - Facts whose quote is not found verbatim in raw_text are DROPPED with a
       warning — the grounding gate against hallucinated particulars
     - Raises LLMUnavailable / json.JSONDecodeError upward; callers decide
       fail-soft (bulk) vs fail-fast (single file)
+    - Returns (facts, discrepancies, model)
     """
-    raw = llm_call(FACTS_PROMPT + raw_text + '\n"""',
-                   capability="fact_extraction",
-                   config_dir=config_dir,
-                   sensitive=sensitive)
+    model = resolve_model("fact_extraction", config_dir)
+    raw = llm_call_model(FACTS_PROMPT + raw_text + '\n"""', model, None,
+                         sensitive=sensitive)
     data = extract_json(raw)
 
     facts = {}
@@ -167,7 +171,7 @@ def extract_facts(raw_text, sensitive=False, config_dir="config"):
             "quote": d.get("quote"),
         })
 
-    return facts, discrepancies
+    return facts, discrepancies, model
 
 
 def derive_right_keywords(facts, discrepancies):
@@ -220,11 +224,12 @@ def apply_right_pass(inference, sensitive=False, force=False, config_dir="config
               file=sys.stderr)
         return inference
 
-    facts, discrepancies = extract_facts(raw_text, sensitive=sensitive,
-                                         config_dir=config_dir)
+    facts, discrepancies, model = extract_facts(raw_text, sensitive=sensitive,
+                                                config_dir=config_dir)
     inference["right_facts"] = facts
     inference["discrepancies"] = discrepancies
     inference["right_keywords"] = derive_right_keywords(facts, discrepancies)
+    inference["right_pass"] = {"_model": model, "_operator": "right_pass.py"}
     return inference
 
 
@@ -300,3 +305,4 @@ if __name__ == "__main__":
 
 # llm: claude-sonnet-4-6 | 2026-04-15 | repos/vivify-inferences/right_pass.py | created — right keyword extraction and left keyword synonym normalization
 # llm: claude-fable-5 | 2026-07-13 | repos/vivify-operators/right_pass.py | replaced static-keyword stub with real content extraction: right_facts + claimed-vs-actual discrepancies via llm_call(fact_extraction), quote-grounding gate, stub purge; spec from experiments/round_trip loss test residue
+# llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/right_pass.py | extract_facts returns the model it used; apply_right_pass records inference["right_pass"]._model — provenance for the confirmed-tension ground-truth channel

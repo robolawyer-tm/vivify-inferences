@@ -13,6 +13,11 @@ Usage:
   python3 fabric.py 'inference text'
   echo 'inference text' | python3 fabric.py
   python3 fabric.py --source <name> 'inference text'
+  python3 fabric.py --source <name> --case <slug> 'inference text'
+
+--case marks the text as one telling of a named case. A second telling of the
+same case carries the same slug, and store-level passes then count the case once
+(cross_scale link eligibility, calibration gradient) instead of twice.
 """
 
 import sys
@@ -31,11 +36,12 @@ from promote import promote_all
 from tension_score import score_inference
 
 
-def run(raw_text, source="manual", inferences_dir="inferences"):
+def run(raw_text, source="manual", inferences_dir="inferences", case_id=None):
     inferences_dir = str(inferences_dir)
 
     # Pass 1: left semantic keywords via Claude API
-    inf, path = vivify(raw_text, source=source, inferences_dir=inferences_dir)
+    inf, path = vivify(raw_text, source=source, inferences_dir=inferences_dir,
+                       case_id=case_id)
     print(f"[1] vivify      -> {path}")
 
     # Pass 2: right structural keywords + synonym normalization
@@ -81,6 +87,7 @@ def main():
     parser = argparse.ArgumentParser(add_help=False)
     parser.add_argument("text", nargs="*")
     parser.add_argument("--source", default="manual")
+    parser.add_argument("--case", default=None)
     parser.add_argument("--dir", default="inferences")
     parser.add_argument("-h", "--help", action="store_true")
     args = parser.parse_args()
@@ -101,7 +108,7 @@ def main():
         print("Error: no inference text provided.")
         sys.exit(1)
 
-    run(raw_text, source=args.source, inferences_dir=args.dir)
+    run(raw_text, source=args.source, inferences_dir=args.dir, case_id=args.case)
 
 
 if __name__ == "__main__":
@@ -109,3 +116,4 @@ if __name__ == "__main__":
 
 # llm: claude-sonnet-4-6 | 2026-04-17 | repos/vivify-inferences/fabric.py | created — full FABRIC pipeline runner, chains vivify/right_pass/categorize/tension_score
 # llm: claude-fable-5 | 2026-07-13 | repos/vivify-operators/fabric.py | tension print handles unmeasured (None) scalar from baseline-source gate
+# llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/fabric.py | --case flag threaded to vivify; usage doc for variant tellings

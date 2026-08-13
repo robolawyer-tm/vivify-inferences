@@ -29,6 +29,7 @@ from itertools import combinations
 
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
 from vivify_core import read_json, write_json
+from inference import case_key
 
 INFERENCES_DIR = Path("inferences")
 LINKS_FILE = INFERENCES_DIR / "cross_scale.json"
@@ -107,7 +108,8 @@ def load_signed(inferences_dir=None):
         if len(dims) < 2:
             skipped.append((inf_id, f"only {len(dims)} signature dim(s)"))
             continue
-        usable.append({"id": inf_id, "path": str(path), "scale": scale, "dims": dims})
+        usable.append({"id": inf_id, "case": case_key(inf), "path": str(path),
+                       "scale": scale, "dims": dims})
 
     return usable, skipped
 
@@ -115,16 +117,21 @@ def load_signed(inferences_dir=None):
 def info_weights(usable):
     """Compute an information weight for every (dim, value) seen in the store.
 
-    - weight = -log(df / N): a value shared by all inferences carries no signal (0);
+    - weight = -log(df / N): a value shared by all cases carries no signal (0);
       a rare value carries more. This stops near-constant dims (resonance=harmony,
       tension_band=high) from inflating link strength.
+    - df and N are counted over CASES, not inferences: a case told twice must not
+      make its own coordinate values look twice as common (which would silently
+      discount every real link that shares them). A case whose two tellings
+      disagree on a dim contributes both values, once each.
     - Returns dict {(dim, value): weight}
     """
-    n = len(usable)
-    counts = Counter()
+    seen = set()
     for inf in usable:
-        for dim, val in inf["dims"].items():
-            counts[(dim, val)] += 1
+        for pair in inf["dims"].items():
+            seen.add((inf["case"], pair))
+    n = len({inf["case"] for inf in usable})
+    counts = Counter(pair for _, pair in seen)
     return {key: -math.log(df / n) for key, df in counts.items()}
 
 
@@ -133,9 +140,14 @@ def isomorphism(a, b):
 
     - Shared = signature dims where both agree on the same value
     - A cross-scale link requires the two scales to differ
-    - Returns (shared_count, shared_dims) or (0, {}) if same scale
+    - Two tellings of the SAME case never link: they are one observation entered
+      twice, so any agreement between them measures the instrument, not the world.
+      The same-scale rule already drops most of them, but a variant pair that
+      disagrees on scale is exactly the interesting disagreement — and would
+      otherwise top the ranking as a spurious cross-scale isomorphism.
+    - Returns (shared_count, shared_dims) or (0, {}) if same scale or same case
     """
-    if a["scale"] == b["scale"]:
+    if a["scale"] == b["scale"] or a["case"] == b["case"]:
         return 0, {}
     shared = {
         k: a["dims"][k]
@@ -200,7 +212,12 @@ def main():
         print("!! Cross-scale links below are computed on a PARTIAL store and will "
               "under-count. Run tag_store.py to finish, then re-run.\n")
 
-    print(f"Inference store: {len(usable)} usable, {len(skipped)} skipped\n")
+    cases = len({inf["case"] for inf in usable})
+    print(f"Inference store: {len(usable)} usable, {len(skipped)} skipped")
+    if cases < len(usable):
+        print(f"  {len(usable) - cases} variant telling(s) — {cases} distinct cases; "
+              f"same-case pairs excluded from linking")
+    print()
 
     if skipped:
         print("Skipped (cannot participate yet):")
@@ -251,3 +268,4 @@ if __name__ == "__main__":
 # llm: claude-opus-4-8 | 2026-06-15 | repos/vivify-operators/cross_scale.py | created — store-level cross-scale signature isomorphism operator (connective layer over logos/conflict coordinates)
 # llm: claude-opus-4-8 | 2026-06-15 | repos/vivify-operators/cross_scale.py | added IDF-style info weighting — rank links by discriminating signal, flag near-constant dims as low-info
 # llm: claude-opus-4-8 | 2026-06-24 | repos/vivify-operators/cross_scale.py | warn when _tagging_manifest.json shows a partial store — partial signature set under-counts links; surface it instead of presenting partial as final
+# llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/cross_scale.py | same-case pairs excluded from linking (variant on a different scale would have topped the ranking spuriously); info_weights df/N counted over cases not inferences
