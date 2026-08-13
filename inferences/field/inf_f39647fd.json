@@ -1,0 +1,391 @@
+{
+  "id": "inf_f39647fd",
+  "version": "1.0",
+  "timestamp": "2026-08-13T14:26:59.614874+00:00",
+  "source": "innocence_project",
+  "case_id": "ronald_cotton",
+  "canonical": true,
+  "raw_text": "Ronald Cotton \u2014 eyewitness misidentification and DNA exoneration (Burlington, North Carolina)\n\nOn July 29, 1984, at around three in the morning, a man broke into the apartment of Jennifer Thompson, a twenty-two-year-old college student in Burlington, North Carolina, and sexually assaulted her. She escaped through the back door. Later that same night, a second woman was sexually assaulted nearby.\n\nInvestigators recovered foam rubber at Thompson's apartment and a drop of blood at the second crime scene. Thompson described her attacker to police as \"a tall, light-skinned Black man\" and worked with them to build a composite sketch. She was shown a set of mugshots that included Ronald Cotton, a twenty-two-year-old local man with prior arrests for breaking and entering and attempted assault. She identified him from the photographic array. Cotton was arrested on July 31, 1984, and police found tennis shoes with foam insoles at his home. Shown a live lineup afterward, Thompson identified Cotton again.\n\nAt trial in January 1985, Cotton was convicted of first-degree rape, first-degree burglary, and first-degree sexual offense, and sentenced to life plus fifty years. The second victim had identified a different suspect, and evidence of that identification was kept from the jury.\n\nIn 1987 the North Carolina Supreme Court reversed the conviction, holding that evidence of the second victim identifying a different man should have been admitted. Cotton was retried in November 1987. By then both women identified him as their attacker. The defense sought to present Bobby Poole as an alternate suspect: Poole's blood type matched evidence recovered from the second assault, and while imprisoned he had confessed to both crimes. The court refused to allow the jury to hear it. Cotton was convicted again, this time of both assaults, and sentenced to life plus fifty-four years.\n\nIn the spring of 1995, at the request of the defense, the Burlington Police Department turned over all of the physical evidence in the case, including the rape kits from both victims, for DNA testing. The testing excluded Ronald Cotton and matched Bobby Poole, who was by then already serving a life sentence for other sexual assaults. The charges against Cotton were dismissed on June 30, 1995, after he had served ten and a half years. On July 11, 1995, Poole pleaded guilty to both rapes and received seventy years on top of the sentence he was already serving.\n\nCotton received $110,000 in compensation from the state. He went to work at a laboratory company, married, and had a child. He and Jennifer Thompson-Cannino met for the first time after his exoneration, became friends, and began traveling together to speak about wrongful conviction and the reform of eyewitness identification procedures. They published a joint account of the case, Picking Cotton: Our Memoir of Injustice and Redemption, in 2009.",
+  "left_keywords": [
+    "eyewitness_misidentification",
+    "dna_exoneration",
+    "wrongful_conviction",
+    "suppressed_exculpatory_evidence",
+    "memory_malleability",
+    "procedural_failure",
+    "delayed_justice",
+    "post_exoneration_reconciliation",
+    "false_certainty",
+    "cross_racial_identification_error",
+    "confession_exclusion",
+    "victim_perpetrator_alliance"
+  ],
+  "right_keywords": [
+    "crime_date",
+    "crime_time",
+    "thompson_age",
+    "cotton_age",
+    "cotton_arrest_date",
+    "first_trial_date",
+    "first_sentence",
+    "conviction_reversed_year",
+    "retrial_date",
+    "second_sentence",
+    "evidence_turnover_date",
+    "charges_dismissed_date",
+    "time_served",
+    "poole_plea_date",
+    "poole_added_sentence",
+    "cotton_compensation",
+    "memoir_publication_year",
+    "number_of_victims",
+    "attacker_identity_discrepancy"
+  ],
+  "clumps": {
+    "identification_failure": [
+      "eyewitness_misidentification",
+      "cross_racial_identification_error",
+      "memory_malleability",
+      "false_certainty"
+    ],
+    "systemic_suppression": [
+      "suppressed_exculpatory_evidence",
+      "confession_exclusion",
+      "procedural_failure"
+    ],
+    "wrongful_conviction_arc": [
+      "wrongful_conviction",
+      "delayed_justice",
+      "dna_exoneration"
+    ],
+    "repair_and_witness": [
+      "post_exoneration_reconciliation",
+      "victim_perpetrator_alliance"
+    ]
+  },
+  "category_paths": [
+    "confession_exclusion/victim_perpetrator_alliance",
+    "cross_racial_identification_error/confession_exclusion",
+    "cross_racial_identification_error/victim_perpetrator_alliance",
+    "delayed_justice/confession_exclusion",
+    "delayed_justice/cross_racial_identification_error",
+    "delayed_justice/eyewitness_misidentification",
+    "delayed_justice/false_certainty",
+    "delayed_justice/memory_malleability",
+    "delayed_justice/post_exoneration_reconciliation",
+    "delayed_justice/procedural_failure",
+    "delayed_justice/suppressed_exculpatory_evidence",
+    "delayed_justice/victim_perpetrator_alliance",
+    "delayed_justice/wrongful_conviction",
+    "dna_exoneration/confession_exclusion",
+    "dna_exoneration/cross_racial_identification_error",
+    "dna_exoneration/delayed_justice",
+    "dna_exoneration/eyewitness_misidentification",
+    "dna_exoneration/false_certainty",
+    "dna_exoneration/memory_malleability",
+    "dna_exoneration/post_exoneration_reconciliation",
+    "dna_exoneration/procedural_failure",
+    "dna_exoneration/suppressed_exculpatory_evidence",
+    "dna_exoneration/victim_perpetrator_alliance",
+    "dna_exoneration/wrongful_conviction",
+    "eyewitness_misidentification/confession_exclusion",
+    "eyewitness_misidentification/cross_racial_identification_error",
+    "eyewitness_misidentification/false_certainty",
+    "eyewitness_misidentification/memory_malleability",
+    "eyewitness_misidentification/post_exoneration_reconciliation",
+    "eyewitness_misidentification/procedural_failure",
+    "eyewitness_misidentification/suppressed_exculpatory_evidence",
+    "eyewitness_misidentification/victim_perpetrator_alliance",
+    "eyewitness_misidentification/wrongful_conviction",
+    "false_certainty/confession_exclusion",
+    "false_certainty/cross_racial_identification_error",
+    "false_certainty/memory_malleability",
+    "false_certainty/post_exoneration_reconciliation",
+    "false_certainty/procedural_failure",
+    "false_certainty/victim_perpetrator_alliance",
+    "memory_malleability/confession_exclusion",
+    "memory_malleability/cross_racial_identification_error",
+    "memory_malleability/post_exoneration_reconciliation",
+    "memory_malleability/procedural_failure",
+    "memory_malleability/victim_perpetrator_alliance",
+    "post_exoneration_reconciliation/confession_exclusion",
+    "post_exoneration_reconciliation/cross_racial_identification_error",
+    "post_exoneration_reconciliation/victim_perpetrator_alliance",
+    "procedural_failure/confession_exclusion",
+    "procedural_failure/cross_racial_identification_error",
+    "procedural_failure/post_exoneration_reconciliation",
+    "procedural_failure/victim_perpetrator_alliance",
+    "suppressed_exculpatory_evidence/confession_exclusion",
+    "suppressed_exculpatory_evidence/cross_racial_identification_error",
+    "suppressed_exculpatory_evidence/false_certainty",
+    "suppressed_exculpatory_evidence/memory_malleability",
+    "suppressed_exculpatory_evidence/post_exoneration_reconciliation",
+    "suppressed_exculpatory_evidence/procedural_failure",
+    "suppressed_exculpatory_evidence/victim_perpetrator_alliance",
+    "wrongful_conviction/confession_exclusion",
+    "wrongful_conviction/cross_racial_identification_error",
+    "wrongful_conviction/false_certainty",
+    "wrongful_conviction/memory_malleability",
+    "wrongful_conviction/post_exoneration_reconciliation",
+    "wrongful_conviction/procedural_failure",
+    "wrongful_conviction/suppressed_exculpatory_evidence",
+    "wrongful_conviction/victim_perpetrator_alliance"
+  ],
+  "tension_score": 0.678,
+  "guardrail_actions": {},
+  "left_pass": {
+    "_model": "claude-sonnet-4-6",
+    "_operator": "vivify.py"
+  },
+  "right_facts": {
+    "crime_date": {
+      "value": "1984-07-29",
+      "unit": "date",
+      "quote": "On July 29, 1984"
+    },
+    "crime_time": {
+      "value": "around three in the morning",
+      "unit": "time",
+      "quote": "at around three in the morning"
+    },
+    "thompson_age": {
+      "value": 22,
+      "unit": "years",
+      "quote": "a twenty-two-year-old college student"
+    },
+    "cotton_age": {
+      "value": 22,
+      "unit": "years",
+      "quote": "a twenty-two-year-old local man"
+    },
+    "cotton_arrest_date": {
+      "value": "1984-07-31",
+      "unit": "date",
+      "quote": "Cotton was arrested on July 31, 1984"
+    },
+    "first_trial_date": {
+      "value": "January 1985",
+      "unit": "date",
+      "quote": "At trial in January 1985"
+    },
+    "first_sentence": {
+      "value": "life plus fifty years",
+      "unit": "sentence",
+      "quote": "sentenced to life plus fifty years"
+    },
+    "conviction_reversed_year": {
+      "value": 1987,
+      "unit": "year",
+      "quote": "In 1987 the North Carolina Supreme Court reversed the conviction"
+    },
+    "retrial_date": {
+      "value": "November 1987",
+      "unit": "date",
+      "quote": "Cotton was retried in November 1987"
+    },
+    "second_sentence": {
+      "value": "life plus fifty-four years",
+      "unit": "sentence",
+      "quote": "sentenced to life plus fifty-four years"
+    },
+    "evidence_turnover_date": {
+      "value": "spring of 1995",
+      "unit": "date",
+      "quote": "In the spring of 1995"
+    },
+    "charges_dismissed_date": {
+      "value": "1995-06-30",
+      "unit": "date",
+      "quote": "dismissed on June 30, 1995"
+    },
+    "time_served": {
+      "value": 10.5,
+      "unit": "years",
+      "quote": "after he had served ten and a half years"
+    },
+    "poole_plea_date": {
+      "value": "1995-07-11",
+      "unit": "date",
+      "quote": "On July 11, 1995, Poole pleaded guilty"
+    },
+    "poole_added_sentence": {
+      "value": 70,
+      "unit": "years",
+      "quote": "received seventy years on top of the sentence"
+    },
+    "cotton_compensation": {
+      "value": 110000,
+      "unit": "usd",
+      "quote": "Cotton received $110,000 in compensation"
+    },
+    "memoir_publication_year": {
+      "value": 2009,
+      "unit": "year",
+      "quote": "Picking Cotton: Our Memoir of Injustice and Redemption, in 2009"
+    },
+    "number_of_victims": {
+      "value": 2,
+      "unit": "count",
+      "quote": "a second woman was sexually assaulted nearby"
+    }
+  },
+  "discrepancies": [
+    {
+      "topic": "attacker_identity",
+      "claimed": "Ronald Cotton",
+      "actual": "Bobby Poole",
+      "quote": "The testing excluded Ronald Cotton and matched Bobby Poole"
+    }
+  ],
+  "right_pass": {
+    "_model": "claude-opus-4-8",
+    "_operator": "right_pass.py"
+  },
+  "tension": {
+    "predicted": 0.678,
+    "confirmed": 0.2,
+    "calibration_delta": 0.478
+  },
+  "logos": {
+    "act_type": {
+      "value": "assertive",
+      "authority_mismatch": false,
+      "rationale": "A documentary recounting of the Cotton case: it asserts a sequence of verifiable historical facts (dates, verdicts, DNA results). No performative institutional act \u2014 just truth-claims about what happened.",
+      "confidence": 0.95,
+      "_model": "claude-opus-4-8",
+      "_src": [
+        "Austin",
+        "Searle"
+      ],
+      "_operator": "act_type_operator.py"
+    },
+    "cooperative": {
+      "status": "honored",
+      "maxim_violated": null,
+      "implicature": null,
+      "confidence": 0.9,
+      "_model": "claude-opus-4-8",
+      "_src": [
+        "Grice"
+      ],
+      "_operator": "cooperative_operator.py"
+    },
+    "transmission": {
+      "value": "archive",
+      "rationale": "A preserved, past-to-future record of an institutional injustice \u2014 culminating in a published memoir. It is documentation meant to persist and instruct, not restricted leak or ephemeral broadcast.",
+      "confidence": 0.78,
+      "_model": "claude-opus-4-8",
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "transmission_operator.py"
+    },
+    "resonance": {
+      "value": "illusion",
+      "surface": "Confident, repeated eyewitness certainty and legal finality that read as settled truth",
+      "underlying": "An innocent man convicted twice by mistaken but sincere identification \u2014 the harmony of certainty masking the friction of a wrongful conviction",
+      "confidence": 0.72,
+      "_model": "claude-opus-4-8",
+      "_src": [
+        "Logos Core Tree",
+        "Machin"
+      ],
+      "_operator": "resonance_operator.py"
+    },
+    "authority": {
+      "value": "sovereign",
+      "source": "The formal legal-institutional record: police investigation, jury verdicts, state Supreme Court, DNA lab results, and state compensation",
+      "rationale": "Every load-bearing claim rests on official institutional process; trust flows from courts, forensic testing, and the state, not peer or unacknowledged channels.",
+      "confidence": 0.9,
+      "_model": "claude-opus-4-8",
+      "_src": [
+        "Logos Core Tree",
+        "Weber"
+      ],
+      "_operator": "authority_operator.py"
+    },
+    "utility": {
+      "value": "narrative",
+      "secondary": "instruction",
+      "rationale": "Primarily makes meaning of injustice and redemption (culminating in Picking Cotton); secondarily enables action by motivating reform of eyewitness identification procedures.",
+      "confidence": 0.85,
+      "_model": "claude-opus-4-8",
+      "_src": [
+        "Logos Core Tree"
+      ],
+      "_operator": "utility_operator.py"
+    },
+    "social_field": {
+      "grid": 0.3,
+      "group": 0.2,
+      "quadrant": "individualist",
+      "rationale": "The telling occurs in an open public-discourse field \u2014 a published, freely circulating account with no membership gate and few binding role-rules on the reader.",
+      "confidence": 0.65,
+      "_model": "claude-opus-4-8",
+      "_src": [
+        "Douglas"
+      ],
+      "_operator": "social_field_operator.py"
+    },
+    "structural": {
+      "layer": "global",
+      "scale": "global",
+      "_coerced": null,
+      "density": "archival",
+      "persistence": "durable",
+      "authority": "formal",
+      "transmission": "archive",
+      "memory_channel": "global",
+      "language_mode": "formalized",
+      "overlays": [
+        "society"
+      ],
+      "confidence": 0.8,
+      "_model": "claude-opus-4-8",
+      "_src": [
+        "Dunbar",
+        "Tonnies",
+        "Ostrom",
+        "Douglas"
+      ],
+      "_operator": "structural_operator.py"
+    },
+    "_runner": "logos_fused.py",
+    "act_position": {
+      "value": "about",
+      "rationale": "The text is a retrospective third-party summary that narrates and reports the Cotton case from outside the events, changing nothing in them.",
+      "confidence": 0.98,
+      "_model": "claude-opus-4-8",
+      "_src": [
+        "round_trip loss test 2026-07-13"
+      ],
+      "_operator": "act_position_operator.py"
+    }
+  },
+  "conflict": {
+    "schema": "entangled",
+    "schema_signals": [
+      "authority:sovereign",
+      "structural:layer=global",
+      "resonance:illusion"
+    ],
+    "behavior": "suppression",
+    "behavior_signals": [
+      "resonance:illusion",
+      "cooperative:honored"
+    ],
+    "terrain": "fringe_hook",
+    "window": "open",
+    "escalation_phase": "exponential",
+    "confidence": 0.68,
+    "rationale": "An archived narrative where sovereign certainty (honored cooperation, illusory harmony) masks a structurally-produced wrongful conviction, with the opposing poles \u2014 sincere accuser and wrongly accused \u2014 later connecting across the fringe once a structural shift (DNA) broke the cascade.",
+    "_model": "claude-opus-4-8",
+    "_src": [
+      "Granovetter",
+      "Glasl",
+      "Durkheim",
+      "Bandura"
+    ],
+    "_operator": "conflict_operator.py"
+  }
+}

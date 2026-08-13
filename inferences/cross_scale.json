@@ -1,40 +1,40 @@
 {
   "_operator": "cross_scale.py",
   "threshold": 2,
-  "usable": 18,
+  "usable": 20,
   "skipped": 68,
   "links": [
     {
-      "strength": 8.817,
+      "strength": 7.622,
       "shared": 6,
       "scales": [
         "global",
         "institution"
       ],
       "signature": {
-        "resonance": {
-          "value": "illusion",
-          "weight": 1.792
+        "conflict_schema": {
+          "value": "entangled",
+          "weight": 1.335
+        },
+        "conflict_behavior": {
+          "value": "suppression",
+          "weight": 0.865
         },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "fringe",
-          "weight": 2.197
-        },
-        "conflict_schema": {
-          "value": "entangled",
-          "weight": 1.504
+          "weight": 1.846
         },
         "tension_band": {
           "value": "high",
-          "weight": 2.197
+          "weight": 1.846
         },
-        "conflict_behavior": {
-          "value": "suppression",
-          "weight": 0.944
+        "resonance": {
+          "value": "illusion",
+          "weight": 1.558
         }
       },
       "inferences": [
@@ -49,33 +49,81 @@
       ]
     },
     {
-      "strength": 4.423,
-      "shared": 4,
+      "strength": 7.622,
+      "shared": 6,
+      "scales": [
+        "global",
+        "institution"
+      ],
+      "signature": {
+        "conflict_schema": {
+          "value": "entangled",
+          "weight": 1.335
+        },
+        "conflict_behavior": {
+          "value": "suppression",
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "conflict_terrain": {
+          "value": "fringe",
+          "weight": 1.846
+        },
+        "tension_band": {
+          "value": "high",
+          "weight": 1.846
+        },
+        "resonance": {
+          "value": "illusion",
+          "weight": 1.558
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_0f31de7a",
+          "scale": "global"
+        },
+        {
+          "id": "inf_285ae7ab",
+          "scale": "institution"
+        }
+      ]
+    },
+    {
+      "strength": 6.181,
+      "shared": 5,
       "scales": [
         "global",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "illusion",
-          "weight": 1.792
-        },
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
         "conflict_schema": {
           "value": "entangled",
-          "weight": 1.504
+          "weight": 1.335
         },
         "conflict_behavior": {
           "value": "suppression",
-          "weight": 0.944
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "tension_band": {
+          "value": "mid",
+          "weight": 2.251
+        },
+        "resonance": {
+          "value": "illusion",
+          "weight": 1.558
         }
       },
       "inferences": [
         {
-          "id": "inf_a3d99808",
+          "id": "inf_f39647fd",
           "scale": "global"
         },
         {
@@ -85,68 +133,32 @@
       ]
     },
     {
-      "strength": 4.423,
-      "shared": 4,
-      "scales": [
-        "institution",
-        "small_group"
-      ],
-      "signature": {
-        "resonance": {
-          "value": "illusion",
-          "weight": 1.792
-        },
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
-        "conflict_schema": {
-          "value": "entangled",
-          "weight": 1.504
-        },
-        "conflict_behavior": {
-          "value": "suppression",
-          "weight": 0.944
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_285ae7ab",
-          "scale": "institution"
-        },
-        {
-          "id": "inf_a636d323",
-          "scale": "small_group"
-        }
-      ]
-    },
-    {
-      "strength": 4.407,
+      "strength": 4.677,
       "shared": 5,
       "scales": [
         "self",
         "small_group"
       ],
       "signature": {
-        "cooperative_status": {
-          "value": "violated",
-          "weight": 1.792
-        },
-        "conflict_terrain": {
-          "value": "drifting",
-          "weight": 0.811
-        },
         "conflict_schema": {
           "value": "latent",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
+          "weight": 0.865
         },
         "conflict_behavior": {
           "value": "positioning",
-          "weight": 0.811
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "violated",
+          "weight": 1.846
+        },
+        "conflict_terrain": {
+          "value": "drifting",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
         }
       },
       "inferences": [
@@ -161,36 +173,36 @@
       ]
     },
     {
-      "strength": 4.104,
+      "strength": 4.364,
       "shared": 6,
       "scales": [
         "dyad",
         "institution"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
-        "conflict_terrain": {
-          "value": "center",
-          "weight": 0.811
-        },
         "conflict_schema": {
           "value": "latent",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
+          "weight": 0.865
         },
         "conflict_behavior": {
           "value": "none",
-          "weight": 1.792
+          "weight": 1.846
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "conflict_terrain": {
+          "value": "center",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -205,36 +217,36 @@
       ]
     },
     {
-      "strength": 4.104,
+      "strength": 4.364,
       "shared": 6,
       "scales": [
         "dyad",
         "institution"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
-        "conflict_terrain": {
-          "value": "center",
-          "weight": 0.811
-        },
         "conflict_schema": {
           "value": "latent",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
+          "weight": 0.865
         },
         "conflict_behavior": {
           "value": "none",
-          "weight": 1.792
+          "weight": 1.846
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "conflict_terrain": {
+          "value": "center",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -249,28 +261,28 @@
       ]
     },
     {
-      "strength": 4.001,
+      "strength": 4.218,
       "shared": 4,
       "scales": [
         "institution",
         "self"
       ],
       "signature": {
+        "conflict_behavior": {
+          "value": "positioning",
+          "weight": 0.865
+        },
+        "conflict_terrain": {
+          "value": "drifting",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        },
         "resonance": {
           "value": "friction",
-          "weight": 2.197
-        },
-        "conflict_terrain": {
-          "value": "drifting",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        },
-        "conflict_behavior": {
-          "value": "positioning",
-          "weight": 0.811
+          "weight": 2.251
         }
       },
       "inferences": [
@@ -285,36 +297,180 @@
       ]
     },
     {
-      "strength": 3.544,
+      "strength": 3.93,
+      "shared": 4,
+      "scales": [
+        "global",
+        "institution"
+      ],
+      "signature": {
+        "conflict_schema": {
+          "value": "entangled",
+          "weight": 1.335
+        },
+        "conflict_behavior": {
+          "value": "suppression",
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "resonance": {
+          "value": "illusion",
+          "weight": 1.558
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_f39647fd",
+          "scale": "global"
+        },
+        {
+          "id": "inf_285ae7ab",
+          "scale": "institution"
+        }
+      ]
+    },
+    {
+      "strength": 3.93,
+      "shared": 4,
+      "scales": [
+        "global",
+        "small_group"
+      ],
+      "signature": {
+        "conflict_schema": {
+          "value": "entangled",
+          "weight": 1.335
+        },
+        "conflict_behavior": {
+          "value": "suppression",
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "resonance": {
+          "value": "illusion",
+          "weight": 1.558
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_a3d99808",
+          "scale": "global"
+        },
+        {
+          "id": "inf_a636d323",
+          "scale": "small_group"
+        }
+      ]
+    },
+    {
+      "strength": 3.93,
+      "shared": 4,
+      "scales": [
+        "global",
+        "small_group"
+      ],
+      "signature": {
+        "conflict_schema": {
+          "value": "entangled",
+          "weight": 1.335
+        },
+        "conflict_behavior": {
+          "value": "suppression",
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "resonance": {
+          "value": "illusion",
+          "weight": 1.558
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_0f31de7a",
+          "scale": "global"
+        },
+        {
+          "id": "inf_a636d323",
+          "scale": "small_group"
+        }
+      ]
+    },
+    {
+      "strength": 3.93,
+      "shared": 4,
+      "scales": [
+        "institution",
+        "small_group"
+      ],
+      "signature": {
+        "conflict_schema": {
+          "value": "entangled",
+          "weight": 1.335
+        },
+        "conflict_behavior": {
+          "value": "suppression",
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "resonance": {
+          "value": "illusion",
+          "weight": 1.558
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_285ae7ab",
+          "scale": "institution"
+        },
+        {
+          "id": "inf_a636d323",
+          "scale": "small_group"
+        }
+      ]
+    },
+    {
+      "strength": 3.67,
       "shared": 6,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
-        "conflict_terrain": {
-          "value": "drifting",
-          "weight": 0.811
-        },
         "conflict_schema": {
           "value": "activated",
-          "weight": 1.099
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
+          "weight": 1.153
         },
         "conflict_behavior": {
           "value": "suppression",
-          "weight": 0.944
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "conflict_terrain": {
+          "value": "drifting",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -329,32 +485,32 @@
       ]
     },
     {
-      "strength": 3.362,
+      "strength": 3.499,
       "shared": 5,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
-        "conflict_terrain": {
-          "value": "drifting",
-          "weight": 0.811
-        },
         "conflict_schema": {
           "value": "activated",
-          "weight": 1.099
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
+          "weight": 1.153
         },
         "conflict_behavior": {
           "value": "suppression",
-          "weight": 0.944
+          "weight": 0.865
+        },
+        "conflict_terrain": {
+          "value": "drifting",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -369,36 +525,36 @@
       ]
     },
     {
-      "strength": 3.123,
+      "strength": 3.383,
       "shared": 6,
       "scales": [
         "self",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
-        "conflict_terrain": {
-          "value": "center",
-          "weight": 0.811
-        },
         "conflict_schema": {
           "value": "latent",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
+          "weight": 0.865
         },
         "conflict_behavior": {
           "value": "positioning",
-          "weight": 0.811
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "conflict_terrain": {
+          "value": "center",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -413,60 +569,60 @@
       ]
     },
     {
-      "strength": 3.11,
+      "strength": 3.327,
       "shared": 4,
       "scales": [
         "institution",
         "small_group"
-      ],
-      "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
-        "cooperative_status": {
-          "value": "violated",
-          "weight": 1.792
-        },
-        "conflict_terrain": {
-          "value": "drifting",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_03b9a985",
-          "scale": "small_group"
-        },
-        {
-          "id": "inf_65ae7310",
-          "scale": "institution"
-        }
-      ]
-    },
-    {
-      "strength": 2.785,
-      "shared": 3,
-      "scales": [
-        "institution",
-        "self"
       ],
       "signature": {
         "cooperative_status": {
           "value": "violated",
-          "weight": 1.792
+          "weight": 1.846
         },
         "conflict_terrain": {
           "value": "drifting",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_03b9a985",
+          "scale": "small_group"
+        },
+        {
+          "id": "inf_65ae7310",
+          "scale": "institution"
+        }
+      ]
+    },
+    {
+      "strength": 2.947,
+      "shared": 3,
+      "scales": [
+        "institution",
+        "self"
+      ],
+      "signature": {
+        "cooperative_status": {
+          "value": "violated",
+          "weight": 1.846
+        },
+        "conflict_terrain": {
+          "value": "drifting",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
         }
       },
       "inferences": [
@@ -481,32 +637,32 @@
       ]
     },
     {
-      "strength": 2.6,
+      "strength": 2.805,
       "shared": 5,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
+        "conflict_schema": {
+          "value": "activated",
+          "weight": 1.153
         },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "drifting",
-          "weight": 0.811
-        },
-        "conflict_schema": {
-          "value": "activated",
-          "weight": 1.099
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -521,32 +677,32 @@
       ]
     },
     {
-      "strength": 2.312,
+      "strength": 2.518,
       "shared": 5,
       "scales": [
         "dyad",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
+        "conflict_schema": {
+          "value": "latent",
+          "weight": 0.865
         },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "center",
-          "weight": 0.811
-        },
-        "conflict_schema": {
-          "value": "latent",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -561,32 +717,32 @@
       ]
     },
     {
-      "strength": 2.312,
+      "strength": 2.518,
       "shared": 5,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
+        "conflict_schema": {
+          "value": "latent",
+          "weight": 0.865
         },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "center",
-          "weight": 0.811
-        },
-        "conflict_schema": {
-          "value": "latent",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -601,32 +757,32 @@
       ]
     },
     {
-      "strength": 2.312,
+      "strength": 2.518,
       "shared": 5,
       "scales": [
         "self",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
+        "conflict_schema": {
+          "value": "latent",
+          "weight": 0.865
         },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "center",
-          "weight": 0.811
-        },
-        "conflict_schema": {
-          "value": "latent",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -641,32 +797,32 @@
       ]
     },
     {
-      "strength": 2.312,
+      "strength": 2.518,
       "shared": 5,
       "scales": [
         "dyad",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
+        "conflict_schema": {
+          "value": "latent",
+          "weight": 0.865
         },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "center",
-          "weight": 0.811
-        },
-        "conflict_schema": {
-          "value": "latent",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -681,32 +837,32 @@
       ]
     },
     {
-      "strength": 2.312,
+      "strength": 2.518,
       "shared": 5,
       "scales": [
         "dyad",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
+        "conflict_schema": {
+          "value": "latent",
+          "weight": 0.865
         },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "center",
-          "weight": 0.811
-        },
-        "conflict_schema": {
-          "value": "latent",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -721,32 +877,32 @@
       ]
     },
     {
-      "strength": 2.312,
+      "strength": 2.518,
       "shared": 5,
       "scales": [
         "dyad",
         "self"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
+        "conflict_schema": {
+          "value": "latent",
+          "weight": 0.865
         },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "center",
-          "weight": 0.811
-        },
-        "conflict_schema": {
-          "value": "latent",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -761,32 +917,32 @@
       ]
     },
     {
-      "strength": 2.312,
+      "strength": 2.518,
       "shared": 5,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
+        "conflict_behavior": {
+          "value": "positioning",
+          "weight": 0.865
         },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "center",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
         },
-        "conflict_behavior": {
-          "value": "positioning",
-          "weight": 0.811
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -801,32 +957,32 @@
       ]
     },
     {
-      "strength": 2.312,
+      "strength": 2.518,
       "shared": 5,
       "scales": [
         "institution",
         "self"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
+        "conflict_behavior": {
+          "value": "positioning",
+          "weight": 0.865
         },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "center",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
         },
-        "conflict_behavior": {
-          "value": "positioning",
-          "weight": 0.811
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -841,32 +997,32 @@
       ]
     },
     {
-      "strength": 2.312,
+      "strength": 2.518,
       "shared": 5,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
+        "conflict_schema": {
+          "value": "latent",
+          "weight": 0.865
         },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "center",
-          "weight": 0.811
-        },
-        "conflict_schema": {
-          "value": "latent",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -881,32 +1037,32 @@
       ]
     },
     {
-      "strength": 2.312,
+      "strength": 2.518,
       "shared": 5,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
+        "conflict_behavior": {
+          "value": "positioning",
+          "weight": 0.865
         },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "center",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
         },
-        "conflict_behavior": {
-          "value": "positioning",
-          "weight": 0.811
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -921,32 +1077,32 @@
       ]
     },
     {
-      "strength": 2.312,
+      "strength": 2.518,
       "shared": 5,
       "scales": [
         "dyad",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
+        "conflict_schema": {
+          "value": "latent",
+          "weight": 0.865
         },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "center",
-          "weight": 0.811
-        },
-        "conflict_schema": {
-          "value": "latent",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -961,32 +1117,32 @@
       ]
     },
     {
-      "strength": 2.312,
+      "strength": 2.518,
       "shared": 5,
       "scales": [
         "institution",
         "self"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
+        "conflict_schema": {
+          "value": "latent",
+          "weight": 0.865
         },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "center",
-          "weight": 0.811
-        },
-        "conflict_schema": {
-          "value": "latent",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -1001,32 +1157,32 @@
       ]
     },
     {
-      "strength": 2.312,
+      "strength": 2.518,
       "shared": 5,
       "scales": [
         "institution",
         "self"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
+        "conflict_behavior": {
+          "value": "positioning",
+          "weight": 0.865
         },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "center",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
         },
-        "conflict_behavior": {
-          "value": "positioning",
-          "weight": 0.811
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -1041,32 +1197,32 @@
       ]
     },
     {
-      "strength": 2.312,
+      "strength": 2.518,
       "shared": 5,
       "scales": [
         "dyad",
         "self"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
+        "conflict_schema": {
+          "value": "latent",
+          "weight": 0.865
         },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "center",
-          "weight": 0.811
-        },
-        "conflict_schema": {
-          "value": "latent",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -1081,28 +1237,28 @@
       ]
     },
     {
-      "strength": 2.274,
+      "strength": 2.426,
       "shared": 4,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
+        "conflict_schema": {
+          "value": "activated",
+          "weight": 1.153
+        },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "drifting",
-          "weight": 0.811
-        },
-        "conflict_schema": {
-          "value": "activated",
-          "weight": 1.099
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
         }
       },
       "inferences": [
@@ -1117,28 +1273,28 @@
       ]
     },
     {
-      "strength": 2.13,
+      "strength": 2.346,
       "shared": 4,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
+        "conflict_behavior": {
+          "value": "positioning",
+          "weight": 0.865
         },
         "conflict_terrain": {
           "value": "drifting",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
         },
-        "conflict_behavior": {
-          "value": "positioning",
-          "weight": 0.811
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -1153,28 +1309,28 @@
       ]
     },
     {
-      "strength": 2.13,
+      "strength": 2.346,
       "shared": 4,
       "scales": [
         "self",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "conflict_schema": {
           "value": "latent",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
+          "weight": 0.865
         },
         "conflict_behavior": {
           "value": "positioning",
-          "weight": 0.811
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -1189,24 +1345,156 @@
       ]
     },
     {
-      "strength": 1.938,
+      "strength": 1.966,
       "shared": 3,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
+        "conflict_behavior": {
+          "value": "positioning",
+          "weight": 0.865
         },
         "conflict_terrain": {
           "value": "drifting",
-          "weight": 0.811
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_03b9a985",
+          "scale": "small_group"
+        },
+        {
+          "id": "inf_c17433c3",
+          "scale": "institution"
+        }
+      ]
+    },
+    {
+      "strength": 1.966,
+      "shared": 3,
+      "scales": [
+        "self",
+        "small_group"
+      ],
+      "signature": {
+        "conflict_schema": {
+          "value": "latent",
+          "weight": 0.865
         },
         "conflict_behavior": {
+          "value": "positioning",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_58190c7d",
+          "scale": "small_group"
+        },
+        {
+          "id": "inf_1d767cb6",
+          "scale": "self"
+        }
+      ]
+    },
+    {
+      "strength": 1.966,
+      "shared": 3,
+      "scales": [
+        "institution",
+        "self"
+      ],
+      "signature": {
+        "conflict_behavior": {
+          "value": "positioning",
+          "weight": 0.865
+        },
+        "conflict_terrain": {
+          "value": "drifting",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_1d767cb6",
+          "scale": "self"
+        },
+        {
+          "id": "inf_682bab80",
+          "scale": "institution"
+        }
+      ]
+    },
+    {
+      "strength": 1.94,
+      "shared": 4,
+      "scales": [
+        "institution",
+        "small_group"
+      ],
+      "signature": {
+        "conflict_schema": {
+          "value": "activated",
+          "weight": 1.153
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_0bc11447",
+          "scale": "institution"
+        },
+        {
+          "id": "inf_44592bee",
+          "scale": "small_group"
+        }
+      ]
+    },
+    {
+      "strength": 1.902,
+      "shared": 3,
+      "scales": [
+        "institution",
+        "small_group"
+      ],
+      "signature": {
+        "conflict_behavior": {
           "value": "suppression",
-          "weight": 0.944
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "conflict_terrain": {
+          "value": "drifting",
+          "weight": 0.865
         }
       },
       "inferences": [
@@ -1221,152 +1509,20 @@
       ]
     },
     {
-      "strength": 1.804,
-      "shared": 3,
-      "scales": [
-        "institution",
-        "small_group"
-      ],
-      "signature": {
-        "conflict_terrain": {
-          "value": "drifting",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        },
-        "conflict_behavior": {
-          "value": "positioning",
-          "weight": 0.811
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_03b9a985",
-          "scale": "small_group"
-        },
-        {
-          "id": "inf_c17433c3",
-          "scale": "institution"
-        }
-      ]
-    },
-    {
-      "strength": 1.804,
-      "shared": 3,
-      "scales": [
-        "self",
-        "small_group"
-      ],
-      "signature": {
-        "conflict_schema": {
-          "value": "latent",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        },
-        "conflict_behavior": {
-          "value": "positioning",
-          "weight": 0.811
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_58190c7d",
-          "scale": "small_group"
-        },
-        {
-          "id": "inf_1d767cb6",
-          "scale": "self"
-        }
-      ]
-    },
-    {
-      "strength": 1.804,
-      "shared": 3,
-      "scales": [
-        "institution",
-        "self"
-      ],
-      "signature": {
-        "conflict_terrain": {
-          "value": "drifting",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        },
-        "conflict_behavior": {
-          "value": "positioning",
-          "weight": 0.811
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_1d767cb6",
-          "scale": "self"
-        },
-        {
-          "id": "inf_682bab80",
-          "scale": "institution"
-        }
-      ]
-    },
-    {
-      "strength": 1.789,
-      "shared": 4,
-      "scales": [
-        "institution",
-        "small_group"
-      ],
-      "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
-        "conflict_schema": {
-          "value": "activated",
-          "weight": 1.099
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_0bc11447",
-          "scale": "institution"
-        },
-        {
-          "id": "inf_44592bee",
-          "scale": "small_group"
-        }
-      ]
-    },
-    {
-      "strength": 1.755,
+      "strength": 1.73,
       "shared": 2,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "conflict_terrain": {
-          "value": "drifting",
-          "weight": 0.811
-        },
         "conflict_behavior": {
           "value": "suppression",
-          "weight": 0.944
+          "weight": 0.865
+        },
+        "conflict_terrain": {
+          "value": "drifting",
+          "weight": 0.865
         }
       },
       "inferences": [
@@ -1381,20 +1537,372 @@
       ]
     },
     {
-      "strength": 1.686,
+      "strength": 1.653,
+      "shared": 4,
+      "scales": [
+        "institution",
+        "small_group"
+      ],
+      "signature": {
+        "conflict_behavior": {
+          "value": "suppression",
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_910ee0e9",
+          "scale": "institution"
+        },
+        {
+          "id": "inf_0801b607",
+          "scale": "small_group"
+        }
+      ]
+    },
+    {
+      "strength": 1.653,
+      "shared": 4,
+      "scales": [
+        "institution",
+        "small_group"
+      ],
+      "signature": {
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "conflict_terrain": {
+          "value": "center",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_0801b607",
+          "scale": "small_group"
+        },
+        {
+          "id": "inf_72711662",
+          "scale": "institution"
+        }
+      ]
+    },
+    {
+      "strength": 1.653,
+      "shared": 4,
+      "scales": [
+        "institution",
+        "small_group"
+      ],
+      "signature": {
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "conflict_terrain": {
+          "value": "center",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_0801b607",
+          "scale": "small_group"
+        },
+        {
+          "id": "inf_0bc11447",
+          "scale": "institution"
+        }
+      ]
+    },
+    {
+      "strength": 1.653,
+      "shared": 4,
+      "scales": [
+        "dyad",
+        "institution"
+      ],
+      "signature": {
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "conflict_terrain": {
+          "value": "center",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_c8e1ac73",
+          "scale": "dyad"
+        },
+        {
+          "id": "inf_72711662",
+          "scale": "institution"
+        }
+      ]
+    },
+    {
+      "strength": 1.653,
+      "shared": 4,
+      "scales": [
+        "dyad",
+        "institution"
+      ],
+      "signature": {
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "conflict_terrain": {
+          "value": "center",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_c8e1ac73",
+          "scale": "dyad"
+        },
+        {
+          "id": "inf_0bc11447",
+          "scale": "institution"
+        }
+      ]
+    },
+    {
+      "strength": 1.653,
+      "shared": 4,
+      "scales": [
+        "dyad",
+        "institution"
+      ],
+      "signature": {
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "conflict_terrain": {
+          "value": "center",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_72711662",
+          "scale": "institution"
+        },
+        {
+          "id": "inf_4b52ae70",
+          "scale": "dyad"
+        }
+      ]
+    },
+    {
+      "strength": 1.653,
+      "shared": 4,
+      "scales": [
+        "institution",
+        "small_group"
+      ],
+      "signature": {
+        "conflict_behavior": {
+          "value": "positioning",
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_58190c7d",
+          "scale": "small_group"
+        },
+        {
+          "id": "inf_682bab80",
+          "scale": "institution"
+        }
+      ]
+    },
+    {
+      "strength": 1.653,
+      "shared": 4,
+      "scales": [
+        "institution",
+        "self"
+      ],
+      "signature": {
+        "conflict_behavior": {
+          "value": "positioning",
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_682bab80",
+          "scale": "institution"
+        },
+        {
+          "id": "inf_a06769b1",
+          "scale": "self"
+        }
+      ]
+    },
+    {
+      "strength": 1.653,
+      "shared": 4,
+      "scales": [
+        "dyad",
+        "institution"
+      ],
+      "signature": {
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "conflict_terrain": {
+          "value": "center",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_0bc11447",
+          "scale": "institution"
+        },
+        {
+          "id": "inf_4b52ae70",
+          "scale": "dyad"
+        }
+      ]
+    },
+    {
+      "strength": 1.507,
       "shared": 2,
       "scales": [
         "global",
         "institution"
       ],
       "signature": {
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
         "conflict_schema": {
           "value": "entangled",
-          "weight": 1.504
+          "weight": 1.335
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_f39647fd",
+          "scale": "global"
+        },
+        {
+          "id": "inf_72711662",
+          "scale": "institution"
+        }
+      ]
+    },
+    {
+      "strength": 1.507,
+      "shared": 2,
+      "scales": [
+        "global",
+        "institution"
+      ],
+      "signature": {
+        "conflict_schema": {
+          "value": "entangled",
+          "weight": 1.335
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
         }
       },
       "inferences": [
@@ -1409,20 +1917,48 @@
       ]
     },
     {
-      "strength": 1.686,
+      "strength": 1.507,
+      "shared": 2,
+      "scales": [
+        "global",
+        "institution"
+      ],
+      "signature": {
+        "conflict_schema": {
+          "value": "entangled",
+          "weight": 1.335
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_0f31de7a",
+          "scale": "global"
+        },
+        {
+          "id": "inf_72711662",
+          "scale": "institution"
+        }
+      ]
+    },
+    {
+      "strength": 1.507,
       "shared": 2,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
         "conflict_schema": {
           "value": "entangled",
-          "weight": 1.504
+          "weight": 1.335
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
         }
       },
       "inferences": [
@@ -1437,380 +1973,24 @@
       ]
     },
     {
-      "strength": 1.635,
-      "shared": 4,
-      "scales": [
-        "institution",
-        "small_group"
-      ],
-      "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        },
-        "conflict_behavior": {
-          "value": "suppression",
-          "weight": 0.944
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_910ee0e9",
-          "scale": "institution"
-        },
-        {
-          "id": "inf_0801b607",
-          "scale": "small_group"
-        }
-      ]
-    },
-    {
-      "strength": 1.501,
-      "shared": 4,
-      "scales": [
-        "institution",
-        "small_group"
-      ],
-      "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
-        "conflict_terrain": {
-          "value": "center",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_0801b607",
-          "scale": "small_group"
-        },
-        {
-          "id": "inf_72711662",
-          "scale": "institution"
-        }
-      ]
-    },
-    {
-      "strength": 1.501,
-      "shared": 4,
-      "scales": [
-        "institution",
-        "small_group"
-      ],
-      "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
-        "conflict_terrain": {
-          "value": "center",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_0801b607",
-          "scale": "small_group"
-        },
-        {
-          "id": "inf_0bc11447",
-          "scale": "institution"
-        }
-      ]
-    },
-    {
-      "strength": 1.501,
-      "shared": 4,
-      "scales": [
-        "dyad",
-        "institution"
-      ],
-      "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
-        "conflict_terrain": {
-          "value": "center",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_c8e1ac73",
-          "scale": "dyad"
-        },
-        {
-          "id": "inf_72711662",
-          "scale": "institution"
-        }
-      ]
-    },
-    {
-      "strength": 1.501,
-      "shared": 4,
-      "scales": [
-        "dyad",
-        "institution"
-      ],
-      "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
-        "conflict_terrain": {
-          "value": "center",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_c8e1ac73",
-          "scale": "dyad"
-        },
-        {
-          "id": "inf_0bc11447",
-          "scale": "institution"
-        }
-      ]
-    },
-    {
-      "strength": 1.501,
-      "shared": 4,
-      "scales": [
-        "dyad",
-        "institution"
-      ],
-      "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
-        "conflict_terrain": {
-          "value": "center",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_72711662",
-          "scale": "institution"
-        },
-        {
-          "id": "inf_4b52ae70",
-          "scale": "dyad"
-        }
-      ]
-    },
-    {
-      "strength": 1.501,
-      "shared": 4,
-      "scales": [
-        "institution",
-        "small_group"
-      ],
-      "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        },
-        "conflict_behavior": {
-          "value": "positioning",
-          "weight": 0.811
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_58190c7d",
-          "scale": "small_group"
-        },
-        {
-          "id": "inf_682bab80",
-          "scale": "institution"
-        }
-      ]
-    },
-    {
-      "strength": 1.501,
-      "shared": 4,
-      "scales": [
-        "institution",
-        "self"
-      ],
-      "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        },
-        "conflict_behavior": {
-          "value": "positioning",
-          "weight": 0.811
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_682bab80",
-          "scale": "institution"
-        },
-        {
-          "id": "inf_a06769b1",
-          "scale": "self"
-        }
-      ]
-    },
-    {
-      "strength": 1.501,
-      "shared": 4,
-      "scales": [
-        "dyad",
-        "institution"
-      ],
-      "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
-        "conflict_terrain": {
-          "value": "center",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_0bc11447",
-          "scale": "institution"
-        },
-        {
-          "id": "inf_4b52ae70",
-          "scale": "dyad"
-        }
-      ]
-    },
-    {
-      "strength": 1.452,
+      "strength": 1.481,
       "shared": 3,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        },
-        "conflict_behavior": {
-          "value": "suppression",
-          "weight": 0.944
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_0801b607",
-          "scale": "small_group"
-        },
-        {
-          "id": "inf_65ae7310",
-          "scale": "institution"
-        }
-      ]
-    },
-    {
-      "strength": 1.319,
-      "shared": 3,
-      "scales": [
-        "institution",
-        "small_group"
-      ],
-      "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "conflict_terrain": {
           "value": "drifting",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -1825,24 +2005,24 @@
       ]
     },
     {
-      "strength": 1.319,
+      "strength": 1.481,
       "shared": 3,
       "scales": [
         "dyad",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "conflict_schema": {
           "value": "latent",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -1857,24 +2037,24 @@
       ]
     },
     {
-      "strength": 1.319,
+      "strength": 1.481,
       "shared": 3,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
+        "conflict_behavior": {
+          "value": "positioning",
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
         },
-        "conflict_behavior": {
-          "value": "positioning",
-          "weight": 0.811
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -1889,24 +2069,24 @@
       ]
     },
     {
-      "strength": 1.319,
+      "strength": 1.481,
       "shared": 3,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "conflict_schema": {
           "value": "latent",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -1921,24 +2101,24 @@
       ]
     },
     {
-      "strength": 1.319,
+      "strength": 1.481,
       "shared": 3,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
+        "conflict_behavior": {
+          "value": "positioning",
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
         },
-        "conflict_behavior": {
-          "value": "positioning",
-          "weight": 0.811
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -1953,24 +2133,24 @@
       ]
     },
     {
-      "strength": 1.319,
+      "strength": 1.481,
       "shared": 3,
       "scales": [
         "dyad",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "conflict_schema": {
           "value": "latent",
-          "weight": 0.811
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -1985,24 +2165,56 @@
       ]
     },
     {
-      "strength": 1.176,
+      "strength": 1.481,
       "shared": 3,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
+        "conflict_behavior": {
+          "value": "suppression",
+          "weight": 0.865
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
         },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_0801b607",
+          "scale": "small_group"
+        },
+        {
+          "id": "inf_65ae7310",
+          "scale": "institution"
+        }
+      ]
+    },
+    {
+      "strength": 1.273,
+      "shared": 3,
+      "scales": [
+        "institution",
+        "small_group"
+      ],
+      "signature": {
         "conflict_behavior": {
           "value": "positioning",
-          "weight": 0.811
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
         }
       },
       "inferences": [
@@ -2017,24 +2229,24 @@
       ]
     },
     {
-      "strength": 1.176,
+      "strength": 1.273,
       "shared": 3,
       "scales": [
         "institution",
         "self"
       ],
       "signature": {
+        "conflict_behavior": {
+          "value": "positioning",
+          "weight": 0.865
+        },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
-        },
-        "conflict_behavior": {
-          "value": "positioning",
-          "weight": 0.811
+          "weight": 0.236
         }
       },
       "inferences": [
@@ -2049,20 +2261,328 @@
       ]
     },
     {
-      "strength": 1.127,
+      "strength": 1.101,
+      "shared": 2,
+      "scales": [
+        "institution",
+        "self"
+      ],
+      "signature": {
+        "conflict_terrain": {
+          "value": "drifting",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_910ee0e9",
+          "scale": "institution"
+        },
+        {
+          "id": "inf_1d767cb6",
+          "scale": "self"
+        }
+      ]
+    },
+    {
+      "strength": 1.101,
+      "shared": 2,
+      "scales": [
+        "self",
+        "small_group"
+      ],
+      "signature": {
+        "conflict_schema": {
+          "value": "latent",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_0801b607",
+          "scale": "small_group"
+        },
+        {
+          "id": "inf_1d767cb6",
+          "scale": "self"
+        }
+      ]
+    },
+    {
+      "strength": 1.101,
+      "shared": 2,
+      "scales": [
+        "dyad",
+        "self"
+      ],
+      "signature": {
+        "conflict_schema": {
+          "value": "latent",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_c8e1ac73",
+          "scale": "dyad"
+        },
+        {
+          "id": "inf_1d767cb6",
+          "scale": "self"
+        }
+      ]
+    },
+    {
+      "strength": 1.101,
+      "shared": 2,
+      "scales": [
+        "institution",
+        "self"
+      ],
+      "signature": {
+        "conflict_behavior": {
+          "value": "positioning",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_72711662",
+          "scale": "institution"
+        },
+        {
+          "id": "inf_1d767cb6",
+          "scale": "self"
+        }
+      ]
+    },
+    {
+      "strength": 1.101,
+      "shared": 2,
+      "scales": [
+        "institution",
+        "self"
+      ],
+      "signature": {
+        "conflict_schema": {
+          "value": "latent",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_9b7a9ca7",
+          "scale": "institution"
+        },
+        {
+          "id": "inf_1d767cb6",
+          "scale": "self"
+        }
+      ]
+    },
+    {
+      "strength": 1.101,
+      "shared": 2,
+      "scales": [
+        "institution",
+        "self"
+      ],
+      "signature": {
+        "conflict_behavior": {
+          "value": "positioning",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_1d767cb6",
+          "scale": "self"
+        },
+        {
+          "id": "inf_0bc11447",
+          "scale": "institution"
+        }
+      ]
+    },
+    {
+      "strength": 1.101,
+      "shared": 2,
+      "scales": [
+        "self",
+        "small_group"
+      ],
+      "signature": {
+        "conflict_terrain": {
+          "value": "drifting",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_1d767cb6",
+          "scale": "self"
+        },
+        {
+          "id": "inf_44592bee",
+          "scale": "small_group"
+        }
+      ]
+    },
+    {
+      "strength": 1.101,
+      "shared": 2,
+      "scales": [
+        "dyad",
+        "self"
+      ],
+      "signature": {
+        "conflict_schema": {
+          "value": "latent",
+          "weight": 0.865
+        },
+        "tension_band": {
+          "value": "low",
+          "weight": 0.236
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_1d767cb6",
+          "scale": "self"
+        },
+        {
+          "id": "inf_4b52ae70",
+          "scale": "dyad"
+        }
+      ]
+    },
+    {
+      "strength": 1.037,
       "shared": 2,
       "scales": [
         "global",
         "institution"
       ],
       "signature": {
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
         "conflict_behavior": {
           "value": "suppression",
-          "weight": 0.944
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_f39647fd",
+          "scale": "global"
+        },
+        {
+          "id": "inf_910ee0e9",
+          "scale": "institution"
+        }
+      ]
+    },
+    {
+      "strength": 1.037,
+      "shared": 2,
+      "scales": [
+        "global",
+        "small_group"
+      ],
+      "signature": {
+        "conflict_behavior": {
+          "value": "suppression",
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_f39647fd",
+          "scale": "global"
+        },
+        {
+          "id": "inf_0801b607",
+          "scale": "small_group"
+        }
+      ]
+    },
+    {
+      "strength": 1.037,
+      "shared": 2,
+      "scales": [
+        "global",
+        "small_group"
+      ],
+      "signature": {
+        "conflict_behavior": {
+          "value": "suppression",
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_f39647fd",
+          "scale": "global"
+        },
+        {
+          "id": "inf_44592bee",
+          "scale": "small_group"
+        }
+      ]
+    },
+    {
+      "strength": 1.037,
+      "shared": 2,
+      "scales": [
+        "global",
+        "institution"
+      ],
+      "signature": {
+        "conflict_behavior": {
+          "value": "suppression",
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
         }
       },
       "inferences": [
@@ -2077,20 +2597,20 @@
       ]
     },
     {
-      "strength": 1.127,
+      "strength": 1.037,
       "shared": 2,
       "scales": [
         "global",
         "small_group"
       ],
       "signature": {
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
         "conflict_behavior": {
           "value": "suppression",
-          "weight": 0.944
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
         }
       },
       "inferences": [
@@ -2105,20 +2625,20 @@
       ]
     },
     {
-      "strength": 1.127,
+      "strength": 1.037,
       "shared": 2,
       "scales": [
         "global",
         "small_group"
       ],
       "signature": {
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
         "conflict_behavior": {
           "value": "suppression",
-          "weight": 0.944
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
         }
       },
       "inferences": [
@@ -2133,20 +2653,104 @@
       ]
     },
     {
-      "strength": 1.127,
+      "strength": 1.037,
+      "shared": 2,
+      "scales": [
+        "global",
+        "institution"
+      ],
+      "signature": {
+        "conflict_behavior": {
+          "value": "suppression",
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_0f31de7a",
+          "scale": "global"
+        },
+        {
+          "id": "inf_910ee0e9",
+          "scale": "institution"
+        }
+      ]
+    },
+    {
+      "strength": 1.037,
+      "shared": 2,
+      "scales": [
+        "global",
+        "small_group"
+      ],
+      "signature": {
+        "conflict_behavior": {
+          "value": "suppression",
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_0f31de7a",
+          "scale": "global"
+        },
+        {
+          "id": "inf_0801b607",
+          "scale": "small_group"
+        }
+      ]
+    },
+    {
+      "strength": 1.037,
+      "shared": 2,
+      "scales": [
+        "global",
+        "small_group"
+      ],
+      "signature": {
+        "conflict_behavior": {
+          "value": "suppression",
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
+        }
+      },
+      "inferences": [
+        {
+          "id": "inf_0f31de7a",
+          "scale": "global"
+        },
+        {
+          "id": "inf_44592bee",
+          "scale": "small_group"
+        }
+      ]
+    },
+    {
+      "strength": 1.037,
       "shared": 2,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
         "conflict_behavior": {
           "value": "suppression",
-          "weight": 0.944
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
         }
       },
       "inferences": [
@@ -2161,20 +2765,20 @@
       ]
     },
     {
-      "strength": 1.127,
+      "strength": 1.037,
       "shared": 2,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "cooperative_status": {
-          "value": "honored",
-          "weight": 0.182
-        },
         "conflict_behavior": {
           "value": "suppression",
-          "weight": 0.944
+          "weight": 0.865
+        },
+        "cooperative_status": {
+          "value": "honored",
+          "weight": 0.172
         }
       },
       "inferences": [
@@ -2189,119 +2793,7 @@
       ]
     },
     {
-      "strength": 0.993,
-      "shared": 2,
-      "scales": [
-        "institution",
-        "self"
-      ],
-      "signature": {
-        "conflict_terrain": {
-          "value": "drifting",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_910ee0e9",
-          "scale": "institution"
-        },
-        {
-          "id": "inf_1d767cb6",
-          "scale": "self"
-        }
-      ]
-    },
-    {
-      "strength": 0.993,
-      "shared": 2,
-      "scales": [
-        "self",
-        "small_group"
-      ],
-      "signature": {
-        "conflict_schema": {
-          "value": "latent",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_0801b607",
-          "scale": "small_group"
-        },
-        {
-          "id": "inf_1d767cb6",
-          "scale": "self"
-        }
-      ]
-    },
-    {
-      "strength": 0.993,
-      "shared": 2,
-      "scales": [
-        "dyad",
-        "self"
-      ],
-      "signature": {
-        "conflict_schema": {
-          "value": "latent",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_c8e1ac73",
-          "scale": "dyad"
-        },
-        {
-          "id": "inf_1d767cb6",
-          "scale": "self"
-        }
-      ]
-    },
-    {
-      "strength": 0.993,
-      "shared": 2,
-      "scales": [
-        "institution",
-        "self"
-      ],
-      "signature": {
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        },
-        "conflict_behavior": {
-          "value": "positioning",
-          "weight": 0.811
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_72711662",
-          "scale": "institution"
-        },
-        {
-          "id": "inf_1d767cb6",
-          "scale": "self"
-        }
-      ]
-    },
-    {
-      "strength": 0.993,
+      "strength": 1.037,
       "shared": 2,
       "scales": [
         "institution",
@@ -2310,11 +2802,11 @@
       "signature": {
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "drifting",
-          "weight": 0.811
+          "weight": 0.865
         }
       },
       "inferences": [
@@ -2329,119 +2821,7 @@
       ]
     },
     {
-      "strength": 0.993,
-      "shared": 2,
-      "scales": [
-        "institution",
-        "self"
-      ],
-      "signature": {
-        "conflict_schema": {
-          "value": "latent",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_9b7a9ca7",
-          "scale": "institution"
-        },
-        {
-          "id": "inf_1d767cb6",
-          "scale": "self"
-        }
-      ]
-    },
-    {
-      "strength": 0.993,
-      "shared": 2,
-      "scales": [
-        "institution",
-        "self"
-      ],
-      "signature": {
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        },
-        "conflict_behavior": {
-          "value": "positioning",
-          "weight": 0.811
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_1d767cb6",
-          "scale": "self"
-        },
-        {
-          "id": "inf_0bc11447",
-          "scale": "institution"
-        }
-      ]
-    },
-    {
-      "strength": 0.993,
-      "shared": 2,
-      "scales": [
-        "self",
-        "small_group"
-      ],
-      "signature": {
-        "conflict_terrain": {
-          "value": "drifting",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_1d767cb6",
-          "scale": "self"
-        },
-        {
-          "id": "inf_44592bee",
-          "scale": "small_group"
-        }
-      ]
-    },
-    {
-      "strength": 0.993,
-      "shared": 2,
-      "scales": [
-        "dyad",
-        "self"
-      ],
-      "signature": {
-        "conflict_schema": {
-          "value": "latent",
-          "weight": 0.811
-        },
-        "tension_band": {
-          "value": "low",
-          "weight": 0.182
-        }
-      },
-      "inferences": [
-        {
-          "id": "inf_1d767cb6",
-          "scale": "self"
-        },
-        {
-          "id": "inf_4b52ae70",
-          "scale": "dyad"
-        }
-      ]
-    },
-    {
-      "strength": 0.993,
+      "strength": 1.037,
       "shared": 2,
       "scales": [
         "institution",
@@ -2450,11 +2830,11 @@
       "signature": {
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "conflict_terrain": {
           "value": "drifting",
-          "weight": 0.811
+          "weight": 0.865
         }
       },
       "inferences": [
@@ -2469,24 +2849,24 @@
       ]
     },
     {
-      "strength": 0.69,
+      "strength": 0.788,
       "shared": 3,
       "scales": [
         "dyad",
         "institution"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -2501,24 +2881,24 @@
       ]
     },
     {
-      "strength": 0.69,
+      "strength": 0.788,
       "shared": 3,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -2533,24 +2913,24 @@
       ]
     },
     {
-      "strength": 0.69,
+      "strength": 0.788,
       "shared": 3,
       "scales": [
         "institution",
         "self"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -2565,24 +2945,24 @@
       ]
     },
     {
-      "strength": 0.69,
+      "strength": 0.788,
       "shared": 3,
       "scales": [
         "dyad",
         "institution"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -2597,24 +2977,24 @@
       ]
     },
     {
-      "strength": 0.69,
+      "strength": 0.788,
       "shared": 3,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -2629,24 +3009,24 @@
       ]
     },
     {
-      "strength": 0.69,
+      "strength": 0.788,
       "shared": 3,
       "scales": [
         "dyad",
         "institution"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -2661,24 +3041,24 @@
       ]
     },
     {
-      "strength": 0.69,
+      "strength": 0.788,
       "shared": 3,
       "scales": [
         "dyad",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -2693,24 +3073,24 @@
       ]
     },
     {
-      "strength": 0.69,
+      "strength": 0.788,
       "shared": 3,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -2725,24 +3105,24 @@
       ]
     },
     {
-      "strength": 0.69,
+      "strength": 0.788,
       "shared": 3,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -2757,24 +3137,24 @@
       ]
     },
     {
-      "strength": 0.69,
+      "strength": 0.788,
       "shared": 3,
       "scales": [
         "dyad",
         "institution"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -2789,24 +3169,24 @@
       ]
     },
     {
-      "strength": 0.69,
+      "strength": 0.788,
       "shared": 3,
       "scales": [
         "self",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -2821,24 +3201,24 @@
       ]
     },
     {
-      "strength": 0.69,
+      "strength": 0.788,
       "shared": 3,
       "scales": [
         "dyad",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -2853,20 +3233,20 @@
       ]
     },
     {
-      "strength": 0.508,
+      "strength": 0.616,
       "shared": 2,
       "scales": [
         "dyad",
         "institution"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -2881,20 +3261,20 @@
       ]
     },
     {
-      "strength": 0.508,
+      "strength": 0.616,
       "shared": 2,
       "scales": [
         "institution",
         "small_group"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -2909,20 +3289,20 @@
       ]
     },
     {
-      "strength": 0.508,
+      "strength": 0.616,
       "shared": 2,
       "scales": [
         "institution",
         "self"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -2937,20 +3317,20 @@
       ]
     },
     {
-      "strength": 0.508,
+      "strength": 0.616,
       "shared": 2,
       "scales": [
         "dyad",
         "institution"
       ],
       "signature": {
-        "resonance": {
-          "value": "harmony",
-          "weight": 0.325
-        },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
+        },
+        "resonance": {
+          "value": "harmony",
+          "weight": 0.379
         }
       },
       "inferences": [
@@ -2965,7 +3345,7 @@
       ]
     },
     {
-      "strength": 0.365,
+      "strength": 0.408,
       "shared": 2,
       "scales": [
         "institution",
@@ -2974,11 +3354,11 @@
       "signature": {
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
         }
       },
       "inferences": [
@@ -2993,7 +3373,7 @@
       ]
     },
     {
-      "strength": 0.365,
+      "strength": 0.408,
       "shared": 2,
       "scales": [
         "dyad",
@@ -3002,11 +3382,11 @@
       "signature": {
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
         }
       },
       "inferences": [
@@ -3021,7 +3401,7 @@
       ]
     },
     {
-      "strength": 0.365,
+      "strength": 0.408,
       "shared": 2,
       "scales": [
         "dyad",
@@ -3030,11 +3410,11 @@
       "signature": {
         "cooperative_status": {
           "value": "honored",
-          "weight": 0.182
+          "weight": 0.172
         },
         "tension_band": {
           "value": "low",
-          "weight": 0.182
+          "weight": 0.236
         }
       },
       "inferences": [
