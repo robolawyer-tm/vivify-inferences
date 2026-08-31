@@ -20,7 +20,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
-os.chdir(ROOT)          # config_dir defaults are relative to CWD
+os.chdir(ROOT)          # incidental now — config resolves from any cwd
+                        # (see tests/test_config_cwd_independence.py)
 
 import vivify_core
 from vivify_core import model_override, resolve_model, call_and_validate

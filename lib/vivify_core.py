@@ -476,12 +476,35 @@ def extract_json(text):
 
 _coordinates_cache = {}
 
+# The repo root — lib/vivify_core.py sits one level below it. Relative config_dir
+# values are anchored here, never to the cwd.
+_REPO_ROOT = Path(__file__).resolve().parent.parent
+
+
+def _config_path(config_dir, filename):
+    """Resolve a config file, anchoring a relative config_dir to the repo root.
+
+    Previously these were read as Path("config")/... — relative to the CWD — so
+    running an operator from any other directory found nothing, and read_json's
+    empty-dict-for-missing-file turned that into two silent failures rather than an
+    error: model_map fell through to the hardcoded default model, and the
+    coordinates spec went empty, disabling the enum gate entirely (out-of-enum
+    values then validated clean). Both were invisible in the store.
+
+    An absolute config_dir is honored as given, so callers can still point at a
+    different config set deliberately.
+    """
+    base = Path(config_dir)
+    if not base.is_absolute():
+        base = _REPO_ROOT / base
+    return base / filename
+
 
 def _load_coordinates(config_dir="config"):
     """Read config/coordinates.json (the allowed-value spec), cached per path.
-    Cwd-independent: resolved against the given config_dir. Cached because
-    operators call the gate once per inference in bulk runs."""
-    path = Path(config_dir) / "coordinates.json"
+    Cwd-independent: a relative config_dir resolves against the repo root, not the
+    cwd. Cached because operators call the gate once per inference in bulk runs."""
+    path = _config_path(config_dir, "coordinates.json")
     key = str(path.resolve())
     if key not in _coordinates_cache:
         _coordinates_cache[key] = read_json(path)
@@ -638,12 +661,14 @@ def resolve_model(capability, config_dir="config"):
     - VIVIFY_MODEL_OVERRIDE wins over the map when it names this capability
       (see model_override) — the experiment switch, never a config edit
     - Falls back to 'default' if capability not found
-    - Falls back to claude-sonnet-4-6 if config missing
+    - Falls back to claude-sonnet-4-6 if config missing. A relative config_dir is
+      anchored to the repo root (see _config_path), so this fallback now means the
+      map is genuinely absent — not merely that the caller ran from elsewhere.
     """
     override = model_override(capability)
     if override:
         return override
-    model_map = read_json(Path(config_dir) / "model_map.json")
+    model_map = read_json(_config_path(config_dir, "model_map.json"))
     return model_map.get(capability) or model_map.get("default", "claude-sonnet-4-6")
 
 
@@ -681,3 +706,4 @@ if __name__ == "__main__":
 # llm: claude-opus-4-8 | 2026-06-24 | repos/vivify-operators/lib/vivify_core.py | safe-default privacy gate: _privacy_gate_state() tristate, unset/unrecognized now fails CLOSED for sensitive off-box calls (only explicit PRIVACY_GATE=off relaxes) — forgetting the env protects data instead of leaking it
 # llm: claude-opus-4-8 | 2026-06-24 | repos/vivify-operators/lib/vivify_core.py | added call_and_validate() — retries CoordinateValidationError/JSONDecodeError (temp bump on retry) before fail-closing, so a recoverable small-model miss isn't dropped as a missing dimension; LLMUnavailable still propagates
 # llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/lib/vivify_core.py | VIVIFY_MODEL_OVERRIDE (bare = all capabilities, scoped = capability=model pairs) via model_override(); call_and_validate resolves the model once, calls llm_call_model directly, stamps result["_model"]
+# llm: claude-opus-5 | 2026-08-27 | repos/vivify-operators/lib/vivify_core.py | _config_path(): relative config_dir now anchors to the repo root, not the cwd — fixes silent model downgrade to the hardcoded default AND a silently disabled coordinate enum gate when run from any other directory
