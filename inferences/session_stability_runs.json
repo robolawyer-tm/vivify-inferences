@@ -1,0 +1,1532 @@
+{
+  "_meta": {
+    "started": "2026-09-03T18:26:58.917180+00:00",
+    "model": "claude-opus-4-8",
+    "reps": 3,
+    "note": "session 2; stored values are session 1",
+    "finished": "2026-09-03T18:40:53.891570+00:00"
+  },
+  "runs": [
+    {
+      "specimen": "inf_0f31de7a",
+      "case_id": "ronald_cotton",
+      "canonical": false,
+      "dim": "resonance",
+      "rep": 1,
+      "verdicts": {
+        "resonance.value": "illusion"
+      },
+      "confidence": 0.82,
+      "model": "claude-opus-4-8",
+      "block": {
+        "value": "illusion",
+        "surface": "Two eyewitnesses independently and with growing certainty identify Ronald Cotton as their attacker; the identification procedures, trials, and convictions present a picture of reliable, converging evidence and legitimate justice.",
+        "underlying": "A single mistaken recognition, fixed early and hardened by each successive procedure, masquerading as independent confirmation; the real perpetrator (Bobby Poole) and exculpatory evidence were suppressed, so the apparent agreement of witnesses and courts concealed a wrongful conviction.",
+        "confidence": 0.82,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Logos Core Tree",
+          "Machin"
+        ],
+        "_operator": "resonance_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_0f31de7a",
+      "case_id": "ronald_cotton",
+      "canonical": false,
+      "dim": "resonance",
+      "rep": 2,
+      "verdicts": {
+        "resonance.value": "illusion"
+      },
+      "confidence": 0.86,
+      "model": "claude-opus-4-8",
+      "block": {
+        "value": "illusion",
+        "surface": "A procedurally ordinary case in which two sincere eyewitnesses independently and confidently identified Ronald Cotton as their attacker, presenting as a solid convergence of honest testimony on a guilty man.",
+        "underlying": "One early mistaken recognition amplified into false corroboration by each confirming procedure, while exculpatory evidence (the second victim's different identification, Poole's matching blood type and confession) was suppressed \u2014 genuine certainty concealing a wrong conviction until DNA broke the false alignment.",
+        "confidence": 0.86,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Logos Core Tree",
+          "Machin"
+        ],
+        "_operator": "resonance_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_0f31de7a",
+      "case_id": "ronald_cotton",
+      "canonical": false,
+      "dim": "resonance",
+      "rep": 3,
+      "verdicts": {
+        "resonance.value": "illusion"
+      },
+      "confidence": 0.86,
+      "model": "claude-opus-4-8",
+      "block": {
+        "value": "illusion",
+        "surface": "Two independent eyewitnesses confidently and sincerely converging on one suspect \u2014 a picture of certain, corroborated recognition; the procedures appear to confirm and validate each other, and the narrative closes on genuine reconciliation and friendship between the wrongly convicted man and his accuser.",
+        "underlying": "The apparent convergence was a single mistaken recognition confirmed and amplified by the very procedures meant to test it; sincere agreement and real certainty masked a false alignment on the wrong man, with exculpatory evidence (the second victim's different identification, Poole's matching blood type and confession) suppressed beneath a surface of ordinary, good-faith process.",
+        "confidence": 0.86,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Logos Core Tree",
+          "Machin"
+        ],
+        "_operator": "resonance_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_0f31de7a",
+      "case_id": "ronald_cotton",
+      "canonical": false,
+      "dim": "cooperative",
+      "rep": 1,
+      "verdicts": {
+        "cooperative.status": "honored",
+        "cooperative.maxim_violated": null
+      },
+      "confidence": 0.82,
+      "model": "claude-opus-4-8",
+      "block": {
+        "status": "honored",
+        "maxim_violated": null,
+        "implicature": "By explicitly denying any fabricated document, coerced statement, or manufactured lab result, the text implicates that the wrongful conviction arose not from misconduct but from ordinary, good-faith identification procedures that manufactured and amplified a sincere but mistaken memory \u2014 the failure was systemic, not corrupt.",
+        "confidence": 0.82,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Grice"
+        ],
+        "_operator": "cooperative_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_0f31de7a",
+      "case_id": "ronald_cotton",
+      "canonical": false,
+      "dim": "cooperative",
+      "rep": 2,
+      "verdicts": {
+        "cooperative.status": "honored",
+        "cooperative.maxim_violated": null
+      },
+      "confidence": 0.82,
+      "model": "claude-opus-4-8",
+      "block": {
+        "status": "honored",
+        "maxim_violated": null,
+        "implicature": null,
+        "confidence": 0.82,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Grice"
+        ],
+        "_operator": "cooperative_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_0f31de7a",
+      "case_id": "ronald_cotton",
+      "canonical": false,
+      "dim": "cooperative",
+      "rep": 3,
+      "verdicts": {
+        "cooperative.status": "honored",
+        "cooperative.maxim_violated": null
+      },
+      "confidence": 0.82,
+      "model": "claude-opus-4-8",
+      "block": {
+        "status": "honored",
+        "maxim_violated": null,
+        "implicature": null,
+        "confidence": 0.82,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Grice"
+        ],
+        "_operator": "cooperative_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_0f31de7a",
+      "case_id": "ronald_cotton",
+      "canonical": false,
+      "dim": "structural",
+      "rep": 1,
+      "verdicts": {
+        "structural.scale": "institution"
+      },
+      "confidence": 0.85,
+      "model": "claude-opus-4-8",
+      "block": {
+        "layer": "institution",
+        "scale": "institution",
+        "_coerced": null,
+        "density": "bureaucratic",
+        "persistence": "institutional",
+        "authority": "system",
+        "transmission": "archive",
+        "memory_channel": "institutional",
+        "language_mode": "contractual",
+        "overlays": [
+          "society"
+        ],
+        "confidence": 0.85,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Dunbar",
+          "Tonnies",
+          "Ostrom",
+          "Douglas"
+        ],
+        "_operator": "structural_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_0f31de7a",
+      "case_id": "ronald_cotton",
+      "canonical": false,
+      "dim": "structural",
+      "rep": 2,
+      "verdicts": {
+        "structural.scale": "institution"
+      },
+      "confidence": 0.88,
+      "model": "claude-opus-4-8",
+      "block": {
+        "layer": "institution",
+        "scale": "institution",
+        "_coerced": null,
+        "density": "bureaucratic",
+        "persistence": "institutional",
+        "authority": "system",
+        "transmission": "archive",
+        "memory_channel": "institutional",
+        "language_mode": "contractual",
+        "overlays": [
+          "society"
+        ],
+        "confidence": 0.88,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Dunbar",
+          "Tonnies",
+          "Ostrom",
+          "Douglas"
+        ],
+        "_operator": "structural_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_0f31de7a",
+      "case_id": "ronald_cotton",
+      "canonical": false,
+      "dim": "structural",
+      "rep": 3,
+      "verdicts": {
+        "structural.scale": "institution"
+      },
+      "confidence": 0.86,
+      "model": "claude-opus-4-8",
+      "block": {
+        "layer": "institution",
+        "scale": "institution",
+        "_coerced": null,
+        "density": "bureaucratic",
+        "persistence": "institutional",
+        "authority": "system",
+        "transmission": "broadcast",
+        "memory_channel": "institutional",
+        "language_mode": "contractual",
+        "overlays": [
+          "society"
+        ],
+        "confidence": 0.86,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Dunbar",
+          "Tonnies",
+          "Ostrom",
+          "Douglas"
+        ],
+        "_operator": "structural_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_0f31de7a",
+      "case_id": "ronald_cotton",
+      "canonical": false,
+      "dim": "conflict",
+      "rep": 1,
+      "verdicts": {
+        "conflict.schema": "entangled",
+        "conflict.behavior": "suppression",
+        "conflict.terrain": "fringe",
+        "conflict.window": "rationalizing",
+        "conflict.escalation_phase": "exponential"
+      },
+      "confidence": 0.82,
+      "model": "claude-opus-4-8",
+      "block": {
+        "schema": "entangled",
+        "schema_signals": [
+          "resonance:illusion",
+          "transmission:archive",
+          "structural:layer=global",
+          "authority:sovereign"
+        ],
+        "behavior": "suppression",
+        "behavior_signals": [
+          "resonance:illusion",
+          "cooperative:honored (maxim violated: none)",
+          "utility:narrative"
+        ],
+        "terrain": "fringe",
+        "window": "rationalizing",
+        "escalation_phase": "exponential",
+        "confidence": 0.82,
+        "rationale": "Ordinary identification procedures, each honoring the one before it, structurally amplified a single mistaken recognition into archived certainty, opening and closing a decade of harm that the system read as justice rather than error.",
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Granovetter",
+          "Glasl",
+          "Durkheim",
+          "Bandura"
+        ],
+        "_operator": "conflict_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_0f31de7a",
+      "case_id": "ronald_cotton",
+      "canonical": false,
+      "dim": "conflict",
+      "rep": 2,
+      "verdicts": {
+        "conflict.schema": "entangled",
+        "conflict.behavior": "suppression",
+        "conflict.terrain": "fringe",
+        "conflict.window": "rationalizing",
+        "conflict.escalation_phase": "exponential"
+      },
+      "confidence": 0.86,
+      "model": "claude-opus-4-8",
+      "block": {
+        "schema": "entangled",
+        "schema_signals": [
+          "structural: layer=global",
+          "resonance: illusion",
+          "authority: sovereign",
+          "transmission: archive"
+        ],
+        "behavior": "suppression",
+        "behavior_signals": [
+          "resonance: illusion",
+          "cooperative: honored (maxim violated: none)"
+        ],
+        "terrain": "fringe",
+        "window": "rationalizing",
+        "escalation_phase": "exponential",
+        "confidence": 0.86,
+        "rationale": "Ordinary confirmatory procedures \u2014 sketch, array, lineup, retelling \u2014 are structurally entangled so each ratifies the prior error, hardening one mistaken recognition into unassailable certainty and producing decade-long harm the record reads as two independent witnesses legitimately converging.",
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Granovetter",
+          "Glasl",
+          "Durkheim",
+          "Bandura"
+        ],
+        "_operator": "conflict_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_0f31de7a",
+      "case_id": "ronald_cotton",
+      "canonical": false,
+      "dim": "conflict",
+      "rep": 3,
+      "verdicts": {
+        "conflict.schema": "entangled",
+        "conflict.behavior": "suppression",
+        "conflict.terrain": "fringe",
+        "conflict.window": "rationalizing",
+        "conflict.escalation_phase": "exponential"
+      },
+      "confidence": 0.82,
+      "model": "claude-opus-4-8",
+      "block": {
+        "schema": "entangled",
+        "schema_signals": [
+          "resonance:illusion",
+          "transmission:archive",
+          "authority:sovereign",
+          "structural:layer=global"
+        ],
+        "behavior": "suppression",
+        "behavior_signals": [
+          "resonance:illusion",
+          "cooperative:honored (maxim violated: none)"
+        ],
+        "terrain": "fringe",
+        "window": "rationalizing",
+        "escalation_phase": "exponential",
+        "confidence": 0.82,
+        "rationale": "Ordinary sovereign procedures (array, lineup, retrials, archive) each confirmed a prior recognition rather than testing it, so error hardened into certainty and harm was recorded as legitimate justice \u2014 a self-reinforcing cascade whose reversal required an external structural intervention (DNA).",
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Granovetter",
+          "Glasl",
+          "Durkheim",
+          "Bandura"
+        ],
+        "_operator": "conflict_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_285ae7ab",
+      "case_id": "josiah_sutton",
+      "canonical": null,
+      "dim": "resonance",
+      "rep": 1,
+      "verdicts": {
+        "resonance.value": "illusion"
+      },
+      "confidence": 0.88,
+      "model": "claude-opus-4-8",
+      "block": {
+        "value": "illusion",
+        "surface": "Authoritative forensic and judicial process presenting DNA testimony as scientifically certain \u2014 an 'exact match,' one-in-694,000 odds \u2014 arriving at a legitimate, orderly conviction.",
+        "underlying": "The scientific certainty was fabricated: the true figure was roughly one in sixteen Black men, the lab work was junior-high-grade, physical evidence contradicted the suspect description, and retesting exonerated Sutton after five years imprisoned.",
+        "confidence": 0.88,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Logos Core Tree",
+          "Machin"
+        ],
+        "_operator": "resonance_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_285ae7ab",
+      "case_id": "josiah_sutton",
+      "canonical": null,
+      "dim": "resonance",
+      "rep": 2,
+      "verdicts": {
+        "resonance.value": "illusion"
+      },
+      "confidence": 0.86,
+      "model": "claude-opus-4-8",
+      "block": {
+        "value": "illusion",
+        "surface": "A narrative of scientific certainty and lawful process \u2014 DNA testimony framed as an 'exact match,' precise odds of one in 694,000, and a conviction reached through orderly courtroom procedure.",
+        "underlying": "The certainty was fabricated: the statistic was inflated (nearer one in sixteen Black men), the physical description contradicted the suspect, the lab was later judged less sound than a junior-high science project, and retesting fully excluded Sutton after roughly five years imprisoned.",
+        "confidence": 0.86,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Logos Core Tree",
+          "Machin"
+        ],
+        "_operator": "resonance_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_285ae7ab",
+      "case_id": "josiah_sutton",
+      "canonical": null,
+      "dim": "resonance",
+      "rep": 3,
+      "verdicts": {
+        "resonance.value": "illusion"
+      },
+      "confidence": 0.86,
+      "model": "claude-opus-4-8",
+      "block": {
+        "value": "illusion",
+        "surface": "A legitimate legal process presenting authoritative forensic science \u2014 sworn lab testimony, a precise DNA match statistic (1 in 694,000), and an orderly trial producing a just conviction.",
+        "underlying": "The apparent scientific authority masked fabricated certainty: the real match figure was ~1 in 16 Black men, the lab was junk-grade, physical evidence contradicted the suspect description, and the defense declined independent testing \u2014 cooperative institutional language concealing an adversarial, false case that took five years to unravel.",
+        "confidence": 0.86,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Logos Core Tree",
+          "Machin"
+        ],
+        "_operator": "resonance_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_285ae7ab",
+      "case_id": "josiah_sutton",
+      "canonical": null,
+      "dim": "cooperative",
+      "rep": 1,
+      "verdicts": {
+        "cooperative.status": "honored",
+        "cooperative.maxim_violated": null
+      },
+      "confidence": 0.62,
+      "model": "claude-opus-4-8",
+      "block": {
+        "status": "honored",
+        "maxim_violated": null,
+        "implicature": "The author's flat juxtaposition \u2014 '694,000' immediately corrected to 'one in sixteen Black men,' the size mismatch, the 'junior high science project' quote \u2014 implicates that the conviction rested on evidence the lab knew or should have known was worthless, and that the failure was systemic, not accidental. Within the reported world a quality maxim is broken (the lab employee testified to an 'exact match' believed-false), but the narrating text itself cooperatively lays out the facts and lets the contradiction carry the indictment.",
+        "confidence": 0.62,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Grice"
+        ],
+        "_operator": "cooperative_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_285ae7ab",
+      "case_id": "josiah_sutton",
+      "canonical": null,
+      "dim": "cooperative",
+      "rep": 2,
+      "verdicts": {
+        "cooperative.status": "violated",
+        "cooperative.maxim_violated": "quality"
+      },
+      "confidence": 0.86,
+      "model": "claude-opus-4-8",
+      "block": {
+        "status": "violated",
+        "maxim_violated": "quality",
+        "implicature": "The crime lab's forensic testimony asserted as fact what it lacked evidence for \u2014 an 'exact match' and a 1-in-694,000 figure inflated from a true value near 1 in 16 \u2014 presenting fabricated certainty to secure conviction; the narrative flags this false assertion rather than endorsing it.",
+        "confidence": 0.86,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Grice"
+        ],
+        "_operator": "cooperative_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_285ae7ab",
+      "case_id": "josiah_sutton",
+      "canonical": null,
+      "dim": "cooperative",
+      "rep": 3,
+      "verdicts": {
+        "cooperative.status": "violated",
+        "cooperative.maxim_violated": "quality"
+      },
+      "confidence": 0.6,
+      "model": "claude-opus-4-8",
+      "block": {
+        "status": "violated",
+        "maxim_violated": "quality",
+        "implicature": "The forensic testimony is the passage's central speech act, and it violates Quality: the lab asserted an 'exact match' and a 1-in-694,000 figure it lacked adequate evidence for (the true figure was ~1 in 16), projecting false scientific certainty that convicted an innocent man. The narrator's own framing stays cooperative, but the text is built to expose this fabricated authority.",
+        "confidence": 0.6,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Grice"
+        ],
+        "_operator": "cooperative_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_285ae7ab",
+      "case_id": "josiah_sutton",
+      "canonical": null,
+      "dim": "structural",
+      "rep": 1,
+      "verdicts": {
+        "structural.scale": "institution"
+      },
+      "confidence": 0.9,
+      "model": "claude-opus-4-8",
+      "block": {
+        "layer": "institution",
+        "scale": "institution",
+        "_coerced": null,
+        "density": "bureaucratic",
+        "persistence": "institutional",
+        "authority": "system",
+        "transmission": "broadcast",
+        "memory_channel": "institutional",
+        "language_mode": "contractual",
+        "overlays": [
+          "society"
+        ],
+        "confidence": 0.9,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Dunbar",
+          "Tonnies",
+          "Ostrom",
+          "Douglas"
+        ],
+        "_operator": "structural_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_285ae7ab",
+      "case_id": "josiah_sutton",
+      "canonical": null,
+      "dim": "structural",
+      "rep": 2,
+      "verdicts": {
+        "structural.scale": "institution"
+      },
+      "confidence": 0.92,
+      "model": "claude-opus-4-8",
+      "block": {
+        "layer": "institution",
+        "scale": "institution",
+        "_coerced": null,
+        "density": "bureaucratic",
+        "persistence": "institutional",
+        "authority": "system",
+        "transmission": "archive",
+        "memory_channel": "institutional",
+        "language_mode": "contractual",
+        "overlays": [
+          "society"
+        ],
+        "confidence": 0.92,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Dunbar",
+          "Tonnies",
+          "Ostrom",
+          "Douglas"
+        ],
+        "_operator": "structural_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_285ae7ab",
+      "case_id": "josiah_sutton",
+      "canonical": null,
+      "dim": "structural",
+      "rep": 3,
+      "verdicts": {
+        "structural.scale": "institution"
+      },
+      "confidence": 0.92,
+      "model": "claude-opus-4-8",
+      "block": {
+        "layer": "institution",
+        "scale": "institution",
+        "_coerced": null,
+        "density": "bureaucratic",
+        "persistence": "institutional",
+        "authority": "system",
+        "transmission": "archive",
+        "memory_channel": "institutional",
+        "language_mode": "contractual",
+        "overlays": [
+          "society"
+        ],
+        "confidence": 0.92,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Dunbar",
+          "Tonnies",
+          "Ostrom",
+          "Douglas"
+        ],
+        "_operator": "structural_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_285ae7ab",
+      "case_id": "josiah_sutton",
+      "canonical": null,
+      "dim": "conflict",
+      "rep": 1,
+      "verdicts": {
+        "conflict.schema": "entangled",
+        "conflict.behavior": "suppression",
+        "conflict.terrain": "fringe",
+        "conflict.window": "rationalizing",
+        "conflict.escalation_phase": "exponential"
+      },
+      "confidence": 0.86,
+      "model": "claude-opus-4-8",
+      "block": {
+        "schema": "entangled",
+        "schema_signals": [
+          "structural:layer=institution",
+          "authority:sovereign",
+          "social_field:grid=0.85,quadrant=hierarchical",
+          "resonance:illusion"
+        ],
+        "behavior": "suppression",
+        "behavior_signals": [
+          "resonance:illusion",
+          "cooperative:honored (surface cooperation over manufactured certainty)",
+          "transmission:archive"
+        ],
+        "terrain": "fringe",
+        "window": "rationalizing",
+        "escalation_phase": "exponential",
+        "confidence": 0.86,
+        "rationale": "A high-grid hierarchical institution (crime lab, sovereign prosecutorial authority) transmitted manufactured forensic certainty as archived truth, entangling race-skewed match statistics, underfunded defense, and eyewitness error into a window where wrongful harm occurred and was rationalized as sound science until a structural shift \u2014 independent retesting \u2014 reversed it.",
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Granovetter",
+          "Glasl",
+          "Durkheim",
+          "Bandura"
+        ],
+        "_operator": "conflict_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_285ae7ab",
+      "case_id": "josiah_sutton",
+      "canonical": null,
+      "dim": "conflict",
+      "rep": 2,
+      "verdicts": {
+        "conflict.schema": "entangled",
+        "conflict.behavior": "suppression",
+        "conflict.terrain": "fringe",
+        "conflict.window": "rationalizing",
+        "conflict.escalation_phase": "exponential"
+      },
+      "confidence": 0.86,
+      "model": "claude-opus-4-8",
+      "block": {
+        "schema": "entangled",
+        "schema_signals": [
+          "structural.layer=institution",
+          "authority=sovereign",
+          "social_field.grid=0.85",
+          "social_field.quadrant=hierarchical"
+        ],
+        "behavior": "suppression",
+        "behavior_signals": [
+          "resonance=illusion",
+          "transmission=archive",
+          "cooperative=honored"
+        ],
+        "terrain": "fringe",
+        "window": "rationalizing",
+        "escalation_phase": "exponential",
+        "confidence": 0.86,
+        "rationale": "A high-grid hierarchical institution wielding sovereign authority converted flawed forensic work into manufactured certainty (resonance=illusion), so structural harm occurred and was archived as legitimate justice \u2014 a window that opened and was used while damage was explained as science, entangling underfunded defense and racialized statistics well past the escalation threshold.",
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Granovetter",
+          "Glasl",
+          "Durkheim",
+          "Bandura"
+        ],
+        "_operator": "conflict_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_285ae7ab",
+      "case_id": "josiah_sutton",
+      "canonical": null,
+      "dim": "conflict",
+      "rep": 3,
+      "verdicts": {
+        "conflict.schema": "entangled",
+        "conflict.behavior": "suppression",
+        "conflict.terrain": "fringe",
+        "conflict.window": "rationalizing",
+        "conflict.escalation_phase": "exponential"
+      },
+      "confidence": 0.82,
+      "model": "claude-opus-4-8",
+      "block": {
+        "schema": "entangled",
+        "schema_signals": [
+          "structural:layer=institution",
+          "authority:sovereign",
+          "social_field:grid=0.85,quadrant=hierarchical",
+          "resonance:illusion(underlying)"
+        ],
+        "behavior": "suppression",
+        "behavior_signals": [
+          "resonance:illusion",
+          "cooperative:honored(maxim violated:none)",
+          "transmission:archive"
+        ],
+        "terrain": "fringe",
+        "window": "rationalizing",
+        "escalation_phase": "exponential",
+        "confidence": 0.82,
+        "rationale": "Institutional forensic authority, entangled with racial base-rate disparity and an underfunded defense, manufactures certainty that masks harm as legitimate science and requires an external structural shift \u2014 independent retesting \u2014 to reverse.",
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Granovetter",
+          "Glasl",
+          "Durkheim",
+          "Bandura"
+        ],
+        "_operator": "conflict_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_a3d99808",
+      "case_id": "earl_washington_jr",
+      "canonical": null,
+      "dim": "resonance",
+      "rep": 1,
+      "verdicts": {
+        "resonance.value": "illusion"
+      },
+      "confidence": 0.72,
+      "model": "claude-opus-4-8",
+      "block": {
+        "value": "illusion",
+        "surface": "A suggestible man's confession and eager agreement with interrogators presented as cooperation and resolved guilt \u2014 a case that appeared closed on the strength of apparent alignment between suspect and authorities.",
+        "underlying": "Coerced false alignment masking innocence: an intellectually disabled man fed the crime's facts, agreeing to what was put to him while the physical evidence contradicted every word \u2014 a fabricated harmony between accuser and accused concealing an adversarial, wrongful prosecution.",
+        "confidence": 0.72,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Logos Core Tree",
+          "Machin"
+        ],
+        "_operator": "resonance_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_a3d99808",
+      "case_id": "earl_washington_jr",
+      "canonical": null,
+      "dim": "resonance",
+      "rep": 2,
+      "verdicts": {
+        "resonance.value": "friction"
+      },
+      "confidence": 0.86,
+      "model": "claude-opus-4-8",
+      "block": {
+        "value": "friction",
+        "surface": "A documentary case study that openly narrates a wrongful conviction \u2014 a coerced false confession, contradicting physical evidence, and a justice system that took seventeen years to correct itself.",
+        "underlying": null,
+        "confidence": 0.86,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Logos Core Tree",
+          "Machin"
+        ],
+        "_operator": "resonance_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_a3d99808",
+      "case_id": "earl_washington_jr",
+      "canonical": null,
+      "dim": "resonance",
+      "rep": 3,
+      "verdicts": {
+        "resonance.value": "illusion"
+      },
+      "confidence": 0.93,
+      "model": "claude-opus-4-8",
+      "block": {
+        "value": "illusion",
+        "surface": "A cooperative, agreeable exchange in which a suggestible man confesses and 'agrees with what was put to him,' presented and accepted by the system as a valid confession \u2014 apparent alignment between suspect and investigators, later ratified by a court as settled truth.",
+        "underlying": "Coerced false alignment: the agreement was manufactured by feeding an intellectually disabled man the crime's facts he initially got wrong, masking his innocence, fabricated evidence, and physical proof that contradicted the confession \u2014 surface concordance concealing an adversarial reality that took seventeen years and DNA to expose.",
+        "confidence": 0.93,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Logos Core Tree",
+          "Machin"
+        ],
+        "_operator": "resonance_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_a3d99808",
+      "case_id": "earl_washington_jr",
+      "canonical": null,
+      "dim": "cooperative",
+      "rep": 1,
+      "verdicts": {
+        "cooperative.status": "honored",
+        "cooperative.maxim_violated": null
+      },
+      "confidence": 0.72,
+      "model": "claude-opus-4-8",
+      "block": {
+        "status": "honored",
+        "maxim_violated": null,
+        "implicature": "The narrative cooperatively reports verifiable facts, but its selection and ordering of detail (wrong facts corrected by interrogators, confession-only conviction, seventeen years and two governors to undo it) implicate a systemic indictment: the justice system convicted a knowably innocent, intellectually disabled man and resisted acknowledging evidence it had from the start. The evaluative asides ('half-measure that kept an innocent man in prison', 'what the evidence said the first time') foreground this argued meaning while staying within truthful, relevant, orderly reporting.",
+        "confidence": 0.72,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Grice"
+        ],
+        "_operator": "cooperative_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_a3d99808",
+      "case_id": "earl_washington_jr",
+      "canonical": null,
+      "dim": "cooperative",
+      "rep": 2,
+      "verdicts": {
+        "cooperative.status": "honored",
+        "cooperative.maxim_violated": "quantity"
+      },
+      "confidence": 0.62,
+      "model": "claude-opus-4-8",
+      "block": {
+        "status": "honored",
+        "maxim_violated": "quantity",
+        "implicature": "By adding evaluative asides beyond neutral chronicle \u2014 'a half-measure that kept an innocent man in prison,' a system that took decades 'to acknowledge what the evidence said the first time' \u2014 the text floats quantity to implicate a moral indictment: the wrongful conviction and its slow reversal were knowable and avoidable, a culpable institutional failure, not mere error.",
+        "confidence": 0.62,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Grice"
+        ],
+        "_operator": "cooperative_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_a3d99808",
+      "case_id": "earl_washington_jr",
+      "canonical": null,
+      "dim": "cooperative",
+      "rep": 3,
+      "verdicts": {
+        "cooperative.status": "honored",
+        "cooperative.maxim_violated": null
+      },
+      "confidence": 0.72,
+      "model": "claude-opus-4-8",
+      "block": {
+        "status": "honored",
+        "maxim_violated": null,
+        "implicature": "The closing tally \u2014 'seventeen years, two governors, and two generations of DNA technology to acknowledge what the evidence said the first time' \u2014 flouts quantity/manner by design, generating the implicature that the system was not merely slow but willfully resistant to an innocence that was legible from the outset; phrases like 'vindication arriving as a half-measure' and 'supplied with the facts of a crime by his interrogators' carry a moral indictment beyond the bare chronology.",
+        "confidence": 0.72,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Grice"
+        ],
+        "_operator": "cooperative_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_a3d99808",
+      "case_id": "earl_washington_jr",
+      "canonical": null,
+      "dim": "structural",
+      "rep": 1,
+      "verdicts": {
+        "structural.scale": "institution"
+      },
+      "confidence": 0.9,
+      "model": "claude-opus-4-8",
+      "block": {
+        "layer": "institution",
+        "scale": "institution",
+        "_coerced": null,
+        "density": "bureaucratic",
+        "persistence": "institutional",
+        "authority": "system",
+        "transmission": "archive",
+        "memory_channel": "institutional",
+        "language_mode": "contractual",
+        "overlays": [
+          "society"
+        ],
+        "confidence": 0.9,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Dunbar",
+          "Tonnies",
+          "Ostrom",
+          "Douglas"
+        ],
+        "_operator": "structural_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_a3d99808",
+      "case_id": "earl_washington_jr",
+      "canonical": null,
+      "dim": "structural",
+      "rep": 2,
+      "verdicts": {
+        "structural.scale": "institution"
+      },
+      "confidence": 0.72,
+      "model": "claude-opus-4-8",
+      "block": {
+        "layer": "institution",
+        "scale": "institution",
+        "_coerced": null,
+        "density": "bureaucratic",
+        "persistence": "institutional",
+        "authority": "system",
+        "transmission": "archive",
+        "memory_channel": "institutional",
+        "language_mode": "contractual",
+        "overlays": [
+          "society",
+          "culture"
+        ],
+        "confidence": 0.72,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Dunbar",
+          "Tonnies",
+          "Ostrom",
+          "Douglas"
+        ],
+        "_operator": "structural_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_a3d99808",
+      "case_id": "earl_washington_jr",
+      "canonical": null,
+      "dim": "structural",
+      "rep": 3,
+      "verdicts": {
+        "structural.scale": "global"
+      },
+      "confidence": 0.8,
+      "model": "claude-opus-4-8",
+      "block": {
+        "layer": "global",
+        "scale": "global",
+        "_coerced": null,
+        "density": "archival",
+        "persistence": "durable",
+        "authority": "formal",
+        "transmission": "code",
+        "memory_channel": "global",
+        "language_mode": "formalized",
+        "overlays": [
+          "society",
+          "culture"
+        ],
+        "confidence": 0.8,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Dunbar",
+          "Tonnies",
+          "Ostrom",
+          "Douglas"
+        ],
+        "_operator": "structural_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_a3d99808",
+      "case_id": "earl_washington_jr",
+      "canonical": null,
+      "dim": "conflict",
+      "rep": 1,
+      "verdicts": {
+        "conflict.schema": "entangled",
+        "conflict.behavior": "suppression",
+        "conflict.terrain": "fringe",
+        "conflict.window": "rationalizing",
+        "conflict.escalation_phase": "exponential"
+      },
+      "confidence": 0.9,
+      "model": "claude-opus-4-8",
+      "block": {
+        "schema": "entangled",
+        "schema_signals": [
+          "social_field:grid=0.85/hierarchical",
+          "authority:occult",
+          "structural:layer=global"
+        ],
+        "behavior": "suppression",
+        "behavior_signals": [
+          "resonance:illusion",
+          "cooperative:honored"
+        ],
+        "terrain": "fringe",
+        "window": "rationalizing",
+        "escalation_phase": "exponential",
+        "confidence": 0.9,
+        "rationale": "A high-grid hierarchical schema with occult authority converts a coerced false confession into archived truth, masking structural harm as lawful cooperation while a self-reinforcing cascade forecloses the evidence and requires decades of structural intervention to reverse.",
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Granovetter",
+          "Glasl",
+          "Durkheim",
+          "Bandura"
+        ],
+        "_operator": "conflict_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_a3d99808",
+      "case_id": "earl_washington_jr",
+      "canonical": null,
+      "dim": "conflict",
+      "rep": 2,
+      "verdicts": {
+        "conflict.schema": "entangled",
+        "conflict.behavior": "suppression",
+        "conflict.terrain": "fringe",
+        "conflict.window": "rationalizing",
+        "conflict.escalation_phase": "exponential"
+      },
+      "confidence": 0.92,
+      "model": "claude-opus-4-8",
+      "block": {
+        "schema": "entangled",
+        "schema_signals": [
+          "authority:occult",
+          "resonance:illusion",
+          "social_field:grid=0.85,quadrant=hierarchical",
+          "structural:layer=global"
+        ],
+        "behavior": "suppression",
+        "behavior_signals": [
+          "resonance:illusion",
+          "cooperative:honored",
+          "act_type:assertive"
+        ],
+        "terrain": "fringe",
+        "window": "rationalizing",
+        "escalation_phase": "exponential",
+        "confidence": 0.92,
+        "rationale": "An occult authority converts a suggestible man's coerced agreement into an archived confession that reads as honored cooperation, so structurally-available harm proceeds and is explained as justice across a self-reinforcing hierarchical system that only structural intervention could reverse.",
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Granovetter",
+          "Glasl",
+          "Durkheim",
+          "Bandura"
+        ],
+        "_operator": "conflict_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_a3d99808",
+      "case_id": "earl_washington_jr",
+      "canonical": null,
+      "dim": "conflict",
+      "rep": 3,
+      "verdicts": {
+        "conflict.schema": "entangled",
+        "conflict.behavior": "suppression",
+        "conflict.terrain": "fringe",
+        "conflict.window": "rationalizing",
+        "conflict.escalation_phase": "exponential"
+      },
+      "confidence": 0.92,
+      "model": "claude-opus-4-8",
+      "block": {
+        "schema": "entangled",
+        "schema_signals": [
+          "social_field:grid=0.85",
+          "social_field:quadrant=hierarchical",
+          "authority:occult",
+          "structural:layer=global"
+        ],
+        "behavior": "suppression",
+        "behavior_signals": [
+          "resonance:illusion",
+          "cooperative:honored",
+          "authority:occult"
+        ],
+        "terrain": "fringe",
+        "window": "rationalizing",
+        "escalation_phase": "exponential",
+        "confidence": 0.92,
+        "rationale": "A high-grid hierarchical schema with hidden (occult) authority produced a coerced confession read as voluntary cooperation, masking coercion (illusion) so structurally that harm proceeded and was repeatedly explained away \u2014 a self-reinforcing cascade requiring two governors and generational DNA technology to reverse.",
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Granovetter",
+          "Glasl",
+          "Durkheim",
+          "Bandura"
+        ],
+        "_operator": "conflict_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_f39647fd",
+      "case_id": "ronald_cotton",
+      "canonical": true,
+      "dim": "resonance",
+      "rep": 1,
+      "verdicts": {
+        "resonance.value": "harmony"
+      },
+      "confidence": 0.62,
+      "model": "claude-opus-4-8",
+      "block": {
+        "value": "harmony",
+        "surface": "A neutral factual chronicle of a wrongful conviction that ends with the misidentified man and the victim who accused him becoming friends and co-authoring a memoir on reforming eyewitness identification.",
+        "underlying": null,
+        "confidence": 0.62,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Logos Core Tree",
+          "Machin"
+        ],
+        "_operator": "resonance_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_f39647fd",
+      "case_id": "ronald_cotton",
+      "canonical": true,
+      "dim": "resonance",
+      "rep": 2,
+      "verdicts": {
+        "resonance.value": "illusion"
+      },
+      "confidence": 0.72,
+      "model": "claude-opus-4-8",
+      "block": {
+        "value": "illusion",
+        "surface": "An orderly justice process delivering a just outcome: two victims confidently identify Ronald Cotton, juries convict twice, and the courts appear to have correctly resolved a violent crime.",
+        "underlying": "A wholly innocent man convicted on sincere but false eyewitness certainty, while exculpatory evidence \u2014 the second victim's identification of a different man, Bobby Poole's matching blood type and jailhouse confession \u2014 was repeatedly withheld from the jury; the system's apparent correctness masked a catastrophic, later DNA-proven error.",
+        "confidence": 0.72,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Logos Core Tree",
+          "Machin"
+        ],
+        "_operator": "resonance_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_f39647fd",
+      "case_id": "ronald_cotton",
+      "canonical": true,
+      "dim": "resonance",
+      "rep": 3,
+      "verdicts": {
+        "resonance.value": "illusion"
+      },
+      "confidence": 0.78,
+      "model": "claude-opus-4-8",
+      "block": {
+        "value": "illusion",
+        "surface": "A confident, orderly account of justice working \u2014 a victim's certain identification, two convictions, and finally an exoneration that resolves into reconciliation and friendship between Cotton and Thompson-Cannino.",
+        "underlying": "The apparent certainty was false throughout: Thompson's sincere, repeated identifications masked a misidentification, and the courts' procedural confidence concealed suppressed exculpatory evidence (the second victim's different suspect, Poole's matching blood type and confession). The surface agreement between witness, police, and jury rested on a wrong that only DNA later broke open.",
+        "confidence": 0.78,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Logos Core Tree",
+          "Machin"
+        ],
+        "_operator": "resonance_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_f39647fd",
+      "case_id": "ronald_cotton",
+      "canonical": true,
+      "dim": "cooperative",
+      "rep": 1,
+      "verdicts": {
+        "cooperative.status": "honored",
+        "cooperative.maxim_violated": null
+      },
+      "confidence": 0.85,
+      "model": "claude-opus-4-8",
+      "block": {
+        "status": "honored",
+        "maxim_violated": null,
+        "implicature": null,
+        "confidence": 0.85,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Grice"
+        ],
+        "_operator": "cooperative_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_f39647fd",
+      "case_id": "ronald_cotton",
+      "canonical": true,
+      "dim": "cooperative",
+      "rep": 2,
+      "verdicts": {
+        "cooperative.status": "honored",
+        "cooperative.maxim_violated": null
+      },
+      "confidence": 0.9,
+      "model": "claude-opus-4-8",
+      "block": {
+        "status": "honored",
+        "maxim_violated": null,
+        "implicature": null,
+        "confidence": 0.9,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Grice"
+        ],
+        "_operator": "cooperative_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_f39647fd",
+      "case_id": "ronald_cotton",
+      "canonical": true,
+      "dim": "cooperative",
+      "rep": 3,
+      "verdicts": {
+        "cooperative.status": "honored",
+        "cooperative.maxim_violated": null
+      },
+      "confidence": 0.9,
+      "model": "claude-opus-4-8",
+      "block": {
+        "status": "honored",
+        "maxim_violated": null,
+        "implicature": null,
+        "confidence": 0.9,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Grice"
+        ],
+        "_operator": "cooperative_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_f39647fd",
+      "case_id": "ronald_cotton",
+      "canonical": true,
+      "dim": "structural",
+      "rep": 1,
+      "verdicts": {
+        "structural.scale": "institution"
+      },
+      "confidence": 0.86,
+      "model": "claude-opus-4-8",
+      "block": {
+        "layer": "institution",
+        "scale": "institution",
+        "_coerced": null,
+        "density": "bureaucratic",
+        "persistence": "institutional",
+        "authority": "system",
+        "transmission": "broadcast",
+        "memory_channel": "institutional",
+        "language_mode": "contractual",
+        "overlays": [
+          "society"
+        ],
+        "confidence": 0.86,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Dunbar",
+          "Tonnies",
+          "Ostrom",
+          "Douglas"
+        ],
+        "_operator": "structural_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_f39647fd",
+      "case_id": "ronald_cotton",
+      "canonical": true,
+      "dim": "structural",
+      "rep": 2,
+      "verdicts": {
+        "structural.scale": "institution"
+      },
+      "confidence": 0.82,
+      "model": "claude-opus-4-8",
+      "block": {
+        "layer": "institution",
+        "scale": "institution",
+        "_coerced": null,
+        "density": "bureaucratic",
+        "persistence": "institutional",
+        "authority": "system",
+        "transmission": "archive",
+        "memory_channel": "institutional",
+        "language_mode": "contractual",
+        "overlays": [
+          "society"
+        ],
+        "confidence": 0.82,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Dunbar",
+          "Tonnies",
+          "Ostrom",
+          "Douglas"
+        ],
+        "_operator": "structural_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_f39647fd",
+      "case_id": "ronald_cotton",
+      "canonical": true,
+      "dim": "structural",
+      "rep": 3,
+      "verdicts": {
+        "structural.scale": "institution"
+      },
+      "confidence": 0.83,
+      "model": "claude-opus-4-8",
+      "block": {
+        "layer": "institution",
+        "scale": "institution",
+        "_coerced": null,
+        "density": "bureaucratic",
+        "persistence": "institutional",
+        "authority": "system",
+        "transmission": "archive",
+        "memory_channel": "institutional",
+        "language_mode": "contractual",
+        "overlays": [
+          "society"
+        ],
+        "confidence": 0.83,
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Dunbar",
+          "Tonnies",
+          "Ostrom",
+          "Douglas"
+        ],
+        "_operator": "structural_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_f39647fd",
+      "case_id": "ronald_cotton",
+      "canonical": true,
+      "dim": "conflict",
+      "rep": 1,
+      "verdicts": {
+        "conflict.schema": "entangled",
+        "conflict.behavior": "suppression",
+        "conflict.terrain": "fringe",
+        "conflict.window": "rationalizing",
+        "conflict.escalation_phase": "exponential"
+      },
+      "confidence": 0.86,
+      "model": "claude-opus-4-8",
+      "block": {
+        "schema": "entangled",
+        "schema_signals": [
+          "authority:sovereign",
+          "structural:layer=global",
+          "resonance:illusion",
+          "utility:narrative"
+        ],
+        "behavior": "suppression",
+        "behavior_signals": [
+          "resonance:illusion",
+          "act_type:assertive",
+          "cooperative:honored"
+        ],
+        "terrain": "fringe",
+        "window": "rationalizing",
+        "escalation_phase": "exponential",
+        "confidence": 0.86,
+        "rationale": "State-sovereign certainty procedures (sincere identification, excluded exculpatory evidence) constitute an entangled terrain where wrongful harm was self-reinforced across two trials and explained as legitimate justice until a structural shift \u2014 DNA \u2014 restored it.",
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Granovetter",
+          "Glasl",
+          "Durkheim",
+          "Bandura"
+        ],
+        "_operator": "conflict_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_f39647fd",
+      "case_id": "ronald_cotton",
+      "canonical": true,
+      "dim": "conflict",
+      "rep": 2,
+      "verdicts": {
+        "conflict.schema": "entangled",
+        "conflict.behavior": "suppression",
+        "conflict.terrain": "fringe",
+        "conflict.window": "rationalizing",
+        "conflict.escalation_phase": "exponential"
+      },
+      "confidence": 0.82,
+      "model": "claude-opus-4-8",
+      "block": {
+        "schema": "entangled",
+        "schema_signals": [
+          "structural=global",
+          "authority=sovereign",
+          "cooperative=honored (maxim violated: none)"
+        ],
+        "behavior": "suppression",
+        "behavior_signals": [
+          "resonance=illusion",
+          "transmission=archive",
+          "utility=narrative"
+        ],
+        "terrain": "fringe",
+        "window": "rationalizing",
+        "escalation_phase": "exponential",
+        "confidence": 0.82,
+        "rationale": "A sincerely honored maxim inside a sovereign archive reveals structural entanglement \u2014 eyewitness-identification procedure, a racial description, and the repeated exclusion of disconfirming evidence \u2014 where false certainty (resonance=illusion) masked ongoing wrongful harm that only a structural shift (DNA) could reverse.",
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Granovetter",
+          "Glasl",
+          "Durkheim",
+          "Bandura"
+        ],
+        "_operator": "conflict_operator.py"
+      }
+    },
+    {
+      "specimen": "inf_f39647fd",
+      "case_id": "ronald_cotton",
+      "canonical": true,
+      "dim": "conflict",
+      "rep": 3,
+      "verdicts": {
+        "conflict.schema": "entangled",
+        "conflict.behavior": "suppression",
+        "conflict.terrain": "fringe",
+        "conflict.window": "rationalizing",
+        "conflict.escalation_phase": "exponential"
+      },
+      "confidence": 0.82,
+      "model": "claude-opus-4-8",
+      "block": {
+        "schema": "entangled",
+        "schema_signals": [
+          "resonance=illusion",
+          "structural=global",
+          "authority=sovereign",
+          "transmission=archive"
+        ],
+        "behavior": "suppression",
+        "behavior_signals": [
+          "resonance=illusion",
+          "cooperative=honored (maxim violated: none)",
+          "act_type=assertive"
+        ],
+        "terrain": "fringe",
+        "window": "rationalizing",
+        "escalation_phase": "exponential",
+        "confidence": 0.82,
+        "rationale": "Sincere eyewitness certainty, state authority, and excluded exculpatory evidence entangle into a self-reinforcing wrongful conviction where harmony of certainty masks ongoing structural harm framed as lawful justice.",
+        "_model": "claude-opus-4-8",
+        "_src": [
+          "Granovetter",
+          "Glasl",
+          "Durkheim",
+          "Bandura"
+        ],
+        "_operator": "conflict_operator.py"
+      }
+    }
+  ]
+}
