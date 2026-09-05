@@ -22,7 +22,7 @@ import argparse
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
-from vivify_core import read_json, write_json, call_and_validate
+from vivify_core import read_json, write_json, call_and_vote
 
 PROMPT = """You are classifying a text unit's position relative to the events it describes.
 
@@ -59,8 +59,8 @@ def run(inference: dict) -> dict:
     if not text:
         return inference
 
-    result = call_and_validate(PROMPT.format(text=text), "act_position",
-                               capability="logos_operator", sensitive=True)
+    result = call_and_vote(PROMPT.format(text=text), "act_position",
+                           capability="logos_operator", sensitive=True)
     return parse(result, inference)
 
 
@@ -75,6 +75,7 @@ def parse(result: dict, inference: dict) -> dict:
         "rationale":  result.get("rationale"),
         "confidence": result.get("confidence"),
         "_model":     result.get("_model"),
+        "_votes":     result.get("_votes"),
         "_src":       ["round_trip loss test 2026-07-13"],
         "_operator":  "act_position_operator.py"
     }

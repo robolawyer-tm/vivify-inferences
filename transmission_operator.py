@@ -15,7 +15,7 @@ import argparse
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
-from vivify_core import read_json, write_json, resolve_model, call_and_validate
+from vivify_core import read_json, write_json, resolve_model, call_and_vote
 
 PROMPT = """You are classifying the transmission channel of a text unit — how the
 communication moves through the social field, not what it says.
@@ -46,8 +46,8 @@ def run(inference: dict) -> dict:
     if not text:
         return inference
 
-    result = call_and_validate(PROMPT.format(text=text), "transmission",
-                               capability="logos_operator", sensitive=True)
+    result = call_and_vote(PROMPT.format(text=text), "transmission",
+                           capability="logos_operator", sensitive=True)
     return parse(result, inference)
 
 
@@ -62,6 +62,7 @@ def parse(result: dict, inference: dict) -> dict:
         "rationale":  result.get("rationale"),
         "confidence": result.get("confidence"),
         "_model":     result.get("_model"),
+        "_votes":     result.get("_votes"),
         "_src":       ["Logos Core Tree"],
         "_operator":  "transmission_operator.py"
     }

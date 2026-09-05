@@ -147,8 +147,13 @@ try:
 finally:
     logos_fused.llm_call_model = original
 
-check("fused call used the overridden model",
-      transport.models == ["claude-fable-5"], transport.models)
+# repeat-and-vote (2026-09-03) makes the fused path take VIVIFY_VOTES draws, so the
+# check is that EVERY draw used the overridden model, not that there was exactly one.
+check("every fused draw used the overridden model",
+      set(transport.models) == {"claude-fable-5"}, transport.models)
+check("fused path took the configured number of draws",
+      len(transport.models) == vivify_core._vote_count(),
+      f"{len(transport.models)} draws, VIVIFY_VOTES={vivify_core._vote_count()}")
 stamped = [key for key, _mod in logos_fused.LOGOS_DIMS
            if tagged["logos"].get(key, {}).get("_model") == "claude-fable-5"]
 check("all 8 dimensions carry _model", len(stamped) == 8,
@@ -191,3 +196,4 @@ if failures:
 print("All model-provenance checks passed.")
 
 # llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/tests/test_model_provenance.py | created — VIVIFY_MODEL_OVERRIDE bare/scoped/malformed forms, _model stamp through call_and_validate + operator parse + fused path + right_pass
+# llm: claude-opus-5 | 2026-09-05 | repos/vivify-operators/tests/test_model_provenance.py | fused assertion updated for repeat-and-vote: every draw must use the overridden model, and the draw count must equal VIVIFY_VOTES (was: exactly one call)

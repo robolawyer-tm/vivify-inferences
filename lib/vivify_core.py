@@ -6,7 +6,7 @@ key paths without requiring a predefined schema. Structure emerges from data.
 """
 
 import json
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 
 
@@ -584,6 +584,107 @@ def validate_coordinates(result, operator, config_dir="config"):
     return result
 
 
+def _vote_count():
+    """How many draws a voted call takes. VIVIFY_VOTES, default 3; 1 disables voting.
+
+    Three is the smallest count that can produce a majority. Measured on the legal
+    corpus (inferences/session_stability.md): single draws gave predicted_tension a
+    0.607 spread on one case; majority-of-three collapses it to 0.034.
+    """
+    import os
+    raw = os.environ.get("VIVIFY_VOTES", "3")
+    try:
+        return max(1, int(raw))
+    except ValueError:
+        return 3
+
+
+def categorical_signature(result, operator, config_dir="config"):
+    """A draw's categorical identity: its declared enum fields, as a sortable tuple.
+
+    Only enum fields count. Prose and confidence churn on every call (measured: free
+    text never repeats across identical-input runs) and would make every draw unique,
+    so voting on them would be voting on noise.
+    """
+    spec = _load_coordinates(config_dir).get("operators", {}).get(operator, {})
+    return tuple(sorted((f, result.get(f)) for f in spec.get("enums", {})))
+
+
+def modal_choice(draws, signature_of):
+    """Pick the most typical draw. Returns (index, vote record).
+
+    The winner is a draw that ACTUALLY OCCURRED, chosen by modal signature — not a
+    field-wise assembly of the most popular value for each field independently.
+    Field-wise assembly can synthesise a combination no draw produced: the legal
+    re-read caught `cooperative` returning status=honored with a maxim named, which
+    is individually legal and jointly incoherent, and assembly would manufacture
+    exactly that class of result. Choosing a real draw keeps each block internally
+    consistent.
+
+    Ties, and the case where no signature repeats at all, fall back to the draw that
+    agrees most often with the field-wise plurality — still a real draw, just the
+    most central one.
+    """
+    sigs = [signature_of(d) for d in draws]
+    counts = Counter(sigs)
+    top, agreed = counts.most_common(1)[0]
+    if agreed == 1 and len(draws) > 1:
+        fields = {f for s in sigs for f, _ in s}
+        modes = {f: Counter(dict(s).get(f) for s in sigs).most_common(1)[0][0]
+                 for f in fields}
+        scores = [sum(1 for f, v in s if modes.get(f) == v) for s in sigs]
+        idx = scores.index(max(scores))
+        top, agreed = sigs[idx], counts[sigs[idx]]
+    # str() the distribution keys: a value may be None, which JSON cannot use as a key
+    distribution = {f: dict(Counter(str(dict(s).get(f)) for s in sigs))
+                    for f in {f for s in sigs for f, _ in s}}
+    return sigs.index(top), {"n": len(draws), "agreed": agreed,
+                             "unanimous": agreed == len(draws),
+                             "distribution": distribution}
+
+
+def call_and_vote(prompt, operator, capability="default", sensitive=False,
+                  params=None, retries=2, config_dir="config", votes=None):
+    """Take several independent draws and store the modal one, with the spread.
+
+    The operator entry point. Sits ON TOP of call_and_validate, which keeps its own
+    job: retrying output that is INVALID. This handles the different problem of
+    output that is valid but not reproducible — measured across two sessions of the
+    legal corpus, where 4 of 36 stored coordinates flipped outright and 6 more split
+    within a single session, all between legal enum values that no gate can reject.
+
+    - votes defaults to VIVIFY_VOTES (3); votes=1 is exactly call_and_validate.
+    - A draw that fails validation after its own retries is dropped, not fatal —
+      the vote proceeds on the draws that survived. Only if EVERY draw fails does
+      the last error propagate, so the caller still quarantines as before.
+    - The winner carries `_votes`: n, agreed, unanimous, and the per-field
+      distribution. A coordinate is now stored WITH its spread, so a later reader
+      can see whether it was 3/3 or 2/1 rather than inferring stability from a
+      point value.
+    """
+    votes = _vote_count() if votes is None else max(1, votes)
+    if votes == 1:
+        return call_and_validate(prompt, operator, capability, sensitive,
+                                 params, retries, config_dir)
+
+    draws, last_err = [], None
+    for _ in range(votes):
+        try:
+            draws.append(call_and_validate(prompt, operator, capability, sensitive,
+                                           params, retries, config_dir))
+        except (CoordinateValidationError, json.JSONDecodeError) as e:
+            last_err = e
+    if not draws:
+        raise last_err
+
+    idx, record = modal_choice(
+        draws, lambda d: categorical_signature(d, operator, config_dir))
+    record["quarantined"] = votes - len(draws)
+    winner = draws[idx]
+    winner["_votes"] = record
+    return winner
+
+
 def call_and_validate(prompt, operator, capability="default", sensitive=False,
                       params=None, retries=2, config_dir="config"):
     """Call an LLM, parse and validate its output, retrying on invalid/malformed
@@ -707,3 +808,4 @@ if __name__ == "__main__":
 # llm: claude-opus-4-8 | 2026-06-24 | repos/vivify-operators/lib/vivify_core.py | added call_and_validate() — retries CoordinateValidationError/JSONDecodeError (temp bump on retry) before fail-closing, so a recoverable small-model miss isn't dropped as a missing dimension; LLMUnavailable still propagates
 # llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/lib/vivify_core.py | VIVIFY_MODEL_OVERRIDE (bare = all capabilities, scoped = capability=model pairs) via model_override(); call_and_validate resolves the model once, calls llm_call_model directly, stamps result["_model"]
 # llm: claude-opus-5 | 2026-08-27 | repos/vivify-operators/lib/vivify_core.py | _config_path(): relative config_dir now anchors to the repo root, not the cwd — fixes silent model downgrade to the hardcoded default AND a silently disabled coordinate enum gate when run from any other directory
+# llm: claude-opus-5 | 2026-09-03 | repos/vivify-operators/lib/vivify_core.py | repeat-and-vote: call_and_vote() takes VIVIFY_VOTES draws (default 3) and stores the MODAL one plus its per-field spread in _votes; modal-signature not field-wise assembly, so the stored block is always a draw that really occurred; call_and_validate unchanged underneath (it still owns retry-on-invalid)

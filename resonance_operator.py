@@ -15,7 +15,7 @@ import argparse
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
-from vivify_core import read_json, write_json, resolve_model, call_and_validate
+from vivify_core import read_json, write_json, resolve_model, call_and_vote
 
 PROMPT = """You are classifying the emotional field resonance of a text unit — the
 affective state the communication carries or creates in the local social environment.
@@ -49,8 +49,8 @@ def run(inference: dict) -> dict:
     if not text:
         return inference
 
-    result = call_and_validate(PROMPT.format(text=text), "resonance",
-                               capability="logos_operator", sensitive=True)
+    result = call_and_vote(PROMPT.format(text=text), "resonance",
+                           capability="logos_operator", sensitive=True)
     return parse(result, inference)
 
 
@@ -66,6 +66,7 @@ def parse(result: dict, inference: dict) -> dict:
         "underlying": result.get("underlying"),
         "confidence": result.get("confidence"),
         "_model":     result.get("_model"),
+        "_votes":     result.get("_votes"),
         "_src":       ["Logos Core Tree", "Machin"],
         "_operator":  "resonance_operator.py"
     }

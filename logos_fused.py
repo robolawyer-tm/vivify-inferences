@@ -28,7 +28,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
 from vivify_core import (read_json, write_json, llm_call_model, resolve_model,
                          extract_json, validate_coordinates,
-                         CoordinateValidationError, LLMUnavailable)
+                         CoordinateValidationError, LLMUnavailable,
+                         categorical_signature, modal_choice, _vote_count)
 
 import act_type_operator
 import cooperative_operator
@@ -183,6 +184,47 @@ def _fused_call(prompt, retries=2):
     raise last_err
 
 
+def _fused_vote(prompt, retries=2, votes=None):
+    """Take several fused draws and keep the modal block for EACH dimension.
+
+    Voting is per-dimension, not over the whole fused result. The eight logos
+    dimensions are independent — every one reads only raw_text and writes its own
+    key (verified in source by the order-dependence experiment) — so a wobble in
+    one must not discard the other seven's agreement. Each dimension's winner is
+    still a block that really occurred in some draw, keeping value, confidence and
+    prose mutually coherent within that dimension.
+
+    This is the path the field runs actually use, so it is the one that has to
+    carry the fix: the 2026-09-03 legal re-read that found 4 flipped and 6 split
+    coordinates was measuring blocks this function produced.
+
+    A draw that fails validation after its own retries is dropped and the vote
+    proceeds on the survivors; only if every draw fails does the error propagate.
+    """
+    votes = _vote_count() if votes is None else max(1, votes)
+    if votes == 1:
+        return _fused_call(prompt, retries=retries)
+
+    draws, last_err = [], None
+    for _ in range(votes):
+        try:
+            draws.append(_fused_call(prompt, retries=retries))
+        except (CoordinateValidationError, json.JSONDecodeError) as e:
+            last_err = e
+    if not draws:
+        raise last_err
+
+    winner = {}
+    for key, _mod in LOGOS_DIMS:
+        blocks = [d[key] for d in draws]
+        idx, record = modal_choice(
+            blocks, lambda b, k=key: categorical_signature(b, k, CONFIG))
+        record["quarantined"] = votes - len(draws)
+        winner[key] = dict(blocks[idx])
+        winner[key]["_votes"] = record
+    return winner
+
+
 def run(inference: dict, retries=2) -> dict:
     """Attach all 8 logos dimensions to an inference in a single LLM call.
 
@@ -198,7 +240,7 @@ def run(inference: dict, retries=2) -> dict:
 
     prompt = PROMPT_TEMPLATE.replace("<<TEXT>>", text).replace(
         "<<CONTEXT>>", str(inference.get("context", "none")))
-    result = _fused_call(prompt, retries=retries)
+    result = _fused_vote(prompt, retries=retries)
 
     for key, module in LOGOS_DIMS:
         module.parse(result[key], inference)
@@ -247,3 +289,4 @@ if __name__ == "__main__":
 # llm: claude-opus-4-8 | 2026-06-24 | repos/vivify-operators/logos_fused.py | created — fused logos pass: all 8 independent logos dimensions in ONE claude -p call (8->1, raw_text sent once) for in-plan throughput; enums injected from coordinates.json, mapping reused from each operator's parse(), one-call validate+retry loop; conflict stays a separate pass
 # llm: claude-opus-4-8 | 2026-06-29 | repos/vivify-operators/logos_fused.py | run() now clears stale per-dimension _errors for the 8 dims it re-tags on a successful pass (prevents an old per-operator error from wedging logos_complete forever)
 # llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/logos_fused.py | fused path stamps _model on all 8 blocks before parse() (the per-operator path got it from call_and_validate; the fused path is what field runs use)
+# llm: claude-opus-5 | 2026-09-03 | repos/vivify-operators/logos_fused.py | repeat-and-vote on the fused path: _fused_vote() takes VIVIFY_VOTES draws and keeps the modal block PER DIMENSION (the 8 dims are independent, so one wobble must not discard the others' agreement); each block carries its _votes spread

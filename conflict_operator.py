@@ -16,7 +16,7 @@ import argparse
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
-from vivify_core import read_json, write_json, call_and_validate, LLMUnavailable
+from vivify_core import read_json, write_json, call_and_vote, LLMUnavailable
 
 PROMPT = """You are reading logos coordinates already attached to an inference and
 identifying structural conflict signals. Causation is structural, not individual —
@@ -115,7 +115,7 @@ def run(inference: dict) -> dict:
     sf = logos.get("social_field", {})
     struct = logos.get("structural", {})
 
-    result = call_and_validate(
+    result = call_and_vote(
         PROMPT.format(
             act_type=act,
             cooperative=coop.get("status", "unknown"),
@@ -148,6 +148,7 @@ def run(inference: dict) -> dict:
         "confidence":       result.get("confidence"),
         "rationale":        result.get("rationale"),
         "_model":           result.get("_model"),
+        "_votes":           result.get("_votes"),
         "_src":             ["Granovetter", "Glasl", "Durkheim", "Bandura"],
         "_operator":        "conflict_operator.py",
     })

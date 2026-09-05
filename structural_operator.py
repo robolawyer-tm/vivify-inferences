@@ -16,7 +16,7 @@ import argparse
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
-from vivify_core import read_json, write_json, call_and_validate
+from vivify_core import read_json, write_json, call_and_vote
 
 # The canonical scale axis (logos_combined_v01.json#structural). scale == layer by
 # design. Smaller models sometimes leak a value from another axis (e.g. the density
@@ -70,7 +70,7 @@ def run(inference: dict) -> dict:
     if not text:
         return inference
 
-    result = call_and_validate(
+    result = call_and_vote(
         PROMPT.format(
             raw_text=text,
             context=inference.get("context", "none"),
@@ -108,6 +108,7 @@ def parse(result: dict, inference: dict) -> dict:
         "overlays":       result.get("overlays", []),
         "confidence":     result.get("confidence"),
         "_model":         result.get("_model"),
+        "_votes":         result.get("_votes"),
         "_src":           ["Dunbar", "Tonnies", "Ostrom", "Douglas"],
         "_operator":      "structural_operator.py",
     }

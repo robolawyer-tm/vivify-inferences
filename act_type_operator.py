@@ -15,7 +15,7 @@ import argparse
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
-from vivify_core import read_json, write_json, resolve_model, call_and_validate
+from vivify_core import read_json, write_json, resolve_model, call_and_vote
 
 SCHEMA_PATH = Path(__file__).parent.parent / "pillars/logos/logos_schema_v01.json"
 
@@ -52,8 +52,8 @@ def run(inference: dict) -> dict:
     if not text:
         return inference
 
-    result = call_and_validate(PROMPT.format(text=text), "act_type",
-                               capability="logos_operator", sensitive=True)
+    result = call_and_vote(PROMPT.format(text=text), "act_type",
+                           capability="logos_operator", sensitive=True)
     return parse(result, inference)
 
 
@@ -69,6 +69,7 @@ def parse(result: dict, inference: dict) -> dict:
         "rationale":          result.get("rationale"),
         "confidence":         result.get("confidence"),
         "_model":             result.get("_model"),
+        "_votes":             result.get("_votes"),
         "_src":               ["Austin", "Searle"],
         "_operator":          "act_type_operator.py"
     }
