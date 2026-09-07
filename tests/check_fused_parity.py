@@ -36,7 +36,8 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
-from vivify_core import read_json, resolve_model, LLMUnavailable, _vote_count
+from vivify_core import (read_json, resolve_model, LLMUnavailable, PrivacyGateError,
+                         _vote_count)
 
 import logos_operator
 import logos_fused
@@ -120,6 +121,13 @@ def main():
         try:
             po = [flatten(logos_operator.run(copy.deepcopy(ref))) for _ in range(2)]
             fu = [flatten(logos_fused.run(copy.deepcopy(ref))) for _ in range(2)]
+        except PrivacyGateError:
+            # Exit 2, distinct from both outcomes: this is "could not run", not
+            # "ran and passed" (0) or "ran and found divergence" (1). Never green.
+            print("\n    COULD NOT RUN: the privacy gate blocked the call.")
+            print("    This check makes real LLM calls on public inferences. Re-run as:")
+            print("      PRIVACY_GATE=off VIVIFY_VOTES=1 python3 tests/check_fused_parity.py")
+            sys.exit(2)
         except LLMUnavailable as e:
             print(f"\n    LLM unavailable (quota/auth?): {e}")
             print("    Stopping — re-run in the next window.\n")
@@ -196,3 +204,4 @@ if __name__ == "__main__":
 # llm: claude-opus-5 | 2026-09-06 | repos/vivify-operators/tests/check_fused_parity.py | fixed a vacuous check: the three hardcoded refs went stale in the July store reorg, read_json returned {} for each, and the run exited 0 having compared nothing. Refs now selected at runtime (public, >=200 chars raw_text); zero comparisons exits 1
 # llm: claude-opus-5 | 2026-09-06 | repos/vivify-operators/tests/check_fused_parity.py | added structural.scale to the compared fields, and a SAME-PATH CONTROL (each path run twice) — without it a single cross-path diff attributes sampling noise to fusion, the false positive the order-dependence experiment documented
 # llm: claude-opus-5 | 2026-09-06 | repos/vivify-operators/tests/check_fused_parity.py | verdict now counts PATH-DIVERGENT fields (differ in all 4 cross pairings while stable within each path) instead of comparing means — the mean criterion returned a false negative on its first real run, pooling away authority.value and utility.value which diverged systematically
+# llm: claude-opus-5 | 2026-09-06 | repos/vivify-operators/tests/check_fused_parity.py | PrivacyGateError now exits 2 with an explicit re-run line — 'could not run' is a third outcome, distinct from pass (0) and divergence-found (1), and must never read as green

@@ -27,10 +27,19 @@ JSONLD_FILE = INFERENCES_DIR / "discovery.jsonld"
 
 
 def discover_domains(inferences_dir):
-    """Return domain names — immediate subdirs of inferences/ holding inf_*.json."""
+    """Return domain names — immediate subdirs of inferences/ holding inf_*.json
+    at ANY depth.
+
+    rglob, not glob: only `field` stores its inferences flat. logos, pillars and
+    claude_code_sessions use the seed/sub nesting restored 2026-07-14 (one home per
+    inference, flat root = inbox), so a direct-children glob found nothing in them
+    and dropped three of four domains from the index entirely. global_stats already
+    used rglob, which is why total_inferences stayed correct while the per-domain
+    blocks did not — the inconsistency that hid this.
+    """
     return [
         d.name for d in sorted(Path(inferences_dir).iterdir())
-        if d.is_dir() and any(d.glob("inf_*.json"))
+        if d.is_dir() and any(d.rglob("inf_*.json"))
     ]
 
 
@@ -73,7 +82,9 @@ def build(inferences_dir=None, recategorize=True, voices=False, dry_run=False):
             categorize_all(ddir)
         cats = (read_json(ddir / "index.json").get("categories") or {})
         block = {
-            "count": len(list(ddir.glob("inf_*.json"))),
+            # rglob for the same reason as discover_domains — a direct glob reported
+            # claude_code_sessions as 0 inferences when it holds 53.
+            "count": len(list(ddir.rglob("inf_*.json"))),
             "tree": cats.get("tree", {}),
             "paths": cats.get("paths", {}),
         }
@@ -218,3 +229,4 @@ if __name__ == "__main__":
 # llm: claude-opus-4-8 | 2026-06-26 | repos/vivify-inferences/build_index.py | created — global roll-up index: corpus-wide stats + per-domain category trees nested under domains key
 # llm: claude-opus-4-8 | 2026-06-26 | repos/vivify-inferences/build_index.py | added --jsonld discovery surface (schema.org DataCatalog from index; private domains excluded)
 # llm: claude-opus-4-8 | 2026-06-28 | repos/vivify-operators/build_index.py | ported from vivify-inferences — global roll-up + JSON-LD discovery surface
+# llm: claude-opus-5 | 2026-09-06 | repos/vivify-operators/build_index.py | discover_domains + per-domain count now rglob, not glob — nested seed/sub domains (logos, pillars, claude_code_sessions) were invisible to domain discovery and counted as 0, so the index and the published discovery surface advertised a corpus of 2 legal inferences and no sessions

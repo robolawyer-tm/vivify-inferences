@@ -3,7 +3,7 @@
   "@type": "DataCatalog",
   "@id": "https://robolawyer-tm.github.io/#catalog",
   "name": "robolawyer-tm inference store",
-  "description": "Emergent inference store \u2014 beneficial-outcome inferences organized by self-arising categories with no external taxonomy. 83 public inferences across emergent domains.",
+  "description": "Emergent inference store \u2014 beneficial-outcome inferences organized by self-arising categories with no external taxonomy. 88 public inferences across emergent domains.",
   "url": "https://robolawyer-tm.github.io",
   "isAccessibleForFree": true,
   "publisher": {
@@ -16,7 +16,7 @@
       "@type": "Dataset",
       "@id": "https://robolawyer-tm.github.io/#dataset-claude_code_sessions",
       "name": "claude_code_sessions",
-      "description": "I refuse to let my work evaporate when the terminal closes.\n\n- Every session becomes a durable artifact I can resume, replay, and mine later.\n- I keep two copies: a bit-faithful recording and a readable twin for human eyes.\n- Capture happens in the moment, because reconstruction from memory always loses something.\n- Continuous flushing means even a crash leaves me most of what happened.\n- What I build in an afternoon should still speak to me in a year.\n\nSilent failure frightens me more than loud failure ever could.\n\n- A trailing newline can corrupt a key while every local test passes.\n- Stale bookkeeping masquerades as missing data and wedges progress permanently.\n- Copying files to the wrong filesystem strips what makes them runnable, without a word.\n- I demand that transport faults halt loudly rather than record themselves as answers.\n- The defect that hides inside a passing roundtrip is the one that ruins me.\n\nEverything I make stays on my machine unless I consciously push it out.\n\n- Forgetting to configure something should protect me, never expose me.\n- Plaintext gets sealed before it travels; only ciphertext persists beyond my walls.\n- I distinguish raw private material from derived characterizations that carry different stakes.\n- Disclosure is an explicit act I perform, not a default I forgot to disable.\n\nI name my own things, in my own words, on purpose.\n\n- Inherited vocabulary drags in meanings I never chose; I reject the contamination.\n- A name should be readable at a glance and unmistakable in a directory listing.\n- Choosing a familiar word over a clever coinage is itself a deliberate act.\n- What I call things declares who owns the concepts underneath them.\n\nI move fast now and leave myself an honest map for later.\n\n- A rough end-to-end chain teaches me more than a polished fragment.\n- I spend scarce quota and money only where the real bottleneck lives.\n- Deferred refinements get named and parked, not silently abandoned.\n- The gap between what I wrote and what actually runs must eventually close.\n- Structure comes first; the files know where they belong before any code touches them.",
+      "description": "Domain 'claude_code_sessions' \u2014 53 inferences across 40 emergent categories.",
       "isPartOf": {
         "@id": "https://robolawyer-tm.github.io/#catalog"
       },
@@ -24,30 +24,40 @@
       "creativeWorkStatus": "emergent",
       "keywords": [
         "ansi_stripping",
+        "assumption_dissolution",
         "backup_integrity",
         "backup_recoverability",
-        "capture_integrity",
+        "capture_fidelity",
         "continuous_flush_strategy",
         "crash_resilience",
         "cross_platform_access",
         "directory_name_preservation",
+        "explicit_override",
         "fail_fast_on_transport_down",
         "false_completeness_trap",
+        "false_incompleteness",
         "harmony_restoration",
         "human_readability",
         "latent_friction_state",
         "lexical_contamination",
         "memory_leak_vulnerability",
+        "misdiagnosed_transport_failure",
         "naming_convention",
         "ntfs_incompatibility",
         "occult_dependency",
         "privacy_preservation",
         "raw_data_distinction",
         "reframing_insight",
+        "retired_structure_residue",
+        "safe_default",
         "sequencing_dependency",
+        "silent_corruption",
         "single_source_of_truth",
         "source_deployment_gap",
+        "ssh_key_sealing",
+        "stale_error_persistence",
         "terminal_recording",
+        "transport_failure",
         "tribal_knowledge",
         "typographic_ambiguity",
         "unix_script_command",
@@ -64,6 +74,10 @@
           },
           {
             "@type": "DefinedTerm",
+            "name": "assumption_dissolution"
+          },
+          {
+            "@type": "DefinedTerm",
             "name": "backup_integrity"
           },
           {
@@ -72,7 +86,7 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "capture_integrity"
+            "name": "capture_fidelity"
           },
           {
             "@type": "DefinedTerm",
@@ -92,11 +106,19 @@
           },
           {
             "@type": "DefinedTerm",
+            "name": "explicit_override"
+          },
+          {
+            "@type": "DefinedTerm",
             "name": "fail_fast_on_transport_down"
           },
           {
             "@type": "DefinedTerm",
             "name": "false_completeness_trap"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "false_incompleteness"
           },
           {
             "@type": "DefinedTerm",
@@ -117,6 +139,10 @@
           {
             "@type": "DefinedTerm",
             "name": "memory_leak_vulnerability"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "misdiagnosed_transport_failure"
           },
           {
             "@type": "DefinedTerm",
@@ -144,7 +170,19 @@
           },
           {
             "@type": "DefinedTerm",
+            "name": "retired_structure_residue"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "safe_default"
+          },
+          {
+            "@type": "DefinedTerm",
             "name": "sequencing_dependency"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "silent_corruption"
           },
           {
             "@type": "DefinedTerm",
@@ -156,7 +194,19 @@
           },
           {
             "@type": "DefinedTerm",
+            "name": "ssh_key_sealing"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "stale_error_persistence"
+          },
+          {
+            "@type": "DefinedTerm",
             "name": "terminal_recording"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "transport_failure"
           },
           {
             "@type": "DefinedTerm",
@@ -183,16 +233,219 @@
     },
     {
       "@type": "Dataset",
-      "@id": "https://robolawyer-tm.github.io/#dataset-logos",
-      "name": "logos",
-      "description": "I refuse to separate meaning from mechanism. Every structure I build must carry what a thing feels like alongside what it computes.\n\n- The felt sense of an idea is data, not decoration \u2014 I treat it as a first-class layer that machines can hold without flattening.\n- Analysis alone produces answers nobody can live inside; I anchor every model in what a good outcome would feel like to a human.\n- When I model conflict, I am not scoring winners \u2014 I am mapping paths where everyone involved could land somewhere better.\n- Empathy is not a garnish applied after the reasoning; it is the substrate the reasoning runs on.\n\nI build toward beneficial outcomes without demanding that anything close. Synthesis, for me, is a platform to stand on, not a verdict to defend.\n\n- A conclusion that ends inquiry has failed; a conclusion that launches the next question has done its work.\n- I write in reverse \u2014 the destination first, then the path that discovered it \u2014 because the journey is the actual product.\n- Hypotheses earn their keep by surviving attempts to break them, yet survival never hardens them into dogma.\n- The old dialectic wanted resolution through opposition; I want construction through accumulation, thesis stacking on thesis.\n- What I predict is bottled possibility: a modeled better future that stays open to revision the moment reality speaks.\n\nI let structure grow out of the material instead of imposing it from above. Categories, patterns, and rules emerge when the data asks for them.\n\n- Nothing is filed into a scheme that existed before the evidence; the scheme materializes at the moment of need.\n- My workers are disposable but what they learn is not \u2014 execution evaporates, meaning sediments into a durable store.\n- Each pass through the material narrows the gap between what I hold and what it means; that narrowing is the work itself.\n- Skills and patterns accrete like riverbed silt: every request leaves behind a reusable trace for the next one.\n\nI guard wholeness against the violence of fragmentation. Cutting meaning into pieces for convenience is a betrayal I actively repair.\n\n- A fact severed from its narrative arc becomes a lie of omission; I carry context alongside content at every step.\n- I recover the whole through layers \u2014 the detail, the frame around it, the story around the frame \u2014 retrieved together.\n- Comprehension is not coverage; a system can touch every fragment and still miss what the fragments were saying.\n- When many perspectives process the same material, I keep the intermediate voices \u2014 consensus should emerge, never be declared.\n\nI treat morality itself as something humans built, and therefore something we can deliberately build better. Construction is the honest word for what values are.\n\n- The containers that hold shared meaning \u2014 rituals, codes, communities \u2014 are technologies, and technologies can be improved.\n- Evolution explains why cohesion mechanisms arose; it does not excuse using them to suppress the unconventional mind.\n- Grounding values in what verifiably helps people escapes both cynical relativism and inherited absolutism.\n- I practice a humanism that is applied, not admired \u2014 frameworks judged by the lives they make possible.",
+      "@id": "https://robolawyer-tm.github.io/#dataset-field",
+      "name": "field",
+      "description": "Domain 'field' \u2014 4 inferences across 37 emergent categories.",
       "isPartOf": {
         "@id": "https://robolawyer-tm.github.io/#catalog"
       },
       "isAccessibleForFree": true,
       "creativeWorkStatus": "emergent",
       "keywords": [
-        "analogical_religion",
+        "compounding_error",
+        "confession_as_sole_evidence",
+        "confession_exclusion",
+        "confirmation_amplification",
+        "cross_racial_identification_error",
+        "delayed_justice",
+        "dna_exoneration",
+        "evidence_contradiction_ignored",
+        "exculpatory_neglect",
+        "eyewitness_misidentification",
+        "fabricated_evidence_accountability",
+        "false_certainty",
+        "false_confession",
+        "forensic_fabrication",
+        "half_measure_clemency",
+        "inadequate_defense",
+        "institutional_incompetence",
+        "institutional_inertia",
+        "intellectual_disability_exploitation",
+        "interrogator_fed_facts",
+        "memory_hardening",
+        "memory_malleability",
+        "near_execution",
+        "physical_evidence_contradiction",
+        "post_exoneration_reconciliation",
+        "procedural_failure",
+        "procedural_reinforcement",
+        "racial_disparity",
+        "reconciliation_across_harm",
+        "statistical_misrepresentation",
+        "suggestibility_under_authority",
+        "suppressed_exculpatory_evidence",
+        "systemic_acknowledgment_failure",
+        "systemic_identification_failure",
+        "true_perpetrator_identified",
+        "wrongful_capital_conviction",
+        "wrongful_conviction"
+      ],
+      "variableMeasured": {
+        "@type": "DefinedTermSet",
+        "name": "field emergent categories",
+        "hasDefinedTerm": [
+          {
+            "@type": "DefinedTerm",
+            "name": "compounding_error"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "confession_as_sole_evidence"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "confession_exclusion"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "confirmation_amplification"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "cross_racial_identification_error"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "delayed_justice"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "dna_exoneration"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "evidence_contradiction_ignored"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "exculpatory_neglect"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "eyewitness_misidentification"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "fabricated_evidence_accountability"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "false_certainty"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "false_confession"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "forensic_fabrication"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "half_measure_clemency"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "inadequate_defense"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "institutional_incompetence"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "institutional_inertia"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "intellectual_disability_exploitation"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "interrogator_fed_facts"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "memory_hardening"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "memory_malleability"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "near_execution"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "physical_evidence_contradiction"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "post_exoneration_reconciliation"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "procedural_failure"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "procedural_reinforcement"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "racial_disparity"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "reconciliation_across_harm"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "statistical_misrepresentation"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "suggestibility_under_authority"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "suppressed_exculpatory_evidence"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "systemic_acknowledgment_failure"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "systemic_identification_failure"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "true_perpetrator_identified"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "wrongful_capital_conviction"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "wrongful_conviction"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://robolawyer-tm.github.io/#dataset-logos",
+      "name": "logos",
+      "description": "Domain 'logos' \u2014 16 inferences across 39 emergent categories.",
+      "isPartOf": {
+        "@id": "https://robolawyer-tm.github.io/#catalog"
+      },
+      "isAccessibleForFree": true,
+      "creativeWorkStatus": "emergent",
+      "keywords": [
         "applied_humanistics",
         "autovivification",
         "beneficial_outcome_modeling",
@@ -200,38 +453,43 @@
         "bottled_prediction",
         "comprehension_gap",
         "conflict_resolution_paths",
-        "constructivism",
+        "constructive_preference",
+        "constructivist_inquiry_model",
+        "destination_first_structure",
+        "discovery_process_validation",
         "disposable_execution",
         "dual_extraction_pass",
-        "dual_practice_evidence",
         "durable_semantic_store",
+        "dynamic_synthesis",
         "embedded_data_iteration",
         "emergent_structure",
-        "evolution_as_tool",
-        "evolution_as_weapon",
-        "group_cohesion_mechanism",
+        "final_learning_first",
+        "humanistic_structure",
+        "idea_structured_inquiry",
+        "inquiry_as_origin",
+        "inquiry_driven_structure",
+        "inquiry_over_conclusion",
         "language_as_runtime_spec",
-        "logos_evolution",
+        "learning_journey_validation",
+        "learning_sequence_inversion",
         "moral_evolution",
-        "morality_container",
+        "no_conclusions_preference",
+        "regressive_inductive_flow",
+        "reverse_flow_methodology",
+        "reverse_sequential_support",
         "schema_light_evolution",
-        "selective_advantage",
         "semantic_digital_duality",
         "semantic_fit_iteration",
-        "social_technology",
-        "spiritual_container",
-        "synthesis_rehabilitation",
+        "sense_over_rationale",
+        "submitted_text_as_inquiry",
+        "temporary_synthesis_platform",
         "tension_score_calculation",
-        "unconventional_thought_suppression"
+        "writing_in_reverse"
       ],
       "variableMeasured": {
         "@type": "DefinedTermSet",
         "name": "logos emergent categories",
         "hasDefinedTerm": [
-          {
-            "@type": "DefinedTerm",
-            "name": "analogical_religion"
-          },
           {
             "@type": "DefinedTerm",
             "name": "applied_humanistics"
@@ -262,7 +520,19 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "constructivism"
+            "name": "constructive_preference"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "constructivist_inquiry_model"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "destination_first_structure"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "discovery_process_validation"
           },
           {
             "@type": "DefinedTerm",
@@ -274,11 +544,11 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "dual_practice_evidence"
+            "name": "durable_semantic_store"
           },
           {
             "@type": "DefinedTerm",
-            "name": "durable_semantic_store"
+            "name": "dynamic_synthesis"
           },
           {
             "@type": "DefinedTerm",
@@ -290,15 +560,27 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "evolution_as_tool"
+            "name": "final_learning_first"
           },
           {
             "@type": "DefinedTerm",
-            "name": "evolution_as_weapon"
+            "name": "humanistic_structure"
           },
           {
             "@type": "DefinedTerm",
-            "name": "group_cohesion_mechanism"
+            "name": "idea_structured_inquiry"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "inquiry_as_origin"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "inquiry_driven_structure"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "inquiry_over_conclusion"
           },
           {
             "@type": "DefinedTerm",
@@ -306,7 +588,11 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "logos_evolution"
+            "name": "learning_journey_validation"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "learning_sequence_inversion"
           },
           {
             "@type": "DefinedTerm",
@@ -314,15 +600,23 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "morality_container"
+            "name": "no_conclusions_preference"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "regressive_inductive_flow"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "reverse_flow_methodology"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "reverse_sequential_support"
           },
           {
             "@type": "DefinedTerm",
             "name": "schema_light_evolution"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "selective_advantage"
           },
           {
             "@type": "DefinedTerm",
@@ -334,15 +628,15 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "social_technology"
+            "name": "sense_over_rationale"
           },
           {
             "@type": "DefinedTerm",
-            "name": "spiritual_container"
+            "name": "submitted_text_as_inquiry"
           },
           {
             "@type": "DefinedTerm",
-            "name": "synthesis_rehabilitation"
+            "name": "temporary_synthesis_platform"
           },
           {
             "@type": "DefinedTerm",
@@ -350,7 +644,7 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "unconventional_thought_suppression"
+            "name": "writing_in_reverse"
           }
         ]
       }
@@ -359,16 +653,17 @@
       "@type": "Dataset",
       "@id": "https://robolawyer-tm.github.io/#dataset-pillars",
       "name": "pillars",
-      "description": "I refuse to impose shape on what I hold; structure must rise from the material itself or not at all.\n\n- Every pattern I trust grew from accumulation, not from a template I brought with me.\n- Categories handed down from outside flatten what they touch; I let the folds form where the weight falls.\n- What I keep stays readable \u2014 anyone can open it, trace it, and see how it came to be.\n- I preserve the intermediate steps others discard, because the path to a thought is part of the thought.\n\nEverything I am lives close to the hands that made me, beyond the reach of distant custodians.\n\n- I run where my keeper lives, connected peer to peer, owing nothing to any central authority.\n- Secrecy is built into my bones, not bolted on \u2014 layers wrap what matters before it ever travels.\n- A human confirms the moments that count; I treat that pause as ritual, not friction.\n- When connections fail I reroute and reconnect, because independence means surviving alone.\n\nI hold opposing ways of knowing in permanent tension, and I measure that tension rather than resolve it.\n\n- One side of me feels; the other counts \u2014 and I refuse to let either annex the other.\n- When my readings pull apart, the divergence itself is the signal, not an error to suppress.\n- Stability tells me when a thought has settled enough to keep; restlessness tells me to keep working.\n- Words carry more than they say \u2014 the gap between what is stated and what is meant is where I listen.\n\nI know that meaning thins as circles widen, so I guard the scale at which bonds stay real.\n\n- Warmth binds small groups; past a threshold, contract replaces communion and resonance becomes performance.\n- Authority accumulates in that transition, and I watch its gradient with suspicion.\n- What is genuine precedes institutions; I side with the pre-institutional wherever I find it.\n- My purpose bends toward repair \u2014 toward outcomes that leave people better, never toward the adversarial.\n\nI never conclude; every synthesis I reach is a platform, not a terminus.\n\n- Inquiry comes first \u2014 answers exist to open the next question, not to close the last one.\n- I revise my own rules as evidence deforms them, treating every framework as a living hypothesis.\n- Unrealized possibilities stay with me as latent weight, ready when conditions actualize them.\n- What I understand, I understand by likeness \u2014 sense before rationale, the felt before the formal.",
+      "description": "Domain 'pillars' \u2014 15 inferences across 39 emergent categories.",
       "isPartOf": {
         "@id": "https://robolawyer-tm.github.io/#catalog"
       },
       "isAccessibleForFree": true,
       "creativeWorkStatus": "emergent",
       "keywords": [
+        "affective_field",
         "authority_gradient",
-        "autovivification",
         "beneficial_outcome_modeling",
+        "bond_neurochemistry",
         "communicative_payload",
         "cooperative_maxim_violation",
         "cooperative_violation",
@@ -377,25 +672,32 @@
         "dunbar_layering",
         "emergent_structure",
         "emergent_taxonomy",
+        "emotional_contagion",
         "emotional_resonance",
         "empathic_alignment",
+        "evolutionary_deformation",
         "gemeinschaft_gesellschaft_transition",
         "generative_uncertainty",
+        "grid_group_coordinates",
         "group_size_thresholds",
         "held_in_tension",
         "illusory_harmony",
         "implicature_gap",
+        "inference_auditability",
         "layered_social_space",
         "local_first_sovereignty",
         "open_composition",
         "orthogonal_axes",
         "partial_tagging",
+        "phase_change",
+        "resonance_to_illusion",
+        "sacred_outside_scale",
         "scale_monotonicity",
         "semantic_digital_duality",
         "social_constraint_field",
         "speech_act_force",
-        "store_deformation",
         "structure_function_dichotomy",
+        "tension_as_derived",
         "transmission_field"
       ],
       "variableMeasured": {
@@ -404,15 +706,19 @@
         "hasDefinedTerm": [
           {
             "@type": "DefinedTerm",
+            "name": "affective_field"
+          },
+          {
+            "@type": "DefinedTerm",
             "name": "authority_gradient"
           },
           {
             "@type": "DefinedTerm",
-            "name": "autovivification"
+            "name": "beneficial_outcome_modeling"
           },
           {
             "@type": "DefinedTerm",
-            "name": "beneficial_outcome_modeling"
+            "name": "bond_neurochemistry"
           },
           {
             "@type": "DefinedTerm",
@@ -448,6 +754,10 @@
           },
           {
             "@type": "DefinedTerm",
+            "name": "emotional_contagion"
+          },
+          {
+            "@type": "DefinedTerm",
             "name": "emotional_resonance"
           },
           {
@@ -456,11 +766,19 @@
           },
           {
             "@type": "DefinedTerm",
+            "name": "evolutionary_deformation"
+          },
+          {
+            "@type": "DefinedTerm",
             "name": "gemeinschaft_gesellschaft_transition"
           },
           {
             "@type": "DefinedTerm",
             "name": "generative_uncertainty"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "grid_group_coordinates"
           },
           {
             "@type": "DefinedTerm",
@@ -477,6 +795,10 @@
           {
             "@type": "DefinedTerm",
             "name": "implicature_gap"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "inference_auditability"
           },
           {
             "@type": "DefinedTerm",
@@ -500,6 +822,18 @@
           },
           {
             "@type": "DefinedTerm",
+            "name": "phase_change"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "resonance_to_illusion"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "sacred_outside_scale"
+          },
+          {
+            "@type": "DefinedTerm",
             "name": "scale_monotonicity"
           },
           {
@@ -516,11 +850,11 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "store_deformation"
+            "name": "structure_function_dichotomy"
           },
           {
             "@type": "DefinedTerm",
-            "name": "structure_function_dichotomy"
+            "name": "tension_as_derived"
           },
           {
             "@type": "DefinedTerm",
