@@ -1,420 +1,1046 @@
 {
-  "_meta": {
-    "run": "2026-09-05T15:25:53.478468+00:00",
-    "votes": 3,
-    "compared_to": "VOTED_2026_09_03 (session 2, also voted)",
-    "voted_vs_voted": {
-      "agree": 20,
-      "differ": 0
+  "runs": [
+    {
+      "_meta": {
+        "run": "2026-09-05T15:25:53.478468+00:00",
+        "votes": 3,
+        "compared_to": "VOTED_2026_09_03 (session 2, also voted)",
+        "voted_vs_voted": {
+          "agree": 20,
+          "differ": 0
+        }
+      },
+      "results": {
+        "inf_0f31de7a": {
+          "structural": {
+            "verdict": "institution",
+            "agreed": "2/3",
+            "distribution": {
+              "memory_channel": {
+                "institutional": 2,
+                "global": 1
+              },
+              "scale": {
+                "institution": 2,
+                "global": 1
+              },
+              "authority": {
+                "system": 2,
+                "formal": 1
+              },
+              "language_mode": {
+                "contractual": 2,
+                "formalized": 1
+              },
+              "persistence": {
+                "institutional": 2,
+                "durable": 1
+              },
+              "density": {
+                "bureaucratic": 2,
+                "archival": 1
+              },
+              "transmission": {
+                "archive": 3
+              }
+            }
+          },
+          "resonance": {
+            "verdict": "illusion",
+            "agreed": "3/3",
+            "distribution": {
+              "resonance": {
+                "illusion": 3
+              }
+            }
+          },
+          "cooperative": {
+            "verdict": "honored/None",
+            "agreed": "3/3",
+            "distribution": {
+              "status": {
+                "honored": 3
+              },
+              "maxim_violated": {
+                "None": 3
+              }
+            }
+          },
+          "act_type": {
+            "verdict": "assertive",
+            "agreed": "3/3",
+            "distribution": {
+              "act_type": {
+                "assertive": 3
+              }
+            }
+          },
+          "authority": {
+            "verdict": "sovereign",
+            "agreed": "3/3",
+            "distribution": {
+              "authority": {
+                "sovereign": 3
+              }
+            }
+          },
+          "transmission": {
+            "verdict": "archive",
+            "agreed": "3/3",
+            "distribution": {
+              "transmission": {
+                "archive": 3
+              }
+            }
+          },
+          "utility": {
+            "verdict": "narrative",
+            "agreed": "3/3",
+            "distribution": {
+              "utility": {
+                "narrative": 3
+              },
+              "secondary": {
+                "instruction": 3
+              }
+            }
+          },
+          "social_field": {
+            "verdict": null,
+            "agreed": "3/3",
+            "distribution": {
+              "quadrant": {
+                "hierarchical": 3
+              }
+            }
+          }
+        },
+        "inf_285ae7ab": {
+          "structural": {
+            "verdict": "institution",
+            "agreed": "3/3",
+            "distribution": {
+              "memory_channel": {
+                "institutional": 3
+              },
+              "scale": {
+                "institution": 3
+              },
+              "authority": {
+                "system": 3
+              },
+              "language_mode": {
+                "contractual": 3
+              },
+              "persistence": {
+                "institutional": 3
+              },
+              "density": {
+                "bureaucratic": 3
+              },
+              "transmission": {
+                "archive": 3
+              }
+            }
+          },
+          "resonance": {
+            "verdict": "illusion",
+            "agreed": "2/3",
+            "distribution": {
+              "resonance": {
+                "illusion": 2,
+                "friction": 1
+              }
+            }
+          },
+          "cooperative": {
+            "verdict": "honored/None",
+            "agreed": "3/3",
+            "distribution": {
+              "status": {
+                "honored": 3
+              },
+              "maxim_violated": {
+                "None": 3
+              }
+            }
+          },
+          "act_type": {
+            "verdict": "assertive",
+            "agreed": "3/3",
+            "distribution": {
+              "act_type": {
+                "assertive": 3
+              }
+            }
+          },
+          "authority": {
+            "verdict": "sovereign",
+            "agreed": "3/3",
+            "distribution": {
+              "authority": {
+                "sovereign": 3
+              }
+            }
+          },
+          "transmission": {
+            "verdict": "archive",
+            "agreed": "3/3",
+            "distribution": {
+              "transmission": {
+                "archive": 3
+              }
+            }
+          },
+          "utility": {
+            "verdict": "narrative",
+            "agreed": "3/3",
+            "distribution": {
+              "utility": {
+                "narrative": 3
+              },
+              "secondary": {
+                "instruction": 3
+              }
+            }
+          },
+          "social_field": {
+            "verdict": null,
+            "agreed": "3/3",
+            "distribution": {
+              "quadrant": {
+                "hierarchical": 3
+              }
+            }
+          }
+        },
+        "inf_a3d99808": {
+          "structural": {
+            "verdict": "global",
+            "agreed": "2/3",
+            "distribution": {
+              "memory_channel": {
+                "global": 3
+              },
+              "scale": {
+                "global": 3
+              },
+              "authority": {
+                "formal": 3
+              },
+              "language_mode": {
+                "formalized": 3
+              },
+              "persistence": {
+                "durable": 3
+              },
+              "density": {
+                "archival": 3
+              },
+              "transmission": {
+                "archive": 2,
+                "code": 1
+              }
+            }
+          },
+          "resonance": {
+            "verdict": "illusion",
+            "agreed": "2/3",
+            "distribution": {
+              "resonance": {
+                "illusion": 2,
+                "friction": 1
+              }
+            }
+          },
+          "cooperative": {
+            "verdict": "honored/None",
+            "agreed": "3/3",
+            "distribution": {
+              "status": {
+                "honored": 3
+              },
+              "maxim_violated": {
+                "None": 3
+              }
+            }
+          },
+          "act_type": {
+            "verdict": "assertive",
+            "agreed": "3/3",
+            "distribution": {
+              "act_type": {
+                "assertive": 3
+              }
+            }
+          },
+          "authority": {
+            "verdict": "sovereign",
+            "agreed": "3/3",
+            "distribution": {
+              "authority": {
+                "sovereign": 3
+              }
+            }
+          },
+          "transmission": {
+            "verdict": "archive",
+            "agreed": "3/3",
+            "distribution": {
+              "transmission": {
+                "archive": 3
+              }
+            }
+          },
+          "utility": {
+            "verdict": "narrative",
+            "agreed": "3/3",
+            "distribution": {
+              "utility": {
+                "narrative": 3
+              },
+              "secondary": {
+                "instruction": 3
+              }
+            }
+          },
+          "social_field": {
+            "verdict": null,
+            "agreed": "3/3",
+            "distribution": {
+              "quadrant": {
+                "hierarchical": 3
+              }
+            }
+          }
+        },
+        "inf_f39647fd": {
+          "structural": {
+            "verdict": "institution",
+            "agreed": "2/3",
+            "distribution": {
+              "memory_channel": {
+                "global": 1,
+                "institutional": 2
+              },
+              "scale": {
+                "global": 1,
+                "institution": 2
+              },
+              "authority": {
+                "formal": 1,
+                "system": 2
+              },
+              "language_mode": {
+                "formalized": 1,
+                "contractual": 2
+              },
+              "persistence": {
+                "durable": 1,
+                "institutional": 2
+              },
+              "density": {
+                "archival": 1,
+                "bureaucratic": 2
+              },
+              "transmission": {
+                "archive": 3
+              }
+            }
+          },
+          "resonance": {
+            "verdict": "illusion",
+            "agreed": "3/3",
+            "distribution": {
+              "resonance": {
+                "illusion": 3
+              }
+            }
+          },
+          "cooperative": {
+            "verdict": "honored/None",
+            "agreed": "3/3",
+            "distribution": {
+              "status": {
+                "honored": 3
+              },
+              "maxim_violated": {
+                "None": 3
+              }
+            }
+          },
+          "act_type": {
+            "verdict": "assertive",
+            "agreed": "3/3",
+            "distribution": {
+              "act_type": {
+                "assertive": 3
+              }
+            }
+          },
+          "authority": {
+            "verdict": "sovereign",
+            "agreed": "3/3",
+            "distribution": {
+              "authority": {
+                "sovereign": 3
+              }
+            }
+          },
+          "transmission": {
+            "verdict": "archive",
+            "agreed": "3/3",
+            "distribution": {
+              "transmission": {
+                "archive": 3
+              }
+            }
+          },
+          "utility": {
+            "verdict": "narrative",
+            "agreed": "3/3",
+            "distribution": {
+              "utility": {
+                "narrative": 3
+              },
+              "secondary": {
+                "instruction": 3
+              }
+            }
+          },
+          "social_field": {
+            "verdict": null,
+            "agreed": "3/3",
+            "distribution": {
+              "quadrant": {
+                "hierarchical": 3
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "_meta": {
+        "run": "2026-09-07T17:26:24.809347+00:00",
+        "votes": 3,
+        "scope": "logos+conflict+tension",
+        "compared_to": "previous run 2026-09-05T15:25:53.478468+00:00",
+        "voted_vs_voted": {
+          "agree": 27,
+          "differ": 1,
+          "no_baseline": 12,
+          "compared": 28
+        }
+      },
+      "results": {
+        "inf_0f31de7a": {
+          "logos.structural": {
+            "verdict": "global",
+            "agreed": "2/3",
+            "distribution": {
+              "transmission": {
+                "archive": 3
+              },
+              "persistence": {
+                "durable": 2,
+                "institutional": 1
+              },
+              "authority": {
+                "formal": 2,
+                "system": 1
+              },
+              "scale": {
+                "global": 2,
+                "institution": 1
+              },
+              "memory_channel": {
+                "global": 2,
+                "institutional": 1
+              },
+              "language_mode": {
+                "formalized": 2,
+                "contractual": 1
+              },
+              "density": {
+                "archival": 2,
+                "bureaucratic": 1
+              }
+            }
+          },
+          "logos.resonance": {
+            "verdict": "illusion",
+            "agreed": "3/3",
+            "distribution": {
+              "resonance": {
+                "illusion": 3
+              }
+            }
+          },
+          "logos.cooperative": {
+            "verdict": "honored/None",
+            "agreed": "3/3",
+            "distribution": {
+              "status": {
+                "honored": 3
+              },
+              "maxim_violated": {
+                "None": 3
+              }
+            }
+          },
+          "logos.act_type": {
+            "verdict": "assertive",
+            "agreed": "3/3",
+            "distribution": {
+              "act_type": {
+                "assertive": 3
+              }
+            }
+          },
+          "logos.authority": {
+            "verdict": "sovereign",
+            "agreed": "3/3",
+            "distribution": {
+              "authority": {
+                "sovereign": 3
+              }
+            }
+          },
+          "logos.transmission": {
+            "verdict": "archive",
+            "agreed": "3/3",
+            "distribution": {
+              "transmission": {
+                "archive": 3
+              }
+            }
+          },
+          "logos.utility": {
+            "verdict": "narrative",
+            "agreed": "3/3",
+            "distribution": {
+              "secondary": {
+                "instruction": 3
+              },
+              "utility": {
+                "narrative": 3
+              }
+            }
+          },
+          "logos.social_field": {
+            "verdict": null,
+            "agreed": "2/3",
+            "distribution": {
+              "quadrant": {
+                "hierarchical": 2,
+                "individualist": 1
+              }
+            }
+          },
+          "conflict.terrain": {
+            "verdict": "fringe",
+            "agreed": "2/3",
+            "distribution": {
+              "behavior": {
+                "suppression": 3
+              },
+              "window": {
+                "rationalizing": 2,
+                "open": 1
+              },
+              "schema": {
+                "entangled": 3
+              },
+              "escalation_phase": {
+                "exponential": 3
+              },
+              "terrain": {
+                "fringe": 3
+              }
+            }
+          },
+          "conflict.window": {
+            "verdict": "rationalizing",
+            "agreed": "2/3",
+            "distribution": {
+              "behavior": {
+                "suppression": 3
+              },
+              "window": {
+                "rationalizing": 2,
+                "open": 1
+              },
+              "schema": {
+                "entangled": 3
+              },
+              "escalation_phase": {
+                "exponential": 3
+              },
+              "terrain": {
+                "fringe": 3
+              }
+            }
+          },
+          "tension": {
+            "predicted": 0.924,
+            "confirmed": 0.4521,
+            "calibration_delta": 0.4719
+          }
+        },
+        "inf_285ae7ab": {
+          "logos.structural": {
+            "verdict": "institution",
+            "agreed": "2/3",
+            "distribution": {
+              "transmission": {
+                "archive": 3
+              },
+              "persistence": {
+                "institutional": 3
+              },
+              "authority": {
+                "system": 3
+              },
+              "scale": {
+                "institution": 3
+              },
+              "memory_channel": {
+                "institutional": 3
+              },
+              "language_mode": {
+                "contractual": 2,
+                "formalized": 1
+              },
+              "density": {
+                "bureaucratic": 3
+              }
+            }
+          },
+          "logos.resonance": {
+            "verdict": "illusion",
+            "agreed": "3/3",
+            "distribution": {
+              "resonance": {
+                "illusion": 3
+              }
+            }
+          },
+          "logos.cooperative": {
+            "verdict": "honored/None",
+            "agreed": "3/3",
+            "distribution": {
+              "status": {
+                "honored": 3
+              },
+              "maxim_violated": {
+                "None": 3
+              }
+            }
+          },
+          "logos.act_type": {
+            "verdict": "assertive",
+            "agreed": "3/3",
+            "distribution": {
+              "act_type": {
+                "assertive": 3
+              }
+            }
+          },
+          "logos.authority": {
+            "verdict": "sovereign",
+            "agreed": "3/3",
+            "distribution": {
+              "authority": {
+                "sovereign": 3
+              }
+            }
+          },
+          "logos.transmission": {
+            "verdict": "archive",
+            "agreed": "3/3",
+            "distribution": {
+              "transmission": {
+                "archive": 3
+              }
+            }
+          },
+          "logos.utility": {
+            "verdict": "narrative",
+            "agreed": "3/3",
+            "distribution": {
+              "secondary": {
+                "instruction": 3
+              },
+              "utility": {
+                "narrative": 3
+              }
+            }
+          },
+          "logos.social_field": {
+            "verdict": null,
+            "agreed": "3/3",
+            "distribution": {
+              "quadrant": {
+                "hierarchical": 3
+              }
+            }
+          },
+          "conflict.terrain": {
+            "verdict": "fringe",
+            "agreed": "2/3",
+            "distribution": {
+              "behavior": {
+                "suppression": 3
+              },
+              "window": {
+                "rationalizing": 3
+              },
+              "schema": {
+                "entangled": 3
+              },
+              "escalation_phase": {
+                "exponential": 3
+              },
+              "terrain": {
+                "fringe": 2,
+                "drifting": 1
+              }
+            }
+          },
+          "conflict.window": {
+            "verdict": "rationalizing",
+            "agreed": "2/3",
+            "distribution": {
+              "behavior": {
+                "suppression": 3
+              },
+              "window": {
+                "rationalizing": 3
+              },
+              "schema": {
+                "entangled": 3
+              },
+              "escalation_phase": {
+                "exponential": 3
+              },
+              "terrain": {
+                "fringe": 2,
+                "drifting": 1
+              }
+            }
+          },
+          "tension": {
+            "predicted": 0.852,
+            "confirmed": 0.6949,
+            "calibration_delta": 0.1571
+          }
+        },
+        "inf_a3d99808": {
+          "logos.structural": {
+            "verdict": "global",
+            "agreed": "2/3",
+            "distribution": {
+              "transmission": {
+                "code": 2,
+                "archive": 1
+              },
+              "persistence": {
+                "durable": 3
+              },
+              "authority": {
+                "formal": 3
+              },
+              "scale": {
+                "global": 3
+              },
+              "memory_channel": {
+                "global": 3
+              },
+              "language_mode": {
+                "formalized": 2,
+                "symbolic": 1
+              },
+              "density": {
+                "archival": 3
+              }
+            }
+          },
+          "logos.resonance": {
+            "verdict": "illusion",
+            "agreed": "3/3",
+            "distribution": {
+              "resonance": {
+                "illusion": 3
+              }
+            }
+          },
+          "logos.cooperative": {
+            "verdict": "honored/None",
+            "agreed": "3/3",
+            "distribution": {
+              "status": {
+                "honored": 3
+              },
+              "maxim_violated": {
+                "None": 3
+              }
+            }
+          },
+          "logos.act_type": {
+            "verdict": "assertive",
+            "agreed": "3/3",
+            "distribution": {
+              "act_type": {
+                "assertive": 3
+              }
+            }
+          },
+          "logos.authority": {
+            "verdict": "sovereign",
+            "agreed": "3/3",
+            "distribution": {
+              "authority": {
+                "sovereign": 3
+              }
+            }
+          },
+          "logos.transmission": {
+            "verdict": "archive",
+            "agreed": "3/3",
+            "distribution": {
+              "transmission": {
+                "archive": 3
+              }
+            }
+          },
+          "logos.utility": {
+            "verdict": "narrative",
+            "agreed": "3/3",
+            "distribution": {
+              "secondary": {
+                "instruction": 3
+              },
+              "utility": {
+                "narrative": 3
+              }
+            }
+          },
+          "logos.social_field": {
+            "verdict": null,
+            "agreed": "1/3",
+            "distribution": {
+              "quadrant": {
+                "hierarchical": 1,
+                "isolate": 1,
+                "individualist": 1
+              }
+            }
+          },
+          "conflict.terrain": {
+            "verdict": "fringe",
+            "agreed": "3/3",
+            "distribution": {
+              "behavior": {
+                "suppression": 3
+              },
+              "window": {
+                "rationalizing": 3
+              },
+              "schema": {
+                "entangled": 3
+              },
+              "escalation_phase": {
+                "exponential": 3
+              },
+              "terrain": {
+                "fringe": 3
+              }
+            }
+          },
+          "conflict.window": {
+            "verdict": "rationalizing",
+            "agreed": "3/3",
+            "distribution": {
+              "behavior": {
+                "suppression": 3
+              },
+              "window": {
+                "rationalizing": 3
+              },
+              "schema": {
+                "entangled": 3
+              },
+              "escalation_phase": {
+                "exponential": 3
+              },
+              "terrain": {
+                "fringe": 3
+              }
+            }
+          },
+          "tension": {
+            "predicted": 0.844,
+            "confirmed": 0.5,
+            "calibration_delta": 0.344
+          }
+        },
+        "inf_f39647fd": {
+          "logos.structural": {
+            "verdict": "institution",
+            "agreed": "2/3",
+            "distribution": {
+              "transmission": {
+                "archive": 2,
+                "code": 1
+              },
+              "persistence": {
+                "institutional": 2,
+                "durable": 1
+              },
+              "authority": {
+                "system": 2,
+                "formal": 1
+              },
+              "scale": {
+                "institution": 2,
+                "global": 1
+              },
+              "memory_channel": {
+                "institutional": 2,
+                "global": 1
+              },
+              "language_mode": {
+                "contractual": 2,
+                "formalized": 1
+              },
+              "density": {
+                "bureaucratic": 2,
+                "archival": 1
+              }
+            }
+          },
+          "logos.resonance": {
+            "verdict": "illusion",
+            "agreed": "2/3",
+            "distribution": {
+              "resonance": {
+                "illusion": 2,
+                "harmony": 1
+              }
+            }
+          },
+          "logos.cooperative": {
+            "verdict": "honored/None",
+            "agreed": "3/3",
+            "distribution": {
+              "status": {
+                "honored": 3
+              },
+              "maxim_violated": {
+                "None": 3
+              }
+            }
+          },
+          "logos.act_type": {
+            "verdict": "assertive",
+            "agreed": "3/3",
+            "distribution": {
+              "act_type": {
+                "assertive": 3
+              }
+            }
+          },
+          "logos.authority": {
+            "verdict": "sovereign",
+            "agreed": "3/3",
+            "distribution": {
+              "authority": {
+                "sovereign": 3
+              }
+            }
+          },
+          "logos.transmission": {
+            "verdict": "archive",
+            "agreed": "3/3",
+            "distribution": {
+              "transmission": {
+                "archive": 3
+              }
+            }
+          },
+          "logos.utility": {
+            "verdict": "narrative",
+            "agreed": "3/3",
+            "distribution": {
+              "secondary": {
+                "instruction": 3
+              },
+              "utility": {
+                "narrative": 3
+              }
+            }
+          },
+          "logos.social_field": {
+            "verdict": null,
+            "agreed": "3/3",
+            "distribution": {
+              "quadrant": {
+                "hierarchical": 3
+              }
+            }
+          },
+          "conflict.terrain": {
+            "verdict": "drifting",
+            "agreed": "2/3",
+            "distribution": {
+              "behavior": {
+                "suppression": 3
+              },
+              "window": {
+                "rationalizing": 2,
+                "open": 1
+              },
+              "schema": {
+                "entangled": 3
+              },
+              "escalation_phase": {
+                "exponential": 3
+              },
+              "terrain": {
+                "drifting": 3
+              }
+            }
+          },
+          "conflict.window": {
+            "verdict": "rationalizing",
+            "agreed": "2/3",
+            "distribution": {
+              "behavior": {
+                "suppression": 3
+              },
+              "window": {
+                "rationalizing": 2,
+                "open": 1
+              },
+              "schema": {
+                "entangled": 3
+              },
+              "escalation_phase": {
+                "exponential": 3
+              },
+              "terrain": {
+                "drifting": 3
+              }
+            }
+          },
+          "tension": {
+            "predicted": 0.804,
+            "confirmed": 0.2,
+            "calibration_delta": 0.604
+          }
+        }
+      }
     }
-  },
-  "results": {
-    "inf_0f31de7a": {
-      "structural": {
-        "verdict": "institution",
-        "agreed": "2/3",
-        "distribution": {
-          "memory_channel": {
-            "institutional": 2,
-            "global": 1
-          },
-          "scale": {
-            "institution": 2,
-            "global": 1
-          },
-          "authority": {
-            "system": 2,
-            "formal": 1
-          },
-          "language_mode": {
-            "contractual": 2,
-            "formalized": 1
-          },
-          "persistence": {
-            "institutional": 2,
-            "durable": 1
-          },
-          "density": {
-            "bureaucratic": 2,
-            "archival": 1
-          },
-          "transmission": {
-            "archive": 3
-          }
-        }
-      },
-      "resonance": {
-        "verdict": "illusion",
-        "agreed": "3/3",
-        "distribution": {
-          "resonance": {
-            "illusion": 3
-          }
-        }
-      },
-      "cooperative": {
-        "verdict": "honored/None",
-        "agreed": "3/3",
-        "distribution": {
-          "status": {
-            "honored": 3
-          },
-          "maxim_violated": {
-            "None": 3
-          }
-        }
-      },
-      "act_type": {
-        "verdict": "assertive",
-        "agreed": "3/3",
-        "distribution": {
-          "act_type": {
-            "assertive": 3
-          }
-        }
-      },
-      "authority": {
-        "verdict": "sovereign",
-        "agreed": "3/3",
-        "distribution": {
-          "authority": {
-            "sovereign": 3
-          }
-        }
-      },
-      "transmission": {
-        "verdict": "archive",
-        "agreed": "3/3",
-        "distribution": {
-          "transmission": {
-            "archive": 3
-          }
-        }
-      },
-      "utility": {
-        "verdict": "narrative",
-        "agreed": "3/3",
-        "distribution": {
-          "utility": {
-            "narrative": 3
-          },
-          "secondary": {
-            "instruction": 3
-          }
-        }
-      },
-      "social_field": {
-        "verdict": null,
-        "agreed": "3/3",
-        "distribution": {
-          "quadrant": {
-            "hierarchical": 3
-          }
-        }
-      }
-    },
-    "inf_285ae7ab": {
-      "structural": {
-        "verdict": "institution",
-        "agreed": "3/3",
-        "distribution": {
-          "memory_channel": {
-            "institutional": 3
-          },
-          "scale": {
-            "institution": 3
-          },
-          "authority": {
-            "system": 3
-          },
-          "language_mode": {
-            "contractual": 3
-          },
-          "persistence": {
-            "institutional": 3
-          },
-          "density": {
-            "bureaucratic": 3
-          },
-          "transmission": {
-            "archive": 3
-          }
-        }
-      },
-      "resonance": {
-        "verdict": "illusion",
-        "agreed": "2/3",
-        "distribution": {
-          "resonance": {
-            "illusion": 2,
-            "friction": 1
-          }
-        }
-      },
-      "cooperative": {
-        "verdict": "honored/None",
-        "agreed": "3/3",
-        "distribution": {
-          "status": {
-            "honored": 3
-          },
-          "maxim_violated": {
-            "None": 3
-          }
-        }
-      },
-      "act_type": {
-        "verdict": "assertive",
-        "agreed": "3/3",
-        "distribution": {
-          "act_type": {
-            "assertive": 3
-          }
-        }
-      },
-      "authority": {
-        "verdict": "sovereign",
-        "agreed": "3/3",
-        "distribution": {
-          "authority": {
-            "sovereign": 3
-          }
-        }
-      },
-      "transmission": {
-        "verdict": "archive",
-        "agreed": "3/3",
-        "distribution": {
-          "transmission": {
-            "archive": 3
-          }
-        }
-      },
-      "utility": {
-        "verdict": "narrative",
-        "agreed": "3/3",
-        "distribution": {
-          "utility": {
-            "narrative": 3
-          },
-          "secondary": {
-            "instruction": 3
-          }
-        }
-      },
-      "social_field": {
-        "verdict": null,
-        "agreed": "3/3",
-        "distribution": {
-          "quadrant": {
-            "hierarchical": 3
-          }
-        }
-      }
-    },
-    "inf_a3d99808": {
-      "structural": {
-        "verdict": "global",
-        "agreed": "2/3",
-        "distribution": {
-          "memory_channel": {
-            "global": 3
-          },
-          "scale": {
-            "global": 3
-          },
-          "authority": {
-            "formal": 3
-          },
-          "language_mode": {
-            "formalized": 3
-          },
-          "persistence": {
-            "durable": 3
-          },
-          "density": {
-            "archival": 3
-          },
-          "transmission": {
-            "archive": 2,
-            "code": 1
-          }
-        }
-      },
-      "resonance": {
-        "verdict": "illusion",
-        "agreed": "2/3",
-        "distribution": {
-          "resonance": {
-            "illusion": 2,
-            "friction": 1
-          }
-        }
-      },
-      "cooperative": {
-        "verdict": "honored/None",
-        "agreed": "3/3",
-        "distribution": {
-          "status": {
-            "honored": 3
-          },
-          "maxim_violated": {
-            "None": 3
-          }
-        }
-      },
-      "act_type": {
-        "verdict": "assertive",
-        "agreed": "3/3",
-        "distribution": {
-          "act_type": {
-            "assertive": 3
-          }
-        }
-      },
-      "authority": {
-        "verdict": "sovereign",
-        "agreed": "3/3",
-        "distribution": {
-          "authority": {
-            "sovereign": 3
-          }
-        }
-      },
-      "transmission": {
-        "verdict": "archive",
-        "agreed": "3/3",
-        "distribution": {
-          "transmission": {
-            "archive": 3
-          }
-        }
-      },
-      "utility": {
-        "verdict": "narrative",
-        "agreed": "3/3",
-        "distribution": {
-          "utility": {
-            "narrative": 3
-          },
-          "secondary": {
-            "instruction": 3
-          }
-        }
-      },
-      "social_field": {
-        "verdict": null,
-        "agreed": "3/3",
-        "distribution": {
-          "quadrant": {
-            "hierarchical": 3
-          }
-        }
-      }
-    },
-    "inf_f39647fd": {
-      "structural": {
-        "verdict": "institution",
-        "agreed": "2/3",
-        "distribution": {
-          "memory_channel": {
-            "global": 1,
-            "institutional": 2
-          },
-          "scale": {
-            "global": 1,
-            "institution": 2
-          },
-          "authority": {
-            "formal": 1,
-            "system": 2
-          },
-          "language_mode": {
-            "formalized": 1,
-            "contractual": 2
-          },
-          "persistence": {
-            "durable": 1,
-            "institutional": 2
-          },
-          "density": {
-            "archival": 1,
-            "bureaucratic": 2
-          },
-          "transmission": {
-            "archive": 3
-          }
-        }
-      },
-      "resonance": {
-        "verdict": "illusion",
-        "agreed": "3/3",
-        "distribution": {
-          "resonance": {
-            "illusion": 3
-          }
-        }
-      },
-      "cooperative": {
-        "verdict": "honored/None",
-        "agreed": "3/3",
-        "distribution": {
-          "status": {
-            "honored": 3
-          },
-          "maxim_violated": {
-            "None": 3
-          }
-        }
-      },
-      "act_type": {
-        "verdict": "assertive",
-        "agreed": "3/3",
-        "distribution": {
-          "act_type": {
-            "assertive": 3
-          }
-        }
-      },
-      "authority": {
-        "verdict": "sovereign",
-        "agreed": "3/3",
-        "distribution": {
-          "authority": {
-            "sovereign": 3
-          }
-        }
-      },
-      "transmission": {
-        "verdict": "archive",
-        "agreed": "3/3",
-        "distribution": {
-          "transmission": {
-            "archive": 3
-          }
-        }
-      },
-      "utility": {
-        "verdict": "narrative",
-        "agreed": "3/3",
-        "distribution": {
-          "utility": {
-            "narrative": 3
-          },
-          "secondary": {
-            "instruction": 3
-          }
-        }
-      },
-      "social_field": {
-        "verdict": null,
-        "agreed": "3/3",
-        "distribution": {
-          "quadrant": {
-            "hierarchical": 3
-          }
-        }
-      }
-    }
-  }
+  ]
 }

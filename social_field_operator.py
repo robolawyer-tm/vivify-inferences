@@ -53,6 +53,28 @@ Return ONLY valid JSON:
 """
 
 
+QUADRANT_THRESHOLD = 0.5
+
+
+def derive_quadrant(grid, group, threshold=QUADRANT_THRESHOLD):
+    """Douglas's quadrant is a POSITION on the two axes, not a separate judgement.
+
+    The prompt above documents the mapping, but the drawn label contradicted its own
+    grid/group in 2 of the 4 stored field inferences (both at grid 0.85 / group 0.4,
+    labelled "hierarchical" where high-grid/low-group is "isolate") — the model reaches
+    for the everyday sense of "hierarchical" whenever the setting is institutional.
+    Deriving it makes that contradiction impossible. The drawn label is kept as
+    quadrant_drawn so how often the model disagrees with its own axes stays measurable.
+    Boundary: >= threshold counts as high.
+    """
+    if not isinstance(grid, (int, float)) or not isinstance(group, (int, float)):
+        return None
+    return {(False, False): "individualist",
+            (True,  False): "isolate",
+            (False, True):  "egalitarian",
+            (True,  True):  "hierarchical"}[(grid >= threshold, group >= threshold)]
+
+
 def run(inference: dict) -> dict:
     """Attach logos.social_field coordinates to an inference."""
     text = inference.get("raw_text", "")
@@ -70,10 +92,15 @@ def parse(result: dict, inference: dict) -> dict:
     Split out from run() so the fused logos pass (logos_fused.py) can reuse this
     mapping with a pre-fetched sub-result, without re-calling the LLM."""
     logos = inference.setdefault("logos", {})
+    grid, group = result["grid"], result["group"]
+    drawn = result.get("quadrant")
+    derived = derive_quadrant(grid, group)
     logos["social_field"] = {
-        "grid":       result["grid"],
-        "group":      result["group"],
-        "quadrant":   result.get("quadrant"),
+        "grid":       grid,
+        "group":      group,
+        "quadrant":   derived if derived is not None else drawn,
+        "quadrant_drawn":  drawn,
+        "quadrant_agrees": (derived == drawn) if derived is not None else None,
         "rationale":  result.get("rationale"),
         "confidence": result.get("confidence"),
         "_model":     result.get("_model"),
@@ -108,3 +135,5 @@ if __name__ == "__main__":
 # llm: claude-opus-4-8 | 2026-06-24 | repos/vivify-operators/social_field_operator.py | retry-on-invalid: run() uses call_and_validate() so a recoverable small-model miss is re-asked, not dropped as a missing dimension
 # llm: claude-opus-4-8 | 2026-06-24 | repos/vivify-operators/social_field_operator.py | split result->logos mapping into parse() so logos_fused.py reuses it without re-calling the LLM (run = call_and_validate + parse); behavior unchanged
 # llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/social_field_operator.py | parse() records _model beside _operator — which model produced the coordinate
+
+# llm: claude-opus-5 | 2026-09-07 | repos/vivify-operators/social_field_operator.py | quadrant is now DERIVED from grid/group (it contradicted its own axes in 2 of 4 stored inferences); drawn label kept as quadrant_drawn + quadrant_agrees so the disagreement stays measurable; parse() is shared so the fused pass gets the fix too
