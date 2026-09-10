@@ -68,6 +68,14 @@ Assess the five conflict dimensions:
     fringe       — fringe attractor; certainty-seeking, threat-response dominant
     fringe_hook  — fringe with social-neural connection to opposing fringe (horseshoe)
 
+  terrain_distance — the SAME reading expressed as a position rather than a bin:
+    0.0 = centre of the unified distribution, 1.0 = furthest fringe. Judge it directly
+    from the text, not by translating the label above. The stored terrain is derived
+    from this number, so a case sitting between two bins should read as a number
+    between them rather than being rounded to whichever bin feels closer.
+  terrain_hook — true ONLY if the position carries a social-neural connection to the
+    OPPOSING fringe (the horseshoe). Distance alone never implies a hook.
+
   window — structural opportunity for harm (not prediction of action):
     closed       — no window present
     forming      — conditions accumulating, not yet open
@@ -92,12 +100,45 @@ Return ONLY valid JSON:
   "behavior":         "<none|positioning|suppression|escalating|rationalizing>",
   "behavior_signals": ["<which logos coordinates drove this>"],
   "terrain":          "<center|drifting|fringe|fringe_hook>",
+  "terrain_distance": <0.0-1.0>,
+  "terrain_hook":     <true|false>,
   "window":           "<closed|forming|open|rationalizing>",
   "escalation_phase": "<none|early|threshold|exponential>",
   "confidence":       <0.0-1.0>,
   "rationale":        "<one sentence — what structural conditions this communication reveals>"
 }}
 """
+
+
+# Bin edges on the 0.0-1.0 position. Thresholds are a modelling choice, not a
+# measurement — change them here and nowhere else.
+TERRAIN_DRIFTING_AT = 1 / 3
+TERRAIN_FRINGE_AT = 2 / 3
+
+
+def derive_terrain(distance, hook):
+    """Terrain is a POSITION in the conflict distribution, not a free label.
+
+    center -> drifting -> fringe is a walk outward from the centre of the bell curve,
+    so asking for it as a 4-way categorical bins a continuous quantity and lets a case
+    near a boundary flip bins between sittings while each sitting stays unanimous.
+    Canonical Cotton did exactly that: fringe_hook (stored) -> drifting 3/3 (2026-09-07)
+    -> fringe 3/3 (2026-09-10), same text each time. Deriving the bin from the number
+    means a coordinate that cannot sit between bins cannot flip between them, and any
+    remaining movement shows up as a measurable change in distance instead.
+
+    fringe_hook is NOT further out than fringe — it is fringe plus a connection to the
+    opposing fringe, so it comes from the hook flag rather than from more distance.
+    Same shape as social_field.quadrant deriving from grid/group, and as
+    cross_scale.tension_band deriving from tension_score.
+    """
+    if isinstance(distance, bool) or not isinstance(distance, (int, float)):
+        return None
+    if distance < TERRAIN_DRIFTING_AT:
+        return "center"
+    if distance < TERRAIN_FRINGE_AT:
+        return "drifting"
+    return "fringe_hook" if hook else "fringe"
 
 
 def run(inference: dict) -> dict:
@@ -137,12 +178,21 @@ def run(inference: dict) -> dict:
         sensitive=True,
     )
 
+    drawn_terrain = result["terrain"]
+    distance = result.get("terrain_distance")
+    hook = bool(result.get("terrain_hook"))
+    derived_terrain = derive_terrain(distance, hook)
+
     inference.setdefault("conflict", {}).update({
         "schema":           result["schema"],
         "schema_signals":   result.get("schema_signals", []),
         "behavior":         result["behavior"],
         "behavior_signals": result.get("behavior_signals", []),
-        "terrain":          result["terrain"],
+        "terrain":          derived_terrain if derived_terrain is not None else drawn_terrain,
+        "terrain_drawn":    drawn_terrain,
+        "terrain_agrees":   (derived_terrain == drawn_terrain) if derived_terrain is not None else None,
+        "terrain_distance": distance,
+        "terrain_hook":     hook,
         "window":           result["window"],
         "escalation_phase": result["escalation_phase"],
         "confidence":       result.get("confidence"),
@@ -187,3 +237,5 @@ if __name__ == "__main__":
 # llm: claude-opus-4-8 | 2026-06-20 | repos/vivify-operators/conflict_operator.py | wired sensitive=True into llm_call; fixed missing validate_coordinates import
 # llm: claude-opus-4-8 | 2026-06-24 | repos/vivify-operators/conflict_operator.py | retry-on-invalid: run() uses call_and_validate() so a recoverable small-model miss is re-asked, not dropped
 # llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/conflict_operator.py | parse() records _model beside _operator — which model produced the coordinate
+
+# llm: claude-opus-5 | 2026-09-10 | repos/vivify-operators/conflict_operator.py | terrain is now DERIVED from a 0-1 position plus a hook flag: it is a position in the conflict distribution, and binning it as a 4-way categorical let canonical Cotton flip drifting 3/3 -> fringe 3/3 on identical text; drawn label kept as terrain_drawn/terrain_agrees

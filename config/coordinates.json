@@ -1,5 +1,5 @@
 {
- "_doc": "Allowed values for operator output coordinates \u2014 the validation gate's source of truth. validate_coordinates() in lib/vivify_core.py checks each operator's parsed LLM output against this BEFORE it may enter the inference store. These are the operators' own emergent vocabularies, not an imposed external taxonomy: revisable, data-driven, edited as operators evolve. enums = closed value sets; floats = [lo, hi] ranges; bools = must be true/false; lists = array fields (string elements length-capped); nullable = enum/text fields that may also be JSON null; free_text = open-string surface (advisory \u2014 enforced only by the global length cap, which is the injection guard).",
+ "_doc": "Allowed values for operator output coordinates — the validation gate's source of truth. validate_coordinates() in lib/vivify_core.py checks each operator's parsed LLM output against this BEFORE it may enter the inference store. These are the operators' own emergent vocabularies, not an imposed external taxonomy: revisable, data-driven, edited as operators evolve. enums = closed value sets; floats = [lo, hi] ranges; bools = must be true/false; lists = array fields (string elements length-capped); nullable = enum/text fields that may also be JSON null; free_text = open-string surface (advisory — enforced only by the global length cap, which is the injection guard).",
  "_max_string_len": 600,
  "operators": {
   "act_type": {
@@ -70,6 +70,10 @@
     "confidence": [
      0.0,
      1.0
+    ],
+    "terrain_distance": [
+     0.0,
+     1.0
     ]
    },
    "lists": [
@@ -78,6 +82,9 @@
    ],
    "free_text": [
     "rationale"
+   ],
+   "bools": [
+    "terrain_hook"
    ]
   },
   "cooperative": {
@@ -146,7 +153,7 @@
    ]
   },
   "structural": {
-   "_note": "scale IS gated (the six VALID_SCALES). layer is deliberately NOT \u2014 it is the fallback structural_operator.parse() uses when scale is missing or unusable, and the gate skips absent fields, so gating scale leaves that path intact. Before 2026-09-03 neither was gated: an out-of-enum scale was coerced to null and cross_scale then SILENTLY skipped the inference. Gating makes that an explicit validation failure instead of a silent drop. Note it does not address scale INSTABILITY \u2014 the 2026-09-03 re-read flipped global<->institution, both legal values, which no enum gate can catch; that is what repeat-and-vote is for.",
+   "_note": "scale IS gated (the six VALID_SCALES). layer is deliberately NOT — it is the fallback structural_operator.parse() uses when scale is missing or unusable, and the gate skips absent fields, so gating scale leaves that path intact. Before 2026-09-03 neither was gated: an out-of-enum scale was coerced to null and cross_scale then SILENTLY skipped the inference. Gating makes that an explicit validation failure instead of a silent drop. Note it does not address scale INSTABILITY — the 2026-09-03 re-read flipped global<->institution, both legal values, which no enum gate can catch; that is what repeat-and-vote is for.",
    "enums": {
     "scale": [
      "self",
