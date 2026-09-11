@@ -13,10 +13,87 @@ _src: Granovetter (threshold models, 1978); Glasl (conflict escalation);
 import sys
 import json
 import argparse
+from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
-from vivify_core import read_json, write_json, call_and_vote, LLMUnavailable
+from vivify_core import (read_json, write_json, call_and_validate, modal_choice,
+                         categorical_signature, _vote_count,
+                         CoordinateValidationError, LLMUnavailable)
+
+# cwd-independent, like logos_fused.py:43 — a relative config path was the D-1 bug
+CONFIG = str(Path(__file__).parent / "config")
+
+# Each entry is a COORDINATE plus the fields that must travel with it: the enum that
+# names it, and its dependents. This is the unit that comes from one draw.
+# logos_fused votes its 8 dimensions independently for exactly this reason — one
+# wobble must not discard the others' agreement (logos_fused.py:217-224). conflict
+# previously voted all five jointly, so one unstable field decided the whole block,
+# which is what made run 3 report `terrain 3/3 [block 2/3]`.
+CONFLICT_DIMS = (
+    ("schema",           ("schema",),           ("schema_signals",)),
+    ("behavior",         ("behavior",),         ("behavior_signals",)),
+    ("terrain",          ("terrain",),          ("terrain_distance", "terrain_hook")),
+    ("window",           ("window",),           ()),
+    ("escalation_phase", ("escalation_phase",), ()),
+)
+
+
+def vote_per_dimension(prompt, retries=2, votes=None):
+    """Take N draws and choose the modal one PER COORDINATE, not per whole block.
+
+    Each coordinate's enum and its dependent fields come from a SINGLE real draw, so
+    nothing incoherent is assembled within a coordinate — the guarantee modal_choice
+    exists to give (a status with a contradicting maxim beside it, and that class of
+    result generally). What is assembled across coordinates is the same thing
+    logos_fused already does across its eight dimensions.
+
+    rationale and confidence describe the whole reading rather than any one
+    coordinate, so they come from the overall modal draw — still a draw that really
+    occurred.
+
+    The record keeps its familiar shape (n / agreed / unanimous / distribution) so
+    existing readers are unaffected, but `agreed` now means whole-block COHERENCE and
+    no longer selects what is stored. `by_dim` carries the count that actually decided
+    each coordinate.
+    """
+    votes = _vote_count() if votes is None else max(1, votes)
+    draws, last_err = [], None
+    for _ in range(votes):
+        try:
+            draws.append(call_and_validate(prompt, "conflict", "conflict_operator",
+                                           True, None, retries, CONFIG))
+        except (CoordinateValidationError, json.JSONDecodeError) as e:
+            last_err = e
+    if not draws:
+        raise last_err
+
+    primary_idx, record = modal_choice(
+        draws, lambda d: categorical_signature(d, "conflict", CONFIG))
+    merged = dict(draws[primary_idx])
+
+    by_dim, distribution = {}, {}
+    for name, enums, carried in CONFLICT_DIMS:
+        key = (_terrain_key if name == "terrain"
+               else lambda d, e=enums: tuple((f, d.get(f)) for f in e))
+        idx, dim_record = modal_choice(draws, key)
+        chosen = draws[idx]
+        for field in enums + carried:
+            if field in chosen:
+                merged[field] = chosen[field]
+        by_dim[name] = {k: dim_record[k] for k in ("n", "agreed", "unanimous")}
+        distribution.update(dim_record["distribution"])
+
+    # The stored terrain is DERIVED, so its vote above ran on the derived bin. Keep the
+    # drawn label's spread beside it, and every draw's position, so the number itself
+    # is measurable across sessions and the bin edges can be re-cut from the record.
+    distribution["terrain_drawn"] = dict(Counter(str(d.get("terrain")) for d in draws))
+    by_dim["terrain"]["distances"] = [d.get("terrain_distance") for d in draws]
+
+    record["distribution"] = {**record.get("distribution", {}), **distribution}
+    record["by_dim"] = by_dim
+    record["quarantined"] = votes - len(draws)
+    return merged, record
 
 PROMPT = """You are reading logos coordinates already attached to an inference and
 identifying structural conflict signals. Causation is structural, not individual —
@@ -124,8 +201,9 @@ def derive_terrain(distance, hook):
     near a boundary flip bins between sittings while each sitting stays unanimous.
     Canonical Cotton did exactly that: fringe_hook (stored) -> drifting 3/3 (2026-09-07)
     -> fringe 3/3 (2026-09-10), same text each time. Deriving the bin from the number
-    means a coordinate that cannot sit between bins cannot flip between them, and any
-    remaining movement shows up as a measurable change in distance instead.
+    does NOT stop a flip — 0.32 one sitting and 0.35 the next still crosses an edge —
+    but it makes the movement a measured change in distance, so a case sitting near
+    an edge is visible as near an edge instead of reading as a confident bin.
 
     fringe_hook is NOT further out than fringe — it is fringe plus a connection to the
     opposing fringe, so it comes from the hook flag rather than from more distance.
@@ -139,6 +217,14 @@ def derive_terrain(distance, hook):
     if distance < TERRAIN_FRINGE_AT:
         return "drifting"
     return "fringe_hook" if hook else "fringe"
+
+
+def _terrain_key(draw):
+    """Vote on the bin that will be STORED — derived from the draw's position — not on
+    the drawn label, which is the reading derive_terrain() replaced. Falls back to the
+    drawn label only where run() would, when the position is missing or invalid."""
+    derived = derive_terrain(draw.get("terrain_distance"), draw.get("terrain_hook"))
+    return (("terrain", derived if derived is not None else draw.get("terrain")),)
 
 
 def run(inference: dict) -> dict:
@@ -156,7 +242,7 @@ def run(inference: dict) -> dict:
     sf = logos.get("social_field", {})
     struct = logos.get("structural", {})
 
-    result = call_and_vote(
+    result, votes_record = vote_per_dimension(
         PROMPT.format(
             act_type=act,
             cooperative=coop.get("status", "unknown"),
@@ -172,10 +258,7 @@ def run(inference: dict) -> dict:
             structural_layer=struct.get("layer", "unknown"),
             raw_text=inference.get("raw_text", ""),
             context=inference.get("context", "none"),
-        ),
-        "conflict",
-        capability="conflict_operator",
-        sensitive=True,
+        )
     )
 
     drawn_terrain = result["terrain"]
@@ -198,7 +281,7 @@ def run(inference: dict) -> dict:
         "confidence":       result.get("confidence"),
         "rationale":        result.get("rationale"),
         "_model":           result.get("_model"),
-        "_votes":           result.get("_votes"),
+        "_votes":           votes_record,
         "_src":             ["Granovetter", "Glasl", "Durkheim", "Bandura"],
         "_operator":        "conflict_operator.py",
     })
@@ -239,3 +322,7 @@ if __name__ == "__main__":
 # llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/conflict_operator.py | parse() records _model beside _operator — which model produced the coordinate
 
 # llm: claude-opus-5 | 2026-09-10 | repos/vivify-operators/conflict_operator.py | terrain is now DERIVED from a 0-1 position plus a hook flag: it is a position in the conflict distribution, and binning it as a 4-way categorical let canonical Cotton flip drifting 3/3 -> fringe 3/3 on identical text; drawn label kept as terrain_drawn/terrain_agrees
+
+# llm: claude-opus-5 | 2026-09-10 | repos/vivify-operators/conflict_operator.py | vote PER COORDINATE not per whole block, matching logos_fused: each coordinate plus its dependent fields comes from one real draw, so one unstable field no longer decides the other four
+
+# llm: claude-opus-5 | 2026-09-11 | repos/vivify-operators/conflict_operator.py | terrain votes on its DERIVED bin (it voted on the drawn label it had replaced); drawn spread kept as terrain_drawn, every draw position kept in by_dim.terrain.distances; derive_terrain docstring no longer claims derivation prevents flips

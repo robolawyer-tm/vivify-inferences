@@ -59,6 +59,11 @@ FIELD = ROOT / "inferences" / "field"
 LOGOS_DIMS = ("structural", "resonance", "cooperative", "act_type", "authority",
               "transmission", "utility", "social_field")
 CONFLICT_DIMS = ("terrain", "window")
+# The numbers behind the two DERIVED bins. Recorded so their reproducibility can be read
+# directly, and so bin edges can be re-cut later from the record rather than costing a
+# fresh baseline. terrain also carries every draw's position; social_field has only the
+# stored draw's floats (logos_fused keeps no per-draw numbers).
+NUMBERS = {"social_field": ("grid", "group"), "terrain": ("terrain_distance",)}
 TENSION_KEYS = ("predicted", "confirmed", "calibration_delta")
 
 # The 2026-09-03 voted read (12 fused calls, majority-of-3), transcribed from that run.
@@ -261,6 +266,12 @@ def main():
                    "agreed": field_agreed or block_agreed,
                    "block_agreed": block_agreed,
                    "distribution": field_dist or votes_rec.get("distribution")}
+            numbers = {f: block.get(f) for f in NUMBERS.get(dim, ())}
+            if dim == "terrain":
+                numbers["draws"] = ((votes_rec.get("by_dim") or {})
+                                    .get("terrain", {}).get("distances"))
+            if numbers:
+                rec["numbers"] = numbers
             out["results"][sid][key] = rec
             prev = baseline_verdict((baseline.get(sid) or {}).get(key))
             if prev is None:
@@ -272,6 +283,8 @@ def main():
             note = "" if rec["agreed"] == block_agreed else f" [block {block_agreed}]"
             if dim == "social_field":
                 note += " [quadrant derived; spread is the drawn label]"
+            if numbers:
+                note += f" {numbers}"
             print(f"  {key:20} {str(now):24} {rec['agreed']:5}  {mark}{note}")
 
         if not args.logos_only:
@@ -362,3 +375,5 @@ if __name__ == "__main__":
 # llm: claude-opus-5 | 2026-09-07 | repos/vivify-operators/vote_stability_check.py | `agreed` is now PER-FIELD (block-level signature hid a unanimous scale behind a language_mode wobble); block value kept as block_agreed
 # llm: claude-opus-5 | 2026-09-07 | repos/vivify-operators/vote_stability_check.py | verdict() reads social_field.quadrant (it had silently recorded None every run); same-text control compares identical raw_text read independently within one run
 # llm: claude-opus-5 | 2026-09-07 | repos/vivify-operators/vote_stability_check.py | measure conflict.terrain/window + tension (the layers the same-text Cotton pair shows actually drift), --logos-only for old scope; PRIVACY_GATE moved out of import into main(); baseline now read from the previous recorded run and runs APPEND instead of overwriting; report denominator explicitly
+
+# llm: claude-opus-5 | 2026-09-11 | repos/vivify-operators/vote_stability_check.py | record the numbers behind the derived bins (terrain_distance + per-draw positions, social_field grid/group) so bin edges can be re-cut from the record
