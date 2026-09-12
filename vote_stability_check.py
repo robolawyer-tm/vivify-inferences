@@ -249,7 +249,17 @@ def main():
             sys.exit(f"LLM unavailable: {e}")
 
         print(f"=== {label}  ({sid}) ===")
-        out["results"][sid] = {}
+        out["results"][sid] = {"_text_sha256": texts[sid]}
+        # A baseline measured on DIFFERENT text is not a baseline: diffing it would report
+        # a changed telling as instrument drift. Detected by hash (runs from 2026-09-11 on)
+        # or, for older runs that stored no hash, by a telling rebuilt after the baseline.
+        base = baseline.get(sid) or {}
+        rebuilt = (inf.get("telling") or {}).get("rebuilt")
+        base_when = baseline_label[len("previous run "):] if baseline_label.startswith("previous run ") else None
+        if (base.get("_text_sha256") not in (None, texts[sid])
+                or (rebuilt and base_when and rebuilt > base_when)):
+            print("  (telling changed since the baseline was recorded — nothing to diff against)")
+            base = {}
         measured = [(f"logos.{d}", (tagged.get("logos") or {}).get(d, {}), d)
                     for d in LOGOS_DIMS]
         if not args.logos_only:
@@ -273,7 +283,7 @@ def main():
             if numbers:
                 rec["numbers"] = numbers
             out["results"][sid][key] = rec
-            prev = baseline_verdict((baseline.get(sid) or {}).get(key))
+            prev = baseline_verdict(base.get(key))
             if prev is None:
                 mark = "(no voted baseline)"; no_base += 1
             elif str(now) == str(prev):
@@ -290,7 +300,7 @@ def main():
         if not args.logos_only:
             tension = tagged.get("tension") or {}
             out["results"][sid]["tension"] = {k: tension.get(k) for k in TENSION_KEYS}
-            prev_t = (baseline.get(sid) or {}).get("tension") or {}
+            prev_t = base.get("tension") or {}
             bits = []
             for k in TENSION_KEYS:
                 now_v, prev_v = tension.get(k), prev_t.get(k)
@@ -376,4 +386,4 @@ if __name__ == "__main__":
 # llm: claude-opus-5 | 2026-09-07 | repos/vivify-operators/vote_stability_check.py | verdict() reads social_field.quadrant (it had silently recorded None every run); same-text control compares identical raw_text read independently within one run
 # llm: claude-opus-5 | 2026-09-07 | repos/vivify-operators/vote_stability_check.py | measure conflict.terrain/window + tension (the layers the same-text Cotton pair shows actually drift), --logos-only for old scope; PRIVACY_GATE moved out of import into main(); baseline now read from the previous recorded run and runs APPEND instead of overwriting; report denominator explicitly
 
-# llm: claude-opus-5 | 2026-09-11 | repos/vivify-operators/vote_stability_check.py | record the numbers behind the derived bins (terrain_distance + per-draw positions, social_field grid/group) so bin edges can be re-cut from the record
+# llm: claude-opus-5 | 2026-09-11 | repos/vivify-operators/vote_stability_check.py | record the numbers behind the derived bins (terrain_distance + per-draw positions, social_field grid/group) so bin edges can be re-cut from the record; store each telling's text hash and refuse to diff against a baseline measured on different text (the field tellings were rebuilt verbatim this day)

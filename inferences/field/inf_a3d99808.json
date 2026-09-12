@@ -4,217 +4,290 @@
   "timestamp": "2026-07-12T21:24:38.819417+00:00",
   "source": "innocence_project",
   "case_id": "earl_washington_jr",
-  "raw_text": "Earl Washington Jr. \u2014 false confession and DNA exoneration (Culpeper, Virginia)\n\nIn June 1982, nineteen-year-old Rebecca Lynn Williams was raped and murdered in her apartment in Culpeper, Virginia. Before she died she told police she had been attacked by a Black man acting alone. The case went unsolved for nearly a year.\n\nIn May 1983, Earl Washington Jr., a twenty-two-year-old Black farmhand with an intellectual disability placed around IQ 69, was arrested in a neighboring county on an unrelated charge. Over two days of questioning, investigators obtained statements from him confessing to five separate crimes, including the Williams murder. Four of the five confessions collapsed immediately as false and were dismissed. The murder confession went forward. Washington initially got the basic facts of the crime wrong \u2014 the victim's race, her height, the number of wounds, the location of the apartment \u2014 and was corrected and led toward accurate details across successive interrogation sessions. He was suggestible and eager to please the authority figures questioning him, agreeing with what was put to him.\n\nAt trial in 1984 the confession was effectively the entire case against him; the physical evidence did not implicate him. He was convicted of capital murder and sentenced to death. In 1985 he came within nine days of execution before attorneys obtained a stay.\n\nIn 1993, early DNA testing on crime-scene evidence indicated Washington was not the source, but the results were characterized ambiguously, and in January 1994 Governor L. Douglas Wilder commuted his sentence to life imprisonment rather than pardon him \u2014 vindication arriving as a half-measure that kept an innocent man in prison. In 2000, modern STR DNA testing definitively excluded Washington and matched a convicted rapist, Kenneth Tinsley. Governor James Gilmore granted an absolute pardon for the murder in October 2000, and Washington was released in February 2001, having served nearly eighteen years, more than nine of them on death row.\n\nIn 2006 a federal civil jury found that the state police investigator who took the confession, by then deceased, had fabricated confession evidence, and awarded Washington 2.25 million dollars against the investigator's estate. Tinsley pleaded guilty to the Williams murder in 2007.\n\nThe case became a canonical study in false confession: an intellectually disabled man supplied with the facts of a crime by his interrogators, a capital conviction resting entirely on a confession the physical evidence contradicted, and a system that needed seventeen years, two governors, and two generations of DNA technology to acknowledge what the evidence said the first time.",
+  "raw_text": "In June 1982, Rebecca Lynn Williams, a 19-year-old mother of three was raped and stabbed over thirty times in her Culpeper, Virginia apartment. She could only describe her attacker as a Black man acting alone before she passed away.\n\nAlmost a year after the crime was committed, Washington was arrested in nearby Fauquier County, for an alleged burglary and malicious wounding. After two days of questioning, police claimed he had “confessed” to a total of five different crimes, including the murder of Rebecca Lynn Williams.\n\nOf the five “confessions,” the first four were dismissed by the Commonwealth because of the inconsistencies of the testimony and the inability of the victims to identify Washington. In the fifth confession, however, Washington said that he raped and killed Rebecca Lynn Williams.\n\nQuestioning revealed that Washington did not know the race of his victim, the address of the apartment where she was killed, or that he had raped her. Washington also claimed that Ms. Williams had been short when in fact she was 5’8″, that he had stabbed her two or three times when the victim showed thirty-eight stab wounds, and that there was no one else in the apartment when it was known that Ms. Williams’ two young children were with her in the apartment on the day of the crime.\n\nOnly on the fourth attempt at a rehearsed confession did authorities accept Washington’s statement and have it recorded in writing with Washington’s signature. He finally picked out the scene of the crime after being taken there three times in one afternoon by the police, who in the end had to help him pick out Williams’ apartment.\n\nPsychological analyses of Washington reported that, to compensate for his disability, Washington would politely defer to any authority figure with whom he came into contact. At trial, only the State’s psychologist testified, claiming that Washington was competent when his statement was given.\n\nA forensic analyst conducted serology testing on evidence from the crime scene and detected a rare plasma protein. Once Washington, who does not possess the rare protein, became a suspect, an amended forensic report was prepared (without additional testing being conducted) that said testing for the rare protein was “inconclusive.”\n\nAt the penalty phase of the trial, the defense did not offer any counter argument to the jury concerning a sentence of death. The jurors returned with their verdict of death on January 20, 1984. In May 1984, Washington pled guilty to an unrelated case of burglary and malicious wounding and was sentenced to two consecutive fifteen year sentences.\n\nIn August 1985, with a September execution date imminent, another death row inmate, Joseph Giarrantano, alerted Marie Deans (a non-lawyer, who for years had been assisting capital prisoners voluntarily) and a lawyer who was at the Virginia prison working on another case, of Washington’s story. The attorney brought Washington’s case to her law firm and the firm secured a stay of execution for Washington nine days before he was scheduled to die.\n\nIn October 1993, DNA test results revealed that Washington was excluded as a contributor of the seminal stain. Because Washington was time barred by Virginia law, which allowed a defendant only 21 days to introduce new evidence, he was not exonerated. Instead, then Governor Wilder commuted Washington’s sentence to life imprisonment.\n\nWashington remained in prison for six more years before his counsel persuaded the newly elected Governor Gilmore to seek additional DNA testing. In October 2000, Governor Gilmore granted Washington a pardon for the capital murder conviction; however, the pardon was on limited grounds that a jury would not have convicted him based on the evidence as it was then known. He was released from prison to parole supervision in February 2001.\n\nCommenting on life outside of prison soon after his release, Washington said, “This was a whole lot better than I expected.”\n\nIn 2007, six years after Washington walked out of prison, then Governor Kaine issued an absolute pardon, which acknowledged that Washington was wrongfully convicted of murder and rape. Earlier that year, Kenneth Tinsley, who was serving life in prison for a 1984 rape, pleaded guilty to Rebecca Lynn Williams’ rape and murder.",
+  "guardrail_actions": {},
+  "telling": {
+    "provenance": "verbatim",
+    "source_url": "https://innocenceproject.org/cases/earl-washington/",
+    "fetched": "2026-09-11",
+    "rebuilt": "2026-09-11T20:28:48.919409+00:00",
+    "method": "whole-sentence selection from the source page under CASE_TELLING_STANDARD.md; nothing retyped; every kept sentence checked verbatim against the page",
+    "excluded": [
+      {
+        "sentence": "Thus, when police officers asked Washington leading questions in order to obtain a confession, he complied and offered affirmative responses in order to gain their approval.",
+        "why": "causal inference ('Thus') plus attributed motive ('in order to gain their approval')"
+      },
+      {
+        "sentence": "Washington’s case inspired a 2001 Virginia law allowing inmates who claim innocence to seek DNA testing at any time, which loosened one of the toughest rules in the nation surrounding new evidence.",
+        "why": "causal attribution ('inspired') plus comparison ('one of the toughest rules in the nation')"
+      }
+    ],
+    "replaced": "a composed telling; pre-rebuild file in ~/backups/vivify-operators/inferences/field/"
+  },
   "left_keywords": [
-    "false_confession",
-    "interrogator_fed_facts",
-    "suggestibility_under_authority",
-    "intellectual_disability_exploitation",
-    "confession_as_sole_evidence",
-    "evidence_contradiction_ignored",
-    "wrongful_capital_conviction",
-    "near_execution",
-    "dna_exoneration",
-    "delayed_justice",
-    "half_measure_clemency",
-    "institutional_inertia",
-    "fabricated_evidence_accountability",
-    "true_perpetrator_identified",
-    "systemic_acknowledgment_failure",
-    "racialized_suspicion"
-  ],
-  "right_keywords": [
-    "victim_age",
-    "crime_date",
-    "case_unsolved_duration",
-    "arrest_date",
-    "washington_age",
-    "washington_iq",
-    "questioning_duration",
-    "crimes_confessed_count",
-    "false_confessions_count",
-    "trial_year",
-    "days_before_execution",
-    "first_dna_testing_year",
-    "commutation_date",
-    "str_dna_testing_year",
-    "pardon_date",
-    "release_date",
-    "years_served",
-    "years_on_death_row",
-    "civil_jury_year",
-    "damages_awarded",
-    "tinsley_guilty_plea_year",
-    "system_delay_years",
-    "governors_count",
-    "dna_technology_generations",
-    "confession_crime_details_discrepancy",
-    "perpetrator_identity_discrepancy",
-    "1993_dna_result_characterization_discrepancy",
-    "confession_evidence_validity_discrepancy"
+    "coerced_confession",
+    "factual_inconsistency",
+    "authority_deference",
+    "evidence_suppression",
+    "forensic_amendment",
+    "intellectual_disability",
+    "compliance_behavior",
+    "inadequate_defense",
+    "procedural_barrier",
+    "dna_exclusion",
+    "gubernatorial_pardon",
+    "actual_innocence"
   ],
   "clumps": {
     "coerced_confession": [
-      "false_confession",
-      "interrogator_fed_facts",
-      "suggestibility_under_authority",
-      "intellectual_disability_exploitation"
+      "coerced_confession",
+      "rehearsed_statement",
+      "factual_inconsistency",
+      "authority_deference"
     ],
-    "conviction_against_evidence": [
-      "confession_as_sole_evidence",
-      "evidence_contradiction_ignored",
-      "wrongful_capital_conviction",
-      "racialized_suspicion"
+    "forensic_manipulation": [
+      "evidence_suppression",
+      "forensic_amendment",
+      "serology_concealment"
     ],
-    "brush_with_death": [
-      "near_execution",
-      "wrongful_capital_conviction"
+    "cognitive_vulnerability": [
+      "intellectual_disability",
+      "compliance_behavior",
+      "psychological_exploitation"
     ],
-    "slow_exoneration": [
-      "dna_exoneration",
-      "delayed_justice",
-      "half_measure_clemency"
+    "systemic_failure": [
+      "inadequate_defense",
+      "procedural_barrier",
+      "death_penalty_proximity"
     ],
-    "system_failure": [
-      "institutional_inertia",
-      "systemic_acknowledgment_failure",
-      "fabricated_evidence_accountability"
-    ],
-    "truth_restored": [
-      "true_perpetrator_identified",
-      "dna_exoneration"
+    "exoneration_path": [
+      "dna_exclusion",
+      "gubernatorial_pardon",
+      "actual_innocence"
     ]
   },
-  "category_paths": [
-    "confession_as_sole_evidence/evidence_contradiction_ignored",
-    "confession_as_sole_evidence/fabricated_evidence_accountability",
-    "confession_as_sole_evidence/half_measure_clemency",
-    "confession_as_sole_evidence/institutional_inertia",
-    "confession_as_sole_evidence/near_execution",
-    "confession_as_sole_evidence/racialized_suspicion",
-    "confession_as_sole_evidence/systemic_acknowledgment_failure",
-    "confession_as_sole_evidence/true_perpetrator_identified",
-    "confession_as_sole_evidence/wrongful_capital_conviction",
-    "delayed_justice/confession_as_sole_evidence",
-    "delayed_justice/evidence_contradiction_ignored",
-    "delayed_justice/fabricated_evidence_accountability",
-    "delayed_justice/false_confession",
-    "delayed_justice/half_measure_clemency",
-    "delayed_justice/institutional_inertia",
-    "delayed_justice/intellectual_disability_exploitation",
-    "delayed_justice/interrogator_fed_facts",
-    "delayed_justice/near_execution",
-    "delayed_justice/racialized_suspicion",
-    "delayed_justice/suggestibility_under_authority",
-    "delayed_justice/systemic_acknowledgment_failure",
-    "delayed_justice/true_perpetrator_identified",
-    "delayed_justice/wrongful_capital_conviction",
-    "dna_exoneration/confession_as_sole_evidence",
-    "dna_exoneration/delayed_justice",
-    "dna_exoneration/evidence_contradiction_ignored",
-    "dna_exoneration/fabricated_evidence_accountability",
-    "dna_exoneration/false_confession",
-    "dna_exoneration/half_measure_clemency",
-    "dna_exoneration/institutional_inertia",
-    "dna_exoneration/intellectual_disability_exploitation",
-    "dna_exoneration/interrogator_fed_facts",
-    "dna_exoneration/near_execution",
-    "dna_exoneration/racialized_suspicion",
-    "dna_exoneration/suggestibility_under_authority",
-    "dna_exoneration/systemic_acknowledgment_failure",
-    "dna_exoneration/true_perpetrator_identified",
-    "dna_exoneration/wrongful_capital_conviction",
-    "evidence_contradiction_ignored/fabricated_evidence_accountability",
-    "evidence_contradiction_ignored/half_measure_clemency",
-    "evidence_contradiction_ignored/institutional_inertia",
-    "evidence_contradiction_ignored/near_execution",
-    "evidence_contradiction_ignored/racialized_suspicion",
-    "evidence_contradiction_ignored/systemic_acknowledgment_failure",
-    "evidence_contradiction_ignored/true_perpetrator_identified",
-    "evidence_contradiction_ignored/wrongful_capital_conviction",
-    "fabricated_evidence_accountability/racialized_suspicion",
-    "fabricated_evidence_accountability/systemic_acknowledgment_failure",
-    "fabricated_evidence_accountability/true_perpetrator_identified",
-    "false_confession/confession_as_sole_evidence",
-    "false_confession/evidence_contradiction_ignored",
-    "false_confession/fabricated_evidence_accountability",
-    "false_confession/half_measure_clemency",
-    "false_confession/institutional_inertia",
-    "false_confession/intellectual_disability_exploitation",
-    "false_confession/interrogator_fed_facts",
-    "false_confession/near_execution",
-    "false_confession/racialized_suspicion",
-    "false_confession/suggestibility_under_authority",
-    "false_confession/systemic_acknowledgment_failure",
-    "false_confession/true_perpetrator_identified",
-    "false_confession/wrongful_capital_conviction",
-    "half_measure_clemency/fabricated_evidence_accountability",
-    "half_measure_clemency/institutional_inertia",
-    "half_measure_clemency/racialized_suspicion",
-    "half_measure_clemency/systemic_acknowledgment_failure",
-    "half_measure_clemency/true_perpetrator_identified",
-    "institutional_inertia/fabricated_evidence_accountability",
-    "institutional_inertia/racialized_suspicion",
-    "institutional_inertia/systemic_acknowledgment_failure",
-    "institutional_inertia/true_perpetrator_identified",
-    "intellectual_disability_exploitation/confession_as_sole_evidence",
-    "intellectual_disability_exploitation/evidence_contradiction_ignored",
-    "intellectual_disability_exploitation/fabricated_evidence_accountability",
-    "intellectual_disability_exploitation/half_measure_clemency",
-    "intellectual_disability_exploitation/institutional_inertia",
-    "intellectual_disability_exploitation/near_execution",
-    "intellectual_disability_exploitation/racialized_suspicion",
-    "intellectual_disability_exploitation/systemic_acknowledgment_failure",
-    "intellectual_disability_exploitation/true_perpetrator_identified",
-    "intellectual_disability_exploitation/wrongful_capital_conviction",
-    "interrogator_fed_facts/confession_as_sole_evidence",
-    "interrogator_fed_facts/evidence_contradiction_ignored",
-    "interrogator_fed_facts/fabricated_evidence_accountability",
-    "interrogator_fed_facts/half_measure_clemency",
-    "interrogator_fed_facts/institutional_inertia",
-    "interrogator_fed_facts/intellectual_disability_exploitation",
-    "interrogator_fed_facts/near_execution",
-    "interrogator_fed_facts/racialized_suspicion",
-    "interrogator_fed_facts/suggestibility_under_authority",
-    "interrogator_fed_facts/systemic_acknowledgment_failure",
-    "interrogator_fed_facts/true_perpetrator_identified",
-    "interrogator_fed_facts/wrongful_capital_conviction",
-    "near_execution/fabricated_evidence_accountability",
-    "near_execution/half_measure_clemency",
-    "near_execution/institutional_inertia",
-    "near_execution/racialized_suspicion",
-    "near_execution/systemic_acknowledgment_failure",
-    "near_execution/true_perpetrator_identified",
-    "suggestibility_under_authority/confession_as_sole_evidence",
-    "suggestibility_under_authority/evidence_contradiction_ignored",
-    "suggestibility_under_authority/fabricated_evidence_accountability",
-    "suggestibility_under_authority/half_measure_clemency",
-    "suggestibility_under_authority/institutional_inertia",
-    "suggestibility_under_authority/intellectual_disability_exploitation",
-    "suggestibility_under_authority/near_execution",
-    "suggestibility_under_authority/racialized_suspicion",
-    "suggestibility_under_authority/systemic_acknowledgment_failure",
-    "suggestibility_under_authority/true_perpetrator_identified",
-    "suggestibility_under_authority/wrongful_capital_conviction",
-    "systemic_acknowledgment_failure/racialized_suspicion",
-    "true_perpetrator_identified/racialized_suspicion",
-    "true_perpetrator_identified/systemic_acknowledgment_failure",
-    "wrongful_capital_conviction/fabricated_evidence_accountability",
-    "wrongful_capital_conviction/half_measure_clemency",
-    "wrongful_capital_conviction/institutional_inertia",
-    "wrongful_capital_conviction/near_execution",
-    "wrongful_capital_conviction/racialized_suspicion",
-    "wrongful_capital_conviction/systemic_acknowledgment_failure",
-    "wrongful_capital_conviction/true_perpetrator_identified"
+  "left_pass": {
+    "_model": "claude-sonnet-4-6",
+    "_operator": "vivify.py"
+  },
+  "right_keywords": [
+    "crime_month_year",
+    "victim_age",
+    "victim_children_count",
+    "stab_count_initial",
+    "time_to_arrest",
+    "days_of_questioning",
+    "confessions_count",
+    "confessions_dismissed",
+    "confession_attempts",
+    "times_taken_to_scene",
+    "victim_height",
+    "actual_stab_wounds",
+    "children_in_apartment",
+    "verdict_date",
+    "guilty_plea_date",
+    "burglary_sentence",
+    "giarrantano_alert_date",
+    "execution_month",
+    "stay_before_execution",
+    "dna_results_date",
+    "new_evidence_time_bar",
+    "additional_prison_years",
+    "gilmore_pardon_date",
+    "release_date",
+    "absolute_pardon_year",
+    "years_since_release",
+    "tinsley_rape_year",
+    "victim_height_discrepancy",
+    "stab_wound_count_discrepancy",
+    "others_in_apartment_discrepancy",
+    "rare_protein_test_result_discrepancy"
   ],
-  "tension_score": 0.892,
-  "guardrail_actions": {},
+  "right_facts": {
+    "crime_month_year": {
+      "value": "June 1982",
+      "unit": "date",
+      "quote": "In June 1982"
+    },
+    "victim_age": {
+      "value": 19,
+      "unit": "years",
+      "quote": "a 19-year-old mother of three"
+    },
+    "victim_children_count": {
+      "value": 3,
+      "unit": "count",
+      "quote": "mother of three"
+    },
+    "stab_count_initial": {
+      "value": "over thirty",
+      "unit": "count",
+      "quote": "stabbed over thirty times"
+    },
+    "time_to_arrest": {
+      "value": "almost a year",
+      "unit": "duration",
+      "quote": "Almost a year after the crime was committed"
+    },
+    "days_of_questioning": {
+      "value": 2,
+      "unit": "days",
+      "quote": "After two days of questioning"
+    },
+    "confessions_count": {
+      "value": 5,
+      "unit": "count",
+      "quote": "a total of five different crimes"
+    },
+    "confessions_dismissed": {
+      "value": 4,
+      "unit": "count",
+      "quote": "the first four were dismissed by the Commonwealth"
+    },
+    "confession_attempts": {
+      "value": "fourth attempt",
+      "unit": "count",
+      "quote": "Only on the fourth attempt at a rehearsed confession"
+    },
+    "times_taken_to_scene": {
+      "value": 3,
+      "unit": "count",
+      "quote": "after being taken there three times in one afternoon"
+    },
+    "victim_height": {
+      "value": "5'8\"",
+      "unit": "height",
+      "quote": "she was 5’8″"
+    },
+    "actual_stab_wounds": {
+      "value": 38,
+      "unit": "count",
+      "quote": "the victim showed thirty-eight stab wounds"
+    },
+    "children_in_apartment": {
+      "value": 2,
+      "unit": "count",
+      "quote": "Ms. Williams’ two young children were with her"
+    },
+    "verdict_date": {
+      "value": "January 20, 1984",
+      "unit": "date",
+      "quote": "returned with their verdict of death on January 20, 1984"
+    },
+    "guilty_plea_date": {
+      "value": "May 1984",
+      "unit": "date",
+      "quote": "In May 1984, Washington pled guilty"
+    },
+    "burglary_sentence": {
+      "value": "two consecutive fifteen year sentences",
+      "unit": "years",
+      "quote": "sentenced to two consecutive fifteen year sentences"
+    },
+    "giarrantano_alert_date": {
+      "value": "August 1985",
+      "unit": "date",
+      "quote": "In August 1985"
+    },
+    "execution_month": {
+      "value": "September",
+      "unit": "date",
+      "quote": "with a September execution date imminent"
+    },
+    "stay_before_execution": {
+      "value": 9,
+      "unit": "days",
+      "quote": "nine days before he was scheduled to die"
+    },
+    "dna_results_date": {
+      "value": "October 1993",
+      "unit": "date",
+      "quote": "In October 1993, DNA test results revealed"
+    },
+    "new_evidence_time_bar": {
+      "value": 21,
+      "unit": "days",
+      "quote": "allowed a defendant only 21 days to introduce new evidence"
+    },
+    "additional_prison_years": {
+      "value": 6,
+      "unit": "years",
+      "quote": "remained in prison for six more years"
+    },
+    "gilmore_pardon_date": {
+      "value": "October 2000",
+      "unit": "date",
+      "quote": "In October 2000, Governor Gilmore granted Washington a pardon"
+    },
+    "release_date": {
+      "value": "February 2001",
+      "unit": "date",
+      "quote": "released from prison to parole supervision in February 2001"
+    },
+    "absolute_pardon_year": {
+      "value": 2007,
+      "unit": "date",
+      "quote": "In 2007, six years after Washington walked out of prison"
+    },
+    "years_since_release": {
+      "value": 6,
+      "unit": "years",
+      "quote": "six years after Washington walked out of prison"
+    },
+    "tinsley_rape_year": {
+      "value": 1984,
+      "unit": "date",
+      "quote": "serving life in prison for a 1984 rape"
+    }
+  },
+  "discrepancies": [
+    {
+      "topic": "victim_height",
+      "claimed": "short",
+      "actual": "5'8\"",
+      "quote": "Ms. Williams had been short when in fact she was 5’8″"
+    },
+    {
+      "topic": "stab_wound_count",
+      "claimed": "two or three times",
+      "actual": "thirty-eight stab wounds",
+      "quote": "stabbed her two or three times when the victim showed thirty-eight stab wounds"
+    },
+    {
+      "topic": "others_in_apartment",
+      "claimed": "no one else in the apartment",
+      "actual": "two young children were with her",
+      "quote": "no one else in the apartment when it was known that Ms. Williams’ two young children were with her"
+    },
+    {
+      "topic": "rare_protein_test_result",
+      "claimed": "inconclusive",
+      "actual": "detected a rare plasma protein Washington does not possess",
+      "quote": "without additional testing being conducted) that said testing for the rare protein was “inconclusive.”"
+    }
+  ],
+  "right_pass": {
+    "_model": "claude-opus-4-8",
+    "_operator": "right_pass.py"
+  },
   "logos": {
     "act_type": {
       "value": "assertive",
       "authority_mismatch": false,
-      "rationale": "The text is a documentary case narrative that asserts a sequence of facts as true \u2014 arrests, confessions, DNA results, verdicts, pardons \u2014 with no attempt to command action or perform an institutional act; it claims truth about what happened.",
-      "confidence": 0.95,
+      "rationale": "The text recounts a chain of documented events as fact — a narrative claim about what happened in the Washington case. It asserts truth about a wrongful conviction; it does not command, promise, or enact anything by being said.",
+      "confidence": 0.93,
+      "_model": "claude-opus-4-8",
+      "_votes": {
+        "n": 3,
+        "agreed": 3,
+        "unanimous": true,
+        "distribution": {
+          "act_type": {
+            "assertive": 3
+          }
+        },
+        "quarantined": 0
+      },
       "_src": [
         "Austin",
         "Searle"
@@ -224,17 +297,45 @@
     "cooperative": {
       "status": "honored",
       "maxim_violated": null,
-      "implicature": "The seventeen-year delay indicts the system's willingness to trust a coerced confession over physical evidence.",
-      "confidence": 0.85,
+      "implicature": "The telling itself is orderly, relevant, and presented as believed-true — the maxim breaches it reports (coerced confession, the 'inconclusive' amended forensic report) belong to actors inside the story, not to the narrating act.",
+      "confidence": 0.82,
+      "_model": "claude-opus-4-8",
+      "_votes": {
+        "n": 3,
+        "agreed": 3,
+        "unanimous": true,
+        "distribution": {
+          "maxim_violated": {
+            "None": 3
+          },
+          "status": {
+            "honored": 3
+          }
+        },
+        "quarantined": 0
+      },
       "_src": [
         "Grice"
       ],
       "_operator": "cooperative_operator.py"
     },
     "transmission": {
-      "value": "archive",
-      "rationale": "It is a preserved, institutional record framed explicitly as a 'canonical study,' moving past-to-future as documented legal and forensic history rather than a live one-to-many broadcast or a charged leak.",
-      "confidence": 0.82,
+      "value": "broadcast",
+      "rationale": "A public-facing, one-to-many case account written to inform a general audience about a wrongful conviction. It preserves history but its motion is dissemination to many, not restricted leak or purely internal archive.",
+      "confidence": 0.68,
+      "_model": "claude-opus-4-8",
+      "_votes": {
+        "n": 3,
+        "agreed": 2,
+        "unanimous": false,
+        "distribution": {
+          "transmission": {
+            "broadcast": 2,
+            "archive": 1
+          }
+        },
+        "quarantined": 0
+      },
       "_src": [
         "Logos Core Tree"
       ],
@@ -242,9 +343,22 @@
     },
     "resonance": {
       "value": "illusion",
-      "surface": "A confession, conviction, and death sentence that presented as lawful justice served on a guilty man.",
-      "underlying": "A coerced false confession from an intellectually disabled man whose innocence the physical and DNA evidence supported from the outset.",
-      "confidence": 0.9,
+      "surface": "the appearance of legitimate due process — a signed confession, a trial, a jury verdict of death, an official record of guilt",
+      "underlying": "a coerced false confession from a disabled man who deferred to authority, suppressed exculpatory serology, and the eventual DNA proof of innocence",
+      "confidence": 0.72,
+      "_model": "claude-opus-4-8",
+      "_votes": {
+        "n": 3,
+        "agreed": 2,
+        "unanimous": false,
+        "distribution": {
+          "resonance": {
+            "illusion": 2,
+            "friction": 1
+          }
+        },
+        "quarantined": 0
+      },
       "_src": [
         "Logos Core Tree",
         "Machin"
@@ -252,10 +366,22 @@
       "_operator": "resonance_operator.py"
     },
     "authority": {
-      "value": "occult",
-      "source": "The crime-scene evidence and DNA, which spoke truthfully from the start but went unacknowledged in the official record for seventeen years.",
-      "rationale": "Sovereign legal machinery convicted him, yet the account's core is a real evidentiary authority that the formal record refused to recognize until forced \u2014 power real but unacknowledged.",
-      "confidence": 0.7,
+      "value": "sovereign",
+      "source": "institutional legal record — police interrogation, courts, forensic reports, gubernatorial commutation and pardons, DNA findings",
+      "rationale": "The account is anchored throughout in formal state and legal machinery; its facts derive their weight from institutional/official proceedings, even as those proceedings are shown to have failed.",
+      "confidence": 0.8,
+      "_model": "claude-opus-4-8",
+      "_votes": {
+        "n": 3,
+        "agreed": 3,
+        "unanimous": true,
+        "distribution": {
+          "authority": {
+            "sovereign": 3
+          }
+        },
+        "quarantined": 0
+      },
       "_src": [
         "Logos Core Tree",
         "Weber"
@@ -265,39 +391,100 @@
     "utility": {
       "value": "narrative",
       "secondary": "instruction",
-      "rationale": "Its primary payload makes meaning of a miscarriage of justice as a canonical story; secondarily it instructs \u2014 teaching how false confessions are manufactured and how systems resist correction.",
+      "rationale": "Primarily it makes meaning of a decades-long miscarriage of justice by ordering the events into a coherent story; secondarily it functions as advocacy that enables action against wrongful convictions and the 21-day evidence bar.",
       "confidence": 0.85,
+      "_model": "claude-opus-4-8",
+      "_votes": {
+        "n": 3,
+        "agreed": 3,
+        "unanimous": true,
+        "distribution": {
+          "utility": {
+            "narrative": 3
+          },
+          "secondary": {
+            "instruction": 3
+          }
+        },
+        "quarantined": 0
+      },
       "_src": [
         "Logos Core Tree"
       ],
       "_operator": "utility_operator.py"
     },
     "social_field": {
-      "grid": 0.85,
-      "group": 0.4,
-      "quadrant": "hierarchical",
-      "rationale": "The act sits in a field densely governed by explicit legal roles and rules \u2014 police, courts, governors, juries \u2014 with high grid; membership identity is secondary, yielding a hierarchical quadrant.",
-      "confidence": 0.8,
+      "grid": 0.4,
+      "group": 0.2,
+      "quadrant": "individualist",
+      "quadrant_drawn": "individualist",
+      "quadrant_agrees": true,
+      "rationale": "The act is a public narrative broadcast to an anonymous mass audience: identity is not defined by membership (low group), and the telling itself is only loosely rule-bound (moderate-low grid), even though its content concerns a highly rule-governed institution.",
+      "confidence": 0.58,
+      "_model": "claude-opus-4-8",
+      "_votes": {
+        "n": 3,
+        "agreed": 2,
+        "unanimous": false,
+        "distribution": {
+          "quadrant": {
+            "individualist": 2,
+            "hierarchical": 1
+          }
+        },
+        "quarantined": 0
+      },
       "_src": [
         "Douglas"
       ],
       "_operator": "social_field_operator.py"
     },
     "structural": {
-      "layer": "global",
-      "scale": "global",
+      "layer": "institution",
+      "scale": "institution",
       "_coerced": null,
-      "density": "archival",
-      "persistence": "durable",
-      "authority": "formal",
-      "transmission": "archive",
-      "memory_channel": "global",
-      "language_mode": "formalized",
+      "density": "bureaucratic",
+      "persistence": "institutional",
+      "authority": "system",
+      "transmission": "broadcast",
+      "memory_channel": "institutional",
+      "language_mode": "contractual",
       "overlays": [
-        "society",
-        "culture"
+        "society"
       ],
-      "confidence": 0.78,
+      "confidence": 0.7,
+      "_model": "claude-opus-4-8",
+      "_votes": {
+        "n": 3,
+        "agreed": 1,
+        "unanimous": false,
+        "distribution": {
+          "density": {
+            "bureaucratic": 3
+          },
+          "memory_channel": {
+            "institutional": 3
+          },
+          "authority": {
+            "system": 3
+          },
+          "scale": {
+            "institution": 3
+          },
+          "language_mode": {
+            "symbolic": 1,
+            "contractual": 2
+          },
+          "transmission": {
+            "broadcast": 2,
+            "archive": 1
+          },
+          "persistence": {
+            "institutional": 3
+          }
+        },
+        "quarantined": 0
+      },
       "_src": [
         "Dunbar",
         "Tonnies",
@@ -309,8 +496,20 @@
     "_runner": "logos_fused.py",
     "act_position": {
       "value": "about",
-      "rationale": "The text is a retrospective case study that reports, summarizes, and analyzes the Washington events from outside them, adding nothing that acted on the case itself.",
+      "rationale": "The text is a third-person retrospective narrative that summarizes and reports the Washington case from outside the events, without acting on them.",
       "confidence": 0.98,
+      "_model": "claude-opus-4-8",
+      "_votes": {
+        "n": 3,
+        "agreed": 3,
+        "unanimous": true,
+        "distribution": {
+          "act_position": {
+            "about": 3
+          }
+        },
+        "quarantined": 0
+      },
       "_src": [
         "round_trip loss test 2026-07-13"
       ],
@@ -320,20 +519,83 @@
   "conflict": {
     "schema": "entangled",
     "schema_signals": [
-      "social_field: grid=0.85, group=0.4, quadrant=hierarchical",
-      "authority: occult",
-      "structural: layer=global"
+      "structural: layer=institution",
+      "authority: sovereign",
+      "resonance: illusion"
     ],
     "behavior": "suppression",
     "behavior_signals": [
       "resonance: illusion",
-      "cooperative: honored (maxim violated: none)"
+      "cooperative: honored (surface cooperation over coerced reality)"
     ],
     "terrain": "fringe",
+    "terrain_drawn": "fringe",
+    "terrain_agrees": true,
+    "terrain_distance": 0.82,
+    "terrain_hook": false,
     "window": "rationalizing",
     "escalation_phase": "exponential",
-    "confidence": 0.86,
-    "rationale": "A high-grid hierarchical schema with occult authority and a race-plus-disability power asymmetry produced a coerced confession whose coercion was masked as cooperative agreement, the resulting harm then explained away through ambiguous evidence characterization and half-measure commutation, requiring a global structural shift across two governors and two DNA generations to reverse.",
+    "confidence": 0.9,
+    "rationale": "A sovereign institution operating in illusion — a coerced confession accepted and exculpatory serology suppressed via an amended report — reveals entangled structural conditions where certainty-seeking institutional actors masked harm as due process, a self-reinforcing cascade that only a structural intervention (gubernatorial pardon) could reverse.",
+    "_model": "claude-opus-4-8",
+    "_votes": {
+      "n": 3,
+      "agreed": 3,
+      "unanimous": true,
+      "distribution": {
+        "window": {
+          "rationalizing": 3
+        },
+        "escalation_phase": {
+          "exponential": 3
+        },
+        "behavior": {
+          "suppression": 3
+        },
+        "schema": {
+          "entangled": 3
+        },
+        "terrain": {
+          "fringe": 3
+        },
+        "terrain_drawn": {
+          "fringe": 3
+        }
+      },
+      "by_dim": {
+        "schema": {
+          "n": 3,
+          "agreed": 3,
+          "unanimous": true
+        },
+        "behavior": {
+          "n": 3,
+          "agreed": 3,
+          "unanimous": true
+        },
+        "terrain": {
+          "n": 3,
+          "agreed": 3,
+          "unanimous": true,
+          "distances": [
+            0.82,
+            0.83,
+            0.85
+          ]
+        },
+        "window": {
+          "n": 3,
+          "agreed": 3,
+          "unanimous": true
+        },
+        "escalation_phase": {
+          "n": 3,
+          "agreed": 3,
+          "unanimous": true
+        }
+      },
+      "quarantined": 0
+    },
     "_src": [
       "Granovetter",
       "Glasl",
@@ -342,157 +604,79 @@
     ],
     "_operator": "conflict_operator.py"
   },
-  "right_facts": {
-    "victim_age": {
-      "value": 19,
-      "unit": "years",
-      "quote": "nineteen-year-old Rebecca Lynn Williams"
-    },
-    "crime_date": {
-      "value": "June 1982",
-      "unit": "date",
-      "quote": "In June 1982"
-    },
-    "case_unsolved_duration": {
-      "value": "nearly a year",
-      "unit": "duration",
-      "quote": "unsolved for nearly a year"
-    },
-    "arrest_date": {
-      "value": "May 1983",
-      "unit": "date",
-      "quote": "In May 1983"
-    },
-    "washington_age": {
-      "value": 22,
-      "unit": "years",
-      "quote": "twenty-two-year-old Black farmhand"
-    },
-    "washington_iq": {
-      "value": 69,
-      "unit": "iq",
-      "quote": "IQ 69"
-    },
-    "questioning_duration": {
-      "value": "two days",
-      "unit": "duration",
-      "quote": "Over two days of questioning"
-    },
-    "crimes_confessed_count": {
-      "value": 5,
-      "unit": "count",
-      "quote": "confessing to five separate crimes"
-    },
-    "false_confessions_count": {
-      "value": 4,
-      "unit": "count",
-      "quote": "Four of the five confessions collapsed"
-    },
-    "trial_year": {
-      "value": 1984,
-      "unit": "date",
-      "quote": "At trial in 1984"
-    },
-    "days_before_execution": {
-      "value": 9,
-      "unit": "days",
-      "quote": "came within nine days of execution"
-    },
-    "first_dna_testing_year": {
-      "value": 1993,
-      "unit": "date",
-      "quote": "In 1993, early DNA testing"
-    },
-    "commutation_date": {
-      "value": "January 1994",
-      "unit": "date",
-      "quote": "in January 1994 Governor L. Douglas Wilder commuted his sentence"
-    },
-    "str_dna_testing_year": {
-      "value": 2000,
-      "unit": "date",
-      "quote": "In 2000, modern STR DNA testing"
-    },
-    "pardon_date": {
-      "value": "October 2000",
-      "unit": "date",
-      "quote": "an absolute pardon for the murder in October 2000"
-    },
-    "release_date": {
-      "value": "February 2001",
-      "unit": "date",
-      "quote": "Washington was released in February 2001"
-    },
-    "years_served": {
-      "value": "nearly eighteen years",
-      "unit": "years",
-      "quote": "having served nearly eighteen years"
-    },
-    "years_on_death_row": {
-      "value": "more than nine",
-      "unit": "years",
-      "quote": "more than nine of them on death row"
-    },
-    "civil_jury_year": {
-      "value": 2006,
-      "unit": "date",
-      "quote": "In 2006 a federal civil jury"
-    },
-    "damages_awarded": {
-      "value": 2250000,
-      "unit": "usd",
-      "quote": "awarded Washington 2.25 million dollars"
-    },
-    "tinsley_guilty_plea_year": {
-      "value": 2007,
-      "unit": "date",
-      "quote": "Tinsley pleaded guilty to the Williams murder in 2007"
-    },
-    "system_delay_years": {
-      "value": 17,
-      "unit": "years",
-      "quote": "needed seventeen years"
-    },
-    "governors_count": {
-      "value": 2,
-      "unit": "count",
-      "quote": "two governors"
-    },
-    "dna_technology_generations": {
-      "value": 2,
-      "unit": "count",
-      "quote": "two generations of DNA technology"
-    }
-  },
-  "discrepancies": [
-    {
-      "topic": "confession_crime_details",
-      "claimed": "Washington's wrong facts (race, height, wounds, location)",
-      "actual": "accurate details supplied by interrogators",
-      "quote": "got the basic facts of the crime wrong \u2014 the victim's race, her height, the number of wounds, the location of the apartment \u2014 and was corrected"
-    },
-    {
-      "topic": "perpetrator_identity",
-      "claimed": "Earl Washington Jr.",
-      "actual": "Kenneth Tinsley",
-      "quote": "definitively excluded Washington and matched a convicted rapist, Kenneth Tinsley"
-    },
-    {
-      "topic": "1993_dna_result_characterization",
-      "claimed": "ambiguous results",
-      "actual": "Washington was not the source",
-      "quote": "indicated Washington was not the source, but the results were characterized ambiguously"
-    },
-    {
-      "topic": "confession_evidence_validity",
-      "claimed": "genuine confession evidence",
-      "actual": "fabricated confession evidence",
-      "quote": "had fabricated confession evidence"
-    }
-  ],
   "tension": {
-    "predicted": 0.892,
-    "confirmed": 0.5,
-    "calibration_delta": 0.392
-  }
+    "predicted": 0.756,
+    "confirmed": 0.5699,
+    "calibration_delta": 0.1861
+  },
+  "tension_score": 0.756,
+  "category_paths": [
+    "authority_deference/actual_innocence",
+    "authority_deference/compliance_behavior",
+    "authority_deference/dna_exclusion",
+    "authority_deference/forensic_amendment",
+    "authority_deference/gubernatorial_pardon",
+    "authority_deference/inadequate_defense",
+    "authority_deference/intellectual_disability",
+    "authority_deference/procedural_barrier",
+    "coerced_confession/actual_innocence",
+    "coerced_confession/authority_deference",
+    "coerced_confession/compliance_behavior",
+    "coerced_confession/dna_exclusion",
+    "coerced_confession/factual_inconsistency",
+    "coerced_confession/forensic_amendment",
+    "coerced_confession/gubernatorial_pardon",
+    "coerced_confession/inadequate_defense",
+    "coerced_confession/intellectual_disability",
+    "coerced_confession/procedural_barrier",
+    "compliance_behavior/actual_innocence",
+    "compliance_behavior/dna_exclusion",
+    "compliance_behavior/gubernatorial_pardon",
+    "compliance_behavior/inadequate_defense",
+    "compliance_behavior/procedural_barrier",
+    "dna_exclusion/actual_innocence",
+    "dna_exclusion/gubernatorial_pardon",
+    "evidence_suppression/actual_innocence",
+    "evidence_suppression/authority_deference",
+    "evidence_suppression/coerced_confession",
+    "evidence_suppression/compliance_behavior",
+    "evidence_suppression/dna_exclusion",
+    "evidence_suppression/factual_inconsistency",
+    "evidence_suppression/forensic_amendment",
+    "evidence_suppression/gubernatorial_pardon",
+    "evidence_suppression/inadequate_defense",
+    "evidence_suppression/intellectual_disability",
+    "evidence_suppression/procedural_barrier",
+    "factual_inconsistency/actual_innocence",
+    "factual_inconsistency/authority_deference",
+    "factual_inconsistency/compliance_behavior",
+    "factual_inconsistency/dna_exclusion",
+    "factual_inconsistency/forensic_amendment",
+    "factual_inconsistency/gubernatorial_pardon",
+    "factual_inconsistency/inadequate_defense",
+    "factual_inconsistency/intellectual_disability",
+    "factual_inconsistency/procedural_barrier",
+    "forensic_amendment/actual_innocence",
+    "forensic_amendment/compliance_behavior",
+    "forensic_amendment/dna_exclusion",
+    "forensic_amendment/gubernatorial_pardon",
+    "forensic_amendment/inadequate_defense",
+    "forensic_amendment/intellectual_disability",
+    "forensic_amendment/procedural_barrier",
+    "gubernatorial_pardon/actual_innocence",
+    "inadequate_defense/actual_innocence",
+    "inadequate_defense/dna_exclusion",
+    "inadequate_defense/gubernatorial_pardon",
+    "inadequate_defense/procedural_barrier",
+    "intellectual_disability/actual_innocence",
+    "intellectual_disability/compliance_behavior",
+    "intellectual_disability/dna_exclusion",
+    "intellectual_disability/gubernatorial_pardon",
+    "intellectual_disability/inadequate_defense",
+    "intellectual_disability/procedural_barrier",
+    "procedural_barrier/actual_innocence",
+    "procedural_barrier/dna_exclusion",
+    "procedural_barrier/gubernatorial_pardon"
+  ],
+  "canonical": true
 }

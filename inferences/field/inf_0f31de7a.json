@@ -78,17 +78,16 @@
     "dna_exoneration/advocacy_born_of_injustice",
     "dna_exoneration/compounding_error",
     "dna_exoneration/confirmation_amplification",
-    "dna_exoneration/eyewitness_misidentification",
     "dna_exoneration/false_certainty",
     "dna_exoneration/memory_hardening",
     "dna_exoneration/procedural_reinforcement",
     "dna_exoneration/reconciliation_across_harm",
     "dna_exoneration/suppressed_exculpatory_evidence",
     "dna_exoneration/systemic_identification_failure",
-    "dna_exoneration/wrongful_conviction",
     "eyewitness_misidentification/advocacy_born_of_injustice",
     "eyewitness_misidentification/compounding_error",
     "eyewitness_misidentification/confirmation_amplification",
+    "eyewitness_misidentification/dna_exoneration",
     "eyewitness_misidentification/false_certainty",
     "eyewitness_misidentification/memory_hardening",
     "eyewitness_misidentification/procedural_reinforcement",
@@ -127,6 +126,7 @@
     "wrongful_conviction/advocacy_born_of_injustice",
     "wrongful_conviction/compounding_error",
     "wrongful_conviction/confirmation_amplification",
+    "wrongful_conviction/dna_exoneration",
     "wrongful_conviction/false_certainty",
     "wrongful_conviction/memory_hardening",
     "wrongful_conviction/procedural_reinforcement",
@@ -408,5 +408,9 @@
       "Bandura"
     ],
     "_operator": "conflict_operator.py"
+  },
+  "telling": {
+    "provenance": "composed",
+    "role": "sensitivity probe: composed telling carrying an analytical paragraph (commit d7871ab)"
   }
 }
