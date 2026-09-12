@@ -344,7 +344,10 @@ def main():
         names = " vs ".join(f"{labels[s]} ({s})" for s in group)
         print(f"=== {heading}: {names} ===")
         g_agree = g_differ = 0
-        for key in [k for k in out["results"][head] if k != "tension"]:
+        # tension is numeric (reported separately) and _-prefixed keys are run metadata,
+        # not coordinates — _text_sha256 is a bare string and broke this loop in run 4.
+        for key in [k for k in out["results"][head]
+                    if k != "tension" and not k.startswith("_")]:
             vals = [out["results"][sid].get(key, {}).get("verdict") for sid in group]
             if len(set(map(str, vals))) == 1:
                 g_agree += 1
@@ -403,3 +406,5 @@ if __name__ == "__main__":
 # llm: claude-opus-5 | 2026-09-11 | repos/vivify-operators/vote_stability_check.py | record the numbers behind the derived bins (terrain_distance + per-draw positions, social_field grid/group) so bin edges can be re-cut from the record; store each telling's text hash and refuse to diff against a baseline measured on different text (the field tellings were rebuilt verbatim this day)
 
 # llm: claude-opus-5 | 2026-09-12 | repos/vivify-operators/vote_stability_check.py | write the run so far to <out>.partial.json after each inference, so an interrupted run keeps the calls it already paid for; the real runs file is still written once at the end so a half-run can never become a baseline
+
+# llm: claude-opus-5 | 2026-09-12 | repos/vivify-operators/vote_stability_check.py | same-telling comparison skips _-prefixed metadata keys — _text_sha256 is a bare string and crashed the report AFTER all 30 calls had been made (run 4)
