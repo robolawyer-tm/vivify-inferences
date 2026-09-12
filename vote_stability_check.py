@@ -194,6 +194,18 @@ def baseline_verdict(entry):
     return entry
 
 
+def _write_partial(runs_path, out):
+    """Mirror the run so far, so an interrupted run keeps the calls it already paid for.
+
+    The runs file is written once at the end, so a run stopped halfway — a closed laptop,
+    a quota stop — used to lose every measurement it had made. This writes the partial run
+    beside it instead of into it, so load_baseline can never mistake half a run for a
+    baseline. Removed on a clean finish.
+    """
+    runs_path.with_suffix(".partial.json").write_text(
+        json.dumps({"_partial": True, "run": out}, indent=2) + "\n")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="inferences/vote_stability_runs.json")
@@ -313,6 +325,7 @@ def main():
                     bits.append(f"{k}={now_v}")
             print(f"  {'tension':20} {'  '.join(bits)}")
         print()
+        _write_partial(runs_path, out)
 
     # The tightest available test: identical input read independently in ONE run.
     # Cross-session agreement compares different cases holding their values and
@@ -375,6 +388,7 @@ def main():
             pass                                # unreadable prior file: start fresh
     data["runs"].append(out)
     runs_path.write_text(json.dumps(data, indent=2) + "\n")
+    runs_path.with_suffix(".partial.json").unlink(missing_ok=True)
     print(f"wrote {runs_path}  (run {len(data['runs'])}; prior runs kept)")
 
 
@@ -387,3 +401,5 @@ if __name__ == "__main__":
 # llm: claude-opus-5 | 2026-09-07 | repos/vivify-operators/vote_stability_check.py | measure conflict.terrain/window + tension (the layers the same-text Cotton pair shows actually drift), --logos-only for old scope; PRIVACY_GATE moved out of import into main(); baseline now read from the previous recorded run and runs APPEND instead of overwriting; report denominator explicitly
 
 # llm: claude-opus-5 | 2026-09-11 | repos/vivify-operators/vote_stability_check.py | record the numbers behind the derived bins (terrain_distance + per-draw positions, social_field grid/group) so bin edges can be re-cut from the record; store each telling's text hash and refuse to diff against a baseline measured on different text (the field tellings were rebuilt verbatim this day)
+
+# llm: claude-opus-5 | 2026-09-12 | repos/vivify-operators/vote_stability_check.py | write the run so far to <out>.partial.json after each inference, so an interrupted run keeps the calls it already paid for; the real runs file is still written once at the end so a half-run can never become a baseline
