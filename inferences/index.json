@@ -1,48 +1,57 @@
 {
   "version": "4.0",
-  "total_inferences": 88,
+  "total_inferences": 89,
   "keywords": {
-    "eyewitness_misidentification": 3,
-    "dna_exoneration": 4,
+    "eyewitness_misidentification": 4,
+    "lineup_suggestibility": 1,
+    "identification_certainty_drift": 1,
+    "exculpatory_evidence_exclusion": 1,
+    "alternate_suspect_suppression": 1,
     "wrongful_conviction": 3,
-    "suppressed_exculpatory_evidence": 2,
-    "memory_malleability": 1,
-    "procedural_failure": 1,
-    "delayed_justice": 3,
-    "post_exoneration_reconciliation": 1,
-    "false_certainty": 2,
-    "cross_racial_identification_error": 1,
-    "confession_exclusion": 1,
-    "victim_perpetrator_alliance": 1,
-    "false_confession": 1,
-    "interrogator_fed_facts": 1,
-    "suggestibility_under_authority": 1,
-    "intellectual_disability_exploitation": 1,
-    "confession_as_sole_evidence": 1,
-    "evidence_contradiction_ignored": 1,
-    "wrongful_capital_conviction": 1,
-    "near_execution": 1,
-    "half_measure_clemency": 1,
-    "institutional_inertia": 1,
-    "fabricated_evidence_accountability": 1,
-    "true_perpetrator_identified": 1,
-    "systemic_acknowledgment_failure": 1,
-    "racialized_suspicion": 1,
+    "decade_long_imprisonment": 1,
+    "dna_exoneration": 3,
+    "post_conviction_vindication": 1,
+    "victim_perpetrator_reconciliation": 1,
+    "wrongful_conviction_advocacy": 1,
+    "procedural_injustice": 1,
+    "coerced_confession": 1,
+    "factual_inconsistency": 1,
+    "authority_deference": 1,
+    "evidence_suppression": 2,
+    "forensic_amendment": 1,
+    "intellectual_disability": 1,
+    "compliance_behavior": 1,
+    "inadequate_defense": 1,
+    "procedural_barrier": 1,
+    "dna_exclusion": 1,
+    "gubernatorial_pardon": 1,
+    "actual_innocence": 1,
     "memory_hardening": 1,
     "confirmation_amplification": 1,
     "procedural_reinforcement": 1,
+    "suppressed_exculpatory_evidence": 2,
+    "false_certainty": 2,
     "compounding_error": 1,
     "reconciliation_across_harm": 1,
     "systemic_identification_failure": 1,
     "advocacy_born_of_injustice": 1,
-    "forensic_fabrication": 1,
+    "physical_description_mismatch": 1,
+    "suggestive_showup_procedure": 1,
+    "dna_analysis_error": 1,
     "statistical_misrepresentation": 1,
-    "institutional_incompetence": 1,
-    "exculpatory_neglect": 1,
-    "physical_evidence_contradiction": 1,
-    "racial_disparity": 1,
-    "inadequate_defense": 1,
-    "custodial_years_lost": 1,
+    "ineffective_counsel": 1,
+    "independent_testing_abandoned": 1,
+    "evidence_concealment": 1,
+    "innocence_resistance": 1,
+    "investigative_journalism": 1,
+    "post_conviction_testing": 1,
+    "memory_malleability": 1,
+    "procedural_failure": 1,
+    "delayed_justice": 1,
+    "post_exoneration_reconciliation": 1,
+    "cross_racial_identification_error": 1,
+    "confession_exclusion": 1,
+    "victim_perpetrator_alliance": 1,
     "silent_failure": 1,
     "missing_dependency": 1,
     "prerequisite_enforcement": 1,
@@ -946,194 +955,143 @@
     "integrity_foundation": 1
   },
   "cooccurrence": {
-    "eyewitness_misidentification::dna_exoneration": 2,
-    "eyewitness_misidentification::wrongful_conviction": 2,
-    "eyewitness_misidentification::suppressed_exculpatory_evidence": 2,
-    "eyewitness_misidentification::memory_malleability": 1,
-    "eyewitness_misidentification::procedural_failure": 1,
-    "eyewitness_misidentification::delayed_justice": 2,
-    "eyewitness_misidentification::post_exoneration_reconciliation": 1,
-    "eyewitness_misidentification::false_certainty": 2,
-    "eyewitness_misidentification::cross_racial_identification_error": 1,
-    "eyewitness_misidentification::confession_exclusion": 1,
-    "eyewitness_misidentification::victim_perpetrator_alliance": 1,
-    "dna_exoneration::wrongful_conviction": 1,
-    "dna_exoneration::suppressed_exculpatory_evidence": 1,
-    "dna_exoneration::memory_malleability": 1,
-    "dna_exoneration::procedural_failure": 1,
-    "dna_exoneration::delayed_justice": 3,
-    "dna_exoneration::post_exoneration_reconciliation": 1,
-    "dna_exoneration::false_certainty": 2,
-    "dna_exoneration::cross_racial_identification_error": 1,
-    "dna_exoneration::confession_exclusion": 1,
-    "dna_exoneration::victim_perpetrator_alliance": 1,
-    "wrongful_conviction::suppressed_exculpatory_evidence": 1,
-    "wrongful_conviction::memory_malleability": 1,
-    "wrongful_conviction::procedural_failure": 1,
-    "wrongful_conviction::delayed_justice": 2,
-    "wrongful_conviction::post_exoneration_reconciliation": 1,
-    "wrongful_conviction::false_certainty": 2,
-    "wrongful_conviction::cross_racial_identification_error": 1,
-    "wrongful_conviction::confession_exclusion": 1,
-    "wrongful_conviction::victim_perpetrator_alliance": 1,
-    "suppressed_exculpatory_evidence::memory_malleability": 1,
-    "suppressed_exculpatory_evidence::procedural_failure": 1,
-    "suppressed_exculpatory_evidence::delayed_justice": 1,
-    "suppressed_exculpatory_evidence::post_exoneration_reconciliation": 1,
-    "suppressed_exculpatory_evidence::false_certainty": 2,
-    "suppressed_exculpatory_evidence::cross_racial_identification_error": 1,
-    "suppressed_exculpatory_evidence::confession_exclusion": 1,
-    "suppressed_exculpatory_evidence::victim_perpetrator_alliance": 1,
-    "memory_malleability::procedural_failure": 1,
-    "memory_malleability::delayed_justice": 1,
-    "memory_malleability::post_exoneration_reconciliation": 1,
-    "memory_malleability::false_certainty": 1,
-    "memory_malleability::cross_racial_identification_error": 1,
-    "memory_malleability::confession_exclusion": 1,
-    "memory_malleability::victim_perpetrator_alliance": 1,
-    "procedural_failure::delayed_justice": 1,
-    "procedural_failure::post_exoneration_reconciliation": 1,
-    "procedural_failure::false_certainty": 1,
-    "procedural_failure::cross_racial_identification_error": 1,
-    "procedural_failure::confession_exclusion": 1,
-    "procedural_failure::victim_perpetrator_alliance": 1,
-    "delayed_justice::post_exoneration_reconciliation": 1,
-    "delayed_justice::false_certainty": 1,
-    "delayed_justice::cross_racial_identification_error": 1,
-    "delayed_justice::confession_exclusion": 1,
-    "delayed_justice::victim_perpetrator_alliance": 1,
-    "post_exoneration_reconciliation::false_certainty": 1,
-    "post_exoneration_reconciliation::cross_racial_identification_error": 1,
-    "post_exoneration_reconciliation::confession_exclusion": 1,
-    "post_exoneration_reconciliation::victim_perpetrator_alliance": 1,
-    "false_certainty::cross_racial_identification_error": 1,
-    "false_certainty::confession_exclusion": 1,
-    "false_certainty::victim_perpetrator_alliance": 1,
-    "cross_racial_identification_error::confession_exclusion": 1,
-    "cross_racial_identification_error::victim_perpetrator_alliance": 1,
-    "confession_exclusion::victim_perpetrator_alliance": 1,
-    "false_confession::interrogator_fed_facts": 1,
-    "false_confession::suggestibility_under_authority": 1,
-    "false_confession::intellectual_disability_exploitation": 1,
-    "false_confession::confession_as_sole_evidence": 1,
-    "false_confession::evidence_contradiction_ignored": 1,
-    "false_confession::wrongful_capital_conviction": 1,
-    "false_confession::near_execution": 1,
-    "false_confession::dna_exoneration": 1,
-    "false_confession::delayed_justice": 1,
-    "false_confession::half_measure_clemency": 1,
-    "false_confession::institutional_inertia": 1,
-    "false_confession::fabricated_evidence_accountability": 1,
-    "false_confession::true_perpetrator_identified": 1,
-    "false_confession::systemic_acknowledgment_failure": 1,
-    "false_confession::racialized_suspicion": 1,
-    "interrogator_fed_facts::suggestibility_under_authority": 1,
-    "interrogator_fed_facts::intellectual_disability_exploitation": 1,
-    "interrogator_fed_facts::confession_as_sole_evidence": 1,
-    "interrogator_fed_facts::evidence_contradiction_ignored": 1,
-    "interrogator_fed_facts::wrongful_capital_conviction": 1,
-    "interrogator_fed_facts::near_execution": 1,
-    "interrogator_fed_facts::dna_exoneration": 1,
-    "interrogator_fed_facts::delayed_justice": 1,
-    "interrogator_fed_facts::half_measure_clemency": 1,
-    "interrogator_fed_facts::institutional_inertia": 1,
-    "interrogator_fed_facts::fabricated_evidence_accountability": 1,
-    "interrogator_fed_facts::true_perpetrator_identified": 1,
-    "interrogator_fed_facts::systemic_acknowledgment_failure": 1,
-    "interrogator_fed_facts::racialized_suspicion": 1,
-    "suggestibility_under_authority::intellectual_disability_exploitation": 1,
-    "suggestibility_under_authority::confession_as_sole_evidence": 1,
-    "suggestibility_under_authority::evidence_contradiction_ignored": 1,
-    "suggestibility_under_authority::wrongful_capital_conviction": 1,
-    "suggestibility_under_authority::near_execution": 1,
-    "suggestibility_under_authority::dna_exoneration": 1,
-    "suggestibility_under_authority::delayed_justice": 1,
-    "suggestibility_under_authority::half_measure_clemency": 1,
-    "suggestibility_under_authority::institutional_inertia": 1,
-    "suggestibility_under_authority::fabricated_evidence_accountability": 1,
-    "suggestibility_under_authority::true_perpetrator_identified": 1,
-    "suggestibility_under_authority::systemic_acknowledgment_failure": 1,
-    "suggestibility_under_authority::racialized_suspicion": 1,
-    "intellectual_disability_exploitation::confession_as_sole_evidence": 1,
-    "intellectual_disability_exploitation::evidence_contradiction_ignored": 1,
-    "intellectual_disability_exploitation::wrongful_capital_conviction": 1,
-    "intellectual_disability_exploitation::near_execution": 1,
-    "intellectual_disability_exploitation::dna_exoneration": 1,
-    "intellectual_disability_exploitation::delayed_justice": 1,
-    "intellectual_disability_exploitation::half_measure_clemency": 1,
-    "intellectual_disability_exploitation::institutional_inertia": 1,
-    "intellectual_disability_exploitation::fabricated_evidence_accountability": 1,
-    "intellectual_disability_exploitation::true_perpetrator_identified": 1,
-    "intellectual_disability_exploitation::systemic_acknowledgment_failure": 1,
-    "intellectual_disability_exploitation::racialized_suspicion": 1,
-    "confession_as_sole_evidence::evidence_contradiction_ignored": 1,
-    "confession_as_sole_evidence::wrongful_capital_conviction": 1,
-    "confession_as_sole_evidence::near_execution": 1,
-    "confession_as_sole_evidence::dna_exoneration": 1,
-    "confession_as_sole_evidence::delayed_justice": 1,
-    "confession_as_sole_evidence::half_measure_clemency": 1,
-    "confession_as_sole_evidence::institutional_inertia": 1,
-    "confession_as_sole_evidence::fabricated_evidence_accountability": 1,
-    "confession_as_sole_evidence::true_perpetrator_identified": 1,
-    "confession_as_sole_evidence::systemic_acknowledgment_failure": 1,
-    "confession_as_sole_evidence::racialized_suspicion": 1,
-    "evidence_contradiction_ignored::wrongful_capital_conviction": 1,
-    "evidence_contradiction_ignored::near_execution": 1,
-    "evidence_contradiction_ignored::dna_exoneration": 1,
-    "evidence_contradiction_ignored::delayed_justice": 1,
-    "evidence_contradiction_ignored::half_measure_clemency": 1,
-    "evidence_contradiction_ignored::institutional_inertia": 1,
-    "evidence_contradiction_ignored::fabricated_evidence_accountability": 1,
-    "evidence_contradiction_ignored::true_perpetrator_identified": 1,
-    "evidence_contradiction_ignored::systemic_acknowledgment_failure": 1,
-    "evidence_contradiction_ignored::racialized_suspicion": 1,
-    "wrongful_capital_conviction::near_execution": 1,
-    "wrongful_capital_conviction::dna_exoneration": 1,
-    "wrongful_capital_conviction::delayed_justice": 1,
-    "wrongful_capital_conviction::half_measure_clemency": 1,
-    "wrongful_capital_conviction::institutional_inertia": 1,
-    "wrongful_capital_conviction::fabricated_evidence_accountability": 1,
-    "wrongful_capital_conviction::true_perpetrator_identified": 1,
-    "wrongful_capital_conviction::systemic_acknowledgment_failure": 1,
-    "wrongful_capital_conviction::racialized_suspicion": 1,
-    "near_execution::dna_exoneration": 1,
-    "near_execution::delayed_justice": 1,
-    "near_execution::half_measure_clemency": 1,
-    "near_execution::institutional_inertia": 1,
-    "near_execution::fabricated_evidence_accountability": 1,
-    "near_execution::true_perpetrator_identified": 1,
-    "near_execution::systemic_acknowledgment_failure": 1,
-    "near_execution::racialized_suspicion": 1,
-    "dna_exoneration::half_measure_clemency": 1,
-    "dna_exoneration::institutional_inertia": 1,
-    "dna_exoneration::fabricated_evidence_accountability": 1,
-    "dna_exoneration::true_perpetrator_identified": 1,
-    "dna_exoneration::systemic_acknowledgment_failure": 1,
-    "dna_exoneration::racialized_suspicion": 1,
-    "delayed_justice::half_measure_clemency": 1,
-    "delayed_justice::institutional_inertia": 1,
-    "delayed_justice::fabricated_evidence_accountability": 1,
-    "delayed_justice::true_perpetrator_identified": 1,
-    "delayed_justice::systemic_acknowledgment_failure": 1,
-    "delayed_justice::racialized_suspicion": 1,
-    "half_measure_clemency::institutional_inertia": 1,
-    "half_measure_clemency::fabricated_evidence_accountability": 1,
-    "half_measure_clemency::true_perpetrator_identified": 1,
-    "half_measure_clemency::systemic_acknowledgment_failure": 1,
-    "half_measure_clemency::racialized_suspicion": 1,
-    "institutional_inertia::fabricated_evidence_accountability": 1,
-    "institutional_inertia::true_perpetrator_identified": 1,
-    "institutional_inertia::systemic_acknowledgment_failure": 1,
-    "institutional_inertia::racialized_suspicion": 1,
-    "fabricated_evidence_accountability::true_perpetrator_identified": 1,
-    "fabricated_evidence_accountability::systemic_acknowledgment_failure": 1,
-    "fabricated_evidence_accountability::racialized_suspicion": 1,
-    "true_perpetrator_identified::systemic_acknowledgment_failure": 1,
-    "true_perpetrator_identified::racialized_suspicion": 1,
-    "systemic_acknowledgment_failure::racialized_suspicion": 1,
+    "eyewitness_misidentification::lineup_suggestibility": 1,
+    "eyewitness_misidentification::identification_certainty_drift": 1,
+    "eyewitness_misidentification::exculpatory_evidence_exclusion": 1,
+    "eyewitness_misidentification::alternate_suspect_suppression": 1,
+    "eyewitness_misidentification::wrongful_conviction": 3,
+    "eyewitness_misidentification::decade_long_imprisonment": 1,
+    "eyewitness_misidentification::dna_exoneration": 3,
+    "eyewitness_misidentification::post_conviction_vindication": 1,
+    "eyewitness_misidentification::victim_perpetrator_reconciliation": 1,
+    "eyewitness_misidentification::wrongful_conviction_advocacy": 1,
+    "eyewitness_misidentification::procedural_injustice": 1,
+    "lineup_suggestibility::identification_certainty_drift": 1,
+    "lineup_suggestibility::exculpatory_evidence_exclusion": 1,
+    "lineup_suggestibility::alternate_suspect_suppression": 1,
+    "lineup_suggestibility::wrongful_conviction": 1,
+    "lineup_suggestibility::decade_long_imprisonment": 1,
+    "lineup_suggestibility::dna_exoneration": 1,
+    "lineup_suggestibility::post_conviction_vindication": 1,
+    "lineup_suggestibility::victim_perpetrator_reconciliation": 1,
+    "lineup_suggestibility::wrongful_conviction_advocacy": 1,
+    "lineup_suggestibility::procedural_injustice": 1,
+    "identification_certainty_drift::exculpatory_evidence_exclusion": 1,
+    "identification_certainty_drift::alternate_suspect_suppression": 1,
+    "identification_certainty_drift::wrongful_conviction": 1,
+    "identification_certainty_drift::decade_long_imprisonment": 1,
+    "identification_certainty_drift::dna_exoneration": 1,
+    "identification_certainty_drift::post_conviction_vindication": 1,
+    "identification_certainty_drift::victim_perpetrator_reconciliation": 1,
+    "identification_certainty_drift::wrongful_conviction_advocacy": 1,
+    "identification_certainty_drift::procedural_injustice": 1,
+    "exculpatory_evidence_exclusion::alternate_suspect_suppression": 1,
+    "exculpatory_evidence_exclusion::wrongful_conviction": 1,
+    "exculpatory_evidence_exclusion::decade_long_imprisonment": 1,
+    "exculpatory_evidence_exclusion::dna_exoneration": 1,
+    "exculpatory_evidence_exclusion::post_conviction_vindication": 1,
+    "exculpatory_evidence_exclusion::victim_perpetrator_reconciliation": 1,
+    "exculpatory_evidence_exclusion::wrongful_conviction_advocacy": 1,
+    "exculpatory_evidence_exclusion::procedural_injustice": 1,
+    "alternate_suspect_suppression::wrongful_conviction": 1,
+    "alternate_suspect_suppression::decade_long_imprisonment": 1,
+    "alternate_suspect_suppression::dna_exoneration": 1,
+    "alternate_suspect_suppression::post_conviction_vindication": 1,
+    "alternate_suspect_suppression::victim_perpetrator_reconciliation": 1,
+    "alternate_suspect_suppression::wrongful_conviction_advocacy": 1,
+    "alternate_suspect_suppression::procedural_injustice": 1,
+    "wrongful_conviction::decade_long_imprisonment": 1,
+    "wrongful_conviction::dna_exoneration": 2,
+    "wrongful_conviction::post_conviction_vindication": 1,
+    "wrongful_conviction::victim_perpetrator_reconciliation": 1,
+    "wrongful_conviction::wrongful_conviction_advocacy": 1,
+    "wrongful_conviction::procedural_injustice": 1,
+    "decade_long_imprisonment::dna_exoneration": 1,
+    "decade_long_imprisonment::post_conviction_vindication": 1,
+    "decade_long_imprisonment::victim_perpetrator_reconciliation": 1,
+    "decade_long_imprisonment::wrongful_conviction_advocacy": 1,
+    "decade_long_imprisonment::procedural_injustice": 1,
+    "dna_exoneration::post_conviction_vindication": 1,
+    "dna_exoneration::victim_perpetrator_reconciliation": 1,
+    "dna_exoneration::wrongful_conviction_advocacy": 1,
+    "dna_exoneration::procedural_injustice": 1,
+    "post_conviction_vindication::victim_perpetrator_reconciliation": 1,
+    "post_conviction_vindication::wrongful_conviction_advocacy": 1,
+    "post_conviction_vindication::procedural_injustice": 1,
+    "victim_perpetrator_reconciliation::wrongful_conviction_advocacy": 1,
+    "victim_perpetrator_reconciliation::procedural_injustice": 1,
+    "wrongful_conviction_advocacy::procedural_injustice": 1,
+    "coerced_confession::factual_inconsistency": 1,
+    "coerced_confession::authority_deference": 1,
+    "coerced_confession::evidence_suppression": 1,
+    "coerced_confession::forensic_amendment": 1,
+    "coerced_confession::intellectual_disability": 1,
+    "coerced_confession::compliance_behavior": 1,
+    "coerced_confession::inadequate_defense": 1,
+    "coerced_confession::procedural_barrier": 1,
+    "coerced_confession::dna_exclusion": 1,
+    "coerced_confession::gubernatorial_pardon": 1,
+    "coerced_confession::actual_innocence": 1,
+    "factual_inconsistency::authority_deference": 1,
+    "factual_inconsistency::evidence_suppression": 1,
+    "factual_inconsistency::forensic_amendment": 1,
+    "factual_inconsistency::intellectual_disability": 1,
+    "factual_inconsistency::compliance_behavior": 1,
+    "factual_inconsistency::inadequate_defense": 1,
+    "factual_inconsistency::procedural_barrier": 1,
+    "factual_inconsistency::dna_exclusion": 1,
+    "factual_inconsistency::gubernatorial_pardon": 1,
+    "factual_inconsistency::actual_innocence": 1,
+    "authority_deference::evidence_suppression": 1,
+    "authority_deference::forensic_amendment": 1,
+    "authority_deference::intellectual_disability": 1,
+    "authority_deference::compliance_behavior": 1,
+    "authority_deference::inadequate_defense": 1,
+    "authority_deference::procedural_barrier": 1,
+    "authority_deference::dna_exclusion": 1,
+    "authority_deference::gubernatorial_pardon": 1,
+    "authority_deference::actual_innocence": 1,
+    "evidence_suppression::forensic_amendment": 1,
+    "evidence_suppression::intellectual_disability": 1,
+    "evidence_suppression::compliance_behavior": 1,
+    "evidence_suppression::inadequate_defense": 1,
+    "evidence_suppression::procedural_barrier": 1,
+    "evidence_suppression::dna_exclusion": 1,
+    "evidence_suppression::gubernatorial_pardon": 1,
+    "evidence_suppression::actual_innocence": 1,
+    "forensic_amendment::intellectual_disability": 1,
+    "forensic_amendment::compliance_behavior": 1,
+    "forensic_amendment::inadequate_defense": 1,
+    "forensic_amendment::procedural_barrier": 1,
+    "forensic_amendment::dna_exclusion": 1,
+    "forensic_amendment::gubernatorial_pardon": 1,
+    "forensic_amendment::actual_innocence": 1,
+    "intellectual_disability::compliance_behavior": 1,
+    "intellectual_disability::inadequate_defense": 1,
+    "intellectual_disability::procedural_barrier": 1,
+    "intellectual_disability::dna_exclusion": 1,
+    "intellectual_disability::gubernatorial_pardon": 1,
+    "intellectual_disability::actual_innocence": 1,
+    "compliance_behavior::inadequate_defense": 1,
+    "compliance_behavior::procedural_barrier": 1,
+    "compliance_behavior::dna_exclusion": 1,
+    "compliance_behavior::gubernatorial_pardon": 1,
+    "compliance_behavior::actual_innocence": 1,
+    "inadequate_defense::procedural_barrier": 1,
+    "inadequate_defense::dna_exclusion": 1,
+    "inadequate_defense::gubernatorial_pardon": 1,
+    "inadequate_defense::actual_innocence": 1,
+    "procedural_barrier::dna_exclusion": 1,
+    "procedural_barrier::gubernatorial_pardon": 1,
+    "procedural_barrier::actual_innocence": 1,
+    "dna_exclusion::gubernatorial_pardon": 1,
+    "dna_exclusion::actual_innocence": 1,
+    "gubernatorial_pardon::actual_innocence": 1,
     "eyewitness_misidentification::memory_hardening": 1,
     "eyewitness_misidentification::confirmation_amplification": 1,
     "eyewitness_misidentification::procedural_reinforcement": 1,
+    "eyewitness_misidentification::suppressed_exculpatory_evidence": 2,
+    "eyewitness_misidentification::false_certainty": 2,
     "eyewitness_misidentification::compounding_error": 1,
     "eyewitness_misidentification::reconciliation_across_harm": 1,
     "eyewitness_misidentification::systemic_identification_failure": 1,
@@ -1167,15 +1125,17 @@
     "procedural_reinforcement::advocacy_born_of_injustice": 1,
     "suppressed_exculpatory_evidence::wrongful_conviction": 1,
     "suppressed_exculpatory_evidence::dna_exoneration": 1,
+    "suppressed_exculpatory_evidence::false_certainty": 2,
     "suppressed_exculpatory_evidence::compounding_error": 1,
     "suppressed_exculpatory_evidence::reconciliation_across_harm": 1,
     "suppressed_exculpatory_evidence::systemic_identification_failure": 1,
     "suppressed_exculpatory_evidence::advocacy_born_of_injustice": 1,
-    "wrongful_conviction::dna_exoneration": 2,
+    "wrongful_conviction::false_certainty": 2,
     "wrongful_conviction::compounding_error": 1,
     "wrongful_conviction::reconciliation_across_harm": 1,
     "wrongful_conviction::systemic_identification_failure": 1,
     "wrongful_conviction::advocacy_born_of_injustice": 1,
+    "dna_exoneration::false_certainty": 2,
     "dna_exoneration::compounding_error": 1,
     "dna_exoneration::reconciliation_across_harm": 1,
     "dna_exoneration::systemic_identification_failure": 1,
@@ -1190,68 +1150,131 @@
     "reconciliation_across_harm::systemic_identification_failure": 1,
     "reconciliation_across_harm::advocacy_born_of_injustice": 1,
     "systemic_identification_failure::advocacy_born_of_injustice": 1,
-    "wrongful_conviction::eyewitness_misidentification": 1,
-    "wrongful_conviction::forensic_fabrication": 1,
-    "wrongful_conviction::statistical_misrepresentation": 1,
-    "wrongful_conviction::institutional_incompetence": 1,
-    "wrongful_conviction::exculpatory_neglect": 1,
-    "wrongful_conviction::physical_evidence_contradiction": 1,
-    "wrongful_conviction::racial_disparity": 1,
-    "wrongful_conviction::inadequate_defense": 1,
-    "wrongful_conviction::custodial_years_lost": 1,
-    "dna_exoneration::eyewitness_misidentification": 1,
-    "dna_exoneration::forensic_fabrication": 1,
-    "dna_exoneration::statistical_misrepresentation": 1,
-    "dna_exoneration::institutional_incompetence": 1,
-    "dna_exoneration::exculpatory_neglect": 1,
-    "dna_exoneration::physical_evidence_contradiction": 1,
-    "dna_exoneration::racial_disparity": 1,
-    "dna_exoneration::inadequate_defense": 1,
-    "dna_exoneration::custodial_years_lost": 1,
-    "eyewitness_misidentification::forensic_fabrication": 1,
+    "eyewitness_misidentification::physical_description_mismatch": 1,
+    "eyewitness_misidentification::suggestive_showup_procedure": 1,
+    "eyewitness_misidentification::dna_analysis_error": 1,
     "eyewitness_misidentification::statistical_misrepresentation": 1,
-    "eyewitness_misidentification::institutional_incompetence": 1,
-    "eyewitness_misidentification::exculpatory_neglect": 1,
-    "eyewitness_misidentification::physical_evidence_contradiction": 1,
-    "eyewitness_misidentification::racial_disparity": 1,
-    "eyewitness_misidentification::inadequate_defense": 1,
-    "eyewitness_misidentification::custodial_years_lost": 1,
-    "forensic_fabrication::statistical_misrepresentation": 1,
-    "forensic_fabrication::institutional_incompetence": 1,
-    "forensic_fabrication::exculpatory_neglect": 1,
-    "forensic_fabrication::physical_evidence_contradiction": 1,
-    "forensic_fabrication::racial_disparity": 1,
-    "forensic_fabrication::inadequate_defense": 1,
-    "forensic_fabrication::delayed_justice": 1,
-    "forensic_fabrication::custodial_years_lost": 1,
-    "statistical_misrepresentation::institutional_incompetence": 1,
-    "statistical_misrepresentation::exculpatory_neglect": 1,
-    "statistical_misrepresentation::physical_evidence_contradiction": 1,
-    "statistical_misrepresentation::racial_disparity": 1,
-    "statistical_misrepresentation::inadequate_defense": 1,
-    "statistical_misrepresentation::delayed_justice": 1,
-    "statistical_misrepresentation::custodial_years_lost": 1,
-    "institutional_incompetence::exculpatory_neglect": 1,
-    "institutional_incompetence::physical_evidence_contradiction": 1,
-    "institutional_incompetence::racial_disparity": 1,
-    "institutional_incompetence::inadequate_defense": 1,
-    "institutional_incompetence::delayed_justice": 1,
-    "institutional_incompetence::custodial_years_lost": 1,
-    "exculpatory_neglect::physical_evidence_contradiction": 1,
-    "exculpatory_neglect::racial_disparity": 1,
-    "exculpatory_neglect::inadequate_defense": 1,
-    "exculpatory_neglect::delayed_justice": 1,
-    "exculpatory_neglect::custodial_years_lost": 1,
-    "physical_evidence_contradiction::racial_disparity": 1,
-    "physical_evidence_contradiction::inadequate_defense": 1,
-    "physical_evidence_contradiction::delayed_justice": 1,
-    "physical_evidence_contradiction::custodial_years_lost": 1,
-    "racial_disparity::inadequate_defense": 1,
-    "racial_disparity::delayed_justice": 1,
-    "racial_disparity::custodial_years_lost": 1,
-    "inadequate_defense::delayed_justice": 1,
-    "inadequate_defense::custodial_years_lost": 1,
-    "delayed_justice::custodial_years_lost": 1,
+    "eyewitness_misidentification::evidence_suppression": 1,
+    "eyewitness_misidentification::ineffective_counsel": 1,
+    "eyewitness_misidentification::independent_testing_abandoned": 1,
+    "eyewitness_misidentification::evidence_concealment": 1,
+    "eyewitness_misidentification::innocence_resistance": 1,
+    "eyewitness_misidentification::investigative_journalism": 1,
+    "eyewitness_misidentification::post_conviction_testing": 1,
+    "physical_description_mismatch::suggestive_showup_procedure": 1,
+    "physical_description_mismatch::dna_analysis_error": 1,
+    "physical_description_mismatch::statistical_misrepresentation": 1,
+    "physical_description_mismatch::evidence_suppression": 1,
+    "physical_description_mismatch::ineffective_counsel": 1,
+    "physical_description_mismatch::independent_testing_abandoned": 1,
+    "physical_description_mismatch::evidence_concealment": 1,
+    "physical_description_mismatch::innocence_resistance": 1,
+    "physical_description_mismatch::investigative_journalism": 1,
+    "physical_description_mismatch::post_conviction_testing": 1,
+    "suggestive_showup_procedure::dna_analysis_error": 1,
+    "suggestive_showup_procedure::statistical_misrepresentation": 1,
+    "suggestive_showup_procedure::evidence_suppression": 1,
+    "suggestive_showup_procedure::ineffective_counsel": 1,
+    "suggestive_showup_procedure::independent_testing_abandoned": 1,
+    "suggestive_showup_procedure::evidence_concealment": 1,
+    "suggestive_showup_procedure::innocence_resistance": 1,
+    "suggestive_showup_procedure::investigative_journalism": 1,
+    "suggestive_showup_procedure::post_conviction_testing": 1,
+    "dna_analysis_error::statistical_misrepresentation": 1,
+    "dna_analysis_error::evidence_suppression": 1,
+    "dna_analysis_error::ineffective_counsel": 1,
+    "dna_analysis_error::independent_testing_abandoned": 1,
+    "dna_analysis_error::evidence_concealment": 1,
+    "dna_analysis_error::innocence_resistance": 1,
+    "dna_analysis_error::investigative_journalism": 1,
+    "dna_analysis_error::post_conviction_testing": 1,
+    "statistical_misrepresentation::evidence_suppression": 1,
+    "statistical_misrepresentation::ineffective_counsel": 1,
+    "statistical_misrepresentation::independent_testing_abandoned": 1,
+    "statistical_misrepresentation::evidence_concealment": 1,
+    "statistical_misrepresentation::innocence_resistance": 1,
+    "statistical_misrepresentation::investigative_journalism": 1,
+    "statistical_misrepresentation::post_conviction_testing": 1,
+    "evidence_suppression::ineffective_counsel": 1,
+    "evidence_suppression::independent_testing_abandoned": 1,
+    "evidence_suppression::evidence_concealment": 1,
+    "evidence_suppression::innocence_resistance": 1,
+    "evidence_suppression::investigative_journalism": 1,
+    "evidence_suppression::post_conviction_testing": 1,
+    "ineffective_counsel::independent_testing_abandoned": 1,
+    "ineffective_counsel::evidence_concealment": 1,
+    "ineffective_counsel::innocence_resistance": 1,
+    "ineffective_counsel::investigative_journalism": 1,
+    "ineffective_counsel::post_conviction_testing": 1,
+    "independent_testing_abandoned::evidence_concealment": 1,
+    "independent_testing_abandoned::innocence_resistance": 1,
+    "independent_testing_abandoned::investigative_journalism": 1,
+    "independent_testing_abandoned::post_conviction_testing": 1,
+    "evidence_concealment::innocence_resistance": 1,
+    "evidence_concealment::investigative_journalism": 1,
+    "evidence_concealment::post_conviction_testing": 1,
+    "innocence_resistance::investigative_journalism": 1,
+    "innocence_resistance::post_conviction_testing": 1,
+    "investigative_journalism::post_conviction_testing": 1,
+    "eyewitness_misidentification::memory_malleability": 1,
+    "eyewitness_misidentification::procedural_failure": 1,
+    "eyewitness_misidentification::delayed_justice": 1,
+    "eyewitness_misidentification::post_exoneration_reconciliation": 1,
+    "eyewitness_misidentification::cross_racial_identification_error": 1,
+    "eyewitness_misidentification::confession_exclusion": 1,
+    "eyewitness_misidentification::victim_perpetrator_alliance": 1,
+    "dna_exoneration::wrongful_conviction": 1,
+    "dna_exoneration::suppressed_exculpatory_evidence": 1,
+    "dna_exoneration::memory_malleability": 1,
+    "dna_exoneration::procedural_failure": 1,
+    "dna_exoneration::delayed_justice": 1,
+    "dna_exoneration::post_exoneration_reconciliation": 1,
+    "dna_exoneration::cross_racial_identification_error": 1,
+    "dna_exoneration::confession_exclusion": 1,
+    "dna_exoneration::victim_perpetrator_alliance": 1,
+    "wrongful_conviction::suppressed_exculpatory_evidence": 1,
+    "wrongful_conviction::memory_malleability": 1,
+    "wrongful_conviction::procedural_failure": 1,
+    "wrongful_conviction::delayed_justice": 1,
+    "wrongful_conviction::post_exoneration_reconciliation": 1,
+    "wrongful_conviction::cross_racial_identification_error": 1,
+    "wrongful_conviction::confession_exclusion": 1,
+    "wrongful_conviction::victim_perpetrator_alliance": 1,
+    "suppressed_exculpatory_evidence::memory_malleability": 1,
+    "suppressed_exculpatory_evidence::procedural_failure": 1,
+    "suppressed_exculpatory_evidence::delayed_justice": 1,
+    "suppressed_exculpatory_evidence::post_exoneration_reconciliation": 1,
+    "suppressed_exculpatory_evidence::cross_racial_identification_error": 1,
+    "suppressed_exculpatory_evidence::confession_exclusion": 1,
+    "suppressed_exculpatory_evidence::victim_perpetrator_alliance": 1,
+    "memory_malleability::procedural_failure": 1,
+    "memory_malleability::delayed_justice": 1,
+    "memory_malleability::post_exoneration_reconciliation": 1,
+    "memory_malleability::false_certainty": 1,
+    "memory_malleability::cross_racial_identification_error": 1,
+    "memory_malleability::confession_exclusion": 1,
+    "memory_malleability::victim_perpetrator_alliance": 1,
+    "procedural_failure::delayed_justice": 1,
+    "procedural_failure::post_exoneration_reconciliation": 1,
+    "procedural_failure::false_certainty": 1,
+    "procedural_failure::cross_racial_identification_error": 1,
+    "procedural_failure::confession_exclusion": 1,
+    "procedural_failure::victim_perpetrator_alliance": 1,
+    "delayed_justice::post_exoneration_reconciliation": 1,
+    "delayed_justice::false_certainty": 1,
+    "delayed_justice::cross_racial_identification_error": 1,
+    "delayed_justice::confession_exclusion": 1,
+    "delayed_justice::victim_perpetrator_alliance": 1,
+    "post_exoneration_reconciliation::false_certainty": 1,
+    "post_exoneration_reconciliation::cross_racial_identification_error": 1,
+    "post_exoneration_reconciliation::confession_exclusion": 1,
+    "post_exoneration_reconciliation::victim_perpetrator_alliance": 1,
+    "false_certainty::cross_racial_identification_error": 1,
+    "false_certainty::confession_exclusion": 1,
+    "false_certainty::victim_perpetrator_alliance": 1,
+    "cross_racial_identification_error::confession_exclusion": 1,
+    "cross_racial_identification_error::victim_perpetrator_alliance": 1,
+    "confession_exclusion::victim_perpetrator_alliance": 1,
     "silent_failure::missing_dependency": 1,
     "silent_failure::prerequisite_enforcement": 1,
     "silent_failure::proactive_setup": 1,
@@ -13676,412 +13699,76 @@
       }
     },
     "field": {
-      "count": 4,
+      "count": 5,
       "tree": {
-        "dna_exoneration": {
-          "eyewitness_misidentification": [
-            "wrongful_conviction",
-            "suppressed_exculpatory_evidence",
-            "delayed_justice",
-            "false_certainty"
-          ],
-          "wrongful_conviction": [
-            "suppressed_exculpatory_evidence",
-            "delayed_justice",
-            "false_certainty",
-            "memory_malleability"
-          ],
-          "delayed_justice": [
-            "suppressed_exculpatory_evidence",
-            "memory_malleability",
-            "procedural_failure",
-            "post_exoneration_reconciliation"
-          ],
-          "suppressed_exculpatory_evidence": [
-            "false_certainty",
-            "memory_malleability",
-            "procedural_failure",
-            "post_exoneration_reconciliation"
-          ],
-          "false_certainty": [
-            "memory_malleability",
-            "procedural_failure",
-            "post_exoneration_reconciliation",
-            "cross_racial_identification_error"
-          ],
-          "memory_malleability": [
-            "procedural_failure",
-            "post_exoneration_reconciliation",
-            "cross_racial_identification_error",
-            "confession_exclusion"
-          ],
-          "procedural_failure": [
-            "post_exoneration_reconciliation",
-            "cross_racial_identification_error",
-            "confession_exclusion",
-            "victim_perpetrator_alliance"
-          ],
-          "post_exoneration_reconciliation": [
-            "cross_racial_identification_error",
-            "confession_exclusion",
-            "victim_perpetrator_alliance"
-          ],
-          "cross_racial_identification_error": [
-            "confession_exclusion",
-            "victim_perpetrator_alliance"
-          ],
-          "confession_exclusion": [
-            "victim_perpetrator_alliance"
-          ],
-          "victim_perpetrator_alliance": [],
-          "false_confession": [
-            "interrogator_fed_facts",
-            "suggestibility_under_authority",
-            "intellectual_disability_exploitation",
-            "confession_as_sole_evidence"
-          ],
-          "interrogator_fed_facts": [
-            "suggestibility_under_authority",
-            "intellectual_disability_exploitation",
-            "confession_as_sole_evidence",
-            "evidence_contradiction_ignored"
-          ],
-          "suggestibility_under_authority": [
-            "intellectual_disability_exploitation",
-            "confession_as_sole_evidence",
-            "evidence_contradiction_ignored",
-            "wrongful_capital_conviction"
-          ],
-          "intellectual_disability_exploitation": [
-            "confession_as_sole_evidence",
-            "evidence_contradiction_ignored",
-            "wrongful_capital_conviction",
-            "near_execution"
-          ],
-          "confession_as_sole_evidence": [
-            "evidence_contradiction_ignored",
-            "wrongful_capital_conviction",
-            "near_execution",
-            "half_measure_clemency"
-          ],
-          "evidence_contradiction_ignored": [
-            "wrongful_capital_conviction",
-            "near_execution",
-            "half_measure_clemency",
-            "institutional_inertia"
-          ],
-          "wrongful_capital_conviction": [
-            "near_execution",
-            "half_measure_clemency",
-            "institutional_inertia",
-            "fabricated_evidence_accountability"
-          ],
-          "near_execution": [
-            "half_measure_clemency",
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified"
-          ],
-          "half_measure_clemency": [
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure"
-          ],
-          "institutional_inertia": [
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "fabricated_evidence_accountability": [
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "true_perpetrator_identified": [
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "systemic_acknowledgment_failure": [
-            "racialized_suspicion"
-          ],
-          "racialized_suspicion": [],
-          "memory_hardening": [
-            "confirmation_amplification",
-            "procedural_reinforcement",
-            "compounding_error",
-            "reconciliation_across_harm"
-          ],
-          "confirmation_amplification": [
-            "procedural_reinforcement",
-            "compounding_error",
-            "reconciliation_across_harm",
-            "systemic_identification_failure"
-          ],
-          "procedural_reinforcement": [
-            "compounding_error",
-            "reconciliation_across_harm",
-            "systemic_identification_failure",
-            "advocacy_born_of_injustice"
-          ],
-          "compounding_error": [
-            "reconciliation_across_harm",
-            "systemic_identification_failure",
-            "advocacy_born_of_injustice"
-          ],
-          "reconciliation_across_harm": [
-            "systemic_identification_failure",
-            "advocacy_born_of_injustice"
-          ],
-          "systemic_identification_failure": [
-            "advocacy_born_of_injustice"
-          ],
-          "advocacy_born_of_injustice": [],
-          "forensic_fabrication": [
-            "statistical_misrepresentation",
-            "institutional_incompetence",
-            "exculpatory_neglect",
-            "physical_evidence_contradiction"
-          ],
-          "statistical_misrepresentation": [
-            "institutional_incompetence",
-            "exculpatory_neglect",
-            "physical_evidence_contradiction",
-            "racial_disparity"
-          ],
-          "institutional_incompetence": [
-            "exculpatory_neglect",
-            "physical_evidence_contradiction",
-            "racial_disparity",
-            "inadequate_defense"
-          ],
-          "exculpatory_neglect": [
-            "physical_evidence_contradiction",
-            "racial_disparity",
-            "inadequate_defense",
-            "custodial_years_lost"
-          ],
-          "physical_evidence_contradiction": [
-            "racial_disparity",
-            "inadequate_defense",
-            "custodial_years_lost"
-          ],
-          "racial_disparity": [
-            "inadequate_defense",
-            "custodial_years_lost"
-          ],
-          "inadequate_defense": [
-            "custodial_years_lost"
-          ],
-          "custodial_years_lost": []
-        },
-        "delayed_justice": {
-          "eyewitness_misidentification": [
-            "wrongful_conviction",
-            "suppressed_exculpatory_evidence",
-            "false_certainty",
-            "memory_malleability"
-          ],
-          "wrongful_conviction": [
-            "suppressed_exculpatory_evidence",
-            "false_certainty",
-            "memory_malleability",
-            "procedural_failure"
-          ],
-          "suppressed_exculpatory_evidence": [
-            "false_certainty",
-            "memory_malleability",
-            "procedural_failure",
-            "post_exoneration_reconciliation"
-          ],
-          "memory_malleability": [
-            "procedural_failure",
-            "post_exoneration_reconciliation",
-            "false_certainty",
-            "cross_racial_identification_error"
-          ],
-          "procedural_failure": [
-            "post_exoneration_reconciliation",
-            "false_certainty",
-            "cross_racial_identification_error",
-            "confession_exclusion"
-          ],
-          "post_exoneration_reconciliation": [
-            "false_certainty",
-            "cross_racial_identification_error",
-            "confession_exclusion",
-            "victim_perpetrator_alliance"
-          ],
-          "false_certainty": [
-            "cross_racial_identification_error",
-            "confession_exclusion",
-            "victim_perpetrator_alliance",
-            "memory_hardening"
-          ],
-          "cross_racial_identification_error": [
-            "confession_exclusion",
-            "victim_perpetrator_alliance"
-          ],
-          "confession_exclusion": [
-            "victim_perpetrator_alliance"
-          ],
-          "victim_perpetrator_alliance": [],
-          "false_confession": [
-            "interrogator_fed_facts",
-            "suggestibility_under_authority",
-            "intellectual_disability_exploitation",
-            "confession_as_sole_evidence"
-          ],
-          "interrogator_fed_facts": [
-            "suggestibility_under_authority",
-            "intellectual_disability_exploitation",
-            "confession_as_sole_evidence",
-            "evidence_contradiction_ignored"
-          ],
-          "suggestibility_under_authority": [
-            "intellectual_disability_exploitation",
-            "confession_as_sole_evidence",
-            "evidence_contradiction_ignored",
-            "wrongful_capital_conviction"
-          ],
-          "intellectual_disability_exploitation": [
-            "confession_as_sole_evidence",
-            "evidence_contradiction_ignored",
-            "wrongful_capital_conviction",
-            "near_execution"
-          ],
-          "confession_as_sole_evidence": [
-            "evidence_contradiction_ignored",
-            "wrongful_capital_conviction",
-            "near_execution",
-            "half_measure_clemency"
-          ],
-          "evidence_contradiction_ignored": [
-            "wrongful_capital_conviction",
-            "near_execution",
-            "half_measure_clemency",
-            "institutional_inertia"
-          ],
-          "wrongful_capital_conviction": [
-            "near_execution",
-            "half_measure_clemency",
-            "institutional_inertia",
-            "fabricated_evidence_accountability"
-          ],
-          "near_execution": [
-            "half_measure_clemency",
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified"
-          ],
-          "half_measure_clemency": [
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure"
-          ],
-          "institutional_inertia": [
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "fabricated_evidence_accountability": [
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "true_perpetrator_identified": [
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "systemic_acknowledgment_failure": [
-            "racialized_suspicion"
-          ],
-          "racialized_suspicion": [],
-          "forensic_fabrication": [
-            "statistical_misrepresentation",
-            "institutional_incompetence",
-            "exculpatory_neglect",
-            "physical_evidence_contradiction"
-          ],
-          "statistical_misrepresentation": [
-            "institutional_incompetence",
-            "exculpatory_neglect",
-            "physical_evidence_contradiction",
-            "racial_disparity"
-          ],
-          "institutional_incompetence": [
-            "exculpatory_neglect",
-            "physical_evidence_contradiction",
-            "racial_disparity",
-            "inadequate_defense"
-          ],
-          "exculpatory_neglect": [
-            "physical_evidence_contradiction",
-            "racial_disparity",
-            "inadequate_defense",
-            "custodial_years_lost"
-          ],
-          "physical_evidence_contradiction": [
-            "racial_disparity",
-            "inadequate_defense",
-            "custodial_years_lost"
-          ],
-          "racial_disparity": [
-            "inadequate_defense",
-            "custodial_years_lost"
-          ],
-          "inadequate_defense": [
-            "custodial_years_lost"
-          ],
-          "custodial_years_lost": []
-        },
         "eyewitness_misidentification": {
           "wrongful_conviction": [
+            "dna_exoneration",
             "suppressed_exculpatory_evidence",
             "false_certainty",
-            "memory_malleability",
-            "procedural_failure"
+            "lineup_suggestibility"
+          ],
+          "dna_exoneration": [
+            "suppressed_exculpatory_evidence",
+            "false_certainty",
+            "lineup_suggestibility",
+            "identification_certainty_drift"
           ],
           "suppressed_exculpatory_evidence": [
             "false_certainty",
-            "memory_malleability",
-            "procedural_failure",
-            "post_exoneration_reconciliation"
+            "memory_hardening",
+            "confirmation_amplification",
+            "procedural_reinforcement"
           ],
           "false_certainty": [
-            "memory_malleability",
-            "procedural_failure",
-            "post_exoneration_reconciliation",
-            "cross_racial_identification_error"
+            "memory_hardening",
+            "confirmation_amplification",
+            "procedural_reinforcement",
+            "compounding_error"
           ],
-          "memory_malleability": [
-            "procedural_failure",
-            "post_exoneration_reconciliation",
-            "cross_racial_identification_error",
-            "confession_exclusion"
+          "lineup_suggestibility": [
+            "identification_certainty_drift",
+            "exculpatory_evidence_exclusion",
+            "alternate_suspect_suppression",
+            "decade_long_imprisonment"
           ],
-          "procedural_failure": [
-            "post_exoneration_reconciliation",
-            "cross_racial_identification_error",
-            "confession_exclusion",
-            "victim_perpetrator_alliance"
+          "identification_certainty_drift": [
+            "exculpatory_evidence_exclusion",
+            "alternate_suspect_suppression",
+            "decade_long_imprisonment",
+            "post_conviction_vindication"
           ],
-          "post_exoneration_reconciliation": [
-            "cross_racial_identification_error",
-            "confession_exclusion",
-            "victim_perpetrator_alliance"
+          "exculpatory_evidence_exclusion": [
+            "alternate_suspect_suppression",
+            "decade_long_imprisonment",
+            "post_conviction_vindication",
+            "victim_perpetrator_reconciliation"
           ],
-          "cross_racial_identification_error": [
-            "confession_exclusion",
-            "victim_perpetrator_alliance"
+          "alternate_suspect_suppression": [
+            "decade_long_imprisonment",
+            "post_conviction_vindication",
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy"
           ],
-          "confession_exclusion": [
-            "victim_perpetrator_alliance"
+          "decade_long_imprisonment": [
+            "post_conviction_vindication",
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
           ],
-          "victim_perpetrator_alliance": [],
+          "post_conviction_vindication": [
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "victim_perpetrator_reconciliation": [
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "wrongful_conviction_advocacy": [
+            "procedural_injustice"
+          ],
+          "procedural_injustice": [],
           "memory_hardening": [
             "confirmation_amplification",
             "procedural_reinforcement",
@@ -14113,82 +13800,155 @@
             "advocacy_born_of_injustice"
           ],
           "advocacy_born_of_injustice": [],
-          "forensic_fabrication": [
+          "physical_description_mismatch": [
+            "suggestive_showup_procedure",
+            "dna_analysis_error",
             "statistical_misrepresentation",
-            "institutional_incompetence",
-            "exculpatory_neglect",
-            "physical_evidence_contradiction"
+            "evidence_suppression"
+          ],
+          "suggestive_showup_procedure": [
+            "dna_analysis_error",
+            "statistical_misrepresentation",
+            "evidence_suppression",
+            "ineffective_counsel"
+          ],
+          "dna_analysis_error": [
+            "statistical_misrepresentation",
+            "evidence_suppression",
+            "ineffective_counsel",
+            "independent_testing_abandoned"
           ],
           "statistical_misrepresentation": [
-            "institutional_incompetence",
-            "exculpatory_neglect",
-            "physical_evidence_contradiction",
-            "racial_disparity"
+            "evidence_suppression",
+            "ineffective_counsel",
+            "independent_testing_abandoned",
+            "evidence_concealment"
           ],
-          "institutional_incompetence": [
-            "exculpatory_neglect",
-            "physical_evidence_contradiction",
-            "racial_disparity",
-            "inadequate_defense"
+          "evidence_suppression": [
+            "coerced_confession",
+            "factual_inconsistency",
+            "authority_deference",
+            "forensic_amendment"
           ],
-          "exculpatory_neglect": [
-            "physical_evidence_contradiction",
-            "racial_disparity",
-            "inadequate_defense",
-            "custodial_years_lost"
+          "ineffective_counsel": [
+            "independent_testing_abandoned",
+            "evidence_concealment",
+            "innocence_resistance",
+            "investigative_journalism"
           ],
-          "physical_evidence_contradiction": [
-            "racial_disparity",
-            "inadequate_defense",
-            "custodial_years_lost"
+          "independent_testing_abandoned": [
+            "evidence_concealment",
+            "innocence_resistance",
+            "investigative_journalism",
+            "post_conviction_testing"
           ],
-          "racial_disparity": [
-            "inadequate_defense",
-            "custodial_years_lost"
+          "evidence_concealment": [
+            "innocence_resistance",
+            "investigative_journalism",
+            "post_conviction_testing"
           ],
-          "inadequate_defense": [
-            "custodial_years_lost"
+          "innocence_resistance": [
+            "investigative_journalism",
+            "post_conviction_testing"
           ],
-          "custodial_years_lost": []
+          "investigative_journalism": [
+            "post_conviction_testing"
+          ],
+          "post_conviction_testing": [],
+          "memory_malleability": [
+            "procedural_failure",
+            "delayed_justice",
+            "post_exoneration_reconciliation",
+            "cross_racial_identification_error"
+          ],
+          "procedural_failure": [
+            "delayed_justice",
+            "post_exoneration_reconciliation",
+            "cross_racial_identification_error",
+            "confession_exclusion"
+          ],
+          "delayed_justice": [
+            "post_exoneration_reconciliation",
+            "cross_racial_identification_error",
+            "confession_exclusion",
+            "victim_perpetrator_alliance"
+          ],
+          "post_exoneration_reconciliation": [
+            "cross_racial_identification_error",
+            "confession_exclusion",
+            "victim_perpetrator_alliance"
+          ],
+          "cross_racial_identification_error": [
+            "confession_exclusion",
+            "victim_perpetrator_alliance"
+          ],
+          "confession_exclusion": [
+            "victim_perpetrator_alliance"
+          ],
+          "victim_perpetrator_alliance": []
         },
         "wrongful_conviction": {
+          "dna_exoneration": [
+            "suppressed_exculpatory_evidence",
+            "false_certainty",
+            "lineup_suggestibility",
+            "identification_certainty_drift"
+          ],
           "suppressed_exculpatory_evidence": [
             "false_certainty",
-            "memory_malleability",
-            "procedural_failure",
-            "post_exoneration_reconciliation"
+            "memory_hardening",
+            "confirmation_amplification",
+            "procedural_reinforcement"
           ],
           "false_certainty": [
-            "memory_malleability",
-            "procedural_failure",
-            "post_exoneration_reconciliation",
-            "cross_racial_identification_error"
+            "memory_hardening",
+            "confirmation_amplification",
+            "procedural_reinforcement",
+            "compounding_error"
           ],
-          "memory_malleability": [
-            "procedural_failure",
-            "post_exoneration_reconciliation",
-            "cross_racial_identification_error",
-            "confession_exclusion"
+          "lineup_suggestibility": [
+            "identification_certainty_drift",
+            "exculpatory_evidence_exclusion",
+            "alternate_suspect_suppression",
+            "decade_long_imprisonment"
           ],
-          "procedural_failure": [
-            "post_exoneration_reconciliation",
-            "cross_racial_identification_error",
-            "confession_exclusion",
-            "victim_perpetrator_alliance"
+          "identification_certainty_drift": [
+            "exculpatory_evidence_exclusion",
+            "alternate_suspect_suppression",
+            "decade_long_imprisonment",
+            "post_conviction_vindication"
           ],
-          "post_exoneration_reconciliation": [
-            "cross_racial_identification_error",
-            "confession_exclusion",
-            "victim_perpetrator_alliance"
+          "exculpatory_evidence_exclusion": [
+            "alternate_suspect_suppression",
+            "decade_long_imprisonment",
+            "post_conviction_vindication",
+            "victim_perpetrator_reconciliation"
           ],
-          "cross_racial_identification_error": [
-            "confession_exclusion",
-            "victim_perpetrator_alliance"
+          "alternate_suspect_suppression": [
+            "decade_long_imprisonment",
+            "post_conviction_vindication",
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy"
           ],
-          "confession_exclusion": [
-            "victim_perpetrator_alliance"
+          "decade_long_imprisonment": [
+            "post_conviction_vindication",
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
           ],
-          "victim_perpetrator_alliance": [],
+          "post_conviction_vindication": [
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "victim_perpetrator_reconciliation": [
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "wrongful_conviction_advocacy": [
+            "procedural_injustice"
+          ],
+          "procedural_injustice": [],
           "memory_hardening": [
             "confirmation_amplification",
             "procedural_reinforcement",
@@ -14220,58 +13980,314 @@
             "advocacy_born_of_injustice"
           ],
           "advocacy_born_of_injustice": [],
-          "forensic_fabrication": [
-            "statistical_misrepresentation",
-            "institutional_incompetence",
-            "exculpatory_neglect",
-            "physical_evidence_contradiction"
+          "memory_malleability": [
+            "procedural_failure",
+            "delayed_justice",
+            "post_exoneration_reconciliation",
+            "cross_racial_identification_error"
           ],
-          "statistical_misrepresentation": [
-            "institutional_incompetence",
-            "exculpatory_neglect",
-            "physical_evidence_contradiction",
-            "racial_disparity"
+          "procedural_failure": [
+            "delayed_justice",
+            "post_exoneration_reconciliation",
+            "cross_racial_identification_error",
+            "confession_exclusion"
           ],
-          "institutional_incompetence": [
-            "exculpatory_neglect",
-            "physical_evidence_contradiction",
-            "racial_disparity",
+          "delayed_justice": [
+            "post_exoneration_reconciliation",
+            "cross_racial_identification_error",
+            "confession_exclusion",
+            "victim_perpetrator_alliance"
+          ],
+          "post_exoneration_reconciliation": [
+            "cross_racial_identification_error",
+            "confession_exclusion",
+            "victim_perpetrator_alliance"
+          ],
+          "cross_racial_identification_error": [
+            "confession_exclusion",
+            "victim_perpetrator_alliance"
+          ],
+          "confession_exclusion": [
+            "victim_perpetrator_alliance"
+          ],
+          "victim_perpetrator_alliance": []
+        },
+        "dna_exoneration": {
+          "suppressed_exculpatory_evidence": [
+            "false_certainty",
+            "memory_hardening",
+            "confirmation_amplification",
+            "procedural_reinforcement"
+          ],
+          "false_certainty": [
+            "memory_hardening",
+            "confirmation_amplification",
+            "procedural_reinforcement",
+            "compounding_error"
+          ],
+          "lineup_suggestibility": [
+            "identification_certainty_drift",
+            "exculpatory_evidence_exclusion",
+            "alternate_suspect_suppression",
+            "decade_long_imprisonment"
+          ],
+          "identification_certainty_drift": [
+            "exculpatory_evidence_exclusion",
+            "alternate_suspect_suppression",
+            "decade_long_imprisonment",
+            "post_conviction_vindication"
+          ],
+          "exculpatory_evidence_exclusion": [
+            "alternate_suspect_suppression",
+            "decade_long_imprisonment",
+            "post_conviction_vindication",
+            "victim_perpetrator_reconciliation"
+          ],
+          "alternate_suspect_suppression": [
+            "decade_long_imprisonment",
+            "post_conviction_vindication",
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy"
+          ],
+          "decade_long_imprisonment": [
+            "post_conviction_vindication",
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "post_conviction_vindication": [
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "victim_perpetrator_reconciliation": [
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "wrongful_conviction_advocacy": [
+            "procedural_injustice"
+          ],
+          "procedural_injustice": [],
+          "memory_hardening": [
+            "confirmation_amplification",
+            "procedural_reinforcement",
+            "compounding_error",
+            "reconciliation_across_harm"
+          ],
+          "confirmation_amplification": [
+            "procedural_reinforcement",
+            "compounding_error",
+            "reconciliation_across_harm",
+            "systemic_identification_failure"
+          ],
+          "procedural_reinforcement": [
+            "compounding_error",
+            "reconciliation_across_harm",
+            "systemic_identification_failure",
+            "advocacy_born_of_injustice"
+          ],
+          "compounding_error": [
+            "reconciliation_across_harm",
+            "systemic_identification_failure",
+            "advocacy_born_of_injustice"
+          ],
+          "reconciliation_across_harm": [
+            "systemic_identification_failure",
+            "advocacy_born_of_injustice"
+          ],
+          "systemic_identification_failure": [
+            "advocacy_born_of_injustice"
+          ],
+          "advocacy_born_of_injustice": [],
+          "memory_malleability": [
+            "procedural_failure",
+            "delayed_justice",
+            "post_exoneration_reconciliation",
+            "cross_racial_identification_error"
+          ],
+          "procedural_failure": [
+            "delayed_justice",
+            "post_exoneration_reconciliation",
+            "cross_racial_identification_error",
+            "confession_exclusion"
+          ],
+          "delayed_justice": [
+            "post_exoneration_reconciliation",
+            "cross_racial_identification_error",
+            "confession_exclusion",
+            "victim_perpetrator_alliance"
+          ],
+          "post_exoneration_reconciliation": [
+            "cross_racial_identification_error",
+            "confession_exclusion",
+            "victim_perpetrator_alliance"
+          ],
+          "cross_racial_identification_error": [
+            "confession_exclusion",
+            "victim_perpetrator_alliance"
+          ],
+          "confession_exclusion": [
+            "victim_perpetrator_alliance"
+          ],
+          "victim_perpetrator_alliance": []
+        },
+        "evidence_suppression": {
+          "coerced_confession": [
+            "factual_inconsistency",
+            "authority_deference",
+            "forensic_amendment",
+            "intellectual_disability"
+          ],
+          "factual_inconsistency": [
+            "authority_deference",
+            "forensic_amendment",
+            "intellectual_disability",
+            "compliance_behavior"
+          ],
+          "authority_deference": [
+            "forensic_amendment",
+            "intellectual_disability",
+            "compliance_behavior",
             "inadequate_defense"
           ],
-          "exculpatory_neglect": [
-            "physical_evidence_contradiction",
-            "racial_disparity",
+          "forensic_amendment": [
+            "intellectual_disability",
+            "compliance_behavior",
             "inadequate_defense",
-            "custodial_years_lost"
+            "procedural_barrier"
           ],
-          "physical_evidence_contradiction": [
-            "racial_disparity",
+          "intellectual_disability": [
+            "compliance_behavior",
             "inadequate_defense",
-            "custodial_years_lost"
+            "procedural_barrier",
+            "dna_exclusion"
           ],
-          "racial_disparity": [
+          "compliance_behavior": [
             "inadequate_defense",
-            "custodial_years_lost"
+            "procedural_barrier",
+            "dna_exclusion",
+            "gubernatorial_pardon"
           ],
           "inadequate_defense": [
-            "custodial_years_lost"
+            "procedural_barrier",
+            "dna_exclusion",
+            "gubernatorial_pardon",
+            "actual_innocence"
           ],
-          "custodial_years_lost": []
+          "procedural_barrier": [
+            "dna_exclusion",
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "dna_exclusion": [
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "gubernatorial_pardon": [
+            "actual_innocence"
+          ],
+          "actual_innocence": [],
+          "physical_description_mismatch": [
+            "suggestive_showup_procedure",
+            "dna_analysis_error",
+            "statistical_misrepresentation",
+            "ineffective_counsel"
+          ],
+          "suggestive_showup_procedure": [
+            "dna_analysis_error",
+            "statistical_misrepresentation",
+            "ineffective_counsel",
+            "independent_testing_abandoned"
+          ],
+          "dna_analysis_error": [
+            "statistical_misrepresentation",
+            "ineffective_counsel",
+            "independent_testing_abandoned",
+            "evidence_concealment"
+          ],
+          "statistical_misrepresentation": [
+            "ineffective_counsel",
+            "independent_testing_abandoned",
+            "evidence_concealment",
+            "innocence_resistance"
+          ],
+          "ineffective_counsel": [
+            "independent_testing_abandoned",
+            "evidence_concealment",
+            "innocence_resistance",
+            "investigative_journalism"
+          ],
+          "independent_testing_abandoned": [
+            "evidence_concealment",
+            "innocence_resistance",
+            "investigative_journalism",
+            "post_conviction_testing"
+          ],
+          "evidence_concealment": [
+            "innocence_resistance",
+            "investigative_journalism",
+            "post_conviction_testing"
+          ],
+          "innocence_resistance": [
+            "investigative_journalism",
+            "post_conviction_testing"
+          ],
+          "investigative_journalism": [
+            "post_conviction_testing"
+          ],
+          "post_conviction_testing": []
         },
         "suppressed_exculpatory_evidence": {
           "false_certainty": [
-            "memory_malleability",
+            "memory_hardening",
+            "confirmation_amplification",
+            "procedural_reinforcement",
+            "compounding_error"
+          ],
+          "memory_hardening": [
+            "confirmation_amplification",
+            "procedural_reinforcement",
+            "compounding_error",
+            "reconciliation_across_harm"
+          ],
+          "confirmation_amplification": [
+            "procedural_reinforcement",
+            "compounding_error",
+            "reconciliation_across_harm",
+            "systemic_identification_failure"
+          ],
+          "procedural_reinforcement": [
+            "compounding_error",
+            "reconciliation_across_harm",
+            "systemic_identification_failure",
+            "advocacy_born_of_injustice"
+          ],
+          "compounding_error": [
+            "reconciliation_across_harm",
+            "systemic_identification_failure",
+            "advocacy_born_of_injustice"
+          ],
+          "reconciliation_across_harm": [
+            "systemic_identification_failure",
+            "advocacy_born_of_injustice"
+          ],
+          "systemic_identification_failure": [
+            "advocacy_born_of_injustice"
+          ],
+          "advocacy_born_of_injustice": [],
+          "memory_malleability": [
             "procedural_failure",
+            "delayed_justice",
             "post_exoneration_reconciliation",
             "cross_racial_identification_error"
           ],
-          "memory_malleability": [
-            "procedural_failure",
+          "procedural_failure": [
+            "delayed_justice",
             "post_exoneration_reconciliation",
             "cross_racial_identification_error",
             "confession_exclusion"
           ],
-          "procedural_failure": [
+          "delayed_justice": [
             "post_exoneration_reconciliation",
             "cross_racial_identification_error",
             "confession_exclusion",
@@ -14289,65 +14305,9 @@
           "confession_exclusion": [
             "victim_perpetrator_alliance"
           ],
-          "victim_perpetrator_alliance": [],
-          "memory_hardening": [
-            "confirmation_amplification",
-            "procedural_reinforcement",
-            "compounding_error",
-            "reconciliation_across_harm"
-          ],
-          "confirmation_amplification": [
-            "procedural_reinforcement",
-            "compounding_error",
-            "reconciliation_across_harm",
-            "systemic_identification_failure"
-          ],
-          "procedural_reinforcement": [
-            "compounding_error",
-            "reconciliation_across_harm",
-            "systemic_identification_failure",
-            "advocacy_born_of_injustice"
-          ],
-          "compounding_error": [
-            "reconciliation_across_harm",
-            "systemic_identification_failure",
-            "advocacy_born_of_injustice"
-          ],
-          "reconciliation_across_harm": [
-            "systemic_identification_failure",
-            "advocacy_born_of_injustice"
-          ],
-          "systemic_identification_failure": [
-            "advocacy_born_of_injustice"
-          ],
-          "advocacy_born_of_injustice": []
+          "victim_perpetrator_alliance": []
         },
         "false_certainty": {
-          "memory_malleability": [
-            "procedural_failure",
-            "post_exoneration_reconciliation",
-            "cross_racial_identification_error",
-            "confession_exclusion"
-          ],
-          "procedural_failure": [
-            "post_exoneration_reconciliation",
-            "cross_racial_identification_error",
-            "confession_exclusion",
-            "victim_perpetrator_alliance"
-          ],
-          "post_exoneration_reconciliation": [
-            "cross_racial_identification_error",
-            "confession_exclusion",
-            "victim_perpetrator_alliance"
-          ],
-          "cross_racial_identification_error": [
-            "confession_exclusion",
-            "victim_perpetrator_alliance"
-          ],
-          "confession_exclusion": [
-            "victim_perpetrator_alliance"
-          ],
-          "victim_perpetrator_alliance": [],
           "memory_hardening": [
             "confirmation_amplification",
             "procedural_reinforcement",
@@ -14378,449 +14338,20 @@
           "systemic_identification_failure": [
             "advocacy_born_of_injustice"
           ],
-          "advocacy_born_of_injustice": []
-        },
-        "false_confession": {
-          "interrogator_fed_facts": [
-            "suggestibility_under_authority",
-            "intellectual_disability_exploitation",
-            "confession_as_sole_evidence",
-            "evidence_contradiction_ignored"
+          "advocacy_born_of_injustice": [],
+          "memory_malleability": [
+            "procedural_failure",
+            "delayed_justice",
+            "post_exoneration_reconciliation",
+            "cross_racial_identification_error"
           ],
-          "suggestibility_under_authority": [
-            "intellectual_disability_exploitation",
-            "confession_as_sole_evidence",
-            "evidence_contradiction_ignored",
-            "wrongful_capital_conviction"
-          ],
-          "intellectual_disability_exploitation": [
-            "confession_as_sole_evidence",
-            "evidence_contradiction_ignored",
-            "wrongful_capital_conviction",
-            "near_execution"
-          ],
-          "confession_as_sole_evidence": [
-            "evidence_contradiction_ignored",
-            "wrongful_capital_conviction",
-            "near_execution",
-            "half_measure_clemency"
-          ],
-          "evidence_contradiction_ignored": [
-            "wrongful_capital_conviction",
-            "near_execution",
-            "half_measure_clemency",
-            "institutional_inertia"
-          ],
-          "wrongful_capital_conviction": [
-            "near_execution",
-            "half_measure_clemency",
-            "institutional_inertia",
-            "fabricated_evidence_accountability"
-          ],
-          "near_execution": [
-            "half_measure_clemency",
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified"
-          ],
-          "half_measure_clemency": [
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure"
-          ],
-          "institutional_inertia": [
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "fabricated_evidence_accountability": [
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "true_perpetrator_identified": [
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "systemic_acknowledgment_failure": [
-            "racialized_suspicion"
-          ],
-          "racialized_suspicion": []
-        },
-        "interrogator_fed_facts": {
-          "suggestibility_under_authority": [
-            "intellectual_disability_exploitation",
-            "confession_as_sole_evidence",
-            "evidence_contradiction_ignored",
-            "wrongful_capital_conviction"
-          ],
-          "intellectual_disability_exploitation": [
-            "confession_as_sole_evidence",
-            "evidence_contradiction_ignored",
-            "wrongful_capital_conviction",
-            "near_execution"
-          ],
-          "confession_as_sole_evidence": [
-            "evidence_contradiction_ignored",
-            "wrongful_capital_conviction",
-            "near_execution",
-            "half_measure_clemency"
-          ],
-          "evidence_contradiction_ignored": [
-            "wrongful_capital_conviction",
-            "near_execution",
-            "half_measure_clemency",
-            "institutional_inertia"
-          ],
-          "wrongful_capital_conviction": [
-            "near_execution",
-            "half_measure_clemency",
-            "institutional_inertia",
-            "fabricated_evidence_accountability"
-          ],
-          "near_execution": [
-            "half_measure_clemency",
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified"
-          ],
-          "half_measure_clemency": [
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure"
-          ],
-          "institutional_inertia": [
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "fabricated_evidence_accountability": [
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "true_perpetrator_identified": [
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "systemic_acknowledgment_failure": [
-            "racialized_suspicion"
-          ],
-          "racialized_suspicion": []
-        },
-        "suggestibility_under_authority": {
-          "intellectual_disability_exploitation": [
-            "confession_as_sole_evidence",
-            "evidence_contradiction_ignored",
-            "wrongful_capital_conviction",
-            "near_execution"
-          ],
-          "confession_as_sole_evidence": [
-            "evidence_contradiction_ignored",
-            "wrongful_capital_conviction",
-            "near_execution",
-            "half_measure_clemency"
-          ],
-          "evidence_contradiction_ignored": [
-            "wrongful_capital_conviction",
-            "near_execution",
-            "half_measure_clemency",
-            "institutional_inertia"
-          ],
-          "wrongful_capital_conviction": [
-            "near_execution",
-            "half_measure_clemency",
-            "institutional_inertia",
-            "fabricated_evidence_accountability"
-          ],
-          "near_execution": [
-            "half_measure_clemency",
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified"
-          ],
-          "half_measure_clemency": [
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure"
-          ],
-          "institutional_inertia": [
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "fabricated_evidence_accountability": [
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "true_perpetrator_identified": [
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "systemic_acknowledgment_failure": [
-            "racialized_suspicion"
-          ],
-          "racialized_suspicion": []
-        },
-        "intellectual_disability_exploitation": {
-          "confession_as_sole_evidence": [
-            "evidence_contradiction_ignored",
-            "wrongful_capital_conviction",
-            "near_execution",
-            "half_measure_clemency"
-          ],
-          "evidence_contradiction_ignored": [
-            "wrongful_capital_conviction",
-            "near_execution",
-            "half_measure_clemency",
-            "institutional_inertia"
-          ],
-          "wrongful_capital_conviction": [
-            "near_execution",
-            "half_measure_clemency",
-            "institutional_inertia",
-            "fabricated_evidence_accountability"
-          ],
-          "near_execution": [
-            "half_measure_clemency",
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified"
-          ],
-          "half_measure_clemency": [
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure"
-          ],
-          "institutional_inertia": [
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "fabricated_evidence_accountability": [
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "true_perpetrator_identified": [
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "systemic_acknowledgment_failure": [
-            "racialized_suspicion"
-          ],
-          "racialized_suspicion": []
-        },
-        "confession_as_sole_evidence": {
-          "evidence_contradiction_ignored": [
-            "wrongful_capital_conviction",
-            "near_execution",
-            "half_measure_clemency",
-            "institutional_inertia"
-          ],
-          "wrongful_capital_conviction": [
-            "near_execution",
-            "half_measure_clemency",
-            "institutional_inertia",
-            "fabricated_evidence_accountability"
-          ],
-          "near_execution": [
-            "half_measure_clemency",
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified"
-          ],
-          "half_measure_clemency": [
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure"
-          ],
-          "institutional_inertia": [
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "fabricated_evidence_accountability": [
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "true_perpetrator_identified": [
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "systemic_acknowledgment_failure": [
-            "racialized_suspicion"
-          ],
-          "racialized_suspicion": []
-        },
-        "evidence_contradiction_ignored": {
-          "wrongful_capital_conviction": [
-            "near_execution",
-            "half_measure_clemency",
-            "institutional_inertia",
-            "fabricated_evidence_accountability"
-          ],
-          "near_execution": [
-            "half_measure_clemency",
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified"
-          ],
-          "half_measure_clemency": [
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure"
-          ],
-          "institutional_inertia": [
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "fabricated_evidence_accountability": [
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "true_perpetrator_identified": [
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "systemic_acknowledgment_failure": [
-            "racialized_suspicion"
-          ],
-          "racialized_suspicion": []
-        },
-        "wrongful_capital_conviction": {
-          "near_execution": [
-            "half_measure_clemency",
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified"
-          ],
-          "half_measure_clemency": [
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure"
-          ],
-          "institutional_inertia": [
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "fabricated_evidence_accountability": [
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "true_perpetrator_identified": [
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "systemic_acknowledgment_failure": [
-            "racialized_suspicion"
-          ],
-          "racialized_suspicion": []
-        },
-        "near_execution": {
-          "half_measure_clemency": [
-            "institutional_inertia",
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure"
-          ],
-          "institutional_inertia": [
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "fabricated_evidence_accountability": [
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "true_perpetrator_identified": [
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "systemic_acknowledgment_failure": [
-            "racialized_suspicion"
-          ],
-          "racialized_suspicion": []
-        },
-        "half_measure_clemency": {
-          "institutional_inertia": [
-            "fabricated_evidence_accountability",
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "fabricated_evidence_accountability": [
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "true_perpetrator_identified": [
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "systemic_acknowledgment_failure": [
-            "racialized_suspicion"
-          ],
-          "racialized_suspicion": []
-        },
-        "institutional_inertia": {
-          "fabricated_evidence_accountability": [
-            "true_perpetrator_identified",
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "true_perpetrator_identified": [
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "systemic_acknowledgment_failure": [
-            "racialized_suspicion"
-          ],
-          "racialized_suspicion": []
-        },
-        "fabricated_evidence_accountability": {
-          "true_perpetrator_identified": [
-            "systemic_acknowledgment_failure",
-            "racialized_suspicion"
-          ],
-          "systemic_acknowledgment_failure": [
-            "racialized_suspicion"
-          ],
-          "racialized_suspicion": []
-        },
-        "true_perpetrator_identified": {
-          "systemic_acknowledgment_failure": [
-            "racialized_suspicion"
-          ],
-          "racialized_suspicion": []
-        },
-        "systemic_acknowledgment_failure": {
-          "racialized_suspicion": []
-        },
-        "memory_malleability": {
           "procedural_failure": [
+            "delayed_justice",
+            "post_exoneration_reconciliation",
+            "cross_racial_identification_error",
+            "confession_exclusion"
+          ],
+          "delayed_justice": [
             "post_exoneration_reconciliation",
             "cross_racial_identification_error",
             "confession_exclusion",
@@ -14840,39 +14371,409 @@
           ],
           "victim_perpetrator_alliance": []
         },
-        "procedural_failure": {
-          "post_exoneration_reconciliation": [
-            "cross_racial_identification_error",
-            "confession_exclusion",
-            "victim_perpetrator_alliance"
+        "lineup_suggestibility": {
+          "identification_certainty_drift": [
+            "exculpatory_evidence_exclusion",
+            "alternate_suspect_suppression",
+            "decade_long_imprisonment",
+            "post_conviction_vindication"
           ],
-          "cross_racial_identification_error": [
-            "confession_exclusion",
-            "victim_perpetrator_alliance"
+          "exculpatory_evidence_exclusion": [
+            "alternate_suspect_suppression",
+            "decade_long_imprisonment",
+            "post_conviction_vindication",
+            "victim_perpetrator_reconciliation"
           ],
-          "confession_exclusion": [
-            "victim_perpetrator_alliance"
+          "alternate_suspect_suppression": [
+            "decade_long_imprisonment",
+            "post_conviction_vindication",
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy"
           ],
-          "victim_perpetrator_alliance": []
+          "decade_long_imprisonment": [
+            "post_conviction_vindication",
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "post_conviction_vindication": [
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "victim_perpetrator_reconciliation": [
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "wrongful_conviction_advocacy": [
+            "procedural_injustice"
+          ],
+          "procedural_injustice": []
         },
-        "post_exoneration_reconciliation": {
-          "cross_racial_identification_error": [
-            "confession_exclusion",
-            "victim_perpetrator_alliance"
+        "identification_certainty_drift": {
+          "exculpatory_evidence_exclusion": [
+            "alternate_suspect_suppression",
+            "decade_long_imprisonment",
+            "post_conviction_vindication",
+            "victim_perpetrator_reconciliation"
           ],
-          "confession_exclusion": [
-            "victim_perpetrator_alliance"
+          "alternate_suspect_suppression": [
+            "decade_long_imprisonment",
+            "post_conviction_vindication",
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy"
           ],
-          "victim_perpetrator_alliance": []
+          "decade_long_imprisonment": [
+            "post_conviction_vindication",
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "post_conviction_vindication": [
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "victim_perpetrator_reconciliation": [
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "wrongful_conviction_advocacy": [
+            "procedural_injustice"
+          ],
+          "procedural_injustice": []
         },
-        "cross_racial_identification_error": {
-          "confession_exclusion": [
-            "victim_perpetrator_alliance"
+        "exculpatory_evidence_exclusion": {
+          "alternate_suspect_suppression": [
+            "decade_long_imprisonment",
+            "post_conviction_vindication",
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy"
           ],
-          "victim_perpetrator_alliance": []
+          "decade_long_imprisonment": [
+            "post_conviction_vindication",
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "post_conviction_vindication": [
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "victim_perpetrator_reconciliation": [
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "wrongful_conviction_advocacy": [
+            "procedural_injustice"
+          ],
+          "procedural_injustice": []
         },
-        "confession_exclusion": {
-          "victim_perpetrator_alliance": []
+        "alternate_suspect_suppression": {
+          "decade_long_imprisonment": [
+            "post_conviction_vindication",
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "post_conviction_vindication": [
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "victim_perpetrator_reconciliation": [
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "wrongful_conviction_advocacy": [
+            "procedural_injustice"
+          ],
+          "procedural_injustice": []
+        },
+        "decade_long_imprisonment": {
+          "post_conviction_vindication": [
+            "victim_perpetrator_reconciliation",
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "victim_perpetrator_reconciliation": [
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "wrongful_conviction_advocacy": [
+            "procedural_injustice"
+          ],
+          "procedural_injustice": []
+        },
+        "post_conviction_vindication": {
+          "victim_perpetrator_reconciliation": [
+            "wrongful_conviction_advocacy",
+            "procedural_injustice"
+          ],
+          "wrongful_conviction_advocacy": [
+            "procedural_injustice"
+          ],
+          "procedural_injustice": []
+        },
+        "victim_perpetrator_reconciliation": {
+          "wrongful_conviction_advocacy": [
+            "procedural_injustice"
+          ],
+          "procedural_injustice": []
+        },
+        "wrongful_conviction_advocacy": {
+          "procedural_injustice": []
+        },
+        "coerced_confession": {
+          "factual_inconsistency": [
+            "authority_deference",
+            "forensic_amendment",
+            "intellectual_disability",
+            "compliance_behavior"
+          ],
+          "authority_deference": [
+            "forensic_amendment",
+            "intellectual_disability",
+            "compliance_behavior",
+            "inadequate_defense"
+          ],
+          "forensic_amendment": [
+            "intellectual_disability",
+            "compliance_behavior",
+            "inadequate_defense",
+            "procedural_barrier"
+          ],
+          "intellectual_disability": [
+            "compliance_behavior",
+            "inadequate_defense",
+            "procedural_barrier",
+            "dna_exclusion"
+          ],
+          "compliance_behavior": [
+            "inadequate_defense",
+            "procedural_barrier",
+            "dna_exclusion",
+            "gubernatorial_pardon"
+          ],
+          "inadequate_defense": [
+            "procedural_barrier",
+            "dna_exclusion",
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "procedural_barrier": [
+            "dna_exclusion",
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "dna_exclusion": [
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "gubernatorial_pardon": [
+            "actual_innocence"
+          ],
+          "actual_innocence": []
+        },
+        "factual_inconsistency": {
+          "authority_deference": [
+            "forensic_amendment",
+            "intellectual_disability",
+            "compliance_behavior",
+            "inadequate_defense"
+          ],
+          "forensic_amendment": [
+            "intellectual_disability",
+            "compliance_behavior",
+            "inadequate_defense",
+            "procedural_barrier"
+          ],
+          "intellectual_disability": [
+            "compliance_behavior",
+            "inadequate_defense",
+            "procedural_barrier",
+            "dna_exclusion"
+          ],
+          "compliance_behavior": [
+            "inadequate_defense",
+            "procedural_barrier",
+            "dna_exclusion",
+            "gubernatorial_pardon"
+          ],
+          "inadequate_defense": [
+            "procedural_barrier",
+            "dna_exclusion",
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "procedural_barrier": [
+            "dna_exclusion",
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "dna_exclusion": [
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "gubernatorial_pardon": [
+            "actual_innocence"
+          ],
+          "actual_innocence": []
+        },
+        "authority_deference": {
+          "forensic_amendment": [
+            "intellectual_disability",
+            "compliance_behavior",
+            "inadequate_defense",
+            "procedural_barrier"
+          ],
+          "intellectual_disability": [
+            "compliance_behavior",
+            "inadequate_defense",
+            "procedural_barrier",
+            "dna_exclusion"
+          ],
+          "compliance_behavior": [
+            "inadequate_defense",
+            "procedural_barrier",
+            "dna_exclusion",
+            "gubernatorial_pardon"
+          ],
+          "inadequate_defense": [
+            "procedural_barrier",
+            "dna_exclusion",
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "procedural_barrier": [
+            "dna_exclusion",
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "dna_exclusion": [
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "gubernatorial_pardon": [
+            "actual_innocence"
+          ],
+          "actual_innocence": []
+        },
+        "forensic_amendment": {
+          "intellectual_disability": [
+            "compliance_behavior",
+            "inadequate_defense",
+            "procedural_barrier",
+            "dna_exclusion"
+          ],
+          "compliance_behavior": [
+            "inadequate_defense",
+            "procedural_barrier",
+            "dna_exclusion",
+            "gubernatorial_pardon"
+          ],
+          "inadequate_defense": [
+            "procedural_barrier",
+            "dna_exclusion",
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "procedural_barrier": [
+            "dna_exclusion",
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "dna_exclusion": [
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "gubernatorial_pardon": [
+            "actual_innocence"
+          ],
+          "actual_innocence": []
+        },
+        "intellectual_disability": {
+          "compliance_behavior": [
+            "inadequate_defense",
+            "procedural_barrier",
+            "dna_exclusion",
+            "gubernatorial_pardon"
+          ],
+          "inadequate_defense": [
+            "procedural_barrier",
+            "dna_exclusion",
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "procedural_barrier": [
+            "dna_exclusion",
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "dna_exclusion": [
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "gubernatorial_pardon": [
+            "actual_innocence"
+          ],
+          "actual_innocence": []
+        },
+        "compliance_behavior": {
+          "inadequate_defense": [
+            "procedural_barrier",
+            "dna_exclusion",
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "procedural_barrier": [
+            "dna_exclusion",
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "dna_exclusion": [
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "gubernatorial_pardon": [
+            "actual_innocence"
+          ],
+          "actual_innocence": []
+        },
+        "inadequate_defense": {
+          "procedural_barrier": [
+            "dna_exclusion",
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "dna_exclusion": [
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "gubernatorial_pardon": [
+            "actual_innocence"
+          ],
+          "actual_innocence": []
+        },
+        "procedural_barrier": {
+          "dna_exclusion": [
+            "gubernatorial_pardon",
+            "actual_innocence"
+          ],
+          "gubernatorial_pardon": [
+            "actual_innocence"
+          ],
+          "actual_innocence": []
+        },
+        "dna_exclusion": {
+          "gubernatorial_pardon": [
+            "actual_innocence"
+          ],
+          "actual_innocence": []
+        },
+        "gubernatorial_pardon": {
+          "actual_innocence": []
         },
         "memory_hardening": {
           "confirmation_amplification": [
@@ -14956,693 +14857,598 @@
         "systemic_identification_failure": {
           "advocacy_born_of_injustice": []
         },
-        "forensic_fabrication": {
+        "physical_description_mismatch": {
+          "suggestive_showup_procedure": [
+            "dna_analysis_error",
+            "statistical_misrepresentation",
+            "ineffective_counsel",
+            "independent_testing_abandoned"
+          ],
+          "dna_analysis_error": [
+            "statistical_misrepresentation",
+            "ineffective_counsel",
+            "independent_testing_abandoned",
+            "evidence_concealment"
+          ],
           "statistical_misrepresentation": [
-            "institutional_incompetence",
-            "exculpatory_neglect",
-            "physical_evidence_contradiction",
-            "racial_disparity"
+            "ineffective_counsel",
+            "independent_testing_abandoned",
+            "evidence_concealment",
+            "innocence_resistance"
           ],
-          "institutional_incompetence": [
-            "exculpatory_neglect",
-            "physical_evidence_contradiction",
-            "racial_disparity",
-            "inadequate_defense"
+          "ineffective_counsel": [
+            "independent_testing_abandoned",
+            "evidence_concealment",
+            "innocence_resistance",
+            "investigative_journalism"
           ],
-          "exculpatory_neglect": [
-            "physical_evidence_contradiction",
-            "racial_disparity",
-            "inadequate_defense",
-            "custodial_years_lost"
+          "independent_testing_abandoned": [
+            "evidence_concealment",
+            "innocence_resistance",
+            "investigative_journalism",
+            "post_conviction_testing"
           ],
-          "physical_evidence_contradiction": [
-            "racial_disparity",
-            "inadequate_defense",
-            "custodial_years_lost"
+          "evidence_concealment": [
+            "innocence_resistance",
+            "investigative_journalism",
+            "post_conviction_testing"
           ],
-          "racial_disparity": [
-            "inadequate_defense",
-            "custodial_years_lost"
+          "innocence_resistance": [
+            "investigative_journalism",
+            "post_conviction_testing"
           ],
-          "inadequate_defense": [
-            "custodial_years_lost"
+          "investigative_journalism": [
+            "post_conviction_testing"
           ],
-          "custodial_years_lost": []
+          "post_conviction_testing": []
+        },
+        "suggestive_showup_procedure": {
+          "dna_analysis_error": [
+            "statistical_misrepresentation",
+            "ineffective_counsel",
+            "independent_testing_abandoned",
+            "evidence_concealment"
+          ],
+          "statistical_misrepresentation": [
+            "ineffective_counsel",
+            "independent_testing_abandoned",
+            "evidence_concealment",
+            "innocence_resistance"
+          ],
+          "ineffective_counsel": [
+            "independent_testing_abandoned",
+            "evidence_concealment",
+            "innocence_resistance",
+            "investigative_journalism"
+          ],
+          "independent_testing_abandoned": [
+            "evidence_concealment",
+            "innocence_resistance",
+            "investigative_journalism",
+            "post_conviction_testing"
+          ],
+          "evidence_concealment": [
+            "innocence_resistance",
+            "investigative_journalism",
+            "post_conviction_testing"
+          ],
+          "innocence_resistance": [
+            "investigative_journalism",
+            "post_conviction_testing"
+          ],
+          "investigative_journalism": [
+            "post_conviction_testing"
+          ],
+          "post_conviction_testing": []
+        },
+        "dna_analysis_error": {
+          "statistical_misrepresentation": [
+            "ineffective_counsel",
+            "independent_testing_abandoned",
+            "evidence_concealment",
+            "innocence_resistance"
+          ],
+          "ineffective_counsel": [
+            "independent_testing_abandoned",
+            "evidence_concealment",
+            "innocence_resistance",
+            "investigative_journalism"
+          ],
+          "independent_testing_abandoned": [
+            "evidence_concealment",
+            "innocence_resistance",
+            "investigative_journalism",
+            "post_conviction_testing"
+          ],
+          "evidence_concealment": [
+            "innocence_resistance",
+            "investigative_journalism",
+            "post_conviction_testing"
+          ],
+          "innocence_resistance": [
+            "investigative_journalism",
+            "post_conviction_testing"
+          ],
+          "investigative_journalism": [
+            "post_conviction_testing"
+          ],
+          "post_conviction_testing": []
         },
         "statistical_misrepresentation": {
-          "institutional_incompetence": [
-            "exculpatory_neglect",
-            "physical_evidence_contradiction",
-            "racial_disparity",
-            "inadequate_defense"
+          "ineffective_counsel": [
+            "independent_testing_abandoned",
+            "evidence_concealment",
+            "innocence_resistance",
+            "investigative_journalism"
           ],
-          "exculpatory_neglect": [
-            "physical_evidence_contradiction",
-            "racial_disparity",
-            "inadequate_defense",
-            "custodial_years_lost"
+          "independent_testing_abandoned": [
+            "evidence_concealment",
+            "innocence_resistance",
+            "investigative_journalism",
+            "post_conviction_testing"
           ],
-          "physical_evidence_contradiction": [
-            "racial_disparity",
-            "inadequate_defense",
-            "custodial_years_lost"
+          "evidence_concealment": [
+            "innocence_resistance",
+            "investigative_journalism",
+            "post_conviction_testing"
           ],
-          "racial_disparity": [
-            "inadequate_defense",
-            "custodial_years_lost"
+          "innocence_resistance": [
+            "investigative_journalism",
+            "post_conviction_testing"
           ],
-          "inadequate_defense": [
-            "custodial_years_lost"
+          "investigative_journalism": [
+            "post_conviction_testing"
           ],
-          "custodial_years_lost": []
+          "post_conviction_testing": []
         },
-        "institutional_incompetence": {
-          "exculpatory_neglect": [
-            "physical_evidence_contradiction",
-            "racial_disparity",
-            "inadequate_defense",
-            "custodial_years_lost"
+        "ineffective_counsel": {
+          "independent_testing_abandoned": [
+            "evidence_concealment",
+            "innocence_resistance",
+            "investigative_journalism",
+            "post_conviction_testing"
           ],
-          "physical_evidence_contradiction": [
-            "racial_disparity",
-            "inadequate_defense",
-            "custodial_years_lost"
+          "evidence_concealment": [
+            "innocence_resistance",
+            "investigative_journalism",
+            "post_conviction_testing"
           ],
-          "racial_disparity": [
-            "inadequate_defense",
-            "custodial_years_lost"
+          "innocence_resistance": [
+            "investigative_journalism",
+            "post_conviction_testing"
           ],
-          "inadequate_defense": [
-            "custodial_years_lost"
+          "investigative_journalism": [
+            "post_conviction_testing"
           ],
-          "custodial_years_lost": []
+          "post_conviction_testing": []
         },
-        "exculpatory_neglect": {
-          "physical_evidence_contradiction": [
-            "racial_disparity",
-            "inadequate_defense",
-            "custodial_years_lost"
+        "independent_testing_abandoned": {
+          "evidence_concealment": [
+            "innocence_resistance",
+            "investigative_journalism",
+            "post_conviction_testing"
           ],
-          "racial_disparity": [
-            "inadequate_defense",
-            "custodial_years_lost"
+          "innocence_resistance": [
+            "investigative_journalism",
+            "post_conviction_testing"
           ],
-          "inadequate_defense": [
-            "custodial_years_lost"
+          "investigative_journalism": [
+            "post_conviction_testing"
           ],
-          "custodial_years_lost": []
+          "post_conviction_testing": []
         },
-        "physical_evidence_contradiction": {
-          "racial_disparity": [
-            "inadequate_defense",
-            "custodial_years_lost"
+        "evidence_concealment": {
+          "innocence_resistance": [
+            "investigative_journalism",
+            "post_conviction_testing"
           ],
-          "inadequate_defense": [
-            "custodial_years_lost"
+          "investigative_journalism": [
+            "post_conviction_testing"
           ],
-          "custodial_years_lost": []
-        },
-        "racial_disparity": {
-          "inadequate_defense": [
-            "custodial_years_lost"
-          ],
-          "custodial_years_lost": []
-        },
-        "inadequate_defense": {
-          "custodial_years_lost": []
+          "post_conviction_testing": []
         }
       },
       "paths": {
-        "confession_exclusion/victim_perpetrator_alliance": [
+        "alternate_suspect_suppression/decade_long_imprisonment": [
           "inf_f39647fd"
         ],
-        "cross_racial_identification_error/confession_exclusion": [
+        "alternate_suspect_suppression/post_conviction_vindication": [
           "inf_f39647fd"
         ],
-        "cross_racial_identification_error/victim_perpetrator_alliance": [
+        "alternate_suspect_suppression/procedural_injustice": [
           "inf_f39647fd"
         ],
-        "delayed_justice/confession_exclusion": [
+        "alternate_suspect_suppression/victim_perpetrator_reconciliation": [
           "inf_f39647fd"
         ],
-        "delayed_justice/cross_racial_identification_error": [
+        "alternate_suspect_suppression/wrongful_conviction_advocacy": [
           "inf_f39647fd"
         ],
-        "delayed_justice/eyewitness_misidentification": [
-          "inf_285ae7ab",
+        "decade_long_imprisonment/post_conviction_vindication": [
           "inf_f39647fd"
         ],
-        "delayed_justice/false_certainty": [
+        "decade_long_imprisonment/procedural_injustice": [
           "inf_f39647fd"
         ],
-        "delayed_justice/memory_malleability": [
+        "decade_long_imprisonment/victim_perpetrator_reconciliation": [
           "inf_f39647fd"
         ],
-        "delayed_justice/post_exoneration_reconciliation": [
+        "decade_long_imprisonment/wrongful_conviction_advocacy": [
           "inf_f39647fd"
         ],
-        "delayed_justice/procedural_failure": [
+        "dna_exoneration/alternate_suspect_suppression": [
           "inf_f39647fd"
         ],
-        "delayed_justice/suppressed_exculpatory_evidence": [
+        "dna_exoneration/decade_long_imprisonment": [
           "inf_f39647fd"
         ],
-        "delayed_justice/victim_perpetrator_alliance": [
+        "dna_exoneration/exculpatory_evidence_exclusion": [
           "inf_f39647fd"
         ],
-        "delayed_justice/wrongful_conviction": [
-          "inf_285ae7ab",
+        "dna_exoneration/identification_certainty_drift": [
           "inf_f39647fd"
         ],
-        "dna_exoneration/confession_exclusion": [
+        "dna_exoneration/lineup_suggestibility": [
           "inf_f39647fd"
         ],
-        "dna_exoneration/cross_racial_identification_error": [
+        "dna_exoneration/post_conviction_vindication": [
           "inf_f39647fd"
         ],
-        "dna_exoneration/delayed_justice": [
-          "inf_285ae7ab",
-          "inf_a3d99808",
+        "dna_exoneration/procedural_injustice": [
           "inf_f39647fd"
         ],
-        "dna_exoneration/eyewitness_misidentification": [
+        "dna_exoneration/victim_perpetrator_reconciliation": [
+          "inf_f39647fd"
+        ],
+        "dna_exoneration/wrongful_conviction_advocacy": [
+          "inf_f39647fd"
+        ],
+        "exculpatory_evidence_exclusion/alternate_suspect_suppression": [
+          "inf_f39647fd"
+        ],
+        "exculpatory_evidence_exclusion/decade_long_imprisonment": [
+          "inf_f39647fd"
+        ],
+        "exculpatory_evidence_exclusion/post_conviction_vindication": [
+          "inf_f39647fd"
+        ],
+        "exculpatory_evidence_exclusion/procedural_injustice": [
+          "inf_f39647fd"
+        ],
+        "exculpatory_evidence_exclusion/victim_perpetrator_reconciliation": [
+          "inf_f39647fd"
+        ],
+        "exculpatory_evidence_exclusion/wrongful_conviction_advocacy": [
+          "inf_f39647fd"
+        ],
+        "eyewitness_misidentification/alternate_suspect_suppression": [
+          "inf_f39647fd"
+        ],
+        "eyewitness_misidentification/decade_long_imprisonment": [
+          "inf_f39647fd"
+        ],
+        "eyewitness_misidentification/dna_exoneration": [
           "inf_0f31de7a",
-          "inf_285ae7ab",
+          "inf_b097e1d7",
           "inf_f39647fd"
         ],
-        "dna_exoneration/false_certainty": [
-          "inf_0f31de7a",
+        "eyewitness_misidentification/exculpatory_evidence_exclusion": [
           "inf_f39647fd"
         ],
-        "dna_exoneration/memory_malleability": [
+        "eyewitness_misidentification/identification_certainty_drift": [
           "inf_f39647fd"
         ],
-        "dna_exoneration/post_exoneration_reconciliation": [
+        "eyewitness_misidentification/lineup_suggestibility": [
           "inf_f39647fd"
         ],
-        "dna_exoneration/procedural_failure": [
+        "eyewitness_misidentification/post_conviction_vindication": [
           "inf_f39647fd"
         ],
-        "dna_exoneration/suppressed_exculpatory_evidence": [
-          "inf_0f31de7a",
+        "eyewitness_misidentification/procedural_injustice": [
           "inf_f39647fd"
         ],
-        "dna_exoneration/victim_perpetrator_alliance": [
-          "inf_f39647fd"
-        ],
-        "dna_exoneration/wrongful_conviction": [
-          "inf_0f31de7a",
-          "inf_285ae7ab",
-          "inf_f39647fd"
-        ],
-        "eyewitness_misidentification/confession_exclusion": [
-          "inf_f39647fd"
-        ],
-        "eyewitness_misidentification/cross_racial_identification_error": [
-          "inf_f39647fd"
-        ],
-        "eyewitness_misidentification/false_certainty": [
-          "inf_0f31de7a",
-          "inf_f39647fd"
-        ],
-        "eyewitness_misidentification/memory_malleability": [
-          "inf_f39647fd"
-        ],
-        "eyewitness_misidentification/post_exoneration_reconciliation": [
-          "inf_f39647fd"
-        ],
-        "eyewitness_misidentification/procedural_failure": [
-          "inf_f39647fd"
-        ],
-        "eyewitness_misidentification/suppressed_exculpatory_evidence": [
-          "inf_0f31de7a",
-          "inf_f39647fd"
-        ],
-        "eyewitness_misidentification/victim_perpetrator_alliance": [
+        "eyewitness_misidentification/victim_perpetrator_reconciliation": [
           "inf_f39647fd"
         ],
         "eyewitness_misidentification/wrongful_conviction": [
           "inf_0f31de7a",
-          "inf_285ae7ab",
+          "inf_b097e1d7",
           "inf_f39647fd"
         ],
-        "false_certainty/confession_exclusion": [
+        "eyewitness_misidentification/wrongful_conviction_advocacy": [
           "inf_f39647fd"
         ],
-        "false_certainty/cross_racial_identification_error": [
+        "identification_certainty_drift/alternate_suspect_suppression": [
           "inf_f39647fd"
         ],
-        "false_certainty/memory_malleability": [
+        "identification_certainty_drift/decade_long_imprisonment": [
           "inf_f39647fd"
         ],
-        "false_certainty/post_exoneration_reconciliation": [
+        "identification_certainty_drift/exculpatory_evidence_exclusion": [
           "inf_f39647fd"
         ],
-        "false_certainty/procedural_failure": [
+        "identification_certainty_drift/post_conviction_vindication": [
           "inf_f39647fd"
         ],
-        "false_certainty/victim_perpetrator_alliance": [
+        "identification_certainty_drift/procedural_injustice": [
           "inf_f39647fd"
         ],
-        "memory_malleability/confession_exclusion": [
+        "identification_certainty_drift/victim_perpetrator_reconciliation": [
           "inf_f39647fd"
         ],
-        "memory_malleability/cross_racial_identification_error": [
+        "identification_certainty_drift/wrongful_conviction_advocacy": [
           "inf_f39647fd"
         ],
-        "memory_malleability/post_exoneration_reconciliation": [
+        "lineup_suggestibility/alternate_suspect_suppression": [
           "inf_f39647fd"
         ],
-        "memory_malleability/procedural_failure": [
+        "lineup_suggestibility/decade_long_imprisonment": [
           "inf_f39647fd"
         ],
-        "memory_malleability/victim_perpetrator_alliance": [
+        "lineup_suggestibility/exculpatory_evidence_exclusion": [
           "inf_f39647fd"
         ],
-        "post_exoneration_reconciliation/confession_exclusion": [
+        "lineup_suggestibility/identification_certainty_drift": [
           "inf_f39647fd"
         ],
-        "post_exoneration_reconciliation/cross_racial_identification_error": [
+        "lineup_suggestibility/post_conviction_vindication": [
           "inf_f39647fd"
         ],
-        "post_exoneration_reconciliation/victim_perpetrator_alliance": [
+        "lineup_suggestibility/procedural_injustice": [
           "inf_f39647fd"
         ],
-        "procedural_failure/confession_exclusion": [
+        "lineup_suggestibility/victim_perpetrator_reconciliation": [
           "inf_f39647fd"
         ],
-        "procedural_failure/cross_racial_identification_error": [
+        "lineup_suggestibility/wrongful_conviction_advocacy": [
           "inf_f39647fd"
         ],
-        "procedural_failure/post_exoneration_reconciliation": [
+        "post_conviction_vindication/procedural_injustice": [
           "inf_f39647fd"
         ],
-        "procedural_failure/victim_perpetrator_alliance": [
+        "post_conviction_vindication/victim_perpetrator_reconciliation": [
           "inf_f39647fd"
         ],
-        "suppressed_exculpatory_evidence/confession_exclusion": [
+        "post_conviction_vindication/wrongful_conviction_advocacy": [
           "inf_f39647fd"
         ],
-        "suppressed_exculpatory_evidence/cross_racial_identification_error": [
+        "victim_perpetrator_reconciliation/procedural_injustice": [
           "inf_f39647fd"
         ],
-        "suppressed_exculpatory_evidence/false_certainty": [
+        "victim_perpetrator_reconciliation/wrongful_conviction_advocacy": [
+          "inf_f39647fd"
+        ],
+        "wrongful_conviction/alternate_suspect_suppression": [
+          "inf_f39647fd"
+        ],
+        "wrongful_conviction/decade_long_imprisonment": [
+          "inf_f39647fd"
+        ],
+        "wrongful_conviction/dna_exoneration": [
           "inf_0f31de7a",
+          "inf_b097e1d7",
           "inf_f39647fd"
         ],
-        "suppressed_exculpatory_evidence/memory_malleability": [
+        "wrongful_conviction/exculpatory_evidence_exclusion": [
           "inf_f39647fd"
         ],
-        "suppressed_exculpatory_evidence/post_exoneration_reconciliation": [
+        "wrongful_conviction/identification_certainty_drift": [
           "inf_f39647fd"
         ],
-        "suppressed_exculpatory_evidence/procedural_failure": [
+        "wrongful_conviction/lineup_suggestibility": [
           "inf_f39647fd"
         ],
-        "suppressed_exculpatory_evidence/victim_perpetrator_alliance": [
+        "wrongful_conviction/post_conviction_vindication": [
           "inf_f39647fd"
         ],
-        "wrongful_conviction/confession_exclusion": [
+        "wrongful_conviction/procedural_injustice": [
           "inf_f39647fd"
         ],
-        "wrongful_conviction/cross_racial_identification_error": [
+        "wrongful_conviction/victim_perpetrator_reconciliation": [
           "inf_f39647fd"
         ],
-        "wrongful_conviction/false_certainty": [
-          "inf_0f31de7a",
+        "wrongful_conviction/wrongful_conviction_advocacy": [
           "inf_f39647fd"
         ],
-        "wrongful_conviction/memory_malleability": [
+        "wrongful_conviction_advocacy/procedural_injustice": [
           "inf_f39647fd"
         ],
-        "wrongful_conviction/post_exoneration_reconciliation": [
-          "inf_f39647fd"
-        ],
-        "wrongful_conviction/procedural_failure": [
-          "inf_f39647fd"
-        ],
-        "wrongful_conviction/suppressed_exculpatory_evidence": [
-          "inf_0f31de7a",
-          "inf_f39647fd"
-        ],
-        "wrongful_conviction/victim_perpetrator_alliance": [
-          "inf_f39647fd"
-        ],
-        "confession_as_sole_evidence/evidence_contradiction_ignored": [
-          "inf_a3d99808"
-        ],
-        "confession_as_sole_evidence/fabricated_evidence_accountability": [
-          "inf_a3d99808"
-        ],
-        "confession_as_sole_evidence/half_measure_clemency": [
-          "inf_a3d99808"
-        ],
-        "confession_as_sole_evidence/institutional_inertia": [
-          "inf_a3d99808"
-        ],
-        "confession_as_sole_evidence/near_execution": [
-          "inf_a3d99808"
-        ],
-        "confession_as_sole_evidence/racialized_suspicion": [
-          "inf_a3d99808"
-        ],
-        "confession_as_sole_evidence/systemic_acknowledgment_failure": [
-          "inf_a3d99808"
-        ],
-        "confession_as_sole_evidence/true_perpetrator_identified": [
-          "inf_a3d99808"
-        ],
-        "confession_as_sole_evidence/wrongful_capital_conviction": [
-          "inf_a3d99808"
-        ],
-        "delayed_justice/confession_as_sole_evidence": [
-          "inf_a3d99808"
-        ],
-        "delayed_justice/evidence_contradiction_ignored": [
-          "inf_a3d99808"
-        ],
-        "delayed_justice/fabricated_evidence_accountability": [
-          "inf_a3d99808"
-        ],
-        "delayed_justice/false_confession": [
-          "inf_a3d99808"
-        ],
-        "delayed_justice/half_measure_clemency": [
-          "inf_a3d99808"
-        ],
-        "delayed_justice/institutional_inertia": [
-          "inf_a3d99808"
-        ],
-        "delayed_justice/intellectual_disability_exploitation": [
-          "inf_a3d99808"
-        ],
-        "delayed_justice/interrogator_fed_facts": [
-          "inf_a3d99808"
-        ],
-        "delayed_justice/near_execution": [
-          "inf_a3d99808"
-        ],
-        "delayed_justice/racialized_suspicion": [
-          "inf_a3d99808"
-        ],
-        "delayed_justice/suggestibility_under_authority": [
-          "inf_a3d99808"
-        ],
-        "delayed_justice/systemic_acknowledgment_failure": [
-          "inf_a3d99808"
-        ],
-        "delayed_justice/true_perpetrator_identified": [
-          "inf_a3d99808"
-        ],
-        "delayed_justice/wrongful_capital_conviction": [
-          "inf_a3d99808"
-        ],
-        "dna_exoneration/confession_as_sole_evidence": [
-          "inf_a3d99808"
-        ],
-        "dna_exoneration/evidence_contradiction_ignored": [
-          "inf_a3d99808"
-        ],
-        "dna_exoneration/fabricated_evidence_accountability": [
-          "inf_a3d99808"
-        ],
-        "dna_exoneration/false_confession": [
-          "inf_a3d99808"
-        ],
-        "dna_exoneration/half_measure_clemency": [
-          "inf_a3d99808"
-        ],
-        "dna_exoneration/institutional_inertia": [
-          "inf_a3d99808"
-        ],
-        "dna_exoneration/intellectual_disability_exploitation": [
-          "inf_a3d99808"
-        ],
-        "dna_exoneration/interrogator_fed_facts": [
-          "inf_a3d99808"
-        ],
-        "dna_exoneration/near_execution": [
-          "inf_a3d99808"
-        ],
-        "dna_exoneration/racialized_suspicion": [
-          "inf_a3d99808"
-        ],
-        "dna_exoneration/suggestibility_under_authority": [
-          "inf_a3d99808"
-        ],
-        "dna_exoneration/systemic_acknowledgment_failure": [
-          "inf_a3d99808"
-        ],
-        "dna_exoneration/true_perpetrator_identified": [
-          "inf_a3d99808"
-        ],
-        "dna_exoneration/wrongful_capital_conviction": [
-          "inf_a3d99808"
-        ],
-        "evidence_contradiction_ignored/fabricated_evidence_accountability": [
-          "inf_a3d99808"
-        ],
-        "evidence_contradiction_ignored/half_measure_clemency": [
-          "inf_a3d99808"
-        ],
-        "evidence_contradiction_ignored/institutional_inertia": [
-          "inf_a3d99808"
-        ],
-        "evidence_contradiction_ignored/near_execution": [
-          "inf_a3d99808"
-        ],
-        "evidence_contradiction_ignored/racialized_suspicion": [
-          "inf_a3d99808"
-        ],
-        "evidence_contradiction_ignored/systemic_acknowledgment_failure": [
-          "inf_a3d99808"
-        ],
-        "evidence_contradiction_ignored/true_perpetrator_identified": [
-          "inf_a3d99808"
-        ],
-        "evidence_contradiction_ignored/wrongful_capital_conviction": [
-          "inf_a3d99808"
-        ],
-        "fabricated_evidence_accountability/racialized_suspicion": [
-          "inf_a3d99808"
-        ],
-        "fabricated_evidence_accountability/systemic_acknowledgment_failure": [
-          "inf_a3d99808"
-        ],
-        "fabricated_evidence_accountability/true_perpetrator_identified": [
-          "inf_a3d99808"
-        ],
-        "false_confession/confession_as_sole_evidence": [
-          "inf_a3d99808"
-        ],
-        "false_confession/evidence_contradiction_ignored": [
-          "inf_a3d99808"
-        ],
-        "false_confession/fabricated_evidence_accountability": [
-          "inf_a3d99808"
-        ],
-        "false_confession/half_measure_clemency": [
-          "inf_a3d99808"
-        ],
-        "false_confession/institutional_inertia": [
-          "inf_a3d99808"
-        ],
-        "false_confession/intellectual_disability_exploitation": [
+        "authority_deference/actual_innocence": [
           "inf_a3d99808"
         ],
-        "false_confession/interrogator_fed_facts": [
+        "authority_deference/compliance_behavior": [
           "inf_a3d99808"
         ],
-        "false_confession/near_execution": [
+        "authority_deference/dna_exclusion": [
           "inf_a3d99808"
         ],
-        "false_confession/racialized_suspicion": [
+        "authority_deference/forensic_amendment": [
           "inf_a3d99808"
         ],
-        "false_confession/suggestibility_under_authority": [
+        "authority_deference/gubernatorial_pardon": [
           "inf_a3d99808"
         ],
-        "false_confession/systemic_acknowledgment_failure": [
+        "authority_deference/inadequate_defense": [
           "inf_a3d99808"
         ],
-        "false_confession/true_perpetrator_identified": [
+        "authority_deference/intellectual_disability": [
           "inf_a3d99808"
         ],
-        "false_confession/wrongful_capital_conviction": [
+        "authority_deference/procedural_barrier": [
           "inf_a3d99808"
         ],
-        "half_measure_clemency/fabricated_evidence_accountability": [
+        "coerced_confession/actual_innocence": [
           "inf_a3d99808"
         ],
-        "half_measure_clemency/institutional_inertia": [
+        "coerced_confession/authority_deference": [
           "inf_a3d99808"
         ],
-        "half_measure_clemency/racialized_suspicion": [
+        "coerced_confession/compliance_behavior": [
           "inf_a3d99808"
         ],
-        "half_measure_clemency/systemic_acknowledgment_failure": [
+        "coerced_confession/dna_exclusion": [
           "inf_a3d99808"
         ],
-        "half_measure_clemency/true_perpetrator_identified": [
+        "coerced_confession/factual_inconsistency": [
           "inf_a3d99808"
         ],
-        "institutional_inertia/fabricated_evidence_accountability": [
+        "coerced_confession/forensic_amendment": [
           "inf_a3d99808"
         ],
-        "institutional_inertia/racialized_suspicion": [
+        "coerced_confession/gubernatorial_pardon": [
           "inf_a3d99808"
         ],
-        "institutional_inertia/systemic_acknowledgment_failure": [
+        "coerced_confession/inadequate_defense": [
           "inf_a3d99808"
         ],
-        "institutional_inertia/true_perpetrator_identified": [
+        "coerced_confession/intellectual_disability": [
           "inf_a3d99808"
         ],
-        "intellectual_disability_exploitation/confession_as_sole_evidence": [
+        "coerced_confession/procedural_barrier": [
           "inf_a3d99808"
         ],
-        "intellectual_disability_exploitation/evidence_contradiction_ignored": [
+        "compliance_behavior/actual_innocence": [
           "inf_a3d99808"
         ],
-        "intellectual_disability_exploitation/fabricated_evidence_accountability": [
+        "compliance_behavior/dna_exclusion": [
           "inf_a3d99808"
         ],
-        "intellectual_disability_exploitation/half_measure_clemency": [
+        "compliance_behavior/gubernatorial_pardon": [
           "inf_a3d99808"
         ],
-        "intellectual_disability_exploitation/institutional_inertia": [
+        "compliance_behavior/inadequate_defense": [
           "inf_a3d99808"
         ],
-        "intellectual_disability_exploitation/near_execution": [
+        "compliance_behavior/procedural_barrier": [
           "inf_a3d99808"
         ],
-        "intellectual_disability_exploitation/racialized_suspicion": [
+        "dna_exclusion/actual_innocence": [
           "inf_a3d99808"
         ],
-        "intellectual_disability_exploitation/systemic_acknowledgment_failure": [
+        "dna_exclusion/gubernatorial_pardon": [
           "inf_a3d99808"
         ],
-        "intellectual_disability_exploitation/true_perpetrator_identified": [
+        "evidence_suppression/actual_innocence": [
           "inf_a3d99808"
         ],
-        "intellectual_disability_exploitation/wrongful_capital_conviction": [
+        "evidence_suppression/authority_deference": [
           "inf_a3d99808"
         ],
-        "interrogator_fed_facts/confession_as_sole_evidence": [
+        "evidence_suppression/coerced_confession": [
           "inf_a3d99808"
         ],
-        "interrogator_fed_facts/evidence_contradiction_ignored": [
+        "evidence_suppression/compliance_behavior": [
           "inf_a3d99808"
         ],
-        "interrogator_fed_facts/fabricated_evidence_accountability": [
+        "evidence_suppression/dna_exclusion": [
           "inf_a3d99808"
         ],
-        "interrogator_fed_facts/half_measure_clemency": [
+        "evidence_suppression/factual_inconsistency": [
           "inf_a3d99808"
         ],
-        "interrogator_fed_facts/institutional_inertia": [
+        "evidence_suppression/forensic_amendment": [
           "inf_a3d99808"
         ],
-        "interrogator_fed_facts/intellectual_disability_exploitation": [
+        "evidence_suppression/gubernatorial_pardon": [
           "inf_a3d99808"
         ],
-        "interrogator_fed_facts/near_execution": [
+        "evidence_suppression/inadequate_defense": [
           "inf_a3d99808"
         ],
-        "interrogator_fed_facts/racialized_suspicion": [
+        "evidence_suppression/intellectual_disability": [
           "inf_a3d99808"
         ],
-        "interrogator_fed_facts/suggestibility_under_authority": [
+        "evidence_suppression/procedural_barrier": [
           "inf_a3d99808"
         ],
-        "interrogator_fed_facts/systemic_acknowledgment_failure": [
+        "factual_inconsistency/actual_innocence": [
           "inf_a3d99808"
         ],
-        "interrogator_fed_facts/true_perpetrator_identified": [
+        "factual_inconsistency/authority_deference": [
           "inf_a3d99808"
         ],
-        "interrogator_fed_facts/wrongful_capital_conviction": [
+        "factual_inconsistency/compliance_behavior": [
           "inf_a3d99808"
         ],
-        "near_execution/fabricated_evidence_accountability": [
+        "factual_inconsistency/dna_exclusion": [
           "inf_a3d99808"
         ],
-        "near_execution/half_measure_clemency": [
+        "factual_inconsistency/forensic_amendment": [
           "inf_a3d99808"
         ],
-        "near_execution/institutional_inertia": [
+        "factual_inconsistency/gubernatorial_pardon": [
           "inf_a3d99808"
         ],
-        "near_execution/racialized_suspicion": [
+        "factual_inconsistency/inadequate_defense": [
           "inf_a3d99808"
         ],
-        "near_execution/systemic_acknowledgment_failure": [
+        "factual_inconsistency/intellectual_disability": [
           "inf_a3d99808"
         ],
-        "near_execution/true_perpetrator_identified": [
+        "factual_inconsistency/procedural_barrier": [
           "inf_a3d99808"
         ],
-        "suggestibility_under_authority/confession_as_sole_evidence": [
+        "forensic_amendment/actual_innocence": [
           "inf_a3d99808"
         ],
-        "suggestibility_under_authority/evidence_contradiction_ignored": [
+        "forensic_amendment/compliance_behavior": [
           "inf_a3d99808"
         ],
-        "suggestibility_under_authority/fabricated_evidence_accountability": [
+        "forensic_amendment/dna_exclusion": [
           "inf_a3d99808"
         ],
-        "suggestibility_under_authority/half_measure_clemency": [
+        "forensic_amendment/gubernatorial_pardon": [
           "inf_a3d99808"
         ],
-        "suggestibility_under_authority/institutional_inertia": [
+        "forensic_amendment/inadequate_defense": [
           "inf_a3d99808"
         ],
-        "suggestibility_under_authority/intellectual_disability_exploitation": [
+        "forensic_amendment/intellectual_disability": [
           "inf_a3d99808"
         ],
-        "suggestibility_under_authority/near_execution": [
+        "forensic_amendment/procedural_barrier": [
           "inf_a3d99808"
         ],
-        "suggestibility_under_authority/racialized_suspicion": [
+        "gubernatorial_pardon/actual_innocence": [
           "inf_a3d99808"
         ],
-        "suggestibility_under_authority/systemic_acknowledgment_failure": [
+        "inadequate_defense/actual_innocence": [
           "inf_a3d99808"
         ],
-        "suggestibility_under_authority/true_perpetrator_identified": [
+        "inadequate_defense/dna_exclusion": [
           "inf_a3d99808"
         ],
-        "suggestibility_under_authority/wrongful_capital_conviction": [
+        "inadequate_defense/gubernatorial_pardon": [
           "inf_a3d99808"
         ],
-        "systemic_acknowledgment_failure/racialized_suspicion": [
+        "inadequate_defense/procedural_barrier": [
           "inf_a3d99808"
         ],
-        "true_perpetrator_identified/racialized_suspicion": [
+        "intellectual_disability/actual_innocence": [
           "inf_a3d99808"
         ],
-        "true_perpetrator_identified/systemic_acknowledgment_failure": [
+        "intellectual_disability/compliance_behavior": [
           "inf_a3d99808"
         ],
-        "wrongful_capital_conviction/fabricated_evidence_accountability": [
+        "intellectual_disability/dna_exclusion": [
           "inf_a3d99808"
         ],
-        "wrongful_capital_conviction/half_measure_clemency": [
+        "intellectual_disability/gubernatorial_pardon": [
           "inf_a3d99808"
         ],
-        "wrongful_capital_conviction/institutional_inertia": [
+        "intellectual_disability/inadequate_defense": [
           "inf_a3d99808"
         ],
-        "wrongful_capital_conviction/near_execution": [
+        "intellectual_disability/procedural_barrier": [
           "inf_a3d99808"
         ],
-        "wrongful_capital_conviction/racialized_suspicion": [
+        "procedural_barrier/actual_innocence": [
           "inf_a3d99808"
         ],
-        "wrongful_capital_conviction/systemic_acknowledgment_failure": [
+        "procedural_barrier/dna_exclusion": [
           "inf_a3d99808"
         ],
-        "wrongful_capital_conviction/true_perpetrator_identified": [
+        "procedural_barrier/gubernatorial_pardon": [
           "inf_a3d99808"
         ],
         "compounding_error/advocacy_born_of_injustice": [
@@ -15678,6 +15484,10 @@
         "dna_exoneration/confirmation_amplification": [
           "inf_0f31de7a"
         ],
+        "dna_exoneration/false_certainty": [
+          "inf_0f31de7a",
+          "inf_b097e1d7"
+        ],
         "dna_exoneration/memory_hardening": [
           "inf_0f31de7a"
         ],
@@ -15686,6 +15496,10 @@
         ],
         "dna_exoneration/reconciliation_across_harm": [
           "inf_0f31de7a"
+        ],
+        "dna_exoneration/suppressed_exculpatory_evidence": [
+          "inf_0f31de7a",
+          "inf_b097e1d7"
         ],
         "dna_exoneration/systemic_identification_failure": [
           "inf_0f31de7a"
@@ -15699,6 +15513,10 @@
         "eyewitness_misidentification/confirmation_amplification": [
           "inf_0f31de7a"
         ],
+        "eyewitness_misidentification/false_certainty": [
+          "inf_0f31de7a",
+          "inf_b097e1d7"
+        ],
         "eyewitness_misidentification/memory_hardening": [
           "inf_0f31de7a"
         ],
@@ -15707,6 +15525,10 @@
         ],
         "eyewitness_misidentification/reconciliation_across_harm": [
           "inf_0f31de7a"
+        ],
+        "eyewitness_misidentification/suppressed_exculpatory_evidence": [
+          "inf_0f31de7a",
+          "inf_b097e1d7"
         ],
         "eyewitness_misidentification/systemic_identification_failure": [
           "inf_0f31de7a"
@@ -15777,6 +15599,10 @@
         "suppressed_exculpatory_evidence/confirmation_amplification": [
           "inf_0f31de7a"
         ],
+        "suppressed_exculpatory_evidence/false_certainty": [
+          "inf_0f31de7a",
+          "inf_b097e1d7"
+        ],
         "suppressed_exculpatory_evidence/memory_hardening": [
           "inf_0f31de7a"
         ],
@@ -15801,6 +15627,10 @@
         "wrongful_conviction/confirmation_amplification": [
           "inf_0f31de7a"
         ],
+        "wrongful_conviction/false_certainty": [
+          "inf_0f31de7a",
+          "inf_b097e1d7"
+        ],
         "wrongful_conviction/memory_hardening": [
           "inf_0f31de7a"
         ],
@@ -15810,188 +15640,306 @@
         "wrongful_conviction/reconciliation_across_harm": [
           "inf_0f31de7a"
         ],
+        "wrongful_conviction/suppressed_exculpatory_evidence": [
+          "inf_0f31de7a",
+          "inf_b097e1d7"
+        ],
         "wrongful_conviction/systemic_identification_failure": [
           "inf_0f31de7a"
         ],
-        "delayed_justice/custodial_years_lost": [
+        "dna_analysis_error/evidence_concealment": [
           "inf_285ae7ab"
         ],
-        "delayed_justice/exculpatory_neglect": [
+        "dna_analysis_error/independent_testing_abandoned": [
           "inf_285ae7ab"
         ],
-        "delayed_justice/forensic_fabrication": [
+        "dna_analysis_error/ineffective_counsel": [
           "inf_285ae7ab"
         ],
-        "delayed_justice/inadequate_defense": [
+        "dna_analysis_error/innocence_resistance": [
           "inf_285ae7ab"
         ],
-        "delayed_justice/institutional_incompetence": [
+        "dna_analysis_error/investigative_journalism": [
           "inf_285ae7ab"
         ],
-        "delayed_justice/physical_evidence_contradiction": [
+        "dna_analysis_error/post_conviction_testing": [
           "inf_285ae7ab"
         ],
-        "delayed_justice/racial_disparity": [
+        "dna_analysis_error/statistical_misrepresentation": [
           "inf_285ae7ab"
         ],
-        "delayed_justice/statistical_misrepresentation": [
+        "evidence_concealment/innocence_resistance": [
           "inf_285ae7ab"
         ],
-        "dna_exoneration/custodial_years_lost": [
+        "evidence_concealment/investigative_journalism": [
           "inf_285ae7ab"
         ],
-        "dna_exoneration/exculpatory_neglect": [
+        "evidence_concealment/post_conviction_testing": [
           "inf_285ae7ab"
         ],
-        "dna_exoneration/forensic_fabrication": [
+        "evidence_suppression/dna_analysis_error": [
           "inf_285ae7ab"
         ],
-        "dna_exoneration/inadequate_defense": [
+        "evidence_suppression/evidence_concealment": [
           "inf_285ae7ab"
         ],
-        "dna_exoneration/institutional_incompetence": [
+        "evidence_suppression/independent_testing_abandoned": [
           "inf_285ae7ab"
         ],
-        "dna_exoneration/physical_evidence_contradiction": [
+        "evidence_suppression/ineffective_counsel": [
           "inf_285ae7ab"
         ],
-        "dna_exoneration/racial_disparity": [
+        "evidence_suppression/innocence_resistance": [
           "inf_285ae7ab"
         ],
-        "dna_exoneration/statistical_misrepresentation": [
+        "evidence_suppression/investigative_journalism": [
           "inf_285ae7ab"
         ],
-        "exculpatory_neglect/custodial_years_lost": [
+        "evidence_suppression/physical_description_mismatch": [
           "inf_285ae7ab"
         ],
-        "exculpatory_neglect/inadequate_defense": [
+        "evidence_suppression/post_conviction_testing": [
           "inf_285ae7ab"
         ],
-        "exculpatory_neglect/physical_evidence_contradiction": [
+        "evidence_suppression/statistical_misrepresentation": [
           "inf_285ae7ab"
         ],
-        "exculpatory_neglect/racial_disparity": [
+        "evidence_suppression/suggestive_showup_procedure": [
           "inf_285ae7ab"
         ],
-        "eyewitness_misidentification/custodial_years_lost": [
+        "eyewitness_misidentification/dna_analysis_error": [
           "inf_285ae7ab"
         ],
-        "eyewitness_misidentification/exculpatory_neglect": [
+        "eyewitness_misidentification/evidence_concealment": [
           "inf_285ae7ab"
         ],
-        "eyewitness_misidentification/forensic_fabrication": [
+        "eyewitness_misidentification/evidence_suppression": [
           "inf_285ae7ab"
         ],
-        "eyewitness_misidentification/inadequate_defense": [
+        "eyewitness_misidentification/independent_testing_abandoned": [
           "inf_285ae7ab"
         ],
-        "eyewitness_misidentification/institutional_incompetence": [
+        "eyewitness_misidentification/ineffective_counsel": [
           "inf_285ae7ab"
         ],
-        "eyewitness_misidentification/physical_evidence_contradiction": [
+        "eyewitness_misidentification/innocence_resistance": [
           "inf_285ae7ab"
         ],
-        "eyewitness_misidentification/racial_disparity": [
+        "eyewitness_misidentification/investigative_journalism": [
+          "inf_285ae7ab"
+        ],
+        "eyewitness_misidentification/physical_description_mismatch": [
+          "inf_285ae7ab"
+        ],
+        "eyewitness_misidentification/post_conviction_testing": [
           "inf_285ae7ab"
         ],
         "eyewitness_misidentification/statistical_misrepresentation": [
           "inf_285ae7ab"
         ],
-        "forensic_fabrication/custodial_years_lost": [
+        "eyewitness_misidentification/suggestive_showup_procedure": [
           "inf_285ae7ab"
         ],
-        "forensic_fabrication/exculpatory_neglect": [
+        "independent_testing_abandoned/evidence_concealment": [
           "inf_285ae7ab"
         ],
-        "forensic_fabrication/inadequate_defense": [
+        "independent_testing_abandoned/innocence_resistance": [
           "inf_285ae7ab"
         ],
-        "forensic_fabrication/institutional_incompetence": [
+        "independent_testing_abandoned/investigative_journalism": [
           "inf_285ae7ab"
         ],
-        "forensic_fabrication/physical_evidence_contradiction": [
+        "independent_testing_abandoned/post_conviction_testing": [
           "inf_285ae7ab"
         ],
-        "forensic_fabrication/racial_disparity": [
+        "ineffective_counsel/evidence_concealment": [
           "inf_285ae7ab"
         ],
-        "forensic_fabrication/statistical_misrepresentation": [
+        "ineffective_counsel/independent_testing_abandoned": [
           "inf_285ae7ab"
         ],
-        "inadequate_defense/custodial_years_lost": [
+        "ineffective_counsel/innocence_resistance": [
           "inf_285ae7ab"
         ],
-        "institutional_incompetence/custodial_years_lost": [
+        "ineffective_counsel/investigative_journalism": [
           "inf_285ae7ab"
         ],
-        "institutional_incompetence/exculpatory_neglect": [
+        "ineffective_counsel/post_conviction_testing": [
           "inf_285ae7ab"
         ],
-        "institutional_incompetence/inadequate_defense": [
+        "physical_description_mismatch/dna_analysis_error": [
           "inf_285ae7ab"
         ],
-        "institutional_incompetence/physical_evidence_contradiction": [
+        "physical_description_mismatch/evidence_concealment": [
           "inf_285ae7ab"
         ],
-        "institutional_incompetence/racial_disparity": [
+        "physical_description_mismatch/independent_testing_abandoned": [
           "inf_285ae7ab"
         ],
-        "physical_evidence_contradiction/custodial_years_lost": [
+        "physical_description_mismatch/ineffective_counsel": [
           "inf_285ae7ab"
         ],
-        "physical_evidence_contradiction/inadequate_defense": [
+        "physical_description_mismatch/innocence_resistance": [
           "inf_285ae7ab"
         ],
-        "physical_evidence_contradiction/racial_disparity": [
+        "physical_description_mismatch/investigative_journalism": [
           "inf_285ae7ab"
         ],
-        "racial_disparity/custodial_years_lost": [
+        "physical_description_mismatch/post_conviction_testing": [
           "inf_285ae7ab"
         ],
-        "racial_disparity/inadequate_defense": [
+        "physical_description_mismatch/statistical_misrepresentation": [
           "inf_285ae7ab"
         ],
-        "statistical_misrepresentation/custodial_years_lost": [
+        "physical_description_mismatch/suggestive_showup_procedure": [
           "inf_285ae7ab"
         ],
-        "statistical_misrepresentation/exculpatory_neglect": [
+        "statistical_misrepresentation/evidence_concealment": [
           "inf_285ae7ab"
         ],
-        "statistical_misrepresentation/inadequate_defense": [
+        "statistical_misrepresentation/independent_testing_abandoned": [
           "inf_285ae7ab"
         ],
-        "statistical_misrepresentation/institutional_incompetence": [
+        "statistical_misrepresentation/ineffective_counsel": [
           "inf_285ae7ab"
         ],
-        "statistical_misrepresentation/physical_evidence_contradiction": [
+        "statistical_misrepresentation/innocence_resistance": [
           "inf_285ae7ab"
         ],
-        "statistical_misrepresentation/racial_disparity": [
+        "statistical_misrepresentation/investigative_journalism": [
           "inf_285ae7ab"
         ],
-        "wrongful_conviction/custodial_years_lost": [
+        "statistical_misrepresentation/post_conviction_testing": [
           "inf_285ae7ab"
         ],
-        "wrongful_conviction/exculpatory_neglect": [
+        "suggestive_showup_procedure/dna_analysis_error": [
           "inf_285ae7ab"
         ],
-        "wrongful_conviction/forensic_fabrication": [
+        "suggestive_showup_procedure/evidence_concealment": [
           "inf_285ae7ab"
         ],
-        "wrongful_conviction/inadequate_defense": [
+        "suggestive_showup_procedure/independent_testing_abandoned": [
           "inf_285ae7ab"
         ],
-        "wrongful_conviction/institutional_incompetence": [
+        "suggestive_showup_procedure/ineffective_counsel": [
           "inf_285ae7ab"
         ],
-        "wrongful_conviction/physical_evidence_contradiction": [
+        "suggestive_showup_procedure/innocence_resistance": [
           "inf_285ae7ab"
         ],
-        "wrongful_conviction/racial_disparity": [
+        "suggestive_showup_procedure/investigative_journalism": [
           "inf_285ae7ab"
         ],
-        "wrongful_conviction/statistical_misrepresentation": [
+        "suggestive_showup_procedure/post_conviction_testing": [
           "inf_285ae7ab"
+        ],
+        "suggestive_showup_procedure/statistical_misrepresentation": [
+          "inf_285ae7ab"
+        ],
+        "dna_exoneration/confession_exclusion": [
+          "inf_b097e1d7"
+        ],
+        "dna_exoneration/cross_racial_identification_error": [
+          "inf_b097e1d7"
+        ],
+        "dna_exoneration/delayed_justice": [
+          "inf_b097e1d7"
+        ],
+        "dna_exoneration/memory_malleability": [
+          "inf_b097e1d7"
+        ],
+        "dna_exoneration/post_exoneration_reconciliation": [
+          "inf_b097e1d7"
+        ],
+        "dna_exoneration/procedural_failure": [
+          "inf_b097e1d7"
+        ],
+        "dna_exoneration/victim_perpetrator_alliance": [
+          "inf_b097e1d7"
+        ],
+        "eyewitness_misidentification/confession_exclusion": [
+          "inf_b097e1d7"
+        ],
+        "eyewitness_misidentification/cross_racial_identification_error": [
+          "inf_b097e1d7"
+        ],
+        "eyewitness_misidentification/delayed_justice": [
+          "inf_b097e1d7"
+        ],
+        "eyewitness_misidentification/memory_malleability": [
+          "inf_b097e1d7"
+        ],
+        "eyewitness_misidentification/post_exoneration_reconciliation": [
+          "inf_b097e1d7"
+        ],
+        "eyewitness_misidentification/procedural_failure": [
+          "inf_b097e1d7"
+        ],
+        "eyewitness_misidentification/victim_perpetrator_alliance": [
+          "inf_b097e1d7"
+        ],
+        "false_certainty/confession_exclusion": [
+          "inf_b097e1d7"
+        ],
+        "false_certainty/cross_racial_identification_error": [
+          "inf_b097e1d7"
+        ],
+        "false_certainty/delayed_justice": [
+          "inf_b097e1d7"
+        ],
+        "false_certainty/memory_malleability": [
+          "inf_b097e1d7"
+        ],
+        "false_certainty/post_exoneration_reconciliation": [
+          "inf_b097e1d7"
+        ],
+        "false_certainty/procedural_failure": [
+          "inf_b097e1d7"
+        ],
+        "false_certainty/victim_perpetrator_alliance": [
+          "inf_b097e1d7"
+        ],
+        "suppressed_exculpatory_evidence/confession_exclusion": [
+          "inf_b097e1d7"
+        ],
+        "suppressed_exculpatory_evidence/cross_racial_identification_error": [
+          "inf_b097e1d7"
+        ],
+        "suppressed_exculpatory_evidence/delayed_justice": [
+          "inf_b097e1d7"
+        ],
+        "suppressed_exculpatory_evidence/memory_malleability": [
+          "inf_b097e1d7"
+        ],
+        "suppressed_exculpatory_evidence/post_exoneration_reconciliation": [
+          "inf_b097e1d7"
+        ],
+        "suppressed_exculpatory_evidence/procedural_failure": [
+          "inf_b097e1d7"
+        ],
+        "suppressed_exculpatory_evidence/victim_perpetrator_alliance": [
+          "inf_b097e1d7"
+        ],
+        "wrongful_conviction/confession_exclusion": [
+          "inf_b097e1d7"
+        ],
+        "wrongful_conviction/cross_racial_identification_error": [
+          "inf_b097e1d7"
+        ],
+        "wrongful_conviction/delayed_justice": [
+          "inf_b097e1d7"
+        ],
+        "wrongful_conviction/memory_malleability": [
+          "inf_b097e1d7"
+        ],
+        "wrongful_conviction/post_exoneration_reconciliation": [
+          "inf_b097e1d7"
+        ],
+        "wrongful_conviction/procedural_failure": [
+          "inf_b097e1d7"
+        ],
+        "wrongful_conviction/victim_perpetrator_alliance": [
+          "inf_b097e1d7"
         ]
       }
     },

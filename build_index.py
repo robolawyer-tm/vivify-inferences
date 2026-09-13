@@ -74,6 +74,11 @@ def build(inferences_dir=None, recategorize=True, voices=False, dry_run=False):
     """
     inferences_dir = Path(inferences_dir or INFERENCES_DIR)
     domains = discover_domains(inferences_dir)
+    # A voice costs a reify call and is stored NOWHERE else — not in the per-domain
+    # index, not in the store — so a rebuild without --voices used to drop every one of
+    # them, and the fear of that blocked routine index rebuilds. Carry forward whatever
+    # the existing index holds unless this run is regenerating them.
+    previous = (read_json(inferences_dir / "index.json").get("domains") or {})
 
     domain_blocks = {}
     for name in domains:
@@ -92,6 +97,10 @@ def build(inferences_dir=None, recategorize=True, voices=False, dry_run=False):
         if voices and not dry_run and name not in PRIVATE_DOMAINS:
             print(f"  reifying voice for '{name}' ...", flush=True)
             block["voice"] = reify_domain_voice(ddir, name)
+        else:
+            kept = (previous.get(name) or {}).get("voice")
+            if kept:
+                block["voice"] = kept
         domain_blocks[name] = block
 
     total, keywords, cooccurrence = global_stats(inferences_dir)
@@ -230,3 +239,5 @@ if __name__ == "__main__":
 # llm: claude-opus-4-8 | 2026-06-26 | repos/vivify-inferences/build_index.py | added --jsonld discovery surface (schema.org DataCatalog from index; private domains excluded)
 # llm: claude-opus-4-8 | 2026-06-28 | repos/vivify-operators/build_index.py | ported from vivify-inferences — global roll-up + JSON-LD discovery surface
 # llm: claude-opus-5 | 2026-09-06 | repos/vivify-operators/build_index.py | discover_domains + per-domain count now rglob, not glob — nested seed/sub domains (logos, pillars, claude_code_sessions) were invisible to domain discovery and counted as 0, so the index and the published discovery surface advertised a corpus of 2 legal inferences and no sessions
+
+# llm: claude-opus-5 | 2026-09-13 | repos/vivify-operators/build_index.py | build() carries forward existing domains[*].voice when --voices is not passed — a voice is stored nowhere else, so a plain rebuild used to drop every one and the fear of that blocked routine index rebuilds

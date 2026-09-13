@@ -3,7 +3,7 @@
   "@type": "DataCatalog",
   "@id": "https://robolawyer-tm.github.io/#catalog",
   "name": "robolawyer-tm inference store",
-  "description": "Emergent inference store \u2014 beneficial-outcome inferences organized by self-arising categories with no external taxonomy. 88 public inferences across emergent domains.",
+  "description": "Emergent inference store \u2014 beneficial-outcome inferences organized by self-arising categories with no external taxonomy. 89 public inferences across emergent domains.",
   "url": "https://robolawyer-tm.github.io",
   "isAccessibleForFree": true,
   "publisher": {
@@ -235,50 +235,50 @@
       "@type": "Dataset",
       "@id": "https://robolawyer-tm.github.io/#dataset-field",
       "name": "field",
-      "description": "Domain 'field' \u2014 4 inferences across 37 emergent categories.",
+      "description": "Domain 'field' \u2014 5 inferences across 37 emergent categories.",
       "isPartOf": {
         "@id": "https://robolawyer-tm.github.io/#catalog"
       },
       "isAccessibleForFree": true,
       "creativeWorkStatus": "emergent",
       "keywords": [
+        "alternate_suspect_suppression",
+        "authority_deference",
+        "coerced_confession",
+        "compliance_behavior",
         "compounding_error",
-        "confession_as_sole_evidence",
-        "confession_exclusion",
         "confirmation_amplification",
-        "cross_racial_identification_error",
-        "delayed_justice",
+        "decade_long_imprisonment",
+        "dna_analysis_error",
+        "dna_exclusion",
         "dna_exoneration",
-        "evidence_contradiction_ignored",
-        "exculpatory_neglect",
+        "evidence_concealment",
+        "evidence_suppression",
+        "exculpatory_evidence_exclusion",
         "eyewitness_misidentification",
-        "fabricated_evidence_accountability",
+        "factual_inconsistency",
         "false_certainty",
-        "false_confession",
-        "forensic_fabrication",
-        "half_measure_clemency",
+        "forensic_amendment",
+        "gubernatorial_pardon",
+        "identification_certainty_drift",
         "inadequate_defense",
-        "institutional_incompetence",
-        "institutional_inertia",
-        "intellectual_disability_exploitation",
-        "interrogator_fed_facts",
+        "independent_testing_abandoned",
+        "ineffective_counsel",
+        "intellectual_disability",
+        "lineup_suggestibility",
         "memory_hardening",
-        "memory_malleability",
-        "near_execution",
-        "physical_evidence_contradiction",
-        "post_exoneration_reconciliation",
-        "procedural_failure",
+        "physical_description_mismatch",
+        "post_conviction_vindication",
+        "procedural_barrier",
         "procedural_reinforcement",
-        "racial_disparity",
         "reconciliation_across_harm",
         "statistical_misrepresentation",
-        "suggestibility_under_authority",
+        "suggestive_showup_procedure",
         "suppressed_exculpatory_evidence",
-        "systemic_acknowledgment_failure",
         "systemic_identification_failure",
-        "true_perpetrator_identified",
-        "wrongful_capital_conviction",
-        "wrongful_conviction"
+        "victim_perpetrator_reconciliation",
+        "wrongful_conviction",
+        "wrongful_conviction_advocacy"
       ],
       "variableMeasured": {
         "@type": "DefinedTermSet",
@@ -286,15 +286,23 @@
         "hasDefinedTerm": [
           {
             "@type": "DefinedTerm",
+            "name": "alternate_suspect_suppression"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "authority_deference"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "coerced_confession"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "compliance_behavior"
+          },
+          {
+            "@type": "DefinedTerm",
             "name": "compounding_error"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "confession_as_sole_evidence"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "confession_exclusion"
           },
           {
             "@type": "DefinedTerm",
@@ -302,11 +310,15 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "cross_racial_identification_error"
+            "name": "decade_long_imprisonment"
           },
           {
             "@type": "DefinedTerm",
-            "name": "delayed_justice"
+            "name": "dna_analysis_error"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "dna_exclusion"
           },
           {
             "@type": "DefinedTerm",
@@ -314,11 +326,15 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "evidence_contradiction_ignored"
+            "name": "evidence_concealment"
           },
           {
             "@type": "DefinedTerm",
-            "name": "exculpatory_neglect"
+            "name": "evidence_suppression"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "exculpatory_evidence_exclusion"
           },
           {
             "@type": "DefinedTerm",
@@ -326,7 +342,7 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "fabricated_evidence_accountability"
+            "name": "factual_inconsistency"
           },
           {
             "@type": "DefinedTerm",
@@ -334,15 +350,15 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "false_confession"
+            "name": "forensic_amendment"
           },
           {
             "@type": "DefinedTerm",
-            "name": "forensic_fabrication"
+            "name": "gubernatorial_pardon"
           },
           {
             "@type": "DefinedTerm",
-            "name": "half_measure_clemency"
+            "name": "identification_certainty_drift"
           },
           {
             "@type": "DefinedTerm",
@@ -350,19 +366,19 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "institutional_incompetence"
+            "name": "independent_testing_abandoned"
           },
           {
             "@type": "DefinedTerm",
-            "name": "institutional_inertia"
+            "name": "ineffective_counsel"
           },
           {
             "@type": "DefinedTerm",
-            "name": "intellectual_disability_exploitation"
+            "name": "intellectual_disability"
           },
           {
             "@type": "DefinedTerm",
-            "name": "interrogator_fed_facts"
+            "name": "lineup_suggestibility"
           },
           {
             "@type": "DefinedTerm",
@@ -370,31 +386,19 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "memory_malleability"
+            "name": "physical_description_mismatch"
           },
           {
             "@type": "DefinedTerm",
-            "name": "near_execution"
+            "name": "post_conviction_vindication"
           },
           {
             "@type": "DefinedTerm",
-            "name": "physical_evidence_contradiction"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "post_exoneration_reconciliation"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "procedural_failure"
+            "name": "procedural_barrier"
           },
           {
             "@type": "DefinedTerm",
             "name": "procedural_reinforcement"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "racial_disparity"
           },
           {
             "@type": "DefinedTerm",
@@ -406,7 +410,7 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "suggestibility_under_authority"
+            "name": "suggestive_showup_procedure"
           },
           {
             "@type": "DefinedTerm",
@@ -414,23 +418,19 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "systemic_acknowledgment_failure"
-          },
-          {
-            "@type": "DefinedTerm",
             "name": "systemic_identification_failure"
           },
           {
             "@type": "DefinedTerm",
-            "name": "true_perpetrator_identified"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "wrongful_capital_conviction"
+            "name": "victim_perpetrator_reconciliation"
           },
           {
             "@type": "DefinedTerm",
             "name": "wrongful_conviction"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "wrongful_conviction_advocacy"
           }
         ]
       }
