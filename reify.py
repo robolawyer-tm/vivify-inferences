@@ -55,7 +55,7 @@ import argparse
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
-from vivify_core import read_json, resolve_model
+from vivify_core import read_json, resolve_model, llm_call
 from category_index import ids_for_path, load_by_id
 
 
@@ -134,17 +134,13 @@ def call_api(prompt, dry_run=False):
         print("[dry-run] prompt:\n")
         print(prompt)
         sys.exit(0)
-    try:
-        import anthropic
-        client = anthropic.Anthropic()
-        message = client.messages.create(
-            model=resolve_model("prose_reconstruction"),
-            max_tokens=1024,
-            messages=[{"role": "user", "content": prompt}]
-        )
-        return message.content[0].text.strip()
-    except ImportError:
-        raise RuntimeError("anthropic package not installed — pip install anthropic")
+    # The anthropic SDK needs an API key this box does not have, and it bypassed the
+    # privacy gate entirely — reify was the last caller still on that path after
+    # vivify.py was migrated off it. llm_call resolves the same capability, dispatches
+    # through the claude CLI, enforces the gate, and strips markdown fences.
+    # sensitive=False keeps the existing behaviour: these domain voices become the
+    # public descriptions in discovery.jsonld, so they are published material already.
+    return llm_call(prompt, capability="prose_reconstruction", sensitive=False)
 
 
 def reify_single(inference, dry_run=False):
@@ -300,3 +296,5 @@ if __name__ == "__main__":
 # llm: claude-opus-4-8 | 2026-06-28 | repos/vivify-operators/reify.py | ported index-based reify_voice + added reify_domain_voice (kept operators anthropic-SDK call_api)
 
 # llm: claude-opus-5 | 2026-09-15 | repos/vivify-operators/reify.py | reify_domain_voice rglobs the domain: a direct-children glob raised "No inferences found" for every nested domain (logos, pillars, claude_code_sessions), so --voices could only ever work for flat `field`
+
+# llm: claude-opus-5 | 2026-09-15 | repos/vivify-operators/reify.py | call_api goes through llm_call (claude CLI + privacy gate) instead of the anthropic SDK, which could not authenticate on this box and bypassed the gate — the last caller left on that path
