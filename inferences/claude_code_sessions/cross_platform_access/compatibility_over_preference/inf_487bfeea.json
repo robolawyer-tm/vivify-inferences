@@ -52,16 +52,7 @@
     "cross_platform_access/pragmatic_necessity",
     "cross_platform_access/ssh_key_sealing",
     "cross_platform_access/tool_path_divergence",
-    "cross_platform_access/windows_compatibility",
-    "ssh_key_sealing/compatibility_over_preference",
-    "ssh_key_sealing/default_standard",
-    "ssh_key_sealing/encryptpad_baseline",
-    "ssh_key_sealing/format_adoption",
-    "ssh_key_sealing/interoperability_constraint",
-    "ssh_key_sealing/local_backup_workflow",
-    "ssh_key_sealing/pragmatic_necessity",
-    "ssh_key_sealing/tool_path_divergence",
-    "ssh_key_sealing/windows_compatibility"
+    "cross_platform_access/windows_compatibility"
   ],
   "tension": {
     "predicted": null,

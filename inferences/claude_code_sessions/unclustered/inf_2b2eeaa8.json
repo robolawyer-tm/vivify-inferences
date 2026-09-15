@@ -51,7 +51,17 @@
   "tension_score": null,
   "guardrail_actions": {},
   "domain": "claude_code_sessions",
-  "category_paths": [],
+  "category_paths": [
+    "silent_failure/directory_bootstrapping",
+    "silent_failure/environment_dependency",
+    "silent_failure/error_reframing",
+    "silent_failure/missing_dependency",
+    "silent_failure/pre_configuration_assumption",
+    "silent_failure/prerequisite_enforcement",
+    "silent_failure/proactive_setup",
+    "silent_failure/script_resilience",
+    "silent_failure/self_provisioning"
+  ],
   "tension": {
     "predicted": null,
     "confirmed": null,

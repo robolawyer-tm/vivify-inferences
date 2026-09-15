@@ -1,0 +1,49 @@
+{
+  "id": "inf_4af8bff6",
+  "version": "1.0",
+  "timestamp": "2026-07-30T21:30:38.931737+00:00",
+  "source": "claude_session",
+  "raw_text": "The anticipated development week did not happen because the user's son visited New York, and family time took priority over the project given the circumstances. This is a deliberate, stated prioritization \u2014 personal life over the development schedule \u2014 not a stall or blocker in the work itself, and it means the project state is unchanged since the last milestone-completing session.",
+  "left_keywords": [
+    "deliberate_prioritization",
+    "family_over_project",
+    "filial_visit",
+    "schedule_deviation",
+    "expectation_unmet",
+    "not_a_blocker",
+    "agency_in_choice",
+    "project_stasis",
+    "milestone_continuity",
+    "circumstantial_context",
+    "personal_life_primacy",
+    "work_health_signal"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "chosen_priorities": [
+      "deliberate_prioritization",
+      "family_over_project",
+      "agency_in_choice"
+    ],
+    "family_circumstance": [
+      "filial_visit",
+      "circumstantial_context",
+      "personal_life_primacy"
+    ],
+    "broken_expectation": [
+      "schedule_deviation",
+      "expectation_unmet"
+    ],
+    "project_health": [
+      "not_a_blocker",
+      "work_health_signal"
+    ],
+    "state_unchanged": [
+      "project_stasis",
+      "milestone_continuity"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {}
+}

@@ -46,19 +46,7 @@
   "tension_score": null,
   "guardrail_actions": {},
   "domain": "claude_code_sessions",
-  "category_paths": [
-    "silent_corruption/cross_tool_interoperability",
-    "silent_corruption/defect_concealment",
-    "silent_corruption/encryption_key_mismatch",
-    "silent_corruption/gui_decryption_failure",
-    "silent_corruption/here_string_artifact",
-    "silent_corruption/human_input_divergence",
-    "silent_corruption/passphrase_newline_contamination",
-    "silent_corruption/printf_no_newline",
-    "silent_corruption/process_substitution_fix",
-    "silent_corruption/symmetric_roundtrip_masking",
-    "silent_corruption/trailing_whitespace_bug"
-  ],
+  "category_paths": [],
   "tension": {
     "predicted": null,
     "confirmed": null,

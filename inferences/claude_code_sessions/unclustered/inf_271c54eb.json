@@ -1,0 +1,43 @@
+{
+  "id": "inf_271c54eb",
+  "version": "1.0",
+  "timestamp": "2026-07-30T21:30:30.897977+00:00",
+  "source": "claude_session",
+  "raw_text": "The user opened the session by reporting that the project's array of milestones had been reached in the prior stretch of work, and that he had expected the following week in NYC to be a banner period of AI development on the back of that momentum. This frames the session as a check-in after a planned high-productivity phase rather than a continuation of active pipeline work.",
+  "left_keywords": [
+    "milestone_attainment",
+    "momentum_expectation",
+    "anticipated_breakthrough_period",
+    "productivity_framing",
+    "session_as_checkin",
+    "retrospective_orientation",
+    "planned_intensity_phase",
+    "work_continuity_break",
+    "developer_optimism",
+    "temporal_framing"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "achievement_momentum": [
+      "milestone_attainment",
+      "momentum_expectation",
+      "developer_optimism"
+    ],
+    "anticipated_peak": [
+      "anticipated_breakthrough_period",
+      "planned_intensity_phase",
+      "productivity_framing"
+    ],
+    "session_positioning": [
+      "session_as_checkin",
+      "retrospective_orientation"
+    ],
+    "pipeline_discontinuity": [
+      "work_continuity_break",
+      "temporal_framing"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {}
+}

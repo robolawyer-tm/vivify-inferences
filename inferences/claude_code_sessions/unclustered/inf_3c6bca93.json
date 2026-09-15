@@ -1,0 +1,59 @@
+{
+  "id": "inf_3c6bca93",
+  "version": "1.0",
+  "timestamp": "2026-09-07T01:08:47.979917+00:00",
+  "source": "claude_session",
+  "raw_text": "The core methodological finding of the session was that the operator instrument had never been checked for self-consistency: it reads case material and places it on a set of structural measures, but no one had verified it says the same thing twice about the same case. A repeat-read against the legal corpus showed that while most measures held steady, several moved, and reading the same cases twice disagreed on ten of thirty-six measured fields. Stability was therefore established as a property that must be measured directly rather than assumed, and single-draw reads were reclassified as provisional evidence rather than results.\n\nTwo previously published findings were retracted because they rested precisely on the measures that proved unstable. The first was a claim that two wrongful-conviction cases shared the same structure at different scales of society \u2014 a cross-scale structural link. The second was a ranking of how far each case's official account had drifted from the documentary record. Both dissolved on a second reading. The governing principle articulated was that a result surviving verification is worth more than two results that were never checked, which reframes verification as the source of value rather than a cost imposed on findings.\n\nThe repair adopted was deliberately unglamorous: ask three times, keep the answer that recurs, and store the amount of disagreement alongside the retained value. This repeat-and-vote scheme with recorded dissent converts the instrument from one that presents a single reading as if it were the only available one into one that reports its own uncertainty next to its answer. Post-repair, voted reads across sessions agreed twenty out of twenty, against ten of thirty-six disagreements before. The dissent metadata is treated as a first-class output, not diagnostic noise.\n\nA distinction was drawn about how to evaluate importing new theoretical constructs into the pipeline. Convergent naming of the same construct across four independent literatures, with one field supplying the only quantitative handle, is evidence that the construct is real \u2014 but it is not evidence that the pipeline needs it. Only the residue left over after the existing operator set has run can establish need. A genuine gap was acknowledged (nothing in the operator set models blocking or what grows inside it), but the general conclusion was that the project remains a distance from integrating this or any other new idea until the instrument itself is stable.\n\nA publication-path defect was diagnosed but deliberately not fixed mid-wrapup: the publishing script hardcodes the stale vivify-inferences clone as the source for the public discovery surface, so the public site serves the superseded repository and shows the legal corpus at the wrong case count, carrying none of the current work. This was recognised as the same root cause as an earlier misdirected repository pointer from July. Repointing it was classified as a real change requiring the user's approval rather than a wrapup housekeeping step, on the principle that the wrapup sequence should not silently make substantive decisions.\n\nA separate index-building bug was found after a rebuild collapsed the inference index from four domains to one. Domain discovery and per-domain counting used non-recursive globbing over direct children only, while just one domain stores its inferences flat; the other three use the seed/sub nesting introduced earlier, making them invisible to the scan. Global statistics used recursive globbing, which is why the total inference count remained correct while the domain breakdown was wrong \u2014 a signature where an aggregate looks healthy precisely because it is computed by a different code path than the detail. The index was restored from backup before investigating.\n\nA gate-integrity decision was made when the fused-parity check began failing: the correct behaviour is to fail loudly rather than pass silently, but a raw traceback is the wrong way to communicate that a threshold was not relaxed. The check was made to state its refusal explicitly, preserving the distinction between a gate that is broken and a gate that is doing its job by refusing to be loosened.\n\nAn unposted draft in the distribution queue was flagged as newly false rather than merely stale. It described a two-operator distortion signature \u2014 one operator inflating certainty, the other leaning on repetition \u2014 which is exactly the finding this session retracted; under the corrected model one operator catches the effect alone, and the repetition reading traced back to a document that turned out not to be what it was labelled. Posting it would publish a withdrawn result, so it was left untouched for rewriting or pulling rather than edited unilaterally in the user's voice queue.",
+  "left_keywords": [
+    "instrument_self_consistency",
+    "measurement_instability",
+    "retraction_discipline",
+    "verification_as_value",
+    "repeat_and_vote_repair",
+    "recorded_dissent",
+    "uncertainty_as_output",
+    "provisional_evidence_status",
+    "residue_establishes_need",
+    "convergent_naming_insufficiency",
+    "stale_source_pointer",
+    "aggregate_masks_detail",
+    "loud_failure_over_silent_pass",
+    "gate_integrity",
+    "consent_before_substantive_change",
+    "withdrawn_result_contamination"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "instrument_reflexivity": [
+      "instrument_self_consistency",
+      "measurement_instability",
+      "provisional_evidence_status",
+      "uncertainty_as_output"
+    ],
+    "epistemic_accounting": [
+      "retraction_discipline",
+      "verification_as_value",
+      "withdrawn_result_contamination"
+    ],
+    "repair_by_repetition": [
+      "repeat_and_vote_repair",
+      "recorded_dissent"
+    ],
+    "threshold_of_admission": [
+      "residue_establishes_need",
+      "convergent_naming_insufficiency"
+    ],
+    "hidden_divergence_faults": [
+      "stale_source_pointer",
+      "aggregate_masks_detail"
+    ],
+    "refusal_integrity": [
+      "loud_failure_over_silent_pass",
+      "gate_integrity",
+      "consent_before_substantive_change"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {}
+}

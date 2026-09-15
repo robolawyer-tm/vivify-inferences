@@ -1,0 +1,53 @@
+{
+  "id": "inf_beed9d05",
+  "version": "1.0",
+  "timestamp": "2026-09-11T12:35:14.225101+00:00",
+  "source": "claude_session",
+  "raw_text": "Vote stability had seemed to show a \"2 of 3 split everywhere,\" but that turned out to be a reporting artifact. Agreement was being measured per block, which demanded unanimity across every enum field in a block at once. A wobble in one minor field, such as language_mode, dragged the whole block's score down. Measuring agreement per field showed that several coordinates reported as split were actually unanimous 3 of 3, including structural scale for the Sutton and Washington cases. Combined verdicts such as cooperative now take the score of their weakest constituent field, and the old block score is kept alongside for comparison. Agreement is reported field by field, but the winning answer is chosen by its modal draw signature. That means the winner is always one whole, coherent model output, never a \"Frankenstein\" assembly stitched from the most popular value in each field. The revision narrowed the diagnosis: the structural dimension is not broken. Scale is unstable only for the Ronald Cotton case, which is genuinely ambiguous.",
+  "left_keywords": [
+    "reporting_artifact",
+    "illusory_split",
+    "block_unanimity_demand",
+    "minor_field_contamination",
+    "per_field_agreement",
+    "hidden_unanimity",
+    "weakest_link_scoring",
+    "legacy_score_comparison",
+    "modal_draw_signature",
+    "coherent_whole_output",
+    "frankenstein_assembly_rejection",
+    "diagnosis_narrowing",
+    "structural_dimension_integrity",
+    "genuine_case_ambiguity"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "measurement_illusion": [
+      "reporting_artifact",
+      "illusory_split",
+      "block_unanimity_demand",
+      "minor_field_contamination"
+    ],
+    "granular_truth": [
+      "per_field_agreement",
+      "hidden_unanimity",
+      "structural_dimension_integrity"
+    ],
+    "composite_verdict_scoring": [
+      "weakest_link_scoring",
+      "legacy_score_comparison"
+    ],
+    "coherent_selection": [
+      "modal_draw_signature",
+      "coherent_whole_output",
+      "frankenstein_assembly_rejection"
+    ],
+    "honest_uncertainty": [
+      "diagnosis_narrowing",
+      "genuine_case_ambiguity"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {}
+}

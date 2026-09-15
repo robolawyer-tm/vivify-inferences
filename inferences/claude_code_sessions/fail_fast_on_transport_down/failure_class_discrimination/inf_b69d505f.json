@@ -54,16 +54,7 @@
     "fail_fast_on_transport_down/silent_corruption",
     "fail_fast_on_transport_down/starved_downstream_dependency",
     "fail_fast_on_transport_down/stuck_answer_escape",
-    "fail_fast_on_transport_down/temperature_perturbation",
-    "silent_corruption/failure_class_discrimination",
-    "silent_corruption/graceful_degradation",
-    "silent_corruption/missing_dimension_corruption",
-    "silent_corruption/recoverable_failure_recovery",
-    "silent_corruption/retry_on_invalid",
-    "silent_corruption/scale_tag_provisioning",
-    "silent_corruption/starved_downstream_dependency",
-    "silent_corruption/stuck_answer_escape",
-    "silent_corruption/temperature_perturbation"
+    "fail_fast_on_transport_down/temperature_perturbation"
   ],
   "tension": {
     "predicted": null,

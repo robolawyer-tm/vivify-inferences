@@ -62,15 +62,7 @@
     "cross_platform_access/home_directory_equivalence",
     "cross_platform_access/script_adaptation",
     "cross_platform_access/structural_migration",
-    "cross_platform_access/workspace_philosophy",
-    "directory_name_preservation/backup_scope_extension",
-    "directory_name_preservation/cli_discipline",
-    "directory_name_preservation/dec_vax_heritage",
-    "directory_name_preservation/filesystem_as_workspace",
-    "directory_name_preservation/home_directory_equivalence",
-    "directory_name_preservation/script_adaptation",
-    "directory_name_preservation/structural_migration",
-    "directory_name_preservation/workspace_philosophy"
+    "cross_platform_access/workspace_philosophy"
   ],
   "tension": {
     "predicted": null,

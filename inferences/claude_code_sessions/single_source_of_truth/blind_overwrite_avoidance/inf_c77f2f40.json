@@ -52,14 +52,6 @@
   "guardrail_actions": {},
   "domain": "claude_code_sessions",
   "category_paths": [
-    "single_source_of_truth/blind_overwrite_avoidance",
-    "single_source_of_truth/deploy_automation",
-    "single_source_of_truth/git_diff_gating",
-    "single_source_of_truth/incremental_copy",
-    "single_source_of_truth/selective_deployment",
-    "single_source_of_truth/session_boundary_action",
-    "single_source_of_truth/session_scoped_changes",
-    "single_source_of_truth/wrapup_integration",
     "source_deployment_gap/blind_overwrite_avoidance",
     "source_deployment_gap/deploy_automation",
     "source_deployment_gap/git_diff_gating",
@@ -68,14 +60,7 @@
     "source_deployment_gap/session_boundary_action",
     "source_deployment_gap/session_scoped_changes",
     "source_deployment_gap/single_source_of_truth",
-    "source_deployment_gap/wrapup_integration",
-    "wrapup_integration/blind_overwrite_avoidance",
-    "wrapup_integration/deploy_automation",
-    "wrapup_integration/git_diff_gating",
-    "wrapup_integration/incremental_copy",
-    "wrapup_integration/selective_deployment",
-    "wrapup_integration/session_boundary_action",
-    "wrapup_integration/session_scoped_changes"
+    "source_deployment_gap/wrapup_integration"
   ],
   "tension": {
     "predicted": null,

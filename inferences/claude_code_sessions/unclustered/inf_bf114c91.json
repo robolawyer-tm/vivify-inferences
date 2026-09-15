@@ -1,0 +1,53 @@
+{
+  "id": "inf_bf114c91",
+  "version": "1.0",
+  "timestamp": "2026-09-11T12:35:33.692557+00:00",
+  "source": "claude_session",
+  "raw_text": "The vivify stabilization work runs as a gated sequence of steps, and coordinates are promoted only when there is evidence for them. Step 1 aimed to show that voting across repeated sessions neutralizes single-draw noise, and it passed with 27 of 28 coordinates agreeing (96.4%). Step 2 promotes into the store only the coordinates proven unanimous within a session and consistent across three sessions: act type, authority, cooperative, transmission and utility. Conflict, tension and social field are held back because they have no cross-session baseline yet, and so is scale for the Cotton case. Step 3, the cross-scale isomorphism calculation, stays blocked. It keys on conflict terrain and tension band and filters on structural scale, which are exactly the unproven coordinates. Promoting them automatically, or running Step 3 early, was explicitly refused so that uncertain values would not flow into later analysis.",
+  "left_keywords": [
+    "evidence_gated_promotion",
+    "sequential_gating",
+    "cross_session_voting",
+    "noise_neutralization",
+    "agreement_threshold",
+    "unanimity_requirement",
+    "cross_session_consistency",
+    "proven_coordinate_set",
+    "missing_baseline",
+    "withheld_coordinates",
+    "dependency_blocking",
+    "structural_keying",
+    "uncertainty_containment",
+    "deliberate_refusal"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "epistemic_gatekeeping": [
+      "evidence_gated_promotion",
+      "sequential_gating",
+      "deliberate_refusal"
+    ],
+    "stability_through_repetition": [
+      "cross_session_voting",
+      "noise_neutralization",
+      "agreement_threshold"
+    ],
+    "certainty_criteria": [
+      "unanimity_requirement",
+      "cross_session_consistency",
+      "proven_coordinate_set"
+    ],
+    "provisional_withholding": [
+      "missing_baseline",
+      "withheld_coordinates"
+    ],
+    "downstream_contamination_guard": [
+      "dependency_blocking",
+      "structural_keying",
+      "uncertainty_containment"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {}
+}

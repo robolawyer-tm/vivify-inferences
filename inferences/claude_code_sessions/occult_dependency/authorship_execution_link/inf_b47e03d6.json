@@ -85,15 +85,7 @@
     "tribal_knowledge/friction_named",
     "tribal_knowledge/silent_divergence",
     "tribal_knowledge/source_deployment_gap",
-    "tribal_knowledge/wrapup_integration",
-    "wrapup_integration/authorship_execution_link",
-    "wrapup_integration/closure_without_resolution",
-    "wrapup_integration/commissive_resolution",
-    "wrapup_integration/deferred_implementation",
-    "wrapup_integration/deploy_enforcement",
-    "wrapup_integration/deploy_step_commissioning",
-    "wrapup_integration/friction_named",
-    "wrapup_integration/silent_divergence"
+    "tribal_knowledge/wrapup_integration"
   ],
   "tension": {
     "predicted": null,

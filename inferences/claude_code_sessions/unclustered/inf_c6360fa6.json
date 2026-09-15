@@ -1,0 +1,49 @@
+{
+  "id": "inf_c6360fa6",
+  "version": "1.0",
+  "timestamp": "2026-09-11T12:35:41.226115+00:00",
+  "source": "claude_session",
+  "raw_text": "A dedicated merge tool, merge_store.py, was written because nothing else provided per-block promotion. It moves only the proven blocks from a voted store into the canonical inference store and leaves unproven blocks as they were. Promotion therefore happens at the level of individual blocks rather than replacing the whole store. Metadata such as the runner field is treated as bookkeeping, not a coordinate, and is excluded from what can be promoted. The tool was tested against throwaway copies so the real store was never at risk. That testing caught a bug before it could cause damage: the backup path assumed the target file lived inside the repository and would have failed on any other location.",
+  "left_keywords": [
+    "selective_promotion",
+    "block_granularity",
+    "proof_threshold",
+    "unproven_preservation",
+    "canonical_authority",
+    "voted_consensus",
+    "bookkeeping_metadata",
+    "coordinate_exclusion",
+    "sandboxed_testing",
+    "risk_containment",
+    "path_assumption_bug",
+    "preemptive_catch"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "granular_promotion": [
+      "selective_promotion",
+      "block_granularity",
+      "unproven_preservation"
+    ],
+    "earned_canonicity": [
+      "proof_threshold",
+      "canonical_authority",
+      "voted_consensus"
+    ],
+    "meaning_versus_bookkeeping": [
+      "bookkeeping_metadata",
+      "coordinate_exclusion"
+    ],
+    "protective_testing": [
+      "sandboxed_testing",
+      "risk_containment"
+    ],
+    "hidden_assumption_failure": [
+      "path_assumption_bug",
+      "preemptive_catch"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {}
+}

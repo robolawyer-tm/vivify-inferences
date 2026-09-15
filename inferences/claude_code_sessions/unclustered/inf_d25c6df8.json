@@ -1,0 +1,49 @@
+{
+  "id": "inf_d25c6df8",
+  "version": "1.0",
+  "timestamp": "2026-09-11T12:34:59.994914+00:00",
+  "source": "claude_session",
+  "raw_text": "The LLM regularly labeled a high-grid, low-group case as \"hierarchical\" in the social-field operator, even though Mary Douglas's grid-group theory calls that combination \"isolate.\" A courtroom feels hierarchical in everyday English, and that sense overrode the theory the model was asked to apply. The fix was to stop trusting the model's drawn label. The quadrant is now computed from the grid and group axes at a 0.5 threshold, so it can never contradict its own coordinates. The model's label is still stored as quadrant_drawn, next to a quadrant_agrees flag, so the disagreement stays measurable instead of being silently overwritten. This also gives a running count of how often everyday meaning wins over formal theory. The prompt was deliberately left unchanged so the diagnostic signal stays uncontaminated. Correcting the output was judged enough, and changing the instructions would have hidden the very bias being measured.",
+  "left_keywords": [
+    "vernacular_override",
+    "label_theory_conflict",
+    "grid_group_misreading",
+    "isolate_hierarchy_confusion",
+    "computed_quadrant",
+    "coordinate_consistency",
+    "model_label_distrust",
+    "disagreement_preservation",
+    "measurable_bias",
+    "everyday_meaning_dominance",
+    "uncontaminated_diagnostic",
+    "prompt_restraint"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "semantic_drift": [
+      "vernacular_override",
+      "everyday_meaning_dominance",
+      "isolate_hierarchy_confusion"
+    ],
+    "theory_fidelity_gap": [
+      "label_theory_conflict",
+      "grid_group_misreading",
+      "model_label_distrust"
+    ],
+    "derived_truth": [
+      "computed_quadrant",
+      "coordinate_consistency"
+    ],
+    "honest_measurement": [
+      "disagreement_preservation",
+      "measurable_bias"
+    ],
+    "diagnostic_restraint": [
+      "uncontaminated_diagnostic",
+      "prompt_restraint"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {}
+}

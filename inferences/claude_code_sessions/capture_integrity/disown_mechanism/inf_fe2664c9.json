@@ -62,15 +62,7 @@
     "capture_fidelity/process_detachment",
     "capture_fidelity/process_group_membership",
     "capture_fidelity/sequencing_dependency",
-    "capture_fidelity/sighup_vulnerability",
-    "sequencing_dependency/gzip_dependency",
-    "sequencing_dependency/hangup_signal_delivery",
-    "sequencing_dependency/parent_child_relationship",
-    "sequencing_dependency/post_launch_intervention",
-    "sequencing_dependency/premature_termination_risk",
-    "sequencing_dependency/process_detachment",
-    "sequencing_dependency/process_group_membership",
-    "sequencing_dependency/sighup_vulnerability"
+    "capture_fidelity/sighup_vulnerability"
   ],
   "tension": {
     "predicted": null,

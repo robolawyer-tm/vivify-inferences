@@ -44,19 +44,7 @@
   "tension_score": null,
   "guardrail_actions": {},
   "domain": "claude_code_sessions",
-  "category_paths": [
-    "transport_failure/binding_constraint_shift",
-    "transport_failure/conceptual_model_preservation",
-    "transport_failure/dependency_ordering",
-    "transport_failure/distinct_lens_integrity",
-    "transport_failure/in_plan_throughput",
-    "transport_failure/logos_independence",
-    "transport_failure/operator_fusion",
-    "transport_failure/rate_limit_economy",
-    "transport_failure/request_deduplication",
-    "transport_failure/rubric_co_residence",
-    "transport_failure/shared_raw_text_payload"
-  ],
+  "category_paths": [],
   "tension": {
     "predicted": null,
     "confirmed": null,

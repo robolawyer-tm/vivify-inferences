@@ -43,7 +43,19 @@
       "source_recovery"
     ]
   },
-  "category_paths": [],
+  "category_paths": [
+    "empty_transcript/cleaning_step_failure",
+    "empty_transcript/content_stripping",
+    "empty_transcript/corpus_poisoning",
+    "empty_transcript/data_emergence_principle",
+    "empty_transcript/extraction_refusal",
+    "empty_transcript/fabrication_risk",
+    "empty_transcript/harness_chrome",
+    "empty_transcript/inference_unit_absence",
+    "empty_transcript/reprocessing_path",
+    "empty_transcript/session_capture_timing",
+    "empty_transcript/source_recovery"
+  ],
   "tension_score": null,
   "guardrail_actions": {},
   "tension": {

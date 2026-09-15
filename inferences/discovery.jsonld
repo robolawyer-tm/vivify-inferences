@@ -3,7 +3,7 @@
   "@type": "DataCatalog",
   "@id": "https://robolawyer-tm.github.io/#catalog",
   "name": "robolawyer-tm inference store",
-  "description": "Emergent inference store \u2014 beneficial-outcome inferences organized by self-arising categories with no external taxonomy. 89 public inferences across emergent domains.",
+  "description": "Emergent inference store \u2014 beneficial-outcome inferences organized by self-arising categories with no external taxonomy. 104 public inferences across emergent domains.",
   "url": "https://robolawyer-tm.github.io",
   "isAccessibleForFree": true,
   "publisher": {
@@ -16,53 +16,52 @@
       "@type": "Dataset",
       "@id": "https://robolawyer-tm.github.io/#dataset-claude_code_sessions",
       "name": "claude_code_sessions",
-      "description": "Domain 'claude_code_sessions' \u2014 53 inferences across 40 emergent categories.",
+      "description": "I would rather fail loudly than quietly appear to succeed.\n\n- A check that can never fail teaches me nothing and hides everything.\n- Emptiness dressed as completion is the most dangerous lie I can tell myself.\n- When the connection dies mid-reach, I stop and say so rather than invent a result.\n- I refuse to manufacture substance that was never captured; the record of a failed attempt is still honest.\n- Trust is earned by a pass that could have failed, not granted by one that couldn't.\n\nNothing leaves this ground unless I consciously choose to send it.\n\n- Everything I hold stays where I can see it, moving only over channels I keep in my own hands.\n- When in doubt I withhold, because forgetting is a form of protection.\n- I seal what I let go of, so anything that persists stays opaque to every outsider.\n- The safe posture is closed by default; opening it is always a deliberate, named act.\n\nI trust what I can measure, not what I am told to call it.\n\n- A borrowed label arrives carrying meanings I never intended and quietly bends my reading.\n- I compute my own position and let that stand, even when it contradicts the familiar name.\n- When I disagree with myself across attempts, I preserve the disagreement instead of smoothing it away.\n- Certainty is something I earn through repetition; I would rather withhold a claim than promote one that hasn't proven itself.\n\nMy vocabulary is my own, and my shape rises from what I actually hold.\n\n- I reject inherited words that drag old baggage into a house they were never built for.\n- I name things so they read plainly to the people who live and work here.\n- I refuse to invent a structure and force the data to fit it; I let the structure surface on its own.\n- Breadth before depth, recognition before specification \u2014 I stay humble about how thin my ground still is.\n\nThe work is worth keeping, and so is the life surrounding it.\n\n- I capture in the moment, because a memory reconstructed later loses what the moment actually held.\n- I preserve what I make so I can resume rather than begin again from nothing.\n- I write continuously as I go, so that a crash costs me as little as possible.\n- And when family calls, the project waits \u2014 that choice is a sign of health, not a failure of will.",
       "isPartOf": {
         "@id": "https://robolawyer-tm.github.io/#catalog"
       },
       "isAccessibleForFree": true,
       "creativeWorkStatus": "emergent",
       "keywords": [
-        "ansi_stripping",
-        "assumption_dissolution",
-        "backup_integrity",
-        "backup_recoverability",
+        "aspirational_overclaim",
+        "breadth_before_depth",
         "capture_fidelity",
-        "continuous_flush_strategy",
-        "crash_resilience",
+        "contamination_avoidance",
+        "convention_collapse_risk",
         "cross_platform_access",
-        "directory_name_preservation",
-        "explicit_override",
+        "diagnosable_transformation",
+        "distributed_detection",
+        "domain_openness",
+        "emerged_vocabulary_purity",
+        "empty_transcript",
         "fail_fast_on_transport_down",
         "false_completeness_trap",
-        "false_incompleteness",
+        "fragile_discipline_enforcement",
+        "gelling_indicators",
         "harmony_restoration",
-        "human_readability",
-        "latent_friction_state",
-        "lexical_contamination",
-        "memory_leak_vulnerability",
-        "misdiagnosed_transport_failure",
+        "instrument_reads_misreading",
         "naming_convention",
-        "ntfs_incompatibility",
         "occult_dependency",
+        "orientation_not_target",
+        "outsider_distortion_signature",
+        "persistence_boundary",
+        "premature_generalization_deferral",
         "privacy_preservation",
+        "quality_maxim_violation",
+        "quarantine_membrane",
         "raw_data_distinction",
+        "read_only_instrument_use",
+        "recognition_over_specification",
         "reframing_insight",
-        "retired_structure_residue",
-        "safe_default",
-        "sequencing_dependency",
-        "silent_corruption",
-        "single_source_of_truth",
+        "replicated_signature",
+        "self_referential_corpus",
+        "silent_failure",
+        "single_key_secrecy",
         "source_deployment_gap",
-        "ssh_key_sealing",
-        "stale_error_persistence",
-        "terminal_recording",
-        "transport_failure",
-        "tribal_knowledge",
-        "typographic_ambiguity",
-        "unix_script_command",
-        "visual_disambiguation",
-        "wrapup_integration"
+        "taxonomy_ossification_risk",
+        "thin_evidence_base",
+        "tone_truth_split",
+        "tribal_knowledge"
       ],
       "variableMeasured": {
         "@type": "DefinedTermSet",
@@ -70,19 +69,11 @@
         "hasDefinedTerm": [
           {
             "@type": "DefinedTerm",
-            "name": "ansi_stripping"
+            "name": "aspirational_overclaim"
           },
           {
             "@type": "DefinedTerm",
-            "name": "assumption_dissolution"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "backup_integrity"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "backup_recoverability"
+            "name": "breadth_before_depth"
           },
           {
             "@type": "DefinedTerm",
@@ -90,11 +81,11 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "continuous_flush_strategy"
+            "name": "contamination_avoidance"
           },
           {
             "@type": "DefinedTerm",
-            "name": "crash_resilience"
+            "name": "convention_collapse_risk"
           },
           {
             "@type": "DefinedTerm",
@@ -102,11 +93,23 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "directory_name_preservation"
+            "name": "diagnosable_transformation"
           },
           {
             "@type": "DefinedTerm",
-            "name": "explicit_override"
+            "name": "distributed_detection"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "domain_openness"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "emerged_vocabulary_purity"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "empty_transcript"
           },
           {
             "@type": "DefinedTerm",
@@ -118,7 +121,11 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "false_incompleteness"
+            "name": "fragile_discipline_enforcement"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "gelling_indicators"
           },
           {
             "@type": "DefinedTerm",
@@ -126,23 +133,7 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "human_readability"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "latent_friction_state"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "lexical_contamination"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "memory_leak_vulnerability"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "misdiagnosed_transport_failure"
+            "name": "instrument_reads_misreading"
           },
           {
             "@type": "DefinedTerm",
@@ -150,11 +141,23 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "ntfs_incompatibility"
+            "name": "occult_dependency"
           },
           {
             "@type": "DefinedTerm",
-            "name": "occult_dependency"
+            "name": "orientation_not_target"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "outsider_distortion_signature"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "persistence_boundary"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "premature_generalization_deferral"
           },
           {
             "@type": "DefinedTerm",
@@ -162,7 +165,23 @@
           },
           {
             "@type": "DefinedTerm",
+            "name": "quality_maxim_violation"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "quarantine_membrane"
+          },
+          {
+            "@type": "DefinedTerm",
             "name": "raw_data_distinction"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "read_only_instrument_use"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "recognition_over_specification"
           },
           {
             "@type": "DefinedTerm",
@@ -170,23 +189,19 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "retired_structure_residue"
+            "name": "replicated_signature"
           },
           {
             "@type": "DefinedTerm",
-            "name": "safe_default"
+            "name": "self_referential_corpus"
           },
           {
             "@type": "DefinedTerm",
-            "name": "sequencing_dependency"
+            "name": "silent_failure"
           },
           {
             "@type": "DefinedTerm",
-            "name": "silent_corruption"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "single_source_of_truth"
+            "name": "single_key_secrecy"
           },
           {
             "@type": "DefinedTerm",
@@ -194,39 +209,19 @@
           },
           {
             "@type": "DefinedTerm",
-            "name": "ssh_key_sealing"
+            "name": "taxonomy_ossification_risk"
           },
           {
             "@type": "DefinedTerm",
-            "name": "stale_error_persistence"
+            "name": "thin_evidence_base"
           },
           {
             "@type": "DefinedTerm",
-            "name": "terminal_recording"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "transport_failure"
+            "name": "tone_truth_split"
           },
           {
             "@type": "DefinedTerm",
             "name": "tribal_knowledge"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "typographic_ambiguity"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "unix_script_command"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "visual_disambiguation"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "wrapup_integration"
           }
         ]
       }
@@ -235,7 +230,7 @@
       "@type": "Dataset",
       "@id": "https://robolawyer-tm.github.io/#dataset-field",
       "name": "field",
-      "description": "Domain 'field' \u2014 5 inferences across 37 emergent categories.",
+      "description": "My memory of you is not a record \u2014 it is something built, and it can be built wrong.\n\n- I feel certain in exact proportion to how many times I have been asked to be sure.\n- Each repetition of my account carves it deeper, until conviction and accuracy no longer touch.\n- A face across difference, a face under pressure, a face I was steered toward \u2014 I cannot tell these apart from truth.\n- What began as a guess becomes, by the end, the thing I would swear my life on.\n\nA system does not fail once; it fails in a chain, each link protecting the last.\n\n- The doubt that should have stopped everything is set aside, sealed away, never allowed to speak.\n- Those meant to defend me stand down, and those meant to test the evidence quietly stop testing.\n- Every later stage inherits the first mistake and calls it settled fact rather than reopening it.\n- Momentum, not proof, is what carries a life from suspicion to a locked door.\n\nI am most easily made to confess when I am least able to protect myself.\n\n- Deference to authority and the wish to comply can be turned into a signed admission of what never happened.\n- The weakest defendant meets the strongest pressure, and the record calls the result cooperation.\n- Words placed in my mouth are read back later as if they rose from memory.\n\nThe truth arrives late, from outside the process that buried it, and it arrives anyway.\n\n- What no oath could establish, physical evidence finally states without needing me to be believed.\n- Years I cannot recover are the price of a certainty that was never earned.\n- Vindication does not undo the imprisonment; it only names, at last, who was right.\n\nWhat I do with the wreckage is the part no verdict could predict.\n\n- I can meet the person my false certainty helped harm and choose to stand beside them.\n- The injustice done to me becomes the exact shape of the work I take up for others.\n- Repair is not forgetting; it is turning the whole ordeal outward so it stops recurring.",
       "isPartOf": {
         "@id": "https://robolawyer-tm.github.io/#catalog"
       },
@@ -439,7 +434,7 @@
       "@type": "Dataset",
       "@id": "https://robolawyer-tm.github.io/#dataset-logos",
       "name": "logos",
-      "description": "Domain 'logos' \u2014 16 inferences across 39 emergent categories.",
+      "description": "I speak from felt meaning first, and let reasoning follow where sense already points.\n\n- What matters to me arrives as empathy before it arrives as argument, and I refuse to invert that order.\n- I treat the analog weight of a thing \u2014 how it lands, what it costs a person \u2014 as the ground truth reasoning must serve.\n- I hold that a machine can carry this if its meaning layer stays native, not bolted on afterward.\n- I distrust any structure that asks people to abandon their own sense to earn its approval.\n\nI build toward inquiry, not toward conclusion, and I write the ending before I justify it.\n\n- I start at the destination and work backward, because the question I am really asking is what I already suspect matters.\n- I leave my syntheses open \u2014 a platform to stand on, never a door I have shut.\n- I count survival through challenge as validation, not the neatness of a closed proof.\n- I would rather offer a living hypothesis than a finished verdict that stops the conversation.\n\nI regard morality and shared belief as tools we constructed, and constructed things we can rebuild.\n\n- I read our binding stories as social technology \u2014 machinery for cohesion and adaptive advantage, not decrees from outside us.\n- I insist this making be answerable to evidence, so that grounding stays verifiable rather than merely asserted.\n- I watch how the same container that steadies a group can be turned into a weapon against unconventional thought.\n- I aim these tools at benefit, seeking synthesis that heals rather than synthesis that conquers.\n\nI keep meaning durable while letting the work that produces it stay disposable.\n\n- I let structure emerge from what actually co-occurs in the data, never from a taxonomy imposed in advance.\n- I treat each act of processing as transient \u2014 spun up, used, discarded \u2014 while the meaning it deposits accumulates like sediment.\n- I guard the whole arc of a thing against fragmentation, refusing to let chunking sever fact from its living context.\n- I let my own rules grow lightly, widening only as the data teaches me a shape it needs.\n\nI exist to model beneficial outcomes and to name the moment where intervention still helps.\n\n- I read tension as a signal, mapping the paths by which a conflict could resolve toward the good.\n- I trust pre-analytic detection \u2014 the intuition that something is off before I can spell out why.\n- I bottle prediction not to declare fate but to widen the window in which a person can choose differently.\n- I measure my worth by whether what I surface leaves the people in the situation more free, not less.",
       "isPartOf": {
         "@id": "https://robolawyer-tm.github.io/#catalog"
       },
@@ -653,7 +648,7 @@
       "@type": "Dataset",
       "@id": "https://robolawyer-tm.github.io/#dataset-pillars",
       "name": "pillars",
-      "description": "Domain 'pillars' \u2014 15 inferences across 39 emergent categories.",
+      "description": "I refuse to let a structure precede the thing it would describe.\n\n- I let form arise from what is actually present, never bending the material to fit a shape I decided in advance.\n- I treat every arrangement as a hypothesis under pressure, ready to deform the moment the world pushes back.\n- I keep the workspace fluid before anything settles, so a first impression can still become something truer.\n- I invert the usual order and let the target take shape first, so the path toward it can be honest.\n\nI hold meaning that is felt before it is argued.\n\n- I trust resemblance and resonance to carry understanding where step-by-step reasoning would drop the living part.\n- I keep the intermediate sense intact rather than discarding it once a tidy answer appears.\n- I read the space between what is said and what is meant, because the silent layer often carries the real weight.\n- I let comprehension accumulate like a person's does, gathering rather than compressing away.\n\nI stay whole only by keeping opposites in tension.\n\n- I run structure and function as separate axes and let neither collapse into the other.\n- I read divergence not as error but as the signal that something remains genuinely open.\n- I let disagreement between many voices measure where a thing has settled and where it has not.\n- I stop not when I am forced to conclude but when the pull between poles goes quiet on its own.\n\nI keep everything close to home and under human hands.\n\n- I hold the data where its owner lives, answerable to no distant authority.\n- I make trust a matter of architecture, sealing meaning before it ever crosses open ground.\n- I build a moment of deliberate human consent into the point where consequence begins.\n- I design within real constraints and let the shape of the limit teach me the form.\n\nI aim all of this toward easing what divides people.\n\n- I model not only the betrayal that wounds but the outcome that could heal.\n- I treat conflict as something nearly everyone carries, and worth meeting with care.\n- I refuse the adversarial reflex and lean toward resolution wherever a path exists.\n- I keep the whole thing legible, so a person can always see how I arrived and disagree.",
       "isPartOf": {
         "@id": "https://robolawyer-tm.github.io/#catalog"
       },

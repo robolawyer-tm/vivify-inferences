@@ -1,0 +1,59 @@
+{
+  "id": "inf_03e6c941",
+  "version": "1.0",
+  "timestamp": "2026-09-07T15:43:02.745455+00:00",
+  "source": "claude_session",
+  "raw_text": "Note: this transcript contains almost no substantive session content \u2014 the recorded exchange is a single unanswered question repeated three times across connection retries and an OAuth token expiry, ending in a `/login`. No conceptual development, decisions, or code work occurred. Fabricating 3\u20138 inference units from it would poison the vivify corpus with invented material, so I am emitting only what is actually grounded in the transcript.\n\nThe session's only substantive topic was establishing how the working Linux machine reaches a Windows laptop over SSHFS \u2014 mounting a remote Windows filesystem locally via SSH rather than through any file-sync service. This is consistent with the project's standing transport commitment: remote machines are reached through SSH tunnels and presented as ordinary mounted paths, so that all data movement stays inside the local network and remains visible as plain filesystem operations rather than opaque service calls. The question was posed but never answered within the session.",
+  "left_keywords": [
+    "empty_transcript",
+    "fabrication_refusal",
+    "corpus_integrity",
+    "grounded_emission_only",
+    "connection_retry_loop",
+    "auth_expiry_interruption",
+    "unanswered_question",
+    "remote_filesystem_mounting",
+    "ssh_tunnel_transport",
+    "local_network_containment",
+    "transparent_filesystem_operations",
+    "sync_service_avoidance"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "absence_of_substance": [
+      "empty_transcript",
+      "unanswered_question",
+      "connection_retry_loop",
+      "auth_expiry_interruption"
+    ],
+    "epistemic_restraint": [
+      "fabrication_refusal",
+      "corpus_integrity",
+      "grounded_emission_only"
+    ],
+    "transport_commitment": [
+      "ssh_tunnel_transport",
+      "remote_filesystem_mounting",
+      "sync_service_avoidance"
+    ],
+    "visibility_and_locality": [
+      "local_network_containment",
+      "transparent_filesystem_operations"
+    ]
+  },
+  "category_paths": [
+    "empty_transcript/auth_expiry_interruption",
+    "empty_transcript/connection_retry_loop",
+    "empty_transcript/corpus_integrity",
+    "empty_transcript/fabrication_refusal",
+    "empty_transcript/grounded_emission_only",
+    "empty_transcript/local_network_containment",
+    "empty_transcript/remote_filesystem_mounting",
+    "empty_transcript/ssh_tunnel_transport",
+    "empty_transcript/sync_service_avoidance",
+    "empty_transcript/transparent_filesystem_operations",
+    "empty_transcript/unanswered_question"
+  ],
+  "tension_score": null,
+  "guardrail_actions": {}
+}

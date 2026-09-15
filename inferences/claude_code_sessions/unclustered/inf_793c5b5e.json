@@ -1,0 +1,52 @@
+{
+  "id": "inf_793c5b5e",
+  "version": "1.0",
+  "timestamp": "2026-09-11T12:35:57.511665+00:00",
+  "source": "claude_session",
+  "raw_text": "The documentation standard file, doc_standard_v1.json, had been unparseable since April. The cause was the LLM signing convention: a comment-style footer recording model, date, path and change had been added to a JSON file. JSON has no comment syntax, so the footer broke parsing of the very file that defines the documentation standard. The rule was revised so that JSON files never take a signature, and git history serves as their record of who changed what. This keeps the principles of transparent, human-readable files and traceable LLM edits without corrupting machine-readable data.",
+  "left_keywords": [
+    "self_referential_breakage",
+    "format_incompatibility",
+    "comment_syntax_absence",
+    "latent_corruption",
+    "provenance_tracking",
+    "llm_edit_signature",
+    "version_control_delegation",
+    "rule_revision",
+    "exception_carving",
+    "human_readable_transparency",
+    "machine_readable_integrity",
+    "principle_preservation"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "recursive_failure": [
+      "self_referential_breakage",
+      "latent_corruption",
+      "format_incompatibility"
+    ],
+    "syntactic_boundary": [
+      "comment_syntax_absence",
+      "format_incompatibility",
+      "machine_readable_integrity"
+    ],
+    "edit_traceability": [
+      "llm_edit_signature",
+      "provenance_tracking",
+      "version_control_delegation"
+    ],
+    "corrective_adaptation": [
+      "rule_revision",
+      "exception_carving",
+      "version_control_delegation"
+    ],
+    "dual_readability": [
+      "human_readable_transparency",
+      "machine_readable_integrity",
+      "principle_preservation"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {}
+}

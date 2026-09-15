@@ -41,29 +41,7 @@
       "safe_default"
     ]
   },
-  "category_paths": [
-    "explicit_override/avoid_redundant_llm_calls",
-    "explicit_override/billing_discipline",
-    "explicit_override/completeness_bookkeeping",
-    "explicit_override/data_validity",
-    "explicit_override/gap_versus_artifact_discrimination",
-    "explicit_override/genuine_data_gap",
-    "explicit_override/metadata_artifact",
-    "explicit_override/privacy_gate",
-    "explicit_override/quota_conservation",
-    "explicit_override/untagged_inference",
-    "safe_default/avoid_redundant_llm_calls",
-    "safe_default/billing_discipline",
-    "safe_default/completeness_bookkeeping",
-    "safe_default/data_validity",
-    "safe_default/explicit_override",
-    "safe_default/gap_versus_artifact_discrimination",
-    "safe_default/genuine_data_gap",
-    "safe_default/metadata_artifact",
-    "safe_default/privacy_gate",
-    "safe_default/quota_conservation",
-    "safe_default/untagged_inference"
-  ],
+  "category_paths": [],
   "tension_score": null,
   "guardrail_actions": {},
   "tension": {

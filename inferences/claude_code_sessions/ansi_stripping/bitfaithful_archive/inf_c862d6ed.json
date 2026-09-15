@@ -57,19 +57,7 @@
   "tension_score": null,
   "guardrail_actions": {},
   "domain": "claude_code_sessions",
-  "category_paths": [
-    "ansi_stripping/bitfaithful_archive",
-    "ansi_stripping/capture_layer_boundary",
-    "ansi_stripping/exit_triggered_transform",
-    "ansi_stripping/fault_tolerant_storage",
-    "ansi_stripping/first_readable_form",
-    "ansi_stripping/format_duality",
-    "ansi_stripping/gzip_preservation",
-    "ansi_stripping/human_readable_twin",
-    "ansi_stripping/llm_readable_document",
-    "ansi_stripping/prose_rendering",
-    "ansi_stripping/terminal_state_machine"
-  ],
+  "category_paths": [],
   "tension": {
     "predicted": null,
     "confirmed": null,

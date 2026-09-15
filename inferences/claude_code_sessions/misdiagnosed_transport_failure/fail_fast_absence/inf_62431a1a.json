@@ -37,25 +37,7 @@
       "residual_weakness"
     ]
   },
-  "category_paths": [
-    "misdiagnosed_transport_failure/fail_fast_absence",
-    "misdiagnosed_transport_failure/future_latency_risk",
-    "misdiagnosed_transport_failure/halt_versus_record",
-    "misdiagnosed_transport_failure/operational_vs_data_fault",
-    "misdiagnosed_transport_failure/per_operator_batch_risk",
-    "misdiagnosed_transport_failure/quota_wall",
-    "misdiagnosed_transport_failure/residual_weakness",
-    "misdiagnosed_transport_failure/silent_masking",
-    "transport_failure/fail_fast_absence",
-    "transport_failure/future_latency_risk",
-    "transport_failure/halt_versus_record",
-    "transport_failure/misdiagnosed_transport_failure",
-    "transport_failure/operational_vs_data_fault",
-    "transport_failure/per_operator_batch_risk",
-    "transport_failure/quota_wall",
-    "transport_failure/residual_weakness",
-    "transport_failure/silent_masking"
-  ],
+  "category_paths": [],
   "tension_score": null,
   "guardrail_actions": {},
   "tension": {

@@ -1,0 +1,64 @@
+{
+  "id": "inf_0514a1aa",
+  "version": "1.0",
+  "timestamp": "2026-09-11T12:36:05.036482+00:00",
+  "source": "claude_session",
+  "raw_text": "Several engine defects were \"silent no-op\" bugs: they produced plausible-looking but empty results instead of failing loudly. The index builder searched only the top-level directory, not nested subdirectories. It hid three of four domains and reported zero sessions when 53 existed; after the fix, a rebuild recovered all 88 inferences without spending any LLM tokens. The parity check between the fused logos path and the per-operator path exited successfully because it pointed at stale paths and treated missing files as skipped, not as errors. Once it was fixed, the check revealed a real difference between the two paths, such as sovereign versus tribal classifications. The broader lesson is that a check that cannot fail gives false confidence. Missing inputs should be errors, and a clean pass should be verified, not assumed.",
+  "left_keywords": [
+    "silent_failure",
+    "plausible_emptiness",
+    "false_confidence",
+    "unfailable_check",
+    "shallow_traversal",
+    "hidden_domains",
+    "zero_cost_recovery",
+    "stale_reference",
+    "missing_as_skipped",
+    "path_divergence",
+    "classification_drift",
+    "verified_pass",
+    "loud_failure"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "silent_deception": [
+      "silent_failure",
+      "plausible_emptiness",
+      "false_confidence"
+    ],
+    "blind_search": [
+      "shallow_traversal",
+      "hidden_domains",
+      "zero_cost_recovery"
+    ],
+    "hollow_verification": [
+      "unfailable_check",
+      "stale_reference",
+      "missing_as_skipped"
+    ],
+    "revealed_divergence": [
+      "path_divergence",
+      "classification_drift"
+    ],
+    "earned_trust": [
+      "verified_pass",
+      "loud_failure"
+    ]
+  },
+  "category_paths": [
+    "silent_failure/classification_drift",
+    "silent_failure/false_confidence",
+    "silent_failure/hidden_domains",
+    "silent_failure/loud_failure",
+    "silent_failure/missing_as_skipped",
+    "silent_failure/path_divergence",
+    "silent_failure/plausible_emptiness",
+    "silent_failure/shallow_traversal",
+    "silent_failure/stale_reference",
+    "silent_failure/unfailable_check",
+    "silent_failure/verified_pass",
+    "silent_failure/zero_cost_recovery"
+  ],
+  "tension_score": null,
+  "guardrail_actions": {}
+}

@@ -1,0 +1,45 @@
+{
+  "id": "inf_248fdba1",
+  "version": "1.0",
+  "timestamp": "2026-07-30T21:30:45.520463+00:00",
+  "source": "claude_session",
+  "raw_text": "No technical, architectural, or conceptual work occurred in this session: it consisted entirely of repeated authentication failures (\"Login expired\") that swallowed the user's opening message several times, followed by a successful login after which the session ended. The session is effectively a placeholder marking the gap between the milestone completion and the next real working session, with the milestone-era project state carrying forward intact.",
+  "left_keywords": [
+    "authentication_failure",
+    "session_expiry",
+    "message_loss",
+    "repeated_retry",
+    "eventual_access",
+    "empty_session",
+    "placeholder_marker",
+    "work_absence",
+    "milestone_boundary",
+    "state_continuity",
+    "temporal_gap"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "access_breakdown": [
+      "authentication_failure",
+      "session_expiry",
+      "repeated_retry",
+      "eventual_access"
+    ],
+    "lost_communication": [
+      "message_loss",
+      "empty_session"
+    ],
+    "session_as_gap": [
+      "placeholder_marker",
+      "work_absence",
+      "temporal_gap"
+    ],
+    "project_continuity": [
+      "milestone_boundary",
+      "state_continuity"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {}
+}

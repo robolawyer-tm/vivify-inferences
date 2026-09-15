@@ -58,19 +58,7 @@
   "tension_score": null,
   "guardrail_actions": {},
   "domain": "claude_code_sessions",
-  "category_paths": [
-    "sequencing_dependency/abnormal_termination",
-    "sequencing_dependency/conditional_execution",
-    "sequencing_dependency/data_recoverability",
-    "sequencing_dependency/exit_gating",
-    "sequencing_dependency/forced_kill_scenario",
-    "sequencing_dependency/known_limitation",
-    "sequencing_dependency/missing_artifact",
-    "sequencing_dependency/non_blocking_risk",
-    "sequencing_dependency/raw_file_persistence",
-    "sequencing_dependency/risk_acceptance",
-    "sequencing_dependency/uncompressed_residue"
-  ],
+  "category_paths": [],
   "tension": {
     "predicted": null,
     "confirmed": null,

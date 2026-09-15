@@ -1,0 +1,47 @@
+{
+  "id": "inf_4a26c919",
+  "version": "1.0",
+  "timestamp": "2026-09-11T12:35:49.149308+00:00",
+  "source": "claude_session",
+  "raw_text": "The conflict terrain coordinate got the same treatment as the social-field quadrant. The model now returns a continuous terrain distance, and the terrain category is derived from it by bin edges instead of being trusted as a drawn label. A live call confirmed the model does return the position, so the derivation is really in force and not silently falling back. On that draw the Cotton case sat mid-range in \"drifting,\" not on a boundary. Whether the distance moves between sittings is now an open question. The gain is in how instability appears: a flip that used to look like an unexplained category change now shows up as a number moving, which can be reasoned about. One decision remains open. The terrain bin edges (thirds) don't match the tension band thresholds used by cross-scale (0.4 and 0.7). Aligning them costs nothing now, but once a post-fix baseline exists it would mean throwing that baseline away.",
+  "left_keywords": [
+    "continuous_coordinate",
+    "derived_category",
+    "bin_edge_derivation",
+    "label_distrust",
+    "live_verification",
+    "silent_fallback_risk",
+    "midrange_placement",
+    "intersitting_drift",
+    "instability_visibility",
+    "reasonable_motion",
+    "threshold_misalignment",
+    "baseline_sacrifice"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "measurement_over_labeling": [
+      "continuous_coordinate",
+      "derived_category",
+      "bin_edge_derivation",
+      "label_distrust"
+    ],
+    "confirmed_in_force": [
+      "live_verification",
+      "silent_fallback_risk",
+      "midrange_placement"
+    ],
+    "legible_instability": [
+      "intersitting_drift",
+      "instability_visibility",
+      "reasonable_motion"
+    ],
+    "alignment_timing_cost": [
+      "threshold_misalignment",
+      "baseline_sacrifice"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {}
+}

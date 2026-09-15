@@ -1,0 +1,47 @@
+{
+  "id": "inf_c8ba7ea8",
+  "version": "1.0",
+  "timestamp": "2026-09-07T15:43:09.370600+00:00",
+  "source": "claude_session",
+  "raw_text": "The session never progressed past authentication. Repeated connection refusals attributed to a firewall or proxy, followed by an expired OAuth access token that exhausted its retry attempts, forced the user to re-authenticate; the substantive question was re-typed each time in the hope that the retry would carry it through. No files were read or written, no tools were invoked, and no answer was produced. The practical lesson recorded here is operational rather than conceptual: the transcript captures a failed session start, and any work on the SSHFS mount procedure remains outstanding for a subsequent session.",
+  "left_keywords": [
+    "authentication_barrier",
+    "connection_refusal",
+    "credential_expiry",
+    "retry_exhaustion",
+    "network_intermediary_blame",
+    "repetition_without_progress",
+    "hopeful_persistence",
+    "zero_yield_session",
+    "substantive_question_deferred",
+    "operational_lesson",
+    "unstarted_work",
+    "transcript_as_negative_record"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "access_failure": [
+      "authentication_barrier",
+      "connection_refusal",
+      "credential_expiry",
+      "network_intermediary_blame"
+    ],
+    "futile_iteration": [
+      "retry_exhaustion",
+      "repetition_without_progress",
+      "hopeful_persistence"
+    ],
+    "absent_output": [
+      "zero_yield_session",
+      "substantive_question_deferred",
+      "unstarted_work"
+    ],
+    "residue_of_the_attempt": [
+      "operational_lesson",
+      "transcript_as_negative_record"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {}
+}

@@ -1,0 +1,55 @@
+{
+  "id": "inf_4bc08747",
+  "version": "1.0",
+  "timestamp": "2026-09-11T12:35:26.605261+00:00",
+  "source": "claude_session",
+  "raw_text": "The disagreement on the Ronald Cotton case was found not to be model volatility. The two stored Cotton inferences come from different tellings of the case, about 2,900 and 3,700 characters long, not from byte-identical input. A split between them therefore measures how sensitive the pipeline is to the way a case is told, not how noisy the model is on the same text. This matters for interpreting stability results: a clean volatility test needs a same-text control, and the store had no identical pair to provide one. The finding led to a draft case-telling standard for how cases should be written before they enter the pipeline. It was left uncommitted as a proposal for further revision.",
+  "left_keywords": [
+    "volatility_misattribution",
+    "telling_sensitivity",
+    "input_nonidentity",
+    "narrative_variance",
+    "same_text_control",
+    "stability_interpretation",
+    "measurement_validity",
+    "missing_identical_pair",
+    "case_telling_standard",
+    "input_normalization",
+    "uncommitted_proposal",
+    "iterative_revision"
+  ],
+  "right_keywords": [],
+  "clumps": {
+    "misread_disagreement": [
+      "volatility_misattribution",
+      "input_nonidentity",
+      "narrative_variance"
+    ],
+    "telling_as_variable": [
+      "telling_sensitivity",
+      "narrative_variance",
+      "input_nonidentity"
+    ],
+    "control_absence": [
+      "same_text_control",
+      "missing_identical_pair",
+      "measurement_validity"
+    ],
+    "stability_reading": [
+      "stability_interpretation",
+      "measurement_validity",
+      "volatility_misattribution"
+    ],
+    "prepipeline_discipline": [
+      "case_telling_standard",
+      "input_normalization"
+    ],
+    "provisional_status": [
+      "uncommitted_proposal",
+      "iterative_revision"
+    ]
+  },
+  "category_paths": [],
+  "tension_score": null,
+  "guardrail_actions": {}
+}

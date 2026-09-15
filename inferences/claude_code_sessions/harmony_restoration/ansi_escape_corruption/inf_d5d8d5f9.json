@@ -68,17 +68,7 @@
     "harmony_restoration/necessity_reclassification",
     "harmony_restoration/pipeline_closure",
     "harmony_restoration/session_legibility",
-    "harmony_restoration/terminal_state_replay",
-    "latent_friction_state/ansi_escape_corruption",
-    "latent_friction_state/archive_inaccessibility",
-    "latent_friction_state/convenience_to_requirement",
-    "latent_friction_state/cooperative_quality_violation",
-    "latent_friction_state/document_vs_recording",
-    "latent_friction_state/environment_contamination",
-    "latent_friction_state/necessity_reclassification",
-    "latent_friction_state/pipeline_closure",
-    "latent_friction_state/session_legibility",
-    "latent_friction_state/terminal_state_replay"
+    "harmony_restoration/terminal_state_replay"
   ],
   "tension": {
     "predicted": null,

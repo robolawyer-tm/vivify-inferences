@@ -76,16 +76,7 @@
     "naming_convention/operative_vocabulary",
     "naming_convention/perceptual_legibility",
     "naming_convention/tribal_signal",
-    "naming_convention/visual_disambiguation",
-    "visual_disambiguation/ambient_noise_rejection",
-    "visual_disambiguation/conceptual_field",
-    "visual_disambiguation/identity_declaration",
-    "visual_disambiguation/lexical_sovereignty",
-    "visual_disambiguation/manner_cooperation",
-    "visual_disambiguation/naming_as_artifact",
-    "visual_disambiguation/operative_vocabulary",
-    "visual_disambiguation/perceptual_legibility",
-    "visual_disambiguation/tribal_signal"
+    "naming_convention/visual_disambiguation"
   ],
   "tension": {
     "predicted": null,

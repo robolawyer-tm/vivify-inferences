@@ -53,18 +53,7 @@
   "tension_score": null,
   "guardrail_actions": {},
   "domain": "claude_code_sessions",
-  "category_paths": [
-    "human_readability/accepted_opacity",
-    "human_readability/compressed_storage",
-    "human_readability/escape_metadata_preservation",
-    "human_readability/interpretation_burden",
-    "human_readability/pipe_stage_cost",
-    "human_readability/preprocessing_overhead",
-    "human_readability/raw_compression_preference",
-    "human_readability/raw_fidelity",
-    "human_readability/readability_sacrifice",
-    "human_readability/timing_metadata"
-  ],
+  "category_paths": [],
   "tension": {
     "predicted": null,
     "confirmed": null,
