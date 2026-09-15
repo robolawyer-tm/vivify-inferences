@@ -213,7 +213,12 @@ def reify_domain_voice(inferences_dir, domain_name=None, dry_run=False):
     domain_name = domain_name or d.name
 
     inferences = []
-    for path in d.glob("inf_*.json"):
+    # rglob, not glob: only `field` stores its inferences flat. logos, pillars and
+    # claude_code_sessions use seed/sub nesting, so a direct-children glob found
+    # nothing and raised "No inferences found" for three of the four domains — which
+    # is why no index has ever carried a voice for them. Same bug, and same fix, as
+    # build_index.discover_domains (77f0d2e).
+    for path in d.rglob("inf_*.json"):
         inf = read_json(path)
         if inf:
             inferences.append({
@@ -293,3 +298,5 @@ if __name__ == "__main__":
 # llm: claude-sonnet-4-6 | 2026-04-21 | repos/vivify-inferences/reify.py | updated all three prompts — output format changed to series of sentence+bullets constructs
 # llm: claude-sonnet-4-6 | 2026-04-27 | repos/vivify-inferences/reify.py | replaced hardcoded model string with resolve_model("prose_reconstruction")
 # llm: claude-opus-4-8 | 2026-06-28 | repos/vivify-operators/reify.py | ported index-based reify_voice + added reify_domain_voice (kept operators anthropic-SDK call_api)
+
+# llm: claude-opus-5 | 2026-09-15 | repos/vivify-operators/reify.py | reify_domain_voice rglobs the domain: a direct-children glob raised "No inferences found" for every nested domain (logos, pillars, claude_code_sessions), so --voices could only ever work for flat `field`
