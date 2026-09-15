@@ -87,7 +87,7 @@ def discrepancy_magnitude(disc):
     """Magnitude of one claimed-vs-actual discrepancy.
 
     - Both sides numeric: 1.0 + |log10(scale ratio)| — scale = largest number
-      on each side, so '1 in 694,000' vs '1 in 16' reads ~5.6
+      on each side, so '1 in 694,000' vs '1 in 15' reads ~5.7
     - Either side non-numeric: 1.0 (categorical contradiction, counts once)
     """
     import math
@@ -391,3 +391,5 @@ if __name__ == "__main__":
 # llm: claude-fable-5 | 2026-07-13 | repos/vivify-operators/tension_score.py | three-number rewire: predicted (resonance gap + conflict alarms), confirmed (discrepancy log-magnitudes), calibration_delta (the gradient); legacy scalar = predicted??confirmed??None, junk lexical-overlap formula removed
 # llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/tension_score.py | gradient() — one calibration point per case, earliest telling canonical, later ones reported as excluded variants; per-inference scoring unchanged
 # llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/tension_score.py | gradient() prefers an explicit canonical telling over earliest-timestamp, and warns when arrival order silently decided a multi-telling case
+
+# llm: claude-opus-5 | 2026-09-15 | repos/vivify-operators/tension_score.py | docstring example cited "1 in 16" — a figure that only ever existed in a composed telling; the source record says 1 in 15, so the worked result moves 5.6 -> 5.7
