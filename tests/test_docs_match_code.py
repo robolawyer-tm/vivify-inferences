@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Focused test: no document may restate the superseded lexical tension formula.
+"""Focused test: no document may restate the superseded lexical tension formula,
+and no document may cite a path that has gone away.
 
 Regression guard, written after the failure it guards against. tension_score.py
 was rewired on 2026-07-13 to three numbers — predicted / confirmed /
@@ -24,14 +25,23 @@ Instances found and closed on 2026-09-16:
   - FLOW.md                    (untracked May-8 copy of the retired repo's; deleted)
   - pillars/FLOW.md:17,41,51   (the declared source of truth the others derived from)
 
-One deliberate mention survives: README.md's "Superseded — do not reintroduce"
-paragraph, which keeps the dead formula visible with the reason it died. Deleting
-it silently would leave the next reader free to re-derive it, which is exactly
-what happened. That line is allowlisted by its marker.
+Two deliberate mentions survive, each required to carry its own marker on the same
+line: README.md's "Superseded — do not reintroduce" note, and AUTHORING_BRIEF.md's
+account of the episode. Keeping the dead formula visible with the reason it died is
+what stops the next reader re-deriving it — which is what a reader did.
+
+What check 5 does and does not catch. It verifies that every repo-local path a
+document cites still exists, and that a cited line number is within that file. It
+catches a deleted or renamed file — FLOW.md is the worked example — and a citation
+that points past the end of a truncated one. It does NOT catch semantic drift: when
+lib/keyword_graph.py:80 stopped being the tension implementation, the file still
+existed and still had eighty lines. Verifying that a cited line still means what the
+citing document claims is not attempted here.
 
 Scope limit, stated rather than hidden: this scans THIS repo only. pillars/FLOW.md
 was the root instance and lives in a sibling repo, so it is not covered here — a
 test that reached across repos would fail for anyone who cloned only this one.
+Citations beginning "pillars/" are skipped for the same reason.
 
 No LLM calls. No network. Pure filesystem scan.
 
@@ -52,8 +62,15 @@ DEAD_FORMULA = re.compile(
     re.IGNORECASE,
 )
 
-# The one sanctioned mention. A line carrying this marker may name the formula.
-ALLOW_MARKER = "Superseded — do not reintroduce"
+# The only sanctioned mentions: file -> marker that must sit on the same line.
+# Anywhere else, in any file, is a regression.
+SANCTIONED = {
+    "README.md": "Superseded — do not reintroduce",
+    "AUTHORING_BRIEF.md": "the formula it replaced",
+}
+
+# A backticked repo path, with an optional :line or :line-line suffix.
+CITATION = re.compile(r"`([A-Za-z0-9_][A-Za-z0-9_./-]*\.(?:py|md|json))(?::(\d+)(?:-(\d+))?)?`")
 
 SKIP_DIRS = {".git", "__pycache__", "inferences", "experiments", ".claude"}
 SCAN_SUFFIXES = {".md", ".py", ".json", ".txt"}
@@ -82,30 +99,34 @@ def scan_files():
 
 print("no document restates the superseded lexical tension formula:")
 
-# 1. the formula appears nowhere except the allowlisted Superseded note
+# 1. the formula appears nowhere except its sanctioned, marked lines
 offenders = []
-allowed = 0
+sanctioned_hits = {name: 0 for name in SANCTIONED}
 for path in scan_files():
+    rel = str(path.relative_to(ROOT))
     try:
         lines = path.read_text(errors="replace").splitlines()
     except OSError:
         continue
+    marker = SANCTIONED.get(rel)
     for n, line in enumerate(lines, 1):
-        if DEAD_FORMULA.search(line):
-            if ALLOW_MARKER in line:
-                allowed += 1
-            else:
-                offenders.append(f"{path.relative_to(ROOT)}:{n}")
+        if not DEAD_FORMULA.search(line):
+            continue
+        if marker and marker in line:
+            sanctioned_hits[rel] += 1
+        else:
+            offenders.append(f"{rel}:{n}")
 
-check("formula absent outside the Superseded note",
+check("formula absent outside its sanctioned lines",
       not offenders,
       f"found in {', '.join(offenders)}" if offenders else "")
 
-# 2. the Superseded note itself is still there — the guard is worthless if the
-#    deliberate mention was quietly deleted along with the accidental ones
-check("the Superseded note still carries the dead formula",
-      allowed == 1,
-      f"expected exactly 1 allowlisted mention, found {allowed}")
+# 2. each sanctioned mention is still there, exactly once. A repo that passed
+#    check 1 by quietly deleting the "why it died" notes is worse, not better.
+for name, marker in SANCTIONED.items():
+    check(f"{name} still carries the dead formula with its marker",
+          sanctioned_hits[name] == 1,
+          f"expected 1 marked mention, found {sanctioned_hits[name]}")
 
 # 3. no second tension implementation. keyword_graph.tension_score() was the
 #    orphan; nothing must define one outside tension_score.py again.
@@ -130,6 +151,38 @@ readme = (ROOT / "README.md").read_text(errors="replace")
 for name in ("predicted", "confirmed", "calibration_delta"):
     check(f"README documents `{name}`", name in readme)
 
+# 5. every repo-local path the reading instructions cite still resolves. FLOW.md
+#    sat in the bundle for months naming a pipeline that no longer existed.
+brief = ROOT / "AUTHORING_BRIEF.md"
+check("AUTHORING_BRIEF.md is present", brief.is_file(),
+      "the bundle would ship with no reading instructions")
+
+if brief.is_file():
+    text = brief.read_text(errors="replace")
+    dangling = []
+    for cited, start, end in CITATION.findall(text):
+        if cited.startswith("pillars/"):      # sibling repo, deliberately unscanned
+            continue
+        target = ROOT / cited
+        if not target.is_file():
+            # a bare filename may legitimately live in a subdirectory
+            matches = [p for p in ROOT.rglob(Path(cited).name)
+                       if p.is_file()
+                       and not any(part in SKIP_DIRS for part in p.relative_to(ROOT).parts)]
+            if not matches:
+                dangling.append(f"{cited} (no such file)")
+                continue
+            target = matches[0]
+        last = max(int(start or 0), int(end or 0))
+        if last:
+            n_lines = len(target.read_text(errors="replace").splitlines())
+            if last > n_lines:
+                dangling.append(f"{cited} (cites line {last}, file has {n_lines})")
+
+    check("every path AUTHORING_BRIEF.md cites still resolves",
+          not dangling,
+          "; ".join(dangling) if dangling else "")
+
 print()
 if failures:
     print(f"FAILED: {len(failures)} check(s) — {', '.join(failures)}")
@@ -137,3 +190,4 @@ if failures:
 print("All docs-match-code checks passed.")
 
 # llm: claude-opus-5 | 2026-09-16 | repos/vivify-operators/tests/test_docs_match_code.py | created — regression guard: the superseded lexical tension formula must not reappear in any document, and no second tension implementation may be defined
+# llm: claude-opus-5 | 2026-09-16 | repos/vivify-operators/tests/test_docs_match_code.py | two sanctioned formula mentions (README + AUTHORING_BRIEF), each marker-gated; added check 5 — every repo-local path the brief cites must resolve and cited line numbers must be in range
