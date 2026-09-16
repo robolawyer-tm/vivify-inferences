@@ -69,6 +69,16 @@ SANCTIONED = {
     "AUTHORING_BRIEF.md": "the formula it replaced",
 }
 
+# Files that carry the formula as a TEST FIXTURE rather than as a claim. A test
+# needs the real strings — test_claim_check's whole point is that U+2212 MINUS
+# and ASCII hyphen must normalise together, and obfuscating the fixture would
+# destroy the check. The exemption is per-file, named here, and itself guarded:
+# each listed file must still declare why, so the exemption cannot outlive its
+# reason the way the formula outlived the code.
+FIXTURE_FILES = {
+    "tests/test_claim_check.py": "FIXTURE: known-false formula strings",
+}
+
 # A backticked repo path, with an optional :line or :line-line suffix.
 CITATION = re.compile(r"`([A-Za-z0-9_][A-Za-z0-9_./-]*\.(?:py|md|json))(?::(\d+)(?:-(\d+))?)?`")
 
@@ -114,6 +124,8 @@ for path in scan_files():
             continue
         if marker and marker in line:
             sanctioned_hits[rel] += 1
+        elif rel in FIXTURE_FILES:
+            continue          # a fixture is not a document making a claim
         else:
             offenders.append(f"{rel}:{n}")
 
@@ -127,6 +139,14 @@ for name, marker in SANCTIONED.items():
     check(f"{name} still carries the dead formula with its marker",
           sanctioned_hits[name] == 1,
           f"expected 1 marked mention, found {sanctioned_hits[name]}")
+
+# 2b. every fixture exemption still declares its reason. An exemption whose
+#     justification has been deleted is how a guard quietly stops guarding.
+for rel, declaration in FIXTURE_FILES.items():
+    path = ROOT / rel
+    check(f"{rel} still declares its fixture exemption",
+          path.is_file() and declaration in path.read_text(errors="replace"),
+          f"expected the marker {declaration!r}")
 
 # 3. no second tension implementation. keyword_graph.tension_score() was the
 #    orphan; nothing must define one outside tension_score.py again.
@@ -191,3 +211,4 @@ print("All docs-match-code checks passed.")
 
 # llm: claude-opus-5 | 2026-09-16 | repos/vivify-operators/tests/test_docs_match_code.py | created — regression guard: the superseded lexical tension formula must not reappear in any document, and no second tension implementation may be defined
 # llm: claude-opus-5 | 2026-09-16 | repos/vivify-operators/tests/test_docs_match_code.py | two sanctioned formula mentions (README + AUTHORING_BRIEF), each marker-gated; added check 5 — every repo-local path the brief cites must resolve and cited line numbers must be in range
+# llm: claude-opus-5 | 2026-09-16 | repos/vivify-operators/tests/test_docs_match_code.py | added FIXTURE_FILES — a test may hold the formula as a known-false fixture, but the exemption must be named here and the file must declare why
