@@ -11,7 +11,7 @@ An **inference** is a unit of raw thought: an observation, an argument, a felt i
 - **Left pass** — extracts the *semantic* meaning: concept-level keywords and named clumps that capture what the text is *about*
 - **Right pass** — attaches *structural* keywords that describe how the pipeline itself processed it
 
-These two keyword sets are kept separate by design. The **tension score** measures how far apart they are. High tension means the felt meaning and the structural description are pulling in different directions — that is a signal, not a problem.
+These two keyword sets are kept separate by design, which also makes them disjoint by nature — so their overlap measures nothing. The **tension score** is not computed from them. It is three numbers over real signals: `predicted`, `confirmed`, and `calibration_delta` (Pass 4).
 
 The filesystem *is* the data structure. Category paths like `analogical_religion/logos_analog/` are real directories. Inferences are filed into them automatically as the corpus grows. No schema is declared in advance — the tree emerges from co-occurrence patterns across all stored inferences.
 
@@ -97,16 +97,15 @@ Inferences with no match stay in `unclustered/` until the corpus is large enough
 
 ### Pass 4 — `tension_score.py` (divergence scoring)
 
-Scores each inference on how far apart its left (semantic) and right (structural) keyword sets are:
+Scores each inference with three numbers measured over real signals, not over keyword overlap:
 
-```
-tension = 1.0 - (shared_keywords / total_unique_keywords)
-```
+- **`predicted`** — the model's judgment of un-truth, from operator coordinates: the resonance surface↔underlying gap (illusion) blended with conflict alarms. Available wherever operators ran, even mid-conflict with no correction present in the text.
+- **`confirmed`** — ground-truth un-truth, from `right_pass` claimed-vs-actual discrepancies: log-ratio magnitude where numeric, `1.0` per categorical contradiction, squashed to 0-1. Available only where the baseline surfaced in the text (e.g. exoneration records) — the calibration-corpus property.
+- **`calibration_delta`** — `predicted - confirmed` where both exist. Negative means the operator under-smelled confirmed un-truth: operator error made numeric, which is the evolution gradient.
 
-- `1.0` — completely divergent: felt meaning and structural description share nothing
-- `0.0` — identical: left and right are the same set
+`confirmed` is the only one of the three measured against anything outside the model; read it as such. The legacy scalar `tension_score` is retained as `predicted`, falling back to `confirmed`, else `None` — unmeasured stays unmeasured rather than collapsing to zero. v1 weights are hand-set and documented inline in the module; weights emerging from the calibration corpus are the eventual replacement.
 
-High tension marks where meaning and structure pull apart most strongly. These are the inferences worth returning to.
+**Superseded — do not reintroduce.** The original score was lexical, `1.0 - (shared_keywords / total_unique_keywords)` over the left and right sets. Because those vocabularies are disjoint by design it pinned at `1.0` storewide and carried no information. It was replaced on 2026-07-13 by the three numbers above. An orphaned implementation lingered in `lib/keyword_graph.py` until 2026-09-16, imported by nothing; it is gone. There is now one tension implementation in this repo.
 
 ---
 
@@ -129,10 +128,10 @@ Defined in `config/invariants.json`. These govern how the pipeline handles the l
 | `vivify.py` | Pass 1: left semantic keyword extraction via Claude API |
 | `right_pass.py` | Pass 2: right structural keywords + synonym normalization |
 | `categorize.py` | Pass 3: co-occurrence graph → emergent category paths |
-| `tension_score.py` | Pass 4: left/right divergence scoring |
+| `tension_score.py` | Pass 4: three-number tension — predicted / confirmed / calibration_delta |
 | `lib/inference.py` | Inference data model — create, save, load, update |
 | `lib/vivify_core.py` | Autovivification engine — nested JSON without a predefined schema |
-| `lib/keyword_graph.py` | Co-occurrence graph — build, query, seed extraction, tension |
+| `lib/keyword_graph.py` | Co-occurrence graph — build, query, seed extraction (its `tension_score` is the superseded lexical one, unused) |
 | `config/pipeline.json` | Pipeline parameters (keyword counts, thresholds, model) |
 | `config/invariants.json` | Duality invariants — rules that govern left/right separation |
 | `config/synonyms.json` | Synonym map for left keyword normalization |
@@ -154,3 +153,4 @@ export ANTHROPIC_API_KEY=your_key_here
 To persist across sessions, add that line to `~/.bashrc` or `~/.profile`.
 <!-- llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/README.md | documented --case / variant tellings and the two store-level consumers -->
 <!-- llm: claude-opus-5 | 2026-08-13 | repos/vivify-operators/README.md | documented VIVIFY_MODEL_OVERRIDE (bare/scoped) and the _model provenance stamp for model-comparison arms -->
+<!-- llm: claude-opus-5 | 2026-09-16 | repos/vivify-operators/README.md | replaced the stale lexical tension formula with the three-number tension in the intro, Pass 4, and the file table; two outside readings had quoted the dead formula back from this file -->

@@ -24,7 +24,8 @@ def build_graph(inferences_dir=None):
     - Left keywords only: right_keywords are the same pipeline terms on every
       inference (they describe the system, not the content), so including them
       makes pipeline vocabulary the highest-degree nodes and contaminates the
-      emergent category tree. Right keywords belong to tension scoring only.
+      emergent category tree. Tension no longer consumes them as a set either —
+      see tension_score.py; right_pass discrepancies feed confirmed tension.
     - Returns dict: {keyword: {co_keyword: weight, ...}, ...}
     """
     inferences_dir = Path(inferences_dir or INFERENCES_DIR)
@@ -77,22 +78,6 @@ def neighborhood(graph, keyword, min_weight=1):
     )
 
 
-def tension_score(left_keywords, right_keywords):
-    """Calculate tension between left and right keyword sets.
-
-    - tension = 1.0 - (shared / total_unique)
-    - High tension = left and right describe very different things → intervention signal
-    - Returns float 0.0 to 1.0
-    """
-    left = set(left_keywords)
-    right = set(right_keywords)
-    if not left and not right:
-        return 0.0
-    shared = len(left & right)
-    total = len(left | right)
-    return round(1.0 - (shared / total), 4)
-
-
 if __name__ == "__main__":
     import sys
 
@@ -109,3 +94,4 @@ if __name__ == "__main__":
 
 # llm: claude-sonnet-4-6 | 2026-04-15 | repos/vivify-inferences/lib/keyword_graph.py | created — co-occurrence graph, degree analysis, tension scoring
 # llm: claude-fable-5 | 2026-07-10 | repos/vivify-inferences/lib/keyword_graph.py | build_graph now left_keywords only — right pipeline terms contaminated the emergent category tree
+# llm: claude-opus-5 | 2026-09-16 | repos/vivify-operators/lib/keyword_graph.py | removed the orphaned lexical tension_score() — superseded 2026-07-13 by three-number tension, imported by nothing in this repo
