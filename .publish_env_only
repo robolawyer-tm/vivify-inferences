@@ -1,0 +1,7 @@
+# vivify-operators — stays within our environment, not for public distribution
+inferences/private/
+# cross_scale.json references private inference IDs + their coordinate signatures
+# (cross-scale links span public AND private inferences) — keep the map local
+inferences/cross_scale.json
+.claude/
+.env
